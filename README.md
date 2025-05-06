@@ -15,6 +15,20 @@ Ce projet a pour but de :
 
 Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamIt).
 
+
+<details>
+<summary><strong>Voir les images</strong></summary>
+
+## Page d'accueil
+<img src="media/README/index.png" alt="Page d'accueil" />
+
+## Page des séries
+<img src="media/README/series.png" alt="Page des séries" />
+
+## Page de stream
+<img src="media/README/watching.png" alt="Page de stream" />
+</details>
+
 ## 🛠 Technologies Utilisées
 
 Ce projet a été développé avec les technologies suivantes :
@@ -36,20 +50,22 @@ Ce projet a été développé avec les technologies suivantes :
 Voici la structure des fichiers du projet :
 
 ```
-
-streamit/
+StreamIt/
 ├── media/
-│   └── series/
-│       ├── chernobyl/       # Dossier pour la série Chernobyl
-│       ├── got/             # Dossier pour la série Game of Thrones
-│       └── the100/          # Dossier pour la série The 100
-├── index.html               # Page d'accueil
-├── LICENSE                  # Licence du projet
-├── README.md                # Documentation du projet
-├── series_data.json         # Données des séries (nom, description, épisodes)
-├── series.html              # Détails de chaque série
-└── watching.html            # Visionnage des épisodes
-
+│   ├── series/
+│   │   ├── X/                # Dossier pour la série X
+│   │   ├── XX/               # Dossier pour la série XX
+│   │   └── XXX/              # Dossier pour la série XXX
+│   └── README/               # Dossier pour le README
+│       ├── index.png         # Preview de la page d'accueil
+│       ├── series.pong       # Preview de la page des séries
+│       └── watching.png      # Preview de la page de visionnage
+├── index.html                # Page d'accueil
+├── LICENSE                   # Licence du projet
+├── README.md                 # Documentation du projet
+├── series_data.json          # Données des séries (nom, description, épisodes)
+├── series.html               # Détails de chaque série
+└── watching.html             # Visionnage des épisodes
 ````
 
 ## 🚀 Installation et Exécution
