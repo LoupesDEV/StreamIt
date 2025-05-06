@@ -85,6 +85,11 @@ async function changeSeason() {
   }
 
   const seriesData = data[series];
+  const validSeasons = Object.keys(seriesData.seasons);
+  if (!validSeasons.includes(selectedSeason)) {
+    console.error(`Invalid season selected: ${selectedSeason}`);
+    return;
+  }
   const currentSeason = seriesData.seasons[selectedSeason];
 
   const episodeListUl = document.getElementById("episode-list-ul");
@@ -93,8 +98,10 @@ async function changeSeason() {
   currentSeason.forEach((ep) => {
     const episodeLi = document.createElement("li");
     episodeLi.innerText = ep.title;
-    episodeLi.onclick = () =>
-      (window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(ep.title)}`);
+    episodeLi.onclick = () => {
+      const sanitizedSeason = encodeURIComponent(selectedSeason);
+      window.location.href = `watching.html?series=${series}&season=${sanitizedSeason}&episode=${encodeURIComponent(ep.title)}`;
+    };
     episodeListUl.appendChild(episodeLi);
   });
 
