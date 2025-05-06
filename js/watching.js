@@ -94,12 +94,12 @@ async function changeSeason() {
     const episodeLi = document.createElement("li");
     episodeLi.innerText = ep.title;
     episodeLi.onclick = () =>
-      (window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${ep.title}`);
+      (window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(ep.title)}`);
     episodeListUl.appendChild(episodeLi);
   });
 
   const firstEpisode = currentSeason[0];
-  window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${firstEpisode.title}`;
+  window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(firstEpisode.title)}`;
 }
 
 loadEpisodeData();
