@@ -3,156 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StreamIt - Watching</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #121212;
-        color: white;
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background-color: #1f1f1f;
-        padding: 20px;
-        text-align: center;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-      }
-
-      header h1 {
-        font-size: 36px;
-        margin: 0;
-        color: #ff6347;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-      }
-
-      #main-section {
-        display: flex;
-        justify-content: flex-start;
-        padding: 40px;
-        margin-top: 20px;
-        align-items: center;
-      }
-
-      #video-section {
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      #video-player {
-        width: 75%;
-        aspect-ratio: 16 / 9;
-        background-color: #222;
-        border-radius: 8px;
-      }
-
-      #episode-info {
-        margin-top: 20px;
-        text-align: center;
-      }
-
-      #episode-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-
-      #episode-description {
-        font-size: 16px;
-        text-align: center;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      #episode-list {
-        width: 25%;
-        padding-left: 20px;
-        padding-bottom: 10%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      #episode-list ul {
-        list-style-type: none;
-        padding: 0;
-        height: 400px;
-        overflow-y: auto;
-      }
-
-      #episode-list li {
-        padding: 10px;
-        background-color: #333;
-        margin-bottom: 10px;
-        cursor: pointer;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-      }
-
-      #episode-list li:hover {
-        background-color: #555;
-      }
-
-      #episode-list li.active {
-        background-color: #007bff;
-      }
-
-      .controls {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px;
-      }
-
-      .controls button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-
-      .controls button:hover {
-        background-color: #0056b3;
-      }
-
-      .back-button {
-        background-color: #444;
-      }
-
-      .back-button:hover {
-        background-color: #333;
-      }
-
-      .season-selector {
-        margin-top: 20px;
-        font-size: 16px;
-        text-align: center;
-      }
-
-      select {
-        padding: 10px;
-        background-color: #333;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-
-      select:hover {
-        background-color: #444;
-      }
-
-      .title {
-        text-decoration: none;
-      }
-    </style>
+    <title>StreamIt</title>
+    <link href="css/watching.css" rel="stylesheet" />
+    <link href="media/logo.png" rel="icon"/>
   </head>
   <body>
     <header>
@@ -168,15 +21,14 @@
         </div>
 
         <div class="controls">
-            <button class="back-button" onclick="goBackToSeries()">
-            Back to Series
-            </button>
+          <button class="back-button" onclick="goBackToSeries()">
+            Retour à la série
+          </button>
         </div>
       </div>
 
       <div id="episode-list">
         <div class="season-selector">
-          <label for="season-select">Select Season:</label>
           <select id="season-select" onchange="changeSeason()"></select>
         </div>
 
@@ -184,114 +36,6 @@
       </div>
     </div>
 
-    <script>
-      function getURLParams() {
-        const params = new URLSearchParams(window.location.search);
-        return {
-          series: params.get("series"),
-          season: params.get("season"),
-          episode: params.get("episode"),
-        };
-      }
-
-      function goBackToSeries() {
-        const { series } = getURLParams();
-        window.location.href = `series.html?series=${series}`;
-      }
-
-      async function loadEpisodeData() {
-        const { series, season, episode } = getURLParams();
-        const response = await fetch("series_data.json");
-        const data = await response.json();
-
-        if (!data[series]) {
-          console.error(`Series ${series} not found.`);
-          return;
-        }
-
-        const seriesData = data[series];
-        const currentSeason = seriesData.seasons[season];
-
-        if (!currentSeason) {
-          console.error(`Season ${season} not found for series ${series}.`);
-          return;
-        }
-
-        const episodeData = currentSeason.find((ep) => ep.title === episode);
-        if (!episodeData) {
-          console.error(`Episode ${episode} not found.`);
-          return;
-        }
-
-        const videoPlayer = document.getElementById("video-player");
-        const episodeTitle = document.getElementById("episode-title");
-        const episodeDescription = document.getElementById(
-          "episode-description"
-        );
-        const episodeListUl = document.getElementById("episode-list-ul");
-        const seasonSelect = document.getElementById("season-select");
-
-        videoPlayer.src = episodeData.video;
-        episodeTitle.innerText = episodeData.title;
-        episodeDescription.innerText = episodeData.desc;
-
-        episodeListUl.innerHTML = "";
-        currentSeason.forEach((ep) => {
-          const episodeLi = document.createElement("li");
-          episodeLi.innerText = ep.title;
-          episodeLi.onclick = () =>
-            (window.location.href = `watching.html?series=${series}&season=${season}&episode=${ep.title}`);
-
-          if (ep.title === episode) {
-            episodeLi.classList.add("active");
-          }
-
-          episodeListUl.appendChild(episodeLi);
-        });
-
-        seasonSelect.innerHTML = "";
-        Object.keys(seriesData.seasons).forEach((seasonKey) => {
-          const seasonOption = document.createElement("option");
-          seasonOption.value = seasonKey;
-          seasonOption.innerText = `Season ${seasonKey}`;
-          seasonSelect.appendChild(seasonOption);
-        });
-
-        seasonSelect.value = season;
-      }
-
-      async function changeSeason() {
-        const seasonSelect = document.getElementById("season-select");
-        const selectedSeason = seasonSelect.value;
-        const { series } = getURLParams();
-
-        const response = await fetch("series_data.json");
-        const data = await response.json();
-
-        if (!data[series]) {
-          console.error(`Series ${series} not found.`);
-          return;
-        }
-
-        const seriesData = data[series];
-        const currentSeason = seriesData.seasons[selectedSeason];
-
-        const episodeListUl = document.getElementById("episode-list-ul");
-        episodeListUl.innerHTML = "";
-
-        currentSeason.forEach((ep) => {
-          const episodeLi = document.createElement("li");
-          episodeLi.innerText = ep.title;
-          episodeLi.onclick = () =>
-            (window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${ep.title}`);
-          episodeListUl.appendChild(episodeLi);
-        });
-
-        const firstEpisode = currentSeason[0];
-        window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${firstEpisode.title}`;
-      }
-
-      loadEpisodeData();
-    </script>
+    <script src="js/watching.js"></script>
   </body>
 </html>

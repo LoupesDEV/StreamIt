@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #ff6347;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#main-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  margin-top: 20px;
+}
+
+#banner {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  margin-right: 15px;
+}
+
+#series-info {
+  width: 60%;
+  margin-left: 10px;
+}
+
+#series-info h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#series-info p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#series-info .genres,
+#series-info .creators,
+#series-info .stars {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#series-info .genres span,
+#series-info .creators span,
+#series-info .stars span {
+  color: #007bff;
+  font-weight: bold;
+}
+
+#series-info .rating {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#series-info .rating span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#series-info .rating .rating-value {
+  font-size: 28px;
+  color: #f39c12;
+}
+
+.season-buttons {
+  margin-top: 20px;
+}
+
+.season-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.season-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.back-homepage {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.back-homepage:hover {
+  background-color: #0056b3;
+}
+
+.back-homepage-container {
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.title {
+  text-decoration: none;
+}
