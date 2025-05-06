@@ -12,6 +12,10 @@ StreamIt est une application web qui permet aux utilisateurs de découvrir et re
 - **Recherche avancée** : Trouvez rapidement des contenus grâce à notre moteur de recherche.
 - **Support multi-plateforme** : Compatible avec les ordinateurs, tablettes et smartphones.
 
+# Demo
+
+Vous pouvez trouver une démo [ici](https://www.matheo-pichotmoise.fr/StreamIt/)
+
 ## Installation
 
 1. Clonez le dépôt :
