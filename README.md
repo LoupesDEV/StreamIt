@@ -1,43 +1,75 @@
-# StreamIt
+# StreamIt - Application de Streaming Personnel
 
-Bienvenue sur **StreamIt**, votre plateforme de streaming !
+Bienvenue sur **StreamIt** ! Ce projet vous permet de gérer et de regarder vos séries préférées directement depuis une interface simple et épurée. L'application propose une expérience de streaming fluide avec un accès direct aux épisodes et à leurs informations.
 
-## Description
+## 🎯 Objectif
 
-StreamIt est une application web qui permet aux utilisateurs de découvrir et regarder leurs contenus multimédias préférés. Avec une interface intuitive et des fonctionnalités puissantes, StreamIt rend le streaming simple et agréable.
+Ce projet a pour but de :
 
-## Fonctionnalités
+- Offrir une plateforme personnelle de streaming pour organiser et visionner vos séries préférées.
+- Proposer une navigation simple entre les séries et les épisodes.
+- Mettre en avant les informations clés sur chaque série (description, acteurs, genres, note IMDb).
+- Fournir une expérience responsive, accessible aussi bien sur mobile que sur desktop.
 
-- **Streaming vidéo** : Regardez vos vidéos préférées en haute qualité.
-- **Recherche avancée** : Trouvez rapidement des contenus grâce à notre moteur de recherche.
-- **Support multi-plateforme** : Compatible avec les ordinateurs, tablettes et smartphones.
+## 🌐 Démo
 
-# Demo
+Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamIt).
 
-Vous pouvez trouver une démo [ici](https://www.matheo-pichotmoise.fr/StreamIt/)
+## 🛠 Technologies Utilisées
 
-## Installation
+Ce projet a été développé avec les technologies suivantes :
 
-1. Clonez le dépôt :
-    ```bash
-    git clone https://github.com/UCA/mapichotmo/StreamIt.git
+- **HTML5 & CSS3** - Structure et mise en page de l'application.
+- **JavaScript (ES6+)** - Logique de gestion des séries et des épisodes.
+- **JSON** - Stockage et gestion des données des séries.
+
+## 📌 Fonctionnalités
+
+- **Gestion des séries** : Ajoutez et organisez vos séries préférées avec leurs détails.
+- **Lecture d'épisodes** : Visionnez directement les épisodes avec un lecteur intégré.
+- **Affichage dynamique** des informations sur chaque série : note IMDb, genre, créateurs, acteurs.
+- **Navigation fluide** : Accédez facilement aux saisons et aux épisodes.
+- **Recherche rapide** : Trouvez vos séries en quelques secondes grâce à une barre de recherche.
+
+## 📂 Structure du projet
+
+Voici la structure des fichiers du projet :
+
+```
+
+streamit/
+├── media/
+│   └── series/
+│       ├── chernobyl/       # Dossier pour la série Chernobyl
+│       ├── got/             # Dossier pour la série Game of Thrones
+│       └── the100/          # Dossier pour la série The 100
+├── index.html               # Page d'accueil
+├── LICENSE                  # Licence du projet
+├── README.md                # Documentation du projet
+├── series_data.json         # Données des séries (nom, description, épisodes)
+├── series.html              # Détails de chaque série
+└── watching.html            # Visionnage des épisodes
+
+````
+
+## 🚀 Installation et Exécution
+
+1. Cloner ce dépôt :
+   ```bash
+   git clone https://github.com/KucoDEV/StreamIt.git
     ```
-2. Accédez au dossier du projet :
-    ```bash
-    cd StreamIt
-    ```
-3. Lancez le serveur :
-    ```bash
+
+2. Ouvrir le dossier cloné et servir les fichiers via un serveur local. Par exemple, utilisez **Live Server** dans VSCode ou Python :
+   ```bash
     python3 -m http.server 8080
     ```
 
-4. Ouvrez votre navigateur et accédez à `http://localhost:8080`
+3. Accéder à `http://localhost:8080` dans votre navigateur pour commencer à utiliser l'application.
 
+## 📜 Licence
 
-## Licence
-
-Ce projet est sous licence GNU General Public License v3.0 (GPL-3.0).
+Ce projet est sous licence **GNU General Public License v3.0 (GPL-3.0)**.
 Vous êtes libre d'utiliser, modifier et distribuer ce projet tant que vous respectez les termes de la licence.
-Cela inclut notamment l'obligation de rendre publiques les modifications si vous redistribuez le projet.
+Cela inclut notamment l'obligation de **rendre publiques les modifications** si vous redistribuez le projet.
 
-Pour plus d’informations, consultez la licence complète ici : [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.html).
+Pour plus d'informations, consultez la licence complète ici : [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.html).
