@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamIt - Series</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #1f1f1f;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #main-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      #banner {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        margin-right: 15px;
+      }
+
+      #series-info {
+        width: 60%;
+        margin-left: 10px;
+      }
+
+      #series-info h1 {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      #series-info p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      #series-info .genres,
+      #series-info .creators,
+      #series-info .stars {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+
+      #series-info .genres span,
+      #series-info .creators span,
+      #series-info .stars span {
+        color: #007bff;
+        font-weight: bold;
+      }
+
+      #series-info .rating {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      #series-info .rating span {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      #series-info .rating .rating-value {
+        font-size: 28px;
+        color: #f39c12;
+      }
+
+      .season-buttons {
+        margin-top: 20px;
+      }
+
+      .season-buttons button {
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .season-buttons button:hover {
+        background-color: #0056b3;
+      }
+
+      .back-homepage {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        text-align: center;
+      }
+
+      .back-homepage:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>StreamIt</h1>
+    </header>
+
+    <div id="main-section">
+      <img id="banner" src="" alt="Series Banner" />
+
+      <div id="series-info">
+        <h1 id="series-title">Series Title</h1>
+        <p id="series-description">Series description goes here...</p>
+
+        <div class="rating">
+          <span>IMDb:</span>
+          <span id="series-rating" class="rating-value">N/A</span>
+        </div>
+
+        <div class="genres">
+          <strong>Genres:</strong> <span id="series-genres">N/A</span>
+        </div>
+
+        <div class="creators">
+          <strong>Creators:</strong> <span id="series-creators">N/A</span>
+        </div>
+
+        <div class="stars">
+          <strong>Stars:</strong> <span id="series-stars">N/A</span>
+        </div>
+
+        <div class="season-buttons" id="season-buttons"></div>
+
+        <br /><br /><br />
+        <a href="index.html" class="back-homepage">Back to Home</a>
+      </div>
+    </div>
+
+    <script>
+      function getSeriesFromURL() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("series");
+      }
+
+      async function loadSeriesData() {
+        const response = await fetch("series_data.json");
+        const data = await response.json();
+        const seriesName = getSeriesFromURL();
+        const series = data[seriesName];
+
+        if (!series) {
+          console.error(`Series ${seriesName} not found.`);
+          return;
+        }
+
+        renderSeriesDetails(series);
+      }
+
+      function renderSeriesDetails(series) {
+        const banner = document.getElementById("banner");
+        banner.src = series.banner;
+
+        const title = document.getElementById("series-title");
+        const description = document.getElementById("series-description");
+        const rating = document.getElementById("series-rating");
+        const genres = document.getElementById("series-genres");
+        const creators = document.getElementById("series-creators");
+        const stars = document.getElementById("series-stars");
+
+        title.innerText = `${series.title} (${series.year})`;
+        description.innerHTML = series.description;
+        rating.innerText = series.IMDb || "N/A";
+        genres.innerText = series.genres ? series.genres.join(", ") : "N/A";
+        creators.innerText = series.creators
+          ? series.creators.join(", ")
+          : "N/A";
+        stars.innerText = series.stars ? series.stars.join(", ") : "N/A";
+
+        const seasonButtons = document.getElementById("season-buttons");
+        seasonButtons.innerHTML = "";
+        for (const season in series.seasons) {
+          const button = document.createElement("button");
+          button.innerText = `Season ${season}`;
+          button.onclick = () => redirectToSeason(series, season);
+          seasonButtons.appendChild(button);
+        }
+      }
+
+      function redirectToSeason(series, seasonNumber) {
+        const firstEpisode = series.seasons[seasonNumber][0];
+        window.location.href = `watching.html?series=${series.title}&season=${seasonNumber}&episode=${firstEpisode.title}`;
+      }
+
+      loadSeriesData();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StreamIt - Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        overflow-x: hidden;
+      }
+
+      header {
+        background-color: #1f1f1f;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+      }
+
+      header h1 {
+        font-size: 36px;
+        margin: 0;
+        color: #ff6347;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      #search-bar {
+        width: 80%;
+        max-width: 500px;
+        margin-top: 100px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: #333;
+        color: white;
+        text-align: center;
+      }
+
+      #search-bar::placeholder {
+        color: #bbb;
+      }
+
+      #series-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin-top: 50px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .series {
+        background-color: #333;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .series:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+      }
+
+      .series img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 5px solid #ff6347;
+      }
+
+      .series-info {
+        padding: 15px;
+      }
+
+      .series-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        color: #ff6347;
+      }
+
+      .series-description {
+        font-size: 14px;
+        color: #bbb;
+        text-align: center;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>StreamIt</h1>
+    </header>
+
+    <input
+      type="text"
+      id="search-bar"
+      placeholder="Search for a series..."
+      oninput="filterSeries()"
+    />
+
+    <div id="series-list"></div>
+
+    <script>
+      async function loadSeriesData() {
+        const response = await fetch("series_data.json");
+        const data = await response.json();
+        renderSeries(data);
+      }
+
+      function renderSeries(seriesData) {
+        const seriesList = document.getElementById("series-list");
+        seriesList.innerHTML = "";
+
+        for (const series in seriesData) {
+          const seriesDiv = document.createElement("div");
+          seriesDiv.classList.add("series");
+          seriesDiv.onclick = () =>
+            (window.location.href = `series.html?series=${series}`);
+
+          const seriesImage = document.createElement("img");
+          seriesImage.src = seriesData[series].banner;
+
+          const seriesInfo = document.createElement("div");
+          seriesInfo.classList.add("series-info");
+
+          const seriesTitle = document.createElement("div");
+          seriesTitle.classList.add("series-title");
+          seriesTitle.innerText = seriesData[series].title;
+
+          const seriesDescription = document.createElement("div");
+          seriesDescription.classList.add("series-description");
+          seriesDescription.innerText = seriesData[series].description
+            ? seriesData[series].description.slice(0, 90) + "..."
+            : "No description available";
+
+          seriesInfo.appendChild(seriesTitle);
+          seriesInfo.appendChild(seriesDescription);
+          seriesDiv.appendChild(seriesImage);
+          seriesDiv.appendChild(seriesInfo);
+          seriesList.appendChild(seriesDiv);
+        }
+      }
+
+      function filterSeries() {
+        const searchQuery = document
+          .getElementById("search-bar")
+          .value.toLowerCase();
+        const seriesList = document.getElementById("series-list");
+        const seriesItems = seriesList.getElementsByClassName("series");
+
+        for (let i = 0; i < seriesItems.length; i++) {
+          const seriesTitle = seriesItems[i]
+            .querySelector(".series-title")
+            .innerText.toLowerCase();
+          if (seriesTitle.includes(searchQuery)) {
+            seriesItems[i].style.display = "block";
+          } else {
+            seriesItems[i].style.display = "none";
+          }
+        }
+      }
+
+      loadSeriesData();
+    </script>
+  </body>
+</html>
