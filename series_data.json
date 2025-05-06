@@ -247,5 +247,123 @@
           { "title": "Le trône de fer", "desc": "Alors que Daenerys appelle ses hommes à livrer bataille, Arya, Jon et Tyrion sont dépités par le spectacle qui s'offre à eux. Déçue par sa trahison, quel sort la Khaleesi va-t-elle réserver à sa Main ?", "video": "media/series/got/8-6.mp4" }
         ]
       }
+    },
+    "The Last of Us": {
+      "title": "The Last of Us",
+      "description": "Vingt ans après la destruction de la civilisation moderne, Joel, un survivant endurci, est engagé pour faire sortir Ellie, une jeune fille de 14 ans, d'une zone de quarantaine oppressante. Ce qui n'est au départ qu'un petit travail se transforme rapidement en un voyage brutal et époustouflant, alors que dans ce duo improbable, chacun dépend de l'autre pour sa survie.",
+      "banner": "media/series/thelastofus/thelastofus.jpg",
+      "IMDb": 8.7,
+      "IMDb_link": "https://www.imdb.com/title/tt3581920/",
+      "year": 2023,
+      "genres": ["Drame", "Histoire", "Thriller"],
+      "creators": ["Craig Mazin", "Neil Druckmann"],
+      "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
+      "seasons": {
+        "1": [
+          { "title": "Quand tu es perdu dans les ténèbres", "desc": "Alors qu'une pandémie a détruit la civilisation, un survivant aguerri vient en aide à une jeune fille de 14 ans, qui pourrait bien être le dernier espoir de l'humanité.", "video": "media/series/thelastofus/1-1.mp4" },
+          { "title": "Infecté", "desc": "En 2003, un scientifique indonésien fait une terrible découverte. En 2023, Joel et Tess s'échappent de la zone de quarantaine tandis qu'ils se frayent un chemin, infectés, dans les ruines de Boston, depuis longtemps abandonnée.", "video": "media/series/thelastofus/1-2.mp4" },
+          { "title": "Longtemps...", "desc": "Lorsqu'un étranger s'approche du camp, Bill conclut une alliance inattendue qui change la vie des deux personnages impliqués. Plus tard, Joel et Ellie se rendent chez Bill dans l'espoir d'y trouver ce dont ils ont besoin pour continuer leur voyage.", "video": "media/series/thelastofus/1-3.mp4" },
+          { "title": "S'il te plaît, tiens-moi la main", "desc": "Après avoir abandonné leur camion à Kansas City, Joel et Ellie tentent de s'échapper sans attirer l'attention d'une cheffe rebelle revancharde.", "video": "media/series/thelastofus/1-4.mp4" },
+          { "title": "La survie à tout prix", "desc": "Kansas City à présent libre, Henry lutte pour protéger son frère Sam des soldats rebelles prêts à tout pour satisfaire leur cruel chef. La chasse à l'homme continue tandis que la soif de vengeance de Kathleen s'intensifie. Pendant ce temps, Ellie noue une amitié importante.", "video": "media/series/thelastofus/1-5.mp4" },
+          { "title": "Proche", "desc": "Après des mois de voyage, Joel et Ellie reçoivent un sinistre avertissement sur ce qui les attend. Plus tard, Ellie en apprend plus sur le passé de Joel, tandis que ce dernier préférerait l'oublier.", "video": "media/series/thelastofus/1-6.mp4" },
+          { "title": "Abandonner", "desc": "Alors que Joel se bat pour survivre, Ellie revient sur la nuit qui a tout changé.", "video": "media/series/thelastofus/1-7.mp4" },
+          { "title": "Quand on est dans le besoin", "desc": "Après avoir croisé la route d'un groupe de survivants en quête de vengeance, Ellie et sa combativité attirent l'attention de leur chef. Joel, affaibli et toujours en train de lutter pour survivre, doit affronter un groupe de chasseurs assoiffés de sang.", "video": "media/series/thelastofus/1-8.mp4" },
+          { "title": "Cherchez la lumière", "desc": "Après avoir été poursuivie par les Infectés, Anna, enceinte, décide de faire confiance à un ami de longue date. Des années plus tard, Ellie doit supporter le poids émotionnel de son aventure, tandis que Joel doit lui aussi prendre une décision lourde de conséquences.", "video": "media/series/thelastofus/1-9.mp4" }
+        ],
+        "2": [
+          { "title": "Les Jours futurs", "desc": "Cinq ans après les événements de Salt Lake City, Ellie, aujourd'hui âgée de 19 ans, fait une découverte lors d'une patrouille avec sa meilleure amie Dina. Joel, quant à lui, cherche de l'aide pour renouer avec Ellie.", "video": "media/series/thelastofus/2-1.mp4" },
+          { "title": "À travers la vallée", "desc": "Alors qu'une tempête se prépare dans les montagnes, les habitants de Jackson Hole se préparent au pire alors qu'ils voient de plus en plus d'infectés. Pendant ce temps, Abby réfléchit à ses options.", "video": "media/series/thelastofus/2-2.mp4" },
+          { "title": "Épisode 3", "desc": "À venir", "video": "media/series/thelastofus/2-3.mp4" },
+          { "title": "Épisode 4", "desc": "À venir", "video": "media/series/thelastofus/2-4.mp4" },
+          { "title": "Épisode 5", "desc": "À venir", "video": "media/series/thelastofus/2-5.mp4" },
+          { "title": "Épisode 6", "desc": "À venir", "video": "media/series/thelastofus/2-6.mp4" },
+          { "title": "Épisode 7", "desc": "À venir", "video": "media/series/thelastofus/2-7.mp4" }
+        ]
+      }
+    },
+    "Breaking Bad": {
+      "title": "Breaking Bad",
+      "description": "Walter White, professeur de chimie dans un lycée d'Albuquerque au Nouveau-Mexique, est atteint d'un cancer pulmonaire en phase terminale. Il s'associe à Jesse Pinkman, un ancien élève, cancre, toxicomane et dealer, afin d'assurer l'avenir financier de sa famille après son décès. L'improbable duo va alors synthétiser et commercialiser la plus pure méthamphétamine en cristaux jamais vue dans les Amériques.",
+      "banner": "media/series/breakingbad/breakingbad.jpg",
+      "IMDb": 9.5,
+      "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
+      "year": 2008,
+      "genres": ["Crime", "Drame", "Thriller"],
+      "creators": ["Vince Gilligan"],
+      "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+      "seasons": {
+        "1": [
+          { "title": "Chute libre", "desc": "", "video": "media/series/breakingbad/1-1.mp4" },
+          { "title": "Le choix", "desc": "", "video": "media/series/breakingbad/1-2.mp4" },
+          { "title": "Dérapage", "desc": "", "video": "media/series/breakingbad/1-3.mp4" },
+          { "title": "Retour aux sources", "desc": "", "video": "media/series/breakingbad/1-4.mp4" },
+          { "title": "Vivre ou survivre", "desc": "", "video": "media/series/breakingbad/1-5.mp4" },
+          { "title": "Bluff", "desc": "", "video": "media/series/breakingbad/1-6.mp4" },
+          { "title": "Le fruit défendu", "desc": "", "video": "media/series/breakingbad/1-7.mp4" }
+        ],
+        "2": [
+          { "title": "Traqués", "desc": "", "video": "media/series/breakingbad/2-1.mp4" },
+          { "title": "Chasse à l'homme", "desc": "", "video": "media/series/breakingbad/2-2.mp4" },
+          { "title": "Alibi", "desc": "", "video": "media/series/breakingbad/2-3.mp4" },
+          { "title": "Au fond du gouffre", "desc": "", "video": "media/series/breakingbad/2-4.mp4" },
+          { "title": "Nouveau départ", "desc": "", "video": "media/series/breakingbad/2-5.mp4" },
+          { "title": "Règlements de comptes", "desc": "", "video": "media/series/breakingbad/2-6.mp4" },
+          { "title": "Poisson-lune", "desc": "", "video": "media/series/breakingbad/2-7.mp4" },
+          { "title": "Appelez donc Saul", "desc": "", "video": "media/series/breakingbad/2-8.mp4" },
+          { "title": "Seuls au monde", "desc": "", "video": "media/series/breakingbad/2-9.mp4" },
+          { "title": "Introspection", "desc": "", "video": "media/series/breakingbad/2-10.mp4" },
+          { "title": "Nouvelle donne", "desc": "", "video": "media/series/breakingbad/2-11.mp4" },
+          { "title": "Vie et mort", "desc": "", "video": "media/series/breakingbad/2-12.mp4" },
+          { "title": "Effet papillon", "desc": "", "video": "media/series/breakingbad/2-13.mp4" }
+        ],
+        "3": [
+          { "title": "Crash", "desc": "", "video": "media/series/breakingbad/3-1.mp4" },
+          { "title": "Tensions", "desc": "", "video": "media/series/breakingbad/3-2.mp4" },
+          { "title": "Sur le fil", "desc": "", "video": "media/series/breakingbad/3-3.mp4" },
+          { "title": "Chiens et chats", "desc": "", "video": "media/series/breakingbad/3-4.mp4" },
+          { "title": "Retour aux affaires", "desc": "", "video": "media/series/breakingbad/3-5.mp4" },
+          { "title": "Le camping-car", "desc": "", "video": "media/series/breakingbad/3-6.mp4" },
+          { "title": "Vendetta", "desc": "", "video": "media/series/breakingbad/3-7.mp4" },
+          { "title": "Prise de pouvoir", "desc": "", "video": "media/series/breakingbad/3-8.mp4" },
+          { "title": "Kafkaïen", "desc": "", "video": "media/series/breakingbad/3-9.mp4" },
+          { "title": "La mouche", "desc": "", "video": "media/series/breakingbad/3-10.mp4" },
+          { "title": "Société écran", "desc": "", "video": "media/series/breakingbad/3-11.mp4" },
+          { "title": "Demi-mesures", "desc": "", "video": "media/series/breakingbad/3-12.mp4" },
+          { "title": "Pleine mesure", "desc": "", "video": "media/series/breakingbad/3-13.mp4" }
+        ],
+        "4": [
+          { "title": "Le cutter", "desc": "", "video": "media/series/breakingbad/4-1.mp4" },
+          { "title": "Snub 38", "desc": "", "video": "media/series/breakingbad/4-2.mp4" },
+          { "title": "Motivations", "desc": "", "video": "media/series/breakingbad/4-3.mp4" },
+          { "title": "Les points importants", "desc": "", "video": "media/series/breakingbad/4-4.mp4" },
+          { "title": "Nouveau job", "desc": "", "video": "media/series/breakingbad/4-5.mp4" },
+          { "title": "Guerre froide", "desc": "", "video": "media/series/breakingbad/4-6.mp4" },
+          { "title": "Négociations", "desc": "", "video": "media/series/breakingbad/4-7.mp4" },
+          { "title": "Frères et partenaires", "desc": "", "video": "media/series/breakingbad/4-8.mp4" },
+          { "title": "Incontrôlables", "desc": "", "video": "media/series/breakingbad/4-9.mp4" },
+          { "title": "Salud", "desc": "", "video": "media/series/breakingbad/4-10.mp4" },
+          { "title": "Seul contre tous", "desc": "", "video": "media/series/breakingbad/4-11.mp4" },
+          { "title": "Echec", "desc": "", "video": "media/series/breakingbad/4-12.mp4" },
+          { "title": "Mat", "desc": "", "video": "media/series/breakingbad/4-13.mp4" }
+        ],
+        "5": [
+          { "title": "Vivre libre ou mourir", "desc": "", "video": "media/series/breakingbad/5-1.mp4" },
+          { "title": "Madrigal", "desc": "", "video": "media/series/breakingbad/5-2.mp4" },
+          { "title": "Nouveaux labos", "desc": "", "video": "media/series/breakingbad/5-3.mp4" },
+          { "title": "Cinquante et un", "desc": "", "video": "media/series/breakingbad/5-4.mp4" },
+          { "title": "Le plan presque parfait", "desc": "", "video": "media/series/breakingbad/5-5.mp4" },
+          { "title": "Divergence", "desc": "", "video": "media/series/breakingbad/5-6.mp4" },
+          { "title": "Heisenberg", "desc": "", "video": "media/series/breakingbad/5-7.mp4" },
+          { "title": "Un nouveau jour se lève", "desc": "", "video": "media/series/breakingbad/5-8.mp4" },
+          { "title": "Le prix du sang", "desc": "", "video": "media/series/breakingbad/5-9.mp4" },
+          { "title": "Enterré", "desc": "", "video": "media/series/breakingbad/5-10.mp4" },
+          { "title": "Confessions", "desc": "", "video": "media/series/breakingbad/5-11.mp4" },
+          { "title": "Comme un chien enragé", "desc": "", "video": "media/series/breakingbad/5-12.mp4" },
+          { "title": "Règlement de compte à Tohajiilee", "desc": "", "video": "media/series/breakingbad/5-13.mp4" },
+          { "title": "Seuke au monde", "desc": "", "video": "media/series/breakingbad/5-14.mp4" },
+          { "title": "L'origine du mal", "desc": "", "video": "media/series/breakingbad/5-15.mp4" },
+          { "title": "Revenir ou mourir", "desc": "", "video": "media/series/breakingbad/5-16.mp4" }
+        ]
+      }
     }
 }
