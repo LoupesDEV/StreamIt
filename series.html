@@ -19,10 +19,18 @@
         text-align: center;
       }
 
+      header h1 {
+        font-size: 36px;
+        margin: 0;
+        color: #ff6347;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
       #main-section {
         display: flex;
-        justify-content: space-between;
-        padding: 20px;
+        justify-content: center;
+        padding: 20px 0px 20px 0px;
         margin-top: 20px;
       }
 
@@ -114,12 +122,22 @@
       .back-homepage:hover {
         background-color: #0056b3;
       }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>StreamIt</h1>
-    </header>
+
+      .back-homepage-container {
+        text-align: center;
+        margin-top: 20px;
+        align-items: center;
+      }
+
+      .title {
+        text-decoration: none;
+      }
+  </style>
+</head>
+<body>
+<header>
+<a href="index.html" class="title"><h1>StreamIt</h1></a>
+</header>
 
     <div id="main-section">
       <img id="banner" src="" alt="Series Banner" />
@@ -146,10 +164,11 @@
         </div>
 
         <div class="season-buttons" id="season-buttons"></div>
-
-        <br /><br /><br />
-        <a href="index.html" class="back-homepage">Back to Home</a>
       </div>
+    </div>
+
+    <div class="back-homepage-container">
+      <a href="index.html" class="back-homepage">Back to Home</a>
     </div>
 
     <script>

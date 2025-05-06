@@ -19,6 +19,14 @@
         text-align: center;
       }
 
+      header h1 {
+        font-size: 36px;
+        margin: 0;
+        color: #ff6347;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
       #main-section {
         display: flex;
         justify-content: flex-start;
@@ -35,8 +43,8 @@
       }
 
       #video-player {
-        width: 100%;
-        height: 500px;
+        width: 75%;
+        aspect-ratio: 16 / 9;
         background-color: #222;
         border-radius: 8px;
       }
@@ -54,9 +62,7 @@
 
       #episode-description {
         font-size: 16px;
-        max-width: 80%;
         text-align: center;
-        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
@@ -138,11 +144,15 @@
       select:hover {
         background-color: #444;
       }
+
+      .title {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <header>
-      <h1>StreamIt</h1>
+      <a href="index.html" class="title"><h1>StreamIt</h1></a>
     </header>
 
     <div id="main-section">
