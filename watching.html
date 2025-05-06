@@ -17,6 +17,9 @@
         background-color: #1f1f1f;
         padding: 20px;
         text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
       }
 
       header h1 {
@@ -164,9 +167,9 @@
         </div>
 
         <div class="controls">
-          <button class="back-button" onclick="window.history.back()">
+            <button class="back-button" onclick="goBackToSeries()">
             Back to Series
-          </button>
+            </button>
         </div>
       </div>
 
@@ -188,6 +191,11 @@
           season: params.get("season"),
           episode: params.get("episode"),
         };
+      }
+
+      function goBackToSeries() {
+        const { series } = getURLParams();
+        window.location.href = `series.html?series=${series}`;
       }
 
       async function loadEpisodeData() {
