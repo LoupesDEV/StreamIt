@@ -1,5 +1,19 @@
+function getNumberOfArguments() {
+  const params = new URLSearchParams(window.location.search);
+  return Array.from(params.keys()).length;
+}
+
 function getURLParams() {
   const params = new URLSearchParams(window.location.search);
+  const keys = Array.from(params.keys());
+  console.log(keys);
+
+  if (keys.length === 1) {
+    return {
+      films: params.get("films"),
+    };
+  }
+
   return {
     series: params.get("series"),
     season: params.get("season"),
@@ -10,6 +24,11 @@ function getURLParams() {
 function goBackToSeries() {
   const { series } = getURLParams();
   window.location.href = `series.html?series=${series}`;
+}
+
+function goBackToFilms() {
+  const { films } = getURLParams();
+  window.location.href = `films.html?films=${films}`;
 }
 
 async function loadEpisodeData() {
@@ -72,6 +91,37 @@ async function loadEpisodeData() {
   seasonSelect.value = season;
 }
 
+async function loadFilmData() {
+  const { films } = getURLParams();
+  const response = await fetch("data/films_data.json");
+  const data = await response.json();
+
+  if (!data[films]) {
+    console.error(`Film ${films} not found.`);
+    return;
+  }
+
+  const filmData = data[films];
+
+  const videoPlayer = document.getElementById("video-player");
+  const filmTitle = document.getElementById("episode-title");
+  const filmDescription = document.getElementById("episode-description");
+
+  videoPlayer.src = filmData.video;
+  filmTitle.innerText = filmData.title;
+  filmDescription.innerText = filmData.description;
+
+  const episodeListUl = document.getElementById("episode-list-ul");
+  const seasonSelect = document.getElementById("season-select");
+
+  if (episodeListUl) {
+    episodeListUl.remove();
+  }
+  if (seasonSelect) {
+    seasonSelect.remove();
+  }
+}
+
 async function changeSeason() {
   const seasonSelect = document.getElementById("season-select");
   const selectedSeason = seasonSelect.value;
@@ -115,4 +165,26 @@ async function changeSeason() {
   )}`;
 }
 
-loadEpisodeData();
+function goBack() {
+  const numberOfArguments = getNumberOfArguments();
+  if (numberOfArguments === 1) {
+    goBackToFilms();
+  } else if (numberOfArguments === 3) {
+    goBackToSeries();
+  } else {
+    console.error("Invalid URL parameters. - " + numberOfArguments);
+  }
+}
+
+function loadData() {
+  const numberOfArguments = getNumberOfArguments();
+  if (numberOfArguments === 1) {
+    loadFilmData();
+  } else if (numberOfArguments === 3) {
+    loadEpisodeData();
+  } else {
+    console.error("Invalid URL parameters. - " + numberOfArguments);
+  }
+}
+
+loadData();

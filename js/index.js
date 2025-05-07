@@ -4,6 +4,12 @@ async function loadSeriesData() {
   renderSeries(data);
 }
 
+async function loadFilmsData() {
+  const response = await fetch("data/films_data.json");
+  const data = await response.json();
+  renderFilms(data);
+}
+
 function renderSeries(seriesData) {
   const seriesList = document.getElementById("series-list");
   seriesList.innerHTML = "";
@@ -27,7 +33,7 @@ function renderSeries(seriesData) {
     const seriesDescription = document.createElement("div");
     seriesDescription.classList.add("series-description");
     seriesDescription.innerText = seriesData[series].description
-      ? seriesData[series].description.slice(0, 90) + "..."
+      ? seriesData[series].description.slice(0, 100) + "..."
       : "Aucune description disponible.";
 
     seriesInfo.appendChild(seriesTitle);
@@ -38,7 +44,40 @@ function renderSeries(seriesData) {
   }
 }
 
-function filterSeries() {
+function renderFilms(filmsData) {
+  const filmsList = document.getElementById("films-list");
+  filmsList.innerHTML = "";
+
+  for (const film in filmsData) {
+    const filmDiv = document.createElement("div");
+    filmDiv.classList.add("films");
+    filmDiv.onclick = () => (window.location.href = `films.html?films=${film}`);
+
+    const filmImage = document.createElement("img");
+    filmImage.src = filmsData[film].banner;
+
+    const filmInfo = document.createElement("div");
+    filmInfo.classList.add("films-info");
+
+    const filmTitle = document.createElement("div");
+    filmTitle.classList.add("films-title");
+    filmTitle.innerText = filmsData[film].title;
+
+    const filmDescription = document.createElement("div");
+    filmDescription.classList.add("films-description");
+    filmDescription.innerText = filmsData[film].description
+      ? filmsData[film].description.slice(0, 100) + "..."
+      : "Aucune description disponible.";
+
+    filmInfo.appendChild(filmTitle);
+    filmInfo.appendChild(filmDescription);
+    filmDiv.appendChild(filmImage);
+    filmDiv.appendChild(filmInfo);
+    filmsList.appendChild(filmDiv);
+  }
+}
+
+function filter() {
   const searchQuery = document.getElementById("search-bar").value.toLowerCase();
   const seriesList = document.getElementById("series-list");
   const seriesItems = seriesList.getElementsByClassName("series");
@@ -56,3 +95,4 @@ function filterSeries() {
 }
 
 loadSeriesData();
+loadFilmsData();

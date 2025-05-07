@@ -1,369 +1,1393 @@
 {
-    "The 100": {
-      "title": "The 100",
-      "description": "Après une apocalypse nucléaire causée par l'Homme lors d'une troisième Guerre Mondiale, les 318 survivants recensés se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, l'Arche, est en piteux état. Une centaine de jeunes délinquants emprisonnés au fil des années pour des crimes ou des trahisons sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant...",
-      "banner": "media/series/the100/the100.jpg",
-      "IMDb": 7.5,
-      "IMDb_link": "https://www.imdb.com/title/tt2661044/",
-      "year": 2014,
-      "genres": ["Action", "Aventure", "Drame"],
-      "creators": ["Jason Rothenberg"],
-      "stars": ["Eliza Taylor", "Bob Morley", "Marie Avgeropoulos"],
-      "seasons": {
-        "1": [
-            { "title": "L'exil", "desc": "Près d'un siècle après une apocalypse nucléaire, cent jeunes prisonniers d'une station spatiale vieillissante sont envoyés sur Terre pour y tester les conditions de vie.", "video": "media/series/the100/1-1.mp4" },
-            { "title": "Signes de vie", "desc": "Après avoir découvert que Jasper pourrait être toujours vivant, Clarke, Bellamy, Octavia, Finn et Monty se lancent dans une mission pour tenter de le retrouver.", "video": "media/series/the100/1-2.mp4" },
-            { "title": "Une question de courage", "desc": "L'apparition d'un nuage toxique compromet une mission visant à trouver un remède au mal de Jasper. Clarke découvre la vérité au sujet de la trahison de son père.", "video": "media/series/the100/1-3.mp4" },
-            { "title": "La loi de Murphy", "desc": "Un décès choquant rapproche Clarke et Finn. Bellamy tente d'empêcher le groupe de se disputer. Abby prend un risque démesuré.", "video": "media/series/the100/1-4.mp4" },
-            { "title": "Une lueur d'espoir", "desc": "Après avoir révélé le plan de Kane visant à réduire la population sur l'Arche, Abby et Jaha découvrent qu'au moins une partie des 100 pourrait être toujours en vie.", "video": "media/series/the100/1-5.mp4" },
-            { "title": "Responsabilité", "desc": "Bellamy et son équipe s'aventurent chez les Natifs à la recherche d'Octavia. De son côté, Raven remarque le lien profond unissant Finn et Clarke.", "video": "media/series/the100/1-6.mp4" },
-            { "title": "Sous pression", "desc": "Abby vient en aide à Clarke lors d'une opération dangereuse, pendant que Diana Sydney la remplace au poste de Chancelier. Kane reste tourmenté par sa récente décision.", "video": "media/series/the100/1-7.mp4" },
-            { "title": "Une excursion stupéfiante", "desc": "Sous l'effet d'un hallucinogène, une partie des 100 perd le sens des réalités. Alors que l'un d'entre eux a pour mission de tuer, la trahison de Diana est mise au jour.", "video": "media/series/the100/1-8.mp4" },
-            { "title": "Le jour de l'unité", "desc": "Clarke et Finn tentent de négocier la paix avec les Natifs, tandis que d'autres se préparent au combat. Les célébrations du Jour de l'Unité tournent à la tragédie.", "video": "media/series/the100/1-9.mp4" },
-            { "title": "Maintenant je suis la mort", "desc": "Chacun à leur manière, Clarke et Bellamy font face au retour de John Murphy qui affirme avoir été retenu en otage par les Natifs.", "video": "media/series/the100/1-10.mp4" },
-            { "title": "Le calme", "desc": "Clarke et Finn organisent une expédition de ravitaillement. Raven fait une proposition alléchante à Bellamy. Kane met sa vie en péril et retrouve Jaha et Abby.", "video": "media/series/the100/1-11.mp4" },
-            { "title": "Natifs de la Terre [Partie 1]", "desc": "Clarke et Finn affrontent un nouvel ennemi et Bellamy agit en héros pour venir en aide à Jasper. Pendant ce temps, les habitants de l'Arche font face à l'inévitable.", "video": "media/series/the100/1-12.mp4" },
-            { "title": "Natifs de la Terre [Partie 2]", "desc": "Alors que le conflit s'aggrave, Clarke supplie Bellamy de prendre les bonnes décisions. Octavia fait un choix difficile. Raven et Jasper luttent contre le temps.", "video": "media/series/the100/1-13.mp4" }
-        ],
-        "2": [
-            { "title": "48", "desc": "Clarke tente de trouver un sens à sa présence dans la salle blanche. Les survivants de l'Arche font face à plusieurs dilemmes. Un vieil ennemi fait son grand retour.", "video": "media/series/the100/2-1.mp4" },
-            { "title": "Mal des montagnes", "desc": "Méfiante, Clarke défie le président Wallace et exige d'obtenir des réponses à ses questions. Kane interroge l'un des 100. Abby pratique une intervention d'urgence.", "video": "media/series/the100/2-2.mp4" },
-            { "title": "Actes et conséquences", "desc": "Clarke fait équipe avec une improbable alliée après avoir fait une horrible découverte au Mont Weather. De son côté, Abby confesse un crime.", "video": "media/series/the100/2-3.mp4" },
-            { "title": "Les meilleurs ennemis", "desc": "Après avoir été trahie, Clarke prend la situation en main. Bellamy, Finn et Murphy volent au secours d'un étranger. Des tensions surviennent entre Wick et Raven.", "video": "media/series/the100/2-4.mp4" },
-            { "title": "Expérimentations", "desc": "Kane tente de négocier la paix avec les Natifs. Jasper prend part à une expérimentation risquée. Le président Wallace lance un message d'avertissement.", "video": "media/series/the100/2-5.mp4" },
-            { "title": "Le brouillard de guerre", "desc": "Raven découvre que le Mont Weather est à l'origine d'interférences radio. Les esprits s'échauffent entre Clarke et Finn. Le président Wallace est entouré de traîtres.", "video": "media/series/the100/2-6.mp4" },
-            { "title": "Plongée dans l'abîmes", "desc": "Pendant qu'Abby doit prendre une décision cruciale pour sauver son peuple d'une attaque de Natifs, Bellamy et Octavia révèlent à Clarke un secret troublant.", "video": "media/series/the100/2-7.mp4" },
-            { "title": "Spacewalker", "desc": "Quand une émeute éclate après les agissements de Finn, Abby et les autres doivent décider de le juger ou de le remettre aux Natifs qui se chargeront de le torturer.", "video": "media/series/the100/2-8.mp4" },
-            { "title": "Fragile alliance", "desc": "Alors que Clarke conclut un marché avec Lexa et Indra, l'alliance nouvellement formée entre le Peuple Céleste et les Natifs se retrouve menacée.", "video": "media/series/the100/2-9.mp4" },
-            { "title": "La trêve", "desc": "Clarke et Lexa font face à un nouvel ennemi. Bellamy et Lincoln unissent leurs forces pour pénétrer dans le Mont Weather. Indra fait une offre alléchante à Octavia.", "video": "media/series/the100/2-10.mp4" },
-            { "title": "Cheval de Troie", "desc": "Les agissements de Bellamy et Lincoln ont de lourdes conséquences. Abby lutte pour garder le contrôle. Désespéré, Jasper affronte le président Wallace.", "video": "media/series/the100/2-11.mp4" },
-            { "title": "Conseil de guerre", "desc": "Les tensions entre Clarke et Abby atteignent des sommets. Raven aide Bellamy à explorer le Mont Weather. Jaha et Murphy font la connaissance d'un étranger.", "video": "media/series/the100/2-12.mp4" },
-            { "title": "Résurrection", "desc": "Clarke remet en question les décisions de Lexa. Abby tente de venir en aide à Kane, blessé. Jasper prend de nouvelles responsabilités.", "video": "media/series/the100/2-13.mp4" },
-            { "title": "Vérités et mensonges", "desc": "Désespérée, Raven fait appel à Wick. Jaha et Murphy font face à un dangereux obstacle. Bellamy lutte contre le temps au Mont Weather.", "video": "media/series/the100/2-14.mp4" },
-            { "title": "Sang pour sang [Partie 1]", "desc": "Clarke et Lexa se préparent à l'affrontement. Wick et Raven font face à un obstacle majeur. Pendant ce temps, Octavia et Lincoln doivent prendre une décision difficile.", "video": "media/series/the100/2-15.mp4" },
-            { "title": "Sang pour sang [Partie 2]", "desc": "Tandis que le périple continue, les agissements de Jaha bouleversent Murphy, Clarke reçoit un coup de main inattendu et Lincoln prend sa revanche.", "video": "media/series/the100/2-16.mp4" }
-        ],
-        "3": [
-            { "title": "Wanheda [Partie 1]", "desc": "Bellamy et Kane partent en mission pour sauver Clarke dont la tête est mise à prix. Murphy rencontre Jaha au manoir.", "video": "media/series/the100/3-1.mp4" },
-            { "title": "Wanheda [Partie 2]", "desc": "Au péril de leurs vies, Bellamy et Kane sauvent Clarke. Abby envisage de réhabiliter le Mount Weather pour en faire un centre médical. Murphy prépare une trahison.", "video": "media/series/the100/3-2.mp4" },
-            { "title": "Le treizième clan", "desc": "Tandis que Clarke est face à un dilemme, Bellamy découvre que rien n'est comme il paraît.", "video": "media/series/the100/3-3.mp4" },
-            { "title": "Attention aux trônes", "desc": "Clarke découvre l'architecte d'un plan ingénieux. Alors que Kane tente de maintenir la paix, Jasper perd son sang-froid.", "video": "media/series/the100/3-4.mp4" },
-            { "title": "Hakeldama", "desc": "Pike renforce son contrôle, Clarke s'efforce d'éviter la guerre, un personnage familier rentre à Arkadia avec une nouvelle mission, et Murphy joue à un jeu dangereux.", "video": "media/series/the100/3-5.mp4" },
-            { "title": "Une moisson d'amertune", "desc": "Clarke doit choisir entre la vengeance et la paix, Octavia et Kane décident de faire équipe, et Abby continue à se faire du souci pour Raven.", "video": "media/series/the100/3-6.mp4" },
-            { "title": "La treizième station", "desc": "Clarke fait une découverte révolutionnaire. Lexa tente de maintenir la paix entre les différents clans. Une sombre histoire du passé refait surface.", "video": "media/series/the100/3-7.mp4" },
-            { "title": "Choississez votre camp", "desc": "Alors qu'il tente de résoudre les problèmes de manière pacifique, Kane réalise qu'il devra peut-être prendre des mesures plus drastiques. Raven demande l'aide de Jasper.", "video": "media/series/the100/3-8.mp4" },
-            { "title": "Le choix de l'esprit", "desc": "Pendant que Clarke fait une découverte alarmante, Octavia fait face à un dilemme pouvant avoir de graves conséquences, et Abby et Kane partagent un moment particulier.", "video": "media/series/the100/3-9.mp4" },
-            { "title": "Prise et emprise", "desc": "Jaha tente une nouvelle approche terrifiante pour recruter Abby. Bellamy est confronté à la terrible vérité. Monty se retrouve dans une situation dangereuse.", "video": "media/series/the100/3-10.mp4" },
-            { "title": "Plus jamais", "desc": "Tandis que Jasper cède à la fureur, le côté sombre de Raven émerge sous l'influence d'ALIE. Octavia tente de trouver sa place en ce bas monde.", "video": "media/series/the100/3-11.mp4" },
-            { "title": "Ascende superius", "desc": "Jaha retourne à Polis, et Murphy fait une rencontre surprenante, tandis qu'Octavia découvre une nouvelle piste.", "video": "media/series/the100/3-12.mp4" },
-            { "title": "La pastille ou la mort", "desc": "Clarke se lance dans une mission qui pourrait tout changer. Murphy fait une découverte potentiellement cruciale pour sa survie. Kane atteint ses limites.", "video": "media/series/the100/3-13.mp4" },
-            { "title": "Ciel rouge à l'aube", "desc": "Clarke, Bellamy, Octavia et Jasper affrontent un obstacle dévastateur, tandis que Raven et Monty font une découverte fondamentale.", "video": "media/series/the100/3-14.mp4" },
-            { "title": "Perversion de l'instanciation [Partie 1]", "desc": "Clarke reprend espoir dans un endroit improbable, tandis que le plan d'ALIE commence à prendre forme.", "video": "media/series/the100/3-15.mp4" },
-            { "title": "Perversion de l'instanciation [Partie 2]", "desc": "Le groupe se prépare à l'affrontement final tout en regardant en face la triste réalité de la situation.", "video": "media/series/the100/3-16.mp4" }
-        ],
-        "4": [
-            { "title": "Echos", "desc": "Retenue à Polis et cernée par d'hostiles Azgeda, Clarke élabore un plan risqué. Pendant ce temps, Raven fait la découverte d'une terrible menace.", "video": "media/series/the100/4-1.mp4" },
-            { "title": "Une couronne lourde à porter", "desc": "Roan tente de gagner du temps pour permettre au Peuple du Ciel de mener à bien sa mission. Bellamy et Clarke mettent malgré eux en péril la survie de tous.", "video": "media/series/the100/4-2.mp4" },
-            { "title": "Les quatre cavaliers", "desc": "Alors que les radiations approchent, Jaha mène Clarke et Bellamy dans une mission délicate pour trouver un refuge. Roan envoie Octavia récupérer la Flamme volée.", "video": "media/series/the100/4-3.mp4" },
-            { "title": "Un mensonge bien gardée", "desc": "Les mensonges de Clarke suscitent l'insurrection. Abby mène une quête risquée. L'alliance des clans se désintègre et Octavia doit en subir les conséquences.", "video": "media/series/the100/4-4.mp4" },
-            { "title": "Dans la poudrière", "desc": "L'alliance désormais rompue, Roan et son armée Azgeda tentent de renverser le Peuple du Ciel, forçant Clarke à entamer des négociations désespérées pour éviter la guerre.", "video": "media/series/the100/4-5.mp4" },
-            { "title": "Nous renaîtrons", "desc": "Clarke et Roan entreprennent une dangereuse mission semée d'embûches tandis qu'Octavia affronte son infatigable désir de vengeance.", "video": "media/series/the100/4-6.mp4" },
-            { "title": "La pluie radioactive", "desc": "Une pluie noire s'abat sur Arkadia, tandis qu'Abby tente désespérément de trouver un remède aux radiations. Octavia se rapproche d'Ilian. Bellamy fait face à un dilemme.", "video": "media/series/the100/4-7.mp4" },
-            { "title": "Foi et confiance", "desc": "Le temps presse pour Clarke qui prend des mesures extrêmes pour trouver un remède. Partis à la recherche d'un refuge secret, Kane et Jaha sont confrontés à une énigme.", "video": "media/series/the100/4-8.mp4" },
-            { "title": "Adieux", "desc": "Trahison et rancœur conduisent les clans à un affrontement mortel. Octavia lutte pour renoncer à son violent passé. Raven prend une décision radicale.", "video": "media/series/the100/4-9.mp4" },
-            { "title": "Mourez dans la joie", "desc": "Octavia, Roan et les combattants de chaque clan s'affrontent à mort lors d'un rituel pour prendre le contrôle du bunker. Certains se jouent des règles instituées.", "video": "media/series/the100/4-10.mp4" },
-            { "title": "De l'autre côté", "desc": "Octavia tente de gagner du temps avec les clans, tandis que Bellamy conteste le plan de Clarke sur le bunker. Monty tente de sauver Jasper. Raven reprend espoir.", "video": "media/series/the100/4-11.mp4" },
-            { "title": "Les élus", "desc": "Clarke et Bellamy mènent une mission périlleuse pour sauver Raven. Un conflit éclate entre Kane et Jaha à propos des survivants. Abby prend une décision fatidique.", "video": "media/series/the100/4-12.mp4" },
-            { "title": "Praimfaya", "desc": "À l'arrivée de Praimfaya, Octavia prend le contrôle du bunker, alors que Raven mène l'équipe de Clark dans une dernière mission impossible pour échapper à la destruction.", "video": "media/series/the100/4-13.mp4" }
-        ],
-        "5": [
-            { "title": "Eden", "desc": "Luttant pour survivre seule dans un monde dévasté par le Praimfaya, Clarke fait une découverte troublante et se retrouve confrontée à une nouvelle menace.", "video": "media/series/the100/5-1.mp4" },
-            { "title": "La reine au sang rouge", "desc": "Octavia emploie les grands moyens pour asseoir son pouvoir quand des tensions éclatent entre les différents clans, transformant le bunker en véritable zone de guerre.", "video": "media/series/the100/5-2.mp4" },
-            { "title": "Cryo-sommeil", "desc": "Les troupes de Diyoza décident de s'approprier la vallée de Clarke. L'équipe de Raven fait une découverte alarmante à bord du mystérieux vaisseau en orbite.", "video": "media/series/the100/5-3.mp4" },
-            { "title": "La boite de Pandore", "desc": "Un pacte vacille lors d'une mission visant à libérer le bunker, tandis que Raven et Murphy font face à un cruel dilemme à bord d'Eligius IV.", "video": "media/series/the100/5-4.mp4" },
-            { "title": "Tempête de sable", "desc": "Alors que le fossé se creuse entre ses soldats, Diyoza met Abby à l'épreuve. Une dispute éclate entre Octavia et Clarke après la découverte d'une nouvelle menace.", "video": "media/series/the100/5-5.mp4" },
-            { "title": "L'espionne", "desc": "Le comportement étonnant de Diyoza ébranle le pouvoir d'Octavia, tandis que Clarke se tourne vers un allié inattendu pour protéger Madi.", "video": "media/series/the100/5-6.mp4" },
-            { "title": "Sacrifices", "desc": "Clarke s'en remet à Indra après avoir découvert le projet barbare d'Octavia. Echo pousse Raven à mettre à exécution la cyberattaque de Monty.", "video": "media/series/the100/5-7.mp4" },
-            { "title": "Le chemin vers la paix", "desc": "Tandis qu'Octavia finalise son plan de bataille, Clarke fait ce qu'il faut pour éviter la guerre. De son côté, Abby supplie Raven de lui venir en aide.", "video": "media/series/the100/5-8.mp4" },
-            { "title": "Sic semper tyrannis", "desc": "Murphy déclenche des hostilités qui ont de graves conséquences dans la vallée. Les différences d'opinions se renforcent dangereusement parmi les Wonkru.", "video": "media/series/the100/5-9.mp4" },
-            { "title": "Préparez les guerriers", "desc": "Clarke tente d'assurer la sécurité de Madi, Octavia entraîne Bellamy, Indra et Gaia dans un violent affrontement, et Abby mène un combat personnel désespéré.", "video": "media/series/the100/5-10.mp4" },
-            { "title": "L'année obscure", "desc": "Clarke lutte pour sauver Abby, qui révèle un terrible secret du bunker. Les différentes armées préparent l'affrontement du siècle pour s'emparer de la vallée.", "video": "media/series/the100/5-11.mp4" },
-            { "title": "Damoclès [Partie 1]", "desc": "Alors que la bataille fait rage, une trahison mène à la catastrophe. Madi défie Clarke au sujet des Wonkru. Octavia fait face aux conséquences de ses actes.", "video": "media/series/the100/5-12.mp4" },
-            { "title": "Damoclès [Partie 2]", "desc": "Après la catastrophe, les Wonkru se préparent à un ultime assaut, tandis que le projet démentiel de McCreary mène à une incroyable révélation.", "video": "media/series/the100/5-13.mp4" }
-        ],
-        "6": [
-            { "title": "Planète Alpha", "desc": "Encore sous le choc après avoir reçu le message de Monty, un petit groupe part à la découverte de la mystérieuse nouvelle planète. De retour sur le vaisseau mère, plusieurs membres de Wonkru font face aux conséquences de leurs décisions.", "video": "media/series/the100/6-1.mp4" },
-            { "title": "Le lever du soleil rouge", "desc": "L'équipe tente de survivre à la menace à laquelle elle doit faire face sur la nouvelle planète. Pendant ce temps, Raven doit unir ses forces à un allié improbable afin de sauver tout le monde à bord du vaisseau-mère.", "video": "media/series/the100/6-2.mp4" },
-            { "title": "Les enfants de Gabriel", "desc": "Clarke tente de convaincre les dirigeants de Sanctum de laisser rester son peuple sur cette planète. Pendant ce temps, Bellamy, Echo et Octavia découvrent une nouvelle menace alors qu’ils sont en mission pour récupérer un navire de transport.", "video": "media/series/the100/6-3.mp4" },
-            { "title": "Les visages sous verre", "desc": "Clarke embrasse les traditions de Sanctum et tente de faire amende honorable pour ses actions passées. Octavia et Diyoza se retrouvent à combattre une faction de survivants.", "video": "media/series/the100/6-4.mp4" },
-            { "title": "Le retour de Joséphine", "desc": "Jordan enquête sur Sanctum. Au même moment, Octavia et Diyoza découvrent les menaces qui pèsent sur la nouvelle planète. Enfin, Bellamy et Clarke s'affrontent.", "video": "media/series/the100/6-5.mp4" },
-            { "title": "Œuil pour œuil...", "desc": "Diyoza en apprend plus sur les mystérieux enfants de Gabriel. Pendant ce temps, Abby continue à chercher un moyen de sauver Kane.", "video": "media/series/the100/6-6.mp4" },
-            { "title": "Jeux d'esprit", "desc": "Le passé de Clarke la rattrape...", "video": "media/series/the100/6-7.mp4" },
-            { "title": "Le vieil homme et l'anomalie", "desc": "Octavia et Diyoza se dirigent vers une mystérieuse anomalie tandis qu'elles sont à la recherche du vieil homme. Au même moment Murphy fait une offre à Emori.", "video": "media/series/the100/6-8.mp4" },
-            { "title": "Rédemption", "desc": "Bellamy doit s'aventurer en territoire ennemi avec un compagnon improbable. Pendant ce temps, Octavia est obligée de faire face à son passé.", "video": "media/series/the100/6-9.mp4" },
-            { "title": "La chasse aux sorcières", "desc": "Russell réclame justice. Pendant ce temps, Gabriel doit faire un choix difficile. Enfin, les frères et sœurs Blake se réunissent.", "video": "media/series/the100/6-10.mp4" },
-            { "title": "Tu redeviendras poussière", "desc": "Bellamy et Octavia doivent travailler ensemble pour sauver leurs amis. Au même moment, Echo est obligée de faire face à son passé.", "video": "media/series/the100/6-11.mp4" },
-            { "title": "Les retrouvailles", "desc": "Une journée de nommage change tout à Sanctum. Gabriel fait face à un vieil ami.", "video": "media/series/the100/6-12.mp4" },
-            { "title": "Le sang de Sanctum", "desc": "Sanctum devient un champ de bataille entre les dévots et les non-croyants. Le mystère autour de l'anomalie s'approfondit.", "video": "media/series/the100/6-13.mp4" }
-        ],
-        "7": [
-            { "title": "Renaissance", "desc": "Clarke et ses amis tentent de reconstruire Sanctum alors qu'une nouvelle menace vient des bois", "video": "media/series/the100/7-1.mp4" },
-            { "title": "Skyring", "desc": "Echo et Gabriel en apprennent plus sur Hope et son passé mystérieux.", "video": "media/series/the100/7-2.mp4" },
-            { "title": "Dieux factices", "desc": "Alors que Raven fait face à une menace inattendue, Clarke doit maintenir la paix entre les factions opposées à Sanctum.", "video": "media/series/the100/7-3.mp4" },
-            { "title": "Les Hespérides", "desc": "De mystérieux étrangers arrivent avec des nouvelles des disparus.", "video": "media/series/the100/7-4.mp4" },
-            { "title": "Bienvenue sur Bardo", "desc": "Alors qu'Octavia découvre un tout nouveau jeu, Murphy et Emori continuent à prendre l'identité de deux primes.", "video": "media/series/the100/7-5.mp4" },
-            { "title": "Impasses", "desc": "Clarke et ses amis se retrouvent sur une planète qui est loin d'être ce qu'elle paraît être.", "video": "media/series/the100/7-6.mp4" },
-            { "title": "Echec et mat", "desc": "Alors qu'Emori tente de soigner les plaies familiales de Sanctum, de nouvelles épreuves attendent Echo, Octavia et Diyoza.", "video": "media/series/the100/7-7.mp4" },
-            { "title": "Anaconda", "desc": "Clarke fait la rencontre d'un nouvel ennemi plus dangereux que jamais. Une surprenante connexion nous ramène dans le passé, à l'époque où la première apocalypse nucléaire a détruit la Terre.", "video": "media/series/the100/7-8.mp4" },
-            { "title": "A genoux !", "desc": "Alors que de vieux amis font de nouvelles alliances, Murphy et Indra font tout pour désamorcer une situation compliquée.", "video": "media/series/the100/7-9.mp4" },
-            { "title": "Une once de sacrifice", "desc": "Sheidheda s'impose. Pendant ce temps, un Disciple se rebelle.", "video": "media/series/the100/7-10.mp4" },
-            { "title": "Etherea", "desc": "Après l'explosion, Bellamy a atterri sur une autre planète et va devoir trouver un moyen de survivre et de la quitter.", "video": "media/series/the100/7-11.mp4" },
-            { "title": "Plier le genou ou mourir", "desc": "C'est un nouveau jour à Sanctum. Clarke, Raven, Octavia et Echo sont confrontées à un nouvel ennemi.", "video": "media/series/the100/7-12.mp4" },
-            { "title": "Nouvelle éclipse", "desc": "Le dangereux soleil rouge fait son retour et met en danger le plan de Clarke.", "video": "media/series/the100/7-13.mp4" },
-            { "title": "Retour aux sources", "desc": "Alors que Clarke et ses amis reviennent sur ce qui viennent de leur arriver, une nouvelle menace fait soudainement son apparition.", "video": "media/series/the100/7-14.mp4" },
-            { "title": "La mort de la lumière", "desc": "L'ultime combat est sur le point de débuter. Clarke et Octavia mènent une mission de sauvetage désespérée afin de sauver leurs amis alors que les Disciples s'approchent de plus en plus de ce qu'ils recherchent.", "video": "media/series/the100/7-15.mp4" },
-            { "title": "La dernière guerre", "desc": "Après toutes les batailles et toutes les pertes qu'ils ont connu au cours de leurs aventures, Clarke et ses amis se préparent à leur ultime combat.", "video": "media/series/the100/7-16.mp4" }
-        ]
-      }
-    },
-    "Chernobyl": {
-      "title": "Chernobyl",
-      "description": "L'histoire vraie de la pire catastrophe causée par l'homme et de ceux qui ont sacrifié leur vie pour sauver l'Europe du drame.",
-      "banner": "media/series/chernobyl/chernobyl.jpg",
-      "IMDb": 9.3,
-      "IMDb_link": "https://www.imdb.com/title/tt7366338/",
-      "year": 2019,
-      "genres": ["Drame", "Histoire", "Thriller"],
-      "creators": ["Craig Mazin"],
-      "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
-      "seasons": {
-        "1": [
-            { "title": "1:23:45", "desc": "Le 26 avril 1986, une explosion retentit dans la centrale nucléaire de Tchernobyl, en Ukraine, provoquant une catastrophe sans précédent.", "video": "media/series/chernobyl/1-1.mp4" },
-            { "title": "Veuillez garder votre calme", "desc": "Mikhail Gorbatchev envoie Boris Shcherbina et Valery Legasov à Tchernobyl pour lui rapporter la situation. Ulana Khomyuk comprend l'imminence du danger.", "video": "media/series/chernobyl/1-2.mp4" },
-            { "title": "Que la terre s'ouvre !", "desc": "Après l'explosion du réacteur n°4 dans la centrale nucléaire ukrainienne de Tchernobyl, la situation devient de plus en plus critique. Les autorités comprennent que cette catastrophe va changer le cours de l'histoire. Il faut sauver ce qui peut l'être et les secours vont devoir faire des choix radicaux...", "video": "media/series/chernobyl/1-3.mp4" },
-            { "title": "Le Bonheur de toute l'humanité", "desc": "Valery Legasov et le vice-premier ministre soviétique Boris Shcherbina envisagent d'utiliser des rovers lunaires pour enlever les débris radioactifs, tandis qu'Ulana Khomyuk se heurte à des obstacles gouvernementaux pour déterminer la vérité sur les causes de l'explosion...", "video": "media/series/chernobyl/1-4.mp4" },
-            { "title": "Vechnaya Pamyat", "desc": "Valery Legasov, Boris Shcherbina et Ulana Khomyuk prennent des risques pour révéler toute la vérité sur la catastrophe de Tchernobyl. Depuis l'explosion du réacteur n°4, le pouvoir politique a toujours minimisé les faits et surtout les conséquences de ce drame...", "video": "media/series/chernobyl/1-5.mp4" }
-        ]
-      }
-    },
-    "Game of Thrones": {
-      "title": "Game of Thrones",
-      "description": "Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. La confrérie de la Garde de Nuit, protégeant le Royaume de toute créature pouvant provenir d'au-delà du Mur protecteur, n'a plus les ressources nécessaires pour assurer la sécurité de tous. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de fer, le symbole du pouvoir absolu.",
-      "banner": "media/series/got/got.jpg",
-      "IMDb": 9.2,
-      "IMDb_link": "https://www.imdb.com/title/tt0944947/",
-      "year": 2011,
-      "genres": ["Action", "Aventure", "Drame", "Fantastique", "Thriller"],
-      "creators": ["David Benioff", "D.B. Weiss"],
-      "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
-      "seasons": {
-        "1": [
-          { "title": "L'hiver vient", "desc": "Sur le continent de Westeros, un jeune patrouilleur de la Garde de Nuit, chargée de veiller sur le Mur, est condamné à mort pour désertion par Eddard Stark, seigneur de Winterfell et Gardien du Nord. Mais de sombres nouvelles arrivent de Port-Réal, la capitale des Sept Couronnes : Jon Arryn, ami intime d'Eddard et Main du roi Robert Baratheon, vient de mourir. Le roi Robert et sa cour entreprennent alors un voyage vers Winterfell, pour gratifier son ami Eddard de la charge de Main du roi. Pendant ce temps, les descendants des rois Targaryen en exil, renversés par Robert, fomentent leur retour en Westeros par un jeu d'alliance avec les Dothrakis, une tribu de guerriers nomades. Alors qu'à Winterfell les festivités vont bon train durant le séjour du roi, Brandon, l'un des fils d'Eddard Stark, fait une découverte qui lui attire les foudres de la famille royale…", "video": "media/series/got/1-1.mp4" },
-          { "title": "La route royale", "desc": "Daenerys Targaryen, fraîchement mariée au Khal Drogo, entreprend avec les Dothrakis et son frère le long voyage vers Vaes Dothrak. À Winterfell, alors que Bran est toujours dans le coma suite à sa chute, Ned prépare son départ pour Port-Réal. Catelyn, dévastée par l'état de Bran, ne prend pas part aux adieux à sa famille : Arya et Sansa accompagnent leur père, Jon part vers le nord, sur le Mur, accompagné de son oncle Benjen et de Tyrion Lannister. Seuls restent à Winterfell Robb, Rickon et Bran. Lorsqu'un assassin tente de s'en prendre à Bran, toujours dans le coma, Catelyn décide de mener l'enquête et de partir à Port-Réal prévenir son mari des dangers qui le guettent. Sur la longue route qui sépare Winterfell de la capitale des sept couronnes, les deux filles Stark et leurs loups vont se retrouver mêlées à un incident aux conséquences inattendues.", "video": "media/series/got/1-2.mp4" },
-          { "title": "Lord Snow", "desc": "À peine arrivé à Port-Réal, Eddard Stark est convoqué à une session du Conseil Restreint et découvre alors que le Royaume est fortement endetté et doit beaucoup d'argent aux Lannister. À Winterfell, Bran, conscient depuis peu, essaie d'accepter son amnésie et son handicap ; pendant que sur le Mur, Jon Snow fait face à sa difficile condition de bâtard parmi ses futurs frères de la Garde de Nuit. Sur le continent est, chevauchant la longue route qui les emmène elle et son Khal vers Vaes Dothrak, Daenerys Targaryen commence à assumer son rôle de Khaleesi.", "video": "media/series/got/1-3.mp4" },
-          { "title": "Infirmes, bâtards et choses brisées", "desc": "À Port-Réal, Eddard Stark commence son enquête pour savoir qui est impliqué dans la mort subite de son prédécesseur. Un tournoi est organisé en l'honneur de la nouvelle Main du Roi. Au Nord, Jon Snow se prend de sympathie pour Samwell Tarly, une nouvelle recrue de la Garde de Nuit. De son côté, Tyrion Lannister, ayant quitté le Mur, se retrouve au mauvais endroit, au mauvais moment. Sur l'autre continent, Viserys Targaryen est de plus en plus frustré…", "video": "media/series/got/1-4.mp4" },
-          { "title": "Le loup et le lion", "desc": "À Port-Réal, les affaires politiques reprennent de plus belle. Quand le roi apprend que les Targaryen se sont alliés au peuple Dothraki, son sang ne fait qu'un tour. En réaction, il ordonne un assassinat, contre l'avis d'Eddard. De son côté, ayant capturé Tyrion Lannister, Catelyn Stark l'emmène chez sa sœur. Arya Stark, quant à elle, surprend une conversation qui menace la vie de son père…", "video": "media/series/got/1-5.mp4" },
-          { "title": "Une couronne d'or", "desc": "Après avoir rendu public son profond désaccord avec le roi Robert Baratheon au sujet de l'organisation de l'assassinat de Daenerys Targaryen, Eddard Stark est attaqué par Jaime Lannister. L'atmosphère à Port-Réal est plus que tendue et Eddard doit maintenant gérer de nouveaux problèmes. De son côté, à Eyrie, Tyrion Lannister est jugé pour un crime qu'il est censé avoir commis à Winterfell. Enfin, à Vaes Dothrak, Viserys Targaryen entrevoit le fruit de ses efforts et sa récompense pour avoir donné la main de sa soeur à Khal Drogo…", "video": "media/series/got/1-6.mp4" },
-          { "title": "Vaincre ou mourir", "desc": "Eddard décide qu'il est temps d'annoncer l'identité du véritable père du prince Joffrey. Mourant, le souverain exige que Ned assure la régence en attendant la majorité de Joffrey. De son côté, Cersei lève une armée pour reconquérir le rang auquel son fils peut prétendre…", "video": "media/series/got/1-7.mp4" },
-          { "title": "Frapper d'estoc", "desc": "Alors que Lord Eddard Stark vient d'être envoyé aux cachots, Cersei Lannister ordonne l'assassinat de l'ensemble du clan Stark. Prévenu de l'arrestation de son père, Robb Stark met en branle les armées du nord et décide de marcher sur Port-Réal, laissant la garde de Winterfell à son frère Bran. Tyrion Lannister rejoint les armées de Lord Tywin, aidé de Bronn et des membres des Clans de la Lune rencontrés lors de sa fuite des Eyrié.", "video": "media/series/got/1-8.mp4" },
-          { "title": "Baelor", "desc": "Robb Stark poursuit son avancée vers Port-Réal et décide de créer une diversion avec un plan pour le moins surprenant. De l'autre côté du Détroit, la blessure de Khal Drogo s'infecte et le pire est à craindre. Seule la magie semble encore capable de le sauver. À Port-Réal, lord Eddard Stark accepte de confesser ses fautes sur la place publique afin de sauver sa famille.", "video": "media/series/got/1-9.mp4" },
-          { "title": "De feu et de sang", "desc": "La terrible nouvelle se propage à travers les Sept Royaumes. Catelyn interroge Jaime Lannister à propos de la chute de son fils Bran alors que les seigneurs du Nord choisissent Robb comme nouveau roi et Jon Snow, dans la garnison de la Garde de Nuit, veut le rejoindre. Sur l'autre continent, Daenerys doit faire face à un nouveau drame…", "video": "media/series/got/1-10.mp4" }
-        ],
-        "2": [
-          { "title": "Le Nord se souvient", "desc": "Déterminé à venger la mort de son père, le nouveau roi du Nord, Robb Stark, continue sa guerre contre les Lannister et le jeune roi Joffrey. Mais il y a davantage de prétendants au Trône de Fer, dont Stannis Baratheon, soutenu par une prêtresse d'un étrange dieu. Pendant ce temps, Jon Snow et la Garde de Nuit continuent leur marche au-delà du Mur tandis que Daenerys et les restes de son khalasar sont contraints à traverser le Désert rouge. À la fin de l'épisode, tous les bâtards sont exécutés, sûrement sur ordre de Joffrey.", "video": "media/series/got/2-1.mp4" },
-          { "title": "Les contrées nocturnes", "desc": "Pour contrer le clan Lannister, Stannis Baratheon pousse Davos à trouver de nouveaux alliés. Sur la route du Nord, Arya Stark, qui fuit Port-Réal depuis l'exécution de son père, se confie à Gendry. Dans sa stratégie militaire pour contrer le roi Joffrey, Robb Stark demande à Theon Greyjoy de nouer une alliance avec son père. Il espère aussi gagner le ralliement des féroces guerriers des Iles de Fer. À Port-Réal, Cersei et Tyrion affichent leurs différences sur la façon de gouverner…", "video": "media/series/got/2-2.mp4" },
-          { "title": "Ce qui est mort ne saurait mourir", "desc": "Jon Snow découvre la vérité sur le pacte silencieux entre la Garde de Nuit et Craster. Theon Greyjoy doit choisir entre sa famille de sang et sa famille d'adoption quand son père prévoit d'attaquer Winterfell. Tyrion met en place un plan pour démasquer qui dans le conseil du Roi l'espionne pour le compte de la reine. Renly Baratheon devient un roi apprécié et sage, mais ses amours pourraient lui porter préjudice.", "video": "media/series/got/2-3.mp4" },
-          { "title": "La cité de Qarth", "desc": "Les victoires de Robb Stark énervent le roi Joffrey, qui se venge sur Sansa, qui n'a que Tyrion et Bronn comme soutien dans la cour. Tyrion continue de constituer son réseau d'information au sein de Port-Réal. Catelyn essaie de réconcilier les deux frères Stannis et Renly pour s'allier contre les Lannister, or les deux veulent le Trône de Fer. Au loin, Daenerys parvient à rejoindre les portes de Qarth mais se heurte à la curiosité des dirigeants qui veulent voir les dragons.", "video": "media/series/got/2-4.mp4" },
-          { "title": "Le fantôme d'Harrenhal", "desc": "Alors que l'armée de Renly rejoint celle de Stannis, Tyrion découvre les intentions de Cersei pour défendre Port-Réal : le feu grégeois. Pendant ce temps, Daenerys reçoit une proposition de mariage liée à une somme d'argent considérable. Arya, désormais au service de Tywin, se fait un nouvel ami, tout comme sa mère sur le chemin du retour vers le campement de Robb. Snow a l'occasion de participer à une expédition avec le célèbre Qhorin Mimain. Théon espère obtenir le respect de son équipage et de son père en attaquant le Nord, tandis que Bran doit prendre les décisions stratégiques pour protéger le royaume du Nord.", "video": "media/series/got/2-5.mp4" },
-          { "title": "Les anciens et les nouveaux Dieux", "desc": "Theon Greyjoy s'empare de Winterfell sans grand combat, et assoit son autorité en décapitant lui-même Ser Rodrik Cassel. La nouvelle arrive vite au camp de Robb Stark, qui doit y faire face alors que Tywin Lannister organise sa prochaine attaque. Tyrion doit faire front à son neveu et roi Joffrey lors d'une révolte populaire où eux deux, mais aussi Sansa et Cersei manquent de mourir sous les coups des badauds. Jon croise la route d'une sauvageonne, Ygrid, qui va mettre à l'épreuve ses valeurs. À Qarth, les dragons sont volés.", "video": "media/series/got/2-6.mp4" },
-          { "title": "Un homme sans honneur", "desc": "Quand il apprend que Bran et Rickon ont fui Winterfell, Theon Greyjoy les traque tout en martyrisant les villageois alentour. Dans les montagnes du Nord, Jon Snow est mis à mal dans sa fierté quand Ygrid découvre que les Gardes de nuit ont fait vœu d'abstinence. À Port-Réal, Sansa a ses premières règles, et devient donc une possible mère pour les enfants de Joffrey. Dans le camp de Robb Stark, celui-ci s'absente et Jaime en profite pour tenter de s'enfuir. À Qarth, le Conseil des Treize est décimé par l'alliance entre la guilde des Conjurateurs et le négociant qui s'était porté garant pour la Khaleesi.", "video": "media/series/got/2-7.mp4" },
-          { "title": "Le prince de Winterfell", "desc": "Yara vient chercher son frère Théon à Winterfell, de peur qu'il ne meure loin de son île natale. Catelyn relâche Jaime sans l'accord de son fils Robb, le roi du Nord. Arya termine son accord, apprenant l'attaque imminente du camp de Robb par les forces de Tywin Lannister. Tyrion met en place des tactiques militaires pour prévenir l'attaque de Stannis, mais celles-ci ne plaisent pas à Cersei.", "video": "media/series/got/2-8.mp4" },
-          { "title": "La Néra", "desc": "L'arrivée de l'armée de Stannis Baratheon aux portes de Port-réal est imminente. Grâce à Varys, Tyrion met en place sa stratégie pour repousser les nombreux hommes et la flotte chargée, pendant que la Reine se prépare à l'état de siège, plus dans la crainte de savoir son jeune fils Joffrey sur le champ de bataille.", "video": "media/series/got/2-9.mp4" },
-          { "title": "Valar Morghulis", "desc": "Port-Réal célèbre sa victoire sur les hommes de Stannis Baratheon, qui rumine sa défaite, et le roi Joffrey récompense Tywin Lannister et la famille Tyrell, oubliant sciemment Tyrion, en vie mais défiguré. Theon Greyjoy est forcé d'abandonner Winterfell. Robb trahit sa promesse envers les Frey pour épouser la femme qu'il aime. Arya croise à nouveau la route de Jaqen, elle apprend qu'il est un assassin du groupe des Sans Visages et elle se voit offrir une pièce qui lui permettra de le retrouver. Au-delà du Mur, Jon Snow tue Mimain en duel et se prépare à rencontrer Mance Rayder. À Qarth, Daenerys Targaryen pénètre dans la tour de l'Immortel et récupère ses dragons. Après quoi, le retour des Marcheurs Blancs est officiellement signé.", "video": "media/series/got/2-10.mp4" }
-        ],
-        "3": [
-          { "title": "Valar Dohaeris", "desc": "Jon Snow est amené devant Mance Rayder, le Roi d'au-delà du Mur, alors que les chevaliers de la Garde de Nuit entament leur retraite vers le Sud. À Port-Réal, Tyrion exige sa récompense, tandis que Petyr Baelish offre à Sansa Stark une porte de sortie. Cersei, elle, organise un banquet en l'honneur de la famille royale. Arya croise la route de la Fraternité sans Bannière, tandis que Daenerys s'embarque pour la Baie des Serfs…", "video": "media/series/got/3-1.mp4" },
-          { "title": "Noires ailes, noires nouvelles", "desc": "À Port-Réal, alors que Sansa est interrogée par Lady Olenna, qui cherche à en savoir plus sur le roi Joffrey, Shae demande un service à Tyrion. Au-delà du Mur, Jon Snow, toujours protégé par Ygritte, rencontre Orell, un warg capable de voir à travers les yeux des animaux. Dans le Riverlands, Arya et ses compagnons de route rencontrent la Confrérie sans bannière…", "video": "media/series/got/3-2.mp4" },
-          { "title": "Les immaculés", "desc": "En l'absence de Littlefinger, Tyrion obtient de nouvelles responsabilités à Port-Réal tandis qu'à Astapor, Daenerys réussit à convaincre ses hôtes de lui vendre des Immaculés, des soldats sans peur. Robb assiste à l'enterrement de son grand-père à Riverrun, avec sa femme Talisa et sa mère Catelyn. Faits prisonniers, Brienne de Tarth et Jaime Lannister chevauchent sous haute garde. Le régicide tente de passer un marché avec ses géôliers…", "video": "media/series/got/3-3.mp4" },
-          { "title": "Voici que son tour de garde est fini", "desc": "Les survivants de la Garde de Nuit arrivent chez Craster, un seigneur odieux qui profite de ses nombreuses épouses : en échange d'un peu de repos, Craster oblige les hommes à s'occuper des cochons. Cette situation ne va pas tarder à dégénérer. Au Sud, Daenerys Targaryen offre son plus beau dragon à Kraznys pour obtenir son armée d'Immaculés. Mais Kraznys va apprendre bien vite que la Mère des Dragons sait parler le Valeryan…", "video": "media/series/got/3-4.mp4" },
-          { "title": "Baisée par le feu", "desc": "Daenerys déploie son armée et ses dragons pour libérer les esclaves d'Astapor. Quant à Sandor Clegane, il doit répondre de ses actes passés devant la Confrérie des sans-bannières. Cependant, au nord du Mur, Jon Snow est contraint de faire ses preuves. Theon, de son côté, subit de nouvelles tortures…", "video": "media/series/got/3-5.mp4" },
-          { "title": "L'ascension", "desc": "Jon Snow, Ygritte et les Sauvageons s'attaquent à une escalade périlleuse. Pour sa part, Tywin élabore des mariages stratégiques pour les Lannister. Robb est à la recherche d'un compromis pour retrouver la confiance de la maison Frey…", "video": "media/series/got/3-6.mp4" },
-          { "title": "L'ours et la belle", "desc": "Pour Jon Snow, l'heure est venue de régler ses comptes avec Orell, l'un des membres des Wildings. De son côté, Daenerys poursuit sa route vers la cité de Yunkaï, plus déterminée que jamais à libérer des esclaves. Quant à Sansa Stark et Tyrion Lannister, ils apprennent qu'ils vont se marier. Une information qui est loin de les laisser indifférents. Enfin, Jaime Lannister est sur le point de quitter Harrenhal en vue d'être présenté à son père…", "video": "media/series/got/3-7.mp4" },
-          { "title": "Les Puînés", "desc": "Daenerys fait la connaissance d'un mercenaire. Elle obtient l'appui d'une armée dans sa quête de pouvoir. En parallèle, à Port-Réal, Sansa et Tyrion se marient sous le regard amusé de Joffrey. De son côté, Davos, toujours aussi méfiant à l'égard de la prêtresse, somme Mélisandre de s'expliquer. Et Sandor Clegane révèle à Arya ses intentions. Quant à Sam, il fait la connaissance d'une personne au cours de son périple…", "video": "media/series/got/3-8.mp4" },
-          { "title": "Les pluies de Castamere", "desc": "Robb se présente devant Walder Frey tandis qu'Edmure fait la connaissance de sa future épouse. De son côté, Jon est confronté à la pire épreuve de sa jeune existence et Bran se découvre un nouveau don. Daario et Jorah confrontent leurs stratégies pour prendre Yunkai alors que la maison Frey s'unit aux Tully…", "video": "media/series/got/3-9.mp4" },
-          { "title": "Mhysa", "desc": "C'est le chaos au sein du clan Lannister… Joffrey défie Tywin. À Peyredragon, le salut viendra peut-être d'alliés inattendus. Bran est hanté par une vision venue d'outre tombe. Daenerys se retrouve face à un dilemme : est-elle une guerrière ou une libératrice ?", "video": "media/series/got/3-10.mp4" }
-        ],
-        "4": [
-          { "title": "Deux épées", "desc": "À Port-Réal, Tyrion prend soin d'un hôte inattendu. Pendant ce temps, à Châteaunoir, Jon Snow retrouve les hommes de la Garde de Nuit et ne reçoit pas le meilleur accueil. Arya, elle, croise un vieil ami. De l'autre côté de la mer, Daenerys approche de Meereen, la plus grande des cités esclavagistes…", "video": "media/series/got/4-1.mp4" },
-          { "title": "Le lion et la rose", "desc": "À Port-Réal, Tyrion assiste son frère Jaime pendant que le roi Joffrey et Margaery organisent un petit-déjeuner. À Peyredragon, Stannis Baratheon ne tolère plus l'insoumission de Davos. Ramsay trouve un usage pour le pauvre hère qui lui sert d'animal de compagnie. Au-delà du Mur, Bran a une vision…", "video": "media/series/got/4-2.mp4" },
-          { "title": "Briseur de chaînes", "desc": "Tyrion envisage les différentes options qui lui sont offertes pendant que Tywin fait un geste vers la paix. Dans le Nord, Sam réalise que Châteaunoir n'est pas un endroit sûr alors que Jon échafaude un plan audacieux. En pleine campagne, Sandor Clegane commence l'enseignement de la jeune Arya. De l'autre côté de la mer, Daenerys désigne son champion…", "video": "media/series/got/4-3.mp4" },
-          { "title": "Féale", "desc": "Daenerys Targaryen poursuit son apprentissage du pouvoir en devant choisir entre justice et compassion. À Port-Réal, Jaime retrouve Brienne et lui rend hommage. Jon mobilise ses hommes pour repousser les Sauvageons qui s'en prennent à Châteaunoir pendant que, plus au nord, Bran, Jojen, Meera et Hodor cherchent un abri…", "video": "media/series/got/4-4.mp4" },
-          { "title": "Premier du nom", "desc": "Tommen Baratheon est sacré roi et sa famille arrange son mariage. Baelish et Sansa arrivent chez Lady Lysa où un autre mariage prendra place. Daenerys apprend que Joffrey est mort, mais les nouvelles de Ser Jorah la poussent à repenser ses plans futurs. Jon et son petit groupe s’apprêtent à attaquer les mutins installés chez Craster.", "video": "media/series/got/4-5.mp4" },
-          { "title": "Les lois des Dieux et des hommes", "desc": "Stannis et Davos réclament une aide financière auprès de Tycho Nestoris. Daenerys siège à Meeren et reçoit ses habitants. Yara Greyjoy mène une attaque pour libérer son frère. Le procès de Tyrion commence.", "video": "media/series/got/4-6.mp4" },
-          { "title": "L'oiseau moqueur", "desc": "Tyrion doit trouver un champion pour le représenter pour son procès par combat. Jon et ses hommes sont de retour à Châteaunoir pour découvrir que rien n’a changé. Arya et Sandor Clegane continuent leur voyage et rencontrent un homme blessé. Daenerys donne de nouveaux ordres à Daario.", "video": "media/series/got/4-7.mp4" },
-          { "title": "La montagne et la vipère", "desc": "Petyr Baelish rencontre la noblesse du Val qui remet en cause la façon dont Lysa est morte. Ramsay Snow utilise Reek pour pénétrer Moat Cailin. Le village où vit Gilly est attaqué. Ser Barristan reçoit une lettre avec le seau de la Main du roi. Un épique combat prend place à Port-Réal.", "video": "media/series/got/4-8.mp4" },
-          { "title": "Les Veilleurs au rempart", "desc": "L’attaque du Mur est imminente. Alors que Jon évoque en compagnie de Sam sa relation avec Ygritte, cette dernière prépare son armement, bien déterminée à tuer celui qui l’a trahie. Quand l’armée de Mance Rayder arrive, l’affrontement peut commencer.", "video": "media/series/got/4-9.mp4" },
-          { "title": "Les enfants", "desc": "Les circonstances changent après une arrivée inattendue du nord du mur. Dany doit faire face à de dures réalités. Bran en apprend plus sur son destin. Tyrion voit la vérité à propos de sa situation.", "video": "media/series/got/4-10.mp4" }
-        ],
-        "5": [
-          { "title": "Les guerres à venir", "desc": "Cersei et Jaime doivent s'adapter à un monde sans Tywin. Varys révèle l'existence d'un complot à Tyrion. Daenerys doit faire face à une nouvelle menace pour son règne. Et Jon se retrouve coincé entre deux rois.", "video": "media/series/got/5-1.mp4" },
-          { "title": "La demeure du noir et du blanc", "desc": "Arya arrive à Braavos. Pod et Brienne rencontrent des ennuis sur la route. Cersei craint pour la sécurité de sa fille à Dorne, où Ellaria Sand cherche à se venger de la mort de Oberyn. Stannis tente Jon. Daenerys est attirée par un de ses conseillers.", "video": "media/series/got/5-2.mp4" },
-          { "title": "Le Grand Moineau", "desc": "À Braavos, Arya découvre le dieu Multiface. À Port-Real, la reine Margaery profite de son nouvel époux. De leur côté, Tyrion et Lord Varys traversent le long pont de Volantis…", "video": "media/series/got/5-3.mp4" },
-          { "title": "Les Fils de la Harpie", "desc": "Alors que chacun met ses pions en place dans le Nord, les moineaux prennent de plus en plus de place à la capitale, et Daenerys voit ses plus proches conseillers subir les foudres des Fils de la Harpie.", "video": "media/series/got/5-4.mp4" },
-          { "title": "Tue l'enfant", "desc": "Alors que Jorah et Tyrion font toujours route vers Meereen, Daenerys décide de changer de stratégie après les attaques de Fils de la Harpie. Au Nord, Stannis et ses troupes quittent le mur pour affronter les Bolton, et Jon Snow établie une singulière alliance.", "video": "media/series/got/5-5.mp4" },
-          { "title": "Insoumis, invaincus, intacts", "desc": "Arya continue son entraînement dans la demeure du Noir et du Blanc. Après avoir fait un long chemin à pied, Jorah et Tyrion sont capturés par des esclavagistes tandis que Jaime et Bronn atteignent leur destination. Mais les Aspics des Sables attaquent.", "video": "media/series/got/5-6.mp4" },
-          { "title": "Le cadeau", "desc": "Jon est parti pour Durlieu. Au Nord, Sansa tente de confier une mission à Theon tandis que Brienne attend un signe. Stannis reste tenace alors qu'à Dorne, Jaime a une discussion avec sa fille.", "video": "media/series/got/5-7.mp4" },
-          { "title": "Durlieu", "desc": "Dans le palais des Sans-Visage, Arya fait toujours des progrès dans sa formation. À Meereen, Daenerys essaye de montrer son respect des traditions tandis qu'au Nord, Sansa affronte un vieil ami. À Port-Réal, Cersei est sûre de sa victoire, avec Margaery en prison et Tommen impuissant devant le Haut-Moineau. Pendant ce temps-là, Jon arrive à Durlieu.", "video": "media/series/got/5-8.mp4" },
-          { "title": "La danse des dragons", "desc": "Stannis prend une terrible décision. Jon revient vers le mur. Arya rencontre quelqu'un de sa liste et Daenerys assiste malgré elle à la reprise des combats dans la Grande Arène.", "video": "media/series/got/5-9.mp4" },
-          { "title": "La miséricorde de la mère", "desc": "Stannis avance. Daenerys est entourée d'étrangers. Cersei recherche le pardon. Jon est mis au défi.", "video": "media/series/got/5-10.mp4" }
-        ],
-        "6": [
-          { "title": "La femme rouge", "desc": "Jon Snow mort, ses fidèles acculés à Châteaunoir doivent trouver un moyen de faire face à la rébellion et rendre justice au Lord Commandant. De retour de Dorne, Jaime apprend la terrible nouvelle à propos de Myrcella à Cersei. En fuite, Sansa et Theon sont traqués dans le Nord. Ramsay entend leur faire payer leur trahison. Daenerys disparue, le peuple de Meereen craint d'avoir été abandonné par la Mère des dragons. Pendant que Jorah et Daario sont à la recherche de la Khaleesi, Tyrion et Varys cherchent à savoir qui a orchestré l'attaque des Fils de la Harpie…", "video": "media/series/got/6-1.mp4" },
-          { "title": "La maison", "desc": "Pendant que Bran s'entraîne avec la corneille à trois-yeux, Davos est poussé dans ses derniers retranchements à Châteaunoir. Honteux de sa lâcheté, Tommen se présente enfin à Cersei, alors que Jaime tient tête au Grand Moineau. Malgré de nombreuses pertes, Ramsay est prêt à tout risquer pour traquer Sansa jusqu'au Mur. Découragée, Melisandre voit Davos lui faire une étonnante requête…", "video": "media/series/got/6-2.mp4" },
-          { "title": "Le briseur de serments", "desc": "Alors que Daenerys est confrontée à son futur, Bran poursuit son apprentissage avec la corneille à trois-yeux en explorant le passé. Varys et Tyrion tentent de découvrir qui a financé l'attaque contre leur Reine. À Port-Réal, Cersei entend prendre sa revanche, avec l'aide de Jaime, pendant que Tommen confronte le Grand Moineau. Quant à Arya, elle est mise à l'épreuve pour devenir une sans-visage…", "video": "media/series/got/6-3.mp4" },
-          { "title": "Le livre de l'étranger", "desc": "Une surprise attend Jon Snow alors qu'il s'apprête à quitter Châteaunoir. Lord Petyr convainc le jeune seigneur du Val qu'ils doivent lancer une armée contre Bolton afin de sauver Sansa. Tyrion use de diplomatie pour trouver un terrain d'entente avec les nobles de Volantis, les ennemis de la Reine qui ont sollicité les Fils de la Harpie. L'initiative n'est pas au goût des anciens esclaves. Daario et Jorah tentent de libérer leur souveraine, retenue prisonnière dans un temple Dothraki dédié aux khaleesis veuves. Quant à Cersei, elle se trouve d'improbables alliés.", "video": "media/series/got/6-4.mp4" },
-          { "title": "La porte", "desc": "Sansa affronte Lord Petyr, lequel l'a laissée entre les mains du sadique Ramsay Bolton. Arya a une nouvelle chance de faire ses preuves. Et Bran en apprend un peu plus sur les secrets du passé. Chez les Fer-nés, Yara Greyjoy espère succéder à son défunt père. À Meereen, Tyrion cherche toujours un moyen pour que le peuple, en dépit des rancœurs et croyances diverses, se soumette complètement à sa Reine…", "video": "media/series/got/6-5.mp4" },
-          { "title": "De mon sang", "desc": "Alors que Bran et Meera tentent d'échapper aux Marcheurs Blancs, Sam, la honte de sa famille, doit faire face aux siens. Il appréhende particulièrement la réaction de son père, le Seigneur Tarly. Le Grand Moineau accorde à Tommen le droit de voir son épouse, emprisonnée dans l'attente de sa marche d'expiation. Quant à Arya, parviendra-t-elle à accomplir la mission qui lui permettra de devenir une sans-visage ?", "video": "media/series/got/6-6.mp4" },
-          { "title": "L'homme brisé", "desc": "Sur les conseils du Grand Moineau, Margaery tente d'amener sa grand-mère sur le chemin de la Foi. Jon et Sansa essaient de rassembler les troupes, sachant qu'un Nord divisé ne pourra pas combattre leurs ennemis et regagner Winterfell. Sur les ordres du Roi, Jaime arrive à Vivesaigues avec la mission de reprendre le château à Brynden Tully pour le céder à leur allié Walder Frey…", "video": "media/series/got/6-7.mp4" },
-          { "title": "Personne", "desc": "Grièvement blessée, Arya se tourne vers la seule personne susceptible de lui venir en aide. Grâce à son pacte avec ses ennemis, Tyrion se réjouit de voir Meereen reprendre vie sous ses yeux. Brienne de Tarth espère convaincre La Silure de s'allier à Sansa pour défendre le Nord. Quant à Jaime, il tente de trouver un moyen de reprendre Vivesaigues. Sandor Clegane reprend les armes dans l'intention de venger ceux qui l'avaient recueilli…", "video": "media/series/got/6-8.mp4" },
-          { "title": "La bataille des bâtards", "desc": "L'heure est au combat sur tous les fronts. De retour à Meereen, Daenerys est prête à riposter pour contenir l'attaque de ses ennemis. Tyrion la conseille sur la stratégie à adopter. Dans le Nord, les Stark s'apprêtent à croiser le fer pour récupérer Winterfell. Confiant et arrogant, Ramsay Bolton recourt aux jeux de l'esprit pour décontenancer l'adversaire…", "video": "media/series/got/6-9.mp4" },
-          { "title": "Les vents de l'hiver", "desc": "Le jour du jugement est arrivé : Cercei et Loras vont devoir répondre de leurs actes devant le Grand Septon dirigé par le Grand Moineau. La Reine Mère trouvera-t-elle un moyen de se sortir de cette impasse ? À Meereen, épaulée de Tyrion, Daynerys s'apprête à mettre le cap vers Westeros avec la flotte des Fer-nés. Acculée par les Lannister, Olenna Tyrell se voit offrir une alliance inattendue. À Winterfell, la question de la succession se pose : qui de Sansa ou de Jon régnera sur la Maison Stark… et sur un Nord uni pour faire front contre leurs ennemis ?", "video": "media/series/got/6-10.mp4" }
-        ],
-        "7": [
-          { "title": "Peyredragon", "desc": "L'hiver est bel et bien là. Inquiet, Jon Snow appelle le Nord au rassemblement pour faire face à l'arrivée prochaine des Marcheurs blancs et du Roi de la Nuit. Hommes, femmes et enfants doivent se préparer à combattre. Sansa prévient son frère qu'il ne doit pas négliger pour autant la menace que représente Cersei Lannister. La Reine autoproclamée du Royaume des Sept Couronnes espère d'ailleurs nouer de nouvelles alliances qui lui permettraient d'anéantir ses ennemis. À la Citadelle, Sam brûle d'envie d'accéder à la bibliothèque et à son précieux savoir…", "video": "media/series/got/7-1.mp4" },
-          { "title": "Née du Typhon", "desc": "Daenerys reçoit une visite inattendue. À Peyredragon, l'heure est à la politique et aux stratégies. La Khaleesi doit s'assurer le soutien de ses alliés. Jon Snow en fera-t-il partie ? Jurera-t-il allégeance à la Reine légitime comme elle le souhaite ? Dans le Nord, tout le monde s'oppose à ce rapprochement…", "video": "media/series/got/7-2.mp4" },
-          { "title": "La justice de la reine", "desc": "Jon Snow et Davos se rendent en terre ennemie où ils doivent rencontrer Daenerys Targaryen. Le face-à-face entre le Roi du Nord et la Reine légitime des Sept Couronnes promet d'être tendu… Euron est de retour à Port-Réal avec un cadeau pour Cersei. Quant à Jaime, il tire enfin enseignement de ses erreurs…", "video": "media/series/got/7-3.mp4" },
-          { "title": "Les butins de guerre", "desc": "L'émotion est à l'ordre du jour chez les Stark avec le retour d'Arya à Winterfell. Avec l'aval de Daenerys, Jon Snow entreprend d'extraire le verredragon qui permettra de combattre les Marcheurs Blancs. Furieuse des échecs successifs essuyés face à ses ennemis, la Khaleesi décide de riposter et passer à l'action. Quant à Jaime, il va devoir faire face à une situation inattendue…", "video": "media/series/got/7-4.mp4" },
-          { "title": "Fort-levant", "desc": "Daenerys revendique la fidélité des soldats Lannister survivants et Bran fait remarquer à Jon que les Marcheurs Blancs se rapproche. Cersei fait le vœu de vaincre n'importe qui ou tout ce qui se trouve sur son chemin.", "video": "media/series/got/7-5.mp4" },
-          { "title": "Au-delà du Mur", "desc": "Parti s'aventurer au-delà du Mur en compagnie du Limier, de Jorah Mormont ou encore du sauvageon Tormund, Jon Snow doit affronter la rudesse de l'hiver dans l'espoir de capturer un Marcheur Blanc. Cette preuve tangible serait en effet le seul moyen de convaincre Cersei de s'allier avec ses ennemis pour contrer la redoutable menace qui les attend… Du côté de Winterfell, Arya confronte sa soeur après sa récente découverte…", "video": "media/series/got/7-6.mp4" },
-          { "title": "Le dragon et le loup", "desc": "Après l'effroyable bataille face aux Marcheurs Blancs au-delà du Mur, Daenerys, Jon Snow et leurs alliés partent à la rencontre des Lannister dans l'espoir de négocier une trêve. Trouveront-ils les bons arguments ? La menace de l'armée des morts suffira-t-elle à motiver Cersei à trouver un terrain d'entente avec la Mère des Dragons et le Roi du Nord ? Plus que jamais, Tyrion va devoir se montrer convaincant face à une sœur qui ne veut qu'une chose : le voir mort ! Du côté de Winterfell, Littlefinger complote toujours pour monter les sœurs Stark l'une contre l'autre…", "video": "media/series/got/7-7.mp4" }
-        ],
-        "8": [
-          { "title": "Winterfell", "desc": "Accompagné par Daenerys Targaryen, Jon Snow est de retour à Winterfell. Des retrouvailles émouvantes l'y attendent. Sansa peine à montrer son allégeance à cette Reine étrangère. Et elle ne croit pas en une alliance avec Cersei Lannister…", "video": "media/series/got/8-1.mp4" },
-          { "title": "Un chevalier des sept couronnes", "desc": "Jaime Lannister est arrivé à Winterfell. Face à la menace des marcheurs blancs, il a choisi de rallier le camp de Jon Snow et de son frère Tyrion Lannister. Mais Daenerys se retrouve face à celui qui a tué son père et cela ne la laisse pas de marbre. Dehors, les morts se rapprochent…", "video": "media/series/got/8-2.mp4" },
-          { "title": "La longue nuit", "desc": "Alors que l'armée du Roi de la Nuit est aux portes de Winterfell, la tension monte dans les rangs. Tout le monde attend le coup d'envoi d'affrontements qui s’annoncent terribles. Le Nord fera-t-il le poids conte les marcheurs blancs ?", "video": "media/series/got/8-3.mp4" },
-          { "title": "Les derniers des Stark", "desc": "Après une victoire douloureuse, Jon et Daenerys se tournent vers le sud tandis que Tyrion cherche un compromis qui pourrait sauver de nombreuses vies.", "video": "media/series/got/8-4.mp4" },
-          { "title": "Les cloches", "desc": "Trahie et endeuillée, Daenarys doit se ressaisir pour le nouveau combat qui l'attend. Aura-t-elle sa revanche ? Aux portes de Port-Réal, un terrible siège se prépare. Cersei compte sur la flotte d'Euron, la compagnie Dorée et les remparts de la ville pour stopper sa rivale et son dragon…", "video": "media/series/got/8-5.mp4" },
-          { "title": "Le trône de fer", "desc": "Alors que Daenerys appelle ses hommes à livrer bataille, Arya, Jon et Tyrion sont dépités par le spectacle qui s'offre à eux. Déçue par sa trahison, quel sort la Khaleesi va-t-elle réserver à sa Main ?", "video": "media/series/got/8-6.mp4" }
-        ]
-      }
-    },
-    "The Last of Us": {
-      "title": "The Last of Us",
-      "description": "Vingt ans après la destruction de la civilisation moderne, Joel, un survivant endurci, est engagé pour faire sortir Ellie, une jeune fille de 14 ans, d'une zone de quarantaine oppressante. Ce qui n'est au départ qu'un petit travail se transforme rapidement en un voyage brutal et époustouflant, alors que dans ce duo improbable, chacun dépend de l'autre pour sa survie.",
-      "banner": "media/series/thelastofus/thelastofus.jpg",
-      "IMDb": 8.7,
-      "IMDb_link": "https://www.imdb.com/title/tt3581920/",
-      "year": 2023,
-      "genres": ["Drame", "Histoire", "Thriller"],
-      "creators": ["Craig Mazin", "Neil Druckmann"],
-      "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
-      "seasons": {
-        "1": [
-          { "title": "Quand tu es perdu dans les ténèbres", "desc": "Alors qu'une pandémie a détruit la civilisation, un survivant aguerri vient en aide à une jeune fille de 14 ans, qui pourrait bien être le dernier espoir de l'humanité.", "video": "media/series/thelastofus/1-1.mp4" },
-          { "title": "Infecté", "desc": "En 2003, un scientifique indonésien fait une terrible découverte. En 2023, Joel et Tess s'échappent de la zone de quarantaine tandis qu'ils se frayent un chemin, infectés, dans les ruines de Boston, depuis longtemps abandonnée.", "video": "media/series/thelastofus/1-2.mp4" },
-          { "title": "Longtemps...", "desc": "Lorsqu'un étranger s'approche du camp, Bill conclut une alliance inattendue qui change la vie des deux personnages impliqués. Plus tard, Joel et Ellie se rendent chez Bill dans l'espoir d'y trouver ce dont ils ont besoin pour continuer leur voyage.", "video": "media/series/thelastofus/1-3.mp4" },
-          { "title": "S'il te plaît, tiens-moi la main", "desc": "Après avoir abandonné leur camion à Kansas City, Joel et Ellie tentent de s'échapper sans attirer l'attention d'une cheffe rebelle revancharde.", "video": "media/series/thelastofus/1-4.mp4" },
-          { "title": "La survie à tout prix", "desc": "Kansas City à présent libre, Henry lutte pour protéger son frère Sam des soldats rebelles prêts à tout pour satisfaire leur cruel chef. La chasse à l'homme continue tandis que la soif de vengeance de Kathleen s'intensifie. Pendant ce temps, Ellie noue une amitié importante.", "video": "media/series/thelastofus/1-5.mp4" },
-          { "title": "Proche", "desc": "Après des mois de voyage, Joel et Ellie reçoivent un sinistre avertissement sur ce qui les attend. Plus tard, Ellie en apprend plus sur le passé de Joel, tandis que ce dernier préférerait l'oublier.", "video": "media/series/thelastofus/1-6.mp4" },
-          { "title": "Abandonner", "desc": "Alors que Joel se bat pour survivre, Ellie revient sur la nuit qui a tout changé.", "video": "media/series/thelastofus/1-7.mp4" },
-          { "title": "Quand on est dans le besoin", "desc": "Après avoir croisé la route d'un groupe de survivants en quête de vengeance, Ellie et sa combativité attirent l'attention de leur chef. Joel, affaibli et toujours en train de lutter pour survivre, doit affronter un groupe de chasseurs assoiffés de sang.", "video": "media/series/thelastofus/1-8.mp4" },
-          { "title": "Cherchez la lumière", "desc": "Après avoir été poursuivie par les Infectés, Anna, enceinte, décide de faire confiance à un ami de longue date. Des années plus tard, Ellie doit supporter le poids émotionnel de son aventure, tandis que Joel doit lui aussi prendre une décision lourde de conséquences.", "video": "media/series/thelastofus/1-9.mp4" }
-        ],
-        "2": [
-          { "title": "Les Jours futurs", "desc": "Cinq ans après les événements de Salt Lake City, Ellie, aujourd'hui âgée de 19 ans, fait une découverte lors d'une patrouille avec sa meilleure amie Dina. Joel, quant à lui, cherche de l'aide pour renouer avec Ellie.", "video": "media/series/thelastofus/2-1.mp4" },
-          { "title": "À travers la vallée", "desc": "Alors qu'une tempête se prépare dans les montagnes, les habitants de Jackson Hole se préparent au pire alors qu'ils voient de plus en plus d'infectés. Pendant ce temps, Abby réfléchit à ses options.", "video": "media/series/thelastofus/2-2.mp4" },
-          { "title": "Épisode 3", "desc": "À venir", "video": "media/series/thelastofus/2-3.mp4" },
-          { "title": "Épisode 4", "desc": "À venir", "video": "media/series/thelastofus/2-4.mp4" },
-          { "title": "Épisode 5", "desc": "À venir", "video": "media/series/thelastofus/2-5.mp4" },
-          { "title": "Épisode 6", "desc": "À venir", "video": "media/series/thelastofus/2-6.mp4" },
-          { "title": "Épisode 7", "desc": "À venir", "video": "media/series/thelastofus/2-7.mp4" }
-        ]
-      }
-    },
-    "Breaking Bad": {
-      "title": "Breaking Bad",
-      "description": "Walter White, professeur de chimie dans un lycée d'Albuquerque au Nouveau-Mexique, est atteint d'un cancer pulmonaire en phase terminale. Il s'associe à Jesse Pinkman, un ancien élève, cancre, toxicomane et dealer, afin d'assurer l'avenir financier de sa famille après son décès. L'improbable duo va alors synthétiser et commercialiser la plus pure méthamphétamine en cristaux jamais vue dans les Amériques.",
-      "banner": "media/series/breakingbad/breakingbad.jpg",
-      "IMDb": 9.5,
-      "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
-      "year": 2008,
-      "genres": ["Crime", "Drame", "Thriller"],
-      "creators": ["Vince Gilligan"],
-      "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
-      "seasons": {
-        "1": [
-          { "title": "Chute libre", "desc": "Atteint d'un cancer en phase terminale, un professeur de chimie se lance dans la fabrication et la vente de méthamphétamines pour assurer l'avenir financier de sa famille.", "video": "media/series/breakingbad/1-1.mp4" },
-          { "title": "Le choix", "desc": "Alors qu'ils viennent de rater un deal, Walt et Jesse doivent se débarrasser de deux corps, tandis que Skyler soupçonne son mari de mijoter quelque chose.", "video": "media/series/breakingbad/1-2.mp4" },
-          { "title": "Dérapage", "desc": "Alors que Walt tente de remettre de l'ordre après son premier deal, Skyler est à deux doigts de la vérité au sujet de la double vie de son mari.", "video": "media/series/breakingbad/1-3.mp4" },
-          { "title": "Retour aux sources", "desc": "Contraint de révéler à son entourage la vérité sur sa maladie, Walter doit trouver un moyen de financer son traitement contre le cancer.", "video": "media/series/breakingbad/1-4.mp4" },
-          { "title": "Vivre ou survivre", "desc": "Skyler tente de persuader Walter d'accepter le travail lucratif proposé par un ancien ami qui lui permettrait de couvrir ses dépenses de santé.", "video": "media/series/breakingbad/1-5.mp4" },
-          { "title": "Bluff", "desc": "Alors que ses frais médicaux augmentent et que les effets secondaires de la chimio se font ressentir, Walt compte sur Jesse pour l'aider à écouler plus de came.", "video": "media/series/breakingbad/1-6.mp4" },
-          { "title": "Le fruit défendu", "desc": "Alors que Jesse a frôlé la mort, Walt décide de doubler sa production pour l'impitoyable Tuco, pendant que Skyler soupçonne sa sœur de vol à l'étalage.", "video": "media/series/breakingbad/1-7.mp4" }
-        ],
-        "2": [
-          { "title": "Traqués", "desc": "Alors qu'ils planifient leurs derniers gros deals, Walt et Jesse craignent que leur unique client ne les tue quand bon lui semblera.", "video": "media/series/breakingbad/2-1.mp4" },
-          { "title": "Chasse à l'homme", "desc": "Tandis que la DEA mène une véritable chasse à l'homme pour mettre la main sur Tuco, Skyler demande à Hank de l'aider à retrouver Walt.", "video": "media/series/breakingbad/2-2.mp4" },
-          { "title": "Alibi", "desc": "Alors que Hank est à deux doigts de percer la petite activité de Walt, ce dernier décide d'élaborer un plan pour brouiller les pistes.", "video": "media/series/breakingbad/2-3.mp4" },
-          { "title": "Au fond du gouffre", "desc": "Alors que Walt essaie de combler le gouffre qui s'est creusé entre Skyler et lui, Jesse se retrouve sans abri après que ses parents l'ont mis à la porte.", "video": "media/series/breakingbad/2-4.mp4" },
-          { "title": "Nouveau départ", "desc": "Pendant que Hank essaie de se ressaisir après sa rencontre avec Tuco, Jesse décide de recruter parmi ses amis pour écouler davantage de stock.", "video": "media/series/breakingbad/2-5.mp4" },
-          { "title": "Règlements de comptes", "desc": "Tandis que Jesse part à la recherche des toxicos qui ont volé la marchandise de Skinny Pete, Walt doit s'expliquer sur la source de ses revenus.", "video": "media/series/breakingbad/2-6.mp4" },
-          { "title": "Poisson-lune", "desc": "Alors que Walt se réjouit de la réputation grandissante de Jesse et décide de développer leur affaire, Hank rend une petite visite au bureau de la DEA d'El Paso.", "video": "media/series/breakingbad/2-7.mp4" },
-          { "title": "Appelez donc Saul", "desc": "Quand Badger se fait coincer par la police, Walt et Jesse décident de lui trouver un avocat.", "video": "media/series/breakingbad/2-8.mp4" },
-          { "title": "Seuls au monde", "desc": "Pensant vivre ses dernières heures, Walt décide d'assurer une réserve d'argent suffisante à sa famille en entraînant Jesse dans un marathon de fabrication de meth.", "video": "media/series/breakingbad/2-9.mp4" },
-          { "title": "Introspection", "desc": "Après l'annonce du début de rémission de son cancer, Walt s'en prend à son beau-frère et cherche à réparer tout ce qui peut l'être dans la maison.", "video": "media/series/breakingbad/2-10.mp4" },
-          { "title": "Nouvelle donne", "desc": "À quelques jours de son accouchement, Skyler se sent perdue, tandis que la mort d'un dealer en pleine rue contraint Walt à chercher un lieu sûr où écouler la came.", "video": "media/series/breakingbad/2-11.mp4" },
-          { "title": "Vie et mort", "desc": "Dans cet épisode, Walt doit choisir entre assurer la livraison d'un gros deal et se rendre au chevet de sa femme sur le point d'accoucher.", "video": "media/series/breakingbad/2-12.mp4" },
-          { "title": "Effet papillon", "desc": "Alors qu'il se prépare à passer sur le billard, Walt tente de reprendre sa vie et celle de Jesse en main, et cherche à cacher sa source de revenus à Skyler et Walt Jr.", "video": "media/series/breakingbad/2-13.mp4" }
-        ],
-        "3": [
-          { "title": "Crash", "desc": "Après la catastrophe aérienne, Skyler met Walt à la porte, tandis que la cure de désintoxication de Jesse lui permet de faire face à son passé.", "video": "media/series/breakingbad/3-1.mp4" },
-          { "title": "Tensions", "desc": "Alors que Skyler demande le divorce, Walt se retrouve malgré lui dans la ligne de mire de deux tueurs à gages de cartels mexicains assoiffés de vengeance.", "video": "media/series/breakingbad/3-2.mp4" },
-          { "title": "Sur le fil", "desc": "La tension monte quand Walter retourne s'installer à la maison sans l'autorisation de Skyler, quant à Jesse, il envisage de se relancer dans le deal.", "video": "media/series/breakingbad/3-3.mp4" },
-          { "title": "Chiens et chats", "desc": "Alors que Jesse a repris du service et qu'il tente de rameuter Walt, la liaison qu'entretient Skyler avec son chef sème le chaos.", "video": "media/series/breakingbad/3-4.mp4" },
-          { "title": "Retour aux affaires", "desc": "Alors que Skyler revient sur ses décisions, Walter envisage de reprendre le deal, tandis que la détermination de Hank s'annonce périlleuse pour Jesse.", "video": "media/series/breakingbad/3-5.mp4" },
-          { "title": "Le camping-car", "desc": "La découverte du vieux camping-car de Walt et de Jesse les contraint à agir au plus vite, alors que Walt reprend du service dans le laboratoire dernier cri de Gus.", "video": "media/series/breakingbad/3-6.mp4" },
-          { "title": "Vendetta", "desc": "Alors que Hank risque sa carrière en s'en prenant à Jesse, ce dernier est bien déterminé à porter plainte, mais Skyler demande à Walt d'intervenir.", "video": "media/series/breakingbad/3-7.mp4" },
-          { "title": "Prise de pouvoir", "desc": "Alors que Hank s'accroche à la vie après l'attaque du cartel, Walt veut éviter tout problème et propose à Jesse de devenir son partenaire.", "video": "media/series/breakingbad/3-8.mp4" },
-          { "title": "Kafkaïen", "desc": "Alors que Marie a peur de voir son mari paralysé, Jesse cherche un moyen d'augmenter sa part des bénéfices.", "video": "media/series/breakingbad/3-9.mp4" },
-          { "title": "La mouche", "desc": "La nuit est longue et tendue pour Jesse et Walt qui ont toutes les peines du monde à se débarrasser d'un intrus qui a réussi à s'infiltrer dans le laboratoire.", "video": "media/series/breakingbad/3-10.mp4" },
-          { "title": "Société écran", "desc": "Hank est découragé par ses faibles progrès, Skyler remet en cause le système de blanchiment d'argent de Saul, et Jesse tombe sous le charme d'une copine de désintox.", "video": "media/series/breakingbad/3-11.mp4" },
-          { "title": "Demi-mesures", "desc": "Jesse poursuit les dealers à l'origine du meurtre de Combo, tandis que Hank hésite à quitter l'hôpital, et que Skyler mène Walt par le bout du nez.", "video": "media/series/breakingbad/3-12.mp4" },
-          { "title": "Pleine mesure", "desc": "Après le meurtre de trafiquants, Walter tente de négocier un accord avec Gus pour avoir la vie sauve, quand un personnage fait son retour.", "video": "media/series/breakingbad/3-13.mp4" }
-        ],
-        "4": [
-          { "title": "Le cutter", "desc": "Après une troisième saison riche en suspense où Walt et Jesse se sont battus pour sauver leurs vies, quel tour Gus leur réserve-t-il à présent ?", "video": "media/series/breakingbad/4-1.mp4" },
-          { "title": "Snub 38", "desc": "Pendant que Walt prépare sa riposte contre Gus, Jesse tente de renouer les liens avec Badger et Skinny Pete.", "video": "media/series/breakingbad/4-2.mp4" },
-          { "title": "Motivations", "desc": "Tandis que Walt s'inquiète des ingérences de Gus et de l'état psychologique de Jesse, Skyler augmente encore un peu la pression pour obtenir ce qu'elle veut.", "video": "media/series/breakingbad/4-3.mp4" },
-          { "title": "Les points importants", "desc": "Alors que Walt apprend que Hank a ouvert une nouvelle enquête, Skyler doit inventer une histoire tordue pour justifier les revenus de sa famille.", "video": "media/series/breakingbad/4-4.mp4" },
-          { "title": "Nouveau job", "desc": "Alors que Mike emmène Jesse faire une virée en voiture pour récupérer l'argent des ventes, Walt s'inquiète pour la sécurité de son partenaire.", "video": "media/series/breakingbad/4-5.mp4" },
-          { "title": "Guerre froide", "desc": "Skyler se montre distante alors qu'elle soupçonne Walt de lui cacher la vérité, pendant que Jesse prouve à Mike et à Gus de quoi il est capable.", "video": "media/series/breakingbad/4-6.mp4" },
-          { "title": "Négociations", "desc": "La femme de Walt l'oblige à retourner la voiture qu'il vient d'acheter à son fils. Le nouveau système de blanchiment d'argent met Skyler dans une situation délicate.", "video": "media/series/breakingbad/4-7.mp4" },
-          { "title": "Frères et partenaires", "desc": "Alors que Hank réussit à prouver que Gus est le gros bonnet du crystal d'Albuquerque, Walt craint que Jesse et lui ne soient tués pour protéger leur boss.", "video": "media/series/breakingbad/4-8.mp4" },
-          { "title": "Incontrôlables", "desc": "Walt tente de saboter les pistes de Hank, alors qu'un avertissement de taille contraint Gus à envisager un accord avec le cartel mexicain.", "video": "media/series/breakingbad/4-9.mp4" },
-          { "title": "Salud", "desc": "Gus entraîne Jesse au Mexique pour conclure un marché avec le cartel, pendant que Walt essaie tant bien que mal de se remettre d'une bagarre.", "video": "media/series/breakingbad/4-10.mp4" },
-          { "title": "Seul contre tous", "desc": "Alors que Ted finit par accepter l'argent proposé par Skyler pour payer ses impôts, Gus insiste pour que Jesse reprenne tout seul ses activités au laboratoire.", "video": "media/series/breakingbad/4-11.mp4" },
-          { "title": "Echec", "desc": "Tandis que les White se réfugient chez Hank où ils sont placés sous protection policière, Walt refuse de les accompagner et décide de voir à quelle sauce il sera mangé.", "video": "media/series/breakingbad/4-12.mp4" },
-          { "title": "Mat", "desc": "Alors que le plan qu'ils avaient élaboré pour tuer Gus tombe à l'eau, Walt et Jesse n'ont pas une minute à perdre pour brouiller les pistes et échapper à la mort.", "video": "media/series/breakingbad/4-13.mp4" }
-        ],
-        "5": [
-          { "title": "Vivre libre ou mourir", "desc": "Walter a changé d'identité. Pour survivre, il doit retrouver les vidéos de Gus et s'assurer qu'elles ne tomberont pas entre les mains de Hank. Il lui faut entrer en contact avec Mike, qui est le seul à savoir où sont ces précieux enregistrements. Hélas, la police a déjà saisi les vidéos et les a mises sous scellés…", "video": "media/series/breakingbad/5-1.mp4" },
-          { "title": "Madrigal", "desc": "La police continue ses recherches sur les affaires de Gus. Elle s'intéresse notamment à une entreprise allemande, la Madrigal Eletromotive, à laquelle le malfrat était lié financièrement. Mike, lui, s'inquiète à cause de ses entretiens avec Hank. Coincé, il finit par accepter de travailler avec Walt et Jesse…", "video": "media/series/breakingbad/5-2.mp4" },
-          { "title": "Nouveaux labos", "desc": "Walter envisage de mettre sur pied un laboratoire mobile, moins risqué, pour sa production de méthamphétamine. Il crée donc une entreprise de dératisation qui lui servira de société écran. De son côté, Jesse s'adresse à Badger et Skinny Pete pour l'approvisionnement des matériaux nécessaires à la construction du nouveau laboratoire. Le jeune homme décide par ailleurs de quitter Andrea et de prendre ses distances avec Brock. Marie ne comprend pas pourquoi sa soeur est si dure avec son mari et tente d'en parler avec elle. Walter et Mike ne sont pas d'accord sur la manière de répartir les profits de leur production…", "video": "media/series/breakingbad/5-3.mp4" },
-          { "title": "Cinquante et un", "desc": "Alors que l'anniversaire de Walter approche, Skyler, de plus en plus déprimée, songe à mettre fin à ses jours. Elle finit par avouer à son mari que son souhait le plus cher serait qu'il soit rattrapé par son cancer. Elle décide alors d'envoyer vivre leurs deux enfants chez sa soeur pour les éloigner de leur père et de ses activités. Dans le même temps, Hank et ses hommes font une descente dans les locaux de Madrigal Electromotive et procèdent à l'arrestation d'un des proches de Lydia. Celle-ci manipule Jesse et Mike pour ne pas éveiller leurs soupçons…", "video": "media/series/breakingbad/5-4.mp4" },
-          { "title": "Le plan presque parfait", "desc": "Walter profite d'une visite dans le nouveau bureau de son beau-frère pour lui confier ses problèmes conjugaux. Mais cet entretien n'est en fait qu'un prétexte pour cacher un micro dans les locaux de la police. Jesse, Mike et Walter ont du mal à faire confiance à Lydia, qui prétend que sa marchandise est surveillée par les forces de l'ordre. Pour montrer sa bonne foi et sauver sa peau, Lydia leur livre des informations confidentielles, censées leur permettre de s'approprier une grande quantité de drogue. Pendant ce temps, Junior se demande pourquoi sa mère tente de l'empêcher d'entrer en contact avec son père…", "video": "media/series/breakingbad/5-5.mp4" },
-          { "title": "Divergence", "desc": "Jesse désapprouve les nouvelles méthodes employées par ses associés : traumatisé par le meurtre du jeune garçon, il exige le départ de Todd, mais Walter refuse catégoriquement. Le désaccord entre Jesse, Mike et Walter ne cesse de croître. De son côté, Skyler confie à sa soeur, Marie, qu'elle craint l'influence de Walter sur ses enfants…", "video": "media/series/breakingbad/5-6.mp4" },
-          { "title": "Heisenberg", "desc": "Walter, Mike et Jesse veulent s'associer avec Declan afin qu'il s'occupe de la distribution de leur stock de drogue. Mike, qui cherche à se retirer de l'association, decide de vendre son stock de meth à Declan. Jesse quitte Walt à son tour, malgré les tentatives de celui-ci pour le retenir. Il se tourne alors vers Todd, dont il fait son nouvel assistant. Grâce au micro que Walt a caché dans le bureau de Hank, Mike apprend que son appartement va bientôt être fouillé par la police. Bredouille, Hank porte son attention sur Dan, l'avocat des complices de Mike…", "video": "media/series/breakingbad/5-7.mp4" },
-          { "title": "Un nouveau jour se lève", "desc": "Todd et Walter doivent se débarrasser du corps de Mike sans éveiller les soupçons de Jesse. Walt reprend contact avec Lydia, qui lui propose d'ouvrir sa propre distribution de drogue en République tchèque. Walt accepte et, pour éviter d'être la cible d'une vengeance, fait éliminer les complices de Mike par des malfrats proches de l'oncle de Todd…", "video": "media/series/breakingbad/5-8.mp4" },
-          { "title": "Le prix du sang", "desc": "Après avoir trouvé dans la salle de bains de Walter un livre dédicacé par Gale Boetticher, Hank a compris que son beau-frère était impliqué dans la fabrication de méthamphétamine bleue. Totalement déboussolé par cette information, il est pris de panique sur le chemin du retour. Plus tard, en reprenant tout le dossier, il réalise qu'il a fait fausse route depuis le départ. Walt, de son côté, à tenu sa promesse envers Skyler et a cessé ses activités criminelles. Il commence à travailler à la station de lavage de voitures et souhaite en ouvrir une nouvelle. Malheureusement, ses derniers examens de santé sont mauvais…", "video": "media/series/breakingbad/5-9.mp4" },
-          { "title": "Enterré", "desc": "Un matin, un vieil homme quitte sa maison et découvre une liasse de billets dans son allée. En regardant dans la rue, il en voit d'autres. En suivant les liasses, il finit par trouver la voiture de Jesse, accidentée dans un parc. Jesse est allongé sur un carousel, le regard vide. Après sa confrontation avec Hank, Walt cherche désespérément à contacter Skyler. N'obtenant pas de réponse, il se rend de toute urgence au car wash, mais après avoir parlé avec Hank au téléphone, elle a quitté les lieux pour retrouver son beau-frère dans un restaurant. Il lui assure qu'elle n'a plus rien à craindre de Walt…", "video": "media/series/breakingbad/5-10.mp4" },
-          { "title": "Confessions", "desc": "Walt et Skyler retrouvent Hank et Marie dans un restaurant. Ils tentent de les convaincre de reprendre le cours de leur vie, en tâchant d'oublier ce qu'ils ont découvert, puisque Walt risque de toute façon de ne plus être là dans quelques mois. Cependant, Hank refuse de laisser tomber son enquête. Avant de le quitter, son beau-frère lui laisse un DVD contenant ses confessions. Walt y affirme avoir été obligé de se lancer dans la fabrication de méthamphétamine sous la pression de Hank. De son côté, Jesse est libéré de prison. Walt parvient à le persuader de quitter la région sous une nouvelle identité…", "video": "media/series/breakingbad/5-11.mp4" },
-          { "title": "Comme un chien enragé", "desc": "La voiture de Saul est garée dans l'allée de la maison de Walt et la porte d'entrée est ouverte. Pensant que Jesse l'attend, il passe par derrière mais, une fois entré, il constate qu'il n'y a personne. De l'essence a été répandue partout dans le salon. Walt essaie en vain de tout nettoyer…", "video": "media/series/breakingbad/5-12.mp4" },
-          { "title": "Règlement de compte à Tohajiilee", "desc": "Lydia critique la qualité de la drogue produite par Todd, qui se voit chargé, par Walt de proposer un contrat à son oncle. Jesse suggère un nouveau plan d'action à Hank et Gomez : s'en prendre à l'argent de Walt. Dans le hangar, Walt rencontre Todd et son oncle, pour planifier l'élimination de Jesse. Les deux hommes acceptent à la condition que Walt contribue à améliorer leur produit…", "video": "media/series/breakingbad/5-13.mp4" },
-          { "title": "Seuke au monde", "desc": "Walt et Jesse survivent à la fusillade dans le désert. Cette fois, Walt espère que Jack, l'oncle de Todd, s'acquittera de sa part du marché en éliminant son ex-assistant. Mais Todd parvient à convaincre son oncle de garder Jesse en vie, afin qu'il transforme ce qu'il leur reste de méthylamine. Pendant que Walt révèle à Jesse la vérité sur la mort de Jane, Marie va trouver sa soeur à la station de lavage. Après un appel de Hank, elle pense que le mari de Skyler est désormais sous les verrous. Pourtant, quand elle rentre chez elle, Skyler trouve Walt à la maison, prêt à fuir avec elle et les enfants…", "video": "media/series/breakingbad/5-14.mp4" },
-          { "title": "L'origine du mal", "desc": "Walt est prêt à quitter Albuquerque pour toujours, sous une nouvelle identitée concoctée par le contact de Saul. L'avocat est lui aussi en fuite, car il sait que les autorités ne tarderont pas à faire le lien entre lui et Heisenberg. Walt essaie de le convaincre de le suivre, mais sans succès. Chacun suit sa propre voie. Pour le chimiste, une nouvelle vie démarre bientôt dans le New Hampshire. Le contact de Saul l'emmène dans une cabane perdue dans une montagne enneigée, qu'il ne pourra pas quitter avant des mois s'il veut éviter d'être arrêter. Pourtant, Walt n'a pas l'intention d'attendre sa mort dans ce lieu perdu…", "video": "media/series/breakingbad/5-15.mp4" },
-          { "title": "Revenir ou mourir", "desc": "Walt est de retour à Albuquerque pour régler ses comptes. Il se rend tout d'abord chez Elliott et Gretchen Schwartz, à qui il confie une très importante somme d'argent, qu'ils auront pour mission de faire parvenir à sa famille. Le couple hésite, mais il les convainc finalement par la menace. Ensuite, Walt rend visite à Skyler pour la dernière fois et lui avoue enfin qu'il n'a pas seulement agi pour protéger les siens. Plus tard, il retrouve Todd et Lydia et leur explique qu'il a trouvé une nouvelle formule chimique permettant de fabriquer de la drogue plus facilement. Enfin, il se rend dans la cachette de Todd et son oncle…$", "video": "media/series/breakingbad/5-16.mp4" }
-        ]
-      }
+  "The 100": {
+    "title": "The 100",
+    "description": "Après une apocalypse nucléaire causée par l'Homme lors d'une troisième Guerre Mondiale, les 318 survivants recensés se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, l'Arche, est en piteux état. Une centaine de jeunes délinquants emprisonnés au fil des années pour des crimes ou des trahisons sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant...",
+    "banner": "media/series/the100/the100.jpg",
+    "IMDb": 7.5,
+    "IMDb_link": "https://www.imdb.com/title/tt2661044/",
+    "year": 2014,
+    "genres": ["Action", "Aventure", "Drame"],
+    "creators": ["Jason Rothenberg"],
+    "stars": ["Eliza Taylor", "Bob Morley", "Marie Avgeropoulos"],
+    "seasons": {
+      "1": [
+        {
+          "title": "L'exil",
+          "desc": "Près d'un siècle après une apocalypse nucléaire, cent jeunes prisonniers d'une station spatiale vieillissante sont envoyés sur Terre pour y tester les conditions de vie.",
+          "video": "media/series/the100/1-1.mp4"
+        },
+        {
+          "title": "Signes de vie",
+          "desc": "Après avoir découvert que Jasper pourrait être toujours vivant, Clarke, Bellamy, Octavia, Finn et Monty se lancent dans une mission pour tenter de le retrouver.",
+          "video": "media/series/the100/1-2.mp4"
+        },
+        {
+          "title": "Une question de courage",
+          "desc": "L'apparition d'un nuage toxique compromet une mission visant à trouver un remède au mal de Jasper. Clarke découvre la vérité au sujet de la trahison de son père.",
+          "video": "media/series/the100/1-3.mp4"
+        },
+        {
+          "title": "La loi de Murphy",
+          "desc": "Un décès choquant rapproche Clarke et Finn. Bellamy tente d'empêcher le groupe de se disputer. Abby prend un risque démesuré.",
+          "video": "media/series/the100/1-4.mp4"
+        },
+        {
+          "title": "Une lueur d'espoir",
+          "desc": "Après avoir révélé le plan de Kane visant à réduire la population sur l'Arche, Abby et Jaha découvrent qu'au moins une partie des 100 pourrait être toujours en vie.",
+          "video": "media/series/the100/1-5.mp4"
+        },
+        {
+          "title": "Responsabilité",
+          "desc": "Bellamy et son équipe s'aventurent chez les Natifs à la recherche d'Octavia. De son côté, Raven remarque le lien profond unissant Finn et Clarke.",
+          "video": "media/series/the100/1-6.mp4"
+        },
+        {
+          "title": "Sous pression",
+          "desc": "Abby vient en aide à Clarke lors d'une opération dangereuse, pendant que Diana Sydney la remplace au poste de Chancelier. Kane reste tourmenté par sa récente décision.",
+          "video": "media/series/the100/1-7.mp4"
+        },
+        {
+          "title": "Une excursion stupéfiante",
+          "desc": "Sous l'effet d'un hallucinogène, une partie des 100 perd le sens des réalités. Alors que l'un d'entre eux a pour mission de tuer, la trahison de Diana est mise au jour.",
+          "video": "media/series/the100/1-8.mp4"
+        },
+        {
+          "title": "Le jour de l'unité",
+          "desc": "Clarke et Finn tentent de négocier la paix avec les Natifs, tandis que d'autres se préparent au combat. Les célébrations du Jour de l'Unité tournent à la tragédie.",
+          "video": "media/series/the100/1-9.mp4"
+        },
+        {
+          "title": "Maintenant je suis la mort",
+          "desc": "Chacun à leur manière, Clarke et Bellamy font face au retour de John Murphy qui affirme avoir été retenu en otage par les Natifs.",
+          "video": "media/series/the100/1-10.mp4"
+        },
+        {
+          "title": "Le calme",
+          "desc": "Clarke et Finn organisent une expédition de ravitaillement. Raven fait une proposition alléchante à Bellamy. Kane met sa vie en péril et retrouve Jaha et Abby.",
+          "video": "media/series/the100/1-11.mp4"
+        },
+        {
+          "title": "Natifs de la Terre [Partie 1]",
+          "desc": "Clarke et Finn affrontent un nouvel ennemi et Bellamy agit en héros pour venir en aide à Jasper. Pendant ce temps, les habitants de l'Arche font face à l'inévitable.",
+          "video": "media/series/the100/1-12.mp4"
+        },
+        {
+          "title": "Natifs de la Terre [Partie 2]",
+          "desc": "Alors que le conflit s'aggrave, Clarke supplie Bellamy de prendre les bonnes décisions. Octavia fait un choix difficile. Raven et Jasper luttent contre le temps.",
+          "video": "media/series/the100/1-13.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "48",
+          "desc": "Clarke tente de trouver un sens à sa présence dans la salle blanche. Les survivants de l'Arche font face à plusieurs dilemmes. Un vieil ennemi fait son grand retour.",
+          "video": "media/series/the100/2-1.mp4"
+        },
+        {
+          "title": "Mal des montagnes",
+          "desc": "Méfiante, Clarke défie le président Wallace et exige d'obtenir des réponses à ses questions. Kane interroge l'un des 100. Abby pratique une intervention d'urgence.",
+          "video": "media/series/the100/2-2.mp4"
+        },
+        {
+          "title": "Actes et conséquences",
+          "desc": "Clarke fait équipe avec une improbable alliée après avoir fait une horrible découverte au Mont Weather. De son côté, Abby confesse un crime.",
+          "video": "media/series/the100/2-3.mp4"
+        },
+        {
+          "title": "Les meilleurs ennemis",
+          "desc": "Après avoir été trahie, Clarke prend la situation en main. Bellamy, Finn et Murphy volent au secours d'un étranger. Des tensions surviennent entre Wick et Raven.",
+          "video": "media/series/the100/2-4.mp4"
+        },
+        {
+          "title": "Expérimentations",
+          "desc": "Kane tente de négocier la paix avec les Natifs. Jasper prend part à une expérimentation risquée. Le président Wallace lance un message d'avertissement.",
+          "video": "media/series/the100/2-5.mp4"
+        },
+        {
+          "title": "Le brouillard de guerre",
+          "desc": "Raven découvre que le Mont Weather est à l'origine d'interférences radio. Les esprits s'échauffent entre Clarke et Finn. Le président Wallace est entouré de traîtres.",
+          "video": "media/series/the100/2-6.mp4"
+        },
+        {
+          "title": "Plongée dans l'abîmes",
+          "desc": "Pendant qu'Abby doit prendre une décision cruciale pour sauver son peuple d'une attaque de Natifs, Bellamy et Octavia révèlent à Clarke un secret troublant.",
+          "video": "media/series/the100/2-7.mp4"
+        },
+        {
+          "title": "Spacewalker",
+          "desc": "Quand une émeute éclate après les agissements de Finn, Abby et les autres doivent décider de le juger ou de le remettre aux Natifs qui se chargeront de le torturer.",
+          "video": "media/series/the100/2-8.mp4"
+        },
+        {
+          "title": "Fragile alliance",
+          "desc": "Alors que Clarke conclut un marché avec Lexa et Indra, l'alliance nouvellement formée entre le Peuple Céleste et les Natifs se retrouve menacée.",
+          "video": "media/series/the100/2-9.mp4"
+        },
+        {
+          "title": "La trêve",
+          "desc": "Clarke et Lexa font face à un nouvel ennemi. Bellamy et Lincoln unissent leurs forces pour pénétrer dans le Mont Weather. Indra fait une offre alléchante à Octavia.",
+          "video": "media/series/the100/2-10.mp4"
+        },
+        {
+          "title": "Cheval de Troie",
+          "desc": "Les agissements de Bellamy et Lincoln ont de lourdes conséquences. Abby lutte pour garder le contrôle. Désespéré, Jasper affronte le président Wallace.",
+          "video": "media/series/the100/2-11.mp4"
+        },
+        {
+          "title": "Conseil de guerre",
+          "desc": "Les tensions entre Clarke et Abby atteignent des sommets. Raven aide Bellamy à explorer le Mont Weather. Jaha et Murphy font la connaissance d'un étranger.",
+          "video": "media/series/the100/2-12.mp4"
+        },
+        {
+          "title": "Résurrection",
+          "desc": "Clarke remet en question les décisions de Lexa. Abby tente de venir en aide à Kane, blessé. Jasper prend de nouvelles responsabilités.",
+          "video": "media/series/the100/2-13.mp4"
+        },
+        {
+          "title": "Vérités et mensonges",
+          "desc": "Désespérée, Raven fait appel à Wick. Jaha et Murphy font face à un dangereux obstacle. Bellamy lutte contre le temps au Mont Weather.",
+          "video": "media/series/the100/2-14.mp4"
+        },
+        {
+          "title": "Sang pour sang [Partie 1]",
+          "desc": "Clarke et Lexa se préparent à l'affrontement. Wick et Raven font face à un obstacle majeur. Pendant ce temps, Octavia et Lincoln doivent prendre une décision difficile.",
+          "video": "media/series/the100/2-15.mp4"
+        },
+        {
+          "title": "Sang pour sang [Partie 2]",
+          "desc": "Tandis que le périple continue, les agissements de Jaha bouleversent Murphy, Clarke reçoit un coup de main inattendu et Lincoln prend sa revanche.",
+          "video": "media/series/the100/2-16.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Wanheda [Partie 1]",
+          "desc": "Bellamy et Kane partent en mission pour sauver Clarke dont la tête est mise à prix. Murphy rencontre Jaha au manoir.",
+          "video": "media/series/the100/3-1.mp4"
+        },
+        {
+          "title": "Wanheda [Partie 2]",
+          "desc": "Au péril de leurs vies, Bellamy et Kane sauvent Clarke. Abby envisage de réhabiliter le Mount Weather pour en faire un centre médical. Murphy prépare une trahison.",
+          "video": "media/series/the100/3-2.mp4"
+        },
+        {
+          "title": "Le treizième clan",
+          "desc": "Tandis que Clarke est face à un dilemme, Bellamy découvre que rien n'est comme il paraît.",
+          "video": "media/series/the100/3-3.mp4"
+        },
+        {
+          "title": "Attention aux trônes",
+          "desc": "Clarke découvre l'architecte d'un plan ingénieux. Alors que Kane tente de maintenir la paix, Jasper perd son sang-froid.",
+          "video": "media/series/the100/3-4.mp4"
+        },
+        {
+          "title": "Hakeldama",
+          "desc": "Pike renforce son contrôle, Clarke s'efforce d'éviter la guerre, un personnage familier rentre à Arkadia avec une nouvelle mission, et Murphy joue à un jeu dangereux.",
+          "video": "media/series/the100/3-5.mp4"
+        },
+        {
+          "title": "Une moisson d'amertune",
+          "desc": "Clarke doit choisir entre la vengeance et la paix, Octavia et Kane décident de faire équipe, et Abby continue à se faire du souci pour Raven.",
+          "video": "media/series/the100/3-6.mp4"
+        },
+        {
+          "title": "La treizième station",
+          "desc": "Clarke fait une découverte révolutionnaire. Lexa tente de maintenir la paix entre les différents clans. Une sombre histoire du passé refait surface.",
+          "video": "media/series/the100/3-7.mp4"
+        },
+        {
+          "title": "Choississez votre camp",
+          "desc": "Alors qu'il tente de résoudre les problèmes de manière pacifique, Kane réalise qu'il devra peut-être prendre des mesures plus drastiques. Raven demande l'aide de Jasper.",
+          "video": "media/series/the100/3-8.mp4"
+        },
+        {
+          "title": "Le choix de l'esprit",
+          "desc": "Pendant que Clarke fait une découverte alarmante, Octavia fait face à un dilemme pouvant avoir de graves conséquences, et Abby et Kane partagent un moment particulier.",
+          "video": "media/series/the100/3-9.mp4"
+        },
+        {
+          "title": "Prise et emprise",
+          "desc": "Jaha tente une nouvelle approche terrifiante pour recruter Abby. Bellamy est confronté à la terrible vérité. Monty se retrouve dans une situation dangereuse.",
+          "video": "media/series/the100/3-10.mp4"
+        },
+        {
+          "title": "Plus jamais",
+          "desc": "Tandis que Jasper cède à la fureur, le côté sombre de Raven émerge sous l'influence d'ALIE. Octavia tente de trouver sa place en ce bas monde.",
+          "video": "media/series/the100/3-11.mp4"
+        },
+        {
+          "title": "Ascende superius",
+          "desc": "Jaha retourne à Polis, et Murphy fait une rencontre surprenante, tandis qu'Octavia découvre une nouvelle piste.",
+          "video": "media/series/the100/3-12.mp4"
+        },
+        {
+          "title": "La pastille ou la mort",
+          "desc": "Clarke se lance dans une mission qui pourrait tout changer. Murphy fait une découverte potentiellement cruciale pour sa survie. Kane atteint ses limites.",
+          "video": "media/series/the100/3-13.mp4"
+        },
+        {
+          "title": "Ciel rouge à l'aube",
+          "desc": "Clarke, Bellamy, Octavia et Jasper affrontent un obstacle dévastateur, tandis que Raven et Monty font une découverte fondamentale.",
+          "video": "media/series/the100/3-14.mp4"
+        },
+        {
+          "title": "Perversion de l'instanciation [Partie 1]",
+          "desc": "Clarke reprend espoir dans un endroit improbable, tandis que le plan d'ALIE commence à prendre forme.",
+          "video": "media/series/the100/3-15.mp4"
+        },
+        {
+          "title": "Perversion de l'instanciation [Partie 2]",
+          "desc": "Le groupe se prépare à l'affrontement final tout en regardant en face la triste réalité de la situation.",
+          "video": "media/series/the100/3-16.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Echos",
+          "desc": "Retenue à Polis et cernée par d'hostiles Azgeda, Clarke élabore un plan risqué. Pendant ce temps, Raven fait la découverte d'une terrible menace.",
+          "video": "media/series/the100/4-1.mp4"
+        },
+        {
+          "title": "Une couronne lourde à porter",
+          "desc": "Roan tente de gagner du temps pour permettre au Peuple du Ciel de mener à bien sa mission. Bellamy et Clarke mettent malgré eux en péril la survie de tous.",
+          "video": "media/series/the100/4-2.mp4"
+        },
+        {
+          "title": "Les quatre cavaliers",
+          "desc": "Alors que les radiations approchent, Jaha mène Clarke et Bellamy dans une mission délicate pour trouver un refuge. Roan envoie Octavia récupérer la Flamme volée.",
+          "video": "media/series/the100/4-3.mp4"
+        },
+        {
+          "title": "Un mensonge bien gardée",
+          "desc": "Les mensonges de Clarke suscitent l'insurrection. Abby mène une quête risquée. L'alliance des clans se désintègre et Octavia doit en subir les conséquences.",
+          "video": "media/series/the100/4-4.mp4"
+        },
+        {
+          "title": "Dans la poudrière",
+          "desc": "L'alliance désormais rompue, Roan et son armée Azgeda tentent de renverser le Peuple du Ciel, forçant Clarke à entamer des négociations désespérées pour éviter la guerre.",
+          "video": "media/series/the100/4-5.mp4"
+        },
+        {
+          "title": "Nous renaîtrons",
+          "desc": "Clarke et Roan entreprennent une dangereuse mission semée d'embûches tandis qu'Octavia affronte son infatigable désir de vengeance.",
+          "video": "media/series/the100/4-6.mp4"
+        },
+        {
+          "title": "La pluie radioactive",
+          "desc": "Une pluie noire s'abat sur Arkadia, tandis qu'Abby tente désespérément de trouver un remède aux radiations. Octavia se rapproche d'Ilian. Bellamy fait face à un dilemme.",
+          "video": "media/series/the100/4-7.mp4"
+        },
+        {
+          "title": "Foi et confiance",
+          "desc": "Le temps presse pour Clarke qui prend des mesures extrêmes pour trouver un remède. Partis à la recherche d'un refuge secret, Kane et Jaha sont confrontés à une énigme.",
+          "video": "media/series/the100/4-8.mp4"
+        },
+        {
+          "title": "Adieux",
+          "desc": "Trahison et rancœur conduisent les clans à un affrontement mortel. Octavia lutte pour renoncer à son violent passé. Raven prend une décision radicale.",
+          "video": "media/series/the100/4-9.mp4"
+        },
+        {
+          "title": "Mourez dans la joie",
+          "desc": "Octavia, Roan et les combattants de chaque clan s'affrontent à mort lors d'un rituel pour prendre le contrôle du bunker. Certains se jouent des règles instituées.",
+          "video": "media/series/the100/4-10.mp4"
+        },
+        {
+          "title": "De l'autre côté",
+          "desc": "Octavia tente de gagner du temps avec les clans, tandis que Bellamy conteste le plan de Clarke sur le bunker. Monty tente de sauver Jasper. Raven reprend espoir.",
+          "video": "media/series/the100/4-11.mp4"
+        },
+        {
+          "title": "Les élus",
+          "desc": "Clarke et Bellamy mènent une mission périlleuse pour sauver Raven. Un conflit éclate entre Kane et Jaha à propos des survivants. Abby prend une décision fatidique.",
+          "video": "media/series/the100/4-12.mp4"
+        },
+        {
+          "title": "Praimfaya",
+          "desc": "À l'arrivée de Praimfaya, Octavia prend le contrôle du bunker, alors que Raven mène l'équipe de Clark dans une dernière mission impossible pour échapper à la destruction.",
+          "video": "media/series/the100/4-13.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Eden",
+          "desc": "Luttant pour survivre seule dans un monde dévasté par le Praimfaya, Clarke fait une découverte troublante et se retrouve confrontée à une nouvelle menace.",
+          "video": "media/series/the100/5-1.mp4"
+        },
+        {
+          "title": "La reine au sang rouge",
+          "desc": "Octavia emploie les grands moyens pour asseoir son pouvoir quand des tensions éclatent entre les différents clans, transformant le bunker en véritable zone de guerre.",
+          "video": "media/series/the100/5-2.mp4"
+        },
+        {
+          "title": "Cryo-sommeil",
+          "desc": "Les troupes de Diyoza décident de s'approprier la vallée de Clarke. L'équipe de Raven fait une découverte alarmante à bord du mystérieux vaisseau en orbite.",
+          "video": "media/series/the100/5-3.mp4"
+        },
+        {
+          "title": "La boite de Pandore",
+          "desc": "Un pacte vacille lors d'une mission visant à libérer le bunker, tandis que Raven et Murphy font face à un cruel dilemme à bord d'Eligius IV.",
+          "video": "media/series/the100/5-4.mp4"
+        },
+        {
+          "title": "Tempête de sable",
+          "desc": "Alors que le fossé se creuse entre ses soldats, Diyoza met Abby à l'épreuve. Une dispute éclate entre Octavia et Clarke après la découverte d'une nouvelle menace.",
+          "video": "media/series/the100/5-5.mp4"
+        },
+        {
+          "title": "L'espionne",
+          "desc": "Le comportement étonnant de Diyoza ébranle le pouvoir d'Octavia, tandis que Clarke se tourne vers un allié inattendu pour protéger Madi.",
+          "video": "media/series/the100/5-6.mp4"
+        },
+        {
+          "title": "Sacrifices",
+          "desc": "Clarke s'en remet à Indra après avoir découvert le projet barbare d'Octavia. Echo pousse Raven à mettre à exécution la cyberattaque de Monty.",
+          "video": "media/series/the100/5-7.mp4"
+        },
+        {
+          "title": "Le chemin vers la paix",
+          "desc": "Tandis qu'Octavia finalise son plan de bataille, Clarke fait ce qu'il faut pour éviter la guerre. De son côté, Abby supplie Raven de lui venir en aide.",
+          "video": "media/series/the100/5-8.mp4"
+        },
+        {
+          "title": "Sic semper tyrannis",
+          "desc": "Murphy déclenche des hostilités qui ont de graves conséquences dans la vallée. Les différences d'opinions se renforcent dangereusement parmi les Wonkru.",
+          "video": "media/series/the100/5-9.mp4"
+        },
+        {
+          "title": "Préparez les guerriers",
+          "desc": "Clarke tente d'assurer la sécurité de Madi, Octavia entraîne Bellamy, Indra et Gaia dans un violent affrontement, et Abby mène un combat personnel désespéré.",
+          "video": "media/series/the100/5-10.mp4"
+        },
+        {
+          "title": "L'année obscure",
+          "desc": "Clarke lutte pour sauver Abby, qui révèle un terrible secret du bunker. Les différentes armées préparent l'affrontement du siècle pour s'emparer de la vallée.",
+          "video": "media/series/the100/5-11.mp4"
+        },
+        {
+          "title": "Damoclès [Partie 1]",
+          "desc": "Alors que la bataille fait rage, une trahison mène à la catastrophe. Madi défie Clarke au sujet des Wonkru. Octavia fait face aux conséquences de ses actes.",
+          "video": "media/series/the100/5-12.mp4"
+        },
+        {
+          "title": "Damoclès [Partie 2]",
+          "desc": "Après la catastrophe, les Wonkru se préparent à un ultime assaut, tandis que le projet démentiel de McCreary mène à une incroyable révélation.",
+          "video": "media/series/the100/5-13.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Planète Alpha",
+          "desc": "Encore sous le choc après avoir reçu le message de Monty, un petit groupe part à la découverte de la mystérieuse nouvelle planète. De retour sur le vaisseau mère, plusieurs membres de Wonkru font face aux conséquences de leurs décisions.",
+          "video": "media/series/the100/6-1.mp4"
+        },
+        {
+          "title": "Le lever du soleil rouge",
+          "desc": "L'équipe tente de survivre à la menace à laquelle elle doit faire face sur la nouvelle planète. Pendant ce temps, Raven doit unir ses forces à un allié improbable afin de sauver tout le monde à bord du vaisseau-mère.",
+          "video": "media/series/the100/6-2.mp4"
+        },
+        {
+          "title": "Les enfants de Gabriel",
+          "desc": "Clarke tente de convaincre les dirigeants de Sanctum de laisser rester son peuple sur cette planète. Pendant ce temps, Bellamy, Echo et Octavia découvrent une nouvelle menace alors qu’ils sont en mission pour récupérer un navire de transport.",
+          "video": "media/series/the100/6-3.mp4"
+        },
+        {
+          "title": "Les visages sous verre",
+          "desc": "Clarke embrasse les traditions de Sanctum et tente de faire amende honorable pour ses actions passées. Octavia et Diyoza se retrouvent à combattre une faction de survivants.",
+          "video": "media/series/the100/6-4.mp4"
+        },
+        {
+          "title": "Le retour de Joséphine",
+          "desc": "Jordan enquête sur Sanctum. Au même moment, Octavia et Diyoza découvrent les menaces qui pèsent sur la nouvelle planète. Enfin, Bellamy et Clarke s'affrontent.",
+          "video": "media/series/the100/6-5.mp4"
+        },
+        {
+          "title": "Œuil pour œuil...",
+          "desc": "Diyoza en apprend plus sur les mystérieux enfants de Gabriel. Pendant ce temps, Abby continue à chercher un moyen de sauver Kane.",
+          "video": "media/series/the100/6-6.mp4"
+        },
+        {
+          "title": "Jeux d'esprit",
+          "desc": "Le passé de Clarke la rattrape...",
+          "video": "media/series/the100/6-7.mp4"
+        },
+        {
+          "title": "Le vieil homme et l'anomalie",
+          "desc": "Octavia et Diyoza se dirigent vers une mystérieuse anomalie tandis qu'elles sont à la recherche du vieil homme. Au même moment Murphy fait une offre à Emori.",
+          "video": "media/series/the100/6-8.mp4"
+        },
+        {
+          "title": "Rédemption",
+          "desc": "Bellamy doit s'aventurer en territoire ennemi avec un compagnon improbable. Pendant ce temps, Octavia est obligée de faire face à son passé.",
+          "video": "media/series/the100/6-9.mp4"
+        },
+        {
+          "title": "La chasse aux sorcières",
+          "desc": "Russell réclame justice. Pendant ce temps, Gabriel doit faire un choix difficile. Enfin, les frères et sœurs Blake se réunissent.",
+          "video": "media/series/the100/6-10.mp4"
+        },
+        {
+          "title": "Tu redeviendras poussière",
+          "desc": "Bellamy et Octavia doivent travailler ensemble pour sauver leurs amis. Au même moment, Echo est obligée de faire face à son passé.",
+          "video": "media/series/the100/6-11.mp4"
+        },
+        {
+          "title": "Les retrouvailles",
+          "desc": "Une journée de nommage change tout à Sanctum. Gabriel fait face à un vieil ami.",
+          "video": "media/series/the100/6-12.mp4"
+        },
+        {
+          "title": "Le sang de Sanctum",
+          "desc": "Sanctum devient un champ de bataille entre les dévots et les non-croyants. Le mystère autour de l'anomalie s'approfondit.",
+          "video": "media/series/the100/6-13.mp4"
+        }
+      ],
+      "7": [
+        {
+          "title": "Renaissance",
+          "desc": "Clarke et ses amis tentent de reconstruire Sanctum alors qu'une nouvelle menace vient des bois",
+          "video": "media/series/the100/7-1.mp4"
+        },
+        {
+          "title": "Skyring",
+          "desc": "Echo et Gabriel en apprennent plus sur Hope et son passé mystérieux.",
+          "video": "media/series/the100/7-2.mp4"
+        },
+        {
+          "title": "Dieux factices",
+          "desc": "Alors que Raven fait face à une menace inattendue, Clarke doit maintenir la paix entre les factions opposées à Sanctum.",
+          "video": "media/series/the100/7-3.mp4"
+        },
+        {
+          "title": "Les Hespérides",
+          "desc": "De mystérieux étrangers arrivent avec des nouvelles des disparus.",
+          "video": "media/series/the100/7-4.mp4"
+        },
+        {
+          "title": "Bienvenue sur Bardo",
+          "desc": "Alors qu'Octavia découvre un tout nouveau jeu, Murphy et Emori continuent à prendre l'identité de deux primes.",
+          "video": "media/series/the100/7-5.mp4"
+        },
+        {
+          "title": "Impasses",
+          "desc": "Clarke et ses amis se retrouvent sur une planète qui est loin d'être ce qu'elle paraît être.",
+          "video": "media/series/the100/7-6.mp4"
+        },
+        {
+          "title": "Echec et mat",
+          "desc": "Alors qu'Emori tente de soigner les plaies familiales de Sanctum, de nouvelles épreuves attendent Echo, Octavia et Diyoza.",
+          "video": "media/series/the100/7-7.mp4"
+        },
+        {
+          "title": "Anaconda",
+          "desc": "Clarke fait la rencontre d'un nouvel ennemi plus dangereux que jamais. Une surprenante connexion nous ramène dans le passé, à l'époque où la première apocalypse nucléaire a détruit la Terre.",
+          "video": "media/series/the100/7-8.mp4"
+        },
+        {
+          "title": "A genoux !",
+          "desc": "Alors que de vieux amis font de nouvelles alliances, Murphy et Indra font tout pour désamorcer une situation compliquée.",
+          "video": "media/series/the100/7-9.mp4"
+        },
+        {
+          "title": "Une once de sacrifice",
+          "desc": "Sheidheda s'impose. Pendant ce temps, un Disciple se rebelle.",
+          "video": "media/series/the100/7-10.mp4"
+        },
+        {
+          "title": "Etherea",
+          "desc": "Après l'explosion, Bellamy a atterri sur une autre planète et va devoir trouver un moyen de survivre et de la quitter.",
+          "video": "media/series/the100/7-11.mp4"
+        },
+        {
+          "title": "Plier le genou ou mourir",
+          "desc": "C'est un nouveau jour à Sanctum. Clarke, Raven, Octavia et Echo sont confrontées à un nouvel ennemi.",
+          "video": "media/series/the100/7-12.mp4"
+        },
+        {
+          "title": "Nouvelle éclipse",
+          "desc": "Le dangereux soleil rouge fait son retour et met en danger le plan de Clarke.",
+          "video": "media/series/the100/7-13.mp4"
+        },
+        {
+          "title": "Retour aux sources",
+          "desc": "Alors que Clarke et ses amis reviennent sur ce qui viennent de leur arriver, une nouvelle menace fait soudainement son apparition.",
+          "video": "media/series/the100/7-14.mp4"
+        },
+        {
+          "title": "La mort de la lumière",
+          "desc": "L'ultime combat est sur le point de débuter. Clarke et Octavia mènent une mission de sauvetage désespérée afin de sauver leurs amis alors que les Disciples s'approchent de plus en plus de ce qu'ils recherchent.",
+          "video": "media/series/the100/7-15.mp4"
+        },
+        {
+          "title": "La dernière guerre",
+          "desc": "Après toutes les batailles et toutes les pertes qu'ils ont connu au cours de leurs aventures, Clarke et ses amis se préparent à leur ultime combat.",
+          "video": "media/series/the100/7-16.mp4"
+        }
+      ]
     }
+  },
+  "Chernobyl": {
+    "title": "Chernobyl",
+    "description": "L'histoire vraie de la pire catastrophe causée par l'homme et de ceux qui ont sacrifié leur vie pour sauver l'Europe du drame.",
+    "banner": "media/series/chernobyl/chernobyl.jpg",
+    "IMDb": 9.3,
+    "IMDb_link": "https://www.imdb.com/title/tt7366338/",
+    "year": 2019,
+    "genres": ["Drame", "Histoire", "Thriller"],
+    "creators": ["Craig Mazin"],
+    "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
+    "seasons": {
+      "1": [
+        {
+          "title": "1:23:45",
+          "desc": "Le 26 avril 1986, une explosion retentit dans la centrale nucléaire de Tchernobyl, en Ukraine, provoquant une catastrophe sans précédent.",
+          "video": "media/series/chernobyl/1-1.mp4"
+        },
+        {
+          "title": "Veuillez garder votre calme",
+          "desc": "Mikhail Gorbatchev envoie Boris Shcherbina et Valery Legasov à Tchernobyl pour lui rapporter la situation. Ulana Khomyuk comprend l'imminence du danger.",
+          "video": "media/series/chernobyl/1-2.mp4"
+        },
+        {
+          "title": "Que la terre s'ouvre !",
+          "desc": "Après l'explosion du réacteur n°4 dans la centrale nucléaire ukrainienne de Tchernobyl, la situation devient de plus en plus critique. Les autorités comprennent que cette catastrophe va changer le cours de l'histoire. Il faut sauver ce qui peut l'être et les secours vont devoir faire des choix radicaux...",
+          "video": "media/series/chernobyl/1-3.mp4"
+        },
+        {
+          "title": "Le Bonheur de toute l'humanité",
+          "desc": "Valery Legasov et le vice-premier ministre soviétique Boris Shcherbina envisagent d'utiliser des rovers lunaires pour enlever les débris radioactifs, tandis qu'Ulana Khomyuk se heurte à des obstacles gouvernementaux pour déterminer la vérité sur les causes de l'explosion...",
+          "video": "media/series/chernobyl/1-4.mp4"
+        },
+        {
+          "title": "Vechnaya Pamyat",
+          "desc": "Valery Legasov, Boris Shcherbina et Ulana Khomyuk prennent des risques pour révéler toute la vérité sur la catastrophe de Tchernobyl. Depuis l'explosion du réacteur n°4, le pouvoir politique a toujours minimisé les faits et surtout les conséquences de ce drame...",
+          "video": "media/series/chernobyl/1-5.mp4"
+        }
+      ]
+    }
+  },
+  "Game of Thrones": {
+    "title": "Game of Thrones",
+    "description": "Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. La confrérie de la Garde de Nuit, protégeant le Royaume de toute créature pouvant provenir d'au-delà du Mur protecteur, n'a plus les ressources nécessaires pour assurer la sécurité de tous. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de fer, le symbole du pouvoir absolu.",
+    "banner": "media/series/got/got.jpg",
+    "IMDb": 9.2,
+    "IMDb_link": "https://www.imdb.com/title/tt0944947/",
+    "year": 2011,
+    "genres": ["Action", "Aventure", "Drame", "Fantastique", "Thriller"],
+    "creators": ["David Benioff", "D.B. Weiss"],
+    "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
+    "seasons": {
+      "1": [
+        {
+          "title": "L'hiver vient",
+          "desc": "Sur le continent de Westeros, un jeune patrouilleur de la Garde de Nuit, chargée de veiller sur le Mur, est condamné à mort pour désertion par Eddard Stark, seigneur de Winterfell et Gardien du Nord. Mais de sombres nouvelles arrivent de Port-Réal, la capitale des Sept Couronnes : Jon Arryn, ami intime d'Eddard et Main du roi Robert Baratheon, vient de mourir. Le roi Robert et sa cour entreprennent alors un voyage vers Winterfell, pour gratifier son ami Eddard de la charge de Main du roi. Pendant ce temps, les descendants des rois Targaryen en exil, renversés par Robert, fomentent leur retour en Westeros par un jeu d'alliance avec les Dothrakis, une tribu de guerriers nomades. Alors qu'à Winterfell les festivités vont bon train durant le séjour du roi, Brandon, l'un des fils d'Eddard Stark, fait une découverte qui lui attire les foudres de la famille royale…",
+          "video": "media/series/got/1-1.mp4"
+        },
+        {
+          "title": "La route royale",
+          "desc": "Daenerys Targaryen, fraîchement mariée au Khal Drogo, entreprend avec les Dothrakis et son frère le long voyage vers Vaes Dothrak. À Winterfell, alors que Bran est toujours dans le coma suite à sa chute, Ned prépare son départ pour Port-Réal. Catelyn, dévastée par l'état de Bran, ne prend pas part aux adieux à sa famille : Arya et Sansa accompagnent leur père, Jon part vers le nord, sur le Mur, accompagné de son oncle Benjen et de Tyrion Lannister. Seuls restent à Winterfell Robb, Rickon et Bran. Lorsqu'un assassin tente de s'en prendre à Bran, toujours dans le coma, Catelyn décide de mener l'enquête et de partir à Port-Réal prévenir son mari des dangers qui le guettent. Sur la longue route qui sépare Winterfell de la capitale des sept couronnes, les deux filles Stark et leurs loups vont se retrouver mêlées à un incident aux conséquences inattendues.",
+          "video": "media/series/got/1-2.mp4"
+        },
+        {
+          "title": "Lord Snow",
+          "desc": "À peine arrivé à Port-Réal, Eddard Stark est convoqué à une session du Conseil Restreint et découvre alors que le Royaume est fortement endetté et doit beaucoup d'argent aux Lannister. À Winterfell, Bran, conscient depuis peu, essaie d'accepter son amnésie et son handicap ; pendant que sur le Mur, Jon Snow fait face à sa difficile condition de bâtard parmi ses futurs frères de la Garde de Nuit. Sur le continent est, chevauchant la longue route qui les emmène elle et son Khal vers Vaes Dothrak, Daenerys Targaryen commence à assumer son rôle de Khaleesi.",
+          "video": "media/series/got/1-3.mp4"
+        },
+        {
+          "title": "Infirmes, bâtards et choses brisées",
+          "desc": "À Port-Réal, Eddard Stark commence son enquête pour savoir qui est impliqué dans la mort subite de son prédécesseur. Un tournoi est organisé en l'honneur de la nouvelle Main du Roi. Au Nord, Jon Snow se prend de sympathie pour Samwell Tarly, une nouvelle recrue de la Garde de Nuit. De son côté, Tyrion Lannister, ayant quitté le Mur, se retrouve au mauvais endroit, au mauvais moment. Sur l'autre continent, Viserys Targaryen est de plus en plus frustré…",
+          "video": "media/series/got/1-4.mp4"
+        },
+        {
+          "title": "Le loup et le lion",
+          "desc": "À Port-Réal, les affaires politiques reprennent de plus belle. Quand le roi apprend que les Targaryen se sont alliés au peuple Dothraki, son sang ne fait qu'un tour. En réaction, il ordonne un assassinat, contre l'avis d'Eddard. De son côté, ayant capturé Tyrion Lannister, Catelyn Stark l'emmène chez sa sœur. Arya Stark, quant à elle, surprend une conversation qui menace la vie de son père…",
+          "video": "media/series/got/1-5.mp4"
+        },
+        {
+          "title": "Une couronne d'or",
+          "desc": "Après avoir rendu public son profond désaccord avec le roi Robert Baratheon au sujet de l'organisation de l'assassinat de Daenerys Targaryen, Eddard Stark est attaqué par Jaime Lannister. L'atmosphère à Port-Réal est plus que tendue et Eddard doit maintenant gérer de nouveaux problèmes. De son côté, à Eyrie, Tyrion Lannister est jugé pour un crime qu'il est censé avoir commis à Winterfell. Enfin, à Vaes Dothrak, Viserys Targaryen entrevoit le fruit de ses efforts et sa récompense pour avoir donné la main de sa soeur à Khal Drogo…",
+          "video": "media/series/got/1-6.mp4"
+        },
+        {
+          "title": "Vaincre ou mourir",
+          "desc": "Eddard décide qu'il est temps d'annoncer l'identité du véritable père du prince Joffrey. Mourant, le souverain exige que Ned assure la régence en attendant la majorité de Joffrey. De son côté, Cersei lève une armée pour reconquérir le rang auquel son fils peut prétendre…",
+          "video": "media/series/got/1-7.mp4"
+        },
+        {
+          "title": "Frapper d'estoc",
+          "desc": "Alors que Lord Eddard Stark vient d'être envoyé aux cachots, Cersei Lannister ordonne l'assassinat de l'ensemble du clan Stark. Prévenu de l'arrestation de son père, Robb Stark met en branle les armées du nord et décide de marcher sur Port-Réal, laissant la garde de Winterfell à son frère Bran. Tyrion Lannister rejoint les armées de Lord Tywin, aidé de Bronn et des membres des Clans de la Lune rencontrés lors de sa fuite des Eyrié.",
+          "video": "media/series/got/1-8.mp4"
+        },
+        {
+          "title": "Baelor",
+          "desc": "Robb Stark poursuit son avancée vers Port-Réal et décide de créer une diversion avec un plan pour le moins surprenant. De l'autre côté du Détroit, la blessure de Khal Drogo s'infecte et le pire est à craindre. Seule la magie semble encore capable de le sauver. À Port-Réal, lord Eddard Stark accepte de confesser ses fautes sur la place publique afin de sauver sa famille.",
+          "video": "media/series/got/1-9.mp4"
+        },
+        {
+          "title": "De feu et de sang",
+          "desc": "La terrible nouvelle se propage à travers les Sept Royaumes. Catelyn interroge Jaime Lannister à propos de la chute de son fils Bran alors que les seigneurs du Nord choisissent Robb comme nouveau roi et Jon Snow, dans la garnison de la Garde de Nuit, veut le rejoindre. Sur l'autre continent, Daenerys doit faire face à un nouveau drame…",
+          "video": "media/series/got/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Le Nord se souvient",
+          "desc": "Déterminé à venger la mort de son père, le nouveau roi du Nord, Robb Stark, continue sa guerre contre les Lannister et le jeune roi Joffrey. Mais il y a davantage de prétendants au Trône de Fer, dont Stannis Baratheon, soutenu par une prêtresse d'un étrange dieu. Pendant ce temps, Jon Snow et la Garde de Nuit continuent leur marche au-delà du Mur tandis que Daenerys et les restes de son khalasar sont contraints à traverser le Désert rouge. À la fin de l'épisode, tous les bâtards sont exécutés, sûrement sur ordre de Joffrey.",
+          "video": "media/series/got/2-1.mp4"
+        },
+        {
+          "title": "Les contrées nocturnes",
+          "desc": "Pour contrer le clan Lannister, Stannis Baratheon pousse Davos à trouver de nouveaux alliés. Sur la route du Nord, Arya Stark, qui fuit Port-Réal depuis l'exécution de son père, se confie à Gendry. Dans sa stratégie militaire pour contrer le roi Joffrey, Robb Stark demande à Theon Greyjoy de nouer une alliance avec son père. Il espère aussi gagner le ralliement des féroces guerriers des Iles de Fer. À Port-Réal, Cersei et Tyrion affichent leurs différences sur la façon de gouverner…",
+          "video": "media/series/got/2-2.mp4"
+        },
+        {
+          "title": "Ce qui est mort ne saurait mourir",
+          "desc": "Jon Snow découvre la vérité sur le pacte silencieux entre la Garde de Nuit et Craster. Theon Greyjoy doit choisir entre sa famille de sang et sa famille d'adoption quand son père prévoit d'attaquer Winterfell. Tyrion met en place un plan pour démasquer qui dans le conseil du Roi l'espionne pour le compte de la reine. Renly Baratheon devient un roi apprécié et sage, mais ses amours pourraient lui porter préjudice.",
+          "video": "media/series/got/2-3.mp4"
+        },
+        {
+          "title": "La cité de Qarth",
+          "desc": "Les victoires de Robb Stark énervent le roi Joffrey, qui se venge sur Sansa, qui n'a que Tyrion et Bronn comme soutien dans la cour. Tyrion continue de constituer son réseau d'information au sein de Port-Réal. Catelyn essaie de réconcilier les deux frères Stannis et Renly pour s'allier contre les Lannister, or les deux veulent le Trône de Fer. Au loin, Daenerys parvient à rejoindre les portes de Qarth mais se heurte à la curiosité des dirigeants qui veulent voir les dragons.",
+          "video": "media/series/got/2-4.mp4"
+        },
+        {
+          "title": "Le fantôme d'Harrenhal",
+          "desc": "Alors que l'armée de Renly rejoint celle de Stannis, Tyrion découvre les intentions de Cersei pour défendre Port-Réal : le feu grégeois. Pendant ce temps, Daenerys reçoit une proposition de mariage liée à une somme d'argent considérable. Arya, désormais au service de Tywin, se fait un nouvel ami, tout comme sa mère sur le chemin du retour vers le campement de Robb. Snow a l'occasion de participer à une expédition avec le célèbre Qhorin Mimain. Théon espère obtenir le respect de son équipage et de son père en attaquant le Nord, tandis que Bran doit prendre les décisions stratégiques pour protéger le royaume du Nord.",
+          "video": "media/series/got/2-5.mp4"
+        },
+        {
+          "title": "Les anciens et les nouveaux Dieux",
+          "desc": "Theon Greyjoy s'empare de Winterfell sans grand combat, et assoit son autorité en décapitant lui-même Ser Rodrik Cassel. La nouvelle arrive vite au camp de Robb Stark, qui doit y faire face alors que Tywin Lannister organise sa prochaine attaque. Tyrion doit faire front à son neveu et roi Joffrey lors d'une révolte populaire où eux deux, mais aussi Sansa et Cersei manquent de mourir sous les coups des badauds. Jon croise la route d'une sauvageonne, Ygrid, qui va mettre à l'épreuve ses valeurs. À Qarth, les dragons sont volés.",
+          "video": "media/series/got/2-6.mp4"
+        },
+        {
+          "title": "Un homme sans honneur",
+          "desc": "Quand il apprend que Bran et Rickon ont fui Winterfell, Theon Greyjoy les traque tout en martyrisant les villageois alentour. Dans les montagnes du Nord, Jon Snow est mis à mal dans sa fierté quand Ygrid découvre que les Gardes de nuit ont fait vœu d'abstinence. À Port-Réal, Sansa a ses premières règles, et devient donc une possible mère pour les enfants de Joffrey. Dans le camp de Robb Stark, celui-ci s'absente et Jaime en profite pour tenter de s'enfuir. À Qarth, le Conseil des Treize est décimé par l'alliance entre la guilde des Conjurateurs et le négociant qui s'était porté garant pour la Khaleesi.",
+          "video": "media/series/got/2-7.mp4"
+        },
+        {
+          "title": "Le prince de Winterfell",
+          "desc": "Yara vient chercher son frère Théon à Winterfell, de peur qu'il ne meure loin de son île natale. Catelyn relâche Jaime sans l'accord de son fils Robb, le roi du Nord. Arya termine son accord, apprenant l'attaque imminente du camp de Robb par les forces de Tywin Lannister. Tyrion met en place des tactiques militaires pour prévenir l'attaque de Stannis, mais celles-ci ne plaisent pas à Cersei.",
+          "video": "media/series/got/2-8.mp4"
+        },
+        {
+          "title": "La Néra",
+          "desc": "L'arrivée de l'armée de Stannis Baratheon aux portes de Port-réal est imminente. Grâce à Varys, Tyrion met en place sa stratégie pour repousser les nombreux hommes et la flotte chargée, pendant que la Reine se prépare à l'état de siège, plus dans la crainte de savoir son jeune fils Joffrey sur le champ de bataille.",
+          "video": "media/series/got/2-9.mp4"
+        },
+        {
+          "title": "Valar Morghulis",
+          "desc": "Port-Réal célèbre sa victoire sur les hommes de Stannis Baratheon, qui rumine sa défaite, et le roi Joffrey récompense Tywin Lannister et la famille Tyrell, oubliant sciemment Tyrion, en vie mais défiguré. Theon Greyjoy est forcé d'abandonner Winterfell. Robb trahit sa promesse envers les Frey pour épouser la femme qu'il aime. Arya croise à nouveau la route de Jaqen, elle apprend qu'il est un assassin du groupe des Sans Visages et elle se voit offrir une pièce qui lui permettra de le retrouver. Au-delà du Mur, Jon Snow tue Mimain en duel et se prépare à rencontrer Mance Rayder. À Qarth, Daenerys Targaryen pénètre dans la tour de l'Immortel et récupère ses dragons. Après quoi, le retour des Marcheurs Blancs est officiellement signé.",
+          "video": "media/series/got/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Valar Dohaeris",
+          "desc": "Jon Snow est amené devant Mance Rayder, le Roi d'au-delà du Mur, alors que les chevaliers de la Garde de Nuit entament leur retraite vers le Sud. À Port-Réal, Tyrion exige sa récompense, tandis que Petyr Baelish offre à Sansa Stark une porte de sortie. Cersei, elle, organise un banquet en l'honneur de la famille royale. Arya croise la route de la Fraternité sans Bannière, tandis que Daenerys s'embarque pour la Baie des Serfs…",
+          "video": "media/series/got/3-1.mp4"
+        },
+        {
+          "title": "Noires ailes, noires nouvelles",
+          "desc": "À Port-Réal, alors que Sansa est interrogée par Lady Olenna, qui cherche à en savoir plus sur le roi Joffrey, Shae demande un service à Tyrion. Au-delà du Mur, Jon Snow, toujours protégé par Ygritte, rencontre Orell, un warg capable de voir à travers les yeux des animaux. Dans le Riverlands, Arya et ses compagnons de route rencontrent la Confrérie sans bannière…",
+          "video": "media/series/got/3-2.mp4"
+        },
+        {
+          "title": "Les immaculés",
+          "desc": "En l'absence de Littlefinger, Tyrion obtient de nouvelles responsabilités à Port-Réal tandis qu'à Astapor, Daenerys réussit à convaincre ses hôtes de lui vendre des Immaculés, des soldats sans peur. Robb assiste à l'enterrement de son grand-père à Riverrun, avec sa femme Talisa et sa mère Catelyn. Faits prisonniers, Brienne de Tarth et Jaime Lannister chevauchent sous haute garde. Le régicide tente de passer un marché avec ses géôliers…",
+          "video": "media/series/got/3-3.mp4"
+        },
+        {
+          "title": "Voici que son tour de garde est fini",
+          "desc": "Les survivants de la Garde de Nuit arrivent chez Craster, un seigneur odieux qui profite de ses nombreuses épouses : en échange d'un peu de repos, Craster oblige les hommes à s'occuper des cochons. Cette situation ne va pas tarder à dégénérer. Au Sud, Daenerys Targaryen offre son plus beau dragon à Kraznys pour obtenir son armée d'Immaculés. Mais Kraznys va apprendre bien vite que la Mère des Dragons sait parler le Valeryan…",
+          "video": "media/series/got/3-4.mp4"
+        },
+        {
+          "title": "Baisée par le feu",
+          "desc": "Daenerys déploie son armée et ses dragons pour libérer les esclaves d'Astapor. Quant à Sandor Clegane, il doit répondre de ses actes passés devant la Confrérie des sans-bannières. Cependant, au nord du Mur, Jon Snow est contraint de faire ses preuves. Theon, de son côté, subit de nouvelles tortures…",
+          "video": "media/series/got/3-5.mp4"
+        },
+        {
+          "title": "L'ascension",
+          "desc": "Jon Snow, Ygritte et les Sauvageons s'attaquent à une escalade périlleuse. Pour sa part, Tywin élabore des mariages stratégiques pour les Lannister. Robb est à la recherche d'un compromis pour retrouver la confiance de la maison Frey…",
+          "video": "media/series/got/3-6.mp4"
+        },
+        {
+          "title": "L'ours et la belle",
+          "desc": "Pour Jon Snow, l'heure est venue de régler ses comptes avec Orell, l'un des membres des Wildings. De son côté, Daenerys poursuit sa route vers la cité de Yunkaï, plus déterminée que jamais à libérer des esclaves. Quant à Sansa Stark et Tyrion Lannister, ils apprennent qu'ils vont se marier. Une information qui est loin de les laisser indifférents. Enfin, Jaime Lannister est sur le point de quitter Harrenhal en vue d'être présenté à son père…",
+          "video": "media/series/got/3-7.mp4"
+        },
+        {
+          "title": "Les Puînés",
+          "desc": "Daenerys fait la connaissance d'un mercenaire. Elle obtient l'appui d'une armée dans sa quête de pouvoir. En parallèle, à Port-Réal, Sansa et Tyrion se marient sous le regard amusé de Joffrey. De son côté, Davos, toujours aussi méfiant à l'égard de la prêtresse, somme Mélisandre de s'expliquer. Et Sandor Clegane révèle à Arya ses intentions. Quant à Sam, il fait la connaissance d'une personne au cours de son périple…",
+          "video": "media/series/got/3-8.mp4"
+        },
+        {
+          "title": "Les pluies de Castamere",
+          "desc": "Robb se présente devant Walder Frey tandis qu'Edmure fait la connaissance de sa future épouse. De son côté, Jon est confronté à la pire épreuve de sa jeune existence et Bran se découvre un nouveau don. Daario et Jorah confrontent leurs stratégies pour prendre Yunkai alors que la maison Frey s'unit aux Tully…",
+          "video": "media/series/got/3-9.mp4"
+        },
+        {
+          "title": "Mhysa",
+          "desc": "C'est le chaos au sein du clan Lannister… Joffrey défie Tywin. À Peyredragon, le salut viendra peut-être d'alliés inattendus. Bran est hanté par une vision venue d'outre tombe. Daenerys se retrouve face à un dilemme : est-elle une guerrière ou une libératrice ?",
+          "video": "media/series/got/3-10.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Deux épées",
+          "desc": "À Port-Réal, Tyrion prend soin d'un hôte inattendu. Pendant ce temps, à Châteaunoir, Jon Snow retrouve les hommes de la Garde de Nuit et ne reçoit pas le meilleur accueil. Arya, elle, croise un vieil ami. De l'autre côté de la mer, Daenerys approche de Meereen, la plus grande des cités esclavagistes…",
+          "video": "media/series/got/4-1.mp4"
+        },
+        {
+          "title": "Le lion et la rose",
+          "desc": "À Port-Réal, Tyrion assiste son frère Jaime pendant que le roi Joffrey et Margaery organisent un petit-déjeuner. À Peyredragon, Stannis Baratheon ne tolère plus l'insoumission de Davos. Ramsay trouve un usage pour le pauvre hère qui lui sert d'animal de compagnie. Au-delà du Mur, Bran a une vision…",
+          "video": "media/series/got/4-2.mp4"
+        },
+        {
+          "title": "Briseur de chaînes",
+          "desc": "Tyrion envisage les différentes options qui lui sont offertes pendant que Tywin fait un geste vers la paix. Dans le Nord, Sam réalise que Châteaunoir n'est pas un endroit sûr alors que Jon échafaude un plan audacieux. En pleine campagne, Sandor Clegane commence l'enseignement de la jeune Arya. De l'autre côté de la mer, Daenerys désigne son champion…",
+          "video": "media/series/got/4-3.mp4"
+        },
+        {
+          "title": "Féale",
+          "desc": "Daenerys Targaryen poursuit son apprentissage du pouvoir en devant choisir entre justice et compassion. À Port-Réal, Jaime retrouve Brienne et lui rend hommage. Jon mobilise ses hommes pour repousser les Sauvageons qui s'en prennent à Châteaunoir pendant que, plus au nord, Bran, Jojen, Meera et Hodor cherchent un abri…",
+          "video": "media/series/got/4-4.mp4"
+        },
+        {
+          "title": "Premier du nom",
+          "desc": "Tommen Baratheon est sacré roi et sa famille arrange son mariage. Baelish et Sansa arrivent chez Lady Lysa où un autre mariage prendra place. Daenerys apprend que Joffrey est mort, mais les nouvelles de Ser Jorah la poussent à repenser ses plans futurs. Jon et son petit groupe s’apprêtent à attaquer les mutins installés chez Craster.",
+          "video": "media/series/got/4-5.mp4"
+        },
+        {
+          "title": "Les lois des Dieux et des hommes",
+          "desc": "Stannis et Davos réclament une aide financière auprès de Tycho Nestoris. Daenerys siège à Meeren et reçoit ses habitants. Yara Greyjoy mène une attaque pour libérer son frère. Le procès de Tyrion commence.",
+          "video": "media/series/got/4-6.mp4"
+        },
+        {
+          "title": "L'oiseau moqueur",
+          "desc": "Tyrion doit trouver un champion pour le représenter pour son procès par combat. Jon et ses hommes sont de retour à Châteaunoir pour découvrir que rien n’a changé. Arya et Sandor Clegane continuent leur voyage et rencontrent un homme blessé. Daenerys donne de nouveaux ordres à Daario.",
+          "video": "media/series/got/4-7.mp4"
+        },
+        {
+          "title": "La montagne et la vipère",
+          "desc": "Petyr Baelish rencontre la noblesse du Val qui remet en cause la façon dont Lysa est morte. Ramsay Snow utilise Reek pour pénétrer Moat Cailin. Le village où vit Gilly est attaqué. Ser Barristan reçoit une lettre avec le seau de la Main du roi. Un épique combat prend place à Port-Réal.",
+          "video": "media/series/got/4-8.mp4"
+        },
+        {
+          "title": "Les Veilleurs au rempart",
+          "desc": "L’attaque du Mur est imminente. Alors que Jon évoque en compagnie de Sam sa relation avec Ygritte, cette dernière prépare son armement, bien déterminée à tuer celui qui l’a trahie. Quand l’armée de Mance Rayder arrive, l’affrontement peut commencer.",
+          "video": "media/series/got/4-9.mp4"
+        },
+        {
+          "title": "Les enfants",
+          "desc": "Les circonstances changent après une arrivée inattendue du nord du mur. Dany doit faire face à de dures réalités. Bran en apprend plus sur son destin. Tyrion voit la vérité à propos de sa situation.",
+          "video": "media/series/got/4-10.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Les guerres à venir",
+          "desc": "Cersei et Jaime doivent s'adapter à un monde sans Tywin. Varys révèle l'existence d'un complot à Tyrion. Daenerys doit faire face à une nouvelle menace pour son règne. Et Jon se retrouve coincé entre deux rois.",
+          "video": "media/series/got/5-1.mp4"
+        },
+        {
+          "title": "La demeure du noir et du blanc",
+          "desc": "Arya arrive à Braavos. Pod et Brienne rencontrent des ennuis sur la route. Cersei craint pour la sécurité de sa fille à Dorne, où Ellaria Sand cherche à se venger de la mort de Oberyn. Stannis tente Jon. Daenerys est attirée par un de ses conseillers.",
+          "video": "media/series/got/5-2.mp4"
+        },
+        {
+          "title": "Le Grand Moineau",
+          "desc": "À Braavos, Arya découvre le dieu Multiface. À Port-Real, la reine Margaery profite de son nouvel époux. De leur côté, Tyrion et Lord Varys traversent le long pont de Volantis…",
+          "video": "media/series/got/5-3.mp4"
+        },
+        {
+          "title": "Les Fils de la Harpie",
+          "desc": "Alors que chacun met ses pions en place dans le Nord, les moineaux prennent de plus en plus de place à la capitale, et Daenerys voit ses plus proches conseillers subir les foudres des Fils de la Harpie.",
+          "video": "media/series/got/5-4.mp4"
+        },
+        {
+          "title": "Tue l'enfant",
+          "desc": "Alors que Jorah et Tyrion font toujours route vers Meereen, Daenerys décide de changer de stratégie après les attaques de Fils de la Harpie. Au Nord, Stannis et ses troupes quittent le mur pour affronter les Bolton, et Jon Snow établie une singulière alliance.",
+          "video": "media/series/got/5-5.mp4"
+        },
+        {
+          "title": "Insoumis, invaincus, intacts",
+          "desc": "Arya continue son entraînement dans la demeure du Noir et du Blanc. Après avoir fait un long chemin à pied, Jorah et Tyrion sont capturés par des esclavagistes tandis que Jaime et Bronn atteignent leur destination. Mais les Aspics des Sables attaquent.",
+          "video": "media/series/got/5-6.mp4"
+        },
+        {
+          "title": "Le cadeau",
+          "desc": "Jon est parti pour Durlieu. Au Nord, Sansa tente de confier une mission à Theon tandis que Brienne attend un signe. Stannis reste tenace alors qu'à Dorne, Jaime a une discussion avec sa fille.",
+          "video": "media/series/got/5-7.mp4"
+        },
+        {
+          "title": "Durlieu",
+          "desc": "Dans le palais des Sans-Visage, Arya fait toujours des progrès dans sa formation. À Meereen, Daenerys essaye de montrer son respect des traditions tandis qu'au Nord, Sansa affronte un vieil ami. À Port-Réal, Cersei est sûre de sa victoire, avec Margaery en prison et Tommen impuissant devant le Haut-Moineau. Pendant ce temps-là, Jon arrive à Durlieu.",
+          "video": "media/series/got/5-8.mp4"
+        },
+        {
+          "title": "La danse des dragons",
+          "desc": "Stannis prend une terrible décision. Jon revient vers le mur. Arya rencontre quelqu'un de sa liste et Daenerys assiste malgré elle à la reprise des combats dans la Grande Arène.",
+          "video": "media/series/got/5-9.mp4"
+        },
+        {
+          "title": "La miséricorde de la mère",
+          "desc": "Stannis avance. Daenerys est entourée d'étrangers. Cersei recherche le pardon. Jon est mis au défi.",
+          "video": "media/series/got/5-10.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "La femme rouge",
+          "desc": "Jon Snow mort, ses fidèles acculés à Châteaunoir doivent trouver un moyen de faire face à la rébellion et rendre justice au Lord Commandant. De retour de Dorne, Jaime apprend la terrible nouvelle à propos de Myrcella à Cersei. En fuite, Sansa et Theon sont traqués dans le Nord. Ramsay entend leur faire payer leur trahison. Daenerys disparue, le peuple de Meereen craint d'avoir été abandonné par la Mère des dragons. Pendant que Jorah et Daario sont à la recherche de la Khaleesi, Tyrion et Varys cherchent à savoir qui a orchestré l'attaque des Fils de la Harpie…",
+          "video": "media/series/got/6-1.mp4"
+        },
+        {
+          "title": "La maison",
+          "desc": "Pendant que Bran s'entraîne avec la corneille à trois-yeux, Davos est poussé dans ses derniers retranchements à Châteaunoir. Honteux de sa lâcheté, Tommen se présente enfin à Cersei, alors que Jaime tient tête au Grand Moineau. Malgré de nombreuses pertes, Ramsay est prêt à tout risquer pour traquer Sansa jusqu'au Mur. Découragée, Melisandre voit Davos lui faire une étonnante requête…",
+          "video": "media/series/got/6-2.mp4"
+        },
+        {
+          "title": "Le briseur de serments",
+          "desc": "Alors que Daenerys est confrontée à son futur, Bran poursuit son apprentissage avec la corneille à trois-yeux en explorant le passé. Varys et Tyrion tentent de découvrir qui a financé l'attaque contre leur Reine. À Port-Réal, Cersei entend prendre sa revanche, avec l'aide de Jaime, pendant que Tommen confronte le Grand Moineau. Quant à Arya, elle est mise à l'épreuve pour devenir une sans-visage…",
+          "video": "media/series/got/6-3.mp4"
+        },
+        {
+          "title": "Le livre de l'étranger",
+          "desc": "Une surprise attend Jon Snow alors qu'il s'apprête à quitter Châteaunoir. Lord Petyr convainc le jeune seigneur du Val qu'ils doivent lancer une armée contre Bolton afin de sauver Sansa. Tyrion use de diplomatie pour trouver un terrain d'entente avec les nobles de Volantis, les ennemis de la Reine qui ont sollicité les Fils de la Harpie. L'initiative n'est pas au goût des anciens esclaves. Daario et Jorah tentent de libérer leur souveraine, retenue prisonnière dans un temple Dothraki dédié aux khaleesis veuves. Quant à Cersei, elle se trouve d'improbables alliés.",
+          "video": "media/series/got/6-4.mp4"
+        },
+        {
+          "title": "La porte",
+          "desc": "Sansa affronte Lord Petyr, lequel l'a laissée entre les mains du sadique Ramsay Bolton. Arya a une nouvelle chance de faire ses preuves. Et Bran en apprend un peu plus sur les secrets du passé. Chez les Fer-nés, Yara Greyjoy espère succéder à son défunt père. À Meereen, Tyrion cherche toujours un moyen pour que le peuple, en dépit des rancœurs et croyances diverses, se soumette complètement à sa Reine…",
+          "video": "media/series/got/6-5.mp4"
+        },
+        {
+          "title": "De mon sang",
+          "desc": "Alors que Bran et Meera tentent d'échapper aux Marcheurs Blancs, Sam, la honte de sa famille, doit faire face aux siens. Il appréhende particulièrement la réaction de son père, le Seigneur Tarly. Le Grand Moineau accorde à Tommen le droit de voir son épouse, emprisonnée dans l'attente de sa marche d'expiation. Quant à Arya, parviendra-t-elle à accomplir la mission qui lui permettra de devenir une sans-visage ?",
+          "video": "media/series/got/6-6.mp4"
+        },
+        {
+          "title": "L'homme brisé",
+          "desc": "Sur les conseils du Grand Moineau, Margaery tente d'amener sa grand-mère sur le chemin de la Foi. Jon et Sansa essaient de rassembler les troupes, sachant qu'un Nord divisé ne pourra pas combattre leurs ennemis et regagner Winterfell. Sur les ordres du Roi, Jaime arrive à Vivesaigues avec la mission de reprendre le château à Brynden Tully pour le céder à leur allié Walder Frey…",
+          "video": "media/series/got/6-7.mp4"
+        },
+        {
+          "title": "Personne",
+          "desc": "Grièvement blessée, Arya se tourne vers la seule personne susceptible de lui venir en aide. Grâce à son pacte avec ses ennemis, Tyrion se réjouit de voir Meereen reprendre vie sous ses yeux. Brienne de Tarth espère convaincre La Silure de s'allier à Sansa pour défendre le Nord. Quant à Jaime, il tente de trouver un moyen de reprendre Vivesaigues. Sandor Clegane reprend les armes dans l'intention de venger ceux qui l'avaient recueilli…",
+          "video": "media/series/got/6-8.mp4"
+        },
+        {
+          "title": "La bataille des bâtards",
+          "desc": "L'heure est au combat sur tous les fronts. De retour à Meereen, Daenerys est prête à riposter pour contenir l'attaque de ses ennemis. Tyrion la conseille sur la stratégie à adopter. Dans le Nord, les Stark s'apprêtent à croiser le fer pour récupérer Winterfell. Confiant et arrogant, Ramsay Bolton recourt aux jeux de l'esprit pour décontenancer l'adversaire…",
+          "video": "media/series/got/6-9.mp4"
+        },
+        {
+          "title": "Les vents de l'hiver",
+          "desc": "Le jour du jugement est arrivé : Cercei et Loras vont devoir répondre de leurs actes devant le Grand Septon dirigé par le Grand Moineau. La Reine Mère trouvera-t-elle un moyen de se sortir de cette impasse ? À Meereen, épaulée de Tyrion, Daynerys s'apprête à mettre le cap vers Westeros avec la flotte des Fer-nés. Acculée par les Lannister, Olenna Tyrell se voit offrir une alliance inattendue. À Winterfell, la question de la succession se pose : qui de Sansa ou de Jon régnera sur la Maison Stark… et sur un Nord uni pour faire front contre leurs ennemis ?",
+          "video": "media/series/got/6-10.mp4"
+        }
+      ],
+      "7": [
+        {
+          "title": "Peyredragon",
+          "desc": "L'hiver est bel et bien là. Inquiet, Jon Snow appelle le Nord au rassemblement pour faire face à l'arrivée prochaine des Marcheurs blancs et du Roi de la Nuit. Hommes, femmes et enfants doivent se préparer à combattre. Sansa prévient son frère qu'il ne doit pas négliger pour autant la menace que représente Cersei Lannister. La Reine autoproclamée du Royaume des Sept Couronnes espère d'ailleurs nouer de nouvelles alliances qui lui permettraient d'anéantir ses ennemis. À la Citadelle, Sam brûle d'envie d'accéder à la bibliothèque et à son précieux savoir…",
+          "video": "media/series/got/7-1.mp4"
+        },
+        {
+          "title": "Née du Typhon",
+          "desc": "Daenerys reçoit une visite inattendue. À Peyredragon, l'heure est à la politique et aux stratégies. La Khaleesi doit s'assurer le soutien de ses alliés. Jon Snow en fera-t-il partie ? Jurera-t-il allégeance à la Reine légitime comme elle le souhaite ? Dans le Nord, tout le monde s'oppose à ce rapprochement…",
+          "video": "media/series/got/7-2.mp4"
+        },
+        {
+          "title": "La justice de la reine",
+          "desc": "Jon Snow et Davos se rendent en terre ennemie où ils doivent rencontrer Daenerys Targaryen. Le face-à-face entre le Roi du Nord et la Reine légitime des Sept Couronnes promet d'être tendu… Euron est de retour à Port-Réal avec un cadeau pour Cersei. Quant à Jaime, il tire enfin enseignement de ses erreurs…",
+          "video": "media/series/got/7-3.mp4"
+        },
+        {
+          "title": "Les butins de guerre",
+          "desc": "L'émotion est à l'ordre du jour chez les Stark avec le retour d'Arya à Winterfell. Avec l'aval de Daenerys, Jon Snow entreprend d'extraire le verredragon qui permettra de combattre les Marcheurs Blancs. Furieuse des échecs successifs essuyés face à ses ennemis, la Khaleesi décide de riposter et passer à l'action. Quant à Jaime, il va devoir faire face à une situation inattendue…",
+          "video": "media/series/got/7-4.mp4"
+        },
+        {
+          "title": "Fort-levant",
+          "desc": "Daenerys revendique la fidélité des soldats Lannister survivants et Bran fait remarquer à Jon que les Marcheurs Blancs se rapproche. Cersei fait le vœu de vaincre n'importe qui ou tout ce qui se trouve sur son chemin.",
+          "video": "media/series/got/7-5.mp4"
+        },
+        {
+          "title": "Au-delà du Mur",
+          "desc": "Parti s'aventurer au-delà du Mur en compagnie du Limier, de Jorah Mormont ou encore du sauvageon Tormund, Jon Snow doit affronter la rudesse de l'hiver dans l'espoir de capturer un Marcheur Blanc. Cette preuve tangible serait en effet le seul moyen de convaincre Cersei de s'allier avec ses ennemis pour contrer la redoutable menace qui les attend… Du côté de Winterfell, Arya confronte sa soeur après sa récente découverte…",
+          "video": "media/series/got/7-6.mp4"
+        },
+        {
+          "title": "Le dragon et le loup",
+          "desc": "Après l'effroyable bataille face aux Marcheurs Blancs au-delà du Mur, Daenerys, Jon Snow et leurs alliés partent à la rencontre des Lannister dans l'espoir de négocier une trêve. Trouveront-ils les bons arguments ? La menace de l'armée des morts suffira-t-elle à motiver Cersei à trouver un terrain d'entente avec la Mère des Dragons et le Roi du Nord ? Plus que jamais, Tyrion va devoir se montrer convaincant face à une sœur qui ne veut qu'une chose : le voir mort ! Du côté de Winterfell, Littlefinger complote toujours pour monter les sœurs Stark l'une contre l'autre…",
+          "video": "media/series/got/7-7.mp4"
+        }
+      ],
+      "8": [
+        {
+          "title": "Winterfell",
+          "desc": "Accompagné par Daenerys Targaryen, Jon Snow est de retour à Winterfell. Des retrouvailles émouvantes l'y attendent. Sansa peine à montrer son allégeance à cette Reine étrangère. Et elle ne croit pas en une alliance avec Cersei Lannister…",
+          "video": "media/series/got/8-1.mp4"
+        },
+        {
+          "title": "Un chevalier des sept couronnes",
+          "desc": "Jaime Lannister est arrivé à Winterfell. Face à la menace des marcheurs blancs, il a choisi de rallier le camp de Jon Snow et de son frère Tyrion Lannister. Mais Daenerys se retrouve face à celui qui a tué son père et cela ne la laisse pas de marbre. Dehors, les morts se rapprochent…",
+          "video": "media/series/got/8-2.mp4"
+        },
+        {
+          "title": "La longue nuit",
+          "desc": "Alors que l'armée du Roi de la Nuit est aux portes de Winterfell, la tension monte dans les rangs. Tout le monde attend le coup d'envoi d'affrontements qui s’annoncent terribles. Le Nord fera-t-il le poids conte les marcheurs blancs ?",
+          "video": "media/series/got/8-3.mp4"
+        },
+        {
+          "title": "Les derniers des Stark",
+          "desc": "Après une victoire douloureuse, Jon et Daenerys se tournent vers le sud tandis que Tyrion cherche un compromis qui pourrait sauver de nombreuses vies.",
+          "video": "media/series/got/8-4.mp4"
+        },
+        {
+          "title": "Les cloches",
+          "desc": "Trahie et endeuillée, Daenarys doit se ressaisir pour le nouveau combat qui l'attend. Aura-t-elle sa revanche ? Aux portes de Port-Réal, un terrible siège se prépare. Cersei compte sur la flotte d'Euron, la compagnie Dorée et les remparts de la ville pour stopper sa rivale et son dragon…",
+          "video": "media/series/got/8-5.mp4"
+        },
+        {
+          "title": "Le trône de fer",
+          "desc": "Alors que Daenerys appelle ses hommes à livrer bataille, Arya, Jon et Tyrion sont dépités par le spectacle qui s'offre à eux. Déçue par sa trahison, quel sort la Khaleesi va-t-elle réserver à sa Main ?",
+          "video": "media/series/got/8-6.mp4"
+        }
+      ]
+    }
+  },
+  "The Last of Us": {
+    "title": "The Last of Us",
+    "description": "Vingt ans après la destruction de la civilisation moderne, Joel, un survivant endurci, est engagé pour faire sortir Ellie, une jeune fille de 14 ans, d'une zone de quarantaine oppressante. Ce qui n'est au départ qu'un petit travail se transforme rapidement en un voyage brutal et époustouflant, alors que dans ce duo improbable, chacun dépend de l'autre pour sa survie.",
+    "banner": "media/series/thelastofus/thelastofus.jpg",
+    "IMDb": 8.7,
+    "IMDb_link": "https://www.imdb.com/title/tt3581920/",
+    "year": 2023,
+    "genres": ["Drame", "Histoire", "Thriller"],
+    "creators": ["Craig Mazin", "Neil Druckmann"],
+    "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Quand tu es perdu dans les ténèbres",
+          "desc": "Alors qu'une pandémie a détruit la civilisation, un survivant aguerri vient en aide à une jeune fille de 14 ans, qui pourrait bien être le dernier espoir de l'humanité.",
+          "video": "media/series/thelastofus/1-1.mp4"
+        },
+        {
+          "title": "Infecté",
+          "desc": "En 2003, un scientifique indonésien fait une terrible découverte. En 2023, Joel et Tess s'échappent de la zone de quarantaine tandis qu'ils se frayent un chemin, infectés, dans les ruines de Boston, depuis longtemps abandonnée.",
+          "video": "media/series/thelastofus/1-2.mp4"
+        },
+        {
+          "title": "Longtemps...",
+          "desc": "Lorsqu'un étranger s'approche du camp, Bill conclut une alliance inattendue qui change la vie des deux personnages impliqués. Plus tard, Joel et Ellie se rendent chez Bill dans l'espoir d'y trouver ce dont ils ont besoin pour continuer leur voyage.",
+          "video": "media/series/thelastofus/1-3.mp4"
+        },
+        {
+          "title": "S'il te plaît, tiens-moi la main",
+          "desc": "Après avoir abandonné leur camion à Kansas City, Joel et Ellie tentent de s'échapper sans attirer l'attention d'une cheffe rebelle revancharde.",
+          "video": "media/series/thelastofus/1-4.mp4"
+        },
+        {
+          "title": "La survie à tout prix",
+          "desc": "Kansas City à présent libre, Henry lutte pour protéger son frère Sam des soldats rebelles prêts à tout pour satisfaire leur cruel chef. La chasse à l'homme continue tandis que la soif de vengeance de Kathleen s'intensifie. Pendant ce temps, Ellie noue une amitié importante.",
+          "video": "media/series/thelastofus/1-5.mp4"
+        },
+        {
+          "title": "Proche",
+          "desc": "Après des mois de voyage, Joel et Ellie reçoivent un sinistre avertissement sur ce qui les attend. Plus tard, Ellie en apprend plus sur le passé de Joel, tandis que ce dernier préférerait l'oublier.",
+          "video": "media/series/thelastofus/1-6.mp4"
+        },
+        {
+          "title": "Abandonner",
+          "desc": "Alors que Joel se bat pour survivre, Ellie revient sur la nuit qui a tout changé.",
+          "video": "media/series/thelastofus/1-7.mp4"
+        },
+        {
+          "title": "Quand on est dans le besoin",
+          "desc": "Après avoir croisé la route d'un groupe de survivants en quête de vengeance, Ellie et sa combativité attirent l'attention de leur chef. Joel, affaibli et toujours en train de lutter pour survivre, doit affronter un groupe de chasseurs assoiffés de sang.",
+          "video": "media/series/thelastofus/1-8.mp4"
+        },
+        {
+          "title": "Cherchez la lumière",
+          "desc": "Après avoir été poursuivie par les Infectés, Anna, enceinte, décide de faire confiance à un ami de longue date. Des années plus tard, Ellie doit supporter le poids émotionnel de son aventure, tandis que Joel doit lui aussi prendre une décision lourde de conséquences.",
+          "video": "media/series/thelastofus/1-9.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Les Jours futurs",
+          "desc": "Cinq ans après les événements de Salt Lake City, Ellie, aujourd'hui âgée de 19 ans, fait une découverte lors d'une patrouille avec sa meilleure amie Dina. Joel, quant à lui, cherche de l'aide pour renouer avec Ellie.",
+          "video": "media/series/thelastofus/2-1.mp4"
+        },
+        {
+          "title": "À travers la vallée",
+          "desc": "Alors qu'une tempête se prépare dans les montagnes, les habitants de Jackson Hole se préparent au pire alors qu'ils voient de plus en plus d'infectés. Pendant ce temps, Abby réfléchit à ses options.",
+          "video": "media/series/thelastofus/2-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "À venir",
+          "video": "media/series/thelastofus/2-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "À venir",
+          "video": "media/series/thelastofus/2-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "À venir",
+          "video": "media/series/thelastofus/2-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "À venir",
+          "video": "media/series/thelastofus/2-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "À venir",
+          "video": "media/series/thelastofus/2-7.mp4"
+        }
+      ]
+    }
+  },
+  "Breaking Bad": {
+    "title": "Breaking Bad",
+    "description": "Walter White, professeur de chimie dans un lycée d'Albuquerque au Nouveau-Mexique, est atteint d'un cancer pulmonaire en phase terminale. Il s'associe à Jesse Pinkman, un ancien élève, cancre, toxicomane et dealer, afin d'assurer l'avenir financier de sa famille après son décès. L'improbable duo va alors synthétiser et commercialiser la plus pure méthamphétamine en cristaux jamais vue dans les Amériques.",
+    "banner": "media/series/breakingbad/breakingbad.jpg",
+    "IMDb": 9.5,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
+    "year": 2008,
+    "genres": ["Crime", "Drame", "Thriller"],
+    "creators": ["Vince Gilligan"],
+    "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Chute libre",
+          "desc": "Atteint d'un cancer en phase terminale, un professeur de chimie se lance dans la fabrication et la vente de méthamphétamines pour assurer l'avenir financier de sa famille.",
+          "video": "media/series/breakingbad/1-1.mp4"
+        },
+        {
+          "title": "Le choix",
+          "desc": "Alors qu'ils viennent de rater un deal, Walt et Jesse doivent se débarrasser de deux corps, tandis que Skyler soupçonne son mari de mijoter quelque chose.",
+          "video": "media/series/breakingbad/1-2.mp4"
+        },
+        {
+          "title": "Dérapage",
+          "desc": "Alors que Walt tente de remettre de l'ordre après son premier deal, Skyler est à deux doigts de la vérité au sujet de la double vie de son mari.",
+          "video": "media/series/breakingbad/1-3.mp4"
+        },
+        {
+          "title": "Retour aux sources",
+          "desc": "Contraint de révéler à son entourage la vérité sur sa maladie, Walter doit trouver un moyen de financer son traitement contre le cancer.",
+          "video": "media/series/breakingbad/1-4.mp4"
+        },
+        {
+          "title": "Vivre ou survivre",
+          "desc": "Skyler tente de persuader Walter d'accepter le travail lucratif proposé par un ancien ami qui lui permettrait de couvrir ses dépenses de santé.",
+          "video": "media/series/breakingbad/1-5.mp4"
+        },
+        {
+          "title": "Bluff",
+          "desc": "Alors que ses frais médicaux augmentent et que les effets secondaires de la chimio se font ressentir, Walt compte sur Jesse pour l'aider à écouler plus de came.",
+          "video": "media/series/breakingbad/1-6.mp4"
+        },
+        {
+          "title": "Le fruit défendu",
+          "desc": "Alors que Jesse a frôlé la mort, Walt décide de doubler sa production pour l'impitoyable Tuco, pendant que Skyler soupçonne sa sœur de vol à l'étalage.",
+          "video": "media/series/breakingbad/1-7.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Traqués",
+          "desc": "Alors qu'ils planifient leurs derniers gros deals, Walt et Jesse craignent que leur unique client ne les tue quand bon lui semblera.",
+          "video": "media/series/breakingbad/2-1.mp4"
+        },
+        {
+          "title": "Chasse à l'homme",
+          "desc": "Tandis que la DEA mène une véritable chasse à l'homme pour mettre la main sur Tuco, Skyler demande à Hank de l'aider à retrouver Walt.",
+          "video": "media/series/breakingbad/2-2.mp4"
+        },
+        {
+          "title": "Alibi",
+          "desc": "Alors que Hank est à deux doigts de percer la petite activité de Walt, ce dernier décide d'élaborer un plan pour brouiller les pistes.",
+          "video": "media/series/breakingbad/2-3.mp4"
+        },
+        {
+          "title": "Au fond du gouffre",
+          "desc": "Alors que Walt essaie de combler le gouffre qui s'est creusé entre Skyler et lui, Jesse se retrouve sans abri après que ses parents l'ont mis à la porte.",
+          "video": "media/series/breakingbad/2-4.mp4"
+        },
+        {
+          "title": "Nouveau départ",
+          "desc": "Pendant que Hank essaie de se ressaisir après sa rencontre avec Tuco, Jesse décide de recruter parmi ses amis pour écouler davantage de stock.",
+          "video": "media/series/breakingbad/2-5.mp4"
+        },
+        {
+          "title": "Règlements de comptes",
+          "desc": "Tandis que Jesse part à la recherche des toxicos qui ont volé la marchandise de Skinny Pete, Walt doit s'expliquer sur la source de ses revenus.",
+          "video": "media/series/breakingbad/2-6.mp4"
+        },
+        {
+          "title": "Poisson-lune",
+          "desc": "Alors que Walt se réjouit de la réputation grandissante de Jesse et décide de développer leur affaire, Hank rend une petite visite au bureau de la DEA d'El Paso.",
+          "video": "media/series/breakingbad/2-7.mp4"
+        },
+        {
+          "title": "Appelez donc Saul",
+          "desc": "Quand Badger se fait coincer par la police, Walt et Jesse décident de lui trouver un avocat.",
+          "video": "media/series/breakingbad/2-8.mp4"
+        },
+        {
+          "title": "Seuls au monde",
+          "desc": "Pensant vivre ses dernières heures, Walt décide d'assurer une réserve d'argent suffisante à sa famille en entraînant Jesse dans un marathon de fabrication de meth.",
+          "video": "media/series/breakingbad/2-9.mp4"
+        },
+        {
+          "title": "Introspection",
+          "desc": "Après l'annonce du début de rémission de son cancer, Walt s'en prend à son beau-frère et cherche à réparer tout ce qui peut l'être dans la maison.",
+          "video": "media/series/breakingbad/2-10.mp4"
+        },
+        {
+          "title": "Nouvelle donne",
+          "desc": "À quelques jours de son accouchement, Skyler se sent perdue, tandis que la mort d'un dealer en pleine rue contraint Walt à chercher un lieu sûr où écouler la came.",
+          "video": "media/series/breakingbad/2-11.mp4"
+        },
+        {
+          "title": "Vie et mort",
+          "desc": "Dans cet épisode, Walt doit choisir entre assurer la livraison d'un gros deal et se rendre au chevet de sa femme sur le point d'accoucher.",
+          "video": "media/series/breakingbad/2-12.mp4"
+        },
+        {
+          "title": "Effet papillon",
+          "desc": "Alors qu'il se prépare à passer sur le billard, Walt tente de reprendre sa vie et celle de Jesse en main, et cherche à cacher sa source de revenus à Skyler et Walt Jr.",
+          "video": "media/series/breakingbad/2-13.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Crash",
+          "desc": "Après la catastrophe aérienne, Skyler met Walt à la porte, tandis que la cure de désintoxication de Jesse lui permet de faire face à son passé.",
+          "video": "media/series/breakingbad/3-1.mp4"
+        },
+        {
+          "title": "Tensions",
+          "desc": "Alors que Skyler demande le divorce, Walt se retrouve malgré lui dans la ligne de mire de deux tueurs à gages de cartels mexicains assoiffés de vengeance.",
+          "video": "media/series/breakingbad/3-2.mp4"
+        },
+        {
+          "title": "Sur le fil",
+          "desc": "La tension monte quand Walter retourne s'installer à la maison sans l'autorisation de Skyler, quant à Jesse, il envisage de se relancer dans le deal.",
+          "video": "media/series/breakingbad/3-3.mp4"
+        },
+        {
+          "title": "Chiens et chats",
+          "desc": "Alors que Jesse a repris du service et qu'il tente de rameuter Walt, la liaison qu'entretient Skyler avec son chef sème le chaos.",
+          "video": "media/series/breakingbad/3-4.mp4"
+        },
+        {
+          "title": "Retour aux affaires",
+          "desc": "Alors que Skyler revient sur ses décisions, Walter envisage de reprendre le deal, tandis que la détermination de Hank s'annonce périlleuse pour Jesse.",
+          "video": "media/series/breakingbad/3-5.mp4"
+        },
+        {
+          "title": "Le camping-car",
+          "desc": "La découverte du vieux camping-car de Walt et de Jesse les contraint à agir au plus vite, alors que Walt reprend du service dans le laboratoire dernier cri de Gus.",
+          "video": "media/series/breakingbad/3-6.mp4"
+        },
+        {
+          "title": "Vendetta",
+          "desc": "Alors que Hank risque sa carrière en s'en prenant à Jesse, ce dernier est bien déterminé à porter plainte, mais Skyler demande à Walt d'intervenir.",
+          "video": "media/series/breakingbad/3-7.mp4"
+        },
+        {
+          "title": "Prise de pouvoir",
+          "desc": "Alors que Hank s'accroche à la vie après l'attaque du cartel, Walt veut éviter tout problème et propose à Jesse de devenir son partenaire.",
+          "video": "media/series/breakingbad/3-8.mp4"
+        },
+        {
+          "title": "Kafkaïen",
+          "desc": "Alors que Marie a peur de voir son mari paralysé, Jesse cherche un moyen d'augmenter sa part des bénéfices.",
+          "video": "media/series/breakingbad/3-9.mp4"
+        },
+        {
+          "title": "La mouche",
+          "desc": "La nuit est longue et tendue pour Jesse et Walt qui ont toutes les peines du monde à se débarrasser d'un intrus qui a réussi à s'infiltrer dans le laboratoire.",
+          "video": "media/series/breakingbad/3-10.mp4"
+        },
+        {
+          "title": "Société écran",
+          "desc": "Hank est découragé par ses faibles progrès, Skyler remet en cause le système de blanchiment d'argent de Saul, et Jesse tombe sous le charme d'une copine de désintox.",
+          "video": "media/series/breakingbad/3-11.mp4"
+        },
+        {
+          "title": "Demi-mesures",
+          "desc": "Jesse poursuit les dealers à l'origine du meurtre de Combo, tandis que Hank hésite à quitter l'hôpital, et que Skyler mène Walt par le bout du nez.",
+          "video": "media/series/breakingbad/3-12.mp4"
+        },
+        {
+          "title": "Pleine mesure",
+          "desc": "Après le meurtre de trafiquants, Walter tente de négocier un accord avec Gus pour avoir la vie sauve, quand un personnage fait son retour.",
+          "video": "media/series/breakingbad/3-13.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Le cutter",
+          "desc": "Après une troisième saison riche en suspense où Walt et Jesse se sont battus pour sauver leurs vies, quel tour Gus leur réserve-t-il à présent ?",
+          "video": "media/series/breakingbad/4-1.mp4"
+        },
+        {
+          "title": "Snub 38",
+          "desc": "Pendant que Walt prépare sa riposte contre Gus, Jesse tente de renouer les liens avec Badger et Skinny Pete.",
+          "video": "media/series/breakingbad/4-2.mp4"
+        },
+        {
+          "title": "Motivations",
+          "desc": "Tandis que Walt s'inquiète des ingérences de Gus et de l'état psychologique de Jesse, Skyler augmente encore un peu la pression pour obtenir ce qu'elle veut.",
+          "video": "media/series/breakingbad/4-3.mp4"
+        },
+        {
+          "title": "Les points importants",
+          "desc": "Alors que Walt apprend que Hank a ouvert une nouvelle enquête, Skyler doit inventer une histoire tordue pour justifier les revenus de sa famille.",
+          "video": "media/series/breakingbad/4-4.mp4"
+        },
+        {
+          "title": "Nouveau job",
+          "desc": "Alors que Mike emmène Jesse faire une virée en voiture pour récupérer l'argent des ventes, Walt s'inquiète pour la sécurité de son partenaire.",
+          "video": "media/series/breakingbad/4-5.mp4"
+        },
+        {
+          "title": "Guerre froide",
+          "desc": "Skyler se montre distante alors qu'elle soupçonne Walt de lui cacher la vérité, pendant que Jesse prouve à Mike et à Gus de quoi il est capable.",
+          "video": "media/series/breakingbad/4-6.mp4"
+        },
+        {
+          "title": "Négociations",
+          "desc": "La femme de Walt l'oblige à retourner la voiture qu'il vient d'acheter à son fils. Le nouveau système de blanchiment d'argent met Skyler dans une situation délicate.",
+          "video": "media/series/breakingbad/4-7.mp4"
+        },
+        {
+          "title": "Frères et partenaires",
+          "desc": "Alors que Hank réussit à prouver que Gus est le gros bonnet du crystal d'Albuquerque, Walt craint que Jesse et lui ne soient tués pour protéger leur boss.",
+          "video": "media/series/breakingbad/4-8.mp4"
+        },
+        {
+          "title": "Incontrôlables",
+          "desc": "Walt tente de saboter les pistes de Hank, alors qu'un avertissement de taille contraint Gus à envisager un accord avec le cartel mexicain.",
+          "video": "media/series/breakingbad/4-9.mp4"
+        },
+        {
+          "title": "Salud",
+          "desc": "Gus entraîne Jesse au Mexique pour conclure un marché avec le cartel, pendant que Walt essaie tant bien que mal de se remettre d'une bagarre.",
+          "video": "media/series/breakingbad/4-10.mp4"
+        },
+        {
+          "title": "Seul contre tous",
+          "desc": "Alors que Ted finit par accepter l'argent proposé par Skyler pour payer ses impôts, Gus insiste pour que Jesse reprenne tout seul ses activités au laboratoire.",
+          "video": "media/series/breakingbad/4-11.mp4"
+        },
+        {
+          "title": "Echec",
+          "desc": "Tandis que les White se réfugient chez Hank où ils sont placés sous protection policière, Walt refuse de les accompagner et décide de voir à quelle sauce il sera mangé.",
+          "video": "media/series/breakingbad/4-12.mp4"
+        },
+        {
+          "title": "Mat",
+          "desc": "Alors que le plan qu'ils avaient élaboré pour tuer Gus tombe à l'eau, Walt et Jesse n'ont pas une minute à perdre pour brouiller les pistes et échapper à la mort.",
+          "video": "media/series/breakingbad/4-13.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Vivre libre ou mourir",
+          "desc": "Walter a changé d'identité. Pour survivre, il doit retrouver les vidéos de Gus et s'assurer qu'elles ne tomberont pas entre les mains de Hank. Il lui faut entrer en contact avec Mike, qui est le seul à savoir où sont ces précieux enregistrements. Hélas, la police a déjà saisi les vidéos et les a mises sous scellés…",
+          "video": "media/series/breakingbad/5-1.mp4"
+        },
+        {
+          "title": "Madrigal",
+          "desc": "La police continue ses recherches sur les affaires de Gus. Elle s'intéresse notamment à une entreprise allemande, la Madrigal Eletromotive, à laquelle le malfrat était lié financièrement. Mike, lui, s'inquiète à cause de ses entretiens avec Hank. Coincé, il finit par accepter de travailler avec Walt et Jesse…",
+          "video": "media/series/breakingbad/5-2.mp4"
+        },
+        {
+          "title": "Nouveaux labos",
+          "desc": "Walter envisage de mettre sur pied un laboratoire mobile, moins risqué, pour sa production de méthamphétamine. Il crée donc une entreprise de dératisation qui lui servira de société écran. De son côté, Jesse s'adresse à Badger et Skinny Pete pour l'approvisionnement des matériaux nécessaires à la construction du nouveau laboratoire. Le jeune homme décide par ailleurs de quitter Andrea et de prendre ses distances avec Brock. Marie ne comprend pas pourquoi sa soeur est si dure avec son mari et tente d'en parler avec elle. Walter et Mike ne sont pas d'accord sur la manière de répartir les profits de leur production…",
+          "video": "media/series/breakingbad/5-3.mp4"
+        },
+        {
+          "title": "Cinquante et un",
+          "desc": "Alors que l'anniversaire de Walter approche, Skyler, de plus en plus déprimée, songe à mettre fin à ses jours. Elle finit par avouer à son mari que son souhait le plus cher serait qu'il soit rattrapé par son cancer. Elle décide alors d'envoyer vivre leurs deux enfants chez sa soeur pour les éloigner de leur père et de ses activités. Dans le même temps, Hank et ses hommes font une descente dans les locaux de Madrigal Electromotive et procèdent à l'arrestation d'un des proches de Lydia. Celle-ci manipule Jesse et Mike pour ne pas éveiller leurs soupçons…",
+          "video": "media/series/breakingbad/5-4.mp4"
+        },
+        {
+          "title": "Le plan presque parfait",
+          "desc": "Walter profite d'une visite dans le nouveau bureau de son beau-frère pour lui confier ses problèmes conjugaux. Mais cet entretien n'est en fait qu'un prétexte pour cacher un micro dans les locaux de la police. Jesse, Mike et Walter ont du mal à faire confiance à Lydia, qui prétend que sa marchandise est surveillée par les forces de l'ordre. Pour montrer sa bonne foi et sauver sa peau, Lydia leur livre des informations confidentielles, censées leur permettre de s'approprier une grande quantité de drogue. Pendant ce temps, Junior se demande pourquoi sa mère tente de l'empêcher d'entrer en contact avec son père…",
+          "video": "media/series/breakingbad/5-5.mp4"
+        },
+        {
+          "title": "Divergence",
+          "desc": "Jesse désapprouve les nouvelles méthodes employées par ses associés : traumatisé par le meurtre du jeune garçon, il exige le départ de Todd, mais Walter refuse catégoriquement. Le désaccord entre Jesse, Mike et Walter ne cesse de croître. De son côté, Skyler confie à sa soeur, Marie, qu'elle craint l'influence de Walter sur ses enfants…",
+          "video": "media/series/breakingbad/5-6.mp4"
+        },
+        {
+          "title": "Heisenberg",
+          "desc": "Walter, Mike et Jesse veulent s'associer avec Declan afin qu'il s'occupe de la distribution de leur stock de drogue. Mike, qui cherche à se retirer de l'association, decide de vendre son stock de meth à Declan. Jesse quitte Walt à son tour, malgré les tentatives de celui-ci pour le retenir. Il se tourne alors vers Todd, dont il fait son nouvel assistant. Grâce au micro que Walt a caché dans le bureau de Hank, Mike apprend que son appartement va bientôt être fouillé par la police. Bredouille, Hank porte son attention sur Dan, l'avocat des complices de Mike…",
+          "video": "media/series/breakingbad/5-7.mp4"
+        },
+        {
+          "title": "Un nouveau jour se lève",
+          "desc": "Todd et Walter doivent se débarrasser du corps de Mike sans éveiller les soupçons de Jesse. Walt reprend contact avec Lydia, qui lui propose d'ouvrir sa propre distribution de drogue en République tchèque. Walt accepte et, pour éviter d'être la cible d'une vengeance, fait éliminer les complices de Mike par des malfrats proches de l'oncle de Todd…",
+          "video": "media/series/breakingbad/5-8.mp4"
+        },
+        {
+          "title": "Le prix du sang",
+          "desc": "Après avoir trouvé dans la salle de bains de Walter un livre dédicacé par Gale Boetticher, Hank a compris que son beau-frère était impliqué dans la fabrication de méthamphétamine bleue. Totalement déboussolé par cette information, il est pris de panique sur le chemin du retour. Plus tard, en reprenant tout le dossier, il réalise qu'il a fait fausse route depuis le départ. Walt, de son côté, à tenu sa promesse envers Skyler et a cessé ses activités criminelles. Il commence à travailler à la station de lavage de voitures et souhaite en ouvrir une nouvelle. Malheureusement, ses derniers examens de santé sont mauvais…",
+          "video": "media/series/breakingbad/5-9.mp4"
+        },
+        {
+          "title": "Enterré",
+          "desc": "Un matin, un vieil homme quitte sa maison et découvre une liasse de billets dans son allée. En regardant dans la rue, il en voit d'autres. En suivant les liasses, il finit par trouver la voiture de Jesse, accidentée dans un parc. Jesse est allongé sur un carousel, le regard vide. Après sa confrontation avec Hank, Walt cherche désespérément à contacter Skyler. N'obtenant pas de réponse, il se rend de toute urgence au car wash, mais après avoir parlé avec Hank au téléphone, elle a quitté les lieux pour retrouver son beau-frère dans un restaurant. Il lui assure qu'elle n'a plus rien à craindre de Walt…",
+          "video": "media/series/breakingbad/5-10.mp4"
+        },
+        {
+          "title": "Confessions",
+          "desc": "Walt et Skyler retrouvent Hank et Marie dans un restaurant. Ils tentent de les convaincre de reprendre le cours de leur vie, en tâchant d'oublier ce qu'ils ont découvert, puisque Walt risque de toute façon de ne plus être là dans quelques mois. Cependant, Hank refuse de laisser tomber son enquête. Avant de le quitter, son beau-frère lui laisse un DVD contenant ses confessions. Walt y affirme avoir été obligé de se lancer dans la fabrication de méthamphétamine sous la pression de Hank. De son côté, Jesse est libéré de prison. Walt parvient à le persuader de quitter la région sous une nouvelle identité…",
+          "video": "media/series/breakingbad/5-11.mp4"
+        },
+        {
+          "title": "Comme un chien enragé",
+          "desc": "La voiture de Saul est garée dans l'allée de la maison de Walt et la porte d'entrée est ouverte. Pensant que Jesse l'attend, il passe par derrière mais, une fois entré, il constate qu'il n'y a personne. De l'essence a été répandue partout dans le salon. Walt essaie en vain de tout nettoyer…",
+          "video": "media/series/breakingbad/5-12.mp4"
+        },
+        {
+          "title": "Règlement de compte à Tohajiilee",
+          "desc": "Lydia critique la qualité de la drogue produite par Todd, qui se voit chargé, par Walt de proposer un contrat à son oncle. Jesse suggère un nouveau plan d'action à Hank et Gomez : s'en prendre à l'argent de Walt. Dans le hangar, Walt rencontre Todd et son oncle, pour planifier l'élimination de Jesse. Les deux hommes acceptent à la condition que Walt contribue à améliorer leur produit…",
+          "video": "media/series/breakingbad/5-13.mp4"
+        },
+        {
+          "title": "Seuke au monde",
+          "desc": "Walt et Jesse survivent à la fusillade dans le désert. Cette fois, Walt espère que Jack, l'oncle de Todd, s'acquittera de sa part du marché en éliminant son ex-assistant. Mais Todd parvient à convaincre son oncle de garder Jesse en vie, afin qu'il transforme ce qu'il leur reste de méthylamine. Pendant que Walt révèle à Jesse la vérité sur la mort de Jane, Marie va trouver sa soeur à la station de lavage. Après un appel de Hank, elle pense que le mari de Skyler est désormais sous les verrous. Pourtant, quand elle rentre chez elle, Skyler trouve Walt à la maison, prêt à fuir avec elle et les enfants…",
+          "video": "media/series/breakingbad/5-14.mp4"
+        },
+        {
+          "title": "L'origine du mal",
+          "desc": "Walt est prêt à quitter Albuquerque pour toujours, sous une nouvelle identitée concoctée par le contact de Saul. L'avocat est lui aussi en fuite, car il sait que les autorités ne tarderont pas à faire le lien entre lui et Heisenberg. Walt essaie de le convaincre de le suivre, mais sans succès. Chacun suit sa propre voie. Pour le chimiste, une nouvelle vie démarre bientôt dans le New Hampshire. Le contact de Saul l'emmène dans une cabane perdue dans une montagne enneigée, qu'il ne pourra pas quitter avant des mois s'il veut éviter d'être arrêter. Pourtant, Walt n'a pas l'intention d'attendre sa mort dans ce lieu perdu…",
+          "video": "media/series/breakingbad/5-15.mp4"
+        },
+        {
+          "title": "Revenir ou mourir",
+          "desc": "Walt est de retour à Albuquerque pour régler ses comptes. Il se rend tout d'abord chez Elliott et Gretchen Schwartz, à qui il confie une très importante somme d'argent, qu'ils auront pour mission de faire parvenir à sa famille. Le couple hésite, mais il les convainc finalement par la menace. Ensuite, Walt rend visite à Skyler pour la dernière fois et lui avoue enfin qu'il n'a pas seulement agi pour protéger les siens. Plus tard, il retrouve Todd et Lydia et leur explique qu'il a trouvé une nouvelle formule chimique permettant de fabriquer de la drogue plus facilement. Enfin, il se rend dans la cachette de Todd et son oncle…$",
+          "video": "media/series/breakingbad/5-16.mp4"
+        }
+      ]
+    }
+  }
 }

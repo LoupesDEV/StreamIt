@@ -15,10 +15,14 @@
     <input
       type="text"
       id="search-bar"
-      placeholder="Rechercher une série..."
-      oninput="filterSeries()"
+      placeholder="Rechercher un film ou une série..."
+      oninput="filter()"
     />
 
+    <h2>Films</h2>
+    <div id="films-list"></div>
+
+    <h2>Séries</h2>
     <div id="series-list"></div>
 
     <script src="js/index.js"></script>

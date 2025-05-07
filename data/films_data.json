@@ -1,0 +1,15 @@
+{
+  "Exterritorial": {
+    "title": "Exterritorial",
+    "description": "Quand son fils disparaît dans un consulat américain, Sara, ex-soldate des forces spéciales, fait tout ce qu'elle peut pour le retrouver et découvre une sinistre conspiration.",
+    "banner": "media/films/exterritorial/exterritorial.jpg",
+    "IMDb": "5.8",
+    "IMDb_link": "https://www.imdb.com/title/tt30876483/",
+    "year": 2025,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Jérôme Salle"],
+    "writers": ["Christian Zübert"],
+    "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
+    "video": "media/series/exterritorial/exterritorial.mp4"
+  }
+}
