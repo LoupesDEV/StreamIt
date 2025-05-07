@@ -31,15 +31,6 @@ function renderSeriesDetails(series) {
   title.innerText = `${series.title} (${series.year})`;
   description.innerHTML = series.description;
   rating.innerText = series.IMDb || "N/A";
-
-  if (series.IMDb) {
-    const score = parseFloat(series.IMDb);
-    const percentage = (score / 10) * 100;
-
-    rating.style.border = `2px solid transparent`;
-    rating.style.borderRadius = "50%";
-    rating.style.borderImage = `conic-gradient(#ff9d00 ${percentage}%, transparent ${percentage}%) 1`;
-  }
   genres.innerText = series.genres ? series.genres.join(", ") : "N/A";
   creators.innerText = series.creators ? series.creators.join(", ") : "N/A";
   stars.innerText = series.stars ? series.stars.join(", ") : "N/A";
