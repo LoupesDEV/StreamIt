@@ -53,11 +53,11 @@ async function loadEpisodeData() {
     episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () =>
       (window.location.href = `watching.html?series=${series}&season=${season}&episode=${ep.title}`);
-  
+
     if (ep.title === episode) {
       episodeLi.classList.add("active");
     }
-  
+
     episodeListUl.appendChild(episodeLi);
   });
 
@@ -102,13 +102,17 @@ async function changeSeason() {
     episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () => {
       const sanitizedSeason = encodeURIComponent(selectedSeason);
-      window.location.href = `watching.html?series=${series}&season=${sanitizedSeason}&episode=${encodeURIComponent(ep.title)}`;
+      window.location.href = `watching.html?series=${series}&season=${sanitizedSeason}&episode=${encodeURIComponent(
+        ep.title
+      )}`;
     };
     episodeListUl.appendChild(episodeLi);
   });
 
   const firstEpisode = currentSeason[0];
-  window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(firstEpisode.title)}`;
+  window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(
+    firstEpisode.title
+  )}`;
 }
 
 loadEpisodeData();

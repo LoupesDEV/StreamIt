@@ -22,5 +22,6 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
+# Personal unwanted files
 *.mp4
 *.part
