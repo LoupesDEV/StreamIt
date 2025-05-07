@@ -81,8 +81,18 @@ header h1 {
 }
 
 #series-info .rating .rating-value {
-  font-size: 28px;
-  color: #f39c12;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(243, 156, 18, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  border: 5px solid transparent;
 }
 
 .season-buttons {
