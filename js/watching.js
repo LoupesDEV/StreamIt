@@ -47,16 +47,17 @@ async function loadEpisodeData() {
   episodeDescription.innerText = episodeData.desc;
 
   episodeListUl.innerHTML = "";
-  currentSeason.forEach((ep) => {
+  currentSeason.forEach((ep, index) => {
+    const episodeNumber = (index + 1).toString().padStart(2, "0");
     const episodeLi = document.createElement("li");
-    episodeLi.innerText = ep.title;
+    episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () =>
       (window.location.href = `watching.html?series=${series}&season=${season}&episode=${ep.title}`);
-
+  
     if (ep.title === episode) {
       episodeLi.classList.add("active");
     }
-
+  
     episodeListUl.appendChild(episodeLi);
   });
 
@@ -95,9 +96,10 @@ async function changeSeason() {
   const episodeListUl = document.getElementById("episode-list-ul");
   episodeListUl.innerHTML = "";
 
-  currentSeason.forEach((ep) => {
+  currentSeason.forEach((ep, index) => {
+    const episodeNumber = (index + 1).toString().padStart(2, "0");
     const episodeLi = document.createElement("li");
-    episodeLi.innerText = ep.title;
+    episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () => {
       const sanitizedSeason = encodeURIComponent(selectedSeason);
       window.location.href = `watching.html?series=${series}&season=${sanitizedSeason}&episode=${encodeURIComponent(ep.title)}`;
