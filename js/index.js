@@ -79,9 +79,9 @@ function renderFilms(filmsData) {
 
 function filter() {
   const searchQuery = document.getElementById("search-bar").value.toLowerCase();
+
   const seriesList = document.getElementById("series-list");
   const seriesItems = seriesList.getElementsByClassName("series");
-
   for (let i = 0; i < seriesItems.length; i++) {
     const seriesTitle = seriesItems[i]
       .querySelector(".series-title")
@@ -90,6 +90,19 @@ function filter() {
       seriesItems[i].style.display = "block";
     } else {
       seriesItems[i].style.display = "none";
+    }
+  }
+
+  const filmsList = document.getElementById("films-list");
+  const filmsItems = filmsList.getElementsByClassName("films");
+  for (let i = 0; i < filmsItems.length; i++) {
+    const filmTitle = filmsItems[i]
+      .querySelector(".films-title")
+      .innerText.toLowerCase();
+    if (filmTitle.includes(searchQuery)) {
+      filmsItems[i].style.display = "block";
+    } else {
+      filmsItems[i].style.display = "none";
     }
   }
 }
