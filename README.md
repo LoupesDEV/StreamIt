@@ -51,19 +51,39 @@ Voici la structure des fichiers du projet :
 
 ```
 StreamIt/
-├── media/
-│   ├── series/
-│   │   ├── X/                # Dossier pour la série X
-│   │   ├── XX/               # Dossier pour la série XX
-│   │   └── XXX/              # Dossier pour la série XXX
-│   └── README/               # Dossier pour le README
-│       ├── index.png         # Preview de la page d'accueil
-│       ├── series.pong       # Preview de la page des séries
-│       └── watching.png      # Preview de la page de visionnage
+├── css/                      # Différentes feuilles de styles des pages
+│   ├── films.css
+│   ├── index.css
+│   ├── series.css
+│   └── watching.css
+├── data/                     # Données des films et séries (nom, description, épisodes, etc...)
+│   ├── films_data.json
+│   └── series_data.json
+├── js/
+│   ├── films.js
+│   ├── index.js
+│   ├── series.js
+│   └── watching.js
+├── media/                    # Dossier comprenant toutes les médias pour l'application
+│   ├── series/               # Dossier pour les différentes séries
+│   │   ├── X/
+│   │   ├── XX/
+│   │   └── XXX/
+│   ├── films/                # Dossier pour les différents films
+│   │   ├── X/
+│   │   ├── XX/
+│   │   └── XXX/
+│   └── README/               # Dossier d'image pour le README
+│   │   ├── index.png
+│   │   ├── series.pong
+│   │   └── watching.png
+│   └── logo.png              # Logo de l'application
+├── CODE_OF_CONDUCT.md        # Ensemble de règles concernant ce projet
+├── CONTRIBUTING.md           # Comment contribuer au projet
+├── films.html                # Détails de chaque films
 ├── index.html                # Page d'accueil
 ├── LICENSE                   # Licence du projet
 ├── README.md                 # Documentation du projet
-├── series_data.json          # Données des séries (nom, description, épisodes)
 ├── series.html               # Détails de chaque série
 └── watching.html             # Visionnage des épisodes
 ````
