@@ -14,7 +14,7 @@ function goBackToSeries() {
 
 async function loadEpisodeData() {
   const { series, season, episode } = getURLParams();
-  const response = await fetch("series_data.json");
+  const response = await fetch("data/series_data.json");
   const data = await response.json();
 
   if (!data[series]) {
@@ -77,7 +77,7 @@ async function changeSeason() {
   const selectedSeason = seasonSelect.value;
   const { series } = getURLParams();
 
-  const response = await fetch("series_data.json");
+  const response = await fetch("data/series_data.json");
   const data = await response.json();
 
   if (!data[series]) {

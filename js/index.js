@@ -1,5 +1,5 @@
 async function loadSeriesData() {
-  const response = await fetch("series_data.json");
+  const response = await fetch("data/series_data.json");
   const data = await response.json();
   renderSeries(data);
 }
