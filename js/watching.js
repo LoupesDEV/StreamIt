@@ -6,7 +6,6 @@ function getNumberOfArguments() {
 function getURLParams() {
   const params = new URLSearchParams(window.location.search);
   const keys = Array.from(params.keys());
-  console.log(keys);
 
   if (keys.length === 1) {
     return {
