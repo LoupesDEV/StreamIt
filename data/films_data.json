@@ -167,5 +167,31 @@
     "writers": ["Michael Lesslie", "Michael Arndt", "Suzanne Collins"],
     "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
     "video": "medias/films/hungergames4/hungergames4.mp4"
+  },
+  "La Planète des singes : Suprématie": {
+    "title": "La Planète des singes : Suprématie",
+    "description": "César et les Singes sont contraints de mener un combat dont ils ne veulent pas contre une armée d'Humains dirigée par un Colonel impitoyable. Les Singes connaissent des pertes considérables et César, dans sa quête de vengeance, va devoir lutter contre ses instincts les plus noirs. Au terme d'un périple qui le conduira à un face à face avec le Colonel, les Singes et les Humains vont se livrer une guerre sans merci à l'issue de laquelle une seule des deux espèces survivra - et dominera la planète.",
+    "banner": "medias/films/laplanetedessinges4/laplanetedessinges4.jpg",
+    "IMDb": 7.4,
+    "IMDb_link": "https://www.imdb.com/title/tt3450958/",
+    "year": 2017,
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "directors": ["Matt Reeves"],
+    "writers": ["Mark Bomback", "Matt Reeves", "Rick Jaffa"],
+    "stars": ["Andy Serkis", "Woody Harrelson", "Steve Zahn"],
+    "video": "medias/films/laplanetedessinges4/laplanetedessinges4.mp4"
+  },
+  "La Planète des singes : Le Nouveau Royaume": {
+    "title": "La Planète des singes : Le Nouveau Royaume",
+    "description": "Plusieurs générations après le règne de César, les singes ont définitivement pris le pouvoir. Les humains, quant à eux, ont régressé à l'état sauvage et vivent en retrait. Alors qu'un nouveau chef tyrannique construit peu à peu son empire, un jeune singe entreprend un périlleux voyage qui l'amènera à questionner tout ce qu'il sait du passé et à faire des choix qui définiront l'avenir des singes et des humains...",
+    "banner": "medias/films/laplanetedessinges5/laplanetedessinges5.jpg",
+    "IMDb": 6.9,
+    "IMDb_link": "https://www.imdb.com/title/tt11389872/",
+    "year": 2024,
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "directors": ["Wes Ball"],
+    "writers": ["Josh Friedman", "Rick Jaffa", "Amanda Silver"],
+    "stars": ["Owen Teague", "Freya Allan", "Kevin Durand"],
+    "video": "medias/films/laplanetedessinges5/laplanetedessinges5.mp4"
   }
 }
