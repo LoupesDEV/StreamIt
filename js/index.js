@@ -14,7 +14,11 @@ function renderSeries(seriesData) {
   const seriesList = document.getElementById("series-list");
   seriesList.innerHTML = "";
 
-  for (const series in seriesData) {
+  const sortedSeries = Object.keys(seriesData).sort((a, b) => {
+    return seriesData[a].title.localeCompare(seriesData[b].title);
+  });
+
+  for (const series of sortedSeries) {
     const seriesDiv = document.createElement("div");
     seriesDiv.classList.add("series");
     seriesDiv.onclick = () =>
@@ -48,7 +52,11 @@ function renderFilms(filmsData) {
   const filmsList = document.getElementById("films-list");
   filmsList.innerHTML = "";
 
-  for (const film in filmsData) {
+  const sortedFilms = Object.keys(filmsData).sort((a, b) => {
+    return filmsData[a].title.localeCompare(filmsData[b].title);
+  });
+
+  for (const film of sortedFilms) {
     const filmDiv = document.createElement("div");
     filmDiv.classList.add("films");
     filmDiv.onclick = () => (window.location.href = `films.html?films=${film}`);
