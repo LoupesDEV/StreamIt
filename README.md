@@ -51,6 +51,8 @@ Ce projet a été développé avec les technologies suivantes :
 - **Visionnage intégré** 🎥 : Regardez vos épisodes ou films directement depuis l’application grâce à un lecteur vidéo embarqué, avec navigation intuitive et retour rapide.
 - **Recherche centralisée** 🔍 : Trouvez instantanément un film ou une série via une barre de recherche performante en page d’accueil.
 - **Navigation fluide** 🧭 : Interface simple et réactive pour passer facilement d’un contenu à l’autre ou revenir à l’accueil.
+- **Design responsive** 📱💻 : Optimisé pour tous les appareils (desktop, tablette et mobile), assurant une expérience de navigation fluide et agréable peu importe la taille de l'écran.
+
 
 ## 📂 Structure du projet
 
