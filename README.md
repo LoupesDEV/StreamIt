@@ -4,31 +4,35 @@ Bienvenue sur **StreamIt** ! Ce projet vous permet de gérer et de regarder vos 
 
 ## 🎯 Objectif
 
-Ce projet a pour but de :
+Le but de **StreamIt** est de fournir une plateforme personnelle de streaming simple, moderne et accessible pour organiser, explorer et visionner vos contenus préférés.
 
-- Offrir une plateforme personnelle de streaming pour organiser et visionner vos séries préférées.
-- Proposer une navigation simple entre les séries et les épisodes.
-- Mettre en avant les informations clés sur chaque série (description, acteurs, genres, note IMDb).
-- Fournir une expérience responsive, accessible aussi bien sur mobile que sur desktop.
+- Centraliser l’accès à vos **films et séries** dans une interface unique et épurée.
+- Offrir une **expérience de visionnage fluide** avec un lecteur intégré.
+- Proposer un **affichage dynamique** des données (notes, genres, acteurs, etc.) sans rechargement de page.
+- Faciliter la navigation grâce à une **interface responsive** et intuitive, adaptée à tous les écrans.
+- Mettre à disposition une **recherche efficace** pour retrouver instantanément vos contenus.
 
 ## 🌐 Démo
 
 Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamIt).
 
-
 <details>
 <summary><strong>Voir les images</strong></summary>
 
 ## Page d'accueil
+
 <img src="media/README/index.png" alt="Page d'accueil" />
 
 ## Page des séries
+
 <img src="media/README/series.png" alt="Page des séries" />
 
 ## Page des films
+
 <img src="media/README/films.png" alt="Page des films" />
 
 ## Page de stream
+
 <img src="media/README/watching.png" alt="Page de stream" />
 </details>
 
@@ -42,11 +46,11 @@ Ce projet a été développé avec les technologies suivantes :
 
 ## 📌 Fonctionnalités
 
-- **Gestion des séries** : Ajoutez et organisez vos séries préférées avec leurs détails.
-- **Lecture d'épisodes** : Visionnez directement les épisodes avec un lecteur intégré.
-- **Affichage dynamique** des informations sur chaque série : note IMDb, genre, créateurs, acteurs.
-- **Navigation fluide** : Accédez facilement aux saisons et aux épisodes.
-- **Recherche rapide** : Trouvez vos séries en quelques secondes grâce à une barre de recherche.
+- **Gestion des contenus (films & séries)** 🎞️ : Parcourez vos films et séries préférés avec des fiches détaillées incluant description, genres, note IMDb, créateurs, réalisateurs et acteurs. Pour les séries, naviguez facilement entre les saisons et les épisodes ; pour les films, lancez le visionnage d’un simple clic.
+- **Affichage dynamique** 📊 : Les données des films et séries sont chargées dynamiquement, offrant une mise à jour fluide et une interface réactive sans rechargement de page.
+- **Visionnage intégré** 🎥 : Regardez vos épisodes ou films directement depuis l’application grâce à un lecteur vidéo embarqué, avec navigation intuitive et retour rapide.
+- **Recherche centralisée** 🔍 : Trouvez instantanément un film ou une série via une barre de recherche performante en page d’accueil.
+- **Navigation fluide** 🧭 : Interface simple et réactive pour passer facilement d’un contenu à l’autre ou revenir à l’accueil.
 
 ## 📂 Structure du projet
 
@@ -76,7 +80,7 @@ StreamIt/
 │   │   ├── X/
 │   │   ├── XX/
 │   │   └── XXX/
-│   └── README/              # Dossier d'image pour le README
+│   └── README/               # Dossier d'image pour le README
 │   │   ├── films.png
 │   │   ├── index.png
 │   │   ├── series.png
@@ -90,19 +94,21 @@ StreamIt/
 ├── README.md                 # Documentation du projet
 ├── series.html               # Détails de chaque série
 └── watching.html             # Visionnage des épisodes
-````
+```
 
 ## 🚀 Installation et Exécution
 
 1. Cloner ce dépôt :
+
    ```bash
    git clone https://github.com/KucoDEV/StreamIt.git
-    ```
+   ```
 
 2. Ouvrir le dossier cloné et servir les fichiers via un serveur local. Par exemple, utilisez **Live Server** dans VSCode ou Python :
+
    ```bash
     python3 -m http.server 8080
-    ```
+   ```
 
 3. Accéder à `http://localhost:8080` dans votre navigateur pour commencer à utiliser l'application.
 
