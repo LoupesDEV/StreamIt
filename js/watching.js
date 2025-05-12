@@ -104,23 +104,21 @@ async function loadFilmData() {
 
   const filmData = data[films];
 
+  const watchTitle = document.getElementById("watch-title");
   const videoPlayer = document.getElementById("video-player");
   const filmTitle = document.getElementById("episode-title");
   const filmDescription = document.getElementById("episode-description");
 
+  watchTitle.innerText = `${films} (${filmData.year})`;
   videoPlayer.src = filmData.video;
   filmTitle.innerText = filmData.title;
   filmDescription.innerText = filmData.description;
 
-  const episodeListUl = document.getElementById("episode-list-ul");
-  const seasonSelect = document.getElementById("season-select");
-
-  if (episodeListUl) {
-    episodeListUl.remove();
-  }
-  if (seasonSelect) {
-    seasonSelect.remove();
-  }
+  const mainSection = document.getElementById("main-section");
+  mainSection.style.justifyContent = "center";
+  
+  const episodeList = document.getElementById("episode-list");
+  episodeList.remove();
 }
 
 async function changeSeason() {
