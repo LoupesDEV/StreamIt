@@ -116,7 +116,7 @@ async function loadFilmData() {
 
   const mainSection = document.getElementById("main-section");
   mainSection.style.justifyContent = "center";
-  
+
   const episodeList = document.getElementById("episode-list");
   episodeList.remove();
 }
