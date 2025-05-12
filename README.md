@@ -25,6 +25,9 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
 ## Page des séries
 <img src="media/README/series.png" alt="Page des séries" />
 
+## Page des films
+<img src="media/README/films.png" alt="Page des films" />
+
 ## Page de stream
 <img src="media/README/watching.png" alt="Page de stream" />
 </details>
@@ -73,9 +76,10 @@ StreamIt/
 │   │   ├── X/
 │   │   ├── XX/
 │   │   └── XXX/
-│   └── README/               # Dossier d'image pour le README
+│   └── README/              # Dossier d'image pour le README
+│   │   ├── films.png
 │   │   ├── index.png
-│   │   ├── series.pong
+│   │   ├── series.png
 │   │   └── watching.png
 │   └── logo.png              # Logo de l'application
 ├── CODE_OF_CONDUCT.md        # Ensemble de règles concernant ce projet
