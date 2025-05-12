@@ -77,6 +77,32 @@
     "stars": ["Nicole Wallace", "Gabriel Guevara", "Marta Hazas"],
     "video": "media/films/acontresens/acontresens.mp4"
   },
+  "A contre sens 2": {
+    "title": "A contre sens 2",
+    "description": "La relation entre Noah et Nick semble plus forte que jamais, malgré la volonté de leurs parents de les séparer. Mais avec son travail et son entrée à la fac, de nouvelles perspectives amoureuses feront trembler les fondations de leur relation et celles des Leister. Si tout le monde est prêt à détruire une relation, aura-t-on droit à une fin heureuse ?",
+    "banner": "media/films/acontresens2/acontresens2.jpg",
+    "IMDb": 5.2,
+    "IMDb_link": "https://www.imdb.com/title/tt28510079/",
+    "year": 2024,
+    "genres": ["Romance", "Drame"],
+    "directors": ["Domingo González"],
+    "writers": ["Mercedes Ron", "Domingo González", "Sofía Cuenca"],
+    "stars": ["Nicole Wallace", "Gabriel Guevara", "Marta Hazas"],
+    "video": "media/films/acontresens2/acontresens2.mp4"
+  },
+  "A contre sens : Londres": {
+    "title": "A contre sens : Londres",
+    "description": "Noah, 18 ans, quitte l'Amérique pour s'installer à Londres avec sa mère qui vient de tomber amoureuse de William, un riche homme d'affaires britannique. Noah rencontre le fils de William, le rebelle Nick, et découvre qu'il existe entre eux une attirance indéniable. Noah passe l'été à s'adapter à sa nouvelle vie, mais son lourd passé va la rattraper au cœur de cette première idylle.",
+    "banner": "media/films/acontresenslondres/acontresenslondres.jpg",
+    "IMDb": 6.2,
+    "IMDb_link": "https://www.imdb.com/title/tt32434379/",
+    "year": 2025,
+    "genres": ["Romance", "Drame"],
+    "directors": ["Charlotte Fassler", "Dani Girdwood"],
+    "writers": ["Melissa Osborne", "Mercedes Ron"],
+    "stars": ["Asha Banks", "Matthew Broome", "Eve Macklin"],
+    "video": "media/films/acontresenslondres/acontresenslondres.mp4"
+  },
   "Hunger Games": {
     "title": "Hunger Games",
     "description": "Dans un proche futur, les États-Unis sont devenus un gouvernement fédéral dystopique dans lequel chacun des 12 districts doit envoyer un garçon et une fille combattre lors d'un événement annuel télévisé, « Les Hunger Games ». La seule issue à ces jeux pour les « Tributs » est de tuer ou d'être tué. Lorsque la petite sœur de Katniss est tirée au sort pour y participer, celle-ci décide de prendre sa place.",
