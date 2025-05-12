@@ -113,3 +113,65 @@ header h1 {
 .title {
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  #search-bar {
+    width: 100%;
+    max-width: none;
+    margin-top: 70px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #series-list,
+  #films-list {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .series img,
+  .films img {
+    height: 150px;
+  }
+
+  .series-title,
+  .films-title {
+    font-size: 16px;
+  }
+
+  .series-description,
+  .films-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 18px;
+  }
+
+  #search-bar {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .series img,
+  .films img {
+    height: 120px;
+  }
+
+  .series-title,
+  .films-title {
+    font-size: 14px;
+  }
+
+  .series-description,
+  .films-description {
+    font-size: 10px;
+  }
+}

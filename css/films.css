@@ -140,3 +140,117 @@ header h1 {
 .title {
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  #main-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #banner {
+    width: 80%;
+    max-width: 300px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  #film-info {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #film-info h1 {
+    font-size: 28px;
+  }
+
+  #film-info p {
+    font-size: 16px;
+  }
+
+  #film-info .genres,
+  #film-info .directors,
+  #film-info .writers,
+  #film-info .stars {
+    font-size: 16px;
+  }
+
+  #film-info .rating span {
+    font-size: 20px;
+  }
+
+  #film-info .rating .rating-value {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .watch-button-container button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .back-homepage {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 5px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  #banner {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  #film-info h1 {
+    font-size: 24px;
+  }
+
+  #film-info p {
+    font-size: 14px;
+  }
+
+  #film-info .genres,
+  #film-info .directors,
+  #film-info .writers,
+  #film-info .stars {
+    font-size: 14px;
+  }
+
+  #film-info .rating span {
+    font-size: 18px;
+  }
+
+  #film-info .rating .rating-value {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .watch-button-container button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .back-homepage {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

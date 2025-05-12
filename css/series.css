@@ -36,6 +36,7 @@ header h1 {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
   margin-right: 15px;
+  object-fit: cover;
 }
 
 #series-info {
@@ -137,4 +138,116 @@ header h1 {
 
 .title {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  #main-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  #banner {
+    width: 80%;
+    max-width: 300px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    height: auto;
+  }
+
+  #series-info {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #series-info h1 {
+    font-size: 28px;
+  }
+
+  #series-info p {
+    font-size: 16px;
+  }
+
+  #series-info .genres,
+  #series-info .creators,
+  #series-info .stars {
+    font-size: 16px;
+  }
+
+  #series-info .rating span {
+    font-size: 20px;
+  }
+
+  #series-info .rating .rating-value {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .season-buttons button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .back-homepage {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0 5px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  #banner {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  #series-info h1 {
+    font-size: 24px;
+  }
+
+  #series-info p {
+    font-size: 14px;
+  }
+
+  #series-info .genres,
+  #series-info .creators,
+  #series-info .stars {
+    font-size: 14px;
+  }
+
+  #series-info .rating span {
+    font-size: 18px;
+  }
+
+  #series-info .rating .rating-value {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .season-buttons button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .back-homepage {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
