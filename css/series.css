@@ -18,7 +18,7 @@ header {
 header h1 {
   font-size: 36px;
   margin: 0;
-  color: #ff6347;
+  color: #c2113a;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -65,7 +65,7 @@ header h1 {
 #series-info .genres span,
 #series-info .creators span,
 #series-info .stars span {
-  color: #007bff;
+  color: #c2113a;
   font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ header h1 {
 .season-buttons button {
   margin-right: 10px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #c2113a;
   color: white;
   border: none;
   border-radius: 5px;
@@ -111,14 +111,14 @@ header h1 {
 }
 
 .season-buttons button:hover {
-  background-color: #0056b3;
+  background-color: #83011f;
 }
 
 .back-homepage {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #c2113a;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -127,7 +127,7 @@ header h1 {
 }
 
 .back-homepage:hover {
-  background-color: #0056b3;
+  background-color: #c40632;
 }
 
 .back-homepage-container {
