@@ -21,19 +21,19 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
 
 ## Page d'accueil
 
-<img src="media/README/index.png" alt="Page d'accueil" />
+<img src="medias/README/index.png" alt="Page d'accueil" />
 
 ## Page des séries
 
-<img src="media/README/series.png" alt="Page des séries" />
+<img src="medias/README/series.png" alt="Page des séries" />
 
 ## Page des films
 
-<img src="media/README/films.png" alt="Page des films" />
+<img src="medias/README/films.png" alt="Page des films" />
 
 ## Page de stream
 
-<img src="media/README/watching.png" alt="Page de stream" />
+<img src="medias/README/watching.png" alt="Page de stream" />
 </details>
 
 ## 🛠 Technologies Utilisées
@@ -71,7 +71,7 @@ StreamIt/
 │   ├── index.js
 │   ├── series.js
 │   └── watching.js
-├── media/                    # Dossier comprenant toutes les médias pour l'application
+├── medias/                   # Dossier comprenant toutes les médias pour l'application
 │   ├── series/               # Dossier pour les différentes séries
 │   │   ├── X/
 │   │   ├── XX/

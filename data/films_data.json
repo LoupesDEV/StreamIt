@@ -2,7 +2,7 @@
   "The Gorge": {
     "title": "The Gorge",
     "description": "Deux agents hautement entraînés se rapprochent malgré la distance lorsqu'ils sont envoyés garder deux côtés opposés d'une mystérieuse gorge. Quand un mal surgit des profondeurs, ils doivent faire équipe pour survivre à ce qui est tapi sous la surface.",
-    "banner": "media/films/thegorge/thegorge.jpg",
+    "banner": "medias/films/thegorge/thegorge.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
@@ -10,12 +10,12 @@
     "directors": ["Scott Derrickson"],
     "writers": ["Zach Dean"],
     "stars": ["Miles Teller", "Anya Taylor-Joy", "Sigourney Weaver"],
-    "video": "media/films/thegorge/thegorge.mp4"
+    "video": "medias/films/thegorge/thegorge.mp4"
   },
   "Exterritorial": {
     "title": "Exterritorial",
     "description": "Quand son fils disparaît dans un consulat américain, Sara, ex-soldate des forces spéciales, fait tout ce qu'elle peut pour le retrouver et découvre une sinistre conspiration.",
-    "banner": "media/films/exterritorial/exterritorial.jpg",
+    "banner": "medias/films/exterritorial/exterritorial.jpg",
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
@@ -23,12 +23,12 @@
     "directors": ["Jérôme Salle"],
     "writers": ["Christian Zübert"],
     "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
-    "video": "media/films/exterritorial/exterritorial.mp4"
+    "video": "medias/films/exterritorial/exterritorial.mp4"
   },
   "Sans un bruit": {
     "title": "Sans un bruit",
     "description": "Une famille tente de survivre sous la menace de mystérieuses créatures qui attaquent au moindre bruit. S'ils vous entendent, il est déjà trop tard.",
-    "banner": "media/films/sansunbruit/sansunbruit.jpg",
+    "banner": "medias/films/sansunbruit/sansunbruit.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
@@ -36,12 +36,12 @@
     "directors": ["John Krasinski"],
     "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
     "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
-    "video": "media/films/sansunbruit/sansunbruit.mp4"
+    "video": "medias/films/sansunbruit/sansunbruit.mp4"
   },
   "Sans un bruit 2": {
     "title": "Sans un bruit 2",
     "description": "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s'aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin…",
-    "banner": "media/films/sansunbruit2/sansunbruit2.jpg",
+    "banner": "medias/films/sansunbruit2/sansunbruit2.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
@@ -49,12 +49,12 @@
     "directors": ["John Krasinski"],
     "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
     "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
-    "video": "media/films/sansunbruit2/sansunbruit2.mp4"
+    "video": "medias/films/sansunbruit2/sansunbruit2.mp4"
   },
   "Sans un bruit : Jour 1": {
     "title": "Sans un bruit : Jour 1",
     "description": "Alors que Samira rentre à New York, son simple voyage se transforme en cauchemar suite à l'attaque de mystérieuses créatures attirées par le son. Accompagnée de son chat Frodon et d'un allié inattendu, Samira se lance dans un voyage périlleux à travers une ville où règne le silence. Pour rester en vie, sa seule solution est de ne faire aucun bruit.",
-    "banner": "media/films/sansunbruitj1/sansunbruitj1.jpg",
+    "banner": "medias/films/sansunbruitj1/sansunbruitj1.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
@@ -62,12 +62,12 @@
     "directors": ["Michael Sarnoski"],
     "writers": ["Michael Sarnoski", "John Krasinski", "Bryan Woods"],
     "stars": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff"],
-    "video": "media/films/sansunbruitj1/sansunbruitj1.mp4"
+    "video": "medias/films/sansunbruitj1/sansunbruitj1.mp4"
   },
   "A contre sens": {
     "title": "A contre sens",
     "description": "Noah doit quitter sa ville, son petit ami et ses amis pour emménager dans le manoir de William Leister, le nouveau et riche mari de sa mère. Âgée de dix-sept ans, fière et indépendante, Noah rencontre Nick, son nouveau demi-frère, et leurs fortes personnalités s'entrechoquent dès le début. Noah découvre bientôt que derrière l'image d'un fils modèle, Nick cache une vie de bagarre, de jeu et de courses automobiles illégales. Malgré l'abîme qui les sépare, tous deux commencent à ressentir une attirance irrésistible qui se transformera bientôt en feu et en folle passion. Ni la rivalité permanente, ni l'opposition de leur entourage ne peuvent les empêcher de tomber secrètement et follement amoureux. Mais le présent turbulent de Nick et le passé orageux de Noah mettront à l'épreuve leur vie et leur amour interdit.",
-    "banner": "media/films/acontresens/acontresens.jpg",
+    "banner": "medias/films/acontresens/acontresens.jpg",
     "IMDb": 6.1,
     "IMDb_link": "https://www.imdb.com/title/tt21909764/",
     "year": 2023,
@@ -75,12 +75,12 @@
     "directors": ["Domingo González"],
     "writers": ["Mercedes Ron", "Domingo González"],
     "stars": ["Nicole Wallace", "Gabriel Guevara", "Marta Hazas"],
-    "video": "media/films/acontresens/acontresens.mp4"
+    "video": "medias/films/acontresens/acontresens.mp4"
   },
   "A contre sens 2": {
     "title": "A contre sens 2",
     "description": "La relation entre Noah et Nick semble plus forte que jamais, malgré la volonté de leurs parents de les séparer. Mais avec son travail et son entrée à la fac, de nouvelles perspectives amoureuses feront trembler les fondations de leur relation et celles des Leister. Si tout le monde est prêt à détruire une relation, aura-t-on droit à une fin heureuse ?",
-    "banner": "media/films/acontresens2/acontresens2.jpg",
+    "banner": "medias/films/acontresens2/acontresens2.jpg",
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt28510079/",
     "year": 2024,
@@ -88,12 +88,12 @@
     "directors": ["Domingo González"],
     "writers": ["Mercedes Ron", "Domingo González", "Sofía Cuenca"],
     "stars": ["Nicole Wallace", "Gabriel Guevara", "Marta Hazas"],
-    "video": "media/films/acontresens2/acontresens2.mp4"
+    "video": "medias/films/acontresens2/acontresens2.mp4"
   },
   "A contre sens : Londres": {
     "title": "A contre sens : Londres",
     "description": "Noah, 18 ans, quitte l'Amérique pour s'installer à Londres avec sa mère qui vient de tomber amoureuse de William, un riche homme d'affaires britannique. Noah rencontre le fils de William, le rebelle Nick, et découvre qu'il existe entre eux une attirance indéniable. Noah passe l'été à s'adapter à sa nouvelle vie, mais son lourd passé va la rattraper au cœur de cette première idylle.",
-    "banner": "media/films/acontresenslondres/acontresenslondres.jpg",
+    "banner": "medias/films/acontresenslondres/acontresenslondres.jpg",
     "IMDb": 6.2,
     "IMDb_link": "https://www.imdb.com/title/tt32434379/",
     "year": 2025,
@@ -101,12 +101,12 @@
     "directors": ["Charlotte Fassler", "Dani Girdwood"],
     "writers": ["Melissa Osborne", "Mercedes Ron"],
     "stars": ["Asha Banks", "Matthew Broome", "Eve Macklin"],
-    "video": "media/films/acontresenslondres/acontresenslondres.mp4"
+    "video": "medias/films/acontresenslondres/acontresenslondres.mp4"
   },
   "Hunger Games": {
     "title": "Hunger Games",
     "description": "Dans un proche futur, les États-Unis sont devenus un gouvernement fédéral dystopique dans lequel chacun des 12 districts doit envoyer un garçon et une fille combattre lors d'un événement annuel télévisé, « Les Hunger Games ». La seule issue à ces jeux pour les « Tributs » est de tuer ou d'être tué. Lorsque la petite sœur de Katniss est tirée au sort pour y participer, celle-ci décide de prendre sa place.",
-    "banner": "media/films/hungergames/hungergames.jpg",
+    "banner": "medias/films/hungergames/hungergames.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
@@ -114,12 +114,12 @@
     "directors": ["Gary Ross"],
     "writers": ["Gary Ross", "Suzanne Collins", "Billy Ray"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
-    "video": "media/films/hungergames/hungergames.mp4"
+    "video": "medias/films/hungergames/hungergames.mp4"
   },
   "Hunger Games : L'Embrasement": {
     "title": "Hunger Games : L'Embrasement",
     "description": "Après les premiers Hunger Games, Katniss est devenue le symbole de la rébellion. Le peuple de Panem est impatient de la retrouver pour la grande Tournée de la victoire. Mais Katniss va devoir prouver au Capitole et au Président Snow que ses sentiments envers Peeta étaient sincères afin de sauver ceux qu'elle aime…",
-    "banner": "media/films/hungergames2/hungergames2.jpg",
+    "banner": "medias/films/hungergames2/hungergames2.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
@@ -127,12 +127,12 @@
     "directors": ["Francis Lawrence"],
     "writers": ["Simon Beaufoy", "Michael Arndt", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
-    "video": "media/films/hungergames2/hungergames2.mp4"
+    "video": "medias/films/hungergames2/hungergames2.mp4"
   },
   "Hunger Games : La Révolte - Partie 1": {
     "title": "Hunger Games : La Révolte - Partie 1",
     "description": "Katniss Everdeen s'est réfugiée dans le District 13 après avoir détruit à jamais l'arène et les Jeux. Sous le commandement de la Présidente Coin, chef du district, et suivant les conseils de ses amis en qui elle a toute confiance, Katniss déploie ses ailes pour devenir le symbole de la rébellion. Elle va se battre pour sauver Peeta et libérer le pays tout entier, à qui son courage a redonné espoir.",
-    "banner": "media/films/hungergamespt1/hungergamespt1.jpg",
+    "banner": "medias/films/hungergamespt1/hungergamespt1.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2014,
@@ -140,12 +140,12 @@
     "directors": ["Francis Lawrence"],
     "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
-    "video": "media/films/hungergamespt1/hungergamespt1.mp4"
+    "video": "medias/films/hungergamespt1/hungergamespt1.mp4"
   },
   "Hunger Games : La Révolte - Partie 2": {
     "title": "Hunger Games : La Révolte - Partie 2",
     "description": "Alors que Panem est ravagé par une guerre désormais totale, Katniss et le Président Snow vont s'affronter pour la dernière fois. Katniss et ses plus proches amis – Gale, Finnick, et Peeta – sont envoyés en mission pour le District 13 : ils vont risquer leur vie pour tenter d'assassiner le Président Snow, qui s'est juré de détruire Katniss. Les pièges mortels, les ennemis et les choix déchirants qui attendent Katniss seront des épreuves bien pires que tout ce qu'elle a déjà pu affronter dans l'arène…",
-    "banner": "media/films/hungergamespt2/hungergamespt2.jpg",
+    "banner": "medias/films/hungergamespt2/hungergamespt2.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
@@ -153,12 +153,12 @@
     "directors": ["Francis Lawrence"],
     "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
-    "video": "media/films/hungergamespt2/hungergamespt2.mp4"
+    "video": "medias/films/hungergamespt2/hungergamespt2.mp4"
   },
   "Hunger Games : La Ballade du serpent et de l'oiseau chanteur": {
     "title": "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     "description": "Le jeune Coriolanus est le dernier espoir de sa lignée, la famille Snow autrefois riche et fière est aujourd'hui tombée en disgrâce dans un Capitole d'après-guerre. À l'approche des 10ème Hunger Games, il est assigné à contrecœur à être le mentor de Lucy Gray Baird, une tribut originaire du District 12, le plus pauvre et le plus méprisé de Panem. Le charme de Lucy Gray ayant captivé le public, Snow y voit l'opportunité de changer son destin, et va s'allier à elle pour faire pencher le sort en leur faveur. Luttant contre ses instincts, déchiré entre le bien et le mal, Snow se lance dans une course contre la montre pour survivre et découvrir s'il deviendra finalement un oiseau chanteur ou un serpent.",
-    "banner": "media/films/hungergames4/hungergames4.jpg",
+    "banner": "medias/films/hungergames4/hungergames4.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
@@ -166,6 +166,6 @@
     "directors": ["Francis Lawrence"],
     "writers": ["Michael Lesslie", "Michael Arndt", "Suzanne Collins"],
     "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
-    "video": "media/films/hungergames4/hungergames4.mp4"
+    "video": "medias/films/hungergames4/hungergames4.mp4"
   }
 }
