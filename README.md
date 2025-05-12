@@ -107,10 +107,10 @@ StreamIt/
 2. Ouvrir le dossier cloné et servir les fichiers via un serveur local. Par exemple, utilisez **Live Server** dans VSCode ou Python :
 
    ```bash
-    python3 -m http.server 8080
+    python3 -m http.server 8000
    ```
 
-3. Accéder à `http://localhost:8080` dans votre navigateur pour commencer à utiliser l'application.
+3. Accéder à `http://localhost:8000` dans votre navigateur pour commencer à utiliser l'application.
 
 ## 📜 Licence
 
