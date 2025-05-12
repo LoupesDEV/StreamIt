@@ -11,5 +11,44 @@
     "writers": ["Christian Zübert"],
     "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
     "video": "media/series/exterritorial/exterritorial.mp4"
+  },
+  "Sans un bruit": {
+    "title": "Sans un bruit",
+    "description": "Une famille tente de survivre sous la menace de mystérieuses créatures qui attaquent au moindre bruit. S’ils vous entendent, il est déjà trop tard.",
+    "banner": "media/films/sansunbruit/sansunbruit.jpg",
+    "IMDb": "7.5",
+    "IMDb_link": "https://www.imdb.com/title/tt6644200/",
+    "year": 2018,
+    "genres": ["Horreur", "Thriller"],
+    "directors": ["John Krasinski"],
+    "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
+    "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
+    "video": "media/series/sansunbruit/sansunbruit.mp4"
+  },
+  "Sans un bruit 2": {
+    "title": "Sans un bruit 2",
+    "description": "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s’aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin…",
+    "banner": "media/films/sansunbruit2/sansunbruit2.jpg",
+    "IMDb": "7.2",
+    "IMDb_link": "https://www.imdb.com/title/tt8332922/",
+    "year": 2020,
+    "genres": ["Horreur", "Thriller"],
+    "directors": ["John Krasinski"],
+    "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
+    "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
+    "video": "media/series/sansunbruit2/sansunbruit2.mp4"
+  },
+  "Sans un bruit : Jour 1": {
+    "title": "Sans un bruit : Jour 1",
+    "description": "Alors que Samira rentre à New York, son simple voyage se transforme en cauchemar suite à l’attaque de mystérieuses créatures attirées par le son. Accompagnée de son chat Frodon et d'un allié inattendu, Samira se lance dans un voyage périlleux à travers une ville où règne le silence. Pour rester en vie, sa seule solution est de ne faire aucun bruit.",
+    "banner": "media/films/sansunbruitj1/sansunbruitj1.jpg",
+    "IMDb": "6.3",
+    "IMDb_link": "https://www.imdb.com/title/tt13433802/",
+    "year": 2024,
+    "genres": ["Horreur", "Thriller"],
+    "directors": ["Michael Sarnoski"],
+    "writers": ["Michael Sarnoski", "John Krasinski", "Bryan Woods"],
+    "stars": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff"],
+    "video": "media/films/sansunbruitj1/sansunbruitj1.mp4"
   }
 }
