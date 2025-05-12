@@ -1,4 +1,17 @@
 {
+  "The Gorge": {
+    "title": "The Gorge",
+    "description": "Deux agents hautement entraînés se rapprochent malgré la distance lorsqu'ils sont envoyés garder deux côtés opposés d'une mystérieuse gorge. Quand un mal surgit des profondeurs, ils doivent faire équipe pour survivre à ce qui est tapi sous la surface.",
+    "banner": "media/films/thegorge/thegorge.jpg",
+    "IMDb": "6.7",
+    "IMDb_link": "https://www.imdb.com/title/tt13654226/",
+    "year": 2025,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Scott Derrickson"],
+    "writers": ["Zach Dean"],
+    "stars": ["Miles Teller", "Anya Taylor-Joy", "Sigourney Weaver"],
+    "video": "media/films/thegorge/thegorge.mp4"
+  },
   "Exterritorial": {
     "title": "Exterritorial",
     "description": "Quand son fils disparaît dans un consulat américain, Sara, ex-soldate des forces spéciales, fait tout ce qu'elle peut pour le retrouver et découvre une sinistre conspiration.",
@@ -10,7 +23,7 @@
     "directors": ["Jérôme Salle"],
     "writers": ["Christian Zübert"],
     "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
-    "video": "media/series/exterritorial/exterritorial.mp4"
+    "video": "media/films/exterritorial/exterritorial.mp4"
   },
   "Sans un bruit": {
     "title": "Sans un bruit",
@@ -23,7 +36,7 @@
     "directors": ["John Krasinski"],
     "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
     "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
-    "video": "media/series/sansunbruit/sansunbruit.mp4"
+    "video": "media/films/sansunbruit/sansunbruit.mp4"
   },
   "Sans un bruit 2": {
     "title": "Sans un bruit 2",
@@ -36,7 +49,7 @@
     "directors": ["John Krasinski"],
     "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
     "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
-    "video": "media/series/sansunbruit2/sansunbruit2.mp4"
+    "video": "media/films/sansunbruit2/sansunbruit2.mp4"
   },
   "Sans un bruit : Jour 1": {
     "title": "Sans un bruit : Jour 1",
