@@ -54,12 +54,14 @@ async function loadEpisodeData() {
     return;
   }
 
+  const watchTitle = document.getElementById("watch-title");
   const videoPlayer = document.getElementById("video-player");
   const episodeTitle = document.getElementById("episode-title");
   const episodeDescription = document.getElementById("episode-description");
   const episodeListUl = document.getElementById("episode-list-ul");
   const seasonSelect = document.getElementById("season-select");
 
+  watchTitle.innerText = `${series} (${seriesData.year})`;
   videoPlayer.src = episodeData.video;
   episodeTitle.innerText = episodeData.title;
   episodeDescription.innerText = episodeData.desc;

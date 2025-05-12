@@ -26,7 +26,6 @@ header h1 {
 #main-section {
   display: flex;
   justify-content: flex-start;
-  padding: 40px;
   margin-top: 20px;
   align-items: center;
 }
@@ -116,11 +115,19 @@ header h1 {
 }
 
 .back-button {
-  background-color: #444;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
 }
 
 .back-button:hover {
-  background-color: #333;
+  background-color: #0056b3;
 }
 
 .season-selector {
