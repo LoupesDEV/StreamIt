@@ -388,7 +388,7 @@
         },
         {
           "title": "Les enfants de Gabriel",
-          "desc": "Clarke tente de convaincre les dirigeants de Sanctum de laisser rester son peuple sur cette planète. Pendant ce temps, Bellamy, Echo et Octavia découvrent une nouvelle menace alors qu’ils sont en mission pour récupérer un navire de transport.",
+          "desc": "Clarke tente de convaincre les dirigeants de Sanctum de laisser rester son peuple sur cette planète. Pendant ce temps, Bellamy, Echo et Octavia découvrent une nouvelle menace alors qu'ils sont en mission pour récupérer un navire de transport.",
           "video": "medias/series/the100/6-3.mp4"
         },
         {
@@ -756,7 +756,7 @@
         },
         {
           "title": "Premier du nom",
-          "desc": "Tommen Baratheon est sacré roi et sa famille arrange son mariage. Baelish et Sansa arrivent chez Lady Lysa où un autre mariage prendra place. Daenerys apprend que Joffrey est mort, mais les nouvelles de Ser Jorah la poussent à repenser ses plans futurs. Jon et son petit groupe s’apprêtent à attaquer les mutins installés chez Craster.",
+          "desc": "Tommen Baratheon est sacré roi et sa famille arrange son mariage. Baelish et Sansa arrivent chez Lady Lysa où un autre mariage prendra place. Daenerys apprend que Joffrey est mort, mais les nouvelles de Ser Jorah la poussent à repenser ses plans futurs. Jon et son petit groupe s'apprêtent à attaquer les mutins installés chez Craster.",
           "video": "medias/series/got/4-5.mp4"
         },
         {
@@ -766,7 +766,7 @@
         },
         {
           "title": "L'oiseau moqueur",
-          "desc": "Tyrion doit trouver un champion pour le représenter pour son procès par combat. Jon et ses hommes sont de retour à Châteaunoir pour découvrir que rien n’a changé. Arya et Sandor Clegane continuent leur voyage et rencontrent un homme blessé. Daenerys donne de nouveaux ordres à Daario.",
+          "desc": "Tyrion doit trouver un champion pour le représenter pour son procès par combat. Jon et ses hommes sont de retour à Châteaunoir pour découvrir que rien n'a changé. Arya et Sandor Clegane continuent leur voyage et rencontrent un homme blessé. Daenerys donne de nouveaux ordres à Daario.",
           "video": "medias/series/got/4-7.mp4"
         },
         {
@@ -776,7 +776,7 @@
         },
         {
           "title": "Les Veilleurs au rempart",
-          "desc": "L’attaque du Mur est imminente. Alors que Jon évoque en compagnie de Sam sa relation avec Ygritte, cette dernière prépare son armement, bien déterminée à tuer celui qui l’a trahie. Quand l’armée de Mance Rayder arrive, l’affrontement peut commencer.",
+          "desc": "L'attaque du Mur est imminente. Alors que Jon évoque en compagnie de Sam sa relation avec Ygritte, cette dernière prépare son armement, bien déterminée à tuer celui qui l'a trahie. Quand l'armée de Mance Rayder arrive, l'affrontement peut commencer.",
           "video": "medias/series/got/4-9.mp4"
         },
         {
@@ -939,7 +939,7 @@
         },
         {
           "title": "La longue nuit",
-          "desc": "Alors que l'armée du Roi de la Nuit est aux portes de Winterfell, la tension monte dans les rangs. Tout le monde attend le coup d'envoi d'affrontements qui s’annoncent terribles. Le Nord fera-t-il le poids conte les marcheurs blancs ?",
+          "desc": "Alors que l'armée du Roi de la Nuit est aux portes de Winterfell, la tension monte dans les rangs. Tout le monde attend le coup d'envoi d'affrontements qui s'annoncent terribles. Le Nord fera-t-il le poids conte les marcheurs blancs ?",
           "video": "medias/series/got/8-3.mp4"
         },
         {
@@ -1386,6 +1386,211 @@
           "title": "Revenir ou mourir",
           "desc": "Walt est de retour à Albuquerque pour régler ses comptes. Il se rend tout d'abord chez Elliott et Gretchen Schwartz, à qui il confie une très importante somme d'argent, qu'ils auront pour mission de faire parvenir à sa famille. Le couple hésite, mais il les convainc finalement par la menace. Ensuite, Walt rend visite à Skyler pour la dernière fois et lui avoue enfin qu'il n'a pas seulement agi pour protéger les siens. Plus tard, il retrouve Todd et Lydia et leur explique qu'il a trouvé une nouvelle formule chimique permettant de fabriquer de la drogue plus facilement. Enfin, il se rend dans la cachette de Todd et son oncle…$",
           "video": "medias/series/breakingbad/5-16.mp4"
+        }
+      ]
+    }
+  },
+  "Peaky Blinders": {
+    "title": "Peaky Blinders",
+    "description": "En 1919, à Birmingham, soldats, révolutionnaires politiques et criminels combattent pour se faire une place dans le paysage industriel de l'après-Guerre. Le Parlement s'attend à une violente révolte, et Winston Churchill mobilise des forces spéciales pour contenir les menaces. La famille Shelby compte parmi les membres les plus redoutables. Surnommés les 'Peaky Blinders' par rapport à leur utilisation de lames de rasoir cachées dans leurs casquettes, ils tirent principalement leur argent de paris et de vol. Tommy Shelby, le plus dangereux de tous, va devoir faire face à l'arrivée de Campbell, un impitoyable chef de la police qui a pour mission de nettoyer la ville. Ne doit-il pas se méfier tout autant de la ravissante Grace Burgess ? Fraîchement installée dans le voisinage, celle-ci semble cacher un mystérieux passé et un dangereux secret.",
+    "banner": "medias/series/peakyblinders/peakyblinders.jpg",
+    "IMDb": 8.7,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
+    "year": 2013,
+    "genres": ["Crime", "Drame", "Thriller"],
+    "creators": ["Steven Knight"],
+    "stars": ["Cillian Murphy", "Paul Anderson", "Helen McCrory"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Episode 1",
+          "desc": "Birmingham, 1919. Un gang familial règne sur un quartier de la ville : les Peaky Blinders, ainsi nommés pour les lames de rasoir qu'ils cachent dans la visière de leurs casquettes. Paris de bookmakers, marché noir et vols divers sont leur lot quotidien. Mais leur activité prend une dimension nouvelle lorsque leur chef, Thomas Shelby, récupère une cargaison d'armes de l'usine locale.",
+          "video": "medias/series/peakyblinders/1-1.mp4"
+        },
+        {
+          "title": "Episode 2",
+          "desc": "Pendant que les frères Shelby sont à la foire et ont délaissé le quartier, les troupes de l'inspecteur Campbell fouillent chaque maison à la recherche d'armes. Par vengeance, Thomas Shelby organise un autodafé des portraits du roi en place publique. Winston Churchill apprend l'affaire et morigène Campbell. Mais Thomas Shelby a d'autres projets en tête : il propose un marché à l'inspecteur – armes contre protection – et rêve de s'associer avec Billy Kimber, un puissant bookmaker...",
+          "video": "medias/series/peakyblinders/1-2.mp4"
+        },
+        {
+          "title": "Episode 3",
+          "desc": "Ada et Freddie, désormais mariés, vivent dans la clandestinité à Birmingham, ce qui déplaît fortement à Thomas car cela risque de compromettre son contrat avec l'inspecteur Campbell. Les Peaky Blinders ayant été approchés par des nationalistes irlandais à la recherche d'armes, Grace décide d'enquêter sur le compte de ces derniers et tue l'un d'entre eux en état de légitime défense. De son côté, Freddie continue de prêcher la cause communiste auprès des ouvriers. La police avertit Thomas que s'il ne livre pas son beau-frère, Ada sera également arrêtée, ce qui provoque de fortes tensions entre lui et la tante Polly.",
+          "video": "medias/series/peakyblinders/1-3.mp4"
+        },
+        {
+          "title": "Episode 4",
+          "desc": "Pour protéger Freddie et Ada, Thomas et Polly font diversion en donnant à Campbell l'adresse de Stanley Chapman, un autre “camarade”. Mais sous la torture, celui-ci finit par trahir Freddie. Pendant ce temps, un conflit ouvert s'est déclaré avec un groupe de gitans, qui attaque la boutique familiale puis laisse une grenade dans la voiture de Thomas. Celui-ci trouve un arrangement en mariant son petit frère John à une jeune gitane, Esme Lee. Quant à Grace, elle commence à réunir des informations substantielles sur les transactions illégales de Thomas, notamment grâce à Arthur, qui gère désormais le pub.",
+          "video": "medias/series/peakyblinders/1-4.mp4"
+        },
+        {
+          "title": "Episode 5",
+          "desc": "Thomas confie à Grace son intention de renverser Billy Kimber. Seule au courant, elle promet de garder le secret. Elle découvre finalement où Thomas a caché les armes après une indiscrétion d'Arthur concernant la tombe de Danny Whizzbang, qui serait toujours bien en vie. Le père Shelby refait surface en ville. Thomas et Polly souhaitent qu'il reparte, mais Arthur, le fils aîné, s'enchante du retour de son paternel, d'autant que ce dernier lui annonce sa volonté de monter un casino familial. Confiant, Arthur n'hésite pas à lui donner de l'argent, mais il finit humilié quand il découvre la vraie nature de son père...",
+          "video": "medias/series/peakyblinders/1-5.mp4"
+        },
+        {
+          "title": "Episode 6",
+          "desc": "Thomas a décidé de renverser Billy Kimber. Alors qu'il met en place son plan d'attaque, Campbell se rend dans un bordel. C'est là que Thomas le confronte. Campbell lui promet qu'il aura le coeur brisé avant la fin de la journée. Polly demande à Ada de pardonner à son frère, car ce dernier s'est engagé à faire libérer Freddie. Grace se sent coupable vis-à-vis de Thomas et décide de se confesser à de lui, mais elle est interrompue. Les hommes de Kimber sont en route après avoir découvert les intentions des Peaky Blinders. Les deux gangs se retrouvent face à face...",
+          "video": "medias/series/peakyblinders/1-6.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Episode 1",
+          "desc": "Birmingham, 1922. Désormais prospère, le gang des Shelby, les Peaky Blinders, règne sur les paris clandestins et la contrebande d'alcool avec la complicité de la police locale. Chef incontesté du clan familial, Tommy a décidé de conquérir Londres et de se tailler une place entre deux redoutables rivaux, en guerre l'un contre l'autre : le juif Alfie Solomon et l'Italien Darby Sabini. Son plan, risqué, consiste à proposer une alliance au premier, en perte de vitesse, contre le second. Mais alors que les Shelby sont réunis au cimetière pour enterrer l'un des leurs, leur pub est incendié.",
+          "video": "medias/series/peakyblinders/2-1.mp4"
+        },
+        {
+          "title": "Episode 2",
+          "desc": "Le major Campbell a monté un nouveau plan contre Tommy et le fait filer jour et nuit. Il lui a ainsi sauvé la vie alors que les hommes de main de Sabini allaient l'achever. Sérieusement blessé, Tommy se rend quand même en secret à Londres pour conclure son alliance. En parallèle, il enquête pour retrouver les enfants de Polly, qui lui ont été retirés très jeunes, et doit une fois encore gérer un désastre causé par Arthur, sujet à d'incontrôlables accès de violence.",
+          "video": "medias/series/peakyblinders/2-2.mp4"
+        },
+        {
+          "title": "Episode 3",
+          "desc": "Le pub familial a rouvert. Michael, le fils de Polly, que Tommy a réussi à retrouver, est venu de lui-même à la rencontre de sa mère, et le partenariat Shelby-Solomon peut se mettre en place à Londres, notamment sur les champs de courses. En cherchant à acheter un cheval, Tommy rencontre May Carleton, jeune aristocrate aussi belle qu'affranchie. Mais sa guerre personnelle avec le sanguinaire boss italien lui laisse peu de loisirs. D'autant que la famille, comme toujours, s'avère moins fiable qu'il ne le faudrait…",
+          "video": "medias/series/peakyblinders/2-3.mp4"
+        },
+        {
+          "title": "Episode 4",
+          "desc": "Arthur s'est installé à Londres et a pris les rênes du club londonien arraché au gang de Sabini. Prêt à tout pour le récupérer, ce dernier propose à son explosif adversaire, Solomon, d'unir leurs forces pour se débarrasser des Peaky Blinders. Tommy, lui, a embauché May Carleton pour entraîner son cheval de course, Grace's Secret. Ils ne tardent pas à se rapprocher.",
+          "video": "medias/series/peakyblinders/2-4.mp4"
+        },
+        {
+          "title": "Episode 5",
+          "desc": "Avec l'arrestation d'Arthur et de Michael, le nouveau fief londonien des Peaky Blinders est plus que menacé. Le major Campbell les tient tous sous sa coupe. Affolée de voir son fils risquer une longue peine de prison, Polly se compromet pour garantir la liberté de Michael. Alors qu'il est sur le point de prendre des mesures radicales pour tenter de reprendre le contrôle de la situation, Tommy reçoit une visite venue du passé.",
+          "video": "medias/series/peakyblinders/2-5.mp4"
+        },
+        {
+          "title": "Episode 6",
+          "desc": "C'est à l'hippodrome d'Epsom que Tommy doit accomplir l'assassinat exigé par Campbell. Le jour dit, il espère échapper à son vieil ennemi et l'emporter du même coup sur les Italiens. Mais il n'est pas le seul à avoir peaufiné un plan d'attaque.",
+          "video": "medias/series/peakyblinders/2-6.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Episode 1",
+          "desc": "Année 1924. Le clan Shelby est réuni à Birmingham pour célébrer le mariage de Tommy et Grace. Une tension palpable marque la rencontre des deux familles, les militaires empesés regardant de haut la tribu dont les affaires sont de plus en plus florissantes. Un invité surprise demande à être reçu par Tommy, prétendant être un proche de Churchill. Le chef des Peaky Blinders ignore qu'il s'apprête à être piégé par une machination.",
+          "video": "medias/series/peakyblinders/3-1.mp4"
+        },
+        {
+          "title": "Episode 2",
+          "desc": "Le mystérieux pasteur John Hugues, à la tête d'une société secrète, intime l'ordre à Tommy de se rendre à Londres pour mener des négociations avec un Russe blanc aux mœurs originales, le duc Romanov. En son absence, John organise une rencontre avec Vicente Changretta, chef d'un clan italien avec lequel les Peaky Blinders sont en paix depuis deux ans. Mais son tempérament explosif rompt ce fragile équilibre.",
+          "video": "medias/series/peakyblinders/3-2.mp4"
+        },
+        {
+          "title": "Episode 3",
+          "desc": "Très affecté par les tragiques événements qu'il a subis, Tommy se renferme et se laisse aveugler par son désir de vengeance. Ses proches ne le reconnaissent plus et tentent de faire fructifier au mieux les affaires du clan. La rivalité entre Arthur et Michael est de plus en plus palpable et la famille semble au bord de l'implosion. De son côté, Polly succombe au charme d'un peintre.",
+          "video": "medias/series/peakyblinders/3-3.mp4"
+        },
+        {
+          "title": "Episode 4",
+          "desc": "Tommy et Tatiana jouent un jeu personnel et dangereux pour s'arracher des informations les uns des autres, et Tommy comprend enfin l'ampleur des objectifs tortueux de Tatiana. Pendant ce temps, Polly révèle un secret sombre, avec des conséquences terribles pour Tommy.",
+          "video": "medias/series/peakyblinders/3-4.mp4"
+        },
+        {
+          "title": "Episode 5",
+          "desc": "Alors que les Russes testent les Peaky Blinders, Tommy se rend compte qu'il est sérieusement dépassé. Mais il a un as dans sa manche sous la forme d'un ennemi devenu allié - si seulement il peut le contrôler.",
+          "video": "medias/series/peakyblinders/3-5.mp4"
+        },
+        {
+          "title": "Episode 6",
+          "desc": "Alors que Tommy se prépare à commettre le crime le plus audacieux de sa carrière, un coup inattendu l'oblige à faire face à ses pires craintes dans une course contre le temps.",
+          "video": "medias/series/peakyblinders/3-6.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "La corde au cou",
+          "desc": "Noël 1925. La famille Shelby, déchirée, apprend que la mafia new-yorkaise est déterminée à se venger de meurtres commis l'année précédente...",
+          "video": "medias/series/peakyblinders/4-1.mp4"
+        },
+        {
+          "title": "Sauvages",
+          "desc": "Toujours sous le choc, les Shelby se rassemblent à Small Heath, où Tommy appelle à la trêve familiale le temps d'une offensive contre la mafia...",
+          "video": "medias/series/peakyblinders/4-2.mp4"
+        },
+        {
+          "title": "Blackbird",
+          "desc": "Alors que Linda tente de distraire Arthur, ce dernier se retrouve pris au piège. Tommy est confronté à son passé. Polly retrouve une vieille connaissance...",
+          "video": "medias/series/peakyblinders/4-3.mp4"
+        },
+        {
+          "title": "Dangereuse",
+          "desc": "La mafia tente d'attirer un membre de la famille Shelby dans son piège. Tommy reçoit la visite d'une ancienne conquête, et Lizzie fait une découverte inattendue...",
+          "video": "medias/series/peakyblinders/4-4.mp4"
+        },
+        {
+          "title": "Le duel",
+          "desc": "Tommy décide de déclencher à lui seul une fusillade contre la mafia. Luca Changretta se rapproche d'Alfie Solomons. L'armée britannique part à la recherche d'Ada...",
+          "video": "medias/series/peakyblinders/4-5.mp4"
+        },
+        {
+          "title": "La société",
+          "desc": "Arthur décide de suivre son instinct lors d'un combat de boxe, tandis que Tommy s'inspire des paroles de sagesse d'Alfie Solomons et reçoit de précieuses informations...",
+          "video": "medias/series/peakyblinders/4-6.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Le mardi noir",
+          "desc": "De stupéfiantes nouvelles des États-Unis déclenchent une réunion au sommet. Ada cache un secret. Un journaliste rappelle à Tommy son passé.",
+          "video": "medias/series/peakyblinders/5-1.mp4"
+        },
+        {
+          "title": "Mauvais augures",
+          "desc": "Les messages anonymes prennent une tournure terrifiante. La loyauté de Michael est mise en doute. Tommy reçoit une proposition d'Oswald Mosley.",
+          "video": "medias/series/peakyblinders/5-2.mp4"
+        },
+        {
+          "title": "Stratégies",
+          "desc": "Aberama se rend à Glasgow pour se venger. Mosley fait chanter Tommy, qui décide de renverser la situation. Arthur perd tout contrôle en s'acharnant à retrouver Linda.",
+          "video": "medias/series/peakyblinders/5-3.mp4"
+        },
+        {
+          "title": "La boucle",
+          "desc": "Tommy appelle à une trêve et rencontre Jimmy McCavern. Une opportunité commerciale lucrative se présente. Tommy passe un marché avec Aberama.",
+          "video": "medias/series/peakyblinders/5-4.mp4"
+        },
+        {
+          "title": "Boum",
+          "desc": "Mosley prononce un discours à la fête. Ben Younger endure les conséquences de sa trahison. Tommy rend visite à un patient dans un asile psychiatrique.",
+          "video": "medias/series/peakyblinders/5-5.mp4"
+        },
+        {
+          "title": "Monsieur Jones",
+          "desc": "Michael profite d'une réunion de famille pour annoncer un projet audacieux. La taupe est identifiée. Tommy demande l'aide d'un ancien rival pour exécuter son plan.",
+          "video": "medias/series/peakyblinders/5-6.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Une journée bien noire",
+          "desc": "L'assassinat manqué de Mosley coûte un membre à la famille Shelby. Quatre ans plus tard, la fin imminente de la prohibition amène Tommy en Amérique du Nord.",
+          "video": "medias/series/peakyblinders/6-1.mp4"
+        },
+        {
+          "title": "Equivoque",
+          "desc": "En Angleterre, Tommy forge une alliance improbable afin d'inciter Jack Nelson à accepter sa proposition. Ruby, la cadette de Tommy, fait une déclaration dérangeante.",
+          "video": "medias/series/peakyblinders/6-2.mp4"
+        },
+        {
+          "title": "L'or",
+          "desc": "Tommy se précipite chez Esme. Prenant sa place, Ada présente Jack Nelson à Mosley et Diana. Arthur rencontre un ancien toxicomane qui comprend ses difficultés.",
+          "video": "medias/series/peakyblinders/6-3.mp4"
+        },
+        {
+          "title": "Le saphir bleu",
+          "desc": "Anéanti par une nouvelle disparition, Tommy décide de se venger. Ada est victime de la violence fasciste. Une lettre urgente arrive du sanatorium.",
+          "video": "medias/series/peakyblinders/6-4.mp4"
+        },
+        {
+          "title": "La rédemption ou l'enfer",
+          "desc": "Tommy passe un marché avec Linda. La taupe infiltrée chez les Shelby reçoit une nouvelle mission. Diana accepte de rendre service à Tommy… à une condition.",
+          "video": "medias/series/peakyblinders/6-5.mp4"
+        },
+        {
+          "title": "Les vagabonds et les voleurs",
+          "desc": "La taupe découvre où et quand trouver Arthur seul. Sorti de prison, Michael n'a qu'une idée en tête. La loyauté de Finn vis-à-vis des Shelby est mise à l'épreuve.",
+          "video": "medias/series/peakyblinders/6-6.mp4"
         }
       ]
     }

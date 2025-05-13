@@ -129,6 +129,45 @@
     "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
     "video": "medias/films/hungergames4/hungergames4.mp4"
   },
+  "La Planète des singes": {
+    "title": "La Planète des singes",
+    "description": "En 2029, un groupe d'astronautes entraîne sur la station orbitale Oberon des singes pour remplacer l'homme dans des explorations spatiales à haut risque. Suite à la réception d'étranges signaux, les astronautes envoient le chimpanzé Pericles afin d'en connaître l'origine. Toutes les communications entre le primate et la station sont subitement interrompues et le vaisseau disparaît des radars. Désobéissant à ses supérieurs, Leo Davidson embarque dans un des vaisseaux expérimentaux pour aller porter secours à Pericles. Tout comme lui, il perd le contrôle des commandes et s'écrase dans les marais d'une forêt tropicale. L'intrépide pilote voit alors un groupe d'humains affolés foncer droit sur lui, et se fait capturer par des chimpanzés parlants. Qu'est-il arrivé sur cette planète pour que des singes en viennent à dominer la race humaine ?",
+    "banner": "medias/films/laplanetedessinges/laplanetedessinges.jpg",
+    "IMDb": 5.7,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
+    "year": 2001,
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "directors": ["Tim Burton"],
+    "writers": ["Pierre Boulle", "William Broyles Jr.", "Lawrence Konner"],
+    "stars": ["Mark Wahlberg", "Tim Roth", "Helena Bonham Carter"],
+    "video": "medias/films/laplanetedessinges/laplanetedessinges.mp4"
+  },
+  "La Planète des singes : Les Origines": {
+    "title": "La Planète des singes : Les Origines",
+    "description": "Dans un laboratoire, des scientifiques expérimentent un traitement sur des singes pour vaincre la maladie d’Alzheimer. Mais leurs essais ont des effets secondaires inattendus : ils découvrent que la substance utilisée permet d’augmenter radicalement l’activité cérébrale de leurs sujets. César, est alors le premier jeune chimpanzé faisant preuve d’une intelligence remarquable. Mais trahi par les humains qui l’entourent et en qui il avait confiance, il va mener le soulèvement de toute son espèce contre l’Homme dans un combat spectaculaire.",
+    "banner": "medias/films/laplanetedessinges2/laplanetedessinges2.jpg",
+    "IMDb": 7.6,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
+    "year": 2011,
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "directors": ["Rupert Wyatt"],
+    "writers": ["Rick Jaffa", "Amanda Silver", "Pierre Boulle"],
+    "stars": ["James Franco", "Freida Pinto", "Andy Serkis"],
+    "video": "medias/films/laplanetedessinges2/laplanetedessinges2.mp4"
+  },
+  "La Planète des singes : L'Affrontement": {
+    "title": "La Planète des singes : L'Affrontement",
+    "description": "Une nation de plus en plus nombreuse de singes évolués, dirigée par César, est menacée par un groupe d’humains qui a survécu au virus dévastateur qui s'est répandu 10 ans plus tôt. Ils parviennent à une trêve fragile, mais de courte durée : les deux camps sont sur le point de se livrer une guerre qui décidera de l’espèce dominante sur Terre.",
+    "banner": "medias/films/laplanetedessinges3/laplanetedessinges3.jpg",
+    "IMDb": 7.6,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
+    "year": 2014,
+    "genres": ["Action", "Aventure", "Science-fiction"],
+    "directors": ["Matt Reeves"],
+    "writers": ["Mark Bomback", "Rick Jaffa", "Amanda Silver"],
+    "stars": ["Gary Oldman", "Keri Russell", "Andy Serkis"],
+    "video": "medias/films/laplanetedessinges3/laplanetedessinges3.mp4"
+  },
   "La Planète des singes : Suprématie": {
     "title": "La Planète des singes : Suprématie",
     "description": "César et les Singes sont contraints de mener un combat dont ils ne veulent pas contre une armée d'Humains dirigée par un Colonel impitoyable. Les Singes connaissent des pertes considérables et César, dans sa quête de vengeance, va devoir lutter contre ses instincts les plus noirs. Au terme d'un périple qui le conduira à un face à face avec le Colonel, les Singes et les Humains vont se livrer une guerre sans merci à l'issue de laquelle une seule des deux espèces survivra - et dominera la planète.",
