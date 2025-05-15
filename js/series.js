@@ -18,25 +18,52 @@ async function loadSeriesData() {
 }
 
 function renderSeriesDetails(series) {
+  const bannerSkeleton = document.getElementById("banner-skeleton");
   const banner = document.getElementById("banner");
-  banner.src = series.banner;
 
-  const title = document.getElementById("series-title");
-  const description = document.getElementById("series-description");
-  const rating = document.getElementById("series-rating");
-  const genres = document.getElementById("series-genres");
-  const creators = document.getElementById("series-creators");
-  const stars = document.getElementById("series-stars");
+  bannerSkeleton.style.display = "block";
+  banner.style.display = "none";
 
-  title.innerText = `${series.title} (${series.year})`;
-  description.innerHTML = series.description;
-  rating.innerText = series.IMDb || "N/A";
-  genres.innerText = series.genres ? series.genres.join(", ") : "N/A";
-  creators.innerText = series.creators ? series.creators.join(", ") : "N/A";
-  stars.innerText = series.stars ? series.stars.join(", ") : "N/A";
+  banner.onload = () => {
+    bannerSkeleton.style.display = "none";
+    banner.style.display = "block";
+  };
+  banner.onerror = () => {
+    bannerSkeleton.style.display = "none";
+    banner.style.display = "none";
+  };
+
+  banner.src = series.banner || "";
+
+  const seriesInfo = document.getElementById("series-info");
+  seriesInfo.innerHTML = `
+    <h1 id="series-title">${series.title} (${series.year})</h1>
+    <p id="series-description">${series.description}</p>
+    <div class="rating">
+      <span>IMDb:</span>
+      <span id="series-rating" class="rating-value">${
+        series.IMDb || "N/A"
+      }</span>
+    </div>
+    <div class="genres">
+      <strong>Genres:</strong> <span id="series-genres">${
+        series.genres ? series.genres.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="creators">
+      <strong>Créateurs:</strong> <span id="series-creators">${
+        series.creators ? series.creators.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="stars">
+      <strong>Célébrités:</strong> <span id="series-stars">${
+        series.stars ? series.stars.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="season-buttons" id="season-buttons"></div>
+  `;
 
   const seasonButtons = document.getElementById("season-buttons");
-  seasonButtons.innerHTML = "";
   for (const season in series.seasons) {
     const button = document.createElement("button");
     button.innerText = `Saison ${season}`;

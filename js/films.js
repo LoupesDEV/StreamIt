@@ -18,29 +18,57 @@ async function loadFilmsData() {
 }
 
 function renderFilmsDetails(films) {
+  const bannerSkeleton = document.getElementById("banner-skeleton");
   const banner = document.getElementById("banner");
-  banner.src = films.banner;
 
-  const title = document.getElementById("film-title");
-  const description = document.getElementById("film-description");
-  const rating = document.getElementById("film-rating");
-  const genres = document.getElementById("film-genres");
-  const directors = document.getElementById("film-directors");
-  const writers = document.getElementById("film-writers");
-  const stars = document.getElementById("film-stars");
+  bannerSkeleton.style.display = "block";
+  banner.style.display = "none";
 
-  title.innerText = `${films.title} (${films.year})`;
-  description.innerHTML = films.description;
-  rating.innerText = films.IMDb || "N/A";
-  genres.innerText = films.genres ? films.genres.join(", ") : "N/A";
-  directors.innerText = films.directors ? films.directors.join(", ") : "N/A";
-  writers.innerText = films.writers ? films.writers.join(", ") : "N/A";
-  stars.innerText = films.stars ? films.stars.join(", ") : "N/A";
+  banner.onload = () => {
+    bannerSkeleton.style.display = "none";
+    banner.style.display = "block";
+  };
+  banner.onerror = () => {
+    bannerSkeleton.style.display = "none";
+    banner.style.display = "none";
+  };
+
+  banner.src = films.banner || "";
+
+  const filmInfo = document.getElementById("film-info");
+  filmInfo.innerHTML = `
+    <h1 id="film-title">${films.title} (${films.year})</h1>
+    <p id="film-description">${films.description}</p>
+    <div class="rating">
+      <span>IMDb:</span>
+      <span id="film-rating" class="rating-value">${films.IMDb || "N/A"}</span>
+    </div>
+    <div class="genres">
+      <strong>Genres:</strong> <span id="film-genres">${
+        films.genres ? films.genres.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="directors">
+      <strong>Directeurs:</strong> <span id="film-directors">${
+        films.directors ? films.directors.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="writers">
+      <strong>Writers:</strong> <span id="film-writers">${
+        films.writers ? films.writers.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="stars">
+      <strong>Célébrités:</strong> <span id="film-stars">${
+        films.stars ? films.stars.join(", ") : "N/A"
+      }</span>
+    </div>
+    <div class="watch-button-container" id="watch-button-container"></div>
+  `;
 
   const watchButtonContainer = document.getElementById(
     "watch-button-container"
   );
-  watchButtonContainer.innerHTML = "";
   const button = document.createElement("button");
   button.innerText = "Regarder";
   button.onclick = () => redirectToSeason(films);

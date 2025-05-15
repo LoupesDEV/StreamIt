@@ -13,32 +13,19 @@
     </header>
 
     <div id="main-section">
-      <img id="banner" src="" alt="Film Banner" />
+      <div id="banner-wrapper" style="position: relative; width: 350px; max-width: 100%;">
+        <div id="banner-skeleton" class="skeleton skeleton-banner"></div>
+        <img id="banner" src="" alt="Film Banner" style="display:none; width: 100%; border-radius: 8px;" />
+      </div>
 
       <div id="film-info">
-        <h1 id="film-title">Film Title</h1>
-        <p id="film-description">Film description goes here...</p>
-
-        <div class="rating">
-          <span>IMDb:</span>
-          <span id="film-rating" class="rating-value">N/A</span>
-        </div>
-
-        <div class="genres">
-          <strong>Genres:</strong> <span id="film-genres">N/A</span>
-        </div>
-
-        <div class="directors">
-          <strong>Directeurs:</strong> <span id="film-directors">N/A</span>
-        </div>
-
-        <div class="writers">
-          <strong>Writers:</strong> <span id="film-writers">N/A</span>
-        </div>
-
-        <div class="stars">
-          <strong>Célébrités:</strong> <span id="film-stars">N/A</span>
-        </div>
+        <div class="skeleton skeleton-title"></div>
+        <div class="skeleton skeleton-text"></div>
+        <div class="skeleton skeleton-rating"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line"></div>
+        <div class="skeleton skeleton-line"></div>
 
         <div class="watch-button-container" id="watch-button-container"></div>
       </div>
