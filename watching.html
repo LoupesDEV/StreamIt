@@ -22,12 +22,6 @@
           <h2 id="episode-title">Episode Title</h2>
           <p id="episode-description">Episode description goes here...</p>
         </div>
-
-        <div class="controls">
-          <button class="back-button" onclick="goBack()">
-            Retourner en arrière
-          </button>
-        </div>
       </div>
 
       <div id="episode-list">
@@ -38,7 +32,16 @@
         <ul id="episode-list-ul"></ul>
       </div>
     </div>
-
+    
+    <!-- CSS POUR ENLEVER LE CONTOUR BOUTON  -->
+    <button
+      id="index-floating-btn"
+      title="Ajouter un film ou une série"
+      onclick="goBack()"
+    >
+      <span class="plus">⬅</span>
+      <span class="index-label">Revenir en arrière</span>
+    </button>
     <script src="js/watching.js"></script>
   </body>
 </html>

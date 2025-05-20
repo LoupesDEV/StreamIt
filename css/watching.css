@@ -23,6 +23,65 @@ header h1 {
   letter-spacing: 2px;
 }
 
+#index-floating-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 200;
+  background: #c2113a;
+  color: #fff;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+  transition: background 0.2s, width 0.3s;
+  overflow: visible;
+  cursor: pointer;
+  border: none;
+}
+
+#index-floating-btn .index-label {
+  opacity: 0;
+  width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  color: #fff;
+}
+
+#index-floating-btn:hover .index-label {
+  opacity: 1;
+  width: auto;
+  margin-left: 18px;
+}
+
+#index-floating-btn:hover {
+  background: #a10e30;
+  width: 320px;
+}
+
+#index-floating-btn .plus {
+  min-width: 0;
+  flex-shrink: 0;
+  opacity: 1 !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  line-height: 1;
+}
+
 #main-section {
   display: flex;
   justify-content: flex-start;
@@ -94,42 +153,6 @@ header h1 {
   background-color: #c62f52;
 }
 
-.controls {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.controls button {
-  padding: 10px 20px;
-  background-color: #c2113a;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.controls button:hover {
-  background-color: #83011f;
-}
-
-.back-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #c2113a;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  text-align: center;
-}
-
-.back-button:hover {
-  background-color: #83011f;
-}
-
 .season-selector {
   margin-top: 20px;
   font-size: 16px;
@@ -178,16 +201,6 @@ select:hover {
   #episode-list ul {
     height: auto;
     overflow-y: visible;
-  }
-
-  .controls {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .back-button {
-    font-size: 14px;
-    padding: 8px 16px;
   }
 
   .season-selector {
