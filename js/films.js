@@ -10,7 +10,7 @@ async function loadFilmsData() {
   const films = data[filmsName];
 
   if (!films) {
-    console.error(`Films ${filmsName} not found.`);
+    console.error(`Films ${filmsName} non trouvés.`);
     return;
   }
 

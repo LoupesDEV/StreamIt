@@ -1,8 +1,8 @@
 {
-  "Astérix & Obélix : L'Empire du Milieu": {
-    "title": "Astérix & Obélix : L'Empire du Milieu",
+  "Astérix Et Obélix : L'Empire du Milieu": {
+    "title": "Astérix Et Obélix : L'Empire du Milieu",
     "description": "Nous sommes en 50 avant J.C. L’Impératrice de Chine est emprisonnée suite à un coup d’État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l’impératrice, s’enfuit en Gaule pour demander de l’aide aux deux valeureux guerriers Astérix et Obélix, dotés d’une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l’Empire du Milieu…",
-    "banner": "medias/films/asterixetobelix3/asterixetobelix3.jpg",
+    "banner": "medias/films/asterixetobelix/asterixetobelix.jpg",
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
@@ -10,7 +10,7 @@
     "directors": ["Guillaume Canet"],
     "writers": ["René Goscinny", "Albert Uderzo", "Guillaume Canet"],
     "stars": ["Guillaume Canet", "Gilles Lellouche", "Vincent Cassel"],
-    "video": "medias/films/asterixetobelix3/asterixetobelix3.mp4"
+    "video": "medias/films/asterixetobelix/asterixetobelix.mp4"
   },
   "The Gorge": {
     "title": "The Gorge",

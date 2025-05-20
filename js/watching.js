@@ -36,7 +36,7 @@ async function loadEpisodeData() {
   const data = await response.json();
 
   if (!data[series]) {
-    console.error(`Series ${series} not found.`);
+    console.error(`Série ${series} non trouvée.`);
     return;
   }
 
@@ -44,13 +44,13 @@ async function loadEpisodeData() {
   const currentSeason = seriesData.seasons[season];
 
   if (!currentSeason) {
-    console.error(`Season ${season} not found for series ${series}.`);
+    console.error(`Saison ${season} non trouvée pour la série ${series}.`);
     return;
   }
 
   const episodeData = currentSeason.find((ep) => ep.title === episode);
   if (!episodeData) {
-    console.error(`Episode ${episode} not found.`);
+    console.error(`Épisode ${episode} non trouvé.`);
     return;
   }
 
@@ -98,7 +98,7 @@ async function loadFilmData() {
   const data = await response.json();
 
   if (!data[films]) {
-    console.error(`Film ${films} not found.`);
+    console.error(`Film ${films} non trouvé.`);
     return;
   }
 
@@ -130,14 +130,14 @@ async function changeSeason() {
   const data = await response.json();
 
   if (!data[series]) {
-    console.error(`Series ${series} not found.`);
+    console.error(`Série ${series} non trouvée.`);
     return;
   }
 
   const seriesData = data[series];
   const validSeasons = Object.keys(seriesData.seasons);
   if (!validSeasons.includes(selectedSeason)) {
-    console.error(`Invalid season selected: ${selectedSeason}`);
+    console.error(`Saison non valide sélectionnée : ${selectedSeason}`);
     return;
   }
   const currentSeason = seriesData.seasons[selectedSeason];
@@ -171,7 +171,7 @@ function goBack() {
   } else if (numberOfArguments === 3) {
     goBackToSeries();
   } else {
-    console.error("Invalid URL parameters. - " + numberOfArguments);
+    console.error("Paramètres d'URL non valides. - " + numberOfArguments);
   }
 }
 
@@ -182,7 +182,7 @@ function loadData() {
   } else if (numberOfArguments === 3) {
     loadEpisodeData();
   } else {
-    console.error("Invalid URL parameters. - " + numberOfArguments);
+    console.error("Paramètres d'URL non valides. - " + numberOfArguments);
   }
 }
 

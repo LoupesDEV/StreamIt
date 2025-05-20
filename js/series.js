@@ -10,7 +10,7 @@ async function loadSeriesData() {
   const series = data[seriesName];
 
   if (!series) {
-    console.error(`Series ${seriesName} not found.`);
+    console.error(`Série ${seriesName} non trouvée.`);
     return;
   }
 

@@ -102,7 +102,7 @@ function filter() {
       seriesItems[i].style.display = "none";
     }
   }
-  
+
   const seriesSectionTitle = document.getElementById("series-section-title");
   if (seriesSectionTitle) {
     seriesSectionTitle.style.display = visibleSeriesCount === 0 ? "none" : "";
