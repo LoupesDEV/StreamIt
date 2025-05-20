@@ -76,18 +76,37 @@ seasonsInput &&
 
     document.querySelectorAll(".episodesCount").forEach((input) => {
       input.addEventListener("input", function () {
-        const seasonNum = this.getAttribute("data-season");
+        const seasonNum = parseInt(this.getAttribute("data-season"), 10);
+        if (isNaN(seasonNum) || seasonNum < 1) return;
         const count = parseInt(this.value, 10);
         const fieldsDiv = document.getElementById(`episodesFields${seasonNum}`);
         fieldsDiv.innerHTML = "";
         if (isNaN(count) || count < 1) return;
         for (let e = 1; e <= count; e++) {
-          fieldsDiv.innerHTML += `
-                <label>Titre épisode ${e} :</label>
-                <input type="text" name="season${seasonNum}_episode${e}_title" required /><br />
-                <label>Description épisode ${e} :</label>
-                <input type="text" name="season${seasonNum}_episode${e}_desc" required /><br /><br />
-              `;
+          const episodeLabel = document.createElement("label");
+          episodeLabel.textContent = `Titre épisode ${e} :`;
+          fieldsDiv.appendChild(episodeLabel);
+
+          const episodeTitleInput = document.createElement("input");
+          episodeTitleInput.type = "text";
+          episodeTitleInput.name = `season${seasonNum}_episode${e}_title`;
+          episodeTitleInput.required = true;
+          fieldsDiv.appendChild(episodeTitleInput);
+
+          fieldsDiv.appendChild(document.createElement("br"));
+
+          const descLabel = document.createElement("label");
+          descLabel.textContent = `Description épisode ${e} :`;
+          fieldsDiv.appendChild(descLabel);
+
+          const episodeDescInput = document.createElement("input");
+          episodeDescInput.type = "text";
+          episodeDescInput.name = `season${seasonNum}_episode${e}_desc`;
+          episodeDescInput.required = true;
+          fieldsDiv.appendChild(episodeDescInput);
+
+          fieldsDiv.appendChild(document.createElement("br"));
+          fieldsDiv.appendChild(document.createElement("br"));
         }
       });
     });
