@@ -1,7 +1,7 @@
 {
   "Astérix Et Obélix : L'Empire du Milieu": {
     "title": "Astérix Et Obélix : L'Empire du Milieu",
-    "description": "Nous sommes en 50 avant J.C. L’Impératrice de Chine est emprisonnée suite à un coup d’État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l’impératrice, s’enfuit en Gaule pour demander de l’aide aux deux valeureux guerriers Astérix et Obélix, dotés d’une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l’Empire du Milieu…",
+    "description": "Nous sommes en 50 avant J.C. L'Impératrice de Chine est emprisonnée suite à un coup d'État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l'impératrice, s'enfuit en Gaule pour demander de l'aide aux deux valeureux guerriers Astérix et Obélix, dotés d'une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l'Empire du Milieu…",
     "banner": "medias/films/asterixetobelix/asterixetobelix.jpg",
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
@@ -118,7 +118,7 @@
   },
   "Hunger Games : La Révolte - Partie 2": {
     "title": "Hunger Games : La Révolte - Partie 2",
-    "description": "Alors que Panem est ravagé par une guerre désormais totale, Katniss et le Président Snow vont s'affronter pour la dernière fois. Katniss et ses plus proches amis – Gale, Finnick, et Peeta – sont envoyés en mission pour le District 13 : ils vont risquer leur vie pour tenter d'assassiner le Président Snow, qui s'est juré de détruire Katniss. Les pièges mortels, les ennemis et les choix déchirants qui attendent Katniss seront des épreuves bien pires que tout ce qu'elle a déjà pu affronter dans l'arène…",
+    "description": "Alors que Panem est ravagé par une guerre désormais totale, Katniss et le Président Snow vont s'affronter pour la dernière fois. Katniss et ses plus proches amis - Gale, Finnick, et Peeta - sont envoyés en mission pour le District 13 : ils vont risquer leur vie pour tenter d'assassiner le Président Snow, qui s'est juré de détruire Katniss. Les pièges mortels, les ennemis et les choix déchirants qui attendent Katniss seront des épreuves bien pires que tout ce qu'elle a déjà pu affronter dans l'arène…",
     "banner": "medias/films/hungergamespt2/hungergamespt2.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
@@ -157,7 +157,7 @@
   },
   "La Planète des singes : Les Origines": {
     "title": "La Planète des singes : Les Origines",
-    "description": "Dans un laboratoire, des scientifiques expérimentent un traitement sur des singes pour vaincre la maladie d’Alzheimer. Mais leurs essais ont des effets secondaires inattendus : ils découvrent que la substance utilisée permet d’augmenter radicalement l’activité cérébrale de leurs sujets. César, est alors le premier jeune chimpanzé faisant preuve d’une intelligence remarquable. Mais trahi par les humains qui l’entourent et en qui il avait confiance, il va mener le soulèvement de toute son espèce contre l’Homme dans un combat spectaculaire.",
+    "description": "Dans un laboratoire, des scientifiques expérimentent un traitement sur des singes pour vaincre la maladie d'Alzheimer. Mais leurs essais ont des effets secondaires inattendus : ils découvrent que la substance utilisée permet d'augmenter radicalement l'activité cérébrale de leurs sujets. César, est alors le premier jeune chimpanzé faisant preuve d'une intelligence remarquable. Mais trahi par les humains qui l'entourent et en qui il avait confiance, il va mener le soulèvement de toute son espèce contre l'Homme dans un combat spectaculaire.",
     "banner": "medias/films/laplanetedessinges2/laplanetedessinges2.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
@@ -170,7 +170,7 @@
   },
   "La Planète des singes : L'Affrontement": {
     "title": "La Planète des singes : L'Affrontement",
-    "description": "Une nation de plus en plus nombreuse de singes évolués, dirigée par César, est menacée par un groupe d’humains qui a survécu au virus dévastateur qui s'est répandu 10 ans plus tôt. Ils parviennent à une trêve fragile, mais de courte durée : les deux camps sont sur le point de se livrer une guerre qui décidera de l’espèce dominante sur Terre.",
+    "description": "Une nation de plus en plus nombreuse de singes évolués, dirigée par César, est menacée par un groupe d'humains qui a survécu au virus dévastateur qui s'est répandu 10 ans plus tôt. Ils parviennent à une trêve fragile, mais de courte durée : les deux camps sont sur le point de se livrer une guerre qui décidera de l'espèce dominante sur Terre.",
     "banner": "medias/films/laplanetedessinges3/laplanetedessinges3.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
@@ -206,5 +206,44 @@
     "writers": ["Josh Friedman", "Rick Jaffa", "Amanda Silver"],
     "stars": ["Owen Teague", "Freya Allan", "Kevin Durand"],
     "video": "medias/films/laplanetedessinges5/laplanetedessinges5.mp4"
+  },
+  "Minecraft, Le Film": {
+    "title": "Minecraft, Le Film",
+    "description": "Quatre mésadaptés traversent soudainement un portail mystérieux menant à la Surface : un étrange univers cubique qui évolue grâce à l'imagination. Pour rentrer chez eux, ils se lancent dans une quête magique avec Steve, un surprenant fabricateur expert. L'aventure les poussera à faire preuve d'audace et à renouer avec les qualités qui donnent à chacun une créativité unique.",
+    "banner": "medias/films/minecraft/minecraft.jpg",
+    "IMDb": 5.8,
+    "IMDB_link": "https://www.imdb.com/title/tt3566834/",
+    "year": 2025,
+    "genres": ["Aventure", "Comédie", "Science-fiction"],
+    "directors": ["Jared Hess"],
+    "writers": ["Allison Schroeder", "Chris Bowman", "Hubbel Palmer"],
+    "stars": ["Jason Momoa", "Jack Black", "Emma Myers"],
+    "video": "medias/films/minecraft/minecraft.mp4"
+  },
+  "Napoléon": {
+    "title": "Napoléon",
+    "description": "Un regard personnel sur les origines du chef militaire français et son ascension rapide et impitoyable vers le statut d'empereur. L'histoire est vue à travers le prisme de la relation explosive et addictive de Napoléon avec sa femme et son grand amour, Joséphine.",
+    "banner": "medias/films/napoleon/napoleon.jpg",
+    "IMDb": 6.3,
+    "IMDb_link": "https://www.imdb.com/title/tt13287846/",
+    "year": 2023,
+    "genres": ["Action", "Docudrame"],
+    "directors": ["Ridley Scott"],
+    "writers": ["David Scarpa"],
+    "stars": ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim"],
+    "video": "medias/films/napoleon/napoleon.mp4"
+  },
+  "Sniper : Le Corbeau Blanc": {
+    "title": "Sniper : Le Corbeau Blanc",
+    "description": "Région du Donbass, Ukraine, 2014. Mykola, un professeur de physique, renonce à son mode de vie paisible suite à la perte de sa femme enceinte, tuée par des soldats à l'aube de l'invasion russe. Souhaitant se venger, il réussit à intégrer les forces armées ukrainiennes et obtient le poste convoité de sniper. Sa cible devient alors un sniper d'élite russe dont l'élimination pourrait changer le cours du conflit.",
+    "banner": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.jpg",
+    "IMDb": 6.4,
+    "IMDb_link": "https://www.imdb.com/title/tt19465630/",
+    "year": 2022,
+    "genres": ["Guerre", "Action", "Drame"],
+    "directors": ["Marian Bushan"],
+    "writers": ["Marian Bushan", "Mykola Voronin"],
+    "stars": ["Pavlo Aldoshyn", "Maryna Koshkina", "Andrey Mostrenko"],
+    "video": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.mp4"
   }
 }
