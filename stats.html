@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Statistiques - StreamIt</title>
+    <link href="css/stats.css" rel="stylesheet" />
+    <link href="medias/logo.png" rel="icon" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="title" aria-label="Accueil">
+        <h1>StreamIt</h1>
+      </a>
+    </header>
+
+    <main id="main-section" role="main">
+      <section class="stats-cards" aria-label="Statistiques principales">
+        <article class="stat-card" tabindex="0">
+          <span class="stat-label">Films</span>
+          <span class="stat-value" id="filmsCount">0</span>
+        </article>
+        <article class="stat-card" tabindex="0">
+          <span class="stat-label">Séries</span>
+          <span class="stat-value" id="seriesCount">0</span>
+        </article>
+        <article class="stat-card" tabindex="0">
+          <span class="stat-label">Genres</span>
+          <span class="stat-value" id="genresCount">0</span>
+        </article>
+        <article class="stat-card" tabindex="0">
+          <span class="stat-label">Note IMDb moyenne</span>
+          <span class="stat-value" id="imdbAvg">-</span>
+        </article>
+      </section>
+
+      <section class="charts-section" aria-label="Graphiques des statistiques">
+        <div class="chart-container">
+          <h3>Répartition des genres</h3>
+          <canvas
+            id="genreChart"
+            aria-label="Graphique répartition des genres"
+            role="img"
+          ></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Sorties par année</h3>
+          <canvas
+            id="yearChart"
+            aria-label="Graphique des sorties par année"
+            role="img"
+          ></canvas>
+        </div>
+      </section>
+    </main>
+
+    <a
+      href="index.html"
+      id="index-floating-btn"
+      title="Accueil"
+      aria-label="Revenir à l'accueil"
+    >
+      <span class="plus">⬅</span>
+      <span class="index-label">Revenir à l'accueil</span>
+    </a>
+
+    <script src="js/stats.js"></script>
+  </body>
+</html>

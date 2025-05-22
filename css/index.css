@@ -178,6 +178,64 @@ header h1 {
   margin-top: 50px;
 }
 
+#stats-floating-btn {
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  z-index: 200;
+  background: #c2113a;
+  color: #fff;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+  transition: background 0.2s, width 0.3s;
+  overflow: visible;
+  cursor: pointer;
+}
+
+#stats-floating-btn .stats-label {
+  opacity: 0;
+  width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: normal;
+  pointer-events: none;
+  color: #fff;
+}
+
+#stats-floating-btn:hover .stats-label {
+  opacity: 1;
+  width: auto;
+  margin-left: 18px;
+}
+
+#stats-floating-btn:hover {
+  background: #a10e30;
+  width: 220px;
+}
+
+#stats-floating-btn .plus {
+  min-width: 0;
+  flex-shrink: 0;
+  opacity: 1 !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  line-height: 1;
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 24px;
@@ -233,6 +291,21 @@ header h1 {
     width: 210px;
   }
   #add-floating-btn .add-label {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  #stats-floating-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
+    bottom: 18px;
+    left: 18px;
+  }
+  #stats-floating-btn:hover {
+    width: 140px;
+  }
+  #stats-floating-btn .stats-label {
     font-size: 14px;
     margin-left: 10px;
   }
