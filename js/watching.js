@@ -32,7 +32,9 @@ function goBackToFilms() {
 
 function showSkeletons() {
   // Affiche tous les skeletons et masque le contenu réel
-  document.querySelectorAll('.skeleton').forEach(el => el.style.display = '');
+  document
+    .querySelectorAll(".skeleton")
+    .forEach((el) => (el.style.display = ""));
   const videoPlayer = document.getElementById("video-player");
   const episodeInfo = document.getElementById("episode-info");
   const seasonSelect = document.getElementById("season-select");
@@ -45,15 +47,19 @@ function showSkeletons() {
 
 function hideSkeletons() {
   // Masque tous les skeletons et affiche le contenu réel
-  document.querySelectorAll('.skeleton').forEach(el => el.style.display = 'none');
+  document
+    .querySelectorAll(".skeleton")
+    .forEach((el) => (el.style.display = "none"));
   const videoPlayer = document.getElementById("video-player");
   const episodeInfo = document.getElementById("episode-info");
   const seasonSelect = document.getElementById("season-select");
   const episodeListUl = document.getElementById("episode-list-ul");
   if (videoPlayer) videoPlayer.style.display = "";
   if (episodeInfo) episodeInfo.style.display = "";
-  if (seasonSelect && seasonSelect.options.length > 0) seasonSelect.style.display = "";
-  if (episodeListUl && episodeListUl.children.length > 0) episodeListUl.style.display = "";
+  if (seasonSelect && seasonSelect.options.length > 0)
+    seasonSelect.style.display = "";
+  if (episodeListUl && episodeListUl.children.length > 0)
+    episodeListUl.style.display = "";
   // Masque le skeleton de la liste d'épisodes
   const episodeListSkeleton = document.getElementById("episode-list-skeleton");
   if (episodeListSkeleton) episodeListSkeleton.style.display = "none";
@@ -102,7 +108,11 @@ async function loadEpisodeData() {
     const episodeLi = document.createElement("li");
     episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () =>
-      (window.location.href = `watching.html?series=${encodeURIComponent(series)}&season=${encodeURIComponent(season)}&episode=${encodeURIComponent(ep.title)}`);
+      (window.location.href = `watching.html?series=${encodeURIComponent(
+        series
+      )}&season=${encodeURIComponent(season)}&episode=${encodeURIComponent(
+        ep.title
+      )}`);
 
     if (ep.title === episode) {
       episodeLi.classList.add("active");

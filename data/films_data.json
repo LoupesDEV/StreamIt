@@ -245,5 +245,44 @@
     "writers": ["Marian Bushan", "Mykola Voronin"],
     "stars": ["Pavlo Aldoshyn", "Maryna Koshkina", "Andrey Mostrenko"],
     "video": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.mp4"
+  },
+  "Le Labyrinthe": {
+    "title": "Le Labyrinthe",
+    "description": "Thomas, 16 ans, se réveille dans un ascenseur. Il ne sait plus qui il est ni d'où il vient, et ne semble se rappeler que de son prénom. Lorsque l'ascenseur s'ouvre, il est accueilli par d'autres garçons de son âge dans la clairière, un monde mystérieux entouré par un labyrinthe impénétrable, et où personne ne sait pourquoi il est là.",
+    "banner": "medias/films/labyrinthe/labyrinthe.jpg",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt1790864/",
+    "year": 2014,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Wes Ball"],
+    "writers": ["Noah Oppenheim", "Grant Pierce Myers", "T.S. Nowlin"],
+    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Will Poulter"],
+    "video": "medias/films/labyrinthe/labyrinthe.mp4"
+  },
+  "Le Labyrinthe : La Terre brûlée": {
+    "title": "Le Labyrinthe : La Terre brûlée",
+    "description": "Thomas et les autres Blocards vont devoir faire face à leur plus grand défi, rechercher des indices à propos de la mystérieuse et puissante organisation connue sous le nom de WICKED. Or le monde qu’ils découvrent à l’extérieur du Labyrinthe a été ravagé par l’Apocalypse. Leur périple les amène à la Terre Brûlée, un paysage de désolation rempli d'obstacles inimaginables. Plus de gouvernement, plus d'ordre… et des hordes de gens en proie à une folie meurtrière qui errent dans les villes en ruine. Les Blocards vont devoir unir leurs forces avec d'autres combattants pour pouvoir affronter WICKED et tenter de défier son immense pouvoir.",
+    "banner": "medias/films/labyrinthe2/labyrinthe2.jpg",
+    "IMDb": 6.3,
+    "IMDb_link": "https://www.imdb.com/title/tt4046784/",
+    "year": 2015,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Wes Ball"],
+    "writers": ["T.S. Nowlin", "James Dashner"],
+    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Thomas Brodie-Sangster"],
+    "video": "medias/films/labyrinthe2/labyrinthe2.mp4"
+  },
+  "Le Labyrinthe : Le Remède mortel": {
+    "title": "Le Labyrinthe : Le Remède mortel",
+    "description": "Dans ce dernier volet de l’épopée Le Labyrinthe, Thomas et les Blocards s’engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrôlée par la terrible organisation WICKED. Une cité qui pourrait s’avérer être le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d’obtenir les réponses tant recherchées depuis leur réveil au cœur du Labyrinthe.",
+    "banner": "medias/films/labyrinthe3/labyrinthe3.jpg",
+    "IMDb": 6.3,
+    "IMDb_link": "https://www.imdb.com/title/tt4500922/",
+    "year": 2018,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Wes Ball"],
+    "writers": ["T.S. Nowlin", "James Dashner"],
+    "stars": ["Dylan O'Brien", "Ki Hong Lee", "Kaya Scodelario"],
+    "video": "medias/films/labyrinthe3/labyrinthe3.mp4"
   }
 }
