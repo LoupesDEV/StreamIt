@@ -34,6 +34,10 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
 ## Page de stream
 
 <img src="medias/README/watching.png" alt="Page de stream" />
+
+## Page d'ajout'
+
+<img src="medias/README/add.png" alt="Page de stream" />
 </details>
 
 ## 🛠 Technologies Utilisées
@@ -52,6 +56,7 @@ Ce projet a été développé avec les technologies suivantes :
 - **Recherche centralisée** 🔍 : Trouvez instantanément un film ou une série via une barre de recherche performante en page d’accueil.
 - **Navigation fluide** 🧭 : Interface simple et réactive pour passer facilement d’un contenu à l’autre ou revenir à l’accueil.
 - **Design responsive** 📱💻 : Optimisé pour tous les appareils (desktop, tablette et mobile), assurant une expérience de navigation fluide et agréable peu importe la taille de l'écran.
+- **Ajout facile de contenus** 📝 : Ajoutez facilement de nouveaux contenus à votre bibliothèque en utilisant les formulaires de saisie dédiés.
 
 
 ## 📂 Structure du projet
@@ -61,6 +66,7 @@ Voici la structure des fichiers du projet :
 ```
 StreamIt/
 ├── css/                      # Différentes feuilles de styles des pages
+│   ├── add.css
 │   ├── films.css
 │   ├── index.css
 │   ├── series.css
@@ -69,6 +75,7 @@ StreamIt/
 │   ├── films_data.json
 │   └── series_data.json
 ├── js/
+│   ├── add.js
 │   ├── films.js
 │   ├── index.js
 │   ├── series.js
@@ -83,11 +90,13 @@ StreamIt/
 │   │   ├── XX/
 │   │   └── XXX/
 │   └── README/               # Dossier d'image pour le README
+│   │   ├── add.png
 │   │   ├── films.png
 │   │   ├── index.png
 │   │   ├── series.png
 │   │   └── watching.png
 │   └── logo.png              # Logo de l'application
+├── add.html                  # Ajout de film et série
 ├── CODE_OF_CONDUCT.md        # Ensemble de règles concernant ce projet
 ├── CONTRIBUTING.md           # Comment contribuer au projet
 ├── films.html                # Détails de chaque films
