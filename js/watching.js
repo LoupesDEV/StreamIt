@@ -30,7 +30,37 @@ function goBackToFilms() {
   window.location.href = `films.html?films=${films}`;
 }
 
+function showSkeletons() {
+  // Affiche tous les skeletons et masque le contenu réel
+  document.querySelectorAll('.skeleton').forEach(el => el.style.display = '');
+  const videoPlayer = document.getElementById("video-player");
+  const episodeInfo = document.getElementById("episode-info");
+  const seasonSelect = document.getElementById("season-select");
+  const episodeListUl = document.getElementById("episode-list-ul");
+  if (videoPlayer) videoPlayer.style.display = "none";
+  if (episodeInfo) episodeInfo.style.display = "none";
+  if (seasonSelect) seasonSelect.style.display = "none";
+  if (episodeListUl) episodeListUl.style.display = "none";
+}
+
+function hideSkeletons() {
+  // Masque tous les skeletons et affiche le contenu réel
+  document.querySelectorAll('.skeleton').forEach(el => el.style.display = 'none');
+  const videoPlayer = document.getElementById("video-player");
+  const episodeInfo = document.getElementById("episode-info");
+  const seasonSelect = document.getElementById("season-select");
+  const episodeListUl = document.getElementById("episode-list-ul");
+  if (videoPlayer) videoPlayer.style.display = "";
+  if (episodeInfo) episodeInfo.style.display = "";
+  if (seasonSelect && seasonSelect.options.length > 0) seasonSelect.style.display = "";
+  if (episodeListUl && episodeListUl.children.length > 0) episodeListUl.style.display = "";
+  // Masque le skeleton de la liste d'épisodes
+  const episodeListSkeleton = document.getElementById("episode-list-skeleton");
+  if (episodeListSkeleton) episodeListSkeleton.style.display = "none";
+}
+
 async function loadEpisodeData() {
+  showSkeletons();
   const { series, season, episode } = getURLParams();
   const response = await fetch("data/series_data.json");
   const data = await response.json();
@@ -72,7 +102,7 @@ async function loadEpisodeData() {
     const episodeLi = document.createElement("li");
     episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
     episodeLi.onclick = () =>
-      (window.location.href = `watching.html?series=${series}&season=${season}&episode=${ep.title}`);
+      (window.location.href = `watching.html?series=${encodeURIComponent(series)}&season=${encodeURIComponent(season)}&episode=${encodeURIComponent(ep.title)}`);
 
     if (ep.title === episode) {
       episodeLi.classList.add("active");
@@ -90,9 +120,12 @@ async function loadEpisodeData() {
   });
 
   seasonSelect.value = season;
+
+  hideSkeletons();
 }
 
 async function loadFilmData() {
+  showSkeletons();
   const { films } = getURLParams();
   const response = await fetch("data/films_data.json");
   const data = await response.json();
@@ -117,8 +150,11 @@ async function loadFilmData() {
   const mainSection = document.getElementById("main-section");
   mainSection.style.justifyContent = "center";
 
+  // Masque la colonne des épisodes pour les films
   const episodeList = document.getElementById("episode-list");
-  episodeList.remove();
+  if (episodeList) episodeList.style.display = "none";
+
+  hideSkeletons();
 }
 
 async function changeSeason() {
