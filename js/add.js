@@ -119,6 +119,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
   const type = document.getElementById("type").value;
   const year = document.getElementById("year").value;
   const genres = document.getElementById("genres").value;
+  const trailer = document.getElementById("trailer").value;
   const imdb = document.getElementById("imdb").value;
   const note = document.getElementById("note").value;
   const desc = document.getElementById("description").value;
@@ -129,6 +130,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
     type,
     year,
     genres,
+    trailer,
     imdb,
     note,
     description: desc,
@@ -181,6 +183,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
         : [],
       writers: data.writers ? data.writers.split(",").map((w) => w.trim()) : [],
       stars: data.stars ? data.stars.split(",").map((s) => s.trim()) : [],
+      trailer: trailer,
       video: `medias/films/${folder}/${folder}.mp4`,
     };
   } else if (type === "serie") {
@@ -205,6 +208,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
         ? data.writers.split(",").map((w) => w.trim())
         : [],
       stars: data.stars ? data.stars.split(",").map((s) => s.trim()) : [],
+      trailer: trailer,
       seasons: seasonsObj,
     };
   }
