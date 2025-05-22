@@ -35,9 +35,13 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
 
 <img src="medias/README/watching.png" alt="Page de stream" />
 
-## Page d'ajout'
+## Page d'ajout
 
 <img src="medias/README/add.png" alt="Page de stream" />
+
+## Page de statistiques
+
+<img src="medias/README/stats.png" alt="Page de stream" />
 </details>
 
 ## 🛠 Technologies Utilisées
@@ -70,6 +74,7 @@ StreamIt/
 │   ├── films.css
 │   ├── index.css
 │   ├── series.css
+│   ├── stats.css
 │   └── watching.css
 ├── data/                     # Données des films et séries (nom, description, épisodes, etc...)
 │   ├── films_data.json
@@ -79,6 +84,7 @@ StreamIt/
 │   ├── films.js
 │   ├── index.js
 │   ├── series.js
+│   ├── stats.js
 │   └── watching.js
 ├── medias/                   # Dossier comprenant toutes les médias pour l'application
 │   ├── series/               # Dossier pour les différentes séries
@@ -94,6 +100,7 @@ StreamIt/
 │   │   ├── films.png
 │   │   ├── index.png
 │   │   ├── series.png
+│   │   ├── stats.png
 │   │   └── watching.png
 │   └── logo.png              # Logo de l'application
 ├── add.html                  # Ajout de film et série
@@ -104,6 +111,7 @@ StreamIt/
 ├── LICENSE                   # Licence du projet
 ├── README.md                 # Documentation du projet
 ├── series.html               # Détails de chaque série
+├── stats.html                # Statistiques globales
 └── watching.html             # Visionnage des épisodes
 ```
 
@@ -113,6 +121,10 @@ StreamIt/
 
    ```bash
    git clone https://github.com/KucoDEV/StreamIt.git
+   ```
+   ou
+   ```bash
+   git clone git@github.com:KucoDEV/StreamIt.git
    ```
 
 2. Ouvrir le dossier cloné et servir les fichiers via un serveur local. Par exemple, utilisez **Live Server** dans VSCode ou Python :
