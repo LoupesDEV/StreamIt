@@ -229,11 +229,19 @@ header h1 {
   text-align: center;
 }
 
-.watch-button-container {
+.trailer-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-button-container,
+.trailer-button-container {
   margin-top: 20px;
 }
 
-.watch-button-container button {
+.watch-button-container button,
+.trailer-button-container button {
   margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -246,7 +254,8 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
-.watch-button-container button:hover {
+.watch-button-container button:hover,
+.trailer-button-container button:hover {
   background-color: #83011f;
 }
 

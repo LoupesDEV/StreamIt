@@ -23,7 +23,6 @@ header h1 {
   letter-spacing: 2px;
 }
 
-/* Skeleton Loader Clean */
 .skeleton {
   display: block;
   background: #232323;
@@ -78,9 +77,9 @@ header h1 {
   width: 120px;
   background: linear-gradient(
     90deg,
-    rgba(255,255,255,0) 0%,
-    rgba(255,255,255,0.08) 50%,
-    rgba(255,255,255,0) 100%
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0) 100%
   );
   animation: skeleton-loading 1.2s infinite;
 }
@@ -230,11 +229,19 @@ header h1 {
   text-align: center;
 }
 
-.season-buttons {
+.trailer-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.season-buttons,
+.trailer-button-container {
   margin-top: 20px;
 }
 
-.season-buttons button {
+.season-buttons button,
+.trailer-button-container button {
   margin-right: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -247,7 +254,8 @@ header h1 {
   transition: background-color 0.3s ease;
 }
 
-.season-buttons button:hover {
+.season-buttons button:hover,
+.trailer-button-container button:hover {
   background-color: #83011f;
 }
 

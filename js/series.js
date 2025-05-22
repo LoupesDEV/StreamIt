@@ -70,6 +70,17 @@ function renderSeriesDetails(series) {
     button.onclick = () => redirectToSeason(series, season);
     seasonButtons.appendChild(button);
   }
+
+  const trailerButtonContainer = document.getElementById(
+    "trailer-button-container"
+  );
+
+  if (series.trailer) {
+    const trailerBtn = document.createElement("button");
+    trailerBtn.innerText = "Regarder le trailer";
+    trailerBtn.onclick = () => window.open(series.trailer, "_blank");
+    trailerButtonContainer.appendChild(trailerBtn);
+  }
 }
 
 function redirectToSeason(series, seasonNumber) {

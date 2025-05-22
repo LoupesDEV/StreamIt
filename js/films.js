@@ -73,6 +73,17 @@ function renderFilmsDetails(films) {
   button.innerText = "Regarder";
   button.onclick = () => redirectToSeason(films);
   watchButtonContainer.appendChild(button);
+
+  const trailerButtonContainer = document.getElementById(
+    "trailer-button-container"
+  );
+
+  if (films.trailer) {
+    const trailerBtn = document.createElement("button");
+    trailerBtn.innerText = "Regarder le trailer";
+    trailerBtn.onclick = () => window.open(films.trailer, "_blank");
+    trailerButtonContainer.appendChild(trailerBtn);
+  }
 }
 
 function redirectToSeason(films) {

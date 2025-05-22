@@ -536,6 +536,7 @@
     "genres": ["Drame", "Histoire", "Thriller"],
     "creators": ["Craig Mazin"],
     "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
+    "trailer": "https://www.youtube.com/watch?v=skCiDK542aM",
     "seasons": {
       "1": [
         {
@@ -576,6 +577,7 @@
     "genres": ["Action", "Aventure", "Drame", "Fantastique", "Thriller"],
     "creators": ["David Benioff", "D.B. Weiss"],
     "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
+    "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
     "seasons": {
       "1": [
         {
@@ -970,6 +972,7 @@
     "genres": ["Drame", "Histoire", "Thriller"],
     "creators": ["Craig Mazin", "Neil Druckmann"],
     "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
+    "trailer": "https://www.youtube.com/watch?v=Sh4MVJLUNNY",
     "seasons": {
       "1": [
         {
@@ -1067,6 +1070,7 @@
     "genres": ["Crime", "Drame", "Thriller"],
     "creators": ["Vince Gilligan"],
     "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+    "trailer": "https://www.youtube.com/watch?v=CoWsuFdqeYE",
     "seasons": {
       "1": [
         {
@@ -1400,6 +1404,7 @@
     "genres": ["Crime", "Drame", "Thriller"],
     "creators": ["Steven Knight"],
     "stars": ["Cillian Murphy", "Paul Anderson", "Helen McCrory"],
+    "trailer": "https://senpai-stream.art/collection/le-labyrinthe",
     "seasons": {
       "1": [
         {
