@@ -1,144 +1,95 @@
-# StreamIt - Application de Streaming Personnel
+<div align="center">
+    <img src="medias/README/header.png">
+</div>
 
-Bienvenue sur **StreamIt** ! Ce projet vous permet de gérer et de regarder vos séries préférées directement depuis une interface simple et épurée. L'application propose une expérience de streaming fluide avec un accès direct aux épisodes et à leurs informations.
+<h1 align="center">StreamIt</h1>
 
-## 🎯 Objectif
+<div align="center">
+    <p>Application web moderne pour organiser, explorer et regarder vos films et séries préférés en toute simplicité.</p>
+    <img src="https://m3-markdown-badges.vercel.app/stars/9/3/KucoDEV/StreamIt">
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html3.svg">
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg">
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg">
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/JSON/json3.svg">
+</div>
 
-Le but de **StreamIt** est de fournir une plateforme personnelle de streaming simple, moderne et accessible pour organiser, explorer et visionner vos contenus préférés.
+<br>
 
-- Centraliser l’accès à vos **films et séries** dans une interface unique et épurée.
-- Offrir une **expérience de visionnage fluide** avec un lecteur intégré.
-- Proposer un **affichage dynamique** des données (notes, genres, acteurs, etc.) sans rechargement de page.
-- Faciliter la navigation grâce à une **interface responsive** et intuitive, adaptée à tous les écrans.
-- Mettre à disposition une **recherche efficace** pour retrouver instantanément vos contenus.
+## Table des matières
 
-## 🌐 Démo
+- [Comment utiliser StreamIt](#comment-utiliser-streamit)
+- [Fonctionnalités](#fonctionnalités)
+- [Démo](#démo)
+- [Contributeurs](#contributeurs)
 
-Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamIt).
+# Comment utiliser StreamIt
 
-<details>
-<summary><strong>Voir les images</strong></summary>
+Pour commencer avec StreamIt, suivez ces étapes simples :
 
-## Page d'accueil
-
-<img src="medias/README/index.png" alt="Page d'accueil" />
-
-## Page des séries
-
-<img src="medias/README/series.png" alt="Page des séries" />
-
-## Page des films
-
-<img src="medias/README/films.png" alt="Page des films" />
-
-## Page de stream
-
-<img src="medias/README/watching.png" alt="Page de stream" />
-
-## Page d'ajout
-
-<img src="medias/README/add.png" alt="Page de stream" />
-
-## Page de statistiques
-
-<img src="medias/README/stats.png" alt="Page de stream" />
-</details>
-
-## 🛠 Technologies Utilisées
-
-Ce projet a été développé avec les technologies suivantes :
-
-- **HTML5 & CSS3** - Structure et mise en page de l'application.
-- **JavaScript (ES6+)** - Logique de gestion des séries et des épisodes.
-- **JSON** - Stockage et gestion des données des séries.
-
-## 📌 Fonctionnalités
-
-- **Gestion des contenus (films & séries)** 🎞️ : Parcourez vos films et séries préférés avec des fiches détaillées incluant description, genres, note IMDb, créateurs, réalisateurs et acteurs. Pour les séries, naviguez facilement entre les saisons et les épisodes ; pour les films, lancez le visionnage d’un simple clic.
-- **Affichage dynamique** 📊 : Les données des films et séries sont chargées dynamiquement, offrant une mise à jour fluide et une interface réactive sans rechargement de page.
-- **Visionnage intégré** 🎥 : Regardez vos épisodes ou films directement depuis l’application grâce à un lecteur vidéo embarqué, avec navigation intuitive et retour rapide.
-- **Recherche centralisée** 🔍 : Trouvez instantanément un film ou une série via une barre de recherche performante en page d’accueil.
-- **Navigation fluide** 🧭 : Interface simple et réactive pour passer facilement d’un contenu à l’autre ou revenir à l’accueil.
-- **Design responsive** 📱💻 : Optimisé pour tous les appareils (desktop, tablette et mobile), assurant une expérience de navigation fluide et agréable peu importe la taille de l'écran.
-- **Ajout facile de contenus** 📝 : Ajoutez facilement de nouveaux contenus à votre bibliothèque en utilisant les formulaires de saisie dédiés.
-
-
-## 📂 Structure du projet
-
-Voici la structure des fichiers du projet :
-
-```
-StreamIt/
-├── css/                      # Différentes feuilles de styles des pages
-│   ├── add.css
-│   ├── films.css
-│   ├── index.css
-│   ├── series.css
-│   ├── stats.css
-│   └── watching.css
-├── data/                     # Données des films et séries (nom, description, épisodes, etc...)
-│   ├── films_data.json
-│   └── series_data.json
-├── js/
-│   ├── add.js
-│   ├── films.js
-│   ├── index.js
-│   ├── series.js
-│   ├── stats.js
-│   └── watching.js
-├── medias/                   # Dossier comprenant toutes les médias pour l'application
-│   ├── series/               # Dossier pour les différentes séries
-│   │   ├── X/
-│   │   ├── XX/
-│   │   └── XXX/
-│   ├── films/                # Dossier pour les différents films
-│   │   ├── X/
-│   │   ├── XX/
-│   │   └── XXX/
-│   └── README/               # Dossier d'image pour le README
-│   │   ├── add.png
-│   │   ├── films.png
-│   │   ├── index.png
-│   │   ├── series.png
-│   │   ├── stats.png
-│   │   └── watching.png
-│   └── logo.png              # Logo de l'application
-├── add.html                  # Ajout de film et série
-├── CODE_OF_CONDUCT.md        # Ensemble de règles concernant ce projet
-├── CONTRIBUTING.md           # Comment contribuer au projet
-├── films.html                # Détails de chaque films
-├── index.html                # Page d'accueil
-├── LICENSE                   # Licence du projet
-├── README.md                 # Documentation du projet
-├── series.html               # Détails de chaque série
-├── stats.html                # Statistiques globales
-└── watching.html             # Visionnage des épisodes
-```
-
-## 🚀 Installation et Exécution
-
-1. Cloner ce dépôt :
-
+1. **Cloner le dépôt**
+   
+   Téléchargez le projet en clonant le dépôt Git :
    ```bash
    git clone https://github.com/KucoDEV/StreamIt.git
    ```
-   ou
-   ```bash
-   git clone git@github.com:KucoDEV/StreamIt.git
-   ```
 
-2. Ouvrir le dossier cloné et servir les fichiers via un serveur local. Par exemple, utilisez **Live Server** dans VSCode ou Python :
+2. **Lancer un serveur local**
+   
+   Accédez au dossier cloné, puis lancez un serveur local pour servir les fichiers. Par exemple :
+   - Avec **VSCode** : faites un clic droit sur `index.html` et sélectionnez **Open with Live Server** (extension recommandée).
+   - Avec **Python** :
+     ```bash
+     python3 -m http.server 8000
+     ```
 
-   ```bash
-    python3 -m http.server 8000
-   ```
+3. **Ouvrir l’application dans le navigateur**
+   
+   Rendez-vous sur [http://localhost:8000](http://localhost:8000) pour accéder à StreamIt.
 
-3. Accéder à `http://localhost:8000` dans votre navigateur pour commencer à utiliser l'application.
+> 💡 *Aucune installation supplémentaire n’est requise : StreamIt fonctionne directement dans votre navigateur !*
 
-## 📜 Licence
+# Fonctionnalités
 
-Ce projet est sous licence **GNU General Public License v3.0 (GPL-3.0)**.
-Vous êtes libre d'utiliser, modifier et distribuer ce projet tant que vous respectez les termes de la licence.
-Cela inclut notamment l'obligation de **rendre publiques les modifications** si vous redistribuez le projet.
+- **Gestion complète des contenus** 🎞️ : Parcourez et gérez facilement vos films et séries favoris grâce à des fiches détaillées (description, genres, note IMDb, créateurs, réalisateurs, acteurs).
+- **Chargement dynamique des données** 📊 : Profitez d’une interface réactive où les informations sont actualisées en temps réel, sans rechargement de page.
+- **Lecteur vidéo intégré** 🎥 : Visionnez directement vos films et épisodes dans l’application via un lecteur moderne, avec commandes intuitives et reprise rapide.
+- **Recherche intelligente** 🔍 : Accédez instantanément à n’importe quel contenu grâce à une barre de recherche performante sur la page d’accueil.
+- **Navigation intuitive** 🧭 : Passez d’un contenu à l’autre ou revenez à l’accueil en toute simplicité grâce à une interface fluide et ergonomique.
+- **Design adaptatif** 📱💻 : Profitez d’une expérience optimale sur tous vos appareils (ordinateur, tablette, mobile) grâce à une mise en page responsive.
+- **Ajout simplifié de contenus** 📝 : Enrichissez votre bibliothèque en quelques clics via des formulaires dédiés pour l’ajout de nouveaux films ou séries.
 
-Pour plus d'informations, consultez la licence complète ici : [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.html).
+# Démo
+
+Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamIt).
+
+<div align="center">
+    <table>
+        <tr>
+            <td><img src="medias/README/index.png" alt="Page d'accueil"/></td>
+            <td><img src="medias/README/series.png" alt="Page des séries"/></td>
+        </tr>
+        <tr>
+            <td><img src="medias/README/films.png" alt="Page des films"/></td>
+            <td><img src="medias/README/watching.png" alt="Page de stream"/></td>
+        </tr>
+        <tr>
+            <td><img src="medias/README/add.png" alt="Page d'ajout"/></td>
+            <td><img src="medias/README/stats.png" alt="Page des statistiques"/></td>
+        </tr>
+    </table>
+</div>
+
+# Contributeurs
+
+Merci aux personnes et ressources ayant contribué au projet :
+
+- [KucoDEV](https://github.com/KucoDEV) — Développement principal, conception et maintenance.
+- [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) — Sécurité et bonnes pratiques.
+
+Vous souhaitez contribuer ? Consultez le [guide de contribution](CONTRIBUTING.md) ou ouvrez une *issue* pour proposer des améliorations.
+
+<p align="center">
+    <img alt="Footer" src="https://i.imgur.com/9Ojjug7.png">
+    <br><br>
+    <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencegplv33.svg">
+</p>
