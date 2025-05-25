@@ -22,7 +22,7 @@ function renderSeries(seriesData) {
     const seriesDiv = document.createElement("div");
     seriesDiv.classList.add("series");
     seriesDiv.onclick = () =>
-      (window.location.href = `series.html?series=${series}`);
+      (window.location.href = `pages/series.html?series=${series}`);
 
     const seriesImage = document.createElement("img");
     seriesImage.src = seriesData[series].banner;
@@ -59,7 +59,8 @@ function renderFilms(filmsData) {
   for (const film of sortedFilms) {
     const filmDiv = document.createElement("div");
     filmDiv.classList.add("films");
-    filmDiv.onclick = () => (window.location.href = `films.html?films=${film}`);
+    filmDiv.onclick = () =>
+      (window.location.href = `pages/films.html?films=${film}`);
 
     const filmImage = document.createElement("img");
     filmImage.src = filmsData[film].banner;

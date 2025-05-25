@@ -4,13 +4,17 @@ function getFilmsFromURL() {
 }
 
 async function loadFilmsData() {
-  const response = await fetch("data/films_data.json");
+  const response = await fetch("../data/films_data.json");
   const data = await response.json();
   const filmsName = getFilmsFromURL();
   const films = data[filmsName];
 
   if (!films) {
-    console.error(`Films ${filmsName} non trouvés.`);
+    localStorage.setItem(
+      "streamit_404_error",
+      `Le film "${filmsName}" est introuvable ou n'existe pas dans notre base de données.`
+    );
+    window.location.href = "../404.html";
     return;
   }
 

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
-    <link href="css/films.css" rel="stylesheet" />
-    <link href="medias/logo.png" rel="icon" />
+    <link href="../css/series.css" rel="stylesheet" />
+    <link href="../medias/logo.png" rel="icon" />
   </head>
   <body>
     <header>
-      <a href="index.html" class="title"><h1>StreamIt</h1></a>
+      <a href="/" class="title"><h1>StreamIt</h1></a>
     </header>
 
     <div id="main-section">
@@ -21,7 +21,7 @@
         <img
           id="banner"
           src=""
-          alt="Film Banner"
+          alt="Series Banner"
           style="display: none; width: 100%; border-radius: 8px"
         />
 
@@ -31,27 +31,33 @@
         ></div>
       </div>
 
-      <div id="film-info">
+      <div id="series-info">
         <div class="skeleton skeleton-title"></div>
         <div class="skeleton skeleton-text"></div>
-        <div class="skeleton skeleton-rating"></div>
-        <div class="skeleton skeleton-line"></div>
-        <div class="skeleton skeleton-line"></div>
-        <div class="skeleton skeleton-line"></div>
-        <div class="skeleton skeleton-line"></div>
+        <div class="rating">
+          <span>IMDb:</span>
+          <span class="skeleton skeleton-rating"></span>
+        </div>
+        <div class="genres">
+          <strong>Genres:</strong> <span class="skeleton skeleton-line"></span>
+        </div>
+        <div class="creators">
+          <strong>Créateurs:</strong>
+          <span class="skeleton skeleton-line"></span>
+        </div>
+        <div class="stars">
+          <strong>Célébrités:</strong>
+          <span class="skeleton skeleton-line"></span>
+        </div>
 
-        <div class="watch-button-container" id="watch-button-container"></div>
+        <div class="season-buttons" id="season-buttons"></div>
       </div>
     </div>
 
-    <a
-      href="index.html"
-      id="index-floating-btn"
-      title="Ajouter un film ou une série"
-    >
+    <a href="/" id="index-floating-btn" title="Ajouter un film ou une série">
       <span class="plus">⬅</span>
       <span class="index-label">Revenir à l'accueil</span>
     </a>
-    <script src="js/films.js"></script>
+    <script src="../js/series.js"></script>
   </body>
 </html>

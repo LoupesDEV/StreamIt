@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page non trouvée | StreamIt</title>
+    <link href="css/404.css" rel="stylesheet" />
+    <link href="medias/logo.png" rel="icon" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="medias/logo.png" alt="StreamIt Logo" class="logo" />
+      <h1>404</h1>
+      <h2>Oups ! Cette page n'existe pas.</h2>
+      <p>La page que vous cherchez est introuvable ou a été déplacée.</p>
+      <div id="error-message" class="error-message"></div>
+      <a href="/" class="back-btn">Revenir à l'accueil</a>
+    </div>
+    <script>
+      const msg = localStorage.getItem("streamit_404_error");
+      if (msg) {
+        document.getElementById("error-message").textContent = msg;
+        localStorage.removeItem("streamit_404_error");
+      }
+    </script>
+  </body>
+</html>

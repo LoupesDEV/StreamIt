@@ -1,8 +1,8 @@
 async function fetchData() {
-  const films = await fetch("data/films_data.json")
+  const films = await fetch("../data/films_data.json")
     .then((r) => r.json())
     .catch(() => []);
-  const series = await fetch("data/series_data.json")
+  const series = await fetch("../data/series_data.json")
     .then((r) => r.json())
     .catch(() => []);
   return { films, series };

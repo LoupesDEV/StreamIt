@@ -4,13 +4,17 @@ function getSeriesFromURL() {
 }
 
 async function loadSeriesData() {
-  const response = await fetch("data/series_data.json");
+  const response = await fetch("../data/series_data.json");
   const data = await response.json();
   const seriesName = getSeriesFromURL();
   const series = data[seriesName];
 
   if (!series) {
-    console.error(`Série ${seriesName} non trouvée.`);
+    localStorage.setItem(
+      "streamit_404_error",
+      `La série "${seriesName}" est introuvable ou n'existe pas dans notre base de données.`
+    );
+    window.location.href = "../404.html";
     return;
   }
 
