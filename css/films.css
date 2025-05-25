@@ -252,6 +252,13 @@ header h1 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.watch-button-container button:focus,
+.trailer-button-container button:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 .watch-button-container button:hover,

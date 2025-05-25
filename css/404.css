@@ -17,6 +17,24 @@ body {
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   max-width: 400px;
+  width: 90vw;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .logo {
@@ -29,6 +47,9 @@ h1 {
   margin: 0 0 10px 0;
   color: #c2113a;
   letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #000a;
 }
 
 h2 {
@@ -49,6 +70,8 @@ p {
   margin: 18px 0 0 0;
   font-size: 1.1em;
   font-weight: bold;
+  box-shadow: 0 2px 8px #0003;
+  letter-spacing: 0.5px;
 }
 
 .back-btn {
@@ -60,10 +83,42 @@ p {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
-  transition: background 0.2s;
+  transition: background 0.2s, box-shadow 0.2s;
   margin-top: 28px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0002;
 }
 
-.back-btn:hover {
+.back-btn:hover,
+.back-btn:focus {
   background: #a10e30;
+  box-shadow: 0 4px 16px #0004;
+}
+
+.back-btn:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 24px 8px 18px 8px;
+    max-width: 98vw;
+    min-height: 80vh;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .logo {
+    width: 56px;
+  }
+  .back-btn {
+    padding: 10px 16px;
+    font-size: 1rem;
+  }
 }

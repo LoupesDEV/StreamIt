@@ -216,6 +216,7 @@ header h1 {
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  outline: none;
 }
 
 #episode-list li:hover {
@@ -224,6 +225,11 @@ header h1 {
 
 #episode-list li.active {
   background-color: #c62f52;
+}
+
+#episode-list li:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
 }
 
 .season-selector {
@@ -239,14 +245,29 @@ select {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-select:hover {
+select:hover,
+select:focus {
   background-color: #444;
+  outline: 2px solid #c2113a;
 }
 
 .title {
   text-decoration: none;
+}
+
+#episode-list ul::-webkit-scrollbar {
+  width: 8px;
+  background: #232323;
+}
+#episode-list ul::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+#episode-list ul::-webkit-scrollbar-thumb:hover {
+  background: #c2113a;
 }
 
 @media (max-width: 768px) {
@@ -300,5 +321,19 @@ select:hover {
 
   select {
     font-size: 12px;
+  }
+  #index-floating-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    bottom: 12px;
+    right: 12px;
+  }
+  #index-floating-btn:hover {
+    width: 140px;
+  }
+  #index-floating-btn .index-label {
+    font-size: 12px;
+    margin-left: 6px;
   }
 }
