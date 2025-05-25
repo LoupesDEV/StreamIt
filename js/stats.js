@@ -50,55 +50,101 @@ function updateStats({ films, series }) {
   const filmsArr = Array.isArray(films) ? films : Object.values(films);
   const seriesArr = Array.isArray(series) ? series : Object.values(series);
 
-  document.getElementById("filmsCount").textContent = filmsArr.length;
-  document.getElementById("seriesCount").textContent = seriesArr.length;
+  const filmsCountEl = document.getElementById("filmsCount");
+  const seriesCountEl = document.getElementById("seriesCount");
+  const genresCountEl = document.getElementById("genresCount");
+  const imdbAvgEl = document.getElementById("imdbAvg");
+
+  if (filmsCountEl) filmsCountEl.textContent = filmsArr.length;
+  if (seriesCountEl) seriesCountEl.textContent = seriesArr.length;
 
   const allItems = [...filmsArr, ...seriesArr];
 
   const genres = getGenres(allItems);
-  document.getElementById("genresCount").textContent =
-    Object.keys(genres).length;
+  if (genresCountEl) genresCountEl.textContent = Object.keys(genres).length;
 
-  document.getElementById("imdbAvg").textContent = getAverageNote(allItems);
+  if (imdbAvgEl) imdbAvgEl.textContent = getAverageNote(allItems);
 
   createGenreChart(genres);
   createYearChart(getYears(allItems));
 }
 
+let genreChartInstance = null;
 function createGenreChart(genres) {
-  const ctx = document.getElementById("genreChart").getContext("2d");
-  new Chart(ctx, {
+  const chartEl = document.getElementById("genreChart");
+  if (!chartEl) return;
+  const ctx = chartEl.getContext("2d");
+
+  if (genreChartInstance) {
+    genreChartInstance.destroy();
+  }
+
+  const baseColors = [
+    "#ffb347",
+    "#b0b8d1",
+    "#ff6961",
+    "#77dd77",
+    "#f49ac2",
+    "#aec6cf",
+    "#cfcfc4",
+    "#836953",
+  ];
+  const colorCount = Object.keys(genres).length;
+  let backgroundColors = [];
+  for (let i = 0; i < colorCount; i++) {
+    backgroundColors.push(baseColors[i % baseColors.length]);
+  }
+
+  genreChartInstance = new Chart(ctx, {
     type: "doughnut",
     data: {
       labels: Object.keys(genres),
       datasets: [
         {
           data: Object.values(genres),
-          backgroundColor: [
-            "#ffb347",
-            "#b0b8d1",
-            "#ff6961",
-            "#77dd77",
-            "#f49ac2",
-            "#aec6cf",
-            "#cfcfc4",
-            "#836953",
-          ],
+          backgroundColor: backgroundColors,
         },
       ],
     },
     options: {
       plugins: {
         legend: { display: false },
+        tooltip: {
+          bodyColor: "#fff",
+          titleColor: "#fff",
+          footerColor: "#fff",
+        },
+        title: {
+          display: true,
+          text: "Répartition par genre",
+          color: "#fff",
+        },
+      },
+      elements: {
+        arc: {
+          borderWidth: 1,
+        },
       },
     },
   });
 }
 
+let yearChartInstance = null;
 function createYearChart(years) {
-  const sortedYears = Object.keys(years).sort();
-  const ctx = document.getElementById("yearChart").getContext("2d");
-  new Chart(ctx, {
+  const chartEl = document.getElementById("yearChart");
+  if (!chartEl) return;
+  const ctx = chartEl.getContext("2d");
+
+  if (yearChartInstance) {
+    yearChartInstance.destroy();
+  }
+
+  const sortedYears = Object.keys(years)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map(String);
+
+  yearChartInstance = new Chart(ctx, {
     type: "bar",
     data: {
       labels: sortedYears,
@@ -122,6 +168,11 @@ function createYearChart(years) {
           titleColor: "#fff",
           footerColor: "#fff",
         },
+        title: {
+          display: true,
+          text: "Répartition par année",
+          color: "#fff",
+        },
       },
       scales: {
         x: {
@@ -141,6 +192,14 @@ function createYearChart(years) {
 }
 
 window.addEventListener("DOMContentLoaded", async () => {
-  const data = await fetchData();
-  updateStats(data);
+  try {
+    const data = await fetchData();
+    updateStats(data);
+  } catch (e) {
+    const statsContainer = document.getElementById("statsContainer");
+    if (statsContainer) {
+      statsContainer.innerHTML =
+        "<div style='color:red'>Erreur lors du chargement des statistiques.</div>";
+    }
+  }
 });

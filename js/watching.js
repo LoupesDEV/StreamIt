@@ -22,12 +22,12 @@ function getURLParams() {
 
 function goBackToSeries() {
   const { series } = getURLParams();
-  window.location.href = `series.html?series=${series}`;
+  window.location.href = `series.html?series=${encodeURIComponent(series)}`;
 }
 
 function goBackToFilms() {
   const { films } = getURLParams();
-  window.location.href = `films.html?films=${films}`;
+  window.location.href = `films.html?films=${encodeURIComponent(films)}`;
 }
 
 function showSkeletons() {
@@ -62,57 +62,32 @@ function hideSkeletons() {
   if (episodeListSkeleton) episodeListSkeleton.style.display = "none";
 }
 
-async function loadEpisodeData() {
-  showSkeletons();
-  const { series, season, episode } = getURLParams();
-  const response = await fetch("../data/series_data.json");
-  const data = await response.json();
+function handleErrorAndRedirect(message) {
+  localStorage.setItem("streamit_404_error", message);
+  window.location.href = "../404.html";
+}
 
-  if (!data[series]) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `La série "${series}" est introuvable ou n'existe pas dans notre base de données.`
-    );
-    window.location.href = "../404.html";
-    return;
+async function fetchJsonOrError(url, errorMsg) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Erreur réseau");
+    return await response.json();
+  } catch (error) {
+    handleErrorAndRedirect(errorMsg);
+    throw error;
   }
+}
 
-  const seriesData = data[series];
-  const currentSeason = seriesData.seasons[season];
-
-  if (!currentSeason) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `La saison "${season}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
-    );
-    window.location.href = "../404.html";
-    return;
-  }
-
-  const episodeData = currentSeason.find((ep) => ep.title === episode);
-  if (!episodeData) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `L'épisode "${episode}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
-    );
-    window.location.href = "../404.html";
-    return;
-  }
-
-  const watchTitle = document.getElementById("watch-title");
-  const videoPlayer = document.getElementById("video-player");
-  const episodeTitle = document.getElementById("episode-title");
-  const episodeDescription = document.getElementById("episode-description");
-  const episodeListUl = document.getElementById("episode-list-ul");
-  const seasonSelect = document.getElementById("season-select");
-
-  watchTitle.innerText = `${series} (${seriesData.year})`;
-  videoPlayer.src = episodeData.video;
-  episodeTitle.innerText = episodeData.title;
-  episodeDescription.innerText = episodeData.desc;
-
+function renderEpisodeList(
+  episodeListUl,
+  episodes,
+  series,
+  season,
+  currentEpisodeTitle
+) {
+  if (!episodeListUl) return;
   episodeListUl.innerHTML = "";
-  currentSeason.forEach((ep, index) => {
+  episodes.forEach((ep, index) => {
     const episodeNumber = (index + 1).toString().padStart(2, "0");
     const episodeLi = document.createElement("li");
     episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
@@ -122,112 +97,156 @@ async function loadEpisodeData() {
       )}&season=${encodeURIComponent(season)}&episode=${encodeURIComponent(
         ep.title
       )}`);
-
-    if (ep.title === episode) {
+    if (ep.title === currentEpisodeTitle) {
       episodeLi.classList.add("active");
     }
-
     episodeListUl.appendChild(episodeLi);
   });
+}
 
-  seasonSelect.innerHTML = "";
-  Object.keys(seriesData.seasons).forEach((seasonKey) => {
-    const seasonOption = document.createElement("option");
-    seasonOption.value = seasonKey;
-    seasonOption.innerText = `Saison ${seasonKey}`;
-    seasonSelect.appendChild(seasonOption);
-  });
+async function loadEpisodeData() {
+  showSkeletons();
+  const { series, season, episode } = getURLParams();
+  try {
+    const data = await fetchJsonOrError(
+      "../data/series_data.json",
+      "Erreur réseau : impossible de charger les données de la série."
+    );
 
-  seasonSelect.value = season;
+    if (!data[series]) {
+      handleErrorAndRedirect(
+        `La série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
+    const seriesData = data[series];
+    const currentSeason = seriesData.seasons[season];
+    if (!currentSeason) {
+      handleErrorAndRedirect(
+        `La saison "${season}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
+    const episodeData = currentSeason.find((ep) => ep.title === episode);
+    if (!episodeData) {
+      handleErrorAndRedirect(
+        `L'épisode "${episode}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
 
-  hideSkeletons();
+    const watchTitle = document.getElementById("watch-title");
+    const videoPlayer = document.getElementById("video-player");
+    const episodeTitle = document.getElementById("episode-title");
+    const episodeDescription = document.getElementById("episode-description");
+    const episodeListUl = document.getElementById("episode-list-ul");
+    const seasonSelect = document.getElementById("season-select");
+
+    if (watchTitle) watchTitle.innerText = `${series} (${seriesData.year})`;
+    if (videoPlayer) videoPlayer.src = episodeData.video;
+    if (episodeTitle) episodeTitle.innerText = episodeData.title;
+    if (episodeDescription) episodeDescription.innerText = episodeData.desc;
+
+    renderEpisodeList(episodeListUl, currentSeason, series, season, episode);
+
+    if (seasonSelect) {
+      seasonSelect.innerHTML = "";
+      Object.keys(seriesData.seasons).forEach((seasonKey) => {
+        const seasonOption = document.createElement("option");
+        seasonOption.value = seasonKey;
+        seasonOption.innerText = `Saison ${seasonKey}`;
+        seasonSelect.appendChild(seasonOption);
+      });
+      seasonSelect.value = season;
+    }
+  } finally {
+    hideSkeletons();
+  }
 }
 
 async function loadFilmData() {
   showSkeletons();
   const { films } = getURLParams();
-  const response = await fetch("../data/films_data.json");
-  const data = await response.json();
-
-  if (!data[films]) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `Le film "${films}" est introuvable ou n'existe pas dans notre base de données.`
+  try {
+    const data = await fetchJsonOrError(
+      "../data/films_data.json",
+      "Erreur réseau : impossible de charger les données du film."
     );
-    window.location.href = "../404.html";
-    return;
+
+    if (!data[films]) {
+      handleErrorAndRedirect(
+        `Le film "${films}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
+
+    const filmData = data[films];
+    const watchTitle = document.getElementById("watch-title");
+    const videoPlayer = document.getElementById("video-player");
+    const filmTitle = document.getElementById("episode-title");
+    const filmDescription = document.getElementById("episode-description");
+
+    if (watchTitle) watchTitle.innerText = `${films} (${filmData.year})`;
+    if (videoPlayer) videoPlayer.src = filmData.video;
+    if (filmTitle) filmTitle.innerText = filmData.title;
+    if (filmDescription) filmDescription.innerText = filmData.description;
+
+    const mainSection = document.getElementById("main-section");
+    if (mainSection) mainSection.style.justifyContent = "center";
+
+    const episodeList = document.getElementById("episode-list");
+    if (episodeList) episodeList.style.display = "none";
+  } finally {
+    hideSkeletons();
   }
-
-  const filmData = data[films];
-
-  const watchTitle = document.getElementById("watch-title");
-  const videoPlayer = document.getElementById("video-player");
-  const filmTitle = document.getElementById("episode-title");
-  const filmDescription = document.getElementById("episode-description");
-
-  watchTitle.innerText = `${films} (${filmData.year})`;
-  videoPlayer.src = filmData.video;
-  filmTitle.innerText = filmData.title;
-  filmDescription.innerText = filmData.description;
-
-  const mainSection = document.getElementById("main-section");
-  mainSection.style.justifyContent = "center";
-
-  const episodeList = document.getElementById("episode-list");
-  if (episodeList) episodeList.style.display = "none";
-
-  hideSkeletons();
 }
 
 async function changeSeason() {
   const seasonSelect = document.getElementById("season-select");
+  if (!seasonSelect) return;
   const selectedSeason = seasonSelect.value;
   const { series } = getURLParams();
 
-  const response = await fetch("../data/series_data.json");
-  const data = await response.json();
-
-  if (!data[series]) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `La série "${seriesName}" est introuvable ou n'existe pas dans notre base de données.`
+  try {
+    const data = await fetchJsonOrError(
+      "../data/series_data.json",
+      "Erreur réseau : impossible de charger les données de la série."
     );
-    window.location.href = "../404.html";
-    return;
-  }
 
-  const seriesData = data[series];
-  const validSeasons = Object.keys(seriesData.seasons);
-  if (!validSeasons.includes(selectedSeason)) {
-    localStorage.setItem(
-      "streamit_404_error",
-      `La saison "${selectedSeason}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+    if (!data[series]) {
+      handleErrorAndRedirect(
+        `La série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
+    const seriesData = data[series];
+    const validSeasons = Object.keys(seriesData.seasons);
+    if (!validSeasons.includes(selectedSeason)) {
+      handleErrorAndRedirect(
+        `La saison "${selectedSeason}" de la série "${series}" est introuvable ou n'existe pas dans notre base de données.`
+      );
+      return;
+    }
+    const currentSeason = seriesData.seasons[selectedSeason];
+
+    const episodeListUl = document.getElementById("episode-list-ul");
+    renderEpisodeList(
+      episodeListUl,
+      currentSeason,
+      series,
+      selectedSeason,
+      null
     );
-    window.location.href = "../404.html";
-    return;
+
+    const firstEpisode = currentSeason[0];
+    window.location.href = `watching.html?series=${encodeURIComponent(
+      series
+    )}&season=${encodeURIComponent(
+      selectedSeason
+    )}&episode=${encodeURIComponent(firstEpisode.title)}`;
+  } catch (error) {
+    // L'erreur est déjà gérée dans fetchJsonOrError
   }
-  const currentSeason = seriesData.seasons[selectedSeason];
-
-  const episodeListUl = document.getElementById("episode-list-ul");
-  episodeListUl.innerHTML = "";
-
-  currentSeason.forEach((ep, index) => {
-    const episodeNumber = (index + 1).toString().padStart(2, "0");
-    const episodeLi = document.createElement("li");
-    episodeLi.innerText = `#${episodeNumber} - ${ep.title}`;
-    episodeLi.onclick = () => {
-      const sanitizedSeason = encodeURIComponent(selectedSeason);
-      window.location.href = `watching?series=${series}&season=${sanitizedSeason}&episode=${encodeURIComponent(
-        ep.title
-      )}`;
-    };
-    episodeListUl.appendChild(episodeLi);
-  });
-
-  const firstEpisode = currentSeason[0];
-  window.location.href = `watching.html?series=${series}&season=${selectedSeason}&episode=${encodeURIComponent(
-    firstEpisode.title
-  )}`;
 }
 
 function goBack() {
@@ -237,11 +256,9 @@ function goBack() {
   } else if (numberOfArguments === 3) {
     goBackToSeries();
   } else {
-    localStorage.setItem(
-      "streamit_404_error",
+    handleErrorAndRedirect(
       `Impossible de revenir en arrière : paramètres d'URL non valides (${numberOfArguments} argument(s)).`
     );
-    window.location.href = "../404.html";
   }
 }
 
@@ -252,11 +269,9 @@ function loadData() {
   } else if (numberOfArguments === 3) {
     loadEpisodeData();
   } else {
-    localStorage.setItem(
-      "streamit_404_error",
+    handleErrorAndRedirect(
       `Impossible de revenir en arrière : paramètres d'URL non valides (${numberOfArguments} argument(s)).`
     );
-    window.location.href = "../404.html";
   }
 }
 
