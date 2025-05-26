@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Statistiques - StreamIt</title>
+    <link rel="manifest" href="../manifest.json" />
     <link href="../css/stats.css" rel="stylesheet" />
     <link href="../medias/logo.png" rel="icon" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -65,6 +66,13 @@
       <span class="index-label">Revenir à l'accueil</span>
     </a>
 
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("../sw.js");
+        });
+      }
+    </script>
     <script src="../js/stats.js"></script>
   </body>
 </html>

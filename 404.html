@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - Page non trouvée | StreamIt</title>
+    <title>StreamIt</title>
+    <link rel="manifest" href="manifest.json" />
     <link href="css/404.css" rel="stylesheet" />
     <link href="medias/logo.png" rel="icon" />
   </head>
@@ -17,6 +18,12 @@
       <a href="/" class="back-btn">Revenir à l'accueil</a>
     </div>
     <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+
       const msg = localStorage.getItem("streamit_404_error");
       if (msg) {
         document.getElementById("error-message").textContent = msg;

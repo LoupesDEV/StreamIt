@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
+    <link rel="manifest" href="../manifest.json" />
     <link href="../css/series.css" rel="stylesheet" />
     <link href="../medias/logo.png" rel="icon" />
   </head>
@@ -58,6 +59,14 @@
       <span class="plus">⬅</span>
       <span class="index-label">Revenir à l'accueil</span>
     </a>
+    
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("../sw.js");
+        });
+      }
+    </script>
     <script src="../js/series.js"></script>
   </body>
 </html>
