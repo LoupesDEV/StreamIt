@@ -173,7 +173,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
     formatted[title] = {
       title: title,
       description: desc,
-      banner: `../medias/films/${folder}/${folder}.jpg`,
+      banner: `medias/films/${folder}/${folder}.jpg`,
       IMDb: note ? parseFloat(note) : undefined,
       IMDb_link: imdb ? `${imdb}` : "",
       year: year ? parseInt(year, 10) : undefined,
@@ -184,7 +184,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
       writers: data.writers ? data.writers.split(",").map((w) => w.trim()) : [],
       stars: data.stars ? data.stars.split(",").map((s) => s.trim()) : [],
       trailer: trailer,
-      video: `../medias/films/${folder}/${folder}.mp4`,
+      video: `medias/films/${folder}/${folder}.mp4`,
     };
   } else if (type === "serie") {
     let seasonsObj = {};
@@ -193,13 +193,13 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
       seasonsObj[seasonNum] = season.episodes.map((ep, epIdx) => ({
         title: ep.title,
         desc: ep.description,
-        video: `../medias/series/${folder}/${seasonNum}-${epIdx + 1}.mp4`,
+        video: `medias/series/${folder}/${seasonNum}-${epIdx + 1}.mp4`,
       }));
     });
     formatted[title] = {
       title: title,
       description: desc,
-      banner: `../medias/series/${folder}/${folder}.jpg`,
+      banner: `medias/series/${folder}/${folder}.jpg`,
       IMDb: note ? parseFloat(note) : undefined,
       IMDb_link: imdb ? `${imdb}/` : "",
       year: year ? parseInt(year, 10) : undefined,

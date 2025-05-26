@@ -2,7 +2,7 @@
   "Astérix Et Obélix : L'Empire du Milieu": {
     "title": "Astérix Et Obélix : L'Empire du Milieu",
     "description": "Nous sommes en 50 avant J.C. L'Impératrice de Chine est emprisonnée suite à un coup d'État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l'impératrice, s'enfuit en Gaule pour demander de l'aide aux deux valeureux guerriers Astérix et Obélix, dotés d'une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l'Empire du Milieu…",
-    "banner": "../medias/films/asterixetobelix/asterixetobelix.jpg",
+    "banner": "medias/films/asterixetobelix/asterixetobelix.jpg",
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
@@ -11,12 +11,12 @@
     "writers": ["René Goscinny", "Albert Uderzo", "Guillaume Canet"],
     "stars": ["Guillaume Canet", "Gilles Lellouche", "Vincent Cassel"],
     "trailer": "https://www.youtube.com/watch?v=YY9ptFQgs4w",
-    "video": "../medias/films/asterixetobelix/asterixetobelix.mp4"
+    "video": "medias/films/asterixetobelix/asterixetobelix.mp4"
   },
   "The Gorge": {
     "title": "The Gorge",
     "description": "Deux agents hautement entraînés se rapprochent malgré la distance lorsqu'ils sont envoyés garder deux côtés opposés d'une mystérieuse gorge. Quand un mal surgit des profondeurs, ils doivent faire équipe pour survivre à ce qui est tapi sous la surface.",
-    "banner": "../medias/films/thegorge/thegorge.jpg",
+    "banner": "medias/films/thegorge/thegorge.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
@@ -25,12 +25,12 @@
     "writers": ["Zach Dean"],
     "stars": ["Miles Teller", "Anya Taylor-Joy", "Sigourney Weaver"],
     "trailer": "https://www.youtube.com/watch?v=gWTXQnlWDRg",
-    "video": "../medias/films/thegorge/thegorge.mp4"
+    "video": "medias/films/thegorge/thegorge.mp4"
   },
   "Exterritorial": {
     "title": "Exterritorial",
     "description": "Quand son fils disparaît dans un consulat américain, Sara, ex-soldate des forces spéciales, fait tout ce qu'elle peut pour le retrouver et découvre une sinistre conspiration.",
-    "banner": "../medias/films/exterritorial/exterritorial.jpg",
+    "banner": "medias/films/exterritorial/exterritorial.jpg",
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
@@ -39,12 +39,12 @@
     "writers": ["Christian Zübert"],
     "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
     "trailer": "https://www.youtube.com/watch?v=TSAP-U61JkA",
-    "video": "../medias/films/exterritorial/exterritorial.mp4"
+    "video": "medias/films/exterritorial/exterritorial.mp4"
   },
   "Sans un bruit": {
     "title": "Sans un bruit",
     "description": "Une famille tente de survivre sous la menace de mystérieuses créatures qui attaquent au moindre bruit. S'ils vous entendent, il est déjà trop tard.",
-    "banner": "../medias/films/sansunbruit/sansunbruit.jpg",
+    "banner": "medias/films/sansunbruit/sansunbruit.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
@@ -53,12 +53,12 @@
     "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
     "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
     "trailer": "https://www.youtube.com/watch?v=OfImjmzcvLA",
-    "video": "../medias/films/sansunbruit/sansunbruit.mp4"
+    "video": "medias/films/sansunbruit/sansunbruit.mp4"
   },
   "Sans un bruit 2": {
     "title": "Sans un bruit 2",
     "description": "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s'aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin…",
-    "banner": "../medias/films/sansunbruit2/sansunbruit2.jpg",
+    "banner": "medias/films/sansunbruit2/sansunbruit2.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
@@ -67,12 +67,12 @@
     "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
     "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
     "trailer": "https://www.youtube.com/watch?v=xmaFiG8yKFc",
-    "video": "../medias/films/sansunbruit2/sansunbruit2.mp4"
+    "video": "medias/films/sansunbruit2/sansunbruit2.mp4"
   },
   "Sans un bruit : Jour 1": {
     "title": "Sans un bruit : Jour 1",
     "description": "Alors que Samira rentre à New York, son simple voyage se transforme en cauchemar suite à l'attaque de mystérieuses créatures attirées par le son. Accompagnée de son chat Frodon et d'un allié inattendu, Samira se lance dans un voyage périlleux à travers une ville où règne le silence. Pour rester en vie, sa seule solution est de ne faire aucun bruit.",
-    "banner": "../medias/films/sansunbruitj1/sansunbruitj1.jpg",
+    "banner": "medias/films/sansunbruitj1/sansunbruitj1.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
@@ -81,12 +81,12 @@
     "writers": ["Michael Sarnoski", "John Krasinski", "Bryan Woods"],
     "stars": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff"],
     "trailer": "https://www.youtube.com/watch?v=P2Txu56Rj-g",
-    "video": "../medias/films/sansunbruitj1/sansunbruitj1.mp4"
+    "video": "medias/films/sansunbruitj1/sansunbruitj1.mp4"
   },
   "Hunger Games": {
     "title": "Hunger Games",
     "description": "Dans un proche futur, les États-Unis sont devenus un gouvernement fédéral dystopique dans lequel chacun des 12 districts doit envoyer un garçon et une fille combattre lors d'un événement annuel télévisé, « Les Hunger Games ». La seule issue à ces jeux pour les « Tributs » est de tuer ou d'être tué. Lorsque la petite sœur de Katniss est tirée au sort pour y participer, celle-ci décide de prendre sa place.",
-    "banner": "../medias/films/hungergames/hungergames.jpg",
+    "banner": "medias/films/hungergames/hungergames.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
@@ -95,12 +95,12 @@
     "writers": ["Gary Ross", "Suzanne Collins", "Billy Ray"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
     "trailer": "https://www.youtube.com/watch?v=wqUq0lsQ684",
-    "video": "../medias/films/hungergames/hungergames.mp4"
+    "video": "medias/films/hungergames/hungergames.mp4"
   },
   "Hunger Games : L'Embrasement": {
     "title": "Hunger Games : L'Embrasement",
     "description": "Après les premiers Hunger Games, Katniss est devenue le symbole de la rébellion. Le peuple de Panem est impatient de la retrouver pour la grande Tournée de la victoire. Mais Katniss va devoir prouver au Capitole et au Président Snow que ses sentiments envers Peeta étaient sincères afin de sauver ceux qu'elle aime…",
-    "banner": "../medias/films/hungergames2/hungergames2.jpg",
+    "banner": "medias/films/hungergames2/hungergames2.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
@@ -109,12 +109,12 @@
     "writers": ["Simon Beaufoy", "Michael Arndt", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
     "trailer": "https://www.youtube.com/watch?v=nbzjLhsmVXc",
-    "video": "../medias/films/hungergames2/hungergames2.mp4"
+    "video": "medias/films/hungergames2/hungergames2.mp4"
   },
   "Hunger Games : La Révolte - Partie 1": {
     "title": "Hunger Games : La Révolte - Partie 1",
     "description": "Katniss Everdeen s'est réfugiée dans le District 13 après avoir détruit à jamais l'arène et les Jeux. Sous le commandement de la Présidente Coin, chef du district, et suivant les conseils de ses amis en qui elle a toute confiance, Katniss déploie ses ailes pour devenir le symbole de la rébellion. Elle va se battre pour sauver Peeta et libérer le pays tout entier, à qui son courage a redonné espoir.",
-    "banner": "../medias/films/hungergamespt1/hungergamespt1.jpg",
+    "banner": "medias/films/hungergamespt1/hungergamespt1.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2014,
@@ -123,12 +123,12 @@
     "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
     "trailer": "https://www.youtube.com/watch?v=zdMIft77FEY",
-    "video": "../medias/films/hungergamespt1/hungergamespt1.mp4"
+    "video": "medias/films/hungergamespt1/hungergamespt1.mp4"
   },
   "Hunger Games : La Révolte - Partie 2": {
     "title": "Hunger Games : La Révolte - Partie 2",
     "description": "Alors que Panem est ravagé par une guerre désormais totale, Katniss et le Président Snow vont s'affronter pour la dernière fois. Katniss et ses plus proches amis - Gale, Finnick, et Peeta - sont envoyés en mission pour le District 13 : ils vont risquer leur vie pour tenter d'assassiner le Président Snow, qui s'est juré de détruire Katniss. Les pièges mortels, les ennemis et les choix déchirants qui attendent Katniss seront des épreuves bien pires que tout ce qu'elle a déjà pu affronter dans l'arène…",
-    "banner": "../medias/films/hungergamespt2/hungergamespt2.jpg",
+    "banner": "medias/films/hungergamespt2/hungergamespt2.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
@@ -137,12 +137,12 @@
     "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
     "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
     "trailer": "https://www.youtube.com/watch?v=MGZ0kzmcWAU",
-    "video": "../medias/films/hungergamespt2/hungergamespt2.mp4"
+    "video": "medias/films/hungergamespt2/hungergamespt2.mp4"
   },
   "Hunger Games : La Ballade du serpent et de l'oiseau chanteur": {
     "title": "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     "description": "Le jeune Coriolanus est le dernier espoir de sa lignée, la famille Snow autrefois riche et fière est aujourd'hui tombée en disgrâce dans un Capitole d'après-guerre. À l'approche des 10ème Hunger Games, il est assigné à contrecœur à être le mentor de Lucy Gray Baird, une tribut originaire du District 12, le plus pauvre et le plus méprisé de Panem. Le charme de Lucy Gray ayant captivé le public, Snow y voit l'opportunité de changer son destin, et va s'allier à elle pour faire pencher le sort en leur faveur. Luttant contre ses instincts, déchiré entre le bien et le mal, Snow se lance dans une course contre la montre pour survivre et découvrir s'il deviendra finalement un oiseau chanteur ou un serpent.",
-    "banner": "../medias/films/hungergames4/hungergames4.jpg",
+    "banner": "medias/films/hungergames4/hungergames4.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
@@ -151,12 +151,12 @@
     "writers": ["Michael Lesslie", "Michael Arndt", "Suzanne Collins"],
     "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
     "trailer": "https://www.youtube.com/watch?v=YV0-YKWfNPs",
-    "video": "../medias/films/hungergames4/hungergames4.mp4"
+    "video": "medias/films/hungergames4/hungergames4.mp4"
   },
   "La Planète des singes": {
     "title": "La Planète des singes",
     "description": "En 2029, un groupe d'astronautes entraîne sur la station orbitale Oberon des singes pour remplacer l'homme dans des explorations spatiales à haut risque. Suite à la réception d'étranges signaux, les astronautes envoient le chimpanzé Pericles afin d'en connaître l'origine. Toutes les communications entre le primate et la station sont subitement interrompues et le vaisseau disparaît des radars. Désobéissant à ses supérieurs, Leo Davidson embarque dans un des vaisseaux expérimentaux pour aller porter secours à Pericles. Tout comme lui, il perd le contrôle des commandes et s'écrase dans les marais d'une forêt tropicale. L'intrépide pilote voit alors un groupe d'humains affolés foncer droit sur lui, et se fait capturer par des chimpanzés parlants. Qu'est-il arrivé sur cette planète pour que des singes en viennent à dominer la race humaine ?",
-    "banner": "../medias/films/laplanetedessinges/laplanetedessinges.jpg",
+    "banner": "medias/films/laplanetedessinges/laplanetedessinges.jpg",
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
     "year": 2001,
@@ -164,12 +164,12 @@
     "directors": ["Tim Burton"],
     "writers": ["Pierre Boulle", "William Broyles Jr.", "Lawrence Konner"],
     "stars": ["Mark Wahlberg", "Tim Roth", "Helena Bonham Carter"],
-    "video": "../medias/films/laplanetedessinges/laplanetedessinges.mp4"
+    "video": "medias/films/laplanetedessinges/laplanetedessinges.mp4"
   },
   "La Planète des singes : Les Origines": {
     "title": "La Planète des singes : Les Origines",
     "description": "Dans un laboratoire, des scientifiques expérimentent un traitement sur des singes pour vaincre la maladie d'Alzheimer. Mais leurs essais ont des effets secondaires inattendus : ils découvrent que la substance utilisée permet d'augmenter radicalement l'activité cérébrale de leurs sujets. César, est alors le premier jeune chimpanzé faisant preuve d'une intelligence remarquable. Mais trahi par les humains qui l'entourent et en qui il avait confiance, il va mener le soulèvement de toute son espèce contre l'Homme dans un combat spectaculaire.",
-    "banner": "../medias/films/laplanetedessinges2/laplanetedessinges2.jpg",
+    "banner": "medias/films/laplanetedessinges2/laplanetedessinges2.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
     "year": 2011,
@@ -178,12 +178,12 @@
     "writers": ["Rick Jaffa", "Amanda Silver", "Pierre Boulle"],
     "stars": ["James Franco", "Freida Pinto", "Andy Serkis"],
     "trailer": "https://www.youtube.com/watch?v=Vn8GriIog1s",
-    "video": "../medias/films/laplanetedessinges2/laplanetedessinges2.mp4"
+    "video": "medias/films/laplanetedessinges2/laplanetedessinges2.mp4"
   },
   "La Planète des singes : L'Affrontement": {
     "title": "La Planète des singes : L'Affrontement",
     "description": "Une nation de plus en plus nombreuse de singes évolués, dirigée par César, est menacée par un groupe d'humains qui a survécu au virus dévastateur qui s'est répandu 10 ans plus tôt. Ils parviennent à une trêve fragile, mais de courte durée : les deux camps sont sur le point de se livrer une guerre qui décidera de l'espèce dominante sur Terre.",
-    "banner": "../medias/films/laplanetedessinges3/laplanetedessinges3.jpg",
+    "banner": "medias/films/laplanetedessinges3/laplanetedessinges3.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
     "year": 2014,
@@ -192,12 +192,12 @@
     "writers": ["Mark Bomback", "Rick Jaffa", "Amanda Silver"],
     "stars": ["Gary Oldman", "Keri Russell", "Andy Serkis"],
     "trailer": "https://www.youtube.com/watch?v=dPcwB7okdzU",
-    "video": "../medias/films/laplanetedessinges3/laplanetedessinges3.mp4"
+    "video": "medias/films/laplanetedessinges3/laplanetedessinges3.mp4"
   },
   "La Planète des singes : Suprématie": {
     "title": "La Planète des singes : Suprématie",
     "description": "César et les Singes sont contraints de mener un combat dont ils ne veulent pas contre une armée d'Humains dirigée par un Colonel impitoyable. Les Singes connaissent des pertes considérables et César, dans sa quête de vengeance, va devoir lutter contre ses instincts les plus noirs. Au terme d'un périple qui le conduira à un face à face avec le Colonel, les Singes et les Humains vont se livrer une guerre sans merci à l'issue de laquelle une seule des deux espèces survivra - et dominera la planète.",
-    "banner": "../medias/films/laplanetedessinges4/laplanetedessinges4.jpg",
+    "banner": "medias/films/laplanetedessinges4/laplanetedessinges4.jpg",
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt3450958/",
     "year": 2017,
@@ -206,12 +206,12 @@
     "writers": ["Mark Bomback", "Matt Reeves", "Rick Jaffa"],
     "stars": ["Andy Serkis", "Woody Harrelson", "Steve Zahn"],
     "trailer": "https://www.youtube.com/watch?v=kIiiAq19tg8",
-    "video": "../medias/films/laplanetedessinges4/laplanetedessinges4.mp4"
+    "video": "medias/films/laplanetedessinges4/laplanetedessinges4.mp4"
   },
   "La Planète des singes : Le Nouveau Royaume": {
     "title": "La Planète des singes : Le Nouveau Royaume",
     "description": "Plusieurs générations après le règne de César, les singes ont définitivement pris le pouvoir. Les humains, quant à eux, ont régressé à l'état sauvage et vivent en retrait. Alors qu'un nouveau chef tyrannique construit peu à peu son empire, un jeune singe entreprend un périlleux voyage qui l'amènera à questionner tout ce qu'il sait du passé et à faire des choix qui définiront l'avenir des singes et des humains...",
-    "banner": "../medias/films/laplanetedessinges5/laplanetedessinges5.jpg",
+    "banner": "medias/films/laplanetedessinges5/laplanetedessinges5.jpg",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt11389872/",
     "year": 2024,
@@ -220,12 +220,12 @@
     "writers": ["Josh Friedman", "Rick Jaffa", "Amanda Silver"],
     "stars": ["Owen Teague", "Freya Allan", "Kevin Durand"],
     "trailer": "https://www.youtube.com/watch?v=h-Kd5wXdK-U",
-    "video": "../medias/films/laplanetedessinges5/laplanetedessinges5.mp4"
+    "video": "medias/films/laplanetedessinges5/laplanetedessinges5.mp4"
   },
   "Minecraft, Le Film": {
     "title": "Minecraft, Le Film",
     "description": "Quatre mésadaptés traversent soudainement un portail mystérieux menant à la Surface : un étrange univers cubique qui évolue grâce à l'imagination. Pour rentrer chez eux, ils se lancent dans une quête magique avec Steve, un surprenant fabricateur expert. L'aventure les poussera à faire preuve d'audace et à renouer avec les qualités qui donnent à chacun une créativité unique.",
-    "banner": "../medias/films/minecraft/minecraft.jpg",
+    "banner": "medias/films/minecraft/minecraft.jpg",
     "IMDb": 5.8,
     "IMDB_link": "https://www.imdb.com/title/tt3566834/",
     "year": 2025,
@@ -234,12 +234,12 @@
     "writers": ["Allison Schroeder", "Chris Bowman", "Hubbel Palmer"],
     "stars": ["Jason Momoa", "Jack Black", "Emma Myers"],
     "trailer": "https://www.youtube.com/watch?v=E9slRynYcmI",
-    "video": "../medias/films/minecraft/minecraft.mp4"
+    "video": "medias/films/minecraft/minecraft.mp4"
   },
   "Napoléon": {
     "title": "Napoléon",
     "description": "Un regard personnel sur les origines du chef militaire français et son ascension rapide et impitoyable vers le statut d'empereur. L'histoire est vue à travers le prisme de la relation explosive et addictive de Napoléon avec sa femme et son grand amour, Joséphine.",
-    "banner": "../medias/films/napoleon/napoleon.jpg",
+    "banner": "medias/films/napoleon/napoleon.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13287846/",
     "year": 2023,
@@ -248,12 +248,12 @@
     "writers": ["David Scarpa"],
     "stars": ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim"],
     "trailer": "https://www.youtube.com/watch?v=A3xaMZZooVs",
-    "video": "../medias/films/napoleon/napoleon.mp4"
+    "video": "medias/films/napoleon/napoleon.mp4"
   },
   "Sniper : Le Corbeau Blanc": {
     "title": "Sniper : Le Corbeau Blanc",
     "description": "Région du Donbass, Ukraine, 2014. Mykola, un professeur de physique, renonce à son mode de vie paisible suite à la perte de sa femme enceinte, tuée par des soldats à l'aube de l'invasion russe. Souhaitant se venger, il réussit à intégrer les forces armées ukrainiennes et obtient le poste convoité de sniper. Sa cible devient alors un sniper d'élite russe dont l'élimination pourrait changer le cours du conflit.",
-    "banner": "../medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.jpg",
+    "banner": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.jpg",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
@@ -262,12 +262,12 @@
     "writers": ["Marian Bushan", "Mykola Voronin"],
     "stars": ["Pavlo Aldoshyn", "Maryna Koshkina", "Andrey Mostrenko"],
     "trailer": "https://www.youtube.com/watch?v=W_cCXmw2GQM",
-    "video": "../medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.mp4"
+    "video": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.mp4"
   },
   "Le Labyrinthe": {
     "title": "Le Labyrinthe",
     "description": "Thomas, 16 ans, se réveille dans un ascenseur. Il ne sait plus qui il est ni d'où il vient, et ne semble se rappeler que de son prénom. Lorsque l'ascenseur s'ouvre, il est accueilli par d'autres garçons de son âge dans la clairière, un monde mystérieux entouré par un labyrinthe impénétrable, et où personne ne sait pourquoi il est là.",
-    "banner": "../medias/films/labyrinthe/labyrinthe.jpg",
+    "banner": "medias/films/labyrinthe/labyrinthe.jpg",
     "IMDb": 6.8,
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
@@ -276,12 +276,12 @@
     "writers": ["Noah Oppenheim", "Grant Pierce Myers", "T.S. Nowlin"],
     "stars": ["Dylan O'Brien", "Kaya Scodelario", "Will Poulter"],
     "trailer": "https://www.youtube.com/watch?v=LyPiCH_4Al4",
-    "video": "../medias/films/labyrinthe/labyrinthe.mp4"
+    "video": "medias/films/labyrinthe/labyrinthe.mp4"
   },
   "Le Labyrinthe : La Terre brûlée": {
     "title": "Le Labyrinthe : La Terre brûlée",
     "description": "Thomas et les autres Blocards vont devoir faire face à leur plus grand défi, rechercher des indices à propos de la mystérieuse et puissante organisation connue sous le nom de WICKED. Or le monde qu'ils découvrent à l'extérieur du Labyrinthe a été ravagé par l'Apocalypse. Leur périple les amène à la Terre Brûlée, un paysage de désolation rempli d'obstacles inimaginables. Plus de gouvernement, plus d'ordre… et des hordes de gens en proie à une folie meurtrière qui errent dans les villes en ruine. Les Blocards vont devoir unir leurs forces avec d'autres combattants pour pouvoir affronter WICKED et tenter de défier son immense pouvoir.",
-    "banner": "../medias/films/labyrinthe2/labyrinthe2.jpg",
+    "banner": "medias/films/labyrinthe2/labyrinthe2.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4046784/",
     "year": 2015,
@@ -290,12 +290,12 @@
     "writers": ["T.S. Nowlin", "James Dashner"],
     "stars": ["Dylan O'Brien", "Kaya Scodelario", "Thomas Brodie-Sangster"],
     "trailer": "https://www.youtube.com/watch?v=K7jyL2cS6dc",
-    "video": "../medias/films/labyrinthe2/labyrinthe2.mp4"
+    "video": "medias/films/labyrinthe2/labyrinthe2.mp4"
   },
   "Le Labyrinthe : Le Remède mortel": {
     "title": "Le Labyrinthe : Le Remède mortel",
     "description": "Dans ce dernier volet de l'épopée Le Labyrinthe, Thomas et les Blocards s'engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrôlée par la terrible organisation WICKED. Une cité qui pourrait s'avérer être le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d'obtenir les réponses tant recherchées depuis leur réveil au cœur du Labyrinthe.",
-    "banner": "../medias/films/labyrinthe3/labyrinthe3.jpg",
+    "banner": "medias/films/labyrinthe3/labyrinthe3.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4500922/",
     "year": 2018,
@@ -304,6 +304,6 @@
     "writers": ["T.S. Nowlin", "James Dashner"],
     "stars": ["Dylan O'Brien", "Ki Hong Lee", "Kaya Scodelario"],
     "trailer": "https://www.youtube.com/watch?v=gx3HVAx82sg",
-    "video": "../medias/films/labyrinthe3/labyrinthe3.mp4"
+    "video": "medias/films/labyrinthe3/labyrinthe3.mp4"
   }
 }

@@ -45,7 +45,7 @@ function renderSeries(seriesData) {
     seriesDiv.setAttribute("role", "button");
     seriesDiv.setAttribute("aria-label", `Voir la série ${s.title}`);
     seriesDiv.onclick = () =>
-      (window.location.href = `pages/series.html?series=${encodeURIComponent(
+      (window.location.href = `series.html?series=${encodeURIComponent(
         series
       )}`);
     seriesDiv.onkeydown = (e) => {
@@ -94,7 +94,7 @@ function renderFilms(filmsData) {
     filmDiv.setAttribute("role", "button");
     filmDiv.setAttribute("aria-label", `Voir le film ${f.title}`);
     filmDiv.onclick = () =>
-      (window.location.href = `pages/films.html?films=${encodeURIComponent(
+      (window.location.href = `films.html?films=${encodeURIComponent(
         film
       )}`);
     filmDiv.onkeydown = (e) => {

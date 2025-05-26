@@ -49,7 +49,7 @@ function renderFilmsDetails(films) {
       if (bannerSkeleton) bannerSkeleton.style.display = "none";
       banner.style.display = "none";
     };
-    banner.src = films.banner || "";
+    banner.src = "../"+films.banner || "";
   }
 
   const filmInfo = document.getElementById("film-info");

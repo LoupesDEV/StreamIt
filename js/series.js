@@ -11,7 +11,7 @@ function handleErrorAndRedirect(message) {
 async function loadSeriesData() {
   let data;
   try {
-    const response = await fetch("../data/series_data.json");
+    const response = await fetch("data/series_data.json");
     if (!response.ok) throw new Error("Erreur réseau");
     data = await response.json();
   } catch (e) {

@@ -109,7 +109,7 @@ async function loadEpisodeData() {
   const { series, season, episode } = getURLParams();
   try {
     const data = await fetchJsonOrError(
-      "../data/series_data.json",
+      "data/series_data.json",
       "Erreur réseau : impossible de charger les données de la série."
     );
 
@@ -169,7 +169,7 @@ async function loadFilmData() {
   const { films } = getURLParams();
   try {
     const data = await fetchJsonOrError(
-      "../data/films_data.json",
+      "data/films_data.json",
       "Erreur réseau : impossible de charger les données du film."
     );
 
@@ -209,7 +209,7 @@ async function changeSeason() {
 
   try {
     const data = await fetchJsonOrError(
-      "../data/series_data.json",
+      "data/series_data.json",
       "Erreur réseau : impossible de charger les données de la série."
     );
 
