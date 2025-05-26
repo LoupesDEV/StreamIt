@@ -23,8 +23,8 @@ const urlsToCache = [
   "/js/stats.js",
   "/js/watching.js",
   "/medias/logo.png",
-  "/data/films.data_json",
-  "/data/series_data_json",
+  "/data/films_data.json",
+  "/data/series_data.json",
 ];
 
 self.addEventListener("install", (event) => {
