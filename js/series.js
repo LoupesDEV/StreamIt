@@ -5,7 +5,7 @@ function getSeriesFromURL() {
 
 function handleErrorAndRedirect(message) {
   localStorage.setItem("streamit_404_error", message);
-  window.location.href = "../404.html";
+  window.location.href = "404.html";
 }
 
 async function loadSeriesData() {

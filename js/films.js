@@ -5,13 +5,13 @@ function getFilmsFromURL() {
 
 function handleErrorAndRedirect(message) {
   localStorage.setItem("streamit_404_error", message);
-  window.location.href = "../404.html";
+  window.location.href = "404.html";
 }
 
 async function loadFilmsData() {
   let data;
   try {
-    const response = await fetch("../data/films_data.json");
+    const response = await fetch("data/films_data.json");
     if (!response.ok) throw new Error("Erreur réseau");
     data = await response.json();
   } catch (e) {
@@ -49,7 +49,7 @@ function renderFilmsDetails(films) {
       if (bannerSkeleton) bannerSkeleton.style.display = "none";
       banner.style.display = "none";
     };
-    banner.src = "../"+films.banner || "";
+    banner.src = films.banner || "";
   }
 
   const filmInfo = document.getElementById("film-info");
