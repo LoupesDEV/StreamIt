@@ -1,9 +1,14 @@
+let allFilms = {};
+let allSeries = {};
+
 async function loadSeriesData() {
   try {
     const response = await fetch("data/series_data.json");
     if (!response.ok) throw new Error("Erreur réseau");
     const data = await response.json();
+    allSeries = data;
     renderSeries(data);
+    populateGenres();
   } catch (e) {
     showError("Erreur lors du chargement des séries.");
   }
@@ -14,7 +19,9 @@ async function loadFilmsData() {
     const response = await fetch("data/films_data.json");
     if (!response.ok) throw new Error("Erreur réseau");
     const data = await response.json();
+    allFilms = data;
     renderFilms(data);
+    populateGenres();
   } catch (e) {
     showError("Erreur lors du chargement des films.");
   }
@@ -124,50 +131,110 @@ function renderFilms(filmsData) {
   }
 }
 
+function populateGenres() {
+  const genreSet = new Set();
+  Object.values(allFilms).forEach((f) =>
+    (f.genres || []).forEach((g) => genreSet.add(g.trim()))
+  );
+  Object.values(allSeries).forEach((s) =>
+    (s.genres || []).forEach((g) => genreSet.add(g.trim()))
+  );
+  const genreSelect = document.getElementById("filter-genre");
+  if (!genreSelect) return;
+  genreSelect.innerHTML = '<option value="">Tous les genres</option>';
+  Array.from(genreSet)
+    .sort()
+    .forEach((genre) => {
+      const opt = document.createElement("option");
+      opt.value = genre;
+      opt.textContent = genre;
+      genreSelect.appendChild(opt);
+    });
+}
+
 function filter() {
   const searchBar = document.getElementById("search-bar");
-  if (!searchBar) return;
-  const searchQuery = searchBar.value.toLowerCase();
-
-  const seriesList = document.getElementById("series-list");
-  if (seriesList) {
-    const seriesItems = seriesList.getElementsByClassName("series");
-    let visibleSeriesCount = 0;
-    for (let i = 0; i < seriesItems.length; i++) {
-      const seriesTitle = seriesItems[i]
-        .querySelector(".series-title")
-        .innerText.toLowerCase();
-      if (seriesTitle.includes(searchQuery)) {
-        seriesItems[i].style.display = "block";
-        visibleSeriesCount++;
-      } else {
-        seriesItems[i].style.display = "none";
-      }
-    }
-    const seriesSectionTitle = document.getElementById("series-section-title");
-    if (seriesSectionTitle) {
-      seriesSectionTitle.style.display = visibleSeriesCount === 0 ? "none" : "";
-    }
-  }
+  const genreSelect = document.getElementById("filter-genre");
+  const yearInput = document.getElementById("filter-year");
+  const searchQuery = searchBar ? searchBar.value.toLowerCase() : "";
+  const selectedGenre = genreSelect ? genreSelect.value : "";
+  const selectedYear = yearInput ? yearInput.value : "";
 
   const filmsList = document.getElementById("films-list");
   if (filmsList) {
     const filmsItems = filmsList.getElementsByClassName("films");
     let visibleFilmsCount = 0;
     for (let i = 0; i < filmsItems.length; i++) {
-      const filmTitle = filmsItems[i]
+      const filmDiv = filmsItems[i];
+      const filmTitle = filmDiv
         .querySelector(".films-title")
         .innerText.toLowerCase();
-      if (filmTitle.includes(searchQuery)) {
-        filmsItems[i].style.display = "block";
-        visibleFilmsCount++;
-      } else {
-        filmsItems[i].style.display = "none";
-      }
+      const filmDesc = filmDiv
+        .querySelector(".films-description")
+        .innerText.toLowerCase();
+      const filmKey = Object.keys(allFilms).find(
+        (key) => allFilms[key].title.toLowerCase() === filmTitle
+      );
+      const film = filmKey ? allFilms[filmKey] : null;
+      let show = true;
+      if (
+        searchQuery &&
+        !filmTitle.includes(searchQuery) &&
+        !filmDesc.includes(searchQuery)
+      )
+        show = false;
+      if (
+        selectedGenre &&
+        (!film || !(film.genres || []).includes(selectedGenre))
+      )
+        show = false;
+      if (selectedYear && (!film || String(film.year) !== selectedYear))
+        show = false;
+      filmDiv.style.display = show ? "block" : "none";
+      if (show) visibleFilmsCount++;
     }
     const filmsSectionTitle = document.getElementById("films-section-title");
     if (filmsSectionTitle) {
       filmsSectionTitle.style.display = visibleFilmsCount === 0 ? "none" : "";
+    }
+  }
+
+  const seriesList = document.getElementById("series-list");
+  if (seriesList) {
+    const seriesItems = seriesList.getElementsByClassName("series");
+    let visibleSeriesCount = 0;
+    for (let i = 0; i < seriesItems.length; i++) {
+      const seriesDiv = seriesItems[i];
+      const seriesTitle = seriesDiv
+        .querySelector(".series-title")
+        .innerText.toLowerCase();
+      const seriesDesc = seriesDiv
+        .querySelector(".series-description")
+        .innerText.toLowerCase();
+      const seriesKey = Object.keys(allSeries).find(
+        (key) => allSeries[key].title.toLowerCase() === seriesTitle
+      );
+      const serie = seriesKey ? allSeries[seriesKey] : null;
+      let show = true;
+      if (
+        searchQuery &&
+        !seriesTitle.includes(searchQuery) &&
+        !seriesDesc.includes(searchQuery)
+      )
+        show = false;
+      if (
+        selectedGenre &&
+        (!serie || !(serie.genres || []).includes(selectedGenre))
+      )
+        show = false;
+      if (selectedYear && (!serie || String(serie.year) !== selectedYear))
+        show = false;
+      seriesDiv.style.display = show ? "block" : "none";
+      if (show) visibleSeriesCount++;
+    }
+    const seriesSectionTitle = document.getElementById("series-section-title");
+    if (seriesSectionTitle) {
+      seriesSectionTitle.style.display = visibleSeriesCount === 0 ? "none" : "";
     }
   }
 }

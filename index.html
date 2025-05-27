@@ -7,7 +7,10 @@
     <link rel="manifest" href="manifest.json" />
     <link href="css/index.css" rel="stylesheet" />
     <link href="medias/logo.png" rel="icon" />
-    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: https://www.matheo-pichotmoise.fr/StreamIt; style-src 'self' 'unsafe-inline'; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="img-src 'self' data: https://www.matheo-pichotmoise.fr/StreamIt; style-src 'self' 'unsafe-inline'; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+    />
   </head>
   <body>
     <header>
@@ -20,6 +23,19 @@
       placeholder="Rechercher un film ou une série..."
       oninput="filter()"
     />
+    <div id="advanced-filters">
+      <select id="filter-genre" onchange="filter()">
+        <option value="">Tous les genres</option>
+      </select>
+      <input
+        type="number"
+        id="filter-year"
+        placeholder="Année"
+        min="1900"
+        max="2099"
+        oninput="filter()"
+      />
+    </div>
 
     <h2 class="sections" id="films-section-title">Films</h2>
     <div id="films-list"></div>
@@ -27,11 +43,7 @@
     <h2 class="sections" id="series-section-title">Séries</h2>
     <div id="series-list"></div>
 
-    <a
-      href="stats.html"
-      id="stats-floating-btn"
-      title="Voir les statistiques"
-    >
+    <a href="stats.html" id="stats-floating-btn" title="Voir les statistiques">
       <span class="plus">📊</span>
       <span class="stats-label">Statistiques</span>
     </a>
@@ -44,7 +56,7 @@
       <span class="plus">+</span>
       <span class="add-label">Ajouter un film ou une série</span>
     </a>
-    
+
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
