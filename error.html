@@ -5,31 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
     <link rel="manifest" href="manifest.json" />
-    <link href="css/404.css" rel="stylesheet" />
+    <link href="css/error.css" rel="stylesheet" />
     <link href="medias/logo.png" rel="icon" />
     <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: https://www.matheo-pichotmoise.fr/StreamIt; style-src 'self' 'unsafe-inline'; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
   </head>
   <body>
     <div class="container">
       <img src="medias/logo.png" alt="StreamIt Logo" class="logo" />
-      <h1>404</h1>
-      <h2>Oups ! Cette page n'existe pas.</h2>
-      <p>La page que vous cherchez est introuvable ou a été déplacée.</p>
+      <h1>Erreur!</h1>
       <div id="error-message" class="error-message"></div>
       <a href="index.html" class="back-btn">Revenir à l'accueil</a>
     </div>
+
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
           navigator.serviceWorker.register("sw.js");
         });
       }
-
-      const msg = localStorage.getItem("streamit_404_error");
-      if (msg) {
-        document.getElementById("error-message").textContent = msg;
-        localStorage.removeItem("streamit_404_error");
-      }
     </script>
+    <script src="js/error.js"></script>
   </body>
 </html>

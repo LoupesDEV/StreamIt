@@ -94,9 +94,7 @@ function renderFilms(filmsData) {
     filmDiv.setAttribute("role", "button");
     filmDiv.setAttribute("aria-label", `Voir le film ${f.title}`);
     filmDiv.onclick = () =>
-      (window.location.href = `films.html?films=${encodeURIComponent(
-        film
-      )}`);
+      (window.location.href = `films.html?films=${encodeURIComponent(film)}`);
     filmDiv.onkeydown = (e) => {
       if (e.key === "Enter" || e.key === " ") filmDiv.onclick();
     };
@@ -184,3 +182,34 @@ document.addEventListener("keydown", function (event) {
     if (searchBar) searchBar.focus();
   }
 });
+
+function handleErrorAndRedirect(message) {
+  localStorage.setItem("streamit_404_error", message);
+  window.location.href = "error.html";
+}
+
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+document.addEventListener("keydown", (e) => {
+  if (
+    e.key === "F12" ||
+    (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
+    (e.ctrlKey && e.key.toLowerCase() === "u")
+  ) {
+    e.preventDefault();
+    handleErrorAndRedirect(
+      "L'utilisation des outils de développement est interdite sur cette page."
+    );
+  }
+});
+
+(function detectDevTools() {
+  const start = Date.now();
+  debugger;
+  if (Date.now() - start > 100) {
+    handleErrorAndRedirect(
+      "L'utilisation des outils de développement est interdite sur cette page."
+    );
+  }
+  setTimeout(detectDevTools, 1000);
+})();
