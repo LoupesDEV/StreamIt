@@ -270,70 +270,131 @@ select:focus {
   background: #c2113a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 28px;
+  }
   #main-section {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 10px;
+    gap: 14px;
+    padding: 4vw;
   }
-
   #video-section {
-    width: 90%;
+    width: 95%;
   }
-
   #video-player {
     width: 100%;
-    margin-bottom: 15px;
   }
-
-  #episode-list {
-    width: 100%;
-    padding-left: 0;
-    margin-top: 20px;
-  }
-
-  #episode-list ul {
-    height: auto;
-    overflow-y: visible;
-  }
-
-  .season-selector {
-    font-size: 14px;
-  }
-
-  select {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 24px;
-  }
-
   #episode-title {
     font-size: 20px;
   }
-
   #episode-description {
-    font-size: 14px;
+    font-size: 15px;
   }
+  #episode-list {
+    width: 40%;
+    padding-left: 10px;
+    padding-bottom: 5%;
+  }
+}
 
-  select {
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 18px;
+  }
+  #main-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 2vw;
+    margin-top: 10px;
+  }
+  #video-section {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #video-player {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #episode-list {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 18px;
+    padding-bottom: 0;
+  }
+  #episode-list ul {
+    height: auto;
+    max-height: 220px;
+    overflow-y: auto;
+  }
+  #episode-title {
+    font-size: 16px;
+  }
+  #episode-description {
     font-size: 12px;
+  }
+  .season-selector {
+    font-size: 13px;
+  }
+  select {
+    font-size: 13px;
+    padding: 7px;
   }
   #index-floating-btn {
-    width: 44px;
-    height: 44px;
-    font-size: 22px;
-    bottom: 12px;
-    right: 12px;
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+    bottom: 8px;
+    right: 8px;
   }
   #index-floating-btn:hover {
-    width: 140px;
+    width: 90px;
   }
   #index-floating-btn .index-label {
+    font-size: 9px;
+    margin-left: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 13px;
+  }
+  #main-section {
+    padding: 1vw;
+    gap: 6px;
+  }
+  #video-section {
+    width: 100%;
+  }
+  #video-player {
+    width: 100%;
+  }
+  #episode-title {
     font-size: 12px;
-    margin-left: 6px;
+  }
+  #episode-description {
+    font-size: 9px;
+  }
+  .season-selector {
+    font-size: 10px;
+  }
+  select {
+    font-size: 10px;
+    padding: 4px;
+  }
+  #index-floating-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+    bottom: 2px;
+    right: 2px;
+  }
+  #index-floating-btn:hover {
+    width: 40px;
+  }
+  #index-floating-btn .index-label {
+    font-size: 6px;
+    margin-left: 1px;
   }
 }

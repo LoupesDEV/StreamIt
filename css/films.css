@@ -266,87 +266,140 @@ header h1 {
   background-color: #83011f;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   header h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
-
   #main-section {
-    flex-direction: column;
-    padding: 10px;
+    gap: 14px;
+    padding: 4vw;
   }
-
   #banner {
-    width: 90%;
-    max-width: 320px;
-    margin: 0 auto;
+    max-width: 260px;
   }
-
-  #film-info {
-    width: 100%;
-  }
-
   #film-info h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
-
-  #film-info p {
-    font-size: 16px;
+  #film-info p,
+  #film-info .genres,
+  #film-info .directors,
+  #film-info .writers,
+  #film-info .stars {
+    font-size: 15px;
   }
-
-  .watch-button-container button {
+  .watch-button-container button,
+  .trailer-button-container button {
     font-size: 14px;
-    padding: 10px 20px;
-  }
-
-  .back-homepage {
-    font-size: 14px;
-    padding: 8px 16px;
+    padding: 9px 18px;
   }
 }
 
 @media (max-width: 600px) {
-  #index-floating-btn {
-    width: 48px;
-    height: 48px;
-    font-size: 26px;
-    bottom: 18px;
-    right: 18px;
-  }
-  #index-floating-btn:hover {
-    width: 210px;
-  }
-  #index-floating-btn .index-label {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 480px) {
   header h1 {
     font-size: 18px;
   }
-
+  #main-section {
+    flex-direction: column;
+    gap: 10px;
+    padding: 2vw;
+    margin-top: 10px;
+  }
   #banner {
     width: 100%;
-    max-width: 250px;
+    max-width: 180px;
+    margin: 0 auto;
   }
-
+  #film-info {
+    width: 100%;
+    max-width: 99vw;
+  }
   #film-info h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
-
-  #film-info p {
-    font-size: 14px;
-  }
-
-  .watch-button-container button {
+  #film-info p,
+  #film-info .genres,
+  #film-info .directors,
+  #film-info .writers,
+  #film-info .stars {
     font-size: 12px;
-    padding: 8px 16px;
   }
+  #film-info .rating span {
+    font-size: 16px;
+  }
+  #film-info .rating .rating-value {
+    font-size: 13px;
+    width: 28px;
+    height: 28px;
+  }
+  .watch-button-container button,
+  .trailer-button-container button {
+    font-size: 11px;
+    padding: 7px 10px;
+    margin-right: 8px;
+  }
+  #index-floating-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+    bottom: 8px;
+    right: 8px;
+  }
+  #index-floating-btn:hover {
+    width: 90px;
+  }
+  #index-floating-btn .index-label {
+    font-size: 9px;
+    margin-left: 4px;
+  }
+}
 
-  .back-homepage {
-    font-size: 12px;
-    padding: 6px 12px;
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 13px;
+  }
+  #main-section {
+    padding: 1vw;
+    gap: 6px;
+  }
+  #banner {
+    max-width: 110px;
+  }
+  #film-info h1 {
+    font-size: 11px;
+  }
+  #film-info p,
+  #film-info .genres,
+  #film-info .directors,
+  #film-info .writers,
+  #film-info .stars {
+    font-size: 9px;
+  }
+  #film-info .rating span {
+    font-size: 10px;
+  }
+  #film-info .rating .rating-value {
+    font-size: 8px;
+    width: 18px;
+    height: 18px;
+  }
+  .watch-button-container button,
+  .trailer-button-container button {
+    font-size: 8px;
+    padding: 4px 6px;
+    margin-right: 4px;
+  }
+  #index-floating-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+    bottom: 2px;
+    right: 2px;
+  }
+  #index-floating-btn:hover {
+    width: 40px;
+  }
+  #index-floating-btn .index-label {
+    font-size: 6px;
+    margin-left: 1px;
   }
 }

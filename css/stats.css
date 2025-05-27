@@ -191,7 +191,7 @@ h2 {
 @media (max-width: 900px) {
   #main-section {
     max-width: 100vw;
-    padding: 12px 2vw 12px 2vw;
+    padding: 18px 2vw 18px 2vw;
   }
   .stats-cards {
     flex-direction: column;
@@ -217,47 +217,107 @@ h2 {
   #yearChart {
     min-width: 0;
     max-width: 100vw;
-    height: 220px !important;
+    height: 180px !important;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
   }
 }
 
 @media (max-width: 600px) {
   header h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
   }
   #main-section {
     padding: 6px 0 6px 0;
     border-radius: 0;
     box-shadow: none;
+    margin: 18px auto 0 auto;
   }
   h2 {
-    font-size: 1.1rem;
-    margin-bottom: 18px;
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+  }
+  .stat-card {
+    padding: 12px 4px;
+    font-size: 0.95em;
+  }
+  .stat-label {
+    font-size: 0.98em;
   }
   .stat-value {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   .chart-container h3 {
-    font-size: 1em;
-    margin-bottom: 8px;
+    font-size: 0.95em;
+    margin-bottom: 6px;
   }
   #genreChart,
   #yearChart {
-    height: 160px !important;
+    height: 120px !important;
   }
   #index-floating-btn {
-    width: 44px;
-    height: 44px;
-    font-size: 22px;
-    bottom: 12px;
-    right: 12px;
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+    bottom: 8px;
+    right: 8px;
   }
   #index-floating-btn:hover {
-    width: 140px;
+    width: 90px;
   }
   #index-floating-btn .index-label {
-    font-size: 12px;
-    margin-left: 6px;
+    font-size: 9px;
+    margin-left: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 0.9rem;
+  }
+  #main-section {
+    padding: 2px 0 2px 0;
+    margin: 8px auto 0 auto;
+  }
+  h2 {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+  .stat-card {
+    padding: 6px 2px;
+    font-size: 0.85em;
+  }
+  .stat-label {
+    font-size: 0.85em;
+  }
+  .stat-value {
+    font-size: 0.95em;
+  }
+  .chart-container h3 {
+    font-size: 0.8em;
+    margin-bottom: 3px;
+  }
+  #genreChart,
+  #yearChart {
+    height: 70px !important;
+  }
+  #index-floating-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 8px;
+    bottom: 2px;
+    right: 2px;
+  }
+  #index-floating-btn:hover {
+    width: 40px;
+  }
+  #index-floating-btn .index-label {
+    font-size: 6px;
+    margin-left: 1px;
   }
 }

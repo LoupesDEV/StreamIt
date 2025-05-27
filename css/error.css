@@ -102,23 +102,79 @@ p {
   outline-offset: 2px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .container {
-    padding: 24px 8px 18px 8px;
     max-width: 98vw;
-    min-height: 80vh;
+    padding: 32px 12px 24px 12px;
   }
   h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .logo {
-    width: 56px;
+    width: 64px;
   }
   .back-btn {
-    padding: 10px 16px;
+    padding: 10px 20px;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 18px 4vw 14px 4vw;
+    max-width: 99vw;
+    min-height: 70vh;
+    border-radius: 12px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 44px;
+    margin-bottom: 10px;
+  }
+  .back-btn {
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    margin-top: 18px;
+  }
+  .error-message {
+    font-size: 1em;
+    padding: 8px 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 8px 2vw 8px 2vw;
+    border-radius: 7px;
+    min-height: 60vh;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+  }
+  h2 {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+  .logo {
+    width: 28px;
+    margin-bottom: 6px;
+  }
+  .back-btn {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .error-message {
+    font-size: 0.9em;
+    padding: 6px 4px;
   }
 }

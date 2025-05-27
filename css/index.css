@@ -282,85 +282,40 @@ header h1 {
   }
   #advanced-filters select,
   #advanced-filters input[type="number"] {
-    min-width: 120px;
+    min-width: 100px;
     max-width: 100%;
     font-size: 15px;
     padding: 8px 12px;
   }
-}
-
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
-  }
-
-  #search-bar {
-    width: 80%;
-    max-width: none;
-    margin-top: 70px;
-    padding: 8px;
-    font-size: 14px;
-  }
-
   #series-list,
   #films-list {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     padding: 10px;
   }
-
   .series img,
   .films img {
-    height: 150px;
+    height: 140px;
   }
-
   .series-title,
   .films-title {
     font-size: 16px;
   }
-
   .series-description,
   .films-description {
     font-size: 12px;
   }
-
-  .sections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-  }
 }
 
 @media (max-width: 600px) {
-  #add-floating-btn {
-    width: 48px;
-    height: 48px;
-    font-size: 26px;
-    bottom: 18px;
-    right: 18px;
+  header h1 {
+    font-size: 22px;
   }
-  #add-floating-btn:hover {
-    width: 210px;
-  }
-  #add-floating-btn .add-label {
+  #search-bar {
+    width: 95vw;
+    max-width: none;
+    margin-top: 70px;
+    padding: 8px;
     font-size: 14px;
-    margin-left: 10px;
-  }
-
-  #stats-floating-btn {
-    width: 48px;
-    height: 48px;
-    font-size: 26px;
-    bottom: 18px;
-    left: 18px;
-  }
-  #stats-floating-btn:hover {
-    width: 140px;
-  }
-  #stats-floating-btn .stats-label {
-    font-size: 14px;
-    margin-left: 10px;
   }
   #advanced-filters {
     flex-direction: column;
@@ -368,7 +323,7 @@ header h1 {
     gap: 10px;
     padding: 10px 8px;
     border-radius: 14px;
-    width: 95vw;
+    width: 98vw;
     max-width: 400px;
     margin: 18px auto 24px auto;
   }
@@ -380,43 +335,72 @@ header h1 {
     padding: 8px 10px;
     box-sizing: border-box;
   }
-}
-
-@media (max-width: 480px) {
-  header h1 {
-    font-size: 18px;
+  #series-list,
+  #films-list {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 4px;
   }
-
-  #search-bar {
-    font-size: 12px;
-    padding: 6px;
-  }
-
   .series img,
   .films img {
-    height: 120px;
+    height: 100px;
   }
-
   .series-title,
   .films-title {
-    font-size: 14px;
+    font-size: 13px;
   }
-
   .series-description,
   .films-description {
     font-size: 10px;
   }
+  #add-floating-btn,
+  #stats-floating-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    bottom: 12px;
+    right: 12px;
+    left: 12px;
+  }
+  #add-floating-btn:hover {
+    width: 150px;
+  }
+  #add-floating-btn .add-label,
+  #stats-floating-btn .stats-label {
+    font-size: 12px;
+    margin-left: 8px;
+  }
 }
 
 @media (max-width: 400px) {
+  header h1 {
+    font-size: 16px;
+  }
   #advanced-filters {
     padding: 6px 2px;
     border-radius: 10px;
-    max-width: 98vw;
+    max-width: 99vw;
+    gap: 6px;
   }
   #advanced-filters select,
   #advanced-filters input[type="number"] {
-    font-size: 12px;
-    padding: 6px 6px;
+    font-size: 11px;
+    padding: 5px 5px;
+  }
+  #search-bar {
+    font-size: 11px;
+    padding: 5px;
+  }
+  .series img,
+  .films img {
+    height: 70px;
+  }
+  .series-title,
+  .films-title {
+    font-size: 11px;
+  }
+  .series-description,
+  .films-description {
+    font-size: 8px;
   }
 }
