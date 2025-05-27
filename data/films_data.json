@@ -305,5 +305,19 @@
     "stars": ["Dylan O'Brien", "Ki Hong Lee", "Kaya Scodelario"],
     "trailer": "https://www.youtube.com/watch?v=gx3HVAx82sg",
     "video": "medias/films/labyrinthe3/labyrinthe3.mp4"
+  },
+  "Lucy": {
+    "title": "Lucy",
+    "description": "Lucy, une jeune étudiante ordinaire, se fait kidnapper. À son réveil, elle découvre que les membres d’une organisation criminelle lui ont inséré un paquet de drogue dans l’estomac dans le but de lui faire passer la frontière. Mais lorsqu’à la suite d’un coup porté à son ventre le produit se déverse dans son corps et s’implante dans son système, la jeune femme en subit les étonnants effets. Cette substance synthétique lui permet de décupler ses capacités intellectuelles et physiques. Devenue un génie autant qu’une véritable machine de guerre, Lucy dispose désormais de pouvoirs illimités et surhumains…",
+    "banner": "medias/films/lucy/lucy.jpg",
+    "IMDb": 6.4,
+    "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
+    "year": 2014,
+    "genres": ["Action", "Thriller"],
+    "directors": ["Luc Besson"],
+    "writers": ["Luc Besson"],
+    "stars": ["Scarlett Johansson", "Morgan Freeman", "Choi Min-sik"],
+    "trailer": "https://www.youtube.com/watch?v=7gPrNpHaFX8",
+    "video": "medias/films/lucy/lucy.mp4"
   }
 }
