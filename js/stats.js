@@ -115,9 +115,7 @@ function createGenreChart(genres) {
           footerColor: "#fff",
         },
         title: {
-          display: true,
-          text: "Répartition par genre",
-          color: "#fff",
+          display: false,
         },
       },
       elements: {
@@ -169,19 +167,17 @@ function createYearChart(years) {
           footerColor: "#fff",
         },
         title: {
-          display: true,
-          text: "Répartition par année",
-          color: "#fff",
+          display: false,
         },
       },
       scales: {
         x: {
-          title: { display: true, text: "Année", color: "#fff" },
+          title: { display: false },
           ticks: { color: "#fff" },
           grid: { color: "rgba(255,255,255,0.1)" },
         },
         y: {
-          title: { display: true, text: "Nombre", color: "#fff" },
+          title: { display: false },
           ticks: { color: "#fff" },
           grid: { color: "rgba(255,255,255,0.1)" },
           beginAtZero: true,
