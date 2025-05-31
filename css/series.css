@@ -1,428 +1,457 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #121212;
-  color: white;
-  margin: 0;
-  padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #1f1f1f;
-  padding: 20px 0;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
-  font-size: 36px;
-  margin: 0;
-  color: #c2113a;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+    font-size: 36px;
+    margin: 0;
+    color: #c2113a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .skeleton {
-  display: block;
-  background: #232323;
-  border-radius: 6px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 18px;
-  min-height: 16px;
+    display: block;
+    background: #232323;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px;
+    min-height: 16px;
 }
 
 .skeleton-title {
-  width: 60%;
-  height: 32px;
-  margin: 0 auto 18px auto;
+    width: 60%;
+    height: 32px;
+    margin: 0 auto 18px auto;
 }
 
 .skeleton-text {
-  width: 90%;
-  height: 16px;
-  margin: 0 auto 18px auto;
+    width: 90%;
+    height: 16px;
+    margin: 0 auto 18px auto;
 }
 
 .skeleton-rating {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin: 0 auto 18px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto 18px auto;
 }
 
 .skeleton-line {
-  width: 70%;
-  height: 18px;
-  margin: 0 auto 14px auto;
+    width: 70%;
+    height: 18px;
+    margin: 0 auto 14px auto;
 }
 
 .skeleton-banner {
-  width: 100%;
-  padding-top: 56.25%;
-  border-radius: 10px;
-  background: #232323;
-  margin-bottom: 18px;
-  position: relative;
-  overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    border-radius: 10px;
+    background: #232323;
+    margin-bottom: 18px;
+    position: relative;
+    overflow: hidden;
 }
 
 .skeleton::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -120px;
-  height: 100%;
-  width: 120px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.08) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  animation: skeleton-loading 1.2s infinite;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120px;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.08) 50%,
+            rgba(255, 255, 255, 0) 100%
+    );
+    animation: skeleton-loading 1.2s infinite;
 }
 
 @keyframes skeleton-loading {
-  0% {
-    left: -120px;
-  }
-  100% {
-    left: 100%;
-  }
+    0% {
+        left: -120px;
+    }
+    100% {
+        left: 100%;
+    }
 }
 
 .title {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #index-floating-btn {
-  position: fixed;
-  bottom: 32px;
-  right: 32px;
-  z-index: 200;
-  background: #c2113a;
-  color: #fff;
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 34px;
-  font-weight: bold;
-  transition: background 0.2s, width 0.3s;
-  overflow: visible;
-  cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 200;
+    background: #c2113a;
+    color: #fff;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    transition: background 0.2s, width 0.3s;
+    overflow: visible;
+    cursor: pointer;
 }
 
 #index-floating-btn .index-label {
-  opacity: 0;
-  width: 0;
-  margin-left: 0;
-  overflow: hidden;
-  transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
-  white-space: nowrap;
-  font-size: 18px;
-  font-weight: normal;
-  pointer-events: none;
-  color: #fff;
+    opacity: 0;
+    width: 0;
+    margin-left: 0;
+    overflow: hidden;
+    transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    color: #fff;
 }
 
 #index-floating-btn:hover .index-label {
-  opacity: 1;
-  width: auto;
-  margin-left: 18px;
+    opacity: 1;
+    width: auto;
+    margin-left: 18px;
 }
 
 #index-floating-btn:hover {
-  background: #a10e30;
-  width: 320px;
+    background: #a10e30;
+    width: 320px;
 }
 
 #index-floating-btn .plus {
-  min-width: 0;
-  flex-shrink: 0;
-  opacity: 1 !important;
-  color: #fff !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  font-size: 34px;
-  line-height: 1;
+    min-width: 0;
+    flex-shrink: 0;
+    opacity: 1 !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    line-height: 1;
 }
 
 #main-section {
-  display: flex;
-  justify-content: center;
-  padding: 5%;
-  margin-top: 20px;
-  gap: 20px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 #banner {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-  object-fit: cover;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
 }
 
 #series-info {
-  width: 100%;
-  max-width: 600px;
+    width: 100%;
+    max-width: 600px;
 }
 
 #series-info h1 {
-  font-size: 28px;
-  font-weight: bold;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #series-info p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 #series-info .genres,
 #series-info .creators,
 #series-info .stars {
-  margin-top: 20px;
-  font-size: 18px;
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 #series-info .genres span,
 #series-info .creators span,
 #series-info .stars span {
-  color: #c2113a;
-  font-weight: bold;
+    color: #c2113a;
+    font-weight: bold;
 }
 
 #series-info .rating {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
 #series-info .rating span {
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 #series-info .rating .rating-value {
-  font-size: 18px;
-  color: #dbdba4;
-  background-color: #392d10;
-  border: 3px solid #fbbf24;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    font-size: 18px;
+    color: #dbdba4;
+    background-color: #392d10;
+    border: 3px solid #fbbf24;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .trailer-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .season-buttons,
 .trailer-button-container {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .season-buttons button,
 .trailer-button-container button {
-  margin-right: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 12px 25px;
-  background-color: #c2113a;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 12px 25px;
+    background-color: #c2113a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .season-buttons button:hover,
 .trailer-button-container button:hover {
-  background-color: #83011f;
+    background-color: #83011f;
 }
 
 .back-homepage {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #c2113a;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 16px;
-  text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c2113a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .back-homepage:hover {
-  background-color: #c40632;
+    background-color: #c40632;
 }
 
 .back-homepage-container {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 @media (max-width: 900px) {
-  header h1 {
-    font-size: 26px;
-  }
-  #main-section {
-    gap: 14px;
-    padding: 4vw;
-  }
-  #banner {
-    max-width: 240px;
-  }
-  #series-info h1 {
-    font-size: 22px;
-  }
-  #series-info p,
-  #series-info .genres,
-  #series-info .creators,
-  #series-info .stars {
-    font-size: 15px;
-  }
-  .season-buttons button,
-  .trailer-button-container button {
-    font-size: 14px;
-    padding: 9px 18px;
-  }
-  .back-homepage {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
+    header h1 {
+        font-size: 26px;
+    }
+
+    #main-section {
+        gap: 14px;
+        padding: 4vw;
+    }
+
+    #banner {
+        max-width: 240px;
+    }
+
+    #series-info h1 {
+        font-size: 22px;
+    }
+
+    #series-info p,
+    #series-info .genres,
+    #series-info .creators,
+    #series-info .stars {
+        font-size: 15px;
+    }
+
+    .season-buttons button,
+    .trailer-button-container button {
+        font-size: 14px;
+        padding: 9px 18px;
+    }
+
+    .back-homepage {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }
 
 @media (max-width: 600px) {
-  header h1 {
-    font-size: 18px;
-  }
-  #main-section {
-    flex-direction: column;
-    gap: 10px;
-    padding: 2vw;
-    margin-top: 10px;
-  }
-  #banner {
-    width: 100%;
-    max-width: 140px;
-    margin: 0 auto;
-  }
-  #series-info {
-    width: 100%;
-    max-width: 99vw;
-  }
-  #series-info h1 {
-    font-size: 15px;
-  }
-  #series-info p,
-  #series-info .genres,
-  #series-info .creators,
-  #series-info .stars {
-    font-size: 12px;
-  }
-  #series-info .rating span {
-    font-size: 16px;
-  }
-  #series-info .rating .rating-value {
-    font-size: 13px;
-    width: 28px;
-    height: 28px;
-  }
-  .season-buttons button,
-  .trailer-button-container button {
-    font-size: 11px;
-    padding: 7px 10px;
-    margin-right: 8px;
-  }
-  .back-homepage {
-    font-size: 11px;
-    padding: 6px 10px;
-  }
-  #index-floating-btn {
-    width: 38px;
-    height: 38px;
-    font-size: 16px;
-    bottom: 8px;
-    right: 8px;
-  }
-  #index-floating-btn:hover {
-    width: 90px;
-  }
-  #index-floating-btn .index-label {
-    font-size: 9px;
-    margin-left: 4px;
-  }
+    header h1 {
+        font-size: 18px;
+    }
+
+    #main-section {
+        flex-direction: column;
+        gap: 10px;
+        padding: 2vw;
+        margin-top: 10px;
+    }
+
+    #banner {
+        width: 100%;
+        max-width: 140px;
+        margin: 0 auto;
+    }
+
+    #series-info {
+        width: 100%;
+        max-width: 99vw;
+    }
+
+    #series-info h1 {
+        font-size: 15px;
+    }
+
+    #series-info p,
+    #series-info .genres,
+    #series-info .creators,
+    #series-info .stars {
+        font-size: 12px;
+    }
+
+    #series-info .rating span {
+        font-size: 16px;
+    }
+
+    #series-info .rating .rating-value {
+        font-size: 13px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .season-buttons button,
+    .trailer-button-container button {
+        font-size: 11px;
+        padding: 7px 10px;
+        margin-right: 8px;
+    }
+
+    .back-homepage {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    #index-floating-btn {
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+        bottom: 8px;
+        right: 8px;
+    }
+
+    #index-floating-btn:hover {
+        width: 90px;
+    }
+
+    #index-floating-btn .index-label {
+        font-size: 9px;
+        margin-left: 4px;
+    }
 }
 
 @media (max-width: 400px) {
-  header h1 {
-    font-size: 13px;
-  }
-  #main-section {
-    padding: 1vw;
-    gap: 6px;
-  }
-  #banner {
-    max-width: 80px;
-  }
-  #series-info h1 {
-    font-size: 10px;
-  }
-  #series-info p,
-  #series-info .genres,
-  #series-info .creators,
-  #series-info .stars {
-    font-size: 8px;
-  }
-  #series-info .rating span {
-    font-size: 10px;
-  }
-  #series-info .rating .rating-value {
-    font-size: 8px;
-    width: 16px;
-    height: 16px;
-  }
-  .season-buttons button,
-  .trailer-button-container button {
-    font-size: 7px;
-    padding: 4px 6px;
-    margin-right: 4px;
-  }
-  .back-homepage {
-    font-size: 8px;
-    padding: 3px 6px;
-  }
-  #index-floating-btn {
-    width: 22px;
-    height: 22px;
-    font-size: 8px;
-    bottom: 2px;
-    right: 2px;
-  }
-  #index-floating-btn:hover {
-    width: 40px;
-  }
-  #index-floating-btn .index-label {
-    font-size: 6px;
-    margin-left: 1px;
-  }
+    header h1 {
+        font-size: 13px;
+    }
+
+    #main-section {
+        padding: 1vw;
+        gap: 6px;
+    }
+
+    #banner {
+        max-width: 80px;
+    }
+
+    #series-info h1 {
+        font-size: 10px;
+    }
+
+    #series-info p,
+    #series-info .genres,
+    #series-info .creators,
+    #series-info .stars {
+        font-size: 8px;
+    }
+
+    #series-info .rating span {
+        font-size: 10px;
+    }
+
+    #series-info .rating .rating-value {
+        font-size: 8px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .season-buttons button,
+    .trailer-button-container button {
+        font-size: 7px;
+        padding: 4px 6px;
+        margin-right: 4px;
+    }
+
+    .back-homepage {
+        font-size: 8px;
+        padding: 3px 6px;
+    }
+
+    #index-floating-btn {
+        width: 22px;
+        height: 22px;
+        font-size: 8px;
+        bottom: 2px;
+        right: 2px;
+    }
+
+    #index-floating-btn:hover {
+        width: 40px;
+    }
+
+    #index-floating-btn .index-label {
+        font-size: 6px;
+        margin-left: 1px;
+    }
 }

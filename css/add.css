@@ -1,188 +1,193 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #121212;
-  color: white;
-  margin: 0;
-  padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #1f1f1f;
-  padding: 20px 0;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
-  font-size: 36px;
-  margin: 0;
-  color: #c2113a;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+    font-size: 36px;
+    margin: 0;
+    color: #c2113a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .title {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .json-result {
-  display: none;
-  background: #181818;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
-  margin-top: 32px;
-  padding: 22px 18px 18px 18px;
-  color: #fff;
-  font-size: 16px;
-  word-break: break-word;
+    display: none;
+    background: #181818;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    margin-top: 32px;
+    padding: 22px 18px 18px 18px;
+    color: #fff;
+    font-size: 16px;
+    word-break: break-word;
 }
 
 .json-result-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .json-result h3 {
-  color: #c2113a;
-  margin: 0;
-  font-size: 22px;
-  letter-spacing: 1px;
-  display: inline-block;
+    color: #c2113a;
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    display: inline-block;
 }
 
 .json-result button#copyButton {
-  background: #c2113a;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 8px 18px;
-  font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-left: 18px;
-  transition: background 0.2s;
-  float: none;
+    background: #c2113a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 18px;
+    transition: background 0.2s;
+    float: none;
 }
 
 .json-result button#copyButton:hover {
-  background: #a10e30;
+    background: #a10e30;
 }
 
 .json-result pre {
-  background: #232323;
-  border-radius: 6px;
-  padding: 14px;
-  color: #e0e0e0;
-  font-size: 15px;
-  overflow-x: auto;
-  margin: 0;
-  font-family: "Fira Mono", "Consolas", monospace;
-  line-height: 1.5;
+    background: #232323;
+    border-radius: 6px;
+    padding: 14px;
+    color: #e0e0e0;
+    font-size: 15px;
+    overflow-x: auto;
+    margin: 0;
+    font-family: "Fira Mono", "Consolas", monospace;
+    line-height: 1.5;
 }
 
 .token-key {
-  color: #e67c26;
+    color: #e67c26;
 }
+
 .token-string {
-  color: #6ab04c;
+    color: #6ab04c;
 }
+
 .token-number {
-  color: #f6e58d;
+    color: #f6e58d;
 }
+
 .token-boolean {
-  color: #eb4d4b;
+    color: #eb4d4b;
 }
+
 .token-null {
-  color: #686de0;
+    color: #686de0;
 }
+
 .token-punct {
-  color: #fff;
+    color: #fff;
 }
 
 #main-section {
-  max-width: 600px;
-  margin: 40px auto 0 auto;
-  background: #232323;
-  border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-  padding: 32px 28px 24px 28px;
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    background: #232323;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    padding: 32px 28px 24px 28px;
 }
 
 #main-section h2 {
-  text-align: center;
-  color: #c2113a;
-  margin-bottom: 28px;
-  font-size: 28px;
-  letter-spacing: 1px;
+    text-align: center;
+    color: #c2113a;
+    margin-bottom: 28px;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
 
 #index-floating-btn {
-  position: fixed;
-  bottom: 32px;
-  right: 32px;
-  z-index: 200;
-  background: #c2113a;
-  color: #fff;
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 34px;
-  font-weight: bold;
-  transition: background 0.2s, width 0.3s;
-  overflow: visible;
-  cursor: pointer;
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 200;
+    background: #c2113a;
+    color: #fff;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    transition: background 0.2s, width 0.3s;
+    overflow: visible;
+    cursor: pointer;
 }
 
 #index-floating-btn .index-label {
-  opacity: 0;
-  width: 0;
-  margin-left: 0;
-  overflow: hidden;
-  transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
-  white-space: nowrap;
-  font-size: 18px;
-  font-weight: normal;
-  pointer-events: none;
-  color: #fff;
+    opacity: 0;
+    width: 0;
+    margin-left: 0;
+    overflow: hidden;
+    transition: opacity 0.2s, width 0.3s, margin-left 0.3s;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    color: #fff;
 }
 
 #index-floating-btn:hover .index-label {
-  opacity: 1;
-  width: auto;
-  margin-left: 18px;
+    opacity: 1;
+    width: auto;
+    margin-left: 18px;
 }
 
 #index-floating-btn:hover {
-  background: #a10e30;
-  width: 320px;
+    background: #a10e30;
+    width: 320px;
 }
 
 #index-floating-btn .plus {
-  min-width: 0;
-  flex-shrink: 0;
-  opacity: 1 !important;
-  color: #fff !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  font-size: 34px;
-  line-height: 1;
+    min-width: 0;
+    flex-shrink: 0;
+    opacity: 1 !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    line-height: 1;
 }
 
 form label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
-  color: #e0e0e0;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #e0e0e0;
 }
 
 form input[type="text"],
@@ -190,16 +195,16 @@ form input[type="number"],
 form input[type="url"],
 form textarea,
 form select {
-  width: 100%;
-  padding: 9px 12px;
-  margin-bottom: 14px;
-  border: none;
-  border-radius: 6px;
-  background: #181818;
-  color: #fff;
-  font-size: 16px;
-  box-sizing: border-box;
-  transition: background 0.2s;
+    width: 100%;
+    padding: 9px 12px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 6px;
+    background: #181818;
+    color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: background 0.2s;
 }
 
 form input[type="text"]:focus,
@@ -207,164 +212,184 @@ form input[type="number"]:focus,
 form input[type="url"]:focus,
 form textarea:focus,
 form select:focus {
-  background: #222;
-  outline: 2px solid #c2113a;
+    background: #222;
+    outline: 2px solid #c2113a;
 }
 
 form textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 button[type="submit"] {
-  width: 100%;
-  background: #c2113a;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 12px;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: background 0.2s;
+    width: 100%;
+    background: #c2113a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
 }
 
 button[type="submit"]:hover {
-  background: #a10e30;
+    background: #a10e30;
 }
 
 #filmFields,
 #seriesFields {
-  margin-top: 18px;
-  padding: 16px 14px;
-  background: #181818;
-  border-radius: 8px;
+    margin-top: 18px;
+    padding: 16px 14px;
+    background: #181818;
+    border-radius: 8px;
 }
 
 .season-block {
-  margin-bottom: 18px;
-  padding: 12px 10px;
-  background: #232323;
-  border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 12px 10px;
+    background: #232323;
+    border-radius: 8px;
 }
 
 .season-block h4 {
-  margin: 0 0 10px 0;
-  color: #c2113a;
-  font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #c2113a;
+    font-size: 20px;
 }
 
 .episodesFields label {
-  margin-top: 6px;
-  font-weight: normal;
-  color: #e0e0e0;
+    margin-top: 6px;
+    font-weight: normal;
+    color: #e0e0e0;
 }
 
 .episodesFields input[type="text"] {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 @media (max-width: 900px) {
-  #main-section {
-    max-width: 95vw;
-    padding: 18px 3vw 16px 3vw;
-  }
-  header h1 {
-    font-size: 28px;
-  }
-  .json-result h3 {
-    font-size: 18px;
-  }
+    #main-section {
+        max-width: 95vw;
+        padding: 18px 3vw 16px 3vw;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .json-result h3 {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 600px) {
-  #main-section {
-    max-width: 99vw;
-    padding: 12px 2vw 12px 2vw;
-    border-radius: 8px;
-    margin: 18px auto 0 auto;
-  }
-  header h1 {
-    font-size: 20px;
-  }
-  .json-result {
-    font-size: 13px;
-    padding: 14px 8px 10px 8px;
-  }
-  .json-result h3 {
-    font-size: 15px;
-  }
-  .json-result pre {
-    font-size: 12px;
-    padding: 8px;
-  }
-  #index-floating-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 18px;
-    bottom: 10px;
-    right: 10px;
-  }
-  #index-floating-btn:hover {
-    width: 120px;
-  }
-  #index-floating-btn .index-label {
-    font-size: 10px;
-    margin-left: 6px;
-  }
-  form input,
-  form select,
-  form textarea {
-    font-size: 13px;
-    padding: 7px 8px;
-  }
-  button[type="submit"] {
-    font-size: 14px;
-    padding: 9px;
-  }
+    #main-section {
+        max-width: 99vw;
+        padding: 12px 2vw 12px 2vw;
+        border-radius: 8px;
+        margin: 18px auto 0 auto;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .json-result {
+        font-size: 13px;
+        padding: 14px 8px 10px 8px;
+    }
+
+    .json-result h3 {
+        font-size: 15px;
+    }
+
+    .json-result pre {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #index-floating-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #index-floating-btn:hover {
+        width: 120px;
+    }
+
+    #index-floating-btn .index-label {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        font-size: 13px;
+        padding: 7px 8px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+        padding: 9px;
+    }
 }
 
 @media (max-width: 400px) {
-  #main-section {
-    padding: 6px 1vw 6px 1vw;
-    border-radius: 4px;
-  }
-  header h1 {
-    font-size: 14px;
-  }
-  .json-result {
-    font-size: 10px;
-    padding: 6px 2px 4px 2px;
-  }
-  .json-result h3 {
-    font-size: 11px;
-  }
-  .json-result pre {
-    font-size: 9px;
-    padding: 4px;
-  }
-  #index-floating-btn {
-    width: 28px;
-    height: 28px;
-    font-size: 12px;
-    bottom: 4px;
-    right: 4px;
-  }
-  #index-floating-btn:hover {
-    width: 60px;
-  }
-  #index-floating-btn .index-label {
-    font-size: 7px;
-    margin-left: 2px;
-  }
-  form input,
-  form select,
-  form textarea {
-    font-size: 10px;
-    padding: 4px 4px;
-  }
-  button[type="submit"] {
-    font-size: 10px;
-    padding: 5px;
-  }
+    #main-section {
+        padding: 6px 1vw 6px 1vw;
+        border-radius: 4px;
+    }
+
+    header h1 {
+        font-size: 14px;
+    }
+
+    .json-result {
+        font-size: 10px;
+        padding: 6px 2px 4px 2px;
+    }
+
+    .json-result h3 {
+        font-size: 11px;
+    }
+
+    .json-result pre {
+        font-size: 9px;
+        padding: 4px;
+    }
+
+    #index-floating-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+        bottom: 4px;
+        right: 4px;
+    }
+
+    #index-floating-btn:hover {
+        width: 60px;
+    }
+
+    #index-floating-btn .index-label {
+        font-size: 7px;
+        margin-left: 2px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        font-size: 10px;
+        padding: 4px 4px;
+    }
+
+    button[type="submit"] {
+        font-size: 10px;
+        padding: 5px;
+    }
 }

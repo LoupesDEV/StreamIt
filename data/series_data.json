@@ -6,9 +6,19 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2661044/",
     "year": 2014,
-    "genres": ["Action", "Aventure", "Drame"],
-    "creators": ["Jason Rothenberg"],
-    "stars": ["Eliza Taylor", "Bob Morley", "Marie Avgeropoulos"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Drame"
+    ],
+    "creators": [
+      "Jason Rothenberg"
+    ],
+    "stars": [
+      "Eliza Taylor",
+      "Bob Morley",
+      "Marie Avgeropoulos"
+    ],
     "seasons": {
       "1": [
         {
@@ -533,9 +543,19 @@
     "IMDb": 9.3,
     "IMDb_link": "https://www.imdb.com/title/tt7366338/",
     "year": 2019,
-    "genres": ["Drame", "Histoire", "Thriller"],
-    "creators": ["Craig Mazin"],
-    "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
+    "genres": [
+      "Drame",
+      "Histoire",
+      "Thriller"
+    ],
+    "creators": [
+      "Craig Mazin"
+    ],
+    "stars": [
+      "Jared Harris",
+      "Stellan Skarsgård",
+      "Jessie Buckley"
+    ],
     "trailer": "https://www.youtube.com/watch?v=skCiDK542aM",
     "seasons": {
       "1": [
@@ -574,9 +594,22 @@
     "IMDb": 9.2,
     "IMDb_link": "https://www.imdb.com/title/tt0944947/",
     "year": 2011,
-    "genres": ["Action", "Aventure", "Drame", "Fantastique", "Thriller"],
-    "creators": ["David Benioff", "D.B. Weiss"],
-    "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Drame",
+      "Fantastique",
+      "Thriller"
+    ],
+    "creators": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "stars": [
+      "Emilia Clarke",
+      "Kit Harington",
+      "Peter Dinklage"
+    ],
     "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
     "seasons": {
       "1": [
@@ -969,9 +1002,20 @@
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt3581920/",
     "year": 2023,
-    "genres": ["Drame", "Histoire", "Thriller"],
-    "creators": ["Craig Mazin", "Neil Druckmann"],
-    "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
+    "genres": [
+      "Drame",
+      "Histoire",
+      "Thriller"
+    ],
+    "creators": [
+      "Craig Mazin",
+      "Neil Druckmann"
+    ],
+    "stars": [
+      "Bella Ramsey",
+      "Pedro Pascal",
+      "Gabriel Luna"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Sh4MVJLUNNY",
     "seasons": {
       "1": [
@@ -1067,9 +1111,19 @@
     "IMDb": 9.5,
     "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
     "year": 2008,
-    "genres": ["Crime", "Drame", "Thriller"],
-    "creators": ["Vince Gilligan"],
-    "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+    "genres": [
+      "Crime",
+      "Drame",
+      "Thriller"
+    ],
+    "creators": [
+      "Vince Gilligan"
+    ],
+    "stars": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn"
+    ],
     "trailer": "https://www.youtube.com/watch?v=CoWsuFdqeYE",
     "seasons": {
       "1": [
@@ -1401,9 +1455,19 @@
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
     "year": 2013,
-    "genres": ["Crime", "Drame", "Thriller"],
-    "creators": ["Steven Knight"],
-    "stars": ["Cillian Murphy", "Paul Anderson", "Helen McCrory"],
+    "genres": [
+      "Crime",
+      "Drame",
+      "Thriller"
+    ],
+    "creators": [
+      "Steven Knight"
+    ],
+    "stars": [
+      "Cillian Murphy",
+      "Paul Anderson",
+      "Helen McCrory"
+    ],
     "trailer": "https://senpai-stream.art/collection/le-labyrinthe",
     "seasons": {
       "1": [
@@ -1596,6 +1660,229 @@
           "title": "Les vagabonds et les voleurs",
           "desc": "La taupe découvre où et quand trouver Arthur seul. Sorti de prison, Michael n'a qu'une idée en tête. La loyauté de Finn vis-à-vis des Shelby est mise à l'épreuve.",
           "video": "medias/series/peakyblinders/6-6.mp4"
+        }
+      ]
+    }
+  },
+  "Under The Dome": {
+    "title": "Under The Dome",
+    "description": "D'après le roman du même nom de Stephen King, cette émission suit les habitants de Chester's Mill, une petite ville des États-Unis où les événements exceptionnels sont rares. Mais un jour, un dôme invisible apparaît et englobe toute la ville. Les habitants sont pris au piège et ne peuvent plus sortir de la ville, et personne ne peut y entrer. Ils doivent dorénavant se soutenir mutuellement pour traverser cette épreuve, mais l'isolement du monde extérieur mettra à rude épreuve la communauté.",
+    "banner": "medias/series/underthedome/underthedome.jpg",
+    "IMDb": 6.5,
+    "IMDb_link": "https://www.imdb.com/title/tt1553656//",
+    "year": 2013,
+    "genres": [
+      "Drame",
+      "Mystère"
+    ],
+    "creators": [
+      "Brian K. Vaughan"
+    ],
+    "stars": [
+      "Mike Vogel",
+      "Rachelle Lefevre",
+      "Alexander Koch"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Coupés du monde",
+          "desc": "Une petite ville des États-Unis, Chester's Mill, se retrouve brusquement coupée du monde lorsqu'un dôme invisible et impénétrable s'écrase autour de la ville, faisant prisonniers ses habitants et ceux qui étaient de passage. Tous cherchent alors à comprendre comment ce dôme s'est abattu sur la ville, et surtout comment s'en échapper...",
+          "video": "medias/series/underthedome/1-1.mp4"
+        },
+        {
+          "title": "Le Grand Feu",
+          "desc": "Les esprits s'échauffent à Chester's Mill. Big Jim et le Révérant Coggins essaient de dissimuler leur secret suite à la mort du Shérif Duke. Junior enferme son ex petite amie Angie dans l'abri antiatomique de son père, persuadé qu'elle a une relation avec \"Barbie\", l'homme qui a tué le mari de Julia. Journaliste, cette dernière recherche des explications sur le dôme et trouve des débuts de réponses grâce à la radio locale, tenue par Phil et Dodee, branchée sur les ondes utilisées par les militaires qui entourent désormais la ville…",
+          "video": "medias/series/underthedome/1-2.mp4"
+        },
+        {
+          "title": "Chasse à l'homme",
+          "desc": "Arrêté pour avoir tiré sur le dôme et provoqué la mort du shérif, le policier Paul Randolph parvient à s'enfuir suscitant une chasse à l'homme, lancée par Big Jim, autoproclamé responsable de la ville. Angie suggère à Junior de chercher un passage sous le dôme via les tunnels d'une usine désaffectée. Pendant ce temps, la maison de Joe devient le centre de toutes les attentions quand les adolescents découvrent qu'elle possède un générateur et qu'il n'y a aucun adulte à la maison…",
+          "video": "medias/series/underthedome/1-3.mp4"
+        },
+        {
+          "title": "Le Fléau",
+          "desc": "Les habitants de Chester's Mill tombent malades les uns après les autres. La clinique, débordée par l'afflux de patients, en vient rapidement à manquer de médicaments. Alice se porte volontaire pour soigner les hordes de patients. A la pharmacie du coin, Jim et Barbie réalisent que tous les stocks ont été dérobés. De son côté, malgré la forte fièvre dont elle souffre, Julia soupçonne de plus en plus Barbie de lui dissimuler des informations sur sa présence dans la petite ville. Elle essaie d'obtenir quelques détails sur Peter en interrogeant Phil. La situation d'Angie, toujours prisonnière au refuge, est de plus en plus inquiétante...",
+          "video": "medias/series/underthedome/1-4.mp4"
+        },
+        {
+          "title": "M.O.A.B.",
+          "desc": "Un soldat stationné de l'autre côté du dôme prévient Barbie que l'armée s'apprête à quitter les lieux et a programmé de lancer un missile sur le dôme. Malgré tout, les résidents de Chester's Mill reçoivent des visites de leurs proches. De leur côté, Joe et Norrie comprennent que leurs crises sont liées au phénomène. Le révérend Coggins est persuadé que Dieu lui envoie des messages...",
+          "video": "medias/series/underthedome/1-5.mp4"
+        },
+        {
+          "title": "Pluie d'enfer",
+          "desc": "Malgré l'impact du missile lancé par l'armée sur le dôme, celui-ci est intact. Les habitants de Chester's Mill réalisent un peu plus qu'ils sont coincés sous cette étrange cloche. D'autant que les problèmes de pénurie d'eau et de denrées alimentaires créent des tensions et des scènes de violence dans la petite communauté. De leur côté, Julia et Dodee recherchent l'origine d'un étrange signal qui perturbe les ondes radio sous le dôme. Angie parvient à s'éloigner de Junior et tente de rejoindre le restaurant de Rose. De son côté, Norrie essaie de trouver une solution pour mettre la main sur des doses d'insuline et soigner sa mère...",
+          "video": "medias/series/underthedome/1-6.mp4"
+        },
+        {
+          "title": "Le Cercle de la Vie",
+          "desc": "Harriet, une femme enceinte venue rendre visite à Julia, touche le dôme et voit apparaître l'image de son mari : il semblerait que la paroi récèle encore bien des mystères. Presque aussitôt, la future mère ressent les premières contractions. Julia et Barbie la transportent chez Alice, qui l'aide à accoucher. La mère et l'enfant se portent bien mais Alice, elle, succombe à une crise cardiaque. Pendant ce temps, Joe et Norrie recherchent le point d'origine du dôme. Dans les bois, ils font une découverte importante. Quant à Linda, assistée de Junior et Barbie, elle part à la recherche des deux voyous qui ont agressé Angie et Rose...",
+          "video": "medias/series/underthedome/1-7.mp4"
+        },
+        {
+          "title": "Le monarque sera couronné",
+          "desc": "Les ressources en eau de la petite communauté s'amenuisent de jour en jour. Big Jim tente de convaincre Ollie de donner un plus large accès à son puits en échange de propane, mais en vain. Avec le soutien de Barbie et Linda, Big Jim décide alors de détourner l'eau vers le réservoir municipal. Junior, qui a été jeté à la rue par son père, choisit de prendre le parti d'Ollie pour se venger. Julia est intriguée par la concomitance exacte de deux événements : le décès d'Alice et la naissance du bébé d'Harriet...",
+          "video": "medias/series/underthedome/1-8.mp4"
+        },
+        {
+          "title": "La Quatrième Main",
+          "desc": "Joe, Norrie et Julia sont à la recherche du mini-dôme, qui n'est plus dans les bois. De son côté, Angie est bien décidée à reprendre la gestion du restaurant. Alors qu'elle discute avec Junior, elle est prise de convulsions, comme Joe et Norrie avant elle. Big Jim et Barbie veulent récupérer toutes les armes en circulation à Chester's Mill. Linda, elle, commence à comprendre qu'il existait un trafic de drogue dans la petite ville avant l'apparition du dôme. D'ailleurs, Maxine, une femme mystérieuse, se rappelle au bon souvenir de Big Jim. Etrangement, Maxine était présente à Chester Mill's au moment de l'apparition du dôme, mais n'avait plus été vue par quiconque ensuite...",
+          "video": "medias/series/underthedome/1-9.mp4"
+        },
+        {
+          "title": "Fight Club",
+          "desc": "Julia et Linda fouillent dans le passé du shérif Duke et découvrent des vérités sur les secrets les plus noirs de la petite communauté de Chester's Mill. De son côté, Maxine dévoile à Barbie ses plans pour prendre le contrôle de la ville, alors que Big Jim cherche à en savoir plus sur elle. Quant à Angie, Joe et Norrie, ils doivent découvrir qui est la «4e main» pour le mini-dôme...",
+          "video": "medias/series/underthedome/1-10.mp4"
+        },
+        {
+          "title": "Le Diable en personne",
+          "desc": "Joe, Angie, Junior et Norrie se demandent comment réagir et se comporter après les visions qu'ils ont eues en touchant le mini-dôme. Junior aimerait se désolidariser des trois autres, mais le dôme semble ne pas «apprécier» cette situation et déclenche une tempête au-dessus de Chester's Mill. De son côté, Maxine, bien décidée à renforcer son emprise sur Big Jim et Barbie, décide de frapper un grand coup : elle se rend chez Julia et lui tire une balle dans la poitrine...",
+          "video": "medias/series/underthedome/1-11.mp4"
+        },
+        {
+          "title": "Circonstances aggravantes",
+          "desc": "La traque de Barbie se poursuit. Loin d'apaiser les esprits, Big Jim en profite pour monter la population contre le fugitif. Les habitants de Chester's Mill exigent que Barbie paie pour tous ses crimes supposés. De leur côté, Joe et Norrie sont à la recherche d'une nouvelle cachette pour le mini-dôme...",
+          "video": "medias/series/underthedome/1-12.mp4"
+        },
+        {
+          "title": "In tenebris",
+          "desc": "Julie émerge enfin de son coma. Big Jim est plus que jamais déterminé à mettre Barbie hors d'état de nuire. Il veut aussi s'emparer du mini-dôme, persuadé qu'il est la clé du mystère. De leur côté, Junior, Angie, Joe et Norrie découvrent l'identité du Monarque. Les quatre jeunes gens réussissent à récupérer l'oeuf contenu dans le mini-dôme. Mais l'objet devient noir et ses parois s'assombrissent à chaque contact ; le phénomène s'intensifie et provoque un black-out, suivi d'une panique...",
+          "video": "medias/series/underthedome/1-13.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Des têtes vont tomber",
+          "desc": "Le sort de Barbie est entre les mains de Big Jim, et le dôme présente une nouvelle menace lorsqu'il devient magnétique. Pendant ce temps, Julia cherche à l'aide d'un inconnu un moyen de sauver la vie d'une jeune fille mystérieusement apparu au milieu d'un lac.",
+          "video": "medias/series/underthedome/2-1.mp4"
+        },
+        {
+          "title": "Infestation",
+          "desc": "Rebecca, découvre une contamination des cultures de la ville par des œufs de papillons. Cette nouvelle épreuve du dôme pour contaminer toutes les productions de nourritures de la ville.",
+          "video": "medias/series/underthedome/2-2.mp4"
+        },
+        {
+          "title": "Force majeure",
+          "desc": "Le temps passe sous le dôme et les réserves diminuent grandement. Rebecca et Big Jim, mettent alors en place un recensement afin de permettre une meilleure gestion des ressources alimentaire, mais ils savent tout deux que le dômes envoi chaque jour de nouvelles épreuves tout aussi désastreuses sur leur ressources agricole. Ainsi, un orage survient apportant ainsi de l'eau bien nécessaire, mais très vite, celui-ci se transforme en une pluie sanglante et acide.",
+          "video": "medias/series/underthedome/2-3.mp4"
+        },
+        {
+          "title": "Révélation",
+          "desc": "Comme les conditions à Chester's Mill s'aggravent, Big Jim et Rebecca veulent mettre en place un recours extrême de contrôle de la population via une sélection naturelle, ce qui crée un fossé entre Barbie et Julia dont les avis diverge. Pendant ce temps, des indices sur le passé de Melanie sont découvert et son lien avec le Dôme sont révélés.",
+          "video": "medias/series/underthedome/2-4.mp4"
+        },
+        {
+          "title": "Des femmes de pouvoir",
+          "desc": "Big Jim et Rebecca sont en prison. Barbie et Julia organisent une collecte de nourriture pour pouvoir la redistribuer équitablement. Sam et Junior sont à la recherche de Lyle.",
+          "video": "medias/series/underthedome/2-5.mp4"
+        },
+        {
+          "title": "Le Tunnel",
+          "desc": "Sam et Barbie se retrouvent piéges dans un tunnel. Rebecca et Julia essayent de trouver un moyen de les en sortir. Junior, persuadé que Lyle veut tuer les quatre mains [Quoi ?], va prévenir les autres et ils se mettent tous ensembles à la recherche de l’œuf avec l'aide de Mélanie. L'air devient irrespirable à Chester's Mill et Big Jim demande aux habitants de l'aider à construire un moulin à vent pour purifier l'air.",
+          "video": "medias/series/underthedome/2-6.mp4"
+        },
+        {
+          "title": "De l'autre côté",
+          "desc": "Barbie se rend de nouveau à la falaise du tunnel pour essayer de trouver le corps de Sam et le remonter mais tout ne se passe pas comme prévu...",
+          "video": "medias/series/underthedome/2-7.mp4"
+        },
+        {
+          "title": "Une lueur d'espoir",
+          "desc": "Sam retrouve Pauline et Lyle à l'hôpital psychiatrique. Barbie essaye de trouver un moyen de contacter Julia. Des actes de vandalisme sont perpétrés dans la ville et Big Jim tente de trouver qui lui en veut avec l'aide de Junior et Rebecca.",
+          "video": "medias/series/underthedome/2-8.mp4"
+        },
+        {
+          "title": "La Porte rouge",
+          "desc": "Sam, Pauline et Lyle cherchent le moyen de retourner à Chester's Mill et sont rejoints par Barbie. James et Mélanie essayent de protéger l'œuf de ceux qui le convoitent.",
+          "video": "medias/series/underthedome/2-9.mp4"
+        },
+        {
+          "title": "Énergie négative",
+          "desc": "Sam, Pauline, Barbie sont de retour sous le dôme. Ils tentent de convaincre Mélanie d'accepter d'utiliser l'œuf comme monnaie d'échange pour faire sortir tous les habitants.",
+          "video": "medias/series/underthedome/2-10.mp4"
+        },
+        {
+          "title": "Nuit de glace",
+          "desc": "À cause de Big Jim, le passage entre Chester's Mill et Zenith est maintenant fermé. La température à l'intérieur du dôme commence à chuter dangereusement alors que les réserves en essence sont très faibles. L'état de santé de Mélanie se dégrade de plus en plus...",
+          "video": "medias/series/underthedome/2-11.mp4"
+        },
+        {
+          "title": "La Dernière Vision",
+          "desc": "L'état de santé de Mélanie continue à empirer et les parois du dôme se rétractent... Big Jim aide Pauline à avoir une autre vision pour sauver Mélanie et le village.",
+          "video": "medias/series/underthedome/2-12.mp4"
+        },
+        {
+          "title": "Exodus",
+          "desc": "Suite à la guérison de Mélanie, un nouveau tunnel est apparu et il pourrait bien être un moyen de sortir du Dôme.",
+          "video": "medias/series/underthedome/2-13.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Une nouvelle réalité",
+          "desc": "Les résidents de Chester's Mill sont à la fois en dehors et à l'intérieur du dôme, après avoir découvert une sortie dans les tunnels. Alors que le dôme dévoile une nouvelle facette, les habitants se demandent à quoi et à qui ils peuvent faire confiance alors que de nouvelles menaces planent au dessus de leurs têtes, des nouveaux habitants font leur apparition et de nouvelles alliances sont formées.",
+          "video": "medias/series/underthedome/3-1.mp4"
+        },
+        {
+          "title": "Cocons",
+          "desc": "Alors que Julia tente à son tour de fuir en compagnie de Junior, elle trouve, abrités dans un cratère, un grand nombre de cocons. Elle comprend rapidement que ceux qui ont réussi à s'échapper sont prisonniers dedans. Seule Melanie semble y avoir échappé. De son côté, Barbie est de plus en intrigué par le climat qui règne à Chester's Mill.",
+          "video": "medias/series/underthedome/3-2.mp4"
+        },
+        {
+          "title": "L'Éclosion",
+          "desc": "Pendant que les habitants se remettent de leurs escapades dans les tunnels sous la ville, Big Jim pense que Christine et Eva cachent des choses au sujet du dôme.",
+          "video": "medias/series/underthedome/3-3.mp4"
+        },
+        {
+          "title": "Une communauté bien tranquille",
+          "desc": "Alors qu'elle fait croire aux habitants de Chester's Mill qu'elle apporte son aide à la reconstruction de la ville, Christine pousse les rescapés à se remémorer leurs expériences sous le tunnel de la ville. Entre temps, Julia & Big Jim découvrent une nouvelle menace causée par le dôme",
+          "video": "medias/series/underthedome/3-4.mp4"
+        },
+        {
+          "title": "Alaska",
+          "desc": "Julia & Big Jim s'allient afin de prouver que Christine n'est pas celle qu'elle prétend être, ce qui les amènent à découvrir de nouvelles informations sur les capacités du dôme. Entre temps, lorsque des tensions augmentent en ville et empêchent Christine de conserver son poste de leader, elle décide de passer au plan B...mais pas sans conséquences.",
+          "video": "medias/series/underthedome/3-5.mp4"
+        },
+        {
+          "title": "Les Prisonniers",
+          "desc": "Lorsque Big Jim est capturé par Aktaion, l'entreprise venue sous le dôme à la recherche de l'œuf, on le force à manipuler Christine afin d'obtenir des informations sur ses plans. Joe & Norrie se posent des questions sur ce qu'il se passe en ville et se retrouvent avec des habitants très instable.",
+          "video": "medias/series/underthedome/3-6.mp4"
+        },
+        {
+          "title": "La Sixième Extinction",
+          "desc": "Les habitants de Chester's Mills découvrent que le Dôme est là pour les protéger quand une pluie de météorites s'abat sur le monde extérieur mais qu'ils ne sont pas touchés. Eva essaye de rallier Barbie à la cause de Christine et Joe se doit accepter l'aide de Sam, le meurtrier de sa sœur. Julia et Big Jim, impuissants et bloqués sur l'île des oiseaux, entrent en conflit.",
+          "video": "medias/series/underthedome/3-7.mp4"
+        },
+        {
+          "title": "Résistance",
+          "desc": "Julia, Big Jim, Norrie, Joe et Hunter s'allient pour ainsi former une résistance contre Christine, qui mobilise les habitants afin de procéder à une fouille massive des tunnels sous la ville. Entre temps, Hunter utilise son équipement pour contacter le monde extérieur, après être redevenu \"normal\".",
+          "video": "medias/series/underthedome/3-8.mp4"
+        },
+        {
+          "title": "Les Ensorcelés",
+          "desc": "Julia, Norrie, Joe et Big Jim quittent la cachette d'Aktion afin d'échapper à la Parenté, groupe dirigé par Christine. Barbie, abusé, suit les ordres et essaie de capturer Julia. Eva, enceinte, est placée entre les mains de « sages femmes ». Joe et Norrie se penchent sur le problème du schéma trouvé dans le bureau de Christine, Big Jim leur propose d'aller à la bibliothèque pour avoir plus d'informations. Julia et Big Jim vont torturer Barbie pour tenter de le libérer de l'emprise de Christine, mais ils échouent. Christine, qui est liée au dôme, souffre de plus en plus du manque d'énergie lié à la disparition des améthystes ensevelies. Le dôme commence à se calcifier. Joe et Norrie rencontrent sur leur chemin Sam, qui fait semblant de ne pas appartenir à la Parenté. Il finit par assommer Joe et l'emmène vers Christine. Barbie revient à lui, et semble libéré de cette emprise que Christine avait sur lui.",
+          "video": "medias/series/underthedome/3-9.mp4"
+        },
+        {
+          "title": "Le Secret d'Aktaion",
+          "desc": "Enfin revenu à lui grâce à l'amour qu'il partage avec Julia, Barbie s'inquiète pour son enfant à naître. Alors qu'ils subissent un assaut des habitants, Big Jim et Norrie sont sauvés par Hektor Martin, le dirigeant d'Aktaion, et ses hommes, venus finaliser un sérum pour les personnes infectées. De son côté, Joe est toujours infiltré dans la communauté pour aider Christine à détruire le dôme.",
+          "video": "medias/series/underthedome/3-10.mp4"
+        },
+        {
+          "title": "L'Avènement de la Reine",
+          "desc": "Big Jim propose son fils pour le test du remède malgré les risques que ce dernier court. Barbie pense qu'il y a un moyen de sauver sa fille et Eva. Joe essaye de gagner du temps pour le remède. À la fin, Eva accouche et est tué par Christine.",
+          "video": "medias/series/underthedome/3-11.mp4"
+        },
+        {
+          "title": "Question de survie",
+          "desc": "Barbie et Julia retournent à une cachette de la résistance. Ils les informent que le bébé de Barbie fait maintenant partie de la communauté. Le docteur Bloom pense qu'avec le cordon ombilical, elle pourra fabriquer un traitement plus efficace que celui qui a échoué sur Junior. Junior retourne voir Christine qui a placé la fille de Barbie dans un cocon qui aspire l'énergie du dôme pour accélérer sa croissance. Après que Julia et Barbie ait donné le cordon à Big Jim, celui-ci s'en débarrasse. Ils rejoignent Christine juste après qu'elle ait transféré sa conscience extra-terrestre au cocon. Une ombre s'échappe du cocon et Christine redevient humaine. Elle les amènent au lac où Junior a prévu de sacrifier les enfants (après avoir sacrifié les personnes âgées). Elle réussit à empêcher Junior mais il la démasque. Hektor tue le docteur Bloom et bâillonne Lily. Il prévoit ensuite de tuer Joe avant qu'il réussisse à faire tomber le dôme. Cependant, Big Jim tue Hektor juste à temps. Dawn, la fille de Barbie devenue grande, capture Christine et la tue pour être la nouvelle reine.",
+          "video": "medias/series/underthedome/3-12.mp4"
+        },
+        {
+          "title": "Le Crépuscule du dôme",
+          "desc": "Dawn, la nouvelle reine, instaure sa suprématie par la force et annonce à la communauté que son rôle consiste maintenant à les conduire hors du dôme. Joe finalise l'installation de l'améthyste grâce à laquelle il fera tomber le dôme. Barbie comprend que son enfant n'est pas humaine et s'accorde avec Jim et Julia pour la tuer après la chute du dôme.",
+          "video": "medias/series/underthedome/3-13.mp4"
         }
       ]
     }

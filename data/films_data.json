@@ -6,10 +6,23 @@
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
-    "genres": ["Aventure", "Comédie"],
-    "directors": ["Guillaume Canet"],
-    "writers": ["René Goscinny", "Albert Uderzo", "Guillaume Canet"],
-    "stars": ["Guillaume Canet", "Gilles Lellouche", "Vincent Cassel"],
+    "genres": [
+      "Aventure",
+      "Comédie"
+    ],
+    "directors": [
+      "Guillaume Canet"
+    ],
+    "writers": [
+      "René Goscinny",
+      "Albert Uderzo",
+      "Guillaume Canet"
+    ],
+    "stars": [
+      "Guillaume Canet",
+      "Gilles Lellouche",
+      "Vincent Cassel"
+    ],
     "trailer": "https://www.youtube.com/watch?v=YY9ptFQgs4w",
     "video": "medias/films/asterixetobelix/asterixetobelix.mp4"
   },
@@ -20,10 +33,21 @@
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Scott Derrickson"],
-    "writers": ["Zach Dean"],
-    "stars": ["Miles Teller", "Anya Taylor-Joy", "Sigourney Weaver"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Scott Derrickson"
+    ],
+    "writers": [
+      "Zach Dean"
+    ],
+    "stars": [
+      "Miles Teller",
+      "Anya Taylor-Joy",
+      "Sigourney Weaver"
+    ],
     "trailer": "https://www.youtube.com/watch?v=gWTXQnlWDRg",
     "video": "medias/films/thegorge/thegorge.mp4"
   },
@@ -34,10 +58,21 @@
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Jérôme Salle"],
-    "writers": ["Christian Zübert"],
-    "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Jérôme Salle"
+    ],
+    "writers": [
+      "Christian Zübert"
+    ],
+    "stars": [
+      "Jeanne Goursaud",
+      "Dougray Scott",
+      "Lera Abova"
+    ],
     "trailer": "https://www.youtube.com/watch?v=TSAP-U61JkA",
     "video": "medias/films/exterritorial/exterritorial.mp4"
   },
@@ -48,10 +83,23 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
-    "genres": ["Horreur", "Thriller"],
-    "directors": ["John Krasinski"],
-    "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
-    "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
+    "genres": [
+      "Horreur",
+      "Thriller"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "writers": [
+      "Bryan Woods",
+      "Scott Beck",
+      "John Krasinski"
+    ],
+    "stars": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds"
+    ],
     "trailer": "https://www.youtube.com/watch?v=OfImjmzcvLA",
     "video": "medias/films/sansunbruit/sansunbruit.mp4"
   },
@@ -62,10 +110,23 @@
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
-    "genres": ["Horreur", "Thriller"],
-    "directors": ["John Krasinski"],
-    "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
-    "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
+    "genres": [
+      "Horreur",
+      "Thriller"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "writers": [
+      "John Krasinski",
+      "Bryan Woods",
+      "Scott Beck"
+    ],
+    "stars": [
+      "Emily Blunt",
+      "Millicent Simmonds",
+      "Cillian Murphy"
+    ],
     "trailer": "https://www.youtube.com/watch?v=xmaFiG8yKFc",
     "video": "medias/films/sansunbruit2/sansunbruit2.mp4"
   },
@@ -76,10 +137,23 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
-    "genres": ["Horreur", "Thriller"],
-    "directors": ["Michael Sarnoski"],
-    "writers": ["Michael Sarnoski", "John Krasinski", "Bryan Woods"],
-    "stars": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff"],
+    "genres": [
+      "Horreur",
+      "Thriller"
+    ],
+    "directors": [
+      "Michael Sarnoski"
+    ],
+    "writers": [
+      "Michael Sarnoski",
+      "John Krasinski",
+      "Bryan Woods"
+    ],
+    "stars": [
+      "Lupita Nyong'o",
+      "Joseph Quinn",
+      "Alex Wolff"
+    ],
     "trailer": "https://www.youtube.com/watch?v=P2Txu56Rj-g",
     "video": "medias/films/sansunbruitj1/sansunbruitj1.mp4"
   },
@@ -90,10 +164,24 @@
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Gary Ross"],
-    "writers": ["Gary Ross", "Suzanne Collins", "Billy Ray"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Gary Ross"
+    ],
+    "writers": [
+      "Gary Ross",
+      "Suzanne Collins",
+      "Billy Ray"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=wqUq0lsQ684",
     "video": "medias/films/hungergames/hungergames.mp4"
   },
@@ -104,10 +192,24 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Simon Beaufoy", "Michael Arndt", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Simon Beaufoy",
+      "Michael Arndt",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=nbzjLhsmVXc",
     "video": "medias/films/hungergames2/hungergames2.mp4"
   },
@@ -118,10 +220,24 @@
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2014,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Peter Craig",
+      "Danny Strong",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=zdMIft77FEY",
     "video": "medias/films/hungergamespt1/hungergamespt1.mp4"
   },
@@ -132,10 +248,24 @@
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Peter Craig",
+      "Danny Strong",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=MGZ0kzmcWAU",
     "video": "medias/films/hungergamespt2/hungergamespt2.mp4"
   },
@@ -146,10 +276,24 @@
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Michael Lesslie", "Michael Arndt", "Suzanne Collins"],
-    "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Michael Lesslie",
+      "Michael Arndt",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Rachel Zegler",
+      "Tom Blyth",
+      "Viola Davis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=YV0-YKWfNPs",
     "video": "medias/films/hungergames4/hungergames4.mp4"
   },
@@ -160,10 +304,24 @@
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
     "year": 2001,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Tim Burton"],
-    "writers": ["Pierre Boulle", "William Broyles Jr.", "Lawrence Konner"],
-    "stars": ["Mark Wahlberg", "Tim Roth", "Helena Bonham Carter"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Tim Burton"
+    ],
+    "writers": [
+      "Pierre Boulle",
+      "William Broyles Jr.",
+      "Lawrence Konner"
+    ],
+    "stars": [
+      "Mark Wahlberg",
+      "Tim Roth",
+      "Helena Bonham Carter"
+    ],
     "video": "medias/films/laplanetedessinges/laplanetedessinges.mp4"
   },
   "La Planète des singes : Les Origines": {
@@ -173,10 +331,24 @@
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
     "year": 2011,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Rupert Wyatt"],
-    "writers": ["Rick Jaffa", "Amanda Silver", "Pierre Boulle"],
-    "stars": ["James Franco", "Freida Pinto", "Andy Serkis"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Rupert Wyatt"
+    ],
+    "writers": [
+      "Rick Jaffa",
+      "Amanda Silver",
+      "Pierre Boulle"
+    ],
+    "stars": [
+      "James Franco",
+      "Freida Pinto",
+      "Andy Serkis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Vn8GriIog1s",
     "video": "medias/films/laplanetedessinges2/laplanetedessinges2.mp4"
   },
@@ -187,10 +359,24 @@
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
     "year": 2014,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Matt Reeves"],
-    "writers": ["Mark Bomback", "Rick Jaffa", "Amanda Silver"],
-    "stars": ["Gary Oldman", "Keri Russell", "Andy Serkis"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "writers": [
+      "Mark Bomback",
+      "Rick Jaffa",
+      "Amanda Silver"
+    ],
+    "stars": [
+      "Gary Oldman",
+      "Keri Russell",
+      "Andy Serkis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=dPcwB7okdzU",
     "video": "medias/films/laplanetedessinges3/laplanetedessinges3.mp4"
   },
@@ -201,10 +387,24 @@
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt3450958/",
     "year": 2017,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Matt Reeves"],
-    "writers": ["Mark Bomback", "Matt Reeves", "Rick Jaffa"],
-    "stars": ["Andy Serkis", "Woody Harrelson", "Steve Zahn"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "writers": [
+      "Mark Bomback",
+      "Matt Reeves",
+      "Rick Jaffa"
+    ],
+    "stars": [
+      "Andy Serkis",
+      "Woody Harrelson",
+      "Steve Zahn"
+    ],
     "trailer": "https://www.youtube.com/watch?v=kIiiAq19tg8",
     "video": "medias/films/laplanetedessinges4/laplanetedessinges4.mp4"
   },
@@ -215,10 +415,24 @@
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt11389872/",
     "year": 2024,
-    "genres": ["Action", "Aventure", "Science-fiction"],
-    "directors": ["Wes Ball"],
-    "writers": ["Josh Friedman", "Rick Jaffa", "Amanda Silver"],
-    "stars": ["Owen Teague", "Freya Allan", "Kevin Durand"],
+    "genres": [
+      "Action",
+      "Aventure",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "Josh Friedman",
+      "Rick Jaffa",
+      "Amanda Silver"
+    ],
+    "stars": [
+      "Owen Teague",
+      "Freya Allan",
+      "Kevin Durand"
+    ],
     "trailer": "https://www.youtube.com/watch?v=h-Kd5wXdK-U",
     "video": "medias/films/laplanetedessinges5/laplanetedessinges5.mp4"
   },
@@ -229,10 +443,24 @@
     "IMDb": 5.8,
     "IMDB_link": "https://www.imdb.com/title/tt3566834/",
     "year": 2025,
-    "genres": ["Aventure", "Comédie", "Science-fiction"],
-    "directors": ["Jared Hess"],
-    "writers": ["Allison Schroeder", "Chris Bowman", "Hubbel Palmer"],
-    "stars": ["Jason Momoa", "Jack Black", "Emma Myers"],
+    "genres": [
+      "Aventure",
+      "Comédie",
+      "Science-fiction"
+    ],
+    "directors": [
+      "Jared Hess"
+    ],
+    "writers": [
+      "Allison Schroeder",
+      "Chris Bowman",
+      "Hubbel Palmer"
+    ],
+    "stars": [
+      "Jason Momoa",
+      "Jack Black",
+      "Emma Myers"
+    ],
     "trailer": "https://www.youtube.com/watch?v=E9slRynYcmI",
     "video": "medias/films/minecraft/minecraft.mp4"
   },
@@ -243,10 +471,21 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13287846/",
     "year": 2023,
-    "genres": ["Action", "Docudrame"],
-    "directors": ["Ridley Scott"],
-    "writers": ["David Scarpa"],
-    "stars": ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim"],
+    "genres": [
+      "Action",
+      "Docudrame"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Scarpa"
+    ],
+    "stars": [
+      "Joaquin Phoenix",
+      "Vanessa Kirby",
+      "Tahar Rahim"
+    ],
     "trailer": "https://www.youtube.com/watch?v=A3xaMZZooVs",
     "video": "medias/films/napoleon/napoleon.mp4"
   },
@@ -257,10 +496,23 @@
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
-    "genres": ["Guerre", "Action", "Drame"],
-    "directors": ["Marian Bushan"],
-    "writers": ["Marian Bushan", "Mykola Voronin"],
-    "stars": ["Pavlo Aldoshyn", "Maryna Koshkina", "Andrey Mostrenko"],
+    "genres": [
+      "Guerre",
+      "Action",
+      "Drame"
+    ],
+    "directors": [
+      "Marian Bushan"
+    ],
+    "writers": [
+      "Marian Bushan",
+      "Mykola Voronin"
+    ],
+    "stars": [
+      "Pavlo Aldoshyn",
+      "Maryna Koshkina",
+      "Andrey Mostrenko"
+    ],
     "trailer": "https://www.youtube.com/watch?v=W_cCXmw2GQM",
     "video": "medias/films/sniperlecorbeaublanc/sniperlecorbeaublanc.mp4"
   },
@@ -271,10 +523,23 @@
     "IMDb": 6.8,
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Wes Ball"],
-    "writers": ["Noah Oppenheim", "Grant Pierce Myers", "T.S. Nowlin"],
-    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Will Poulter"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "Noah Oppenheim",
+      "Grant Pierce Myers",
+      "T.S. Nowlin"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Kaya Scodelario",
+      "Will Poulter"
+    ],
     "trailer": "https://www.youtube.com/watch?v=LyPiCH_4Al4",
     "video": "medias/films/labyrinthe/labyrinthe.mp4"
   },
@@ -285,10 +550,22 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4046784/",
     "year": 2015,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Wes Ball"],
-    "writers": ["T.S. Nowlin", "James Dashner"],
-    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Thomas Brodie-Sangster"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "T.S. Nowlin",
+      "James Dashner"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Kaya Scodelario",
+      "Thomas Brodie-Sangster"
+    ],
     "trailer": "https://www.youtube.com/watch?v=K7jyL2cS6dc",
     "video": "medias/films/labyrinthe2/labyrinthe2.mp4"
   },
@@ -299,10 +576,22 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4500922/",
     "year": 2018,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Wes Ball"],
-    "writers": ["T.S. Nowlin", "James Dashner"],
-    "stars": ["Dylan O'Brien", "Ki Hong Lee", "Kaya Scodelario"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "T.S. Nowlin",
+      "James Dashner"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Ki Hong Lee",
+      "Kaya Scodelario"
+    ],
     "trailer": "https://www.youtube.com/watch?v=gx3HVAx82sg",
     "video": "medias/films/labyrinthe3/labyrinthe3.mp4"
   },
@@ -313,10 +602,21 @@
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
     "year": 2014,
-    "genres": ["Action", "Thriller"],
-    "directors": ["Luc Besson"],
-    "writers": ["Luc Besson"],
-    "stars": ["Scarlett Johansson", "Morgan Freeman", "Choi Min-sik"],
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Luc Besson"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Scarlett Johansson",
+      "Morgan Freeman",
+      "Choi Min-sik"
+    ],
     "trailer": "https://www.youtube.com/watch?v=7gPrNpHaFX8",
     "video": "medias/films/lucy/lucy.mp4"
   }
