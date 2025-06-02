@@ -9,6 +9,10 @@ const modal = document.getElementById('modal');
 const videoModal = document.getElementById('videoModal');
 const videoPlayer = document.getElementById('videoPlayer');
 
+function escapeForHTML(str) {
+    return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
     setupEventListeners();
@@ -172,7 +176,7 @@ function createContentCard(item) {
     const year = item.year ? `<span class="card-year">${item.year}</span>` : '';
 
     return `
-      <div class="content-card" onclick="openModal('${item.title.replace(/'/g, "\\'")}', '${getItemType(item)}')">
+      <div class="content-card" onclick="openModal('${escapeForHTML(item.title)}', '${getItemType(item)}')">
         <div class="card-image">
           ${item.banner ? `<img src="${item.banner}" alt="${item.title}" onerror="this.style.display='none'">` : '<i class="fas fa-film"></i>'}
         </div>
