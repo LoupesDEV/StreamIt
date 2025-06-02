@@ -129,6 +129,9 @@ function showSection(sectionName) {
                 handleSearch();
             }
             break;
+        case 'stats':
+            displayStats();
+            break;
     }
 }
 
@@ -648,32 +651,6 @@ function displayStats() {
         </div>
       </div>
     `;
-}
-
-function showSection(sectionName) {
-    sections.forEach(section => {
-        section.classList.remove('active');
-    });
-
-    document.getElementById(sectionName).classList.add('active');
-    currentSection = sectionName;
-
-    switch (sectionName) {
-        case 'films':
-            displayFilms(Object.values(filmsData));
-            break;
-        case 'series':
-            displaySeries(Object.values(seriesData));
-            break;
-        case 'search':
-            if (searchInput.value.trim()) {
-                handleSearch();
-            }
-            break;
-        case 'stats':
-            displayStats();
-            break;
-    }
 }
 
 function handleErrorAndRedirect(message) {
