@@ -7,8 +7,10 @@
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
     "genres": [
-      "Aventure",
-      "Comédie"
+      "Buddy Comedy",
+      "Adventure",
+      "Comedy",
+      "Family"
     ],
     "directors": [
       "Guillaume Canet"
@@ -34,8 +36,14 @@
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
     "genres": [
+      "Dark Romance",
+      "Monster Horror",
+      "Survival",
       "Action",
-      "Thriller"
+      "Adventure",
+      "Horror",
+      "Romance",
+      "Sci-Fi"
     ],
     "directors": [
       "Scott Derrickson"
@@ -60,6 +68,7 @@
     "year": 2025,
     "genres": [
       "Action",
+      "Mystery",
       "Thriller"
     ],
     "directors": [
@@ -84,8 +93,11 @@
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
     "genres": [
-      "Horreur",
-      "Thriller"
+      "Alien Invasion",
+      "Monster Horror",
+      "Drama",
+      "Horror",
+      "Sci-Fi"
     ],
     "directors": [
       "John Krasinski"
@@ -111,7 +123,12 @@
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
     "genres": [
-      "Horreur",
+      "Alien Invasion",
+      "Monster Horror",
+      "Supernatural Horror",
+      "Drama",
+      "Horror",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [
@@ -138,7 +155,11 @@
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
     "genres": [
-      "Horreur",
+      "Alien Invasion",
+      "Monster Horror",
+      "Drama",
+      "Horror",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [
@@ -165,9 +186,12 @@
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
     "genres": [
+      "Dystipian Sci-Fi",
+      "Teen Aventure",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Gary Ross"
@@ -193,9 +217,11 @@
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
     "genres": [
+      "Dystopian Sci-Fi",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Francis Lawrence"
@@ -218,12 +244,14 @@
     "description": "Katniss Everdeen s'est réfugiée dans le District 13 après avoir détruit à jamais l'arène et les Jeux. Sous le commandement de la Présidente Coin, chef du district, et suivant les conseils de ses amis en qui elle a toute confiance, Katniss déploie ses ailes pour devenir le symbole de la rébellion. Elle va se battre pour sauver Peeta et libérer le pays tout entier, à qui son courage a redonné espoir.",
     "banner": "medias/films/hungergamespt1/hungergamespt1.jpg",
     "IMDb": 6.6,
-    "IMDb_link": "https://www.imdb.com/title/tt1951264/",
+    "IMDb_link": "https://www.imdb.com/title/tt1951265/",
     "year": 2014,
     "genres": [
+      "Dystopian Sci-Fi",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Francis Lawrence"
@@ -249,9 +277,12 @@
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Adventure",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Francis Lawrence"
@@ -277,9 +308,14 @@
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Adventure",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Thriller",
+      "War"
     ],
     "directors": [
       "Francis Lawrence"
@@ -305,9 +341,12 @@
     "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
     "year": 2001,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Time Travel",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Tim Burton"
@@ -333,8 +372,9 @@
     "year": 2011,
     "genres": [
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Rupert Wyatt"
@@ -360,9 +400,12 @@
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
     "year": 2014,
     "genres": [
+      "Dystopian Sci-Fi",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Matt Reeves"
@@ -388,9 +431,16 @@
     "IMDb_link": "https://www.imdb.com/title/tt3450958/",
     "year": 2017,
     "genres": [
+      "Action Epic",
+      "Aventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Sci-Fi Epic",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Matt Reeves"
@@ -416,9 +466,13 @@
     "IMDb_link": "https://www.imdb.com/title/tt11389872/",
     "year": 2024,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Sci-Fi Epic",
       "Action",
-      "Aventure",
-      "Science-fiction"
+      "Adventure",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
     ],
     "directors": [
       "Wes Ball"
@@ -444,9 +498,16 @@
     "IMDB_link": "https://www.imdb.com/title/tt3566834/",
     "year": 2025,
     "genres": [
-      "Aventure",
-      "Comédie",
-      "Science-fiction"
+      "Action Epic",
+      "Adventure Epic",
+      "Fantasy Epic",
+      "High-Concept Comedy",
+      "Quest",
+      "Slapstick",
+      "Survival",
+      "Action",
+      "Adventure",
+      "Comedy"
     ],
     "directors": [
       "Jared Hess"
@@ -472,8 +533,16 @@
     "IMDb_link": "https://www.imdb.com/title/tt13287846/",
     "year": 2023,
     "genres": [
+      "Action Epic",
+      "Costume Drama",
+      "Docudrama",
+      "Epic",
+      "Historical Epic",
+      "Period Drama",
+      "War Epic",
       "Action",
-      "Docudrame"
+      "Adventure",
+      "Biography"
     ],
     "directors": [
       "Ridley Scott"
@@ -497,9 +566,9 @@
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
     "genres": [
-      "Guerre",
-      "Action",
-      "Drame"
+      "Psychological Drama",
+      "Drama",
+      "War"
     ],
     "directors": [
       "Marian Bushan"
@@ -524,7 +593,10 @@
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
     "genres": [
+      "Suspense Mystery",
       "Action",
+      "Mystery",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [
@@ -551,7 +623,11 @@
     "IMDb_link": "https://www.imdb.com/title/tt4046784/",
     "year": 2015,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Adventure",
       "Action",
+      "Adventure",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [
@@ -578,6 +654,8 @@
     "year": 2018,
     "genres": [
       "Action",
+      "Adventure",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [
@@ -603,7 +681,10 @@
     "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
     "year": 2014,
     "genres": [
+      "Artificial Intelligence",
+      "Cyberpunk",
       "Action",
+      "Sci-Fi",
       "Thriller"
     ],
     "directors": [

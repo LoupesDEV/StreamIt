@@ -7,9 +7,11 @@
     "IMDb_link": "https://www.imdb.com/title/tt2661044/",
     "year": 2014,
     "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Drama",
       "Action",
-      "Aventure",
-      "Drame"
+      "Drama",
+      "Sci-Fi"
     ],
     "creators": [
       "Jason Rothenberg"
@@ -544,8 +546,13 @@
     "IMDb_link": "https://www.imdb.com/title/tt7366338/",
     "year": 2019,
     "genres": [
-      "Drame",
-      "Histoire",
+      "Disaster",
+      "Docudrama",
+      "Epic",
+      "Historical Epic",
+      "Period Drama",
+      "Drama",
+      "History",
       "Thriller"
     ],
     "creators": [
@@ -595,11 +602,16 @@
     "IMDb_link": "https://www.imdb.com/title/tt0944947/",
     "year": 2011,
     "genres": [
+      "Action Epic",
+      "Dark Fantasy",
+      "Epic",
+      "Fantasy Epic",
+      "Sword & Sorcery",
+      "Tragedy",
       "Action",
-      "Aventure",
-      "Drame",
-      "Fantastique",
-      "Thriller"
+      "Adventure",
+      "Drama",
+      "Fantasy"
     ],
     "creators": [
       "David Benioff",
@@ -1003,8 +1015,15 @@
     "IMDb_link": "https://www.imdb.com/title/tt3581920/",
     "year": 2023,
     "genres": [
-      "Drame",
-      "Histoire",
+      "Dystopian Sci-Fi",
+      "Quest",
+      "Survival",
+      "Zombie Horror",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Horror",
+      "Sci-Fi",
       "Thriller"
     ],
     "creators": [
@@ -1112,8 +1131,13 @@
     "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
     "year": 2008,
     "genres": [
+      "Drug Crime",
+      "Epic",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Tragedy",
       "Crime",
-      "Drame",
+      "Drama",
       "Thriller"
     ],
     "creators": [
@@ -1456,9 +1480,10 @@
     "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
     "year": 2013,
     "genres": [
+      "Gangster",
+      "Period Drama",
       "Crime",
-      "Drame",
-      "Thriller"
+      "Drama"
     ],
     "creators": [
       "Steven Knight"
@@ -1669,11 +1694,15 @@
     "description": "D'après le roman du même nom de Stephen King, cette émission suit les habitants de Chester's Mill, une petite ville des États-Unis où les événements exceptionnels sont rares. Mais un jour, un dôme invisible apparaît et englobe toute la ville. Les habitants sont pris au piège et ne peuvent plus sortir de la ville, et personne ne peut y entrer. Ils doivent dorénavant se soutenir mutuellement pour traverser cette épreuve, mais l'isolement du monde extérieur mettra à rude épreuve la communauté.",
     "banner": "medias/series/underthedome/underthedome.jpg",
     "IMDb": 6.5,
-    "IMDb_link": "https://www.imdb.com/title/tt1553656//",
+    "IMDb_link": "https://www.imdb.com/title/tt1553656/",
     "year": 2013,
     "genres": [
-      "Drame",
-      "Mystère"
+      "Sci-Fi Epic",
+      "Suspense Mystery",
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
     ],
     "creators": [
       "Brian K. Vaughan"
@@ -1883,6 +1912,189 @@
           "title": "Le Crépuscule du dôme",
           "desc": "Dawn, la nouvelle reine, instaure sa suprématie par la force et annonce à la communauté que son rôle consiste maintenant à les conduire hors du dôme. Joe finalise l'installation de l'améthyste grâce à laquelle il fera tomber le dôme. Barbie comprend que son enfant n'est pas humaine et s'accorde avec Jim et Julia pour la tuer après la chute du dôme.",
           "video": "medias/series/underthedome/3-13.mp4"
+        }
+      ]
+    }
+  },
+  "From": {
+    "title": "From",
+    "description": "Découvrez le mystère d'une ville cauchemardesque dans le centre des États-Unis qui piège tous ceux qui y entrent. Alors que les habitants réticents se battent pour garder un sentiment de normalité et cherchent une issue, ils doivent également survivre aux menaces de la forêt environnante, y compris les créatures terrifiantes qui sortent lorsque le soleil se couche.",
+    "banner": "medias/series/from/from.jpg",
+    "IMDb": 7.8,
+    "IMDb_link": "https://www.imdb.com/title/tt9813792/",
+    "year": 2022,
+    "genres": [
+      "Horreur psychologique",
+      "Horreur surnaturelle",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "creators": [
+      "John Griffin"
+    ],
+    "stars": [
+      "Harold Perrineau",
+      "Catalina Sandino Moreno",
+      "Eion Bailey"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Voyage au bout du jour",
+          "desc": "Le virée en voiture de la famille Matthews prend une horrible tournure lorsqu'ils arrivent dans une petite ville pastorale qu'ils ne peuvent quitter.",
+          "video": "medias/series/from/1-1.mp4"
+        },
+        {
+          "title": "L'état des lieux actuel",
+          "desc": "À Colony House, Tabitha et Julie se heurtent à leur réalité cauchemardesque et, dans la forêt, Jim, Boyd et Kristi peinent à soigner les blessures d'Ethan.",
+          "video": "medias/series/from/1-2.mp4"
+        },
+        {
+          "title": "Le jour du choix",
+          "desc": "La famille Matthews doit choisir laquelle des deux colonies elle souhaite rejoindre. Quant à Boyd (Harold Perrineau), il est confronté à une décision impossible.",
+          "video": "medias/series/from/1-3.mp4"
+        },
+        {
+          "title": "Une pierre et un arbre de passage",
+          "desc": "Julie trouve du réconfort auprès de ses nouveaux amis, Ethan s'aventure dans la forêt avec Victor, tandis que le père Khatri incite Boyd à assumer son rôle de leader.",
+          "video": "medias/series/from/1-4.mp4"
+        },
+        {
+          "title": "Les silhouettes",
+          "desc": "Jim, Tabitha et Ethan posent des questions sur l'endroit où ils se trouvent dans l'espoir que les réponses les mènent chez eux et Jade a du mal à donner un sens à leur situation.",
+          "video": "medias/series/from/1-5.mp4"
+        },
+        {
+          "title": "Le 74e livre",
+          "desc": "Boyd a pour projet de se rendre en forêt, ce qui suscite une réaction inattendue chez Kenny. Tabitha fait une découverte terrifiante qui la conduit sur un chemin unique.",
+          "video": "medias/series/from/1-6.mp4"
+        },
+        {
+          "title": "Toutes les bonnes choses...",
+          "desc": "Le père Khatri explique à Boyd pourquoi il pense que Sara peut être utile. Jim et Tabitha trouvent du réconfort l'un envers l'autre. Colony House célèbre le premier anniversaire de l'arrivée de Fatima avec une fête qui tourne terriblement mal.",
+          "video": "medias/series/from/1-7.mp4"
+        },
+        {
+          "title": "Fenêtres brisées, portes ouvertes",
+          "desc": "À la suite d'un autre décès, Boyd remet en question sa décision de partir; Kenny s'avance et embrasse son nouveau rôle; Jim rallie la ville autour de son idée de construire une tour radio",
+          "video": "medias/series/from/1-8.mp4"
+        },
+        {
+          "title": "Dans la forêt",
+          "desc": "Boyd et Sara s'enfoncent dans la forêt, plus profondément que Boyd ne l'a jamais fait, et Donna s'effondre suite à une tragédie.",
+          "video": "medias/series/from/1-9.mp4"
+        },
+        {
+          "title": "Oh, les endroits où nous irons",
+          "desc": "La tour radio de Jim produit des conséquences qui l'ébranlent totalement. Pendant ce temps, le trou qu'a creusé Tabitha la mène à un endroit qu'elle n'aurait jamais imaginé.",
+          "video": "medias/series/from/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Etrangers en terre inconnue",
+          "desc": "En l'absence du shérif Boyd, Donna et Kenny tentent de gérer le chaos alors qu'un bus rempli de nouveaux arrivants arrive en ville à leur insu. Victor et Tabitha font un voyage effrayant dans le labyrinthe cauchemardesque des tunnels sous la ville.",
+          "video": "medias/series/from/2-1.mp4"
+        },
+        {
+          "title": "La gentillesse des etrangers",
+          "desc": "Les habitants et les nouveaux arrivants attendent le lever du soleil durant une nuit tendue. Alors que la peur s'infiltre dans les décombres de la maison des Matthews, Jim et Tom s'efforcent de faire taire un passager de bus en panique.",
+          "video": "medias/series/from/2-2.mp4"
+        },
+        {
+          "title": "Au bout du rouleau",
+          "desc": "Kenny et Ellis font une découverte macabre dans la forêt. Boyd a du mal à accepter ce qui lui arrive.",
+          "video": "medias/series/from/2-3.mp4"
+        },
+        {
+          "title": "Par là",
+          "desc": "L'état de Boyd est de plus en plus alarmant, et le retour en ville de Sara le met dans une position difficile. Jim fait part d'une nouvelle théorie troublante au sujet de la ville.",
+          "video": "medias/series/from/2-4.mp4"
+        },
+        {
+          "title": "La Berceuse",
+          "desc": "La nouvelle du retour de Sara en ville se répand, elle doit prendre le taureau par les cornes. Victor et Jade passent un accord improbable.",
+          "video": "medias/series/from/2-5.mp4"
+        },
+        {
+          "title": "Pas de deux",
+          "desc": "La tension monte à Colony House lorsque la nouvelle de la pénurie alimentaire à venir se répand. Une nuit à la clinique prend une tournure terrifiante.",
+          "video": "medias/series/from/2-6.mp4"
+        },
+        {
+          "title": "Le ventre de la bête",
+          "desc": "Boyd et Kristi cherchent à capitaliser sur la mort apparente de la créature cauchemardesque. Jim trouve un allié improbable chez le versatile Randall.",
+          "video": "medias/series/from/2-7.mp4"
+        },
+        {
+          "title": "Forêt pour les arbres",
+          "desc": "Dans leur quête de la vérité sur la ville, Jim et Randall élaborent un plan dangereux. Pendant ce temps, une nouvelle forme de terreur se prépare.",
+          "video": "medias/series/from/2-8.mp4"
+        },
+        {
+          "title": "Boule de feu magique",
+          "desc": "La panique se répand dans la ville alors que les habitants font face à une nouvelle menace effrayante pour leur survie. Jim se rend compte de l'ampleur de l'erreur qu'il a commise en enrôlant Randall dans sa cause.",
+          "video": "medias/series/from/2-9.mp4"
+        },
+        {
+          "title": "Il était une fois…",
+          "desc": "Boyd craint d'être finalement à court de réponses, alors que les habitants de la ville se préparent pour la fin. Tabitha s'accroche à la conviction que les enfants pourraient être la clé de leur salut.",
+          "video": "medias/series/from/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Rupture",
+          "desc": "Boyd sent la ville lui échapper à mesure que le temps se refroidit et que les habitants sont de plus en plus désespérés.",
+          "video": "medias/series/from/3-1.mp4"
+        },
+        {
+          "title": "Quand on partira",
+          "desc": "Boyd s'efforce de trouver un cap à suivre tandis que la ville fait ses adieux à l'un des habitants. La santé de Fatima se dégrade, et Tabitha trouve de l'aide auprès d'un drôle d'allié.",
+          "video": "medias/series/from/3-2.mp4"
+        },
+        {
+          "title": "Le piège à souris",
+          "desc": "Kenny mène un groupe dans la forêt à la recherche de nourriture, tandis que Donna et Ellis tentent de dissuader Boyd d'appliquer un dangereux plan. Tabitha fait une découverte hallucinante.",
+          "video": "medias/series/from/3-3.mp4"
+        },
+        {
+          "title": "Aller-retour",
+          "desc": "Quand de nouveaux arrivants débarquent en ville à la tombée de la nuit, Boyd doit prendre une décision difficile. Victor exhume des souvenirs du passé dans l'espoir de trouver des réponses.",
+          "video": "medias/series/from/3-4.mp4"
+        },
+        {
+          "title": "La lumière du jour",
+          "desc": "Victor voit son passé douloureusement ressurgir. Boyd s'efforce d'assurer la sécurité de la ville alors que les habitants commencent à remettre en question son jugement.",
+          "video": "medias/series/from/3-5.mp4"
+        },
+        {
+          "title": "Tissu cicatriciel",
+          "desc": "Fatima et Ellis prennent une importante décision concernant sa grossesse tandis que Boyd craint pour sa famille. Les esprits s'échauffent chez les Matthews. Randall s'ouvre à Marielle.",
+          "video": "medias/series/from/3-6.mp4"
+        },
+        {
+          "title": "Les vies fragiles",
+          "desc": "Les limites commencent à s'effriter alors que les inquiétudes concernant la grossesse de Fatima s'intensifient ; Jade suit une piste dans la forêt ; Julie et Randall recherchent un peu de normalité.",
+          "video": "medias/series/from/3-7.mp4"
+        },
+        {
+          "title": "Seuils",
+          "desc": "Au lendemain d'une tragédie, les accusations fusent et les vérités éclatent au grand jour. Victor s'efforce de retrouver des souvenirs enfouis depuis longtemps dans le passé de la ville. Julie et Ethan cherchent des réponses aux mystérieuses ruines dans les bois.",
+          "video": "medias/series/from/3-8.mp4"
+        },
+        {
+          "title": "Révélations, chapitre 1",
+          "desc": "Les tensions sont à leur comble lorsque les habitants apprennent que l'un des leurs a disparu.",
+          "video": "medias/series/from/3-9.mp4"
+        },
+        {
+          "title": "Révélations, chapitre 2",
+          "desc": "Boyd est poussé dans ses derniers retranchements car le temps est compté pour quelqu'un qu'il aime. Pendant ce temps, le parcours improbable de Tabitha prend une tournure surprenante.",
+          "video": "medias/series/from/3-10.mp4"
         }
       ]
     }
