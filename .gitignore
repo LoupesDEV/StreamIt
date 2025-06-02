@@ -113,3 +113,6 @@ fabric.properties
 # Personal unwanted files
 *.mp4
 *.part
+*.mkv
+*.avi
+*.mov
