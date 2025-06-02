@@ -12,15 +12,9 @@ function handleErrorAndRedirect(message) {
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 
 document.addEventListener("keydown", (e) => {
-    if (
-        e.key === "F12" ||
-        (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
-        (e.ctrlKey && e.key.toLowerCase() === "u")
-    ) {
+    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") || (e.ctrlKey && e.key.toLowerCase() === "u")) {
         e.preventDefault();
-        handleErrorAndRedirect(
-            "Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !"
-        );
+        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
     }
 });
 
@@ -28,9 +22,7 @@ document.addEventListener("keydown", (e) => {
     const start = Date.now();
     debugger;
     if (Date.now() - start > 100) {
-        handleErrorAndRedirect(
-            "Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !"
-        );
+        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
     }
     setTimeout(detectDevTools, 1000);
 })();

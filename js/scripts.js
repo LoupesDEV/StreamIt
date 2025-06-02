@@ -215,18 +215,15 @@ function createModalContent(item, type) {
     const stars = item.stars ? `<p><strong>Acteurs:</strong> ${item.stars.join(', ')}</p>` : '';
     const creators = item.creators ? `<p><strong>Créateurs:</strong> ${item.creators.join(', ')}</p>` : '';
 
-    const watchButton = (type === 'film' && item.video) ?
-        `<button class="btn btn-primary" onclick="playVideo('${item.video}')">
+    const watchButton = (type === 'film' && item.video) ? `<button class="btn btn-primary" onclick="playVideo('${item.video}')">
       <i class="fas fa-play"></i> Regarder
     </button>` : '';
 
-    const trailerButton = item.trailer ?
-        `<a href="${item.trailer}" target="_blank" class="btn btn-secondary">
+    const trailerButton = item.trailer ? `<a href="${item.trailer}" target="_blank" class="btn btn-secondary">
       <i class="fas fa-external-link-alt"></i> Bande-annonce
     </a>` : '';
 
-    const imdbButton = item.IMDb_link ?
-        `<a href="${item.IMDb_link}" target="_blank" class="btn btn-secondary">
+    const imdbButton = item.IMDb_link ? `<a href="${item.IMDb_link}" target="_blank" class="btn btn-secondary">
       <i class="fas fa-external-link-alt"></i> IMDb
     </a>` : '';
 
@@ -272,11 +269,9 @@ function setupSeriesModal(series) {
     <div class="seasons-section">
       <h3>Saisons et Épisodes</h3>
       <div class="seasons-nav">
-        ${seasons.map((season, index) =>
-        `<button class="season-btn ${index === 0 ? 'active' : ''}" data-season="${season}">
+        ${seasons.map((season, index) => `<button class="season-btn ${index === 0 ? 'active' : ''}" data-season="${season}">
             Saison ${season}
-          </button>`
-    ).join('')}
+          </button>`).join('')}
       </div>
       <div id="episodesContainer"></div>
     </div>
@@ -347,21 +342,9 @@ function handleSearch() {
         return;
     }
 
-    const filmResults = Object.values(filmsData).filter(item =>
-        item.title.toLowerCase().includes(query) ||
-        (item.description && item.description.toLowerCase().includes(query)) ||
-        (item.genres && item.genres.some(genre => genre.toLowerCase().includes(query))) ||
-        (item.directors && item.directors.some(director => director.toLowerCase().includes(query))) ||
-        (item.stars && item.stars.some(star => star.toLowerCase().includes(query)))
-    );
+    const filmResults = Object.values(filmsData).filter(item => item.title.toLowerCase().includes(query) || (item.description && item.description.toLowerCase().includes(query)) || (item.genres && item.genres.some(genre => genre.toLowerCase().includes(query))) || (item.directors && item.directors.some(director => director.toLowerCase().includes(query))) || (item.stars && item.stars.some(star => star.toLowerCase().includes(query))));
 
-    const seriesResults = Object.values(seriesData).filter(item =>
-        item.title.toLowerCase().includes(query) ||
-        (item.description && item.description.toLowerCase().includes(query)) ||
-        (item.genres && item.genres.some(genre => genre.toLowerCase().includes(query))) ||
-        (item.creators && item.creators.some(creator => creator.toLowerCase().includes(query))) ||
-        (item.stars && item.stars.some(star => star.toLowerCase().includes(query)))
-    );
+    const seriesResults = Object.values(seriesData).filter(item => item.title.toLowerCase().includes(query) || (item.description && item.description.toLowerCase().includes(query)) || (item.genres && item.genres.some(genre => genre.toLowerCase().includes(query))) || (item.creators && item.creators.some(creator => creator.toLowerCase().includes(query))) || (item.stars && item.stars.some(star => star.toLowerCase().includes(query))));
 
     const allResults = [...filmResults, ...seriesResults];
 
@@ -589,3 +572,26 @@ function resetSeriesFilters() {
     document.querySelector('#series .rating-value').textContent = '0.0';
     if (typeof updateSeriesGrid === 'function') updateSeriesGrid();
 }
+
+function handleErrorAndRedirect(message) {
+    localStorage.setItem("streamit_404_error", message);
+    window.location.href = "error.html";
+}
+
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") || (e.ctrlKey && e.key.toLowerCase() === "u")) {
+        e.preventDefault();
+        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
+    }
+});
+
+(function detectDevTools() {
+    const start = Date.now();
+    debugger;
+    if (Date.now() - start > 100) {
+        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
+    }
+    setTimeout(detectDevTools, 1000);
+})();
