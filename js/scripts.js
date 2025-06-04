@@ -9,6 +9,42 @@ const modal = document.getElementById('modal');
 const videoModal = document.getElementById('videoModal');
 const videoPlayer = document.getElementById('videoPlayer');
 
+function getWatchedContent() {
+    return JSON.parse(localStorage.getItem('watchedContent') || '{"films":{},"series":{}}');
+}
+
+function setWatchedContent(data) {
+    localStorage.setItem('watchedContent', JSON.stringify(data));
+}
+
+function markFilmWatched(title, watched = true, time = 0) {
+    const data = getWatchedContent();
+    if (!data.films[title]) data.films[title] = {};
+    data.films[title].watched = watched;
+    data.films[title].time = time;
+    setWatchedContent(data);
+}
+
+function getFilmWatchData(title) {
+    const data = getWatchedContent();
+    return data.films[title] || {watched: false, time: 0};
+}
+
+function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time = 0) {
+    const data = getWatchedContent();
+    if (!data.series[seriesTitle]) data.series[seriesTitle] = {};
+    if (!data.series[seriesTitle][season]) data.series[seriesTitle][season] = {};
+    data.series[seriesTitle][season][epIndex] = {watched, time};
+    setWatchedContent(data);
+}
+
+function getEpisodeWatchData(seriesTitle, season, epIndex) {
+    const data = getWatchedContent();
+    return (data.series[seriesTitle] && data.series[seriesTitle][season] && data.series[seriesTitle][season][epIndex]) || {
+        watched: false, time: 0
+    };
+}
+
 function escapeForHTML(str) {
     return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 }
@@ -107,6 +143,12 @@ function setupEventListeners() {
             closeModals();
         }
     });
+
+    if (videoPlayer) {
+        videoPlayer.addEventListener('timeupdate', handleVideoTimeUpdate);
+        videoPlayer.addEventListener('ended', handleVideoEnded);
+        videoPlayer.addEventListener('pause', handleVideoPause);
+    }
 }
 
 function showSection(sectionName) {
@@ -178,10 +220,19 @@ function createContentCard(item) {
     const rating = item.IMDb ? `<div class="card-rating"><i class="fas fa-star"></i> ${item.IMDb}</div>` : '';
     const year = item.year ? `<span class="card-year">${item.year}</span>` : '';
 
+    let watchedBadge = '';
+    if (getItemType(item) === 'film') {
+        const watchData = getFilmWatchData(item.title);
+        if (watchData.watched) {
+            watchedBadge = `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i></span>`;
+        }
+    }
+
     return `
       <div class="content-card" onclick="openModal('${escapeForHTML(item.title)}', '${getItemType(item)}')">
         <div class="card-image">
           ${item.banner ? `<img src="${item.banner}" alt="${item.title}" onerror="this.style.display='none'">` : '<i class="fas fa-film"></i>'}
+          ${watchedBadge}
         </div>
         <div class="card-content">
           <h3 class="card-title">${item.title}</h3>
@@ -199,6 +250,8 @@ function getItemType(item) {
     return item.seasons ? 'series' : 'film';
 }
 
+let currentVideoContext = null;
+
 function openModal(title, type) {
     const item = type === 'film' ? filmsData[title] : seriesData[title];
     if (!item) return;
@@ -211,6 +264,7 @@ function openModal(title, type) {
     if (type === 'series' && item.seasons) {
         setupSeriesModal(item);
     }
+    currentVideoContext = null;
 }
 
 function createModalContent(item, type) {
@@ -222,7 +276,15 @@ function createModalContent(item, type) {
     const stars = item.stars ? `<p><strong>Acteurs:</strong> ${item.stars.join(', ')}</p>` : '';
     const creators = item.creators ? `<p><strong>Créateurs:</strong> ${item.creators.join(', ')}</p>` : '';
 
-    const watchButton = (type === 'film' && item.video) ? `<button class="btn btn-primary" onclick="playVideo('${item.video}')">
+    let watchedInfo = '';
+    if (type === 'film') {
+        const watchData = getFilmWatchData(item.title);
+        if (watchData.watched) {
+            watchedInfo = `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i> Vu</span>`;
+        }
+    }
+
+    const watchButton = (type === 'film' && item.video) ? `<button class="btn btn-primary" onclick="playVideo('${item.video}', 'film', '${escapeForHTML(item.title)}')">
       <i class="fas fa-play"></i> Regarder
     </button>` : '';
 
@@ -241,7 +303,7 @@ function createModalContent(item, type) {
           ${item.banner ? `<img src="${item.banner}" alt="${item.title}" class="modal-poster">` : '<div class="modal-poster" style="display: flex; align-items: center; justify-content: center; background-color: var(--bg-card);"><i class="fas fa-film" style="font-size: 3rem; color: var(--text-secondary);"></i></div>'}
         </div>
         <div class="modal-info">
-          <h2 class="modal-title">${item.title}</h2>
+          <h2 class="modal-title">${item.title} ${watchedInfo}</h2>
           <div class="modal-meta">
             ${rating}
             ${year}
@@ -305,21 +367,26 @@ function displayEpisodes(series, seasonNumber) {
         return;
     }
 
-    episodesContainer.innerHTML = episodes.map((episode, index) => `
-    <div class="episode-item" onclick="playVideo('${episode.video}')">
-      <div class="episode-number">E${index + 1}</div>
-      <div class="episode-info">
-        <div class="episode-title">${episode.title}</div>
-        <div class="episode-description">${episode.desc}</div>
-      </div>
-      <div style="display: flex; align-items: center;">
-        <i class="fas fa-play" style="color: var(--accent);"></i>
-      </div>
-    </div>
-  `).join('');
+    episodesContainer.innerHTML = episodes.map((episode, index) => {
+        const watchData = getEpisodeWatchData(series.title, seasonNumber, index);
+        const watchedClass = watchData.watched ? 'watched-episode' : '';
+        const watchedBadge = watchData.watched ? `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i></span>` : '';
+        return `
+        <div class="episode-item ${watchedClass}" onclick="playVideo('${episode.video}', 'series', '${escapeForHTML(series.title)}', '${seasonNumber}', ${index})">
+          <div class="episode-number">E${index + 1}</div>
+          <div class="episode-info">
+            <div class="episode-title">${episode.title} ${watchedBadge}</div>
+            <div class="episode-description">${episode.desc}</div>
+          </div>
+          <div style="display: flex; align-items: center;">
+            <i class="fas fa-play" style="color: var(--accent);"></i>
+          </div>
+        </div>
+      `;
+    }).join('');
 }
 
-function playVideo(videoPath) {
+function playVideo(videoPath, type, title, season, epIndex) {
     if (!videoPath) {
         alert('Vidéo non disponible');
         return;
@@ -328,6 +395,66 @@ function playVideo(videoPath) {
     videoPlayer.src = videoPath;
     videoModal.classList.add('active');
     modal.classList.remove('active');
+    document.body.style.overflow = 'hidden';
+
+    let startTime = 0;
+    if (type === 'film') {
+        const watchData = getFilmWatchData(title);
+        startTime = watchData.time || 0;
+        currentVideoContext = {type, title};
+    } else if (type === 'series') {
+        const watchData = getEpisodeWatchData(title, season, epIndex);
+        startTime = watchData.time || 0;
+        currentVideoContext = {type, title, season, epIndex};
+    }
+    videoPlayer.currentTime = startTime;
+    setTimeout(() => {
+        videoPlayer.currentTime = startTime;
+    }, 100);
+
+    videoPlayer.play();
+}
+
+function handleVideoTimeUpdate() {
+    if (!currentVideoContext) return;
+    const {type, title, season, epIndex} = currentVideoContext;
+    const duration = videoPlayer.duration || 1;
+    const current = videoPlayer.currentTime;
+
+    if (type === 'film') {
+        markFilmWatched(title, false, current);
+    } else if (type === 'series') {
+        markEpisodeWatched(title, season, epIndex, false, current);
+    }
+
+    if (current / duration >= 0.9) {
+        if (type === 'film') {
+            markFilmWatched(title, true, 0);
+        } else if (type === 'series') {
+            markEpisodeWatched(title, season, epIndex, true, 0);
+        }
+    }
+}
+
+function handleVideoEnded() {
+    if (!currentVideoContext) return;
+    const {type, title, season, epIndex} = currentVideoContext;
+    if (type === 'film') {
+        markFilmWatched(title, true, 0);
+    } else if (type === 'series') {
+        markEpisodeWatched(title, season, epIndex, true, 0);
+    }
+}
+
+function handleVideoPause() {
+    if (!currentVideoContext) return;
+    const {type, title, season, epIndex} = currentVideoContext;
+    const current = videoPlayer.currentTime;
+    if (type === 'film') {
+        markFilmWatched(title, false, current);
+    } else if (type === 'series') {
+        markEpisodeWatched(title, season, epIndex, false, current);
+    }
 }
 
 function closeModals() {
@@ -339,6 +466,7 @@ function closeModals() {
         videoPlayer.pause();
         videoPlayer.src = '';
     }
+    currentVideoContext = null;
 }
 
 function handleSearch() {
@@ -457,7 +585,7 @@ function populateCreatorFilters() {
 function populateSelect(selectId, options) {
     const select = document.getElementById(selectId);
     if (!select) return;
-
+    select.innerHTML = '<option value="">--</option>';
     options.forEach(option => {
         const optionElement = document.createElement('option');
         optionElement.value = option;
