@@ -1,171 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link href="medias/logo.png" rel="icon"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="medias/logo.png" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-<header class="header">
-    <div class="container">
+  <body>
+    <header class="header">
+      <div class="container">
         <div class="header-content">
-            <div class="logo">
-                <h1>StreamIt</h1>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#" class="nav-link active" data-section="home">Accueil</a></li>
-                    <li><a href="#" class="nav-link" data-section="films">Films</a></li>
-                    <li><a href="#" class="nav-link" data-section="series">Séries</a></li>
-                    <li><a href="#" class="nav-link" data-section="stats">Statistiques</a></li>
-                </ul>
-            </nav>
-            <div class="search-container">
-                <input type="text" id="searchInput" class="search-input" placeholder="Rechercher...">
-                <i class="fas fa-search search-icon"></i>
-            </div>
+          <div class="logo">
+            <h1>StreamIt</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="nav-link active" data-section="home"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="films">Films</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="series">Séries</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="stats"
+                  >Statistiques</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="search-container">
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="Rechercher..."
+            />
+            <i class="fas fa-search search-icon"></i>
+          </div>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<main class="main">
-    <section id="home" class="section active">
+    <main class="main">
+      <section id="home" class="section active">
         <div class="container">
-            <div class="hero">
-                <h2>Bienvenue sur StreamIt</h2>
-                <p>Découvrez votre collection de films et séries préférés</p>
-            </div>
+          <div class="hero">
+            <h2>Bienvenue sur StreamIt</h2>
+            <p>Découvrez votre collection de films et séries préférés</p>
+          </div>
 
-            <div class="content-section">
-                <h3>Films populaires</h3>
-                <div class="content-grid" id="popularFilms"></div>
-            </div>
+          <div class="content-section">
+            <h3>Films populaires</h3>
+            <div class="content-grid" id="popularFilms"></div>
+          </div>
 
-            <div class="content-section">
-                <h3>Séries populaires</h3>
-                <div class="content-grid" id="popularSeries"></div>
-            </div>
+          <div class="content-section">
+            <h3>Séries populaires</h3>
+            <div class="content-grid" id="popularSeries"></div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="films" class="section">
+      <section id="films" class="section">
         <div class="container">
-            <h2>Films</h2>
-            <div class="filters">
-                <div class="filter-row">
-                    <select id="filmGenreFilter" class="filter-select">
-                        <option value="">Tous les genres</option>
-                    </select>
-                    <select id="filmYearFilter" class="filter-select">
-                        <option value="">Toutes les années</option>
-                    </select>
-                    <select id="filmDirectorFilter" class="filter-select">
-                        <option value="">Tous les réalisateurs</option>
-                    </select>
-                </div>
-                <div class="filter-row">
-                    <select id="filmActorFilter" class="filter-select">
-                        <option value="">Tous les acteurs</option>
-                    </select>
-                    <div class="rating-filter">
-                        <label for="filmRatingFilter">Note IMDb min:</label>
-                        <input type="range" id="filmRatingFilter" class="rating-slider" min="0" max="10" step="0.1"
-                               value="0">
-                        <span class="rating-value">0.0</span>
-                    </div>
-                    <button class="btn btn-secondary filter-reset" onclick="resetFilmFilters()">
-                        <i class="fas fa-refresh"></i> Réinitialiser
-                    </button>
-                </div>
+          <h2>Films</h2>
+          <div class="filters">
+            <div class="filter-row">
+              <select id="filmGenreFilter" class="filter-select">
+                <option value="">Tous les genres</option>
+              </select>
+              <select id="filmYearFilter" class="filter-select">
+                <option value="">Toutes les années</option>
+              </select>
+              <select id="filmDirectorFilter" class="filter-select">
+                <option value="">Tous les réalisateurs</option>
+              </select>
             </div>
-            <div class="content-grid" id="filmsGrid"></div>
-        </div>
-    </section>
-
-    <section id="series" class="section">
-        <div class="container">
-            <h2>Séries</h2>
-            <div class="filters">
-                <div class="filter-row">
-                    <select id="seriesGenreFilter" class="filter-select">
-                        <option value="">Tous les genres</option>
-                    </select>
-                    <select id="seriesYearFilter" class="filter-select">
-                        <option value="">Toutes les années</option>
-                    </select>
-                    <select id="seriesCreatorFilter" class="filter-select">
-                        <option value="">Tous les créateurs</option>
-                    </select>
-                </div>
-                <div class="filter-row">
-                    <select id="seriesActorFilter" class="filter-select">
-                        <option value="">Tous les acteurs</option>
-                    </select>
-                    <div class="rating-filter">
-                        <label for="seriesRatingFilter">Note IMDb min:</label>
-                        <input type="range" id="seriesRatingFilter" class="rating-slider" min="0" max="10" step="0.1"
-                               value="0">
-                        <span class="rating-value">0.0</span>
-                    </div>
-                    <button class="btn btn-secondary filter-reset" onclick="resetSeriesFilters()">
-                        <i class="fas fa-refresh"></i> Réinitialiser
-                    </button>
-                </div>
+            <div class="filter-row">
+              <select id="filmActorFilter" class="filter-select">
+                <option value="">Tous les acteurs</option>
+              </select>
+              <div class="rating-filter">
+                <label for="filmRatingFilter">Note IMDb min:</label>
+                <input
+                  type="range"
+                  id="filmRatingFilter"
+                  class="rating-slider"
+                  min="0"
+                  max="10"
+                  step="0.1"
+                  value="0"
+                />
+                <span class="rating-value">0.0</span>
+              </div>
+              <button
+                class="btn btn-secondary filter-reset"
+                onclick="resetFilmFilters()"
+              >
+                <i class="fas fa-refresh"></i> Réinitialiser
+              </button>
             </div>
-            <div class="content-grid" id="seriesGrid"></div>
+          </div>
+          <div class="content-grid" id="filmsGrid"></div>
         </div>
-    </section>
+      </section>
 
-    <section id="stats" class="section">
+      <section id="series" class="section">
         <div class="container">
-            <div id="statsContent"></div>
-
-            <div class="export-import-group">
-                <button class="btn btn-primary" id="exportWatchedBtn">
-                    <i class="fas fa-download"></i> Exporter ma progression
-                </button>
-                <label class="btn btn-secondary" style="cursor:pointer;">
-                    <i class="fas fa-upload"></i> Importer ma progression
-                    <input type="file" id="importWatchedInput" accept=".json" style="display:none;">
-                </label>
+          <h2>Séries</h2>
+          <div class="filters">
+            <div class="filter-row">
+              <select id="seriesGenreFilter" class="filter-select">
+                <option value="">Tous les genres</option>
+              </select>
+              <select id="seriesYearFilter" class="filter-select">
+                <option value="">Toutes les années</option>
+              </select>
+              <select id="seriesCreatorFilter" class="filter-select">
+                <option value="">Tous les créateurs</option>
+              </select>
             </div>
+            <div class="filter-row">
+              <select id="seriesActorFilter" class="filter-select">
+                <option value="">Tous les acteurs</option>
+              </select>
+              <div class="rating-filter">
+                <label for="seriesRatingFilter">Note IMDb min:</label>
+                <input
+                  type="range"
+                  id="seriesRatingFilter"
+                  class="rating-slider"
+                  min="0"
+                  max="10"
+                  step="0.1"
+                  value="0"
+                />
+                <span class="rating-value">0.0</span>
+              </div>
+              <button
+                class="btn btn-secondary filter-reset"
+                onclick="resetSeriesFilters()"
+              >
+                <i class="fas fa-refresh"></i> Réinitialiser
+              </button>
+            </div>
+          </div>
+          <div class="content-grid" id="seriesGrid"></div>
         </div>
-    </section>
+      </section>
 
-    <section id="search" class="section">
+      <section id="stats" class="section">
         <div class="container">
-            <h2>Résultats de recherche</h2>
-            <div class="content-grid" id="searchResults"></div>
+          <div id="statsContent"></div>
+          <div class="export-import-group">
+            <button class="btn btn-primary" id="exportWatchedBtn">
+              <i class="fas fa-download"></i> Exporter ma progression
+            </button>
+            <label class="btn btn-secondary" style="cursor: pointer">
+              <i class="fas fa-upload"></i> Importer
+              <input type="file" id="importWatchedInput" accept=".json" />
+            </label>
+          </div>
         </div>
-    </section>
-</main>
+      </section>
 
-<div id="modal" class="modal">
-    <div class="modal-content">
+      <section id="search" class="section">
+        <div class="container">
+          <h2>Résultats de recherche</h2>
+          <div class="content-grid" id="searchResults"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
         <span class="close-btn">&times;</span>
         <div id="modalBody"></div>
+      </div>
     </div>
-</div>
 
-<div id="videoModal" class="modal">
-    <div class="modal-content video-modal-content">
+    <div id="videoModal" class="modal">
+      <div class="modal-content video-modal-content">
         <span class="close-btn video-close">&times;</span>
         <div class="video-container">
-            <video id="videoPlayer" controls>
-                <source src="" type="video/mp4">
-                Votre navigateur ne supporte pas la lecture vidéo.
-            </video>
+          <video id="videoPlayer" controls>
+            <source src="" type="video/mp4" />
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
         </div>
+      </div>
     </div>
-</div>
 
-<script src="js/scripts.js"></script>
-</body>
-
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
