@@ -57,6 +57,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples :
 - **Navigation intuitive** 🧭 : Passez d’un contenu à l’autre ou revenez à l’accueil en toute simplicité grâce à une interface fluide et ergonomique.
 - **Design adaptatif** 📱💻 : Profitez d’une expérience optimale sur tous vos appareils (ordinateur, tablette, mobile) grâce à une mise en page responsive.
 - **Ajout simplifié de contenus** 📝 : Enrichissez votre bibliothèque en quelques clics via des formulaires dédiés pour l’ajout de nouveaux films ou séries.
+- **Import/Export des informations de visionnage** 🔄 : Exportez ou importez facilement l’historique de visionnage, les vues, les timestamps et autres données pour migrer ou synchroniser vos informations entre différents appareils.
 
 # Démo
 
