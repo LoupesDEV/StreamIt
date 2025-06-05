@@ -344,6 +344,7 @@ body {
     line-height: 1.3;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -417,6 +418,53 @@ body {
 .filter-select:hover {
     border-color: var(--border-light);
     background-color: var(--bg-hover);
+}
+
+.export-import-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.export-import-group .btn {
+    min-width: 180px;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 0.85rem 1.5rem;
+    border-radius: var(--border-radius-large);
+    box-shadow: 0 2px 8px rgba(var(--accent-rgb), 0.10);
+    transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+}
+
+.export-import-group .btn-primary {
+    background: var(--gradient-primary);
+    color: #fff;
+    border: 1px solid var(--accent);
+}
+
+.export-import-group .btn-primary:hover {
+    background: var(--gradient-hover);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(var(--accent-rgb), 0.18);
+}
+
+.export-import-group .btn-secondary {
+    background: var(--bg-card);
+    color: var(--accent);
+    border: 1px solid var(--border);
+}
+
+.export-import-group .btn-secondary:hover {
+    background: var(--border);
+    color: #fff;
+    border-color: var(--accent);
+}
+
+.export-import-group input[type="file"] {
+    display: none;
 }
 
 .rating-filter {
