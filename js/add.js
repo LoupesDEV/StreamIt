@@ -1,8 +1,8 @@
-const typeSelect = document.getElementById("type");
-const filmFields = document.getElementById("filmFields");
-const seriesFields = document.getElementById("seriesFields");
-const seasonsInput = document.getElementById("seasons");
-const episodesContainer = document.getElementById("episodesContainer");
+const typeSelect = document.getElementById("type-add");
+const filmFields = document.getElementById("filmFields-add");
+const seriesFields = document.getElementById("seriesFields-add");
+const seasonsInput = document.getElementById("seasons-add");
+const episodesContainer = document.getElementById("episodesContainer-add");
 
 function syntaxHighlight(json) {
     if (typeof json != "string") {
@@ -61,22 +61,22 @@ seasonsInput && seasonsInput.addEventListener("input", function () {
     if (isNaN(nbSeasons) || nbSeasons < 1) return;
     for (let s = 1; s <= nbSeasons; s++) {
         const seasonDiv = document.createElement("div");
-        seasonDiv.className = "season-block";
+        seasonDiv.className = "season-block-add";
         seasonDiv.innerHTML = `
             <h4>Saison ${s}</h4>
             <label>Nombre d'épisodes :</label>
-            <input type="number" min="1" class="episodesCount" data-season="${s}" /><br /><br />
-            <div class="episodesFields" id="episodesFields${s}"></div>
+            <input type="number" min="1" class="episodesCount-add" data-season="${s}" /><br /><br />
+            <div class="add-episodesFields" id="add-episodesFields${s}"></div>
           `;
         episodesContainer.appendChild(seasonDiv);
     }
 
-    document.querySelectorAll(".episodesCount").forEach((input) => {
+    document.querySelectorAll(".episodesCount-add").forEach((input) => {
         input.addEventListener("input", function () {
             const seasonNum = parseInt(this.getAttribute("data-season"), 10);
             if (isNaN(seasonNum) || seasonNum < 1) return;
             const count = parseInt(this.value, 10);
-            const fieldsDiv = document.getElementById(`episodesFields${seasonNum}`);
+            const fieldsDiv = document.getElementById(`add-episodesFields${seasonNum}`);
             fieldsDiv.innerHTML = "";
             if (isNaN(count) || count < 1) return;
             for (let e = 1; e <= count; e++) {
@@ -111,33 +111,33 @@ seasonsInput && seasonsInput.addEventListener("input", function () {
 
 document.getElementById("addForm").addEventListener("submit", function (event) {
     event.preventDefault();
-    const folder = document.getElementById("folder").value;
-    const title = document.getElementById("title").value;
-    const type = document.getElementById("type").value;
-    const year = document.getElementById("year").value;
-    const genres = document.getElementById("genres").value;
-    const trailer = document.getElementById("trailer").value;
-    const imdb = document.getElementById("imdb").value;
-    const note = document.getElementById("note").value;
-    const desc = document.getElementById("description").value;
+    const folder = document.getElementById("folder-add").value;
+    const title = document.getElementById("title-add").value;
+    const type = document.getElementById("type-add").value;
+    const year = document.getElementById("year-add").value;
+    const genres = document.getElementById("genres-add").value;
+    const trailer = document.getElementById("trailer-add").value;
+    const imdb = document.getElementById("imdb-add").value;
+    const note = document.getElementById("note-add").value;
+    const desc = document.getElementById("description-add").value;
 
     let data = {
         folder, title, type, year, genres, trailer, imdb, note, description: desc,
     };
 
     if (type === "film") {
-        data.directors = document.getElementById("directors").value;
-        data.writers = document.getElementById("writers").value;
-        data.stars = document.getElementById("stars").value;
+        data.directors = document.getElementById("directors-add").value;
+        data.writers = document.getElementById("writers-add").value;
+        data.stars = document.getElementById("stars-add").value;
     } else if (type === "serie") {
-        data.directors = document.getElementById("directorsSerie").value;
-        data.writers = document.getElementById("writersSerie").value;
-        data.stars = document.getElementById("starsSerie").value;
+        data.directors = document.getElementById("directorsSerie-add").value;
+        data.writers = document.getElementById("writersSerie-add").value;
+        data.stars = document.getElementById("starsSerie-add").value;
         data.seasons = [];
-        const nbSeasons = parseInt(document.getElementById("seasons").value, 10);
+        const nbSeasons = parseInt(document.getElementById("seasons-add").value, 10);
         for (let s = 1; s <= nbSeasons; s++) {
             const season = {episodes: []};
-            const episodesCountInput = document.querySelector(`.episodesCount[data-season="${s}"]`);
+            const episodesCountInput = document.querySelector(`.episodesCount-add[data-season="${s}"]`);
             if (!episodesCountInput) continue;
             const nbEpisodes = parseInt(episodesCountInput.value, 10);
             for (let e = 1; e <= nbEpisodes; e++) {
@@ -190,8 +190,8 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
         };
     }
 
-    const jsonOutput = document.getElementById("jsonOutput");
-    const jsonResultDiv = document.getElementById("json-result");
+    const jsonOutput = document.getElementById("jsonOutput-add");
+    const jsonResultDiv = document.getElementById("json-result-add");
     if (jsonOutput) {
         const innerJson = getInnerJsonString(formatted);
         jsonOutput.innerHTML = syntaxHighlight(innerJson);
@@ -201,7 +201,7 @@ document.getElementById("addForm").addEventListener("submit", function (event) {
         }
     }
 
-    const copyBtn = document.getElementById("copyButton");
+    const copyBtn = document.getElementById("copyButton-add");
     if (copyBtn && jsonOutput) {
         copyBtn.onclick = function () {
             navigator.clipboard.writeText(jsonOutput.textContent);

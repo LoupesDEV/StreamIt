@@ -183,60 +183,60 @@
     <section id="add" class="section">
         <div class="container">
             <form id="addForm">
-                <label for="folder">Nom du dossier :</label>
-                <input type="text" id="folder" name="folder" required/><br/><br/>
+                <label for="folder-add">Nom du dossier :</label>
+                <input type="text" id="folder-add" name="folder" required/><br/><br/>
 
-                <label for="title">Titre :</label>
-                <input type="text" id="title" name="title" required/><br/><br/>
+                <label for="title-add">Titre :</label>
+                <input type="text" id="title-add" name="title" required/><br/><br/>
 
-                <label for="type">Type :</label>
-                <select id="type" name="type" required>
+                <label for="type-add">Type :</label>
+                <select id="type-add" name="type-add" required>
                     <option value="film">Film</option>
                     <option value="serie">Série</option>
                 </select
                 ><br/><br/>
 
-                <label for="year">Année :</label>
+                <label for="year-add">Année :</label>
                 <input
                         type="number"
-                        id="year"
+                        id="year-add"
                         name="year"
                         min="1900"
                         max="2099"
                         required
                 /><br/><br/>
 
-                <label for="genres">Genres :</label>
+                <label for="genres-add">Genres :</label>
                 <input
                         type="text"
-                        id="genres"
+                        id="genres-add"
                         name="genres"
                         placeholder="ex: Action, Drame"
                         required
                 /><br/><br/>
 
-                <label for="trailer">Lien trailer :</label>
+                <label for="trailer-add">Lien trailer :</label>
                 <input
                         type="url"
-                        id="trailer"
+                        id="trailer-add"
                         name="trailer"
                         placeholder="https://www.youtube.com/..."
                         required
                 /><br/><br/>
 
-                <label for="imdb">Lien IMDb :</label>
+                <label for="imdb-add">Lien IMDb :</label>
                 <input
                         type="url"
-                        id="imdb"
+                        id="imdb-add"
                         name="imdb"
                         placeholder="https://www.imdb.com/..."
                         required
                 /><br/><br/>
 
-                <label for="note">Note :</label>
+                <label for="note-add">Note :</label>
                 <input
                         type="number"
-                        id="note"
+                        id="note-add"
                         name="note"
                         min="0"
                         max="10"
@@ -244,9 +244,9 @@
                         required
                 /><br/><br/>
 
-                <label for="description">Description :</label>
+                <label for="description-add">Description :</label>
                 <textarea
-                        id="description"
+                        id="description-add"
                         name="description"
                         rows="4"
                         cols="50"
@@ -254,77 +254,77 @@
                 ></textarea
                 ><br/><br/>
 
-                <div id="filmFields" style="display: none">
-                    <label for="directors">Réalisateurs :</label>
+                <div id="filmFields-add" style="display: none">
+                    <label for="directors-add">Réalisateurs :</label>
                     <input
                             type="text"
-                            id="directors"
+                            id="directors-add"
                             name="directors"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
 
-                    <label for="writers">Scénaristes :</label>
+                    <label for="writers-add">Scénaristes :</label>
                     <input
                             type="text"
-                            id="writers"
+                            id="writers-add"
                             name="writers"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
 
-                    <label for="stars">Acteurs principaux :</label>
+                    <label for="stars-add">Acteurs principaux :</label>
                     <input
                             type="text"
-                            id="stars"
+                            id="stars-add"
                             name="stars"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
                 </div>
 
-                <div id="seriesFields" style="display: none">
-                    <label for="directorsSerie">Réalisateurs :</label>
+                <div id="seriesFields-add" style="display: none">
+                    <label for="directorsSerie-add">Réalisateurs :</label>
                     <input
                             type="text"
-                            id="directorsSerie"
+                            id="directorsSerie-add"
                             name="directorsSerie"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
 
-                    <label for="writersSerie">Scénaristes :</label>
+                    <label for="writersSerie-add">Scénaristes :</label>
                     <input
                             type="text"
-                            id="writersSerie"
+                            id="writersSerie-add"
                             name="writersSerie"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
 
-                    <label for="starsSerie">Acteurs principaux :</label>
+                    <label for="starsSerie-add">Acteurs principaux :</label>
                     <input
                             type="text"
-                            id="starsSerie"
+                            id="starsSerie-add"
                             name="starsSerie"
                             placeholder="Séparés par des virgules"
                     /><br/><br/>
 
-                    <label for="seasons">Nombre de saisons :</label>
+                    <label for="seasons-add">Nombre de saisons :</label>
                     <input
                             type="number"
-                            id="seasons"
+                            id="seasons-add"
                             name="seasons"
                             min="1"
                     /><br/><br/>
 
-                    <div id="episodesContainer"></div>
+                    <div id="episodesContainer-add"></div>
                 </div>
 
                 <button type="submit">Ajouter</button>
             </form>
 
-            <div class="json-result" id="json-result">
-                <div class="json-result-header">
+            <div class="json-result-add" id="json-result-add">
+                <div class="json-result-header-add">
                     <h3>JSON :</h3>
-                    <button id="copyButton">Copier le JSON</button>
+                    <button id="copyButton-add">Copier le JSON</button>
                 </div>
-                <pre id="jsonOutput"></pre>
+                <pre id="jsonOutput-add"></pre>
             </div>
         </div>
     </section>

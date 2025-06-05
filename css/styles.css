@@ -420,8 +420,8 @@ button[type="submit"]:hover {
     box-shadow: 0 4px 16px rgba(var(--accent-rgb), 0.18);
 }
 
-#filmFields,
-#seriesFields {
+#filmFields-add,
+#seriesFields-add {
     margin-top: 1.2rem;
     padding: 1rem;
     background: var(--bg-secondary);
@@ -429,7 +429,7 @@ button[type="submit"]:hover {
     border: 1px solid var(--border);
 }
 
-.season-block {
+.season-block-add {
     margin-bottom: 1rem;
     padding: 0.75rem;
     background: var(--bg-card);
@@ -437,23 +437,23 @@ button[type="submit"]:hover {
     border: 1px solid var(--border-light);
 }
 
-.season-block h4 {
+.season-block-add h4 {
     margin: 0 0 0.5rem 0;
     color: var(--accent);
     font-size: 1.1rem;
 }
 
-.episodesFields label {
+.add-episodesFields label {
     margin-top: 0.5rem;
     font-weight: 400;
     color: var(--text-secondary);
 }
 
-.episodesFields input[type="text"] {
+.add-episodesFields input[type="text"] {
     margin-bottom: 0.5rem;
 }
 
-.json-result {
+.json-result-add {
     display: none;
     background: #181818;
     border-radius: 8px;
@@ -465,14 +465,14 @@ button[type="submit"]:hover {
     word-break: break-word;
 }
 
-.json-result-header {
+.json-result-header-add {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 12px;
 }
 
-.json-result h3 {
+.json-result-add h3 {
     color: #c2113a;
     margin: 0;
     font-size: 22px;
@@ -480,7 +480,7 @@ button[type="submit"]:hover {
     display: inline-block;
 }
 
-.json-result button#copyButton {
+.json-result-add button#copyButton-add {
     background: #c2113a;
     color: #fff;
     border: none;
@@ -494,11 +494,11 @@ button[type="submit"]:hover {
     float: none;
 }
 
-.json-result button#copyButton:hover {
+.json-result-add button#copyButton-add:hover {
     background: #a10e30;
 }
 
-.json-result pre {
+.json-result-add pre {
     background: #232323;
     border-radius: 6px;
     padding: 14px;
@@ -1065,6 +1065,7 @@ button[type="submit"]:hover {
         padding: 1rem 0.5rem;
         max-width: 98vw;
     }
+
     button[type="submit"] {
         font-size: 1rem;
         padding: 0.7rem;
