@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     showSection('home');
     populateFilters();
     displayPopularContent();
-    
+
     const exportBtn = document.getElementById('exportWatchedBtn');
     const importInput = document.getElementById('importWatchedInput');
     if (exportBtn) {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const file = e.target.files[0];
             if (!file) return;
             const reader = new FileReader();
-            reader.onload = function(evt) {
+            reader.onload = function (evt) {
                 try {
                     const imported = JSON.parse(evt.target.result);
                     if (imported.films && imported.series) {
@@ -698,21 +698,6 @@ document.addEventListener('error', (e) => {
 }, true);
 
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'f' && !e.ctrlKey && !e.altKey && document.activeElement.tagName !== 'INPUT') {
-        showSection('films');
-        setActiveNavLink(document.querySelector('[data-section="films"]'));
-    }
-
-    if (e.key === 's' && !e.ctrlKey && !e.altKey && document.activeElement.tagName !== 'INPUT') {
-        showSection('series');
-        setActiveNavLink(document.querySelector('[data-section="series"]'));
-    }
-
-    if (e.key === 'h' && !e.ctrlKey && !e.altKey && document.activeElement.tagName !== 'INPUT') {
-        showSection('home');
-        setActiveNavLink(document.querySelector('[data-section="home"]'));
-    }
-
     if (e.key === '/' && !e.ctrlKey && !e.altKey) {
         e.preventDefault();
         searchInput.focus();
