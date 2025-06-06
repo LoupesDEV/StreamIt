@@ -642,7 +642,7 @@ function getFilteredFilms() {
 
     return Object.values(filmsData).filter(film => {
         const genreMatch = !genreFilter || (film.genres && film.genres.includes(genreFilter));
-        const yearMatch = !yearFilter || film.year === yearFilter;
+        const yearMatch = !yearFilter || film.year === Number(yearFilter);
         const directorMatch = !directorFilter || (film.directors && film.directors.includes(directorFilter));
         const actorMatch = !actorFilter || (film.stars && film.stars.includes(actorFilter));
         const ratingMatch = !ratingFilter || (film.IMDb && film.IMDb >= ratingFilter);
@@ -660,7 +660,7 @@ function getFilteredSeries() {
 
     return Object.values(seriesData).filter(series => {
         const genreMatch = !genreFilter || (series.genres && series.genres.includes(genreFilter));
-        const yearMatch = !yearFilter || series.year === yearFilter;
+        const yearMatch = !yearFilter || series.year === Number(yearFilter);
         const creatorMatch = !creatorFilter || (series.creators && series.creators.includes(creatorFilter));
         const actorMatch = !actorFilter || (series.stars && series.stars.includes(actorFilter));
         const ratingMatch = !ratingFilter || (series.IMDb && series.IMDb >= ratingFilter);
