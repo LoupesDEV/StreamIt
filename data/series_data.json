@@ -2221,5 +2221,119 @@
         }
       ]
     }
+  },
+  "Le Seigneur des anneaux : Les Anneaux de pouvoir": {
+    "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
+    "description": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestueuses du Lindon, de l'île des Rois de Númenor aux contrées les plus éloignées du monde, ces royaumes et personnages vont forger un héritage qui demeurera bien après leur disparition.",
+    "banner": "medias/series/leseigneurdesanneaux/leseigneurdesanneaux.jpg",
+    "IMDb": 6.9,
+    "IMDb_link": "https://www.imdb.com/title/tt7631058//",
+    "year": 2022,
+    "genres": [
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Sword & Sorcery",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "creators": [
+      "Patrick McKay",
+      "John D. Payne"
+    ],
+    "stars": [
+      "Morfydd Clark",
+      "Charlie Vickers",
+      "Charles Edwards"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=Bsnka8xrlfU",
+    "seasons": {
+      "1": [
+        {
+          "title": "L'Ombre du Passé",
+          "desc": "Galadriel est préoccupée par des indices suggérant le retour d'un mal ancien. Arondir fait une troublante découverte. Elrond se voit proposer un nouveau projet intrigant. Nori enfreint la règle fondamentale de la communauté des Piévelus.",
+          "video": "medias/series/leseigneurdesanneaux/1-1.mp4"
+        },
+        {
+          "title": "À la dérive",
+          "desc": "Galadriel trouve un nouvel allié ; Elrond est froidement reçu par un vieil ami ; Nori s'efforce d'aider un Étranger ; Arondir cherche des réponses tandis que Bronwyn prévient son peuple d'une menace.",
+          "video": "medias/series/leseigneurdesanneaux/1-2.mp4"
+        },
+        {
+          "title": "Adar",
+          "desc": "Arondir se retrouve prisonnier. Galadriel et Halbrand explorent un royaume légendaire. Elendil se voit confier une nouvelle mission. Nori doit subir la conséquence de ses actes.",
+          "video": "medias/series/leseigneurdesanneaux/1-3.mp4"
+        },
+        {
+          "title": "La Grande Vague",
+          "desc": "La foi de la Reine Régente Míriel est mise à l'épreuve ; Isildur se trouve à un carrefour ; Elrond découvre un secret ; Arondir reçoit un ultimatum ; Theo désobéit à Bronwyn.",
+          "video": "medias/series/leseigneurdesanneaux/1-4.mp4"
+        },
+        {
+          "title": "Séparations",
+          "desc": "Nori doute de son instinct ; Elrond s'éfforce de rester fidèle à son serment ; Hallbrand envisage son destin ; Les hommes des Terres du Sud se préparent à l'attaque.",
+          "video": "medias/series/leseigneurdesanneaux/1-5.mp4"
+        },
+        {
+          "title": "Udûn",
+          "desc": "Adar et son armée marchent sur Ostirith...",
+          "video": "medias/series/leseigneurdesanneaux/1-6.mp4"
+        },
+        {
+          "title": "L'œil",
+          "desc": "Les survivants d'un cataclysme essaient de se mettre en sécurité. Les Piévelus affrontent le mal. Durin est déchiré entre amitié et devoir. Adar envisage un nouveau nom...",
+          "video": "medias/series/leseigneurdesanneaux/1-7.mp4"
+        },
+        {
+          "title": "Alliés",
+          "desc": "De nouvelles alliances sont forgées...",
+          "video": "medias/series/leseigneurdesanneaux/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Les Anneaux des Elfes sous les Étoiles",
+          "desc": "Sauron marchande avec Adar. L'Étranger et Nori s'aventurent sur des terres nouvelles. Les Trois Anneaux Elfiques affrontent leur jugement.",
+          "video": "medias/series/leseigneurdesanneaux/2-1.mp4"
+        },
+        {
+          "title": "Là où les étoiles sont étranges",
+          "desc": "Les ténèbres s'emparent de Khazad-dûm. Sauron et Galadriel cherchent de nouveux alliés. Une menace se dresse sur le chemin de l'Étranger et des Piévelues.",
+          "video": "medias/series/leseigneurdesanneaux/2-2.mp4"
+        },
+        {
+          "title": "L'Aigle et le Sceptre",
+          "desc": "Isildur retrouve un vieil ami. Arondir se débat avec le changement. Miriel voit se lever l'opposition. Annatar conseille Celebrimbor.",
+          "video": "medias/series/leseigneurdesanneaux/2-3.mp4"
+        },
+        {
+          "title": "L'aîné",
+          "desc": "L'Étranger trouve ce qu'il cherchait. Arondir et Isildur sont à la recherche de Theo. Galadriel et Elrond tombent dans un piège.",
+          "video": "medias/series/leseigneurdesanneaux/2-4.mp4"
+        },
+        {
+          "title": "Salles de Pierre",
+          "desc": "Alors que Durin commence à se méfier des anneaux des nains, Celebrimbor doit revoir ses priorités. Pris dans les courants contraires de Numenor, Elendil cherche l'espoir.",
+          "video": "medias/series/leseigneurdesanneaux/2-5.mp4"
+        },
+        {
+          "title": "Où est-il ?",
+          "desc": "Galadriel réfléchit à une proposition. Elendil attend son jugement. L'Étranger arrive à un tournant. Le plan de Sauron porte ses fruits.",
+          "video": "medias/series/leseigneurdesanneaux/2-6.mp4"
+        },
+        {
+          "title": "Condamné",
+          "desc": "Le destin de l'Eregion est tracé.",
+          "video": "medias/series/leseigneurdesanneaux/2-7.mp4"
+        },
+        {
+          "title": "L'Ombre et la Flamme",
+          "desc": "Les peuples libres de la Terre du Milieu se battent contre les forces des ténèbres.",
+          "video": "medias/series/leseigneurdesanneaux/2-8.mp4"
+        }
+      ]
+    }
   }
 }

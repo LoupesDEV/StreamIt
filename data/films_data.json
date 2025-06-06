@@ -700,5 +700,112 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=7gPrNpHaFX8",
     "video": "medias/films/lucy/lucy.mp4"
+  },
+  "Le Seigneur des anneaux : La Communauté de l'anneau": {
+    "title": "Le Seigneur des anneaux : La Communauté de l'anneau",
+    "description": "Le jeune et timide Hobbit, Frodon Sacquet, hérite d'un anneau. Bien loin d'être une simple babiole, il s'agit de l'Anneau Unique, un instrument de pouvoir absolu qui permettrait à Sauron, le Seigneur des ténèbres, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples. À moins que Frodon, aidé d'une Compagnie constituée de Hobbits, d'Hommes, d'un Magicien, d'un Nain, et d'un Elfe, ne parvienne à emporter l'Anneau à travers la Terre du Milieu jusqu'à la Crevasse du Destin, lieu où il a été forgé, et à le détruire pour toujours. Un tel périple signifie s'aventurer très loin en Mordor, les terres du Seigneur des ténèbres, où est rassemblée son armée d'Orques maléfiques… La Compagnie doit non seulement combattre les forces extérieures du mal mais aussi les dissensions internes et l'influence corruptrice qu'exerce l'Anneau lui-même.",
+    "banner": "medias/films/leseigneurdesanneaux1/leseigneurdesanneaux1.jpg",
+    "IMDb": 8.9,
+    "IMDb_link": "https://www.imdb.com/title/tt0120737/",
+    "year": 2001,
+    "genres": [
+      "Action",
+      "Epic",
+      "Adventure Epic",
+      "Dark Fantasy",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sword & Sorcery",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=KCYr5PpGOvk",
+    "video": "medias/films/leseigneurdesanneaux1/leseigneurdesanneaux1.mp4"
+  },
+  "Le Seigneur des anneaux : Les Deux Tours": {
+    "title": "Le Seigneur des anneaux : Les Deux Tours",
+    "description": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. À travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant magicien. Eowyn, la nièce du Roi, reconnaît en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forêt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forêt…",
+    "banner": "medias/films/leseigneurdesanneaux2/leseigneurdesanneaux2.jpg",
+    "IMDb": 8.8,
+    "IMDb_link": "https://www.imdb.com/title/tt0167261/",
+    "year": 2002,
+    "genres": [
+      "Action",
+      "Epic",
+      "Adventure Epic",
+      "Dark Fantasy",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sword & Sorcery",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=c9blKqmyeV4",
+    "video": "medias/films/leseigneurdesanneaux2/leseigneurdesanneaux2.mp4"
+  },
+  "Le Seigneur des anneaux : Le Retour du roi": {
+    "title": "Le Seigneur des anneaux : Le Retour du roi",
+    "description": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. À travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant magicien. Eowyn, la nièce du Roi, reconnaît en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forêt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forêt…",
+    "banner": "medias/films/leseigneurdesanneaux3/leseigneurdesanneaux3.jpg",
+    "IMDb": 9,
+    "IMDb_link": "https://www.imdb.com/title/tt0167260/",
+    "year": 2003,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Mountain Adventure",
+      "Quest",
+      "Sword & Sorcery",
+      "Tragedy",
+      "Adventure",
+      "Drama"
+    ],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=RCuDRcK0BBM",
+    "video": "medias/films/leseigneurdesanneaux3/leseigneurdesanneaux3.mp4"
   }
 }
