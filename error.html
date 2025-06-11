@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
-    <link rel="manifest" href="manifest.json"/>
-    <link href="css/error.css" rel="stylesheet"/>
-    <link href="medias/logo.png" rel="icon"/>
+    <link rel="manifest" href="manifest.json" />
+    <link href="css/error.css" rel="stylesheet" />
+    <link href="medias/logo.png" rel="icon" />
     <meta
-            http-equiv="Content-Security-Policy"
-            content="img-src 'self' data: https://www.matheo-pichotmoise.fr/StreamIt; style-src 'self' 'unsafe-inline'; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
+      http-equiv="Content-Security-Policy"
+      content="img-src 'self' data: https://www.matheo-pichotmoise.fr/StreamIt; style-src 'self' 'unsafe-inline'; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
     />
-</head>
-<body>
-<div class="container">
-    <img src="medias/logo.png" alt="StreamIt Logo" class="logo"/>
-    <h1>Erreur!</h1>
-    <div id="error-message" class="error-message"></div>
-    <a href="index.html" class="back-btn">Revenir à l'accueil</a>
-</div>
+  </head>
+  <body>
+    <div class="container">
+      <img src="medias/logo.png" alt="StreamIt Logo" class="logo" />
+      <h1>Erreur!</h1>
+      <div id="error-message" class="error-message"></div>
+      <a href="index.html" class="back-btn">Revenir à l'accueil</a>
+    </div>
 
-<script>
-    if ("serviceWorker" in navigator) {
+    <script>
+      if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-            navigator.serviceWorker.register("sw.js");
+          navigator.serviceWorker.register("sw.js");
         });
-    }
-</script>
-<script src="js/error.js"></script>
-</body>
+      }
+    </script>
+    <script src="js/error.js"></script>
+  </body>
 </html>

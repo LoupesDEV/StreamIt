@@ -1,362 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StreamIt</title>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link href="medias/logo.png" rel="icon"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="medias/logo.png" rel="icon" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
     />
     <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-            rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
     />
-</head>
+  </head>
 
-<body>
-<header class="header">
-    <div class="container">
+  <body>
+    <header class="header">
+      <div class="container">
         <div class="header-content">
-            <div class="logo">
-                <h1>StreamIt</h1>
+          <div class="logo">
+            <h1>StreamIt</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="nav-link active" data-section="home"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="films">Films</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="series">Séries</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="stats">Stats</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link" data-section="add">Ajouter</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="search-container">
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="Rechercher..."
+            />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="home" class="section active">
+        <div class="container">
+          <div class="hero">
+            <h2>Bienvenue sur StreamIt</h2>
+            <p>Découvrez votre collection de films et séries préférés</p>
+          </div>
+
+          <div class="content-section">
+            <h3>Films populaires</h3>
+            <div class="content-grid" id="popularFilms"></div>
+          </div>
+
+          <div class="content-section">
+            <h3>Séries populaires</h3>
+            <div class="content-grid" id="popularSeries"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="films" class="section">
+        <div class="container">
+          <h2>Films</h2>
+          <div class="filters">
+            <div class="filter-row">
+              <select id="filmGenreFilter" class="filter-select">
+                <option value="">Tous les genres</option>
+              </select>
+              <select id="filmYearFilter" class="filter-select">
+                <option value="">Toutes les années</option>
+              </select>
+              <select id="filmDirectorFilter" class="filter-select">
+                <option value="">Tous les réalisateurs</option>
+              </select>
             </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="nav-link active" data-section="home"
-                        >Accueil</a
-                        >
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link" data-section="films">Films</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link" data-section="series">Séries</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link" data-section="stats">Stats</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link" data-section="add">Ajouter</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="search-container">
+            <div class="filter-row">
+              <select id="filmActorFilter" class="filter-select">
+                <option value="">Tous les acteurs</option>
+              </select>
+              <div class="rating-filter">
+                <label for="filmRatingFilter">Note IMDb min:</label>
                 <input
-                        type="text"
-                        id="searchInput"
-                        class="search-input"
-                        placeholder="Rechercher..."
+                  type="range"
+                  id="filmRatingFilter"
+                  class="rating-slider"
+                  min="0"
+                  max="10"
+                  step="0.1"
+                  value="0"
                 />
-                <i class="fas fa-search search-icon"></i>
+                <span class="rating-value">0.0</span>
+              </div>
+              <button
+                class="btn btn-secondary filter-reset"
+                onclick="resetFilmFilters()"
+              >
+                <i class="fas fa-refresh"></i> Réinitialiser
+              </button>
             </div>
+          </div>
+          <div class="content-grid" id="filmsGrid"></div>
         </div>
-    </div>
-</header>
+      </section>
 
-<main class="main">
-    <section id="home" class="section active">
+      <section id="series" class="section">
         <div class="container">
-            <div class="hero">
-                <h2>Bienvenue sur StreamIt</h2>
-                <p>Découvrez votre collection de films et séries préférés</p>
+          <h2>Séries</h2>
+          <div class="filters">
+            <div class="filter-row">
+              <select id="seriesGenreFilter" class="filter-select">
+                <option value="">Tous les genres</option>
+              </select>
+              <select id="seriesYearFilter" class="filter-select">
+                <option value="">Toutes les années</option>
+              </select>
+              <select id="seriesCreatorFilter" class="filter-select">
+                <option value="">Tous les créateurs</option>
+              </select>
             </div>
-
-            <div class="content-section">
-                <h3>Films populaires</h3>
-                <div class="content-grid" id="popularFilms"></div>
-            </div>
-
-            <div class="content-section">
-                <h3>Séries populaires</h3>
-                <div class="content-grid" id="popularSeries"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="films" class="section">
-        <div class="container">
-            <h2>Films</h2>
-            <div class="filters">
-                <div class="filter-row">
-                    <select id="filmGenreFilter" class="filter-select">
-                        <option value="">Tous les genres</option>
-                    </select>
-                    <select id="filmYearFilter" class="filter-select">
-                        <option value="">Toutes les années</option>
-                    </select>
-                    <select id="filmDirectorFilter" class="filter-select">
-                        <option value="">Tous les réalisateurs</option>
-                    </select>
-                </div>
-                <div class="filter-row">
-                    <select id="filmActorFilter" class="filter-select">
-                        <option value="">Tous les acteurs</option>
-                    </select>
-                    <div class="rating-filter">
-                        <label for="filmRatingFilter">Note IMDb min:</label>
-                        <input
-                                type="range"
-                                id="filmRatingFilter"
-                                class="rating-slider"
-                                min="0"
-                                max="10"
-                                step="0.1"
-                                value="0"
-                        />
-                        <span class="rating-value">0.0</span>
-                    </div>
-                    <button
-                            class="btn btn-secondary filter-reset"
-                            onclick="resetFilmFilters()"
-                    >
-                        <i class="fas fa-refresh"></i> Réinitialiser
-                    </button>
-                </div>
-            </div>
-            <div class="content-grid" id="filmsGrid"></div>
-        </div>
-    </section>
-
-    <section id="series" class="section">
-        <div class="container">
-            <h2>Séries</h2>
-            <div class="filters">
-                <div class="filter-row">
-                    <select id="seriesGenreFilter" class="filter-select">
-                        <option value="">Tous les genres</option>
-                    </select>
-                    <select id="seriesYearFilter" class="filter-select">
-                        <option value="">Toutes les années</option>
-                    </select>
-                    <select id="seriesCreatorFilter" class="filter-select">
-                        <option value="">Tous les créateurs</option>
-                    </select>
-                </div>
-                <div class="filter-row">
-                    <select id="seriesActorFilter" class="filter-select">
-                        <option value="">Tous les acteurs</option>
-                    </select>
-                    <div class="rating-filter">
-                        <label for="seriesRatingFilter">Note IMDb min:</label>
-                        <input
-                                type="range"
-                                id="seriesRatingFilter"
-                                class="rating-slider"
-                                min="0"
-                                max="10"
-                                step="0.1"
-                                value="0"
-                        />
-                        <span class="rating-value">0.0</span>
-                    </div>
-                    <button
-                            class="btn btn-secondary filter-reset"
-                            onclick="resetSeriesFilters()"
-                    >
-                        <i class="fas fa-refresh"></i> Réinitialiser
-                    </button>
-                </div>
-            </div>
-            <div class="content-grid" id="seriesGrid"></div>
-        </div>
-    </section>
-
-    <section id="stats" class="section">
-        <div class="container">
-            <div id="statsContent"></div>
-            <div class="export-import-group">
-                <button class="btn btn-primary" id="exportWatchedBtn">
-                    <i class="fas fa-download"></i> Exporter ma progression
-                </button>
-                <label class="btn btn-secondary" style="cursor: pointer">
-                    <i class="fas fa-upload"></i> Importer
-                    <input type="file" id="importWatchedInput" accept=".json"/>
-                </label>
-            </div>
-        </div>
-    </section>
-
-    <section id="add" class="section">
-        <div class="container">
-            <form id="addForm">
-                <label for="folder-add">Nom du dossier :</label>
-                <input type="text" id="folder-add" name="folder" required/><br/><br/>
-
-                <label for="title-add">Titre :</label>
-                <input type="text" id="title-add" name="title" required/><br/><br/>
-
-                <label for="type-add">Type :</label>
-                <select id="type-add" name="type-add" required>
-                    <option value="film">Film</option>
-                    <option value="serie">Série</option>
-                </select
-                ><br/><br/>
-
-                <label for="year-add">Année :</label>
+            <div class="filter-row">
+              <select id="seriesActorFilter" class="filter-select">
+                <option value="">Tous les acteurs</option>
+              </select>
+              <div class="rating-filter">
+                <label for="seriesRatingFilter">Note IMDb min:</label>
                 <input
-                        type="number"
-                        id="year-add"
-                        name="year"
-                        min="1900"
-                        max="2099"
-                        required
-                /><br/><br/>
-
-                <label for="genres-add">Genres :</label>
-                <input
-                        type="text"
-                        id="genres-add"
-                        name="genres"
-                        placeholder="ex: Action, Drame"
-                        required
-                /><br/><br/>
-
-                <label for="trailer-add">Lien trailer :</label>
-                <input
-                        type="url"
-                        id="trailer-add"
-                        name="trailer"
-                        placeholder="https://www.youtube.com/..."
-                        required
-                /><br/><br/>
-
-                <label for="imdb-add">Lien IMDb :</label>
-                <input
-                        type="url"
-                        id="imdb-add"
-                        name="imdb"
-                        placeholder="https://www.imdb.com/..."
-                        required
-                /><br/><br/>
-
-                <label for="note-add">Note :</label>
-                <input
-                        type="number"
-                        id="note-add"
-                        name="note"
-                        min="0"
-                        max="10"
-                        step="0.1"
-                        required
-                /><br/><br/>
-
-                <label for="description-add">Description :</label>
-                <textarea
-                        id="description-add"
-                        name="description"
-                        rows="4"
-                        cols="50"
-                        required
-                ></textarea
-                ><br/><br/>
-
-                <div id="filmFields-add" style="display: none">
-                    <label for="directors-add">Réalisateurs :</label>
-                    <input
-                            type="text"
-                            id="directors-add"
-                            name="directors"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-
-                    <label for="writers-add">Scénaristes :</label>
-                    <input
-                            type="text"
-                            id="writers-add"
-                            name="writers"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-
-                    <label for="stars-add">Acteurs principaux :</label>
-                    <input
-                            type="text"
-                            id="stars-add"
-                            name="stars"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-                </div>
-
-                <div id="seriesFields-add" style="display: none">
-                    <label for="directorsSerie-add">Réalisateurs :</label>
-                    <input
-                            type="text"
-                            id="directorsSerie-add"
-                            name="directorsSerie"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-
-                    <label for="writersSerie-add">Scénaristes :</label>
-                    <input
-                            type="text"
-                            id="writersSerie-add"
-                            name="writersSerie"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-
-                    <label for="starsSerie-add">Acteurs principaux :</label>
-                    <input
-                            type="text"
-                            id="starsSerie-add"
-                            name="starsSerie"
-                            placeholder="Séparés par des virgules"
-                    /><br/><br/>
-
-                    <label for="seasons-add">Nombre de saisons :</label>
-                    <input
-                            type="number"
-                            id="seasons-add"
-                            name="seasons"
-                            min="1"
-                    /><br/><br/>
-
-                    <div id="episodesContainer-add"></div>
-                </div>
-
-                <button type="submit">Ajouter</button>
-            </form>
-
-            <div class="json-result-add" id="json-result-add">
-                <div class="json-result-header-add">
-                    <h3>JSON :</h3>
-                    <button id="copyButton-add">Copier le JSON</button>
-                </div>
-                <pre id="jsonOutput-add"></pre>
+                  type="range"
+                  id="seriesRatingFilter"
+                  class="rating-slider"
+                  min="0"
+                  max="10"
+                  step="0.1"
+                  value="0"
+                />
+                <span class="rating-value">0.0</span>
+              </div>
+              <button
+                class="btn btn-secondary filter-reset"
+                onclick="resetSeriesFilters()"
+              >
+                <i class="fas fa-refresh"></i> Réinitialiser
+              </button>
             </div>
+          </div>
+          <div class="content-grid" id="seriesGrid"></div>
         </div>
-    </section>
+      </section>
 
-    <section id="search" class="section">
+      <section id="stats" class="section">
         <div class="container">
-            <h2>Résultats de recherche</h2>
-            <div class="content-grid" id="searchResults"></div>
+          <div id="statsContent"></div>
+          <div class="export-import-group">
+            <button class="btn btn-primary" id="exportWatchedBtn">
+              <i class="fas fa-download"></i> Exporter ma progression
+            </button>
+            <label class="btn btn-secondary" style="cursor: pointer">
+              <i class="fas fa-upload"></i> Importer
+              <input type="file" id="importWatchedInput" accept=".json" />
+            </label>
+          </div>
         </div>
-    </section>
-</main>
+      </section>
 
-<div id="modal" class="modal">
-    <div class="modal-content">
+      <section id="add" class="section">
+        <div class="container">
+          <form id="addForm">
+            <label for="folder-add">Nom du dossier :</label>
+            <input
+              type="text"
+              id="folder-add"
+              name="folder"
+              required
+            /><br /><br />
+
+            <label for="title-add">Titre :</label>
+            <input
+              type="text"
+              id="title-add"
+              name="title"
+              required
+            /><br /><br />
+
+            <label for="type-add">Type :</label>
+            <select id="type-add" name="type-add" required>
+              <option value="film">Film</option>
+              <option value="serie">Série</option></select
+            ><br /><br />
+
+            <label for="year-add">Année :</label>
+            <input
+              type="number"
+              id="year-add"
+              name="year"
+              min="1900"
+              max="2099"
+              required
+            /><br /><br />
+
+            <label for="genres-add">Genres :</label>
+            <input
+              type="text"
+              id="genres-add"
+              name="genres"
+              placeholder="ex: Action, Drame"
+              required
+            /><br /><br />
+
+            <label for="trailer-add">Lien trailer :</label>
+            <input
+              type="url"
+              id="trailer-add"
+              name="trailer"
+              placeholder="https://www.youtube.com/..."
+              required
+            /><br /><br />
+
+            <label for="imdb-add">Lien IMDb :</label>
+            <input
+              type="url"
+              id="imdb-add"
+              name="imdb"
+              placeholder="https://www.imdb.com/..."
+              required
+            /><br /><br />
+
+            <label for="note-add">Note :</label>
+            <input
+              type="number"
+              id="note-add"
+              name="note"
+              min="0"
+              max="10"
+              step="0.1"
+              required
+            /><br /><br />
+
+            <label for="description-add">Description :</label>
+            <textarea
+              id="description-add"
+              name="description"
+              rows="4"
+              cols="50"
+              required
+            ></textarea
+            ><br /><br />
+
+            <div id="filmFields-add" style="display: none">
+              <label for="directors-add">Réalisateurs :</label>
+              <input
+                type="text"
+                id="directors-add"
+                name="directors"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+
+              <label for="writers-add">Scénaristes :</label>
+              <input
+                type="text"
+                id="writers-add"
+                name="writers"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+
+              <label for="stars-add">Acteurs principaux :</label>
+              <input
+                type="text"
+                id="stars-add"
+                name="stars"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+            </div>
+
+            <div id="seriesFields-add" style="display: none">
+              <label for="directorsSerie-add">Réalisateurs :</label>
+              <input
+                type="text"
+                id="directorsSerie-add"
+                name="directorsSerie"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+
+              <label for="writersSerie-add">Scénaristes :</label>
+              <input
+                type="text"
+                id="writersSerie-add"
+                name="writersSerie"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+
+              <label for="starsSerie-add">Acteurs principaux :</label>
+              <input
+                type="text"
+                id="starsSerie-add"
+                name="starsSerie"
+                placeholder="Séparés par des virgules"
+              /><br /><br />
+
+              <label for="seasons-add">Nombre de saisons :</label>
+              <input
+                type="number"
+                id="seasons-add"
+                name="seasons"
+                min="1"
+              /><br /><br />
+
+              <div id="episodesContainer-add"></div>
+            </div>
+
+            <button type="submit">Ajouter</button>
+          </form>
+
+          <div class="json-result-add" id="json-result-add">
+            <div class="json-result-header-add">
+              <h3>JSON :</h3>
+              <button id="copyButton-add">Copier le JSON</button>
+            </div>
+            <pre id="jsonOutput-add"></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="search" class="section">
+        <div class="container">
+          <h2>Résultats de recherche</h2>
+          <div class="content-grid" id="searchResults"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
         <span class="close-btn">&times;</span>
         <div id="modalBody"></div>
+      </div>
     </div>
-</div>
 
-<div id="videoModal" class="modal">
-    <div class="modal-content video-modal-content">
+    <div id="videoModal" class="modal">
+      <div class="modal-content video-modal-content">
         <span class="close-btn video-close">&times;</span>
         <div class="video-container">
-            <video id="videoPlayer" controls>
-                <source src="" type="video/mp4"/>
-                Votre navigateur ne supporte pas la lecture vidéo.
-            </video>
+          <video id="videoPlayer" controls>
+            <source src="" type="video/mp4" />
+            Votre navigateur ne supporte pas la lecture vidéo.
+          </video>
         </div>
+      </div>
     </div>
-</div>
 
-<script src="js/scripts.js"></script>
-<script src="js/add.js"></script>
-</body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+
+    <script src="js/utils.js" defer></script>
+    <script src="js/storage.js" defer></script>
+    <script src="js/dataLoader.js" defer></script>
+    <script src="js/filters.js" defer></script>
+    <script src="js/display.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/stats.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+    <script src="js/init.js" defer></script>
+    <script src="js/add.js" defer></script>
+  </body>
 </html>
