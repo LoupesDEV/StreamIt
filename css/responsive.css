@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-list {
+        gap: 1rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .content-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+
+    .modal-header {
+        flex-direction: column;
+    }
+
+    .modal-poster {
+        width: 100%;
+        height: 300px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter-select {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 1rem 0.5rem;
+        max-width: 98vw;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .search-container {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .content-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+    .card-content {
+        padding: 0.75rem;
+    }
+
+    .modal-content {
+        margin: 10px;
+    }
+
+    .modal-body {
+        padding: 1rem;
+    }
+}

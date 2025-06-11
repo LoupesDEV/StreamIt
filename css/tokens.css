@@ -1,0 +1,23 @@
+.token-key {
+    color: #e67c26;
+}
+
+.token-string {
+    color: #6ab04c;
+}
+
+.token-number {
+    color: #f6e58d;
+}
+
+.token-boolean {
+    color: #eb4d4b;
+}
+
+.token-null {
+    color: #686de0;
+}
+
+.token-punct {
+    color: #fff;
+}
