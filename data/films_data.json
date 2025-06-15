@@ -807,5 +807,103 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=RCuDRcK0BBM",
     "video": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/le-seigneur-des-anneaux-le-retour-du-roi.mp4"
+  },
+  "Cars": {
+    "title": "Cars",
+    "description": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
+    "banner": "medias/films/cars/cars.jpg",
+    "IMDb": 7.3,
+    "IMDb_link": "https://www.imdb.com/title/tt0317219/",
+    "year": 2006,
+    "genres": [
+      "Computer Animation",
+      "Motorsport",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Sport"
+    ],
+    "directors": [
+      "John Lasseter",
+      "Joe Ranft"
+    ],
+    "writers": [
+      "John Lasseter",
+      "Joe Ranft",
+      "Jorgen Klubien"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Bonnie Hunt",
+      "Paul Newman"
+    ],
+    "video": "medias/films/cars/cars.mp4"
+  },
+  "Cars 2": {
+    "title": "Cars 2",
+    "description": "La célèbre voiture de course Flash McQueen et l'incomparable dépanneuse Martin quittent Radiator Springs pour courir le tout premier Grand Prix mondial qui sacrera la voiture la plus rapide du monde. Mais la route est pleine d'imprévus, de déviations et de surprises, surtout lorsque Martin se retrouve entraîné dans une affaire d'espionnage international !",
+    "banner": "medias/films/cars-2/cars-2.jpg",
+    "IMDb": 6.2,
+    "IMDb_link": "https://www.imdb.com/title/tt1216475/",
+    "year": 2011,
+    "genres": [
+      "Car Action",
+      "Computer Animation",
+      "Motorsport",
+      "Spy",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Crime",
+      "Family",
+      "Sci-Fi"
+    ],
+    "directors": [
+      "John Lasseter",
+      "Bradford Lewis"
+    ],
+    "writers": [
+      "John Lasseter",
+      "Bradford Lewis",
+      "Dan Fogelman"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Larry the Cable Guy",
+      "Michael Caine"
+    ],
+    "video": "medias/films/cars-2/cars-2.mp4"
+  },
+  "Cars 3": {
+    "title": "Cars 3",
+    "description": "Dépassé par une nouvelle génération de coureurs auto emmenés par l'arrogant Jackson Storm, le légendaire Flash McQueen est soudain mis sur le bas-côté. Pour revenir dans la course, il aura besoin de la jeune technicienne Cruz Ramirez, de l'inspiration du fabuleux Hudson Hornet et de quelques rebondissements inattendus et tours du destin.",
+    "banner": "medias/films/cars-3/cars-3.jpg",
+    "IMDb": 6.7,
+    "IMDb_link": "https://www.imdb.com/title/tt3606752/",
+    "year": 2017,
+    "genres": [
+      "Computer Animation",
+      "Motorsport",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Sport"
+    ],
+    "directors": [
+      "Brian Fee"
+    ],
+    "writers": [
+      "Brian Fee",
+      "Ben Queen",
+      "Eyal Podell"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Cristela Alonzo",
+      "Chris Cooper"
+    ],
+    "video": "medias/films/cars-3/cars-3.mp4"
   }
 }
