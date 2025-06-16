@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "streamit_progression.json";
+      a.download = `StreamIt_${new Date().toLocaleDateString("fr-FR").replace(/\//g, "_")}.json`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
