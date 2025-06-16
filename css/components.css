@@ -11,6 +11,21 @@
     font-size: 3rem;
 }
 
+.watched-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 2rem;
+    color: var(--text-muted);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 6px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .eye-icon {
     position: absolute;
     top: 12px;
@@ -250,6 +265,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
+}
+
+.modal .watched-badge {
+    display: none !important;
 }
 
 .modal.active {
