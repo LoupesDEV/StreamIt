@@ -50,6 +50,10 @@ function createContentCard(item) {
     if (watchData.watched) {
       watchedBadge = `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i></span>`;
     }
+  } else if (getItemType(item) === "series") {
+    if (isSeriesFullyWatched(item)) {
+      watchedBadge = `<span class="watched-badge" title="Série vue en entier"><i class="fas fa-eye"></i></span>`;
+    }
   }
 
   return `

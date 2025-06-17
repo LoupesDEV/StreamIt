@@ -49,3 +49,15 @@ function getEpisodeWatchData(seriesTitle, season, epIndex) {
     }
   );
 }
+
+function isSeriesFullyWatched(series) {
+  if (!series.seasons) return false;
+  for (const seasonNum in series.seasons) {
+    const episodes = series.seasons[seasonNum];
+    for (let i = 0; i < episodes.length; i++) {
+      const watchData = getEpisodeWatchData(series.title, seasonNum, i);
+      if (!watchData.watched) return false;
+    }
+  }
+  return true;
+}
