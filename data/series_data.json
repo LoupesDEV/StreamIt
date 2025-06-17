@@ -1104,7 +1104,7 @@
         },
         {
           "title": "Le Dragon rouge et le Dragon d'or",
-          "desc": "En l'absence de Rhaenyra et sans nouvelles de Daemon à Harrenhal, Rhaenys tente de maintenir la paix au Conseil noir tandis que Cole lance une campagne dans le royaume des Sept Couronnes. À Port-Réal, Aemond continue de saper l’autorité fragile d’Aegon.",
+          "desc": "En l'absence de Rhaenyra et sans nouvelles de Daemon à Harrenhal, Rhaenys tente de maintenir la paix au Conseil noir tandis que Cole lance une campagne dans le royaume des Sept Couronnes. À Port-Réal, Aemond continue de saper l'autorité fragile d'Aegon.",
           "video": "medias/series/house-of-the-dragon/2-4.mp4"
         },
         {
@@ -1124,7 +1124,7 @@
         },
         {
           "title": "Reine d'un jour, reine de toujours",
-          "desc": "Alors qu’Aemond devient de plus en plus volatile, Larys prépare une évasion et Alicent s’inquiète de plus en plus de la sécurité d’Helaena. Dotée d’un nouveau pouvoir, Rhaenyra cherche à pousser son avantage.",
+          "desc": "Alors qu'Aemond devient de plus en plus volatile, Larys prépare une évasion et Alicent s'inquiète de plus en plus de la sécurité d'Helaena. Dotée d'un nouveau pouvoir, Rhaenyra cherche à pousser son avantage.",
           "video": "medias/series/house-of-the-dragon/2-8.mp4"
         }
       ]
@@ -1931,7 +1931,7 @@
         },
         {
           "title": "Le Tunnel",
-          "desc": "Sam et Barbie se retrouvent piéges dans un tunnel. Rebecca et Julia essayent de trouver un moyen de les en sortir. Junior, persuadé que Lyle veut tuer les quatre mains [Quoi ?], va prévenir les autres et ils se mettent tous ensembles à la recherche de l’œuf avec l'aide de Mélanie. L'air devient irrespirable à Chester's Mill et Big Jim demande aux habitants de l'aider à construire un moulin à vent pour purifier l'air.",
+          "desc": "Sam et Barbie se retrouvent piéges dans un tunnel. Rebecca et Julia essayent de trouver un moyen de les en sortir. Junior, persuadé que Lyle veut tuer les quatre mains [Quoi ?], va prévenir les autres et ils se mettent tous ensembles à la recherche de l'œuf avec l'aide de Mélanie. L'air devient irrespirable à Chester's Mill et Big Jim demande aux habitants de l'aider à construire un moulin à vent pour purifier l'air.",
           "video": "medias/series/under-the-dome/2-6.mp4"
         },
         {
@@ -2396,6 +2396,121 @@
           "title": "Finale",
           "desc": "La visite d'une vieille amie oblige Beth à regarder son passé en face et à revoir ses priorités, juste à temps pour le plus grand tournoi de sa vie.",
           "video": "medias/series/le-jeu-de-la-dame/1-7.mp4"
+        }
+      ]
+    }
+  },
+  "Alice in Borderland": {
+    "title": "Alice in Borderland",
+    "description": "Un gamer paumé et ses deux amis se retrouvent dans un Tokyo parallèle, où ils sont contraints de participer à une série de jeux sadiques pour survivre.",
+    "banner": "medias/series/alice-in-borderland/alice-in-borderland.jpg",
+    "IMDb": 7.8,
+    "IMDb_link": "https://www.imdb.com/title/tt10795658//",
+    "year": 2020,
+    "genres": [
+      "Cyber Thriller",
+      "Dystopian Sci-Fi",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Survival",
+      "Action",
+      "Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "creators": [
+      "Haro Aso"
+    ],
+    "stars": [
+      "Kento Yamazaki",
+      "Tao Tsuchiya",
+      "Nijirô Murakami"
+    ],
+    "trailer": "https://www.imdb.com/title/tt10795658/",
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Arisu et ses amis se précipitent dans des toilettes publiques pour se cacher de la police. Lorsqu'ils en ressortent, les rues de Tokyo sont vides.",
+          "video": "medias/series/alice-in-borderland/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Laissant Chota qui est blessé, Arisu et Karube cherchent à engranger de l'expérience. Ils arrivent ainsi dans un immense appartement où ils doivent jouer au loup.",
+          "video": "medias/series/alice-in-borderland/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Les visas de Chota et de Shibuki expirant bientôt, le quatuor pénètre dans un vaste jardin botanique à Shinjuku, où il participe à un jeu de trahison.",
+          "video": "medias/series/alice-in-borderland/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Submergé par la culpabilité, Arisu est prêt à tout abandonner, mais Usagi l'exhorte à se ressaisir. Un jeu d'endurance sur une autoroute souterraine les attend à présent.",
+          "video": "medias/series/alice-in-borderland/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Arisu et Usagi ayant trouvé le chemin de la Plage, le roi du soi-disant havre utopique les oblige à lui venir en aide pour rassembler les cartes restantes.",
+          "video": "medias/series/alice-in-borderland/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Chishiya recrute Arisu et Usagi pour qu'ils l'aident à bousculer l'ordre établi. Un événement imprévu bouleverse les fragiles rapports de force à la Plage.",
+          "video": "medias/series/alice-in-borderland/1-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Ancien sanctuaire, la Plage devient l'arène du prochain niveau, où une chasse aux sorcières monte les joueurs les uns contre les autres dans un ultime affrontement.",
+          "video": "medias/series/alice-in-borderland/1-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Les tensions sont à leur comble. Tandis que le chronomètre s'approche de zéro, ceux qui ont survécu à l'attaque affrontent à présent un futur incertain.",
+          "video": "medias/series/alice-in-borderland/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Épisode 1",
+          "desc": "Inquiets, Arisu, Usagi, Kuina et Chishiya patientent depuis plus d'une heure au carrefour de Shibuya en attendant le début de la prochaine étape, mais rien ne se passe.",
+          "video": "medias/series/alice-in-borderland/2-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Maintenant que le Roi de trèfle s'est révélé dans toute sa superbe, le jeu commence enfin. Et au grand étonnement d'Arisu, les choses se passent plutôt bien.",
+          "video": "medias/series/alice-in-borderland/2-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "À quelques minutes de la fin du jeu, alors que les scores de chaque équipe semblent arrêtés, Arisu va trouver Kyuma et demande à lui serrer la main.",
+          "video": "medias/series/alice-in-borderland/2-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Alors qu'il ne reste plus que quelques participants, Chishiya est sans partenaire. La prochaine partie pourrait bien être la dernière du jeu.",
+          "video": "medias/series/alice-in-borderland/2-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Aguni n'a qu'une idée en tête : retrouver et tuer le Roi de pique. Il est accompagné dans sa quête d'Arisu et d'une lycéenne déterminée nommée Akane Heiya.",
+          "video": "medias/series/alice-in-borderland/2-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Usagi devra rallier les joueurs sceptiques qui composent l'équipe de la Reine. Au Palais de justice, Chishiya rencontre le Roi de carreau.",
+          "video": "medias/series/alice-in-borderland/2-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Au cœur d'un Shibuya Crossing où la nature a repris ses droits, Niragi défie Arisu et Chishiya. Mais arrive alors le Roi de pique...",
+          "video": "medias/series/alice-in-borderland/2-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Pour leur ultime jeu, ils devront survivre à trois manches de croquet. Mais à peine ont-ils entamé la partie, que la Reine les invite à prendre le thé.",
+          "video": "medias/series/alice-in-borderland/2-8.mp4"
         }
       ]
     }

@@ -675,7 +675,7 @@
   },
   "Lucy": {
     "title": "Lucy",
-    "description": "Lucy, une jeune étudiante ordinaire, se fait kidnapper. À son réveil, elle découvre que les membres d’une organisation criminelle lui ont inséré un paquet de drogue dans l’estomac dans le but de lui faire passer la frontière. Mais lorsqu’à la suite d’un coup porté à son ventre le produit se déverse dans son corps et s’implante dans son système, la jeune femme en subit les étonnants effets. Cette substance synthétique lui permet de décupler ses capacités intellectuelles et physiques. Devenue un génie autant qu’une véritable machine de guerre, Lucy dispose désormais de pouvoirs illimités et surhumains…",
+    "description": "Lucy, une jeune étudiante ordinaire, se fait kidnapper. À son réveil, elle découvre que les membres d'une organisation criminelle lui ont inséré un paquet de drogue dans l'estomac dans le but de lui faire passer la frontière. Mais lorsqu'à la suite d'un coup porté à son ventre le produit se déverse dans son corps et s'implante dans son système, la jeune femme en subit les étonnants effets. Cette substance synthétique lui permet de décupler ses capacités intellectuelles et physiques. Devenue un génie autant qu'une véritable machine de guerre, Lucy dispose désormais de pouvoirs illimités et surhumains…",
     "banner": "medias/films/lucy/lucy.jpg",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
@@ -810,7 +810,7 @@
   },
   "Cars": {
     "title": "Cars",
-    "description": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu’à ce qu’un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l’aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
+    "description": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu'à ce qu'un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l'aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
     "banner": "medias/films/cars/cars.jpg",
     "IMDb": 7.3,
     "IMDb_link": "https://www.imdb.com/title/tt0317219/",
@@ -905,5 +905,102 @@
       "Chris Cooper"
     ],
     "video": "medias/films/cars-3/cars-3.mp4"
+  },
+  "Gran Turismo": {
+    "title": "Gran Turismo",
+    "description": "Gran Turismo est inspiré de l'incroyable histoire vécue d'une invraisemblable bande d'infortunés -' un amateur de jeu vidéo de classe ouvrière, un ex-pilote d'autos de course paumé et un idéaliste de l'industrie du sport motorisé. Ensemble, ils risquent tout pour percer dans le sport le plus prestigieux au monde. Gran Turismo est une captivante histoire et un feu roulant d'action qui prouvent que tout est possible lorsqu'on conduit avec l'énergie du désespoir.",
+    "banner": "medias/films/gran-turismo/gran-turismo.jpg",
+    "IMDb": 7.1,
+    "IMDb_link": "https://www.imdb.com/title/tt4495098/",
+    "year": 2023,
+    "genres": [
+      "Car Action",
+      "Motorsport",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sport"
+    ],
+    "directors": [
+      "Neill Blomkamp"
+    ],
+    "writers": [
+      "Jason Hall",
+      "Zach Baylin",
+      "Alex Tse"
+    ],
+    "stars": [
+      "David Harbour",
+      "Orlando Bloom",
+      "Archie Madekwe"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=oS_E5W7URs4",
+    "video": "medias/films/gran-turismo/gran-turismo.mp4"
+  },
+  "Oppenheimer": {
+    "title": "Oppenheimer",
+    "description": "En 1942, convaincus que l'Allemagne nazie est en train de développer une arme nucléaire, les États-Unis initient, dans le plus grand secret, le \"Projet Manhattan\" destiné à mettre au point la première bombe atomique de l'histoire. Pour piloter ce dispositif, le gouvernement engage J. Robert Oppenheimer, brillant physicien, qui sera bientôt surnommé \"le père de la bombe atomique\". C'est dans le laboratoire ultra-secret de Los Alamos, au cœur du désert du Nouveau-Mexique, que le scientifique et son équipe mettent au point une arme révolutionnaire dont les conséquences, vertigineuses, continuent de peser sur le monde actuel…",
+    "banner": "medias/films/oppenheimer/oppenheimer.jpg",
+    "IMDb": 8.3,
+    "IMDb_link": "https://www.imdb.com/title/tt15398776/",
+    "year": 2023,
+    "genres": [
+      "Docudrama",
+      "Epic",
+      "Historical Epic",
+      "Period Drama",
+      "Psychological Drama",
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Christopher Nolan",
+      "Kai Bird",
+      "Martin Sherwin"
+    ],
+    "stars": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=CoXtvSRpHgM",
+    "video": "medias/films/oppenheimer/oppenheimer.mp4"
+  },
+  "Le Mans 66": {
+    "title": "Le Mans 66",
+    "description": "Relate l'histoire vraie qui a conduit l'ingénieur automobile visionnaire américain Caroll Shelby à faire équipe avec le pilote de course britannique surdoué Ken Miles. Bravant l'ordre établi, défiant les lois de la physique et luttant contre leurs propres démons, les deux hommes n'avaient qu'un seul but : construire pour le compte de Ford Motor Company un bolide révolutionnaire capable de renverser la suprématie de l'écurie d'Enzo Ferrari sur le mythique circuit des 24 heures du Mans en 1966…",
+    "banner": "medias/films/le-mans-66/le-mans-66.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt1950186/",
+    "year": 2019,
+    "genres": [
+      "Car Action",
+      "Docudrama",
+      "Motorsport",
+      "Period Drama",
+      "Action",
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "directors": [
+      "James Mangold"
+    ],
+    "writers": [
+      "Jez Butterworth",
+      "John-Henry Butterworth",
+      "Jason Keller"
+    ],
+    "stars": [
+      "Matt Damon",
+      "Christian Bale",
+      "Jon Bernthal"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=maxybmxQuTE",
+    "video": "medias/films/le-mans-66/le-mans-66.mp4"
   }
 }
