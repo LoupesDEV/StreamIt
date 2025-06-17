@@ -21,6 +21,7 @@
 - [Fonctionnalités](#fonctionnalités)
 - [Démo](#démo)
 - [Contributeurs](#contributeurs)
+- [Structure du projet](#structure-du-projet)
 
 # Comment utiliser StreamIt
 
@@ -79,6 +80,29 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
         </tr>
     </table>
 </div>
+
+# Structure du projet
+Le projet est organisé de la manière suivante :
+```
+StreamIt/
+├── index.html              # Page d'accueil de l'application
+├── error.html              # Page d'erreur (404)
+├── css/                    # Dossier contenant les fichiers CSS
+├── js/                     # Dossier contenant les fichiers JavaScript
+├── medias/                 # Dossier contenant les médias (images, vidéos, etc.)
+│   ├── films/              # Dossier pour les images des films
+│   ├── series/             # Dossier pour les images des séries
+│   └── README/             # Dossier pour les images du README
+├── data/                   # Dossier contenant les données JSON
+│   ├── films_data.json     # Données des films
+│   └── series_data.json    # Données des séries
+├── README.md               # Documentation du projet
+├── CONTRIBUTING.md         # Guide de contribution
+├── CODE_OFCONDUCT.md       # Code de conduite pour les contributeurs
+├── jsdoc.json              # Configuration pour JSDoc
+├── .gitignore              # Fichier pour ignorer certains fichiers dans Git
+└── LICENSE                 # Fichier de licence
+```
 
 # Contributeurs
 
