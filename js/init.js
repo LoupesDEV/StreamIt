@@ -1,3 +1,14 @@
+/**
+ * Initializes the application after the DOM is fully loaded.
+ *
+ * This module coordinates the startup process, including loading data, setting up event listeners,
+ * showing the home section, populating filters, and displaying popular content.
+ * It also handles the export and import of watched content to and from localStorage via JSON files.
+ * Exported data is downloaded as a file, while imported data is validated and reloaded into the app.
+ *
+ * @module init
+ */
+
 document.addEventListener("DOMContentLoaded", async () => {
   await loadData();
   setupEventListeners();

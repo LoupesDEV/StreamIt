@@ -1,3 +1,22 @@
+/**
+ * Manages the rendering and visual presentation of film and series content.
+ *
+ * This module provides functions to display popular items, individual films and series,
+ * generate styled content cards, and handle empty result states. It also includes logic
+ * to determine the type of a content item and structure the corresponding HTML output.
+ * All rendering is performed by injecting HTML into predefined container elements in the DOM.
+ *
+ * @module display
+ */
+
+/**
+ * Displays the most popular films and series based on IMDb ratings.
+ *
+ * Sorts the film and series data by descending IMDb rating, selects the top six items
+ * from each category, and renders them using the appropriate display container.
+ *
+ * @function
+ */
 function displayPopularContent() {
   const popularFilms = Object.values(filmsData)
     .sort((a, b) => (b.IMDb || 0) - (a.IMDb || 0))
@@ -11,14 +30,41 @@ function displayPopularContent() {
   displayContent(popularSeries, "popularSeries");
 }
 
+/**
+ * Renders a list of film items into the films display grid.
+ *
+ * Delegates the rendering process to the generic displayContent function using the "filmsGrid" container.
+ *
+ * @function
+ * @param {Object[]} films - An array of film objects to display.
+ */
 function displayFilms(films) {
   displayContent(films, "filmsGrid");
 }
 
+/**
+ * Renders a list of series items into the series display grid.
+ *
+ * Delegates the rendering process to the generic displayContent function using the "seriesGrid" container.
+ *
+ * @function
+ * @param {Object[]} series - An array of series objects to display.
+ */
 function displaySeries(series) {
   displayContent(series, "seriesGrid");
 }
 
+/**
+ * Displays a list of content items in the specified container.
+ *
+ * Retrieves the DOM element by its ID and populates it with content cards generated
+ * from the provided items. If the container is not found or the items array is empty,
+ * a "no results" message is displayed instead.
+ *
+ * @function
+ * @param {Object[]} items - An array of content objects to display (e.g., films or series).
+ * @param {string} containerId - The ID of the DOM element where the content should be rendered.
+ */
 function displayContent(items, containerId) {
   const container = document.getElementById(containerId);
   if (!container) return;
@@ -32,6 +78,17 @@ function displayContent(items, containerId) {
   container.innerHTML = items.map((item) => createContentCard(item)).join("");
 }
 
+/**
+ * Creates an HTML content card for a given item (film or series).
+ *
+ * Builds a styled card element containing the item's title, banner image, genres,
+ * release year, IMDb rating, and a badge indicating whether it has been fully watched.
+ * The card includes an onclick handler to open a modal with detailed information.
+ *
+ * @function
+ * @param {Object} item - The content item to render (must include title, genres, year, IMDb rating, and optionally a banner).
+ * @returns {string} A string of HTML representing the content card.
+ */
 function createContentCard(item) {
   const genres = item.genres
     ? item.genres
@@ -80,10 +137,29 @@ function createContentCard(item) {
     `;
 }
 
+/**
+ * Determines the type of a content item based on its properties.
+ *
+ * Checks whether the item has a "seasons" property to classify it as a series;
+ * otherwise, it is considered a film.
+ *
+ * @function
+ * @param {Object} item - The content item to evaluate.
+ * @returns {string} Returns "series" if the item has seasons, otherwise "film".
+ */
 function getItemType(item) {
   return item.seasons ? "series" : "film";
 }
 
+/**
+ * Generates an HTML block displaying a "no results" message.
+ *
+ * Returns a styled HTML string containing an icon and a message, used when no content matches the user's search or filter criteria.
+ *
+ * @function
+ * @param {string} [message="Aucun résultat trouvé"] - The message to display.
+ * @returns {string} An HTML string representing the "no results" message.
+ */
 function showNoResults(message = "Aucun résultat trouvé") {
   return `
     <div class="no-results">

@@ -1,3 +1,14 @@
+/**
+ * Controls global user interface behavior and navigation interactions.
+ *
+ * This module sets up all DOM event listeners required for navigation, filtering,
+ * modals, video tracking, and search interactions. It manages section transitions,
+ * updates active navigation states, and reacts to filter input to refresh content dynamically.
+ * It also handles global keyboard shortcuts and graceful fallback when images fail to load.
+ *
+ * @module scripts
+ */
+
 let currentSection = "home";
 
 const sections = document.querySelectorAll(".section");
@@ -7,6 +18,19 @@ const modal = document.getElementById("modal");
 const videoModal = document.getElementById("videoModal");
 const videoPlayer = document.getElementById("videoPlayer");
 
+/**
+ * Attaches all necessary event listeners to DOM elements for navigation, filtering, search, modal control, and video handling.
+ *
+ * This includes:
+ * - Navigation link clicks and section switching
+ * - Search input with debounce
+ * - Modal open/close behavior
+ * - Filter changes for both films and series
+ * - Video player tracking (time update, end, pause)
+ * - Global keyboard shortcuts (Escape to close modals, "/" to focus search)
+ *
+ * @function
+ */
 function setupEventListeners() {
   navLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
@@ -100,6 +124,15 @@ function setupEventListeners() {
   }
 }
 
+/**
+ * Displays the requested section and updates its content if necessary.
+ *
+ * Hides all other sections, shows the one specified, and triggers corresponding content
+ * rendering depending on the section (films, series, search, or stats).
+ *
+ * @function
+ * @param {string} sectionName - The ID of the section to display.
+ */
 function showSection(sectionName) {
   sections.forEach((section) => {
     section.classList.remove("active");
@@ -126,6 +159,14 @@ function showSection(sectionName) {
   }
 }
 
+/**
+ * Sets the clicked navigation link as active and removes the active state from others.
+ *
+ * Visually highlights the currently selected section in the navigation bar.
+ *
+ * @function
+ * @param {HTMLElement} activeLink - The link element that was clicked.
+ */
 function setActiveNavLink(activeLink) {
   navLinks.forEach((link) => link.classList.remove("active"));
   activeLink.classList.add("active");
