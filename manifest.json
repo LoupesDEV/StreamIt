@@ -5,7 +5,7 @@
   "display": "standalone",
   "background_color": "#181818",
   "theme_color": "#181818",
-  "description": "Regardez vos films et séries préférés avec StreamIt.",
+  "description": "Organisez, explorez et regardez vos films et séries préférés.",
   "icons": [
     {
       "src": "medias/logo.png",
