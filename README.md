@@ -50,6 +50,9 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
 > 💡 *Aucune installation supplémentaire n’est requise: StreamIt fonctionne directement dans votre navigateur!*
 
+> *Note bonus* : Tous les films et séries présents sont issus de ma base de données personnelle, mais vous pouvez facilement ajouter vos propres contenus en modifiant les fichiers JSON du dossier `data/`.
+> Pour disposer de la même bibliothèque que moi, prévoyez environ 1 To de stockage pour l’ensemble des films et séries.
+
 # Fonctionnalités
 
 - **Gestion complète des contenus** 🎞️ : Parcourez et gérez facilement vos films et séries favoris grâce à des fiches
