@@ -2514,5 +2514,492 @@
         }
       ]
     }
+  },
+  "Vikings": {
+    "title": "Vikings",
+    "description": "Les exploits d'un groupe de vikings de la fin du 8ème siècle jusqu'au milieu du 11ème, mené par Ragnar Lodbrok, l'un des plus populaires héros viking de tous les temps, qui a régné quelques temps sur le Danemark et la Suède...",
+    "banner": "medias/series/vikings/vikings.jpg",
+    "IMDb": 8.5,
+    "IMDb_link": "https://www.imdb.com/title/tt2306299//",
+    "year": 2013,
+    "genres": [
+      "Historical Epic",
+      "Period Drama",
+      "War Epic",
+      "Action",
+      "Adventure",
+      "Drama",
+      "History",
+      "Romance",
+      "War"
+    ],
+    "creators": [
+      "Michael Hirst"
+    ],
+    "stars": [
+      "Katheryn Winnick",
+      "Gustaf Skarsgård",
+      "Alexander Ludwig"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=mAl60ykBm4A",
+    "seasons": {
+      "1": [
+        {
+          "title": "Cap à l'Ouest",
+          "desc": "Au VIIIe siècle en Scandinavie, frustré par le manque d'ambition du chef local Haraldson, Ragnar Lothbrok, jeune et charismatique guerrier viking, décide de construire en secret un nouveau type de navire qui lui permettra de traverser la mer en direction des civilisations prospères de l'Ouest...",
+          "video": "medias/series/vikings/1-1.mp4"
+        },
+        {
+          "title": "L'Expédition",
+          "desc": "Ragnar entreprend un long voyage en Angleterre, contre l'avis d'Haraldson, convaincu que rien n'existe à l'Ouest. Sur place, l'équipe pille un monastère.",
+          "video": "medias/series/vikings/1-2.mp4"
+        },
+        {
+          "title": "La Pêche miraculeuse",
+          "desc": "Après leur premier raid, Ragnar et son clan regagnent joyeusement leurs terres, parés de richesses et entourés d'esclaves. Ragnar prend à son service le frère Athelstan, rescapé du monastère. Face à un tel succès, le comte n'a pas d'autre choix que d'autoriser un second voyage vers le Nouveau Monde...",
+          "video": "medias/series/vikings/1-3.mp4"
+        },
+        {
+          "title": "Justice est faite",
+          "desc": "Ragnar navigue vers l'Angleterre en compagnie de Knut, un des hommes d'Haraldson. A leur arrivée, les Vikings sont accueillis par des troupes armées, qui leur proposent de les accompagner pacifiquement vers Hexam, le village avoisinant. Mais Rollo refuse et provoque un premier bain de sang sur la plage...",
+          "video": "medias/series/vikings/1-4.mp4"
+        },
+        {
+          "title": "Le Raid",
+          "desc": "En réponse aux sombres prédictions d'une voyante, qui le met en garde contre Ragnar, Haraldson lance un assaut meurtrier et préventif contre la maison du jeune guerrier, pillant ses biens et tuant son bétail. Grièvement blessé durant l'attaque, Ragnar parvient à s'enfuir de justesse à bord d'un bateau...",
+          "video": "medias/series/vikings/1-5.mp4"
+        },
+        {
+          "title": "L'Ultime Drakkar",
+          "desc": "Lorsqu'il découvre qu'Haraldson a torturé son frère, Ragnar défie le comte en lui proposant un combat singulier. Un seul des deux hommes en sortira vivant. Mais Lagertha, qui attend un enfant, s'oppose à cet affrontement, craignant que pour son mari, affaibli par sa récente blessure, l'issue ne soit fatale...",
+          "video": "medias/series/vikings/1-6.mp4"
+        },
+        {
+          "title": "La Rançon",
+          "desc": "Trois navires vikings cinglent vers la villa du puissant roi Aelle, dans l'Est de l'Angleterre. Après avoir lancé l'assaut durant la nuit, les guerriers païens prennent en otage le frère du roi, Aethelwulf. Ragnar réclame une rançon en échange de la paix. Mais le roi Aelle a un tout autre plan en tête...",
+          "video": "medias/series/vikings/1-7.mp4"
+        },
+        {
+          "title": "Le Sacrifice",
+          "desc": "Comme ils le font tous les neuf ans, Ragnar et les Vikings se rendent en pèlerinage à Uppsala pour remercier les dieux de leurs faveurs et proposent à Athelstan de se joindre à eux. Après sa fausse couche, Lagertha veut savoir si elle aura d'autres enfants. Athelstan découvre combien sa foi est grande...",
+          "video": "medias/series/vikings/1-8.mp4"
+        },
+        {
+          "title": "Renaissance",
+          "desc": "A la demande du roi Horik, Ragnar s'embarque avec quelques hommes pour le Götaland, la plus méridionale des trois grandes régions de Suède. Il veut régler un litige de territoire avec le chef de la région, Jarl Borg. Borg se demande si Ragnar est un nouvel allié ou une marionnette du roi...",
+          "video": "medias/series/vikings/1-9.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Le Sang des frères",
+          "desc": "Ragnar et les forces du roi Horik s'apprêtent à affronter Jarl Borg, rejoint par Rollo. L'un des deux frères devra s'incliner à l'issue de cette bataille. Dans le même temps, la princesse Aslaug se dirige vers Kattegat avec une nouvelle qui risque de placer Ragnar dans une situation fort délicate...",
+          "video": "medias/series/vikings/2-1.mp4"
+        },
+        {
+          "title": "Fragile alliance",
+          "desc": "Quatre années de paix se sont écoulées sous le règne de Ragnar, désormais marié à la princesse Aslaug. Désireux de conquérir de nouveaux espaces, le viking annonce à son peuple qu'un raid va avoir lieu, vers l'ouest. Une alliance inattendue se forme et la flotte met le cap sur l'Angleterre...",
+          "video": "medias/series/vikings/2-2.mp4"
+        },
+        {
+          "title": "Trahison",
+          "desc": "Dans le Wessex, le raid viking est en cours. Les hommes de Ragnar s'attaquent à une église et tuent ses occupants. Le roi Ecbert doit faire face, sur ses terres, à un ennemi inhabituel. Pendant que Ragnar se démène pour dominer l'Ouest, Jarl Borg élabore sa propre stratégie pour le futur de Kattegat...",
+          "video": "medias/series/vikings/2-3.mp4"
+        },
+        {
+          "title": "Oeil pour oeil",
+          "desc": "Ragnar rencontre le roi Ecbert. Le face-à-face entre les deux hommes doit permettre d'ouvrir la voie à de futurs compromis. Profitant de la situation, Jarl Borg envahit Kattegat et prend les rênes du pouvoir. Il dirige la cité d'une main de fer, tandis que Rollo se bat pour rallier les hommes de son peuple...",
+          "video": "medias/series/vikings/2-4.mp4"
+        },
+        {
+          "title": "Les Liens du sang",
+          "desc": "Lagertha vient en aide à Ragnar et emmène son fils Bjorn avec elle pour combattre Jarl Borg. Les retrouvailles sont l'occasion pour Ragnar de jauger la bravoure de son fils. Mais bientôt, Bjorn doit faire un choix difficile entre Lagertha et Aslaug. Aslaug doit faire face à la vérité derrière ses prophéties...",
+          "video": "medias/series/vikings/2-5.mp4"
+        },
+        {
+          "title": "L'Impossible Pardon",
+          "desc": "L'amertume de Siggy la pousse à nouer de dangereuses alliances. Le roi Horik profite de cette rancoeur pour garder la main sur Ragnar. Il encourage même ce dernier à pardonner l'invasion de ses terres par Jarl Borg afin de restaurer l'accord d'origine. Mais Ragnar semble avoir d'autres préoccupations...",
+          "video": "medias/series/vikings/2-6.mp4"
+        },
+        {
+          "title": "L'Aigle de sang",
+          "desc": "Ragnar et Horik veulent punir Jarl Borg, mais ils ne parviennent pas à se mettre d'accord sur les moyens à employer pour rendre la justice. Le roi Aelle arrive dans le Wessex. Ecbert envisage alors une nouvelle alliance pour renforcer le royaume. De son côté, Floki apprend par Helga qu'elle est enceinte...",
+          "video": "medias/series/vikings/2-7.mp4"
+        },
+        {
+          "title": "Le Désossé",
+          "desc": "La dernière prophétie d'Aslaug se réalise alors qu'elle donne naissance à un fils. Lagertha, Ragnar et le roi Horik se préparent pour un nouveau raid. A l'ouest, le roi Ecbert accueille la sulfureuse princesse Kwenthrith de Mercie, en conflit avec sa famille après avoir tué son propre frère...",
+          "video": "medias/series/vikings/2-8.mp4"
+        },
+        {
+          "title": "Le Choix",
+          "desc": "Les tensions se multiplient entre Ragnar et Horik. Ce dernier souhaite ouvrir le combat contre le roi Ecbert. Les troupes sont alors envoyées au Wessex vers la demeure du seigneur Ecbert. Mais une mauvaise surprise les attend sur le terrain. De son côté, Ragnar préfère entamer une négociation...",
+          "video": "medias/series/vikings/2-9.mp4"
+        },
+        {
+          "title": "Notre Père",
+          "desc": "Ragnar et le roi Horik sont de retour à Kattegat. Ce premier place désormais sa confiance en ceux qui ont su rester fidèles à la voie qu'il a tracée. Après avoir observé des manipulations, il se méfie de proches qui sont en train de se rapprocher dangereusement de l'ennemi. Pour débuter, Ragnar teste Floki...",
+          "video": "medias/series/vikings/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Mercenaires",
+          "desc": "Les flottes de Ragnar et de Lagertha partent une fois encore de Kattegat et voguent de conserve vers les côtes de Wessex. Le roi Ecbert accueille les Vikings et leur propose un marché. Malgré les réticences de certains de ses compagnons, Ragnar jette toutes ses forces dans cette nouvelle bataille...",
+          "video": "medias/series/vikings/3-1.mp4"
+        },
+        {
+          "title": "Retour à la terre",
+          "desc": "Lagertha et Athelstan apportent leur aide à l'établissement de la colonie viking dans le Wessex. Par un jour de neige, un mystérieux vagabond, qui se fait appeler Harbard, arrive à Kattegat. Serait-il l'homme qu'ont annoncé les rêves prémonitoires concommitants d'Aslaug, Siggy et Helga ?...",
+          "video": "medias/series/vikings/3-2.mp4"
+        },
+        {
+          "title": "Le Destin du guerrier",
+          "desc": "Alors que les colons vikings établis dans le Wessex préparent leur première récolte, le roi Ecbert leur rend visite. Il essuie diverses critiques de la part des chefs. En Mercie, la bataille fait rage. A Kattegat, l'aura mystérieuse de Harbard fascine la princesse Aslaug et Helga. Siggy, elle, est sceptique...",
+          "video": "medias/series/vikings/3-3.mp4"
+        },
+        {
+          "title": "Dans la douleur",
+          "desc": "Les troupes victorieuses font leur retour au Wessex mais la rancoeur est forte dans le camp viking. Floki désapprouve l'alliance avec le roi Ecbert. Il estime qu'Athelstan a trop d'influence sur Ragnar. La princesse Kwenthrith se lance dans des manipulations politiques suite à la bataille de Mercie...",
+          "video": "medias/series/vikings/3-4.mp4"
+        },
+        {
+          "title": "L'Usurpateur",
+          "desc": "La flotte décide de retourner à Kattegat où se sont déroulés des événements tragiques. Ragnar provoque la surprise générale lorsqu'il annonce son désir de partir à la conquête de Paris, une cité très bien fortifiée qui fait l'objet de nombreuses convoitises. Mais il doit accompagner Lagertha à Hederby...",
+          "video": "medias/series/vikings/3-5.mp4"
+        },
+        {
+          "title": "Renaître",
+          "desc": "Décidé à envahir Paris, Ragnar rassemble tous les Vikings du Danemark. Il ne veut montrer aucune faiblesse et décide de cacher aux siens le massacre de la colonie viking à Wessex. Tandis que les préparatifs pour l'expédition s'accélèrent, Athelstan apprend à Ragnar qu'il a renoué avec la foi chrétienne...",
+          "video": "medias/series/vikings/3-6.mp4"
+        },
+        {
+          "title": "Paris",
+          "desc": "L'arrivée de la flotte viking à Paris sème la panique dans la population. L'empereur Charles, exhorté par sa fille Gisla, annonce qu'il ne quittera pas la ville. La défense de Paris est entre les mains du comte Odo, qui espère qu'une victoire héroïque contre les Vikings lui vaudra la main de Gisla...",
+          "video": "medias/series/vikings/3-7.mp4"
+        },
+        {
+          "title": "Aux portes de la ville",
+          "desc": "L'armée viking assiège la ville de Paris. Le plan est simple : Lagertha, Kalf et Erlendur mènent une attaque contre les portes de la ville, après avoir pris le pont. Pendant ce temps, Floki, Ragnar, Bjorn et Rollo essaient de percer les murs. La population se barricade et le comte Odo prépare la défense...",
+          "video": "medias/series/vikings/3-8.mp4"
+        },
+        {
+          "title": "Dernier recours",
+          "desc": "Les Vikings avaient pourtant bien préparé leur deuxième assaut sur Paris, usant de ruses et multipliant les stratégies. Las, malgré la violence de leur attaque, ils ne sont pas parvenus à entrer dans la ville et comptent lers morts et leurs blessés. Mais Ragnar ne désespère pas de réussir à prendre Paris...",
+          "video": "medias/series/vikings/3-9.mp4"
+        },
+        {
+          "title": "Le Dernier Vaisseau",
+          "desc": "Ragnar sent que sa fin est proche, la maladie qui le ronge, ne lui laisse que peu de répit. Mais il parvient à conserver toute sa lucidité et réussit à trouver d'habiles subterfuges capables de faire tomber Paris. Avec la complicité de Bjorn, il élabore un dernier plan pour conquérir la ville...",
+          "video": "medias/series/vikings/3-10.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Une bonne trahison",
+          "desc": "Ragnar est toujours en vie, mais sa position à la tête du peuple de Kattegat est fragilisée par une lutte fratricide, sur le point de s'engager.",
+          "video": "medias/series/vikings/4-1.mp4"
+        },
+        {
+          "title": "Tuez la reine !",
+          "desc": "Après ses expéditions victorieuses et la prise de Paris, Ragnar, gravement malade, fait route pour Kattegat avec ses Vikings. Mais les rumeurs entourant sa mort l’ont précédé, décuplant l’ardeur des candidats à sa succession. Parmi eux, son fils aîné, Björn, mais aussi la reine Aslaug, sa seconde épouse, qui a pris goût au pouvoir pendant ses années d’absence. Toutefois, si Ragnar apparaît plus vulnérable, on aurait tort de le sous-estimer…",
+          "video": "medias/series/vikings/4-2.mp4"
+        },
+        {
+          "title": "Pitié",
+          "desc": "Floki fait face à la colère de Ragnar. Rollo trouve un allié improbabale à la Cour de France. Kalf et Erlendur tracent leur ascension. Quant à Bjorn, il doit lutter contre un adversaire féroce dans le désert.",
+          "video": "medias/series/vikings/4-3.mp4"
+        },
+        {
+          "title": "Yol",
+          "desc": "Le Yule Log brûle dans le Grand Hall de Kattegat, et d'étranges visiteurs sont accueillis, parmi eux le roi de Norvège. Le Roi Aelle visite Wessex pour Noël et est préoccupé par la manière dont les relations familiales évoluent. A Paris, l'avenir de Rollo est dans la balance, concernant sa nouvelle épouse, avec une délégation papale qui arrive pour arranger un divorce.",
+          "video": "medias/series/vikings/4-4.mp4"
+        },
+        {
+          "title": "Promesses",
+          "desc": "Un vent de traîtrise souffle sur la Cour de paris et de Wessex. Ecbert accepte d'aider Kwenthrith à Mercia, mais est-il un réel allié? Ragnar confie à Yidu ses plus noirs secrets. Un mariage est arrangé entre Lagertha et Kalf.",
+          "video": "medias/series/vikings/4-5.mp4"
+        },
+        {
+          "title": "Ce qui aurait pu être",
+          "desc": "Ragnar annonce un raid à Paris. La flotte est battue par une tempête après avoir mis les voiles, mais la plus grande menace pour les Vikings et celle qui les attends à Paris. Pendant ce temps, Ecbert envoie Aethelwulf et Alfred en pélérinage à Rome.",
+          "video": "medias/series/vikings/4-6.mp4"
+        },
+        {
+          "title": "Pertes et profits",
+          "desc": "Les intentions du roi Ecbert sont mises au jour alors qu'il complote pour conquérir la couronne de Mercia. Dans le même temps, les vikings portent leur attaque, avec une force considérable. Harbard, le mystérieux vagabond, refait surface. Son arrivée provoque l'émoi des femmes de Kattegat...",
+          "video": "medias/series/vikings/4-7.mp4"
+        },
+        {
+          "title": "Au-delà des montagnes",
+          "desc": "Les Vikings, défaits, remettent en question le rôle de leader qu'occupe Ragnar, tandis qu'ils évacuent le camp et se replient en aval. Ce dernier ordonne à la flotte d'échouer près de la paroi d'une falaise et révèle à ses hommes un plan ingénieux...",
+          "video": "medias/series/vikings/4-8.mp4"
+        },
+        {
+          "title": "La Mort pour tous",
+          "desc": "Les manoeuvres entreprises par les Vikings portent finalement leurs fruits : ils parviennent à relancer leurs embarcations en route pour Paris. Aethelwulf, le fils du roi Ecbert, et Alfred arrivent à Rome, où siège le pape Léon...",
+          "video": "medias/series/vikings/4-9.mp4"
+        },
+        {
+          "title": "Que Dieu bénisse Paris !",
+          "desc": "Une bataille féroce est engagée entre la tribu Vikings et ses opposants français. A la tête des deux groupes, Ragnar et Rollo s'affrontent. L'issue du combat doit sceller le destin des deux frères ennemis, pour le meilleur et pour le pire...",
+          "video": "medias/series/vikings/4-10.mp4"
+        },
+        {
+          "title": "L'Étranger",
+          "desc": "Ragnar, de retour à Kattegat, élabore un plan pour rejoindre Wessex et réparer certaines erreurs passées. Mais il découvre que ses anciens alliés ont désormais leurs propres intérêts à défendre. Un seul des fils Lothbrok accepte de se joindre à la mission du père...",
+          "video": "medias/series/vikings/4-11.mp4"
+        },
+        {
+          "title": "La Vision",
+          "desc": "Les habitants de Kattegat se détournent de Ragnar, qui lutte pour rassembler sa flotte, persuadés que les dieux l'ont abandonné. Aslaug lui prédit un naufrage. Bjorn, au contraire, a le vent en poupe, tandis qu'il prépare son exploration en Méditerranée. L'expédition se fera à bord d'un nouveau bateau, flamboyant, construit pour lui Floki...",
+          "video": "medias/series/vikings/4-12.mp4"
+        },
+        {
+          "title": "Deux voyages",
+          "desc": "La flotte de Ragnar fait naufrage sur la côte du Wessex. Les survivants sont rares. Ivar et son père doivent prendre une grave décision. De son côté, Rollo ne peut résister à l'envie de rejoindre Bjorn, risquant à la fois son mariage et sa nouvelle identité franque...",
+          "video": "medias/series/vikings/4-13.mp4"
+        },
+        {
+          "title": "À cette heure incertaine avant le matin",
+          "desc": "À Kattegat, Aslaug, acceptant sa reddition, fait face à Lagertha devant le peuple tout entier. Elle annonce alors à tous que Ivar et Ragnar ont péris en mer et que malgré tout, elle a accomplie sa destinée en donnant de nombreux fils à Ragnar. Elle demande également à sa rivale de bien vouloir la laisser se retirer en paix. Tournant les talons, elle s’apprête à partir mais au dernier moment, Lagertha l'abat sans hésiter d'une flèche en plein dos. Quelques heures plus tard, le peuple de Kattegat honore la mort de sa reine en lui offrant un bûcher funéraire ainsi que des offrandes destinés aux dieux. C'est à ce moment là que Ubbe et Sigurd rentrent et apprennent la mort de leur mère, tuée de la main de Lagertha. Ils trouvent alors cette dernière dans la grande salle, assise sur le trône royal. Furieux, Ubbe tente de se ruer sur Lagertha pour la tuer mais se fait maîtriser par quelques guerriers. Enfermé dans une maison avec Sigurd, le jeune homme ne compte pas laisser le meurtre de sa mère impuni et jure vengeance. Les fils de Ragnar sont visités par Astrid, qui les met en garde, s'ils touchent à Lagertha elle les tuera. Nullement impressionné, Ubbe la menace de mort. De leur côté, arrivant porte du Royaume du Wessex, Ragnar et Ivar sont capturés par des soldats du prince Aethelwulf. Sur ordre de celui-ci, Ragnar est sauvagement battu sous les yeux de son fils, puis est ensuite mis en cage et séparé d'Ivar. Lorsque le roi Ecbert, à présent âgé, apprend l'arrestation de Ragnar, il se précipite à sa rencontre. Face à face autour d'une table, Ragnar et Ecbert se confrontent. Le vieux roi du Wessex avoue que la destruction de la colonie viking était bel et bien de son fait et qu'il ne regrette en aucun cas d'avoir donner cet ordre. Il présente également à son prisonnier le jeune Magnus, le fils de la reine Kwenthrith, supposé avoir été engendré par lui il y a douze ans. Là, Ragnar avoue devant le garçon qu'il ne peut pas être son père biologique puisqu'il n'a en réalité jamais couché avec la reine Kwenthrith. Suite à cette révélation, Aethelwulf se charge d'expulser l'enfant de la citadelle tandis que les deux rois continuent à parlementer tout au long de la nuit. Suite à une discussion parlant des religions et des dieux, Ragnar explique à Ecbert les circonstances de la mort d'Athelstan. Le lendemain, la princesse Judith se présente à lui, accompagnée d'Alfred. Ragnar identifie immédiatement le fils de Judith comme le fils caché de son défunt ami. Un peu plus tard, Ragnar, conscient de ne pouvoir quitter le Wessex en vie, demande à Ecbert de le livrer au roi Aelle de Northumbrie, vu que celui-ci l'a toujours détesté, suite à l'attaque et au pillage sauvage et barbare de ses terres quelques décennies auparavant. Le chef viking fait remarquer que si Ecbert laisse Ivar rentrer à Kattegat avec un message accusant le roi Aelle, ses autres fils n'attaqueront par le Wessex pour venger la mort de leur père. Ecbert, le cœur gros, consent à livrer son \"ami\" à la Northumbrie...",
+          "video": "medias/series/vikings/4-14.mp4"
+        },
+        {
+          "title": "Tous ses anges",
+          "desc": "Au Wessex, Ragnar attend qu'Ecbert le livre au roi Aelle de Northumbrie. Alors qu'il est emprisonné dans une pièce, Ecbert lui permet de faire ses adieux à Ivar. Il fait savoir à son fils que c'est en lui qu'il a foi pour assurer l'avenir de leur peuple, lui conseillant d'utiliser sa colère de manière intelligente et lui garantissant qu'un jour le monde entier le connaîtra comme étant \"Ivar Le Désossé\". Il dévoile également son ultime stratégie: il fait comprendre à Ivar que même si le roi Aelle le tue, c'est en attaquant le roi Ecbert qu'il faudra venger sa mort, ce qui assure par la même occasion la mort du roi du Wessex. Un peu plus tard, alors que Ivar embarque sur un navire pour Kattegat, Ragnar est enfermé dans une cage et son convoi part pour la Northumbrie. Ecbert, culpabilisant d'avoir livrer son ami à la Northumbrie, suit le convoi de Ragnar, déguisé en mendiant. Durant son voyage, Ragnar, enfermé, repense à son amitié avec Athelstan, à ses moments passés en compagnie de sa famille et de ses amis, et voit le Voyant lui apparaître. Il avoue qu'il a su triompher des Dieux car c'est lui seul qui a décidé de sa façon de mourir. Le convoi de Ragnar arrive à la Northumbrie où le roi Aelle l'accueille en personne dans la forêt. Là, savourant sa vengeance, il lui fait subir durant un jour entier de nombreux supplices par ses soldats (coups de bâtons, marquage au fer..) et lui inscrit même une croix sur le front puis fait hisser sa cage dans les airs durant toute la nuit. Au petit matin, Ragnar, endurant toutes ses tortures sans montrer sa souffrance, déclare à Aelle qu'il rejoindra bientôt le Valhalla en paix et sans regrets. Juste après, Ragnar est jeté dans une fosse aux serpents, où il se fait mordre à de nombreuses reprises, sous les yeux d'Aelle, des soldats et de Ecbert, impuissant. Le viking, mortellement atteint par le venin des reptiles, regarde une toute dernière fois les cieux puis ferme les yeux et meurt tandis que les portes de son sinistre tombeau se referment sur sa dépouille. Au même moment, Ivar atteint Kattegat et retrouve ses frères, Ubbe et Sigurd, qui lui annonce la mort d'Aslaug, tuée par Lagertha. Ivar leur annonce également que leur père, livré au roi Aelle de Northumbrie par le roi Ecbert, est mort. A présent orphelin, le jeune Ivar jure vengeance...",
+          "video": "medias/series/vikings/4-15.mp4"
+        },
+        {
+          "title": "Traversées",
+          "desc": "Au Wessex, Ecbert demande à son fils Aethelwulf de se préparer aux représailles des fils de Ragnar en se prémunissant contre une possible attaque. À Kattegat, Lagherta, ébranlée par la nouvelle de la mort de Ragnar, ordonne la protection de la ville par l’édification de fortifications. Elle doit également affronter la colère des trois fils de Ragnar, Ivar, Ubbe et Sigurd, qui ne pensent qu’à se venger d’elle. De son côté, Bjorn et sa flotte débarque en Espagne, déjà conquise par les musulmans…",
+          "video": "medias/series/vikings/4-16.mp4"
+        },
+        {
+          "title": "La Grande Armée",
+          "desc": "Au Wessex, le roi Ecbert tente d'éduquer son petit-fils, Alfred, en lui faisant comprendre que les livres sont tout aussi importants que les épées. Il essaie de lui apprendre à être intelligent et à penser par lui-même s'il veut un jour être roi du Wessex. Judith se rend en Northumbrie afin de rendre visite à son père, le roi Aelle. Se rendant ensuite sur le « tombeau » de Ragnar Lothbrok, elle met en garde son père contre le désir de vengeance des fils de Ragnar. Ce dernier lui répond avec mépris, lui annonçant qu'il s'est déjà pleinement préparé à cette éventualité. Sur la côte française, la flotte viking atteint Paris pour y ramener Rollo. Lorsque ce dernier propose d'offrir des terres de son royaume à ceux qui le veulent, Bjorn et Floki lui font comprendre qu'il ne fait désormais plus partie du peuple viking. Ensuite, Rollo retourne auprès de sa femme Gisla, où cette dernière le rejette violemment en le frappant. À Kattegat, Ubbe, Sigurd et Ivar décident d'attaquer l'Angleterre afin de venger la mort de Ragnar. Ivar va plus loin en décidant de déclarer la guerre au monde entier. Cependant, ce dernier est plus préoccupé par l'idée de se venger de la mort de leur mère. Il reproche même à Sigurd de ne pas partager son opinion, si bien qu'il manque de le tuer avec une hache. Quant à Ubbe, il décide de défier Lagertha en faisant de Margrethe une femme libre afin de l'épouser. Torvi et Astrid se méfient des fils de Ragnar et mettent en garde Lagertha tandis que cette dernière continue d'organiser les défenses de la ville. Les fils de Ragnar convoquent également de nombreux jarls à Kattegat dans le but de constituer une gigantesque armada afin d'attaquer l'Angleterre. Mais lors du festin d'accueil, Ubbe et Ivar tendent un piège à Lagertha et l'isolent dans la grande salle afin de l'assassiner. La guerrière au bouclier ne doit son salut qu'à l'arrivée inattendue de son fils Bjorn et de Hvitserk, revenus de France. Hvitserk convainc ses trois frères de remettre à plus tard leur vengeance personnelle et leur fait comprendre que l'important pour le moment est de venger leur père. Un peu plus tard, lorsque Ivar rend visite à Floki, ce dernier lui offre un char construit spécialement pour lui et qui va lui permettre d'avancer plus vite que nul autre homme. En secret, Bjorn commence à convoiter Astrid.",
+          "video": "medias/series/vikings/4-17.mp4"
+        },
+        {
+          "title": "Vengeance",
+          "desc": "À Kattegat, de nombreux jarls et rois de la Norvège, du Danemark ainsi que de la Suède se rassemblent afin de former l'immense armée que les fils de Ragnar mèneront en Angleterre. Lors de ce rassemblement, le roi Harald retrouve une jeune femme qu'il convoitait, mais cette dernière est devenue femme de jarl sans l'attendre. En secret avec son frère, ils commencent à rechercher des alliés potentiels dans le but de se débarrasser un jour des Lothbrok. De son côté, Ubbe se marie avec Margrethe en présence de ses frères, de Floki et de Helga. Cependant, lors de la nuit de noces, il consent à la « partager » avec Hvitserk lorsqu'il constate que son frère est également amoureux de la jeune femme. Cette dernière semble ravie et même comblée par la situation. Quant à Bjorn, il continue à coucher avec Astrid en secret, aux dépens de sa mère. Lors de la cérémonie sacrificielle et devant toute la ville de Kattegat réunie, Lagertha offre le jarl Jorgensen en sacrifice aux dieux, tandis que Bjorn et Astrid profitent de la cérémonie pour s'éclipser discrètement et coucher ensemble. Leur absence durant la cérémonie n'échappe cependant pas à Lagertha et Torvi. Peu avant leur départ vers l'Angleterre, Bjorn fait comprendre à ses frères qu'en tant qu’aîné, c'est lui qui dirigera leur armée au combat. Cette décision semble cependant contrarier Ivar. Après que Bjorn ait fait ses adieux à sa mère et à sa femme, l'armada des Vikings prend la mer. En Angleterre, le roi Aelle est averti que les troupes vikings ont débarqué. Il en est de même pour le roi Ecbert, dans le Wessex. Sur le champ de bataille, l'armée de Northumbrie, d'abord trop confiante, se fait encercler par l'immense armée viking et est par la suite rapidement vaincue à la suite d'un immense et unique assaut meurtrier. Aelle, capturé, est ensuite traîné par les fils de Ragnar jusqu'à la tombe de leur père. En ouvrant la fosse aux serpents, tous constatent avec stupéfaction que la dépouille de Ragnar a disparu. À la suite de cela, Aelle est violemment torturé par les fils de Ragnar et par Floki, qui ne font preuve d'aucune pitié. Bjorn lui fait ensuite subir le châtiment ultime en lui dessinant un Aigle de sang dans le dos, sous les yeux fascinés et vengeurs de ses frères. Le cadavre d'Aelle est par la suite suspendu dans les airs, la peau du dos retirée pour former des ailes, semblables à celles d'un aigle, au dessus de la fosse où a péri le légendaire viking Ragnar Lothbrok.",
+          "video": "medias/series/vikings/4-18.mp4"
+        },
+        {
+          "title": "À l'aube du dernier jour",
+          "desc": "À Kattegat, la cité essuie une attaque surprise des guerriers d'un certain Egil le Bâtard. Mais les guerriers menés par Lagertha arrivent à riposter sans trop de peine et arrivent à faire battre leurs ennemis en retraite. Egil est capturé par Astrid alors qu'il s'apprêtait à fondre sur la reine de Kattegat. Sous la torture, Egil révèle que cette attaque a été ordonnée et financée par le roi Harald Belle Chevelure. Egil sera par la suite exécuté pour avoir attaqué Kattegat. Malheureusement au cours de la bataille, Torvi semble grièvement blessée, transpercée par plusieurs flèches. Elle survivra néanmoins à ses blessures, soignée par Margrethe. Les Vikings débarquent en Mercie, où ils accostent à Repton avec leur bateaux. Au Wessex, Æthelwulf et Ecbert apprennent le destin funeste qu'ont subit le roi Aelle et son armée. Se préparant à l'ultime affrontement contre les Fils de Ragnar, Ecbert ne veut pas attendre que les Vikings se retrouvent aux portes de son royaume et préfère envoyer son fils à leur rencontre. Ce dernier, faisant ses adieux à son épouse ainsi qu'à ses deux fils, part au combat après avoir rassemblé à son tour une immense armée. Au campement viking, Floki tente de retrouver Tanaruz, la jeune fille « adoptée » qui s'est enfuie au cours de la nuit. Il finit par la retrouver et la remet entre les mains d'Helga. Quant au roi Harald, il reste perturbé par la jeune princesse qu'il s'était juré d'épouser. Sous le coup de la colère, il se venge de l'affront qu'il estime avoir subi en tuant l'époux de cette dernière. Peu après, semblant se repentir de l'affront d'avoir épousé un autre homme, la jeune femme invite Harald sous sa tente et se donne à lui. La jeune veuve est cependant guidée par la seule vengeance et s'apprête à le tuer alors qu'ils sont en train de faire l'amour. Mais elle en est empêchée par Halfdan, qui, se doutant du piège tendu à son frère, la tue juste avant qu'elle ne le poignarde. De son côté, Ivar se moque de ce peuple qu'il qualifie de « lâche » car il s'enfuit devant eux. Mais Bjorn lui fait remarquer que lors de la bataille, ce sont des hommes entraînés et armés qu'ils affronteront. Contestant une fois de plus les ordres de son frère aîné, le jeune infirme suggère de changer de stratégie afin de mieux surprendre l'armée d'Æthelwulf. Il propose de ne pas affronter l'ennemi à terrain découvert comme ils en ont l'habitude, mais plutôt d'utiliser l'avantage du paysage qui les entoure pour le mettre à profit. Sa stratégie s'avère être payante car le jour de la bataille, les soldats d'Æthelwulf se retrouvent déconcertés par la méthode des Vikings et les morts se font rapidement nombreux, vus qu'ils finissent par se retrouver encerclés et isolés puis tirer à vue par une partie des troupes viking, dissimulée dans des sous-bois. Lassé de jouer le jeu des Vikings, le prince du Wessex a alors l'idée de se rendre au lieu de stationnement des drakkars vikings pour les détruire et ainsi espérer couper leur retraite par la même occasion. Mais le piège d'Ivar se referme sur lui à ce moment-là, et l'armée viking au grand complet se réunit en un seul et grand mur de boucliers, encerclant de toutes parts l'armée restante du Wessex. Se rendant compte trop tard de son erreur, Æethelwulf ordonne alors au reste de son armée de déferler sur leurs ennemis.",
+          "video": "medias/series/vikings/4-19.mp4"
+        },
+        {
+          "title": "À l'heure de notre mort",
+          "desc": "L'armée restante d'Æthelwulf est rapidement mise en déroute par l'armée viking. Le prince du Wessex ordonne alors la retraite vers le château de son père avec ce qu'il reste de ses troupes. Devant l'arrivée imminente de leur ennemis, Ecbert fait évacuer Judith et ses deux fils avec Æthelwulf. Cependant, se trouvant dans un état second, il refuse de fuir sa demeure et se débrouille pour faire de son fils le nouveau roi du Wessex et de la Mercie, ce qui lui permet d'assurer l'avenir de son royaume ainsi que de sa lignée pour le futur. Après cela, Æthelwulf et sa famille s'enfuient de la demeure en laissant Ecbert seul avec l'évêque Edmund et plusieurs gardes. Quelques instants plus tard, les guerriers de Bjorn arrivent sur place, mais découvrent l'endroit désert. Les Vikings mettent alors la ville à feu et à sang, en saccageant, pillant et brûlant tout sur leur passage. Au cours de l'assaut, l'évêque Edmund est tué par Hvitserk. Puis, Helga est tuée par Tanaruz, qui la poignarde à mort juste avant de se suicider. Elle meurt quelques secondes plus tard dans les bras de Floki qui l'enterre ensuite au cours d'une inhumation rituelle. Ce dernier, fou de chagrin, quitte les siens, seul. Quant à Ecbert, il se rend de lui-même à Bjorn. Après cela, les cinq fils de Ragnar se réunissent afin de décider du sort d'Ecbert. Ivar souhaite lui faire subir le châtiment de l'Aigle de sang tandis que Bjorn préfère le garder en vie car il souhaite faire établir des colonies vikings dans les terres du Wessex, conformément aux désirs initiaux de leur père Ragnar. Ecbert accepte de signer une charte de succession de terres mais à la condition qu'ils le laissent choisir sa propre façon de mourir. Après avoir négocié les conditions de ce traité avec Bjorn, Ecbert se rend dans ses bains royaux et se donne la mort en s'ouvrant les veines. Au dehors, les Vikings fêtent leur victoire sur les deux royaumes les plus importants d'Angleterre. Là, Bjorn annonce à son peuple que leur destinée doit se décider maintenant. Il exprime son désir de poursuivre ses raids sur la Mer Méditerranée, tandis qu'une partie de leur peuple continuera de cultiver des terres sur les royaumes d'Angleterre, souhait approuvé par le siens ainsi que par ses autres frères, à l'exception d'Ivar. Le jeune infirme fait remarquer que le destin d'un véritable peuple viking doit être fait de conquêtes et de constructions et non pas d'exploitations de terres. Face à sa fratrie qui lui tient tête et à la suite d'une énième dispute avec Sigurd, Ivar, rendu fou de rage, lance une hache sur son frère en plein torse et le tue quasiment sur le coup et c'est sous les regards atterrés du reste de ses frères que Sigurd Œil de Serpent, s'écroule au sol, mort. Ailleurs, à Sherborne, dans le comté de Dorset en Angleterre, un évêque particulier du nom de Heahmund est montré.",
+          "video": "medias/series/vikings/4-20.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Départs",
+          "desc": "Une nouvelle ère s'annonce. Le règne de Laguerta est en péril. Ivar, l'esprit vengeur, veut la faire tomber pour la mort de sa mère et prendre les rênes du Kattegat. Les fils de Ragnar s'affrontent. Une guerre civile éclate, divisant les Vikings...",
+          "video": "medias/series/vikings/5-1.mp4"
+        },
+        {
+          "title": "Ceux qui ne sont plus parmi nous",
+          "desc": "Floki atteint la terre qu'il croit être Asgard. A Kattegat, Harald est détenu par Lagertha. Il lui propose une alliance par mariage, mais elle refuse et le viole. Les hommes de Harald le libèrent et capturent Astrid. Ils quittent Kattegat et Harald lui offre la même proposition qu'à Lagertha...",
+          "video": "medias/series/vikings/5-2.mp4"
+        },
+        {
+          "title": "Parmi les miens",
+          "desc": "Après la terrible bataille de York, les célébrations sont interrompues. La tension est à son comble : les fils de Ragnar sont dressés les uns contre les autres, et les conflits sont permanents au sein du clan Lothbrok. L'heure est venue pour chacun de choisir son camp. La division éclate entre Vikings...",
+          "video": "medias/series/vikings/5-3.mp4"
+        },
+        {
+          "title": "En terre étrangère",
+          "desc": "Guidés par les visions de Heahmund, les Saxons élaborent un plan de bataille. Ivar met au point sa propre stratégie, alors que la pression s'accroît sur les Vikings. Bjorn foule un nouveau territoire. Il doit convaincre le chef local qu'il n'est pas venu en ennemi...",
+          "video": "medias/series/vikings/5-4.mp4"
+        },
+        {
+          "title": "Le Prisonnier",
+          "desc": "Ivar prend par surprise l'armée de Heahmund, au beau milieu de festivités religieuses. Bjorn, le fils aîné de Ragnar, reçoit un accueil favorable en Méditerranée. Mais la partie est loin d'être gagnée en terre étrangère. Floki est quant à lui de retour à Kattegat...",
+          "video": "medias/series/vikings/5-5.mp4"
+        },
+        {
+          "title": "Mésalliances",
+          "desc": "Lagertha est trahie. Bjorn cherche un moyen de soutenir la reine, désemparée par sa situation. Parallèlement, Floki et ses colons arrivent à destination, sur une terre nouvelle. Ils y découvrent tout autre chose que ce qu'ils s'attendaient à trouver...",
+          "video": "medias/series/vikings/5-6.mp4"
+        },
+        {
+          "title": "Nouveau monde",
+          "desc": "Bjorn retourne à Kattegat pour apprendre qu'une attaque doit avoir lieu contre sa mère, menée par Harald et ses deux frères, Ivar et Hvitserk, pendant la prochaine pleine lune. L'affrontement se prépare. De son côté, Ivar fait face à un dilemme. Il se demande s'il doit faire confiance à un ennemi sur le champ de bataille...",
+          "video": "medias/series/vikings/5-7.mp4"
+        },
+        {
+          "title": "La Plaisanterie",
+          "desc": "La bataille pour Kattegat va commencer. Les adversaires se font face. Les combattants, alignés les uns en face des autres, attendent le signal qui lancera les hostilités. La grande armée des païens doit maintenant prendre une importante décision : privilégier la lutte totale ou favoriser la paix...",
+          "video": "medias/series/vikings/5-8.mp4"
+        },
+        {
+          "title": "Une histoire simple",
+          "desc": "Sur ordre de la reine Lagertha, l'évêque Heahmund a été épargné. Pour laver leur défaite contre Lagertha et Bjorn, Hvitserk rappelle à Ivar une ancienne offre, qui prévoyait le renfort de soldats Francs. Floki veut bâtir un temple à la gloire de Thor mais des luttes intestines l'en empêchent...",
+          "video": "medias/series/vikings/5-9.mp4"
+        },
+        {
+          "title": "Visions",
+          "desc": "L'ombre de grands malheurs plane sur Kattegat alors que l'effusion de sang se poursuit. Laguerta semble prête à affronter la mort, contrairement à Heahmund. Hvitserk et Ivar se parlent à coeur ouvert. Tandis que l'armée vaincue bat en retraite devant l'ennemi. Un guerrier légendaire rentre chez lui...",
+          "video": "medias/series/vikings/5-10.mp4"
+        },
+        {
+          "title": "Révélation",
+          "desc": "L'autorité de Lagertha est affaiblie. Les dieux semblent l'avoir abandonnée. Les prédictions du devin n'augurent rien de bon pour la reine de Kattegat. Entre les mains d'Ivar, elle semble en grand danger. Un sacrifice se prépare. Torvi, en fuite après sa défaite, raconte à son fils la légende familiale...",
+          "video": "medias/series/vikings/5-11.mp4"
+        },
+        {
+          "title": "Le Sanctuaire de la mort",
+          "desc": "Bjorn, Laguerta et Ubbe font face à un destin qui se dérobe, tandis que la loyauté de Heamund est mise à l'épreuve. De son côté, Floki se bat pour comprendre quelle est la volonté des dieux pour l'Islande. A Kattegat, Ivar pourrait avoir fait la bonne rencontre...",
+          "video": "medias/series/vikings/5-12.mp4"
+        },
+        {
+          "title": "Un nouveau dieu",
+          "desc": "Heamund cherche à convaincre le roi Alfred que ses actions ont pour but de défendre la couronne. Ubbe et Torvi consolident la position des vikings, mais ne soutiennent pas leur stratégie dans le camp. Parallèlement, un autre colon disparaît en Islande...",
+          "video": "medias/series/vikings/5-13.mp4"
+        },
+        {
+          "title": "Les Moments perdus",
+          "desc": "Les célébrations se poursuivent en l'honneur d'Ivar à Kattegat. Dans le même temps, un grand chagrin frappe l'Islande. Floki doit prendre une décision funeste. L'armée d'Harald se rapproche du Wessex, tandis qu'un complot grandit contre le roi Alfred...",
+          "video": "medias/series/vikings/5-14.mp4"
+        },
+        {
+          "title": "L'Enfer",
+          "desc": "L'évêque Heahmund est rongé par la culpabilité tandis qu’il se bat pour renoncer à ses passions. Les Vikings affrontent quant à eux les Saxons sur le champ de bataille.",
+          "video": "medias/series/vikings/5-15.mp4"
+        },
+        {
+          "title": "Le Bouddha",
+          "desc": "Bjorn accomplit l’un des rêves de Ragnar. A Kattegat, Ivar élabore un nouveau plan tout en se préparant à une arrivée divine. En parallèle, un colon islandais revient dans un piteux état et le roi Alfred affronte la plus grande menace jamais rencontrée à ce jour.",
+          "video": "medias/series/vikings/5-16.mp4"
+        },
+        {
+          "title": "L'Acte le plus terrible",
+          "desc": "Un tour inattendu parmi les colons laisse Floki impuissant. Le roi Alfred confronte Judith. À York, Bjorn doit conclure un accord avec Harald. Wessex est à nouveau menacé par une force viking, mais qui dirigera l'armée saxonne pour défendre le Royaume?",
+          "video": "medias/series/vikings/5-17.mp4"
+        },
+        {
+          "title": "Baldur",
+          "desc": "Pendant que Floki fait une découverte incroyable, Freydis fait une suprise à Ivar. De son côté, Ubbe négocie avec les trois rois danois qui ont regroupé leurs armées à Reading, mais les négociations risquent de déboucher sur un résultat périlleux.",
+          "video": "medias/series/vikings/5-18.mp4"
+        },
+        {
+          "title": "Le Secret de la grotte",
+          "desc": "Ubbe est forcé de se battre au corps à corps, et Bjorn part pour la Scandinavie avec un vieux rival.",
+          "video": "medias/series/vikings/5-19.mp4"
+        },
+        {
+          "title": "Ragnarok",
+          "desc": "Une nouvelle bataille débute à Kattegat. Et seuls les Dieux savent qui en sortira victorieux...",
+          "video": "medias/series/vikings/5-20.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "La Route de la soie",
+          "desc": "Six mois après la bataille de Kattegat, Bjorn a succédé à son père mais peine avec ses nouvelles responsabilités de roi. Il réalise qu'il ne peut pas compter sur sa mère, Lagherta, qui a d'autres projets. Son frère tyrannique, Ivar, est quant à lui tombé entre les mains du prince Oleg...",
+          "video": "medias/series/vikings/6-1.mp4"
+        },
+        {
+          "title": "Le Prophète",
+          "desc": "Des messagers débarquent à Kattegat et apportent des nouvelles perturbantes à Bjorn. De son côté, Ivar est choqué par le caractère vicieux du prince Oleg qu'il peine à contrôler. Lagherta, de son côté, mène une nouvelle vie paisible et ne semble pas se douter du danger qui la guette...",
+          "video": "medias/series/vikings/6-2.mp4"
+        },
+        {
+          "title": "Des fantômes, des dieux et des chiens",
+          "desc": "Alors que Laghertha reçoit la visite des femmes du village voisin, un évènement choquant va bouleverser la communauté et pousser Lagherta à agir. Pendant ce temps à Kiev, Ivar est conscient de la menace que représente Oleg pour lui même et pour le trône. Bjorn, quant à lui, vient au secours d'un vieil ennemi...",
+          "video": "medias/series/vikings/6-3.mp4"
+        },
+        {
+          "title": "Tous les prisonniers",
+          "desc": "Lagertha compte bien se venger après l'attaque de son village, mais malgré ses efforts, les conséquences promettent d'être tragiques. Olaf, de son côté, élabore un nouveau plan audacieux concernant le futur de la Norvège tandis qu'à Kiev, Ivar discute des ambitions d'Oleg concernant la Scandinavie...",
+          "video": "medias/series/vikings/6-4.mp4"
+        },
+        {
+          "title": "La Clef",
+          "desc": "Ivar a soif de vengeance et ne compte pas céder le trône aussi facilement. C'est en Russie qu'il va chercher à nouer de nouvelles alliances. Ce nouveau conflit va mettre en danger Lagertha qui pourrait voir son règne sur Kattegat compromis. La guerrière est visée par une prophétie qui annonce sa mort par un des fils de Ragnar Lothbrok. Mais qui de Ivar, Hvitserk, Ubbe ou Bjorn lui portera le coup fatal ?",
+          "video": "medias/series/vikings/6-5.mp4"
+        },
+        {
+          "title": "La Mort et le Serpent",
+          "desc": "Au lendemain de l'élection du roi de Norvège, Bjorn est contraint d'agir rapidement. Pendant ce temps, une nouvelle attaque sévit dans le village de Lagherta où les bandits sont persuadés de leur victoire, mais cette dernière est déterminée à défendre son territoire. Au Kattegat, Hvitserk est de retour encore plus paranoïaque et hanté...",
+          "video": "medias/series/vikings/6-6.mp4"
+        },
+        {
+          "title": "La Guerrière des glaces",
+          "desc": "Alors que Bjorn retourne à Kattegat, Harald prépare sa vengance contre Olaf. Pendant ce temps à Kiev, Ivar et Igor obtiennent des nouvelles intéressantes concernant le prince Dir...",
+          "video": "medias/series/vikings/6-7.mp4"
+        },
+        {
+          "title": "Le Valhalla peut attendre",
+          "desc": "Alors que Bjorn doit faire face à un choix difficile, Torvi et Ubbe prennent la décision de quitter Kategatt à la recherche de nouvelles terres...",
+          "video": "medias/series/vikings/6-8.mp4"
+        },
+        {
+          "title": "Résurrection",
+          "desc": "Arrivés en Islande, Ubbe et Torvi font la connaissance d'un mystérieux errant. Pendant ce temps, Erik revient d'une mission de reconnaissance avec des informations inquiétantes, ce qui décide Bjorn à dresser la liste de ses ennemis. A la recherche d'alliés, ce dernier espère toutefois convaincre le roi Harald, son vieil ennemi, de l'aider à faire face à la menace imminente. Ivar, de son côté, retrouve un de ses proches...",
+          "video": "medias/series/vikings/6-9.mp4"
+        },
+        {
+          "title": "Le meilleur des stratagèmes",
+          "desc": "Ivar et Igor continuent de comploter contre Oleg tout en planifiant de quitter Kiev afin d'envahir la Scandinavie. Le roi Harald, de son côté, prépare une invasion avec l'aide de Bjorn afin d'affronter Rus...",
+          "video": "medias/series/vikings/6-10.mp4"
+        },
+        {
+          "title": "Le roi des rois",
+          "desc": "Bjorn est ramené à Kattegat, gravement blessé. Les vikings savent qu’ils n’ont aucune chance de repousser l’assaut final de l’armée Rus’. Ivar suggère à Oleg d’attaquer par la terre et d’écraser son frère. En Islande, Ubbe prépare son voyage vers l’Ouest, pour retrouver la Terre d’Or découverte par Ottar. Kjetill et une partie des colons acceptent de l’accompagner.",
+          "video": "medias/series/vikings/6-11.mp4"
+        },
+        {
+          "title": "Le Jeu des princes",
+          "desc": "Oleg, hors de lui après sa défaite contre les vikings, punit les officiers qui se sont enfuis devant Bjorn. Dir apprend à Ivar qu'il se prépare à affronter son frère, et qu'il sera soutenu par une grande partie des officiers d'Oleg. Il lui demande de partir de Kiev avec le prince Igor. Un messager arrive en Terre de Glace et apprend la nouvelle de la mort de Bjorn à Ubbe et Kjetill.",
+          "video": "medias/series/vikings/6-12.mp4"
+        },
+        {
+          "title": "Quand tout bascule",
+          "desc": "Alors que leur expédition est en pleine mer, les vikings sont frappés par une terrible tempête. Les flots furieux emportent Asa, la fille de Torvi et Ubbe. Gunhild convoque une assemblée pour élire la nouvelle reine. Pendant que les habitants sont en train de voter pour elle et Ingrid, Harald réapparaît à Kattegat, et annonce vouloir en reprendre le trône.",
+          "video": "medias/series/vikings/6-13.mp4"
+        },
+        {
+          "title": "Les âmes perdues",
+          "desc": "Ivar, Igor et Katia réussissent à s'enfuir. Ils vont se réfugier chez Dir, qui n'attendait que ça pour attaquer Kiev, et renverser Oleg. Oleg devient fou de rage et s'enferme dans sa folie. Harald, lui, de retour à Kattegat, prépare son couronnement. Ubbe, Kjetill et tous ceux qui les ont suivis débarquent sur une terre ingrate qui ne ressemble en rien à la Terre d'Or décrite pas Ottar.",
+          "video": "medias/series/vikings/6-14.mp4"
+        },
+        {
+          "title": "L'appel du large",
+          "desc": "Le prince Dir arrive à Kiev avec son armée, et est accueilli en libérateur par l'armée locale. Le jeune prince Igor, poussé par Ivar, décoche une flèche qui tue son oncle Oleg. En Terre Verte, les tensions montent autour de la baleine échouée, que Kjetill ne veut toujours pas partager. Une bataille sanglante éclate. Ubbe et ses partisans s'enfuient en bateau, sans eau ni nourriture.",
+          "video": "medias/series/vikings/6-15.mp4"
+        },
+        {
+          "title": "Le coup de grâce",
+          "desc": "Ivar et Hviteserk reviennentà Kattegat. Ils sont mal reçus par le peuple, mais ils persuadent le Roi Harald qu'être soutenu par deux fils de Ragnar Lothbrok pourrait lui être d'une grande aide. Ubbe, Torvi et Ottar sont eux toujours en mer à la recherche de la mythique Terre d'Or. Ivar pense que son destin n'est pas de rester à Kattegat, mais de continuer à lancer des raids...",
+          "video": "medias/series/vikings/6-16.mp4"
+        },
+        {
+          "title": "Le radeau de la méduse",
+          "desc": "Harald embarque pour l'Angleterre avec Ivar et Hvitserk. Il nomme Erik co-régent, aux côtés d'Ingrid, mais précise bien que c'est lui qui sera le vrai seigneur de Kattegat. Averti de l'arrivée des vikings, le roi Alfred décide d'abandonner son palais pour une ville de garnison plus facile à défendre. Ubbe et ses compagnons errent plusieurs jours en mer et sont à cours de vivre.",
+          "video": "medias/series/vikings/6-17.mp4"
+        },
+        {
+          "title": "Les traces des invisibles",
+          "desc": "Ubbe, Ottar, Torvi et leurs compagnons ont débarqué sur une terre hospitalière. Le Roi Alfred est sujet à de nombreux malaises, mais il réussit à galvaniser ses troupes afin de préparer le combat contre l'envahisseur viking. Ubbe et ses compagnons se rendent rapidement compte qu'ils ne sont pas seuls sur cette nouvelle terre...",
+          "video": "medias/series/vikings/6-18.mp4"
+        },
+        {
+          "title": "Ce que le seigneur donne...",
+          "desc": "Les indiens accueillent les vikings et leur proposent de l'aide. Les relations semblent évoluer positivement. Mais Naad est surtout intéressé par l'or. Ubbe s'aperçoit que la Sachem connaît quelques mots de Norrois et lui demande qui les lui a appris. La nouvelle grande armée viking, sous les commandement d'Harald et Ivar, se prépare à une bataille capitale contre les forces d'Alfred.",
+          "video": "medias/series/vikings/6-19.mp4"
+        },
+        {
+          "title": "La nouvelle ère",
+          "desc": "Ubbe et ses compagnons retrouvent Floki dans le Nouveau Monde. Il y vit en ermite, en paix avec les indiens. La bataille s'engage entre les troupes du Roi Alfred et celles d'Ivar. Odin abandonne les vikings. Alfred est victorieux. Hvitserk, prisonnier, se fait alors baptiser. A Kattegat, Ingrid apprend la défaite d'Ivar et est proclamée reine.",
+          "video": "medias/series/vikings/6-20.mp4"
+        }
+      ]
+    }
   }
 }

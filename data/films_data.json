@@ -1002,5 +1002,101 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=maxybmxQuTE",
     "video": "medias/films/le-mans-66/le-mans-66.mp4"
+  },
+  "Interstellar": {
+    "title": "Interstellar",
+    "description": "Dans un futur proche, face à une Terre exsangue, un groupe d’explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque‐là infranchissables. Leur but : trouver un nouveau foyer pour l’humanité.",
+    "banner": "medias/films/interstellar/interstellar.jpg",
+    "IMDb": 8.7,
+    "IMDb_link": "https://www.imdb.com/title/tt0816692/",
+    "year": 2014,
+    "genres": [
+      "Adventure Epic",
+      "Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Time Travel",
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Jonathan Nolan",
+      "Christopher Nolan"
+    ],
+    "stars": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=HsPP6xSzQoE",
+    "video": "medias/films/interstellar/interstellar.mp4"
+  },
+  "Le Comte de Monte-Cristo": {
+    "title": "Le Comte de Monte-Cristo",
+    "description": "Victime d’un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu’il n’a pas commis. Après quatorze ans de détention au château d’If, il parvient à s’évader. Devenu immensément riche, il revient sous l’identité du comte de Monte-Cristo pour se venger des trois hommes qui l’ont trahi.",
+    "banner": "medias/films/le-comte-de-monte-cristo/le-comte-de-monte-cristo.jpg",
+    "IMDb": 7.6,
+    "IMDb_link": "https://www.imdb.com/title/tt26446278/",
+    "year": 2024,
+    "genres": [
+      "Period Drama",
+      "Swashbuckler",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "directors": [
+      "Alexandre de La Patellière",
+      "Matthieu Delaporte"
+    ],
+    "writers": [
+      "Alexandre Dumas",
+      "Alexandre de La Patellière",
+      "Matthieu Delaporte"
+    ],
+    "stars": [
+      "Pierre Niney",
+      "Bastien Bouillon",
+      "Anaïs Demoustier"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=u0YnbsyvGS0",
+    "video": "medias/films/le-comte-de-monte-cristo/le-comte-de-monte-cristo.mp4"
+  },
+  "Mufasa : Le Roi lion": {
+    "title": "Mufasa : Le Roi lion",
+    "description": "Rafiki raconte à la jeune lionne Kiara - fille de Simba et Nala - la légende de Mufasa. Il est épaulé par Timon et Pumbaa, célèbres pour leurs répliques percutantes. Présentée sous forme de flashbacks, l'histoire de Mufasa retrace le parcours d’un lionceau orphelin, seul et désemparé, qui croise un jour la route du sympathique Taka, héritier d’une lignée royale. Cette rencontre inattendue devient le point de départ d’un voyage jalonné de péripéties pour un petit groupe « d’indésirables » formé autour d’eux, désormais en quête de son destin. Leur amitié sera mise à rude épreuve lorsqu’ils devront s’unir pour affronter un adversaire aussi menaçant que redoutable…",
+    "banner": "medias/films/mufasa-le-roi-lion/mufasa-le-roi-lion.jpg",
+    "IMDb": 6.6,
+    "IMDb_link": "https://www.imdb.com/title/tt13186482/",
+    "year": 2024,
+    "genres": [
+      "Animal Adventure",
+      "Computer Animation",
+      "Adventure",
+      "Animation",
+      "Drama",
+      "Family",
+      "Musical"
+    ],
+    "directors": [
+      "Barry Jenkins"
+    ],
+    "writers": [
+      "Jeff Nathanson"
+    ],
+    "stars": [
+      "Aaron Pierre",
+      "Kelvin Harrison Jr.",
+      "Tiffany Boone"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=2rWXguw0S-k",
+    "video": "medias/films/mufasa-le-roi-lion/mufasa-le-roi-lion.mp4"
   }
 }
