@@ -18,16 +18,16 @@
  * @function
  */
 function displayPopularContent() {
-  const popularFilms = Object.values(filmsData)
-    .sort((a, b) => (b.IMDb || 0) - (a.IMDb || 0))
-    .slice(0, 6);
+    const popularFilms = Object.values(filmsData)
+        .sort((a, b) => (b.IMDb || 0) - (a.IMDb || 0))
+        .slice(0, 6);
 
-  const popularSeries = Object.values(seriesData)
-    .sort((a, b) => (b.IMDb || 0) - (a.IMDb || 0))
-    .slice(0, 6);
+    const popularSeries = Object.values(seriesData)
+        .sort((a, b) => (b.IMDb || 0) - (a.IMDb || 0))
+        .slice(0, 6);
 
-  displayContent(popularFilms, "popularFilms");
-  displayContent(popularSeries, "popularSeries");
+    displayContent(popularFilms, "popularFilms");
+    displayContent(popularSeries, "popularSeries");
 }
 
 /**
@@ -39,7 +39,7 @@ function displayPopularContent() {
  * @param {Object[]} films - An array of film objects to display.
  */
 function displayFilms(films) {
-  displayContent(films, "filmsGrid");
+    displayContent(films, "filmsGrid");
 }
 
 /**
@@ -51,7 +51,7 @@ function displayFilms(films) {
  * @param {Object[]} series - An array of series objects to display.
  */
 function displaySeries(series) {
-  displayContent(series, "seriesGrid");
+    displayContent(series, "seriesGrid");
 }
 
 /**
@@ -66,16 +66,15 @@ function displaySeries(series) {
  * @param {string} containerId - The ID of the DOM element where the content should be rendered.
  */
 function displayContent(items, containerId) {
-  const container = document.getElementById(containerId);
-  if (!container) return;
+    const container = document.getElementById(containerId);
+    if (!container) return;
 
-  if (!items || items.length === 0) {
-    container.innerHTML =
-      '<div class="no-results"><i class="fas fa-film"></i><p>Aucun contenu trouvé</p></div>';
-    return;
-  }
+    if (!items || items.length === 0) {
+        container.innerHTML = '<div class="no-results"><i class="fas fa-film"></i><p>Aucun contenu trouvé</p></div>';
+        return;
+    }
 
-  container.innerHTML = items.map((item) => createContentCard(item)).join("");
+    container.innerHTML = items.map((item) => createContentCard(item)).join("");
 }
 
 /**
@@ -90,39 +89,29 @@ function displayContent(items, containerId) {
  * @returns {string} A string of HTML representing the content card.
  */
 function createContentCard(item) {
-  const genres = item.genres
-    ? item.genres
+    const genres = item.genres ? item.genres
         .slice(0, 3)
         .map((g) => `<span class="genre-tag">${g}</span>`)
-        .join("")
-    : "";
-  const rating = item.IMDb
-    ? `<div class="card-rating"><i class="fas fa-star"></i> ${item.IMDb}</div>`
-    : "";
-  const year = item.year ? `<span class="card-year">${item.year}</span>` : "";
+        .join("") : "";
+    const rating = item.IMDb ? `<div class="card-rating"><i class="fas fa-star"></i> ${item.IMDb}</div>` : "";
+    const year = item.year ? `<span class="card-year">${item.year}</span>` : "";
 
-  let watchedBadge = "";
-  if (getItemType(item) === "film") {
-    const watchData = getFilmWatchData(item.title);
-    if (watchData.watched) {
-      watchedBadge = `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i></span>`;
+    let watchedBadge = "";
+    if (getItemType(item) === "film") {
+        const watchData = getFilmWatchData(item.title);
+        if (watchData.watched) {
+            watchedBadge = `<span class="watched-badge" title="Déjà vu"><i class="fas fa-eye"></i></span>`;
+        }
+    } else if (getItemType(item) === "series") {
+        if (isSeriesFullyWatched(item)) {
+            watchedBadge = `<span class="watched-badge" title="Série vue en entier"><i class="fas fa-eye"></i></span>`;
+        }
     }
-  } else if (getItemType(item) === "series") {
-    if (isSeriesFullyWatched(item)) {
-      watchedBadge = `<span class="watched-badge" title="Série vue en entier"><i class="fas fa-eye"></i></span>`;
-    }
-  }
 
-  return `
-      <div class="content-card" onclick="openModal('${escapeForHTML(
-        item.title
-      )}', '${getItemType(item)}')">
+    return `
+      <div class="content-card" onclick="openModal('${escapeForHTML(item.title)}', '${getItemType(item)}')">
         <div class="card-image">
-          ${
-            item.banner
-              ? `<img src="${item.banner}" alt="${item.title}" onerror="this.style.display='none'">`
-              : '<i class="fas fa-film"></i>'
-          }
+          ${item.banner ? `<img src="${item.banner}" alt="${item.title}" onerror="this.style.display='none'">` : '<i class="fas fa-film"></i>'}
           ${watchedBadge}
         </div>
         <div class="card-content">
@@ -148,7 +137,7 @@ function createContentCard(item) {
  * @returns {string} Returns "series" if the item has seasons, otherwise "film".
  */
 function getItemType(item) {
-  return item.seasons ? "series" : "film";
+    return item.seasons ? "series" : "film";
 }
 
 /**
@@ -161,7 +150,7 @@ function getItemType(item) {
  * @returns {string} An HTML string representing the "no results" message.
  */
 function showNoResults(message = "Aucun résultat trouvé") {
-  return `
+    return `
     <div class="no-results">
       <i class="fas fa-search"></i>
       <p>${message}</p>

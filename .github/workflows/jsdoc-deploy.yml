@@ -2,7 +2,7 @@ name: Deploy JSDoc to StreamIt-docs
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 permissions:
   contents: read

@@ -18,7 +18,7 @@
  * @returns {string} The escaped string.
  */
 function escapeForHTML(str) {
-  return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+    return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 }
 
 /**
@@ -32,15 +32,15 @@ function escapeForHTML(str) {
  * @returns {Function} A debounced version of the original function.
  */
 function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
     };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
 }
 
 /**
@@ -50,32 +50,24 @@ function debounce(func, wait) {
  * @param {string} message - The message to display on the error page.
  */
 function handleErrorAndRedirect(message) {
-  localStorage.setItem("streamit_404_error", message);
-  window.location.href = "error.html";
+    localStorage.setItem("streamit_404_error", message);
+    window.location.href = "error.html";
 }
 
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 
 document.addEventListener("keydown", (e) => {
-  if (
-    e.key === "F12" ||
-    (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
-    (e.ctrlKey && e.key.toLowerCase() === "u")
-  ) {
-    e.preventDefault();
-    handleErrorAndRedirect(
-      "L'utilisation des outils de développement est interdite sur cette page."
-    );
-  }
+    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") || (e.ctrlKey && e.key.toLowerCase() === "u")) {
+        e.preventDefault();
+        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
+    }
 });
 
 (function detectDevTools() {
-  const start = Date.now();
-  debugger;
-  if (Date.now() - start > 100) {
-    handleErrorAndRedirect(
-      "L'utilisation des outils de développement est interdite sur cette page."
-    );
-  }
-  setTimeout(detectDevTools, 1000);
+    const start = Date.now();
+    debugger;
+    if (Date.now() - start > 100) {
+        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
+    }
+    setTimeout(detectDevTools, 1000);
 })();

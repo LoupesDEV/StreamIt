@@ -1,6 +1,8 @@
 # Guide de Contribution
 
-Merci de votre intérêt pour ce projet ! Nous accueillons toutes les contributions, qu'il s'agisse de signaler un bug, d'ajouter une fonctionnalité ou d'améliorer la documentation. Veuillez suivre ces instructions pour contribuer efficacement.
+Merci de votre intérêt pour ce projet ! Nous accueillons toutes les contributions, qu'il s'agisse de signaler un bug,
+d'ajouter une fonctionnalité ou d'améliorer la documentation. Veuillez suivre ces instructions pour contribuer
+efficacement.
 
 ## Comment Contribuer ?
 
@@ -15,7 +17,8 @@ Si vous trouvez un bug, ouvrez une issue en incluant :
 
 ### 2. Suggérer une Amélioration ou une Fonctionnalité
 
-Avant de proposer une nouvelle fonctionnalité, consultez les issues existantes pour éviter les doublons. Si votre idée est nouvelle :
+Avant de proposer une nouvelle fonctionnalité, consultez les issues existantes pour éviter les doublons. Si votre idée
+est nouvelle :
 
 - Décrivez clairement la fonctionnalité souhaitée.
 - Expliquez pourquoi elle est utile.
