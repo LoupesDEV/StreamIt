@@ -9,6 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check Personal Access Token
+        run: |
+          if [ -z "${{ secrets.PERSONAL_ACCESS_TOKEN }}" ]; then
+            echo "Error: PERSONAL_ACCESS_TOKEN is not set."
+            exit 1
+          fi
+
       - name: Checkout code
         uses: actions/checkout@v3
 
