@@ -1,0 +1,33 @@
+name: Deploy JSDoc to StreamIt-docs
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-doc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install JSDoc
+        run: npm install -g jsdoc
+
+      - name: Generate JSDoc
+        run: jsdoc -c jsdoc.json
+
+      - name: Deploy to StreamIt-docs
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          external_repository: KucoDEV/StreamIt-docs
+          publish_branch: main
+          force_orphan: true
