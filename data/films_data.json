@@ -1098,5 +1098,63 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=2rWXguw0S-k",
     "video": "medias/films/mufasa-le-roi-lion/mufasa-le-roi-lion.mp4"
+  },
+  "Six jours": {
+    "title": "Six jours",
+    "description": "Malik, inspecteur de police, assiste impuissant à la mort d’une enfant suite à un kidnapping. En charge de l’enquête, il échoue à retrouver le meurtrier. Dix ans plus tard l'affaire s’apprête à être classée définitivement. Mais quand de nouveaux faits se révèlent, il entame une course contre la montre dans l’espoir de résoudre l'enquête avant l’expiration du délai de prescription dans six jours.",
+    "banner": "medias/films/six-jours/six-jours.jpg",
+    "IMDb": 5.7,
+    "IMDb_link": "https://www.imdb.com/title/tt29610108/",
+    "year": 2025,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Juan Carlos Medina"
+    ],
+    "writers": [
+      "Denis Brusseaux",
+      "Guillaume Mautalent",
+      "Juan Carlos Medina"
+    ],
+    "stars": [
+      "Sami Bouajila",
+      "Julie Gayet",
+      "Philippe Résimont"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=R6WYFnLNMa0",
+    "video": "medias/films/six-jours/six-jours.mp4"
+  },
+  "Rush": {
+    "title": "Rush",
+    "description": "Le combat entre deux des plus grands rivaux que l’histoire du sport ait jamais connus, celui de James Hunt et Niki Lauda concourant pour les illustres écuries McLaren et Ferrari. Issu de la classe des privilégiés, charismatique et beau garçon, tout oppose le play-boy anglais James Hunt à Niki Lauda, son adversaire autrichien, réservé et méthodique. RUSH suit la vie instable de ces deux pilotes, sur les circuits et en dehors, et retrace leur rivalité depuis leurs tout débuts.",
+    "banner": "medias/films/rush/rush.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt1979320/",
+    "year": 2013,
+    "genres": [
+      "Docudrama",
+      "Motorsport",
+      "Period Drama",
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "directors": [
+      "Ron Howard"
+    ],
+    "writers": [
+      "Peter Morgan"
+    ],
+    "stars": [
+      "Daniel Brühl",
+      "Chris Hemsworth",
+      "Olivia Wilde"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=N4C5qOwHiB8",
+    "video": "medias/films/rush/rush.mp4"
   }
 }

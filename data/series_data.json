@@ -3001,5 +3001,307 @@
         }
       ]
     }
+  },
+  "Silo": {
+    "title": "Silo",
+    "description": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shérif et la mort mystérieuse de plusieurs résidents, Juliette, une mécanicienne, perce peu à peu les terribles secrets du Silo.",
+    "banner": "medias/series/silo/silo.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt14688458//",
+    "year": 2023,
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Psychological Drama",
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "creators": [
+      "Graham Yost"
+    ],
+    "stars": [
+      "Rebecca Ferguson",
+      "Common",
+      "Tim Robbins"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=8QOFIMvl-PU",
+    "seasons": {
+      "1": [
+        {
+          "title": "La fête de la Liberté",
+          "desc": "Les projets d'avenir du shérif Becker sont bouleversés quand sa femme rencontre un hacker qui lui révèle des informations sur le Silo.",
+          "video": "medias/series/silo/1-1.mp4"
+        },
+        {
+          "title": "La protégée de Holston",
+          "desc": "Juliette, une mécanicienne, tâche de comprendre ce qui a pu causer la mort mystérieuse d'un collègue.",
+          "video": "medias/series/silo/1-2.mp4"
+        },
+        {
+          "title": "Machines",
+          "desc": "La quête du nouveau shérif provoque un conflit entre la maire et Bernard. Juliette passe un marché pour assurer le fonctionnement de la génératrice.",
+          "video": "medias/series/silo/1-3.mp4"
+        },
+        {
+          "title": "Vérité",
+          "desc": "Juliette essaie de gagner la confiance de l'adjoint Marnes tout en découvrant la vérité sur les récentes tragédies.",
+          "video": "medias/series/silo/1-4.mp4"
+        },
+        {
+          "title": "Le fils du concierge",
+          "desc": "Sims nomme Billings au poste de shérif adjoint pour surveiller Juliette, dont l'enquête pour élucider deux meurtres provoque des remous.",
+          "video": "medias/series/silo/1-5.mp4"
+        },
+        {
+          "title": "La relique",
+          "desc": "Au cours de son enquête, Juliette découvre des secrets troublants sur quelqu'un qu'elle croyait connaître.",
+          "video": "medias/series/silo/1-6.mp4"
+        },
+        {
+          "title": "Les Gardiens de la flamme",
+          "desc": "De plus en plus préoccupé par l'instabilité dans le Silo, Bernard cherche à faire alliance avec Juliette qui, de son côté, demande un service à son père.",
+          "video": "medias/series/silo/1-7.mp4"
+        },
+        {
+          "title": "Hanna",
+          "desc": "À la lumière de nouvelles informations, Juliette voit différemment le passé de sa famille. Et elle accède enfin aux plus grands secrets du Silo.",
+          "video": "medias/series/silo/1-8.mp4"
+        },
+        {
+          "title": "En cavale",
+          "desc": "Rongé par la culpabilité, Billings est déterminé à rectifier le tir, jusqu'à ce qu'il fasse une découverte stupéfiante chez Juliette.",
+          "video": "medias/series/silo/1-9.mp4"
+        },
+        {
+          "title": "Dehors",
+          "desc": "Le sort de Juliette semble scellé quand certaines vérités éclatent.",
+          "video": "medias/series/silo/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "La mécano",
+          "desc": "Juliette trouve refuge dans un Silo abandonné, autrefois ravagé par la guerre. Mais elle ignore qu'elle n'est pas seule.",
+          "video": "medias/series/silo/2-1.mp4"
+        },
+        {
+          "title": "L'Ordre",
+          "desc": "Le Silo 18 est en ébullition après la sortie réussie de Juliette.",
+          "video": "medias/series/silo/2-2.mp4"
+        },
+        {
+          "title": "Solo",
+          "desc": "Bernard demande l'aide de la juge Meadows. Billings a l'impression qu'on lui ment. Juliette rencontre enfin l'homme de la chambre forte.",
+          "video": "medias/series/silo/2-3.mp4"
+        },
+        {
+          "title": "L'harmonium",
+          "desc": "Juliette se met en quête d'une combinaison pour retourner sauver son Silo, à ses risques et périls. Les Machines demandent une entrevue à la juge Meadows.",
+          "video": "medias/series/silo/2-4.mp4"
+        },
+        {
+          "title": "La descente",
+          "desc": "Sims a une promotion. Juliette apprend que Solo ne lui a pas dit toute la vérité. Bernard et Lukas font une découverte importante.",
+          "video": "medias/series/silo/2-5.mp4"
+        },
+        {
+          "title": "Les barricades",
+          "desc": "Bernard met en œuvre son plan pour éliminer Knox, Shirley et Walker. Billings s'interpose. Solo sauve Juliette, mais exige une contrepartie.",
+          "video": "medias/series/silo/2-6.mp4"
+        },
+        {
+          "title": "La plongée",
+          "desc": "Lukas se voit confier une mission. Les Machines se font entendre. Juliette se lance dans une plongée en profondeur et se retrouve confrontée à un nouveau danger.",
+          "video": "medias/series/silo/2-7.mp4"
+        },
+        {
+          "title": "Le livre de Quinn",
+          "desc": "Juliette découvre qu'il est arrivé quelque chose à Solo. Bernard fait une proposition à Walker. Lukas rencontre les descendants de Salvador Quinn.",
+          "video": "medias/series/silo/2-8.mp4"
+        },
+        {
+          "title": "Le dernier recours",
+          "desc": "Les convictions de Billings sont ébranlées. Lukas descend au fond. Knox identifie la taupe. Juliette découvre la vérité sur le passé de Solo.",
+          "video": "medias/series/silo/2-9.mp4"
+        },
+        {
+          "title": "L'épreuve du feu",
+          "desc": "Les rebelles passent à l'action, et Juliette aussi.",
+          "video": "medias/series/silo/2-10.mp4"
+        }
+      ]
+    }
+  },
+  "Black Mirror": {
+    "title": "Black Mirror",
+    "description": "Chaque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran...",
+    "banner": "medias/series/black-mirror/black-mirror.jpg",
+    "IMDb": 8.7,
+    "IMDb_link": "https://www.imdb.com/title/tt2085059//",
+    "year": 2011,
+    "genres": [
+      "Cyber Thriller",
+      "Dystopian Sci-Fi",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Suspense Mystery",
+      "Tragedy",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "creators": [
+      "Charlie Brooker"
+    ],
+    "stars": [
+      "Anjana Vasan",
+      "Cristin Milioti",
+      "Jimmi Simpson"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "L’Hymne national",
+          "desc": "Le Premier Ministre Michael Callow fait face à un terrible dilemme après le kidnapping de la bien-aimée Princesse Susannah.",
+          "video": "medias/series/black-mirror/1-1.mp4"
+        },
+        {
+          "title": "15 millions de mérites",
+          "desc": "Rejetée par le jury lors d'une émission de chant, une femme doit réaliser des tâches dégradantes ou retourner à sa condition d'esclave.",
+          "video": "medias/series/black-mirror/1-2.mp4"
+        },
+        {
+          "title": "Retour sur image",
+          "desc": "Dans un futur proche, tout le monde pourra être équipé d'un implant enregistrant tout ce qui sera fait, vu ou entendu...",
+          "video": "medias/series/black-mirror/1-3.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Bientôt de retour",
+          "desc": "Après avoir entendu parler d'un nouveau service permettant de garder contact avec les morts, une jeune femme endeuillée renoue avec son petit ami.",
+          "video": "medias/series/black-mirror/2-1.mp4"
+        },
+        {
+          "title": "La Chasse",
+          "desc": "Victoria se réveille un matin en n'ayant plus aucun souvenir de sa vie, et tous ceux qu'elle rencontre refusent de communiquer avec elle.",
+          "video": "medias/series/black-mirror/2-2.mp4"
+        },
+        {
+          "title": "Le Show de Waldo",
+          "desc": "Un comédien raté prêtant sa voix à un célèbre ourson de télévision se retrouve mêlé à des affaires politiques quand ses producteurs décident de le présenter aux élections.",
+          "video": "medias/series/black-mirror/2-3.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Chute libre",
+          "desc": "Pour une femme obsédée par sa notoriété sur les médias sociaux, se faire inviter à un mariage huppé représente une aubaine inespérée. Mais c’était compter sans le voyage.",
+          "video": "medias/series/black-mirror/3-1.mp4"
+        },
+        {
+          "title": "Playtest",
+          "desc": "Un voyageur américain fauché s'engage à tester un nouveau système de jeu révolutionnaire, avant de découvrir que les sensations sont un peu trop réelles.",
+          "video": "medias/series/black-mirror/3-2.mp4"
+        },
+        {
+          "title": "Tais-toi et danse",
+          "desc": "Quand un virus infecte son ordinateur, un adolescent fait face à un choix de taille : exécuter les ordres qu'il reçoit, ou risquer de voir exposer ses secrets intimes.",
+          "video": "medias/series/black-mirror/3-3.mp4"
+        },
+        {
+          "title": "San Junipero",
+          "desc": "En 1987, dans une ville de bord de mer, une jeune femme timide et une fêtarde extravertie nouent un lien puissant qui semble défier les lois de l'espace et du temps.",
+          "video": "medias/series/black-mirror/3-4.mp4"
+        },
+        {
+          "title": "Tuer sans état d’âme",
+          "desc": "Après sa première bataille contre un ennemi insaisissable, un soldat commence à éprouver des sensations inhabituelles et à rencontrer d'étranges problèmes techniques.",
+          "video": "medias/series/black-mirror/3-5.mp4"
+        },
+        {
+          "title": "Haine virtuelle",
+          "desc": "La mort d'une journaliste provocatrice haïe sur les médias sociaux conduit une enquêtrice aguerrie et sa stagiaire férue de technologie à une découverte glaçante.",
+          "video": "medias/series/black-mirror/3-6.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "USS Callister",
+          "desc": "Le capitaine Robert Daly dirige l'équipage de son vaisseau spatial d'une poigne ferme et juste... Mais une nouvelle recrue arrive, et les faux-semblants volent en éclat.",
+          "video": "medias/series/black-mirror/4-1.mp4"
+        },
+        {
+          "title": "Arkange",
+          "desc": "Inquiète pour la sécurité de sa fillette, Marie, mère célibataire, équipe celle-ci d'un implant de surveillance de pointe qui permet de la localiser. Et pas seulement.",
+          "video": "medias/series/black-mirror/4-2.mp4"
+        },
+        {
+          "title": "Crocodile",
+          "desc": "Mia, une architecte, pourra-t-elle taire son terrible secret quand Shazia, enquêtrice d'assurance, sonne à sa porte, glanant les récents souvenirs d'un accident voisin ?",
+          "video": "medias/series/black-mirror/4-3.mp4"
+        },
+        {
+          "title": "Pendez le DJ",
+          "desc": "Selon ce système de rencontres, toute relation a une date de fabrication et d'expiration. Mais Frank et Amy remettent vite en question cette logique stérile.",
+          "video": "medias/series/black-mirror/4-4.mp4"
+        },
+        {
+          "title": "Tête de métal",
+          "desc": "En explorant un entrepôt abandonné, trois pillards en quête de ressources déclenchent un monstre impitoyable qui s’élance à leur poursuite dans un désert inhospitalier.",
+          "video": "medias/series/black-mirror/4-5.mp4"
+        },
+        {
+          "title": "Black Museum",
+          "desc": "Sur un tronçon d'autoroute vétuste, une touriste tombe sur un musée vantant des artefacts criminels rares. Mais le clou de l'exposition lui réserve une surprise de choc.",
+          "video": "medias/series/black-mirror/4-6.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Striking Vipers",
+          "desc": "Quand deux vieux amis de fac se retrouvent dans la réalité virtuelle de leur jeu vidéo préféré, les longues soirées à jouer donnent lieu à une étonnante découverte.",
+          "video": "medias/series/black-mirror/5-1.mp4"
+        },
+        {
+          "title": "Smithereens ",
+          "desc": "Un chauffeur londonien provoque une crise internationale lorsqu'il kidnappe un employé travaillant pour un grand réseau social.",
+          "video": "medias/series/black-mirror/5-2.mp4"
+        },
+        {
+          "title": "Rachel, Jack et Ashley Too",
+          "desc": "Une ado solitaire se prend de passion pour une poupée robotisée inspirée d'Ashley O, sa chanteuse préférée, alors que la vie de la vraie starlette s'effiloche peu à peu.",
+          "video": "medias/series/black-mirror/5-3.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Joan est horrible",
+          "desc": "Une femme d'âge moyen est stupéfaite de découvrir qu'une plate-forme mondiale de streaming a lancé une adaptation dramatique télévisée de prestige de sa vie – dans laquelle elle est représentée par la star d'Hollywood Salma Hayek Pinault.",
+          "video": "medias/series/black-mirror/6-1.mp4"
+        },
+        {
+          "title": "Loch Henry",
+          "desc": "Un jeune couple se rend dans une ville écossaise endormie pour commencer à travailler sur un documentaire distingué sur la nature, mais se retrouve attiré par une histoire locale juteuse impliquant des événements choquants du passé.",
+          "video": "medias/series/black-mirror/6-2.mp4"
+        },
+        {
+          "title": "Mon cœur pour la vie",
+          "desc": "Dans un 1969 alternatif, deux astronautes d'une périlleuse mission spatiale de haute technologie sont aux prises avec les retombées d'une tragédie inimaginable sur Terre.",
+          "video": "medias/series/black-mirror/6-3.mp4"
+        },
+        {
+          "title": "La journée de Mazey",
+          "desc": "Une starlette troublée est harcelée par des paparazzi envahissants tout en faisant face aux conséquences d'un délit de fuite.",
+          "video": "medias/series/black-mirror/6-4.mp4"
+        },
+        {
+          "title": "Démon 79",
+          "desc": "Nord de l'Angleterre, 1979. Une assistante commerciale docile se fait dire qu'elle doit commettre des actes terribles pour éviter un désastre.",
+          "video": "medias/series/black-mirror/6-5.mp4"
+        }
+      ]
+    }
   }
 }
