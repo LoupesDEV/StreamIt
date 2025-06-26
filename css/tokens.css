@@ -1,23 +1,25 @@
+/* css/tokens.css */
 .token-key {
-    color: #e67c26;
+    color: var(--accent-light);
 }
 
 .token-string {
-    color: #6ab04c;
+    color: var(--success);
 }
 
 .token-number {
-    color: #f6e58d;
+    color: var(--info);
 }
 
 .token-boolean {
-    color: #eb4d4b;
+    color: var(--boolean);
 }
 
 .token-null {
-    color: #686de0;
+    color: var(--null);
+    font-style: italic;
 }
 
 .token-punct {
-    color: #fff;
+    color: var(--border-light);
 }
