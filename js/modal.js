@@ -51,7 +51,7 @@ function openModal(title, type) {
 function createModalContent(item, type) {
     const genres = item.genres ? item.genres.map((g) => `<span class="genre-tag">${g}</span>`).join("") : "";
     const rating = item.IMDb ? `<div class="modal-rating"><i class="fas fa-star"></i> ${item.IMDb}/10</div>` : "";
-    const year = item.year ? `<span>${item.year}</span>` : "";
+    const year = item.year ? `<span class="year-tag">${item.year}</span>` : "";
     const directors = item.directors ? `<p><strong>Réalisateurs:</strong> ${item.directors.join(", ")}</p>` : "";
     const writers = item.writers ? `<p><strong>Scénaristes:</strong> ${item.writers.join(", ")}</p>` : "";
     const stars = item.stars ? `<p><strong>Acteurs:</strong> ${item.stars.join(", ")}</p>` : "";

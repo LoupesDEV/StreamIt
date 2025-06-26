@@ -98,6 +98,21 @@
     border: 1px solid var(--border);
 }
 
+.year-tag {
+    background: linear-gradient(90deg, var(--accent) 0%, var(--bg-secondary) 100%);
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 2px 8px rgba(var(--accent-rgb), 0.08);
+    letter-spacing: 0.05em;
+    display: inline-block;
+    transition: background 0.2s, color 0.2s;
+    align-content: center;
+}
+
 .filters {
     margin-bottom: 2rem;
 }
