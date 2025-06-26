@@ -241,7 +241,7 @@
 }
 
 .watched-episode {
-    background-color: #444 !important;
-    color: #fff;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary);
     opacity: 0.7;
 }

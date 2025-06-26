@@ -290,7 +290,7 @@
 .video-modal-content {
     max-width: 95vw;
     max-height: 95vh;
-    background-color: #000;
+    background-color: var(--bg-primary);
 }
 
 .close-btn {
