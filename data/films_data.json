@@ -1156,5 +1156,33 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=N4C5qOwHiB8",
     "video": "medias/films/rush/rush.mp4"
+  },
+  "Le Garçon au Pyjama Rayé": {
+    "title": "Le Garçon au Pyjama Rayé",
+    "description": "Seconde Guerre mondiale. Bruno a tout juste 9 ans lorsque son père, un officier nazi remarqué par le Führer, se voit confier le commandement du camp de concentration polonais d'Auschwitz. Le petit garçon n'apprécie guère de devoir quitter la belle et grande maison de Berlin pour se retrouver dans une demeure isolée et triste. De sa chambre, il aperçoit des hommes, des femmes et des enfants tous vêtus de pyjamas rayés. Personne ne lui explique qui ils sont, mais l'innocence aidant, il va se lier d'amitié avec un enfant juif…",
+    "banner": "medias/films/le-garcon-au-pyjama-raye/le-garcon-au-pyjama-raye.jpg",
+    "IMDb": 7.7,
+    "IMDb_link": "https://www.imdb.com/title/tt0914798/",
+    "year": 2008,
+    "genres": [
+      "Period Drama",
+      "Prison Drama",
+      "Tragedy",
+      "Drama",
+      "War"
+    ],
+    "directors": [
+      "Mark Herman"
+    ],
+    "writers": [
+      "John Boyne",
+      "Mark Herman"
+    ],
+    "stars": [
+      "Asa Butterfield",
+      "David Thewlis",
+      "Rupert Friend"
+    ],
+    "video": "medias/films/le-garcon-au-pyjama-raye/le-garcon-au-pyjama-raye.mp4"
   }
 }

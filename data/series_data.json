@@ -3303,5 +3303,173 @@
         }
       ]
     }
+  },
+  "Dark": {
+    "title": "Dark",
+    "description": "Un enfant disparu lance quatre familles dans une quête éperdue pour trouver des réponses. La chasse au coupable fait émerger les péchés et les secrets d'une petite ville.",
+    "banner": "medias/series/dark/dark.jpg",
+    "IMDb": 8.7,
+    "IMDb_link": "https://www.imdb.com/title/tt5753856//",
+    "year": 2017,
+    "genres": [
+      "Epic",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Suspense Mystery",
+      "Time Travel",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "creators": [
+      "Baran bo Odar",
+      "Jantje Friese"
+    ],
+    "stars": [
+      "Louis Hofmann",
+      "Karoline Eichhorn",
+      "Lisa Vicari"
+    ],
+    "trailer": "https://www.imdb.com/title/tt5753856/",
+    "seasons": {
+      "1": [
+        {
+          "title": "Secrets",
+          "desc": "En 2019, la disparition d'un garçon fait naître la peur parmi les habitants de Winden, une petite ville allemande à l'histoire étrange et tragique.",
+          "video": "medias/series/dark/1-1.mp4"
+        },
+        {
+          "title": "Mensonges",
+          "desc": "Suite à une découverte sinistre qui laisse la police dans l'incompréhension, Ulrich demande un mandat pour fouiller la centrale. Un inconnu arrive à l'hôtel.",
+          "video": "medias/series/dark/1-2.mp4"
+        },
+        {
+          "title": "Passé et présent",
+          "desc": "En 1986, le frère d'Ulrich, Mads, a disparu depuis un mois. La confusion est à son comble tandis que passé et présent s'entremêlent.",
+          "video": "medias/series/dark/1-3.mp4"
+        },
+        {
+          "title": "Doubles vies",
+          "desc": "D'étranges événements donnent à Charlotte, qui soupçonne Peter de cacher quelque chose, une impression de déjà vu. Franziska le prend mal quand Magnus l'interroge.",
+          "video": "medias/series/dark/1-4.mp4"
+        },
+        {
+          "title": "Vérités",
+          "desc": "Hannah est complètement obsédée par Ulrich. L'inconnu demande à Regina de livrer un paquet important. Martha est déchirée entre Jonas et Bartosz.",
+          "video": "medias/series/dark/1-5.mp4"
+        },
+        {
+          "title": "Sic mundus creatus est",
+          "desc": "Ulrich cherche des réponses dans le passé et déterre des secrets de famille dérangeants. Armé de nouveaux outils, Jonas explore les profondeurs glauques de la grotte.",
+          "video": "medias/series/dark/1-6.mp4"
+        },
+        {
+          "title": "Carrefour",
+          "desc": "Ulrich interroge un Helge fragile et effrayé dans la maison de retraite. Jonas cherche Mikkel, mais l'inconnu le met en garde, lui déconseillant de se mêler du passé.",
+          "video": "medias/series/dark/1-7.mp4"
+        },
+        {
+          "title": "On récolte ce que l'on sème",
+          "desc": "En 1953, les corps défigurés de deux garçons sont exhumés sur le chantier où la future centrale nucléaire de Winden est en construction.",
+          "video": "medias/series/dark/1-8.mp4"
+        },
+        {
+          "title": "Tout est maintenant",
+          "desc": "Ulrich a des ennuis avec la justice, Helge essaie d'éviter Egon Tiedemann, Claudia exploite les pouvoirs de la grotte, et Katharina s'en prend à Hannah.",
+          "video": "medias/series/dark/1-9.mp4"
+        },
+        {
+          "title": "Alpha et oméga",
+          "desc": "Peter subit un choc. Jonas apprend la vérité sur sa famille, et d'autres surprises l'attendent. Helge fait un sacrifice.",
+          "video": "medias/series/dark/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Le début et la fin",
+          "desc": "Six mois après les disparitions, la police forme une unité spéciale pour enquêter. En 2052, Jonas apprend que Winden a pratiquement disparu suite à une apocalypse.",
+          "video": "medias/series/dark/2-1.mp4"
+        },
+        {
+          "title": "Sombre matière",
+          "desc": "Clausen et Charlotte interrogent Regina. L'Étranger ramène Hannah en 1987, lorsque Claudia fait une rencontre troublante, et Egon rend visite à un vieil ennemi.",
+          "video": "medias/series/dark/2-2.mp4"
+        },
+        {
+          "title": "Fantômes",
+          "desc": "Helge refait surface en 1954, mais ne parle qu'avec Noah. En 1987, Claudia apporte la machine à voyager dans le temps à Tannhaus, et Egon interroge de nouveau Ulrich.",
+          "video": "medias/series/dark/2-3.mp4"
+        },
+        {
+          "title": "Les voyageurs",
+          "desc": "Jonas fait une rencontre inquiétante. Les enfants cherchent des indices dans la grotte, et les adultes réunis dans le bunker échangent des informations sur les voyageurs.",
+          "video": "medias/series/dark/2-4.mp4"
+        },
+        {
+          "title": "Perdus et retrouvés",
+          "desc": "En 1987, Ulrich s'évade. Les enfants retournent dans la grotte avec la machine à voyager dans le temps, et Jonas découvre une faille qui pourrait changer le futur.",
+          "video": "medias/series/dark/2-5.mp4"
+        },
+        {
+          "title": "Un cycle sans fin",
+          "desc": "Paré d'un plan destiné à éviter l'apocalypse, Jonas se rend en 2019. Ulrich s'éclipse avec Hannah lors de la fête des Nielsen.",
+          "video": "medias/series/dark/2-6.mp4"
+        },
+        {
+          "title": "Le diable blanc",
+          "desc": "Martha rencontre l'Étranger et découvre sa véritable identité. Claudia essaie d'éviter la mort d'Egon en 1987. Hannah se rend en 1984 pour voir Ulrich.",
+          "video": "medias/series/dark/2-7.mp4"
+        },
+        {
+          "title": "La fin et le début",
+          "desc": "Le jour de l'apocalypse, Clausen fait une descente dans la centrale, et Jonas et Claudia se servent de la machine à voyager dans le temps pour relier passé et futur.",
+          "video": "medias/series/dark/2-8.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Déjà-vu",
+          "desc": "En 2019, Jonas émerge de la grotte dans un monde étrange mais familier : la ville de Winden sous le choc de la disparition récente d'un jeune garçon.",
+          "video": "medias/series/dark/3-1.mp4"
+        },
+        {
+          "title": "Les survivants",
+          "desc": "Martha voyage en 1888 pour avertir ses amis du désastre de 2020. Les résidents de Winden d'hier et d'aujourd'hui recherchent leurs proches disparus.",
+          "video": "medias/series/dark/3-2.mp4"
+        },
+        {
+          "title": "Adam et Eva",
+          "desc": "Charlotte et Ulrich essaient de comprendre ce qui s'est passé dans le bunker. Dans différents espaces-temps, Jonas et Martha tentent de gagner la confiance de l'autre.",
+          "video": "medias/series/dark/3-3.mp4"
+        },
+        {
+          "title": "L'origine",
+          "desc": "Martha et Jonas se rendent en 2052 et l'avenir s'y révèle sinistre. En 1954, deux habitants de Winden disparaissent, et Hannah reçoit une nouvelle surprenante.",
+          "video": "medias/series/dark/3-4.mp4"
+        },
+        {
+          "title": "Vie et mort",
+          "desc": "En 2020, une visiteuse met en garde Claudia. La veille de l'apocalypse, Jonas commence à remettre en question les motivations d'Eva.",
+          "video": "medias/series/dark/3-5.mp4"
+        },
+        {
+          "title": "Ombre et lumière",
+          "desc": "Adam retient Martha en 2020. Le jour de l'apocalypse, une Martha de plus en plus agitée supplie Bartosz de l'aider.",
+          "video": "medias/series/dark/3-6.mp4"
+        },
+        {
+          "title": "Entre-deux",
+          "desc": "Pendant trois siècles, les habitants de Winden cherchent désespérément à sauver leurs proches en changeant le cours des choses.",
+          "video": "medias/series/dark/3-7.mp4"
+        },
+        {
+          "title": "Le paradis",
+          "desc": "Claudia révèle à Adam comment tout est connecté, et comment il peut détruire le nœud.",
+          "video": "medias/series/dark/3-8.mp4"
+        }
+      ]
+    }
   }
 }
