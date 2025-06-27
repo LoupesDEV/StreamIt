@@ -31,27 +31,31 @@ function displayPopularContent() {
 }
 
 /**
- * Renders a list of film items into the films display grid.
+ * Displays a list of film items in the films display grid.
  *
- * Delegates the rendering process to the generic displayContent function using the "filmsGrid" container.
+ * Sorts the provided films alphabetically by title, then renders them
+ * in the DOM element with the ID "filmsGrid" using the displayContent function.
  *
  * @function
  * @param {Object[]} films - An array of film objects to display.
  */
 function displayFilms(films) {
-    displayContent(films, "filmsGrid");
+    const sortedFilms = films.slice().sort((a, b) => a.title.localeCompare(b.title));
+    displayContent(sortedFilms, "filmsGrid");
 }
 
 /**
- * Renders a list of series items into the series display grid.
+ * Displays a list of film items in the series display grid.
  *
- * Delegates the rendering process to the generic displayContent function using the "seriesGrid" container.
+ * Sorts the provided series alphabetically by title, then renders them
+ * in the DOM element with the ID "seriesGrid" using the displayContent function.
  *
  * @function
  * @param {Object[]} series - An array of series objects to display.
  */
 function displaySeries(series) {
-    displayContent(series, "seriesGrid");
+    const sortedSeries = series.slice().sort((a, b) => a.title.localeCompare(b.title));
+    displayContent(sortedSeries, "seriesGrid");
 }
 
 /**
