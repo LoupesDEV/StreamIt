@@ -55,22 +55,14 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
 # Fonctionnalités
 
-- **Gestion complète des contenus** 🎞️ : Parcourez et gérez facilement vos films et séries favoris grâce à des fiches
-  détaillées (description, genres, note IMDb, créateurs, réalisateurs, acteurs).
-- **Chargement dynamique des données** 📊 : Profitez d’une interface réactive où les informations sont actualisées en
-  temps réel, sans rechargement de page.
-- **Lecteur vidéo intégré** 🎥 : Visionnez directement vos films et épisodes dans l’application via un lecteur moderne,
-  avec commandes intuitives et reprise rapide.
-- **Recherche intelligente** 🔍 : Accédez instantanément à n’importe quel contenu grâce à une barre de recherche
-  performante sur la page d’accueil.
-- **Navigation intuitive** 🧭 : Passez d’un contenu à l’autre ou revenez à l’accueil en toute simplicité grâce à une
-  interface fluide et ergonomique.
-- **Design adaptatif** 📱💻 : Profitez d’une expérience optimale sur tous vos appareils (ordinateur, tablette, mobile)
-  grâce à une mise en page responsive.
-- **Ajout simplifié de contenus** 📝 : Enrichissez votre bibliothèque en quelques clics via des formulaires dédiés pour
-  l’ajout de nouveaux films ou séries.
-- **Import/Export des informations de visionnage** 🔄 : Exportez ou importez facilement l’historique de visionnage, les
-  vues, les timestamps et autres données pour migrer ou synchroniser vos informations entre différents appareils.
+- **Gestion complète du contenu** 🎞️ : Parcourez et gérez facilement vos films et séries préférés grâce à des fiches détaillées (description, genres, note IMDb, créateurs, réalisateurs, acteurs).
+- **Chargement dynamique des données** 📊 : Profitez d'une interface réactive où les informations se mettent à jour en temps réel, sans rechargement de page.
+- **Lecteur vidéo intégré** 🎥 : Regardez vos films et épisodes directement dans l’application avec un lecteur moderne, des contrôles intuitifs et une reprise rapide de la lecture.
+- **Recherche intelligente** 🔍 : Accédez instantanément à n'importe quel contenu grâce à une barre de recherche puissante disponible dès l'accueil.
+- **Navigation intuitive** 🧭 : Passez facilement d’un contenu à l’autre ou revenez à l’accueil via une interface fluide et ergonomique.
+- **Design adaptatif** 📱💻 : Bénéficiez d’une expérience optimale sur tous vos appareils (ordinateur, tablette, mobile) grâce à une mise en page responsive.
+- **Ajout de contenu simplifié** 📝 : Enrichissez votre bibliothèque en quelques clics grâce à des formulaires dédiés à l’ajout de nouveaux films ou séries.
+- **Import/Export des informations de visionnage** 🔄 : Exportez ou importez facilement votre historique, vos épisodes vus, minutages et autres données pour migrer ou synchroniser vos informations entre différents appareils.
 
 # Démo
 
