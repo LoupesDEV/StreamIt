@@ -40,3 +40,4 @@ jobs:
           publish_dir: ./docs
           external_repository: KucoDEV/StreamIt-docs
           publish_branch: main
+          force_orphan: true
