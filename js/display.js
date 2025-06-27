@@ -3,7 +3,7 @@
  *
  * This module provides functions to display popular items, individual films and series,
  * generate styled content cards, and handle empty result states. It also includes logic
- * to determine the type of a content item and structure the corresponding HTML output.
+ * to determine the type of content item and structure the corresponding HTML output.
  * All rendering is performed by injecting HTML into predefined container elements in the DOM.
  *
  * @module display
@@ -131,7 +131,7 @@ function createContentCard(item) {
 }
 
 /**
- * Determines the type of a content item based on its properties.
+ * Determines the type of content item based on its properties.
  *
  * Checks whether the item has a "seasons" property to classify it as a series;
  * otherwise, it is considered a film.
