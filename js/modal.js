@@ -251,7 +251,8 @@ function handleVideoTimeUpdate() {
         markEpisodeWatched(title, season, epIndex, false, current);
     }
 
-    if (current / duration >= 0.9) {
+    const remaining = duration - current;
+    if (remaining <= 180) {
         if (type === "film") {
             markFilmWatched(title, true, 0);
         } else if (type === "series") {
