@@ -1184,5 +1184,233 @@
       "Rupert Friend"
     ],
     "video": "medias/films/le-garcon-au-pyjama-raye/le-garcon-au-pyjama-raye.mp4"
+  },
+  "Taxi": {
+    "title": "Taxi",
+    "description": "Daniel est un fou du volant. Cet ex-livreur de pizzas est aujourd'hui chauffeur de taxi et sait échapper aux radars les plus perfectionnés. Pourtant, un jour, il croise la route d'Emilien, policier recalé pour la huitième fois à son permis de conduire. Pour conserver son taxi, il accepte le marché que lui propose Emilien : l'aider à démanteler un gang de braqueurs de banques qui écume les succursales de la ville à bord de puissants véhicules. Road-movie urbain sur un scénario de Luc Besson, également producteur.",
+    "banner": "medias/films/taxi/taxi.jpg",
+    "IMDb": 7,
+    "IMDb_link": "https://www.imdb.com/title/tt0152930/",
+    "year": 1998,
+    "genres": [
+      "Buddy Comedy",
+      "Car Action",
+      "Dark Comedy",
+      "Police Procedural",
+      "Slapstick",
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Pirès"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Marion Cotillard"
+    ],
+    "video": "medias/films/taxi/taxi.mp4"
+  },
+  "Taxi 2": {
+    "title": "Taxi 2",
+    "description": "Daniel, le chauffeur de taxi dingue de vitesse, et Emilien, l'inspecteur de police inexpérimenté, se retrouvent à Paris. Le ministre de la défense japonais vient tester le savoir-faire hexagonal en matière de lutte antiterroriste et signer le contrat du siècle avec l'Etat français. Mais il est enlevé par des yakusas...",
+    "banner": "medias/films/taxi-2/taxi-2.jpg",
+    "IMDb": 6.5,
+    "IMDb_link": "https://www.imdb.com/title/tt0183869/",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Emma Wiklund"
+    ],
+    "video": "medias/films/taxi-2/taxi-2.mp4"
+  },
+  "Taxi 3": {
+    "title": "Taxi 3",
+    "description": "C'est décembre à Marseille. Daniel rajoute des options à son taxi et Lili voit rouge. Le commissaire Gilbert est aveuglé par Qiu, sa stagiaire chinoise, et son enquête piétine. Emilien voit des pères Noël partout et Petra s'impatiente. De Marseille à Tignes, de la Canebière aux pistes de ski, l'aventure peut commencer...",
+    "banner": "medias/films/taxi-3/taxi-3.jpg",
+    "IMDb": 5.8,
+    "IMDb_link": "https://www.imdb.com/title/tt0295721/",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Bernard Farcy"
+    ],
+    "video": "medias/films/taxi-3/taxi-3.mp4"
+  },
+  "Taxi 4": {
+    "title": "Taxi 4",
+    "description": "Après cinq ans d'absence, nous retrouvons Daniel et Émilien pour de nouvelles aventures sur la Canebière. Les autorités donnent à transférer, au commissariat de Marseille, un braqueur de banque belge recherché par Interpol.",
+    "banner": "medias/films/taxi-4/taxi-4.jpg",
+    "IMDb": 5.6,
+    "IMDb_link": "https://www.imdb.com/title/tt0804540/",
+    "year": 2007,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Bernard Farcy"
+    ],
+    "video": "medias/films/taxi-4/taxi-4.mp4"
+  },
+  "Taxi 5": {
+    "title": "Taxi 5",
+    "description": "Sylvain Marot, super flic parisien et pilote d’exception, est muté contre son gré à la Police Municipale de Marseille. L’ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l’aide de puissantes Ferrari. Mais pour y parvenir, Marot n’aura pas d’autre choix que de collaborer avec le petit-neveu du célèbre Daniel, Eddy Maklouf, le pire chauffeur VTC de Marseille, mais le seul à pouvoir récupérer le légendaire TAXI blanc.",
+    "banner": "medias/films/taxi-5/taxi-5.jpg",
+    "IMDb": 4.6,
+    "IMDb_link": "https://www.imdb.com/title/tt7238392/",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Franck Gastambide"
+    ],
+    "writers": [
+      "Franck Gastambide",
+      "Stéphane Kazandjian",
+      "Luc Besson"
+    ],
+    "stars": [
+      "Franck Gastambide",
+      "Malik Bentalha",
+      "Bernard Farcy"
+    ],
+    "video": "medias/films/taxi-5/taxi-5.mp4"
+  },
+  "WALL·E": {
+    "title": "WALL·E",
+    "description": "Faites la connaissance de WALL•E (prononcez « Walli ») : WALL•E est le dernier être sur Terre et s’avère être un… petit robot ! 700 ans plus tôt, l’humanité a déserté notre planète laissant à cette incroyable petite machine le soin de nettoyer la Terre. Mais au bout de ces longues années, WALL•E a développé un petit défaut technique : une forte personnalité. Extrêmement curieux, très indiscret, il est surtout un peu trop seul… Cependant, sa vie s’apprête à être bouleversée avec l’arrivée d’une petite « robote », bien carénée et prénommée EVE. Tombant instantanément et éperdument amoureux d’elle, WALL•E va tout mettre en œuvre pour la séduire. Et lorsqu’EVE est rappelée dans l’espace pour y terminer sa mission, WALL•E n’hésite pas un seul instant : il se lance à sa poursuite… Hors de question pour lui de laisser passer le seul amour de sa vie… Pour être à ses côtés, il est prêt à aller au bout de l’univers et vivre la plus fantastique des aventures !",
+    "banner": "medias/films/wall-e/wall-e.jpg",
+    "IMDb": 8.4,
+    "IMDb_link": "https://www.imdb.com/title/tt0910970/",
+    "year": 2008,
+    "genres": [
+      "Adventure Epic",
+      "Artificial Intelligence",
+      "Computer Animation",
+      "Dystopian Sci-Fi",
+      "Psychological Drama",
+      "Space Sci-Fi",
+      "Adventure",
+      "Animation",
+      "Family",
+      "Sci-Fi"
+    ],
+    "directors": [
+      "Andrew Stanton"
+    ],
+    "writers": [
+      "Andrew Stanton",
+      "Pete Docter",
+      "Jim Reardon"
+    ],
+    "stars": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "video": "medias/films/wall-e/wall-e.mp4"
+  },
+  "Intouchables": {
+    "title": "Intouchables",
+    "description": "À la suite d’un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survêtement… Deux univers vont se télescoper, s’apprivoiser, pour donner naissance à une amitié aussi dingue, drôle et forte qu’inattendue, une relation unique qui fera des étincelles et qui les rendra… Intouchables.",
+    "banner": "medias/films/intouchables/intouchables.jpg",
+    "IMDb": 8.5,
+    "IMDb_link": "https://www.imdb.com/title/tt1675434/",
+    "year": 2011,
+    "genres": [
+      "Docudrama",
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Olivier Nakache",
+      "Éric Toledano"
+    ],
+    "writers": [
+      "Olivier Nakache",
+      "Éric Toledano",
+      "Philippe Pozzo di Borgo"
+    ],
+    "stars": [
+      "François Cluzet",
+      "Omar Sy",
+      "Anne Le Ny"
+    ],
+    "video": "medias/films/intouchables/intouchables.mp4"
+  },
+  "Là-haut": {
+    "title": "Là-haut",
+    "description": "À 78 ans, Carl n’envisage plus qu’une chose : finir tranquillement sa vie dans la petite maison où il a passé toute une existence paisible auprès de son épouse Ellie. Veuf désormais, il reste, en effet, attaché à son passé en refusant les propositions mirobolantes d’un promoteur pour racheter son bien. Quand des circonstances exceptionnelles le contraignent d’intégrer une maison de retraite, il prend une ultime fois les choses en mains et, transformant sa demeure en dirigeable, s’envole pour l’aventure, vers la partie du monde où sa femme et lui s’étaient promis un jour de s’installer. Il ne se doute pas alors qu’il a emporté avec lui un jeune passager clandestin, Russell et que le voyage sera loin d’être de tout repos…",
+    "banner": "medias/films/la-haut/la-haut.jpg",
+    "IMDb": 8.3,
+    "IMDb_link": "https://www.imdb.com/title/tt1049413/",
+    "year": 2009,
+    "genres": [
+      "Coming-Of-Age",
+      "Computer Animation",
+      "Globetrotting Adventure",
+      "Quest",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "directors": [
+      "Pete Docter",
+      "Bob Peterson"
+    ],
+    "writers": [
+      "Pete Docter",
+      "Bob Peterson",
+      "Tom McCarthy"
+    ],
+    "stars": [
+      "Edward Asner",
+      "Jordan Nagai",
+      "John Ratzenberger"
+    ],
+    "video": "medias/films/la-haut/la-haut.mp4"
   }
 }
