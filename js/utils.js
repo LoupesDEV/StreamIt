@@ -1,12 +1,33 @@
 /**
  * Provides utility functions and basic protection mechanisms for the application.
  *
- * This module includes helper functions for escaping strings, debouncing user input,
- * and handling redirection with error messages. It also adds client-side protection
- * by preventing right-click, blocking developer tool shortcuts, and detecting debugger usage.
+ * This module includes functions to retrieve film and series data, escape strings for HTML/JS,
+ * debounce function calls, and handle errors by redirecting to an error page.
+ * It also includes basic protection against developer tools usage by preventing context menu actions,
+ * disabling certain key combinations, and detecting if developer tools are open.
  *
  * @module utils
  */
+
+/**
+ * Retrieves a film object by its title from the film's data.
+ *
+ * @param title - The title of the film to retrieve.
+ * @returns {Object} - The film object containing metadata like title, description, genres, etc.
+ */
+function getFilmByTitle(title) {
+    return filmsData[title];
+}
+
+/**
+ * Retrieves a series object by its title from the series data.
+ *
+ * @param title - The title of the series to retrieve.
+ * @returns {Object} - The series object containing metadata like title, description, seasons, etc.
+ */
+function getSeriesByTitle(title) {
+    return seriesData[title];
+}
 
 /**
  * Escapes backslashes and single quotes in a string for safe HTML/JS injection.

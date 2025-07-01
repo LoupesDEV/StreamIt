@@ -11,6 +11,25 @@
  */
 
 let currentVideoContext = null;
+let lastOpenedContent = null;
+
+/**
+ * Shows the film detail modal for a given film.
+ *
+ * @param film - The film object containing metadata like title, description, genres, etc.
+ */
+function showFilmModal(film) {
+    if (film) openModal(film.title, "film");
+}
+
+/**
+ * Shows the series detail modal for a given series.
+ *
+ * @param series - The series object containing metadata like title, description, seasons, etc.
+ */
+function showSeriesModal(series) {
+    if (series) openModal(series.title, "series");
+}
 
 /**
  * Opens the content detail modal for a given film or series.
@@ -208,6 +227,8 @@ function playVideo(videoPath, type, title, season, epIndex) {
         return;
     }
 
+    lastOpenedContent = { type, title, season, epIndex };
+
     videoPlayer.src = videoPath;
     videoModal.classList.add("active");
     modal.classList.remove("active");
@@ -304,6 +325,7 @@ function handleVideoPause() {
  * @function
  */
 function closeModals() {
+    const wasVideoModalActive = videoModal.classList.contains("active");
     modal.classList.remove("active");
     videoModal.classList.remove("active");
     document.body.style.overflow = "auto";
@@ -313,4 +335,12 @@ function closeModals() {
         videoPlayer.src = "";
     }
     currentVideoContext = null;
+
+    if (wasVideoModalActive && lastOpenedContent) {
+        if (lastOpenedContent.type === "film") {
+            showFilmModal(getFilmByTitle(lastOpenedContent.title));
+        } else if (lastOpenedContent.type === "series") {
+            showSeriesModal(getSeriesByTitle(lastOpenedContent.title));
+        }
+    }
 }
