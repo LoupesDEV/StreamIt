@@ -1412,5 +1412,192 @@
       "John Ratzenberger"
     ],
     "video": "medias/films/la-haut/la-haut.mp4"
+  },
+  "Kingdom of Heaven": {
+    "title": "Kingdom of Heaven",
+    "description": "Balian le forgeron découvre que son père est un seigneur Croisé, peu avant que celui-ci ne meure et que ses terres à Jérusalem ne lui reviennent. Parti sur place, il se range au côté des fidèles du roi Baudoin, qui tentent de maintenir un équilibre fragile entre les Croisés et les troupes de Saladin. Mais le roi est mourant et puissants sont ceux qui s'opposent à lui et à la paix.",
+    "banner": "medias/films/kingdom-of-heaven/kingdom-of-heaven.jpg",
+    "IMDb": 7.3,
+    "IMDb_link": "https://www.imdb.com/title/tt0320661/",
+    "year": 2005,
+    "genres": [
+      "Action Epic",
+      "Epic",
+      "Historical Epic",
+      "Period Drama",
+      "War Epic",
+      "Action",
+      "Adventure",
+      "Drama",
+      "History",
+      "War"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "William Monahan"
+    ],
+    "stars": [
+      "Orlando Bloom",
+      "Eva Green",
+      "Liam Neeson"
+    ],
+    "video": "medias/films/kingdom-of-heaven/kingdom-of-heaven.mp4"
+  },
+  "Gladiator": {
+    "title": "Gladiator",
+    "description": "Le général romain Maximus est le plus fidèle soutien de l'empereur Marc Aurèle, qu'il a conduit de victoire en victoire avec une bravoure et un dévouement exemplaires. Jaloux du prestige de Maximus, et plus encore de l'amour que lui voue l'empereur, le fils de Marc Aurèle, Commode, s'arroge brutalement le pouvoir, puis ordonne l'arrestation du général et son exécution. Maximus échappe à ses assassins mais ne peut empêcher le massacre de sa famille. Capturé par un marchand d'esclaves, il devient gladiateur et prépare sa vengeance.",
+    "banner": "medias/films/gladiator/gladiator.jpg",
+    "IMDb": 8.5,
+    "IMDb_link": "https://www.imdb.com/title/tt0172495/",
+    "year": 2000,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Period Drama",
+      "Sword & Sandal",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Franzoni",
+      "John Logan",
+      "William Nicholson"
+    ],
+    "stars": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "video": "medias/films/gladiator/gladiator.mp4"
+  },
+  "Gladiator II": {
+    "title": "Gladiator II",
+    "description": "Des années après avoir assisté à la mort du héros vénéré Maximus aux mains de son oncle, Lucius est forcé d'entrer dans le Colisée lorsque son pays est conquis par les empereurs tyranniques qui gouvernent désormais Rome d'une main de fer. La rage au cœur et l'avenir de l'Empire en jeu, Lucius doit se tourner vers son passé pour trouver la force et l'honneur de rendre la gloire de Rome à son peuple.",
+    "banner": "medias/films/gladiator-ii/gladiator-ii.jpg",
+    "IMDb": 6.5,
+    "IMDb_link": "https://www.imdb.com/title/tt9218128/",
+    "year": 2024,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Period Drama",
+      "Sword & Sandal",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Franzoni",
+      "Peter Craig",
+      "David Scarpa"
+    ],
+    "stars": [
+      "Paul Mescal",
+      "Denzel Washington",
+      "Pedro Pascal"
+    ],
+    "video": "medias/films/gladiator-ii/gladiator-ii.mp4"
+  },
+  "The Deep House": {
+    "title": "The Deep House",
+    "description": "Tina et Ben sont un couple de jeunes YouTubers spécialisés dans les vidéos d'exploration sous-marine. En plongeant dans un lac français isolé, ils découvrent une maison immergée dans les eaux profondes. Ce qui était au départ une découverte unique se transforme rapidement en cauchemar lorsqu'ils réalisent que la maison était le théâtre d'atroces crimes. Pris au piège, leurs réserves d'oxygène diminuant dangereusement, Tina et Ben se rendent compte que le pire reste à venir: ils ne sont pas seuls dans la maison.",
+    "banner": "medias/films/the-deep-house/the-deep-house.jpg",
+    "IMDb": 5.3,
+    "IMDb_link": "https://www.imdb.com/title/tt11686490/",
+    "year": 2021,
+    "genres": [
+      "Found Footage Horror",
+      "Supernatural Horror",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Alexandre Bustillo",
+      "Julien Maury"
+    ],
+    "writers": [
+      "Alexandre Bustillo",
+      "Julien Maury",
+      "Rachel Parker"
+    ],
+    "stars": [
+      "Camille Rowe",
+      "James Jagger",
+      "Eric Savin"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=FNEVVY249yo",
+    "video": "medias/films/the-deep-house/the-deep-house.mp4"
+  },
+  "À l'ouest rien de nouveau": {
+    "title": "À l'ouest rien de nouveau",
+    "description": "« À l'ouest rien de nouveau » raconte l'histoire poignante d'un jeune soldat allemand sur le front occidental pendant la Première Guerre mondiale. En première ligne, Paul et ses camarades voient l'euphorie initiale se muer en désespoir et en épouvante quand ils se retrouvent à défendre leurs vies au fond des tranchées. Réalisé par Edward Berger, le film s'inspire du bestseller éponyme d'Erich Maria Remarque.",
+    "banner": "medias/films/a-l-ouest-rien-de-nouveau/a-l-ouest-rien-de-nouveau.jpg",
+    "IMDb": 7.8,
+    "IMDb_link": "https://www.imdb.com/title/tt1016150/",
+    "year": 2022,
+    "genres": [
+      "Epic",
+      "Period Drama",
+      "Tragedy",
+      "War Epic",
+      "Drama",
+      "History",
+      "War"
+    ],
+    "directors": [
+      "Edward Berger"
+    ],
+    "writers": [
+      "Edward Berger",
+      "Lesley Paterson",
+      "Ian Stokell"
+    ],
+    "stars": [
+      "Felix Kammerer",
+      "Albrecht Schuch",
+      "Aaron Hilmer"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=5ABgVzSc_BY",
+    "video": "medias/films/a-l-ouest-rien-de-nouveau/a-l-ouest-rien-de-nouveau.mp4"
+  },
+  "Ballerina": {
+    "title": "Ballerina",
+    "description": "Enfant, Eve Macarro a assisté impuissante au meurtre de son père par une bande de tueurs à gages. Devenue adulte, elle consacre sa vie au ballet et… au combat. Formée selon les traditions ancestrales de la Ruska Roma, Eve est devenue une redoutable combattante - l'égale ou presque du légendaire John Wick, qu’elle croise parfois dans les couloirs de l’Hôtel Continental, à New York. Quand la Directrice la juge enfin prête pour une mission, Eve voit l'occasion de régler ses comptes avec les meurtriers de son père. Quitte à devoir affronter, au passage, John Wick lui-même.",
+    "banner": "medias/films/ballerina/ballerina.jpg",
+    "IMDb": 7,
+    "IMDb_link": "https://www.imdb.com/title/tt7181546/",
+    "year": 2025,
+    "genres": [
+      "Gun Fu",
+      "Martial Arts",
+      "One-Person Army Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Len Wiseman"
+    ],
+    "writers": [
+      "Shay Hatten",
+      "Derek Kolstad"
+    ],
+    "stars": [
+      "Ana de Armas",
+      "Keanu Reeves",
+      "Ian McShane"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=zKqoJai2-yo",
+    "video": "medias/films/ballerina/ballerina.mp4"
   }
 }
