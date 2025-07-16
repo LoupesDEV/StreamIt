@@ -1599,5 +1599,61 @@
     ],
     "trailer": "https://www.youtube.com/watch?v=zKqoJai2-yo",
     "video": "medias/films/ballerina/ballerina.mp4"
+  },
+  "La Rafle": {
+    "title": "La Rafle",
+    "description": "1942, Joseph a onze ans. Et ce matin de juin, il doit aller à l'école, une étoile jaune cousue sur sa poitrine… Il reçoit les encouragements d'un voisin brocanteur. Les railleries d'une boulangère. Entre bienveillance et mépris, Jo, ses copains juifs comme lui, leurs familles, apprennent la vie dans un Paris occupé, sur la Butte Montmartre, où ils ont trouvé refuge. Du moins le croient-ils, jusqu'à ce matin du 16 juillet 1942, où leur fragile bonheur bascule… Du Vélodrome d'Hiver, où 13 000 raflés sont entassés, au camp de Beaune-La-Rolande, de Vichy à la terrasse du Berghof, La Rafle suit les destins réels des victimes et des bourreaux. De ceux qui ont orchestré. De ceux qui ont eu confiance. De ceux qui ont fui. De ceux qui se sont opposés. Tous les personnages du film ont existé. Tous les évènements, même les plus extrêmes, ont eu lieu cet été 1942.",
+    "banner": "medias/films/la-rafle/la-rafle.jpg",
+    "IMDb": 7.1,
+    "IMDb_link": "https://www.imdb.com/title/tt1382725/",
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "directors": [
+      "Rose Bosch"
+    ],
+    "writers": [
+      "Rose Bosch"
+    ],
+    "stars": [
+      "Jean Reno",
+      "Mélanie Laurent",
+      "Gad Elmaleh"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=qXOmq3tcmnw",
+    "video": "medias/films/la-rafle/la-rafle.mp4"
+  },
+  "Real Steel": {
+    "title": "Real Steel",
+    "description": "Dans un futur proche, la boxe a évolué pour devenir un sport high-tech. Charlie Kenton, un ancien boxeur, a perdu toute chance de remporter le championnat depuis que les humains ont été remplacés sur le ring par des robots d’acier de 900 kilos et de 2,40 m de haut. À présent, il n’est plus qu’un manager minable qui utilise des robots bas de gamme fabriqués à partir de pièces de récupération. Il gagne juste assez pour survivre d’un combat à l’autre. Lorsque Charlie touche le fond, il accepte à contrecœur de faire équipe avec son fils Max, qu’il a perdu de vue depuis des années, pour construire et entraîner un champion. Dans l’arène où tous les coups sont permis, les enjeux sont plus élevés qu’ils ne l’ont jamais été. Contre toute attente, Charlie et Max ont une chance, une seule, de faire leur grand retour…",
+    "banner": "medias/films/real-steel/real-steel.jpg",
+    "IMDb": 7.1,
+    "IMDb_link": "https://www.imdb.com/title/tt0433035/",
+    "year": 2011,
+    "genres": [
+      "Boxing",
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Sport"
+    ],
+    "directors": [
+      "Shawn Levy"
+    ],
+    "writers": [
+      "John Gatins",
+      "Dan Gilroy",
+      "Jeremy Leven"
+    ],
+    "stars": [
+      "Hugh Jackman",
+      "Evangeline Lilly",
+      "Dakota Goyo"
+    ],
+    "trailer": "https://www.dailymotion.com/video/x8a3dr9",
+    "video": "medias/films/real-steel/real-steel.mp4"
   }
 }
