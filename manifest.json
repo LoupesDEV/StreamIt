@@ -1,22 +1,55 @@
 {
   "name": "StreamIt",
   "short_name": "StreamIt",
+  "description": "Organisez, explorez et regardez vos films et séries préférés avec StreamIt.",
   "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#181818",
   "theme_color": "#181818",
-  "description": "Organisez, explorez et regardez vos films et séries préférés.",
+  "lang": "fr",
+  "categories": ["entertainment", "video", "movies", "tv"],
   "icons": [
     {
       "src": "medias/logo.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "medias/logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "lang": "fr"
+  "screenshots": [
+    {
+      "src": "medias/README/accueil.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Accueil"
+    },
+    {
+      "src": "medias/README/watching.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Lecteur vidéo"
+    },
+    {
+      "src": "medias/README/series.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Page des séries"
+    },
+    {
+      "src": "medias/README/films.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Page des films"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
