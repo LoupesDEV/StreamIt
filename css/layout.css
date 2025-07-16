@@ -102,40 +102,6 @@
     display: block;
 }
 
-.hero {
-    text-align: center;
-    padding: 4rem 0;
-    background: var(--gradient-secondary);
-    border-radius: var(--border-radius-large);
-    margin-bottom: 3rem;
-    border: 1px solid var(--border);
-    position: relative;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 50% 50%, rgba(var(--accent-rgb), 0.1) 0%, transparent 70%);
-    pointer-events: none;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-}
-
-.hero p {
-    font-size: 1.125rem;
-    color: var(--text-secondary);
-}
-
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

@@ -16,13 +16,10 @@ if (msg) {
 }
 
 /**
- * Handles an error by storing a message in localStorage and redirecting to an error page.
- *
- * Saves the provided error message under the key "streamit_404_error" and navigates the user to "error.html".
- * This is used to display custom error information on a dedicated error page.
+ * Redirects the user to an error page and stores a custom error message in localStorage.
  *
  * @function
- * @param {string} message - The error message to store and display.
+ * @param {string} message - The message to display on the error page.
  */
 function handleErrorAndRedirect(message) {
     localStorage.setItem("streamit_404_error", message);
@@ -34,7 +31,7 @@ document.addEventListener("contextmenu", (e) => e.preventDefault());
 document.addEventListener("keydown", (e) => {
     if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") || (e.ctrlKey && e.key.toLowerCase() === "u")) {
         e.preventDefault();
-        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
+        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
     }
 });
 
@@ -42,7 +39,7 @@ document.addEventListener("keydown", (e) => {
     const start = Date.now();
     debugger;
     if (Date.now() - start > 100) {
-        handleErrorAndRedirect("Encore toi ? Même en appuyant sur tous les boutons, tu n'auras pas le trésor caché ici !");
+        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
     }
     setTimeout(detectDevTools, 1000);
 })();

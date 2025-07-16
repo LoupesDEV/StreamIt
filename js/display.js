@@ -161,3 +161,107 @@ function showNoResults(message = "Aucun résultat trouvé") {
     </div>
   `;
 }
+
+/**
+ * Retrieves the most recent film from the films data.
+ *
+ * This function assumes that the filmsData object is structured such that
+ * the last entry corresponds to the most recently added or updated film.
+ *
+ * @function
+ * @return {Object} - The latest film object, or undefined if no films are available.
+ */
+function getLatestFilm() {
+    const films = Object.values(filmsData);
+    return films[films.length - 1];
+}
+
+/**
+ * Retrieves the most recent serie from the series data.
+ *
+ * This function assumes that the seriesData object is structured such that
+ * the last entry corresponds to the most recently added or updated serie.
+ *
+ * @function
+ * @return {Object} - The latest serie object, or undefined if no serie are available.
+ */
+function getLatestSeries() {
+    const series = Object.values(seriesData);
+    return series[series.length - 1];
+}
+
+/**
+ * Renders a featured slider with the latest film and series.
+ *
+ * This function creates a slider that displays the most recent film and series,
+ * allowing users to navigate between them. It includes auto-sliding functionality
+ * and clickable cards that open a modal with detailed information.
+ *
+ * @function
+ */
+function renderFeaturedSlider() {
+    const film = getLatestFilm();
+    const series = getLatestSeries();
+    const slider = document.getElementById("featuredSlider");
+    if (!slider) return;
+
+    const featuredItems = [film, series];
+    let currentIndex = 0;
+    let autoSlideInterval;
+
+    function render() {
+        slider.innerHTML = `
+            <div class="slider-wrapper">
+                <div class="slider-track">
+                    ${featuredItems.map((item, idx) => `
+                        <div class="slider-card featured" data-idx="${idx}" style="cursor:pointer;">
+                            <img src="${item.banner}" alt="${item.title}" class="slider-img">
+                            <div class="slider-overlay">
+                                <div class="slider-card-title">${item.title}</div>
+                                <div class="slider-card-desc">${item.description}</div>
+                            </div>
+                        </div>
+                    `).join("")}
+                </div>
+                <div class="slider-dots">
+                    ${featuredItems.map((_, dotIdx) => `
+                        <span class="slider-dot${dotIdx === currentIndex ? " active" : ""}" data-idx="${dotIdx}"></span>
+                    `).join("")}
+                </div>
+            </div>
+        `;
+
+        const track = slider.querySelector(".slider-track");
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        slider.querySelectorAll(".slider-card.featured").forEach(card => {
+            card.onclick = () => {
+                const idx = parseInt(card.getAttribute("data-idx"));
+                const item = featuredItems[idx];
+                openModal(item.title, item.seasons ? "series" : "film");
+            };
+        });
+
+        slider.querySelectorAll(".slider-dot").forEach(dot => {
+            dot.onclick = (e) => {
+                e.stopPropagation();
+                currentIndex = parseInt(dot.getAttribute("data-idx"));
+                render();
+                resetAutoSlide();
+            };
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % featuredItems.length;
+        render();
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        autoSlideInterval = setInterval(nextSlide, 5000);
+    }
+
+    render();
+    resetAutoSlide();
+}

@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     showSection("home");
     populateFilters();
     displayPopularContent();
+    renderFeaturedSlider();
 
     const exportBtn = document.getElementById("exportWatchedBtn");
     const importInput = document.getElementById("importWatchedInput");
