@@ -16,19 +16,20 @@ let lastOpenedContent = null;
 /**
  * Shows the film detail modal for a given film.
  *
- * @param film - The film object containing metadata like title, description, genres, etc.
+ * @param {Object} film - The film object containing metadata like title, description, genres, etc.
  */
 function showFilmModal(film) {
-    if (film) openModal(film.title, "film");
+    if (film) openModal(film.title, "film", 0);
 }
 
 /**
  * Shows the series detail modal for a given series.
  *
- * @param series - The series object containing metadata like title, description, seasons, etc.
+ * @param {Object} series - The series object containing metadata like title, description, seasons, etc.
+ * @param {number} season - Optional season number to display episodes for that season.
  */
-function showSeriesModal(series) {
-    if (series) openModal(series.title, "series");
+function showSeriesModal(series, season) {
+    if (series) openModal(series.title, "series", season);
 }
 
 /**
@@ -40,8 +41,9 @@ function showSeriesModal(series) {
  * @function
  * @param {string} title - The title of the content item.
  * @param {string} type - The content type: "film" or "series".
+ * @param {number} season - Optional season number for series to display episodes.
  */
-function openModal(title, type) {
+function openModal(title, type, season) {
     const item = type === "film" ? filmsData[title] : seriesData[title];
     if (!item) return;
 
@@ -51,7 +53,7 @@ function openModal(title, type) {
     document.body.style.overflow = "hidden";
 
     if (type === "series" && item.seasons) {
-        setupSeriesModal(item);
+        setupSeriesModal(item, season);
     }
     currentVideoContext = null;
 }
@@ -129,25 +131,27 @@ function createModalContent(item, type) {
 }
 
 /**
- * Sets up the modal UI for a series, including seasons navigation and episodes display.
+ * Sets up the series modal with seasons and episodes.
  *
- * Builds buttons for each season and loads the episodes for the first one by default.
+ * Creates a navigation for seasons, displays episodes for the selected season, and handles click events to switch between seasons.
  *
  * @function
  * @param {Object} series - The series object with seasons and episodes.
+ * @param {number} defaultSeason - Optional season number to display initially.
  */
-function setupSeriesModal(series) {
+function setupSeriesModal(series, defaultSeason) {
     if (!series.seasons) return;
 
     const seasonsContainer = document.getElementById("seasonsContainer");
     const seasons = Object.keys(series.seasons);
+    const initialSeason = defaultSeason && seasons.includes(defaultSeason) ? defaultSeason : seasons[0];
 
     seasonsContainer.innerHTML = `
     <div class="seasons-section">
       <h3>Saisons et Épisodes</h3>
       <div class="seasons-nav">
         ${seasons
-        .map((season, index) => `<button class="season-btn ${index === 0 ? "active" : ""}" data-season="${season}">
+        .map((season) => `<button class="season-btn ${season === initialSeason ? "active" : ""}" data-season="${season}">
             Saison ${season}
           </button>`)
         .join("")}
@@ -165,7 +169,7 @@ function setupSeriesModal(series) {
         });
     });
 
-    displayEpisodes(series, seasons[0]);
+    displayEpisodes(series, initialSeason);
 }
 
 /**
@@ -318,9 +322,9 @@ function handleVideoPause() {
 }
 
 /**
- * Closes all open modals and resets video playback state.
+ * Closes current modal and return to the last opened content modal if applicable.
  *
- * Stops the video, clears playback context, and re-enables page scrolling.
+ * Removes active classes from modals, resets video player, and restores body overflow.
  *
  * @function
  */
@@ -340,7 +344,7 @@ function closeModals() {
         if (lastOpenedContent.type === "film") {
             showFilmModal(getFilmByTitle(lastOpenedContent.title));
         } else if (lastOpenedContent.type === "series") {
-            showSeriesModal(getSeriesByTitle(lastOpenedContent.title));
+            showSeriesModal(getSeriesByTitle(lastOpenedContent.title), lastOpenedContent.season);
         }
     }
 }
