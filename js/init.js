@@ -1,14 +1,21 @@
 /**
- * Initializes the application after the DOM is fully loaded.
- *
- * This module coordinates the startup process, including loading data, setting up event listeners,
- * showing the home section, populating filters, and displaying popular content.
- * It also handles the export and import of watched content to and from localStorage via JSON files.
- * Exported data is downloaded as a file, while imported data is validated and reloaded into the app.
- *
  * @module init
+ * @description
+ * Initializes the application, sets up event listeners, and loads initial data.
+ * Ensures all modules are ready and the UI is interactive on startup.
  */
 
+/**
+ * Initializes the application after the DOM is fully loaded.
+ *
+ * Loads data, sets up event listeners, shows the home section, populates filters,
+ * displays popular content, and renders the featured slider.
+ * Also manages export and import of watched content via JSON files.
+ *
+ * @event
+ * @param {Event} event - The DOMContentLoaded event.
+ * @returns {void}
+ */
 document.addEventListener("DOMContentLoaded", async () => {
     await loadData();
     setupEventListeners();
@@ -20,6 +27,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const exportBtn = document.getElementById("exportWatchedBtn");
     const importInput = document.getElementById("importWatchedInput");
     if (exportBtn) {
+        /**
+         * Handles the click event on the export button to download watched content as a JSON file.
+         *
+         * @event
+         * @param {MouseEvent} event - The click event.
+         * @returns {void}
+         */
         exportBtn.addEventListener("click", () => {
             const data = localStorage.getItem("watchedContent") || '{"films":{},"series":{}}';
             const blob = new Blob([data], {type: "application/json"});
@@ -34,6 +48,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
     if (importInput) {
+        /**
+         * Handles the change event on the import input to load watched content from a JSON file.
+         *
+         * @event
+         * @param {Event} event - The change event.
+         * @returns {void}
+         */
         importInput.addEventListener("change", (e) => {
             const file = e.target.files[0];
             if (!file) return;

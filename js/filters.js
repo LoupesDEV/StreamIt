@@ -1,20 +1,15 @@
 /**
- * Manages the creation, population, and handling of filtering options for films and series.
- *
- * This module includes all logic required to populate dropdown filters (genres, years, directors,
- * actors, creators), generate filter options from the dataset, and apply the selected filters
- * to dynamically update the visible content. It also provides utility functions to reset filters
- * and refresh the content grids accordingly.
- *
  * @module filters
+ * @description
+ * Implements filtering logic for films and series based on genres, ratings, or other criteria.
+ * Updates the displayed content according to selected filters.
  */
 
 /**
- * Populates all filter dropdowns for films and series.
- *
- * Calls individual functions to populate filters for genres, years, directors, actors, and creators.
+ * Populates all filter dropdowns (genres, years, directors, actors, creators) for films and series.
  *
  * @function
+ * @returns {void}
  */
 function populateFilters() {
     populateGenreFilters();
@@ -25,9 +20,10 @@ function populateFilters() {
 }
 
 /**
- * Populates genre filter dropdowns for films and series based on available data.
+ * Populates the genre filter dropdowns for films and series.
  *
  * @function
+ * @returns {void}
  */
 function populateGenreFilters() {
     const filmGenres = new Set();
@@ -50,9 +46,10 @@ function populateGenreFilters() {
 }
 
 /**
- * Populates year filter dropdowns for films and series using their respective release years.
+ * Populates the year filter dropdowns for films and series.
  *
  * @function
+ * @returns {void}
  */
 function populateYearFilters() {
     const filmYears = new Set();
@@ -71,9 +68,10 @@ function populateYearFilters() {
 }
 
 /**
- * Populates the director filter dropdown for films using available director data.
+ * Populates the director filter dropdown for films.
  *
  * @function
+ * @returns {void}
  */
 function populateDirectorFilters() {
     const directors = new Set();
@@ -88,9 +86,10 @@ function populateDirectorFilters() {
 }
 
 /**
- * Populates actor filter dropdowns for films and series using available cast information.
+ * Populates the actor filter dropdowns for films and series.
  *
  * @function
+ * @returns {void}
  */
 function populateActorFilters() {
     const filmActors = new Set();
@@ -113,9 +112,10 @@ function populateActorFilters() {
 }
 
 /**
- * Populates the creator filter dropdown for series using available creator data.
+ * Populates the creator filter dropdown for series.
  *
  * @function
+ * @returns {void}
  */
 function populateCreatorFilters() {
     const creators = new Set();
@@ -130,12 +130,13 @@ function populateCreatorFilters() {
 }
 
 /**
- * Populates a given select element with provided options and a default placeholder.
+ * Populates a select element with given options and a default option.
  *
  * @function
- * @param {string} selectId - The ID of the select element to populate.
- * @param {string[]} options - The list of options to insert.
- * @param {string} [defaultText="--"] - The default placeholder option to show.
+ * @param {string} selectId - The ID of the select element.
+ * @param {string[]} options - The list of options to populate.
+ * @param {string} [defaultText="--"] - The default option text.
+ * @returns {void}
  */
 function populateSelect(selectId, options, defaultText = "--") {
     const select = document.getElementById(selectId);
@@ -150,12 +151,10 @@ function populateSelect(selectId, options, defaultText = "--") {
 }
 
 /**
- * Retrieves the list of films that match the currently selected filter criteria.
- *
- * Applies filters for genre, year, director, actor, and minimum rating.
+ * Returns the list of films filtered by the selected filter values.
  *
  * @function
- * @returns {Object[]} Filtered array of film objects.
+ * @returns {Object[]} The filtered array of film objects.
  */
 function getFilteredFilms() {
     const genreFilter = document.getElementById("filmGenreFilter").value;
@@ -176,12 +175,10 @@ function getFilteredFilms() {
 }
 
 /**
- * Retrieves the list of series that match the currently selected filter criteria.
- *
- * Applies filters for genre, year, creator, actor, and minimum rating.
+ * Returns the list of series filtered by the selected filter values.
  *
  * @function
- * @returns {Object[]} Filtered array of series objects.
+ * @returns {Object[]} The filtered array of series objects.
  */
 function getFilteredSeries() {
     const genreFilter = document.getElementById("seriesGenreFilter").value;
@@ -202,20 +199,20 @@ function getFilteredSeries() {
 }
 
 /**
- * Updates the films display grid based on the currently selected filters.
- *
- * Fetches filtered films and displays them using the display module.
+ * Updates the films grid with the filtered films.
  *
  * @function
+ * @returns {void}
  */
 function updateFilmsGrid() {
     displayFilms(getFilteredFilms());
 }
 
 /**
- * Resets all film-related filters to their default values and refreshes the display grid.
+ * Resets all film filter dropdowns and updates the films grid.
  *
  * @function
+ * @returns {void}
  */
 function resetFilmFilters() {
     document.getElementById("filmGenreFilter").value = "";
@@ -228,20 +225,20 @@ function resetFilmFilters() {
 }
 
 /**
- * Updates the series display grid based on the currently selected filters.
- *
- * Fetches filtered series and displays them using the display module.
+ * Updates the series grid with the filtered series.
  *
  * @function
+ * @returns {void}
  */
 function updateSeriesGrid() {
     displaySeries(getFilteredSeries());
 }
 
 /**
- * Resets all series-related filters to their default values and refreshes the display grid.
+ * Resets all series filter dropdowns and updates the series grid.
  *
  * @function
+ * @returns {void}
  */
 function resetSeriesFilters() {
     document.getElementById("seriesGenreFilter").value = "";

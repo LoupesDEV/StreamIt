@@ -1,47 +1,44 @@
 /**
- * Manages modal display logic for content details and video playback.
- *
- * This module handles the opening and dynamic rendering of modals for both films and series,
- * including displaying metadata, trailers, IMDb links, cast, and watched status. It also manages
- * playback of videos in a dedicated modal with resume support and watched progress tracking.
- * Series episodes are displayed per season with interactive controls, and the module keeps track
- * of the user's playback context to update localStorage as needed.
- *
  * @module modal
+ * @description
+ * Controls the display and behavior of modal dialogs (pop-ups) in the UI.
+ * Handles opening, closing, and content management for modals.
  */
 
 let currentVideoContext = null;
 let lastOpenedContent = null;
 
 /**
- * Shows the film detail modal for a given film.
+ * Displays the modal for a film with its details.
  *
- * @param {Object} film - The film object containing metadata like title, description, genres, etc.
+ * @function
+ * @param {Object} film - The film object to display.
+ * @returns {void}
  */
 function showFilmModal(film) {
     if (film) openModal(film.title, "film", 0);
 }
 
 /**
- * Shows the series detail modal for a given series.
+ * Displays the modal for a series with its details and selected season.
  *
- * @param {Object} series - The series object containing metadata like title, description, seasons, etc.
- * @param {number} season - Optional season number to display episodes for that season.
+ * @function
+ * @param {Object} series - The series object to display.
+ * @param {string|number} season - The season to display.
+ * @returns {void}
  */
 function showSeriesModal(series, season) {
     if (series) openModal(series.title, "series", season);
 }
 
 /**
- * Opens the content detail modal for a given film or series.
- *
- * Renders the modal content using the provided title and type, and sets up additional UI
- * for series (like seasons and episodes). Prevents background scrolling while the modal is open.
+ * Opens the modal for a given content item (film or series).
  *
  * @function
- * @param {string} title - The title of the content item.
- * @param {string} type - The content type: "film" or "series".
- * @param {number} season - Optional season number for series to display episodes.
+ * @param {string} title - The title of the content.
+ * @param {string} type - The type of content ("film" or "series").
+ * @param {string|number} season - The season to display (for series).
+ * @returns {void}
  */
 function openModal(title, type, season) {
     const item = type === "film" ? filmsData[title] : seriesData[title];
@@ -59,15 +56,12 @@ function openModal(title, type, season) {
 }
 
 /**
- * Generates the HTML content of the modal based on the item’s metadata.
- *
- * Builds a visual layout with poster, title, rating, genres, year, description,
- * cast, and available actions like watch/trailer/IMDb buttons.
+ * Generates the HTML content for the modal based on the item and its type.
  *
  * @function
  * @param {Object} item - The content item (film or series).
- * @param {string} type - The content type: "film" or "series".
- * @returns {string} HTML string to be injected into the modal.
+ * @param {string} type - The type of content ("film" or "series").
+ * @returns {string} The HTML string for the modal content.
  */
 function createModalContent(item, type) {
     const genres = item.genres ? item.genres.map((g) => `<span class="genre-tag">${g}</span>`).join("") : "";
@@ -131,13 +125,12 @@ function createModalContent(item, type) {
 }
 
 /**
- * Sets up the series modal with seasons and episodes.
- *
- * Creates a navigation for seasons, displays episodes for the selected season, and handles click events to switch between seasons.
+ * Sets up the modal for a series, displaying seasons and episodes.
  *
  * @function
- * @param {Object} series - The series object with seasons and episodes.
- * @param {number} defaultSeason - Optional season number to display initially.
+ * @param {Object} series - The series object.
+ * @param {string|number} defaultSeason - The season to display initially.
+ * @returns {void}
  */
 function setupSeriesModal(series, defaultSeason) {
     if (!series.seasons) return;
@@ -173,14 +166,12 @@ function setupSeriesModal(series, defaultSeason) {
 }
 
 /**
- * Displays the list of episodes for a given season in the modal.
- *
- * Generates episode cards with titles, descriptions, watched status,
- * and a click handler to start playback.
+ * Displays the episodes for a given series and season in the modal.
  *
  * @function
  * @param {Object} series - The series object.
- * @param {string} seasonNumber - The selected season number to display.
+ * @param {string|number} seasonNumber - The season number to display.
+ * @returns {void}
  */
 function displayEpisodes(series, seasonNumber) {
     const episodes = series.seasons[seasonNumber];
@@ -213,17 +204,15 @@ function displayEpisodes(series, seasonNumber) {
 }
 
 /**
- * Starts video playback in the video modal and initializes playback context.
- *
- * Sets the video source, handles resume playback from last watched time,
- * and updates `currentVideoContext` for tracking progress.
+ * Plays a video (film or episode) in the video modal, resuming from last watched time if available.
  *
  * @function
  * @param {string} videoPath - The path to the video file.
- * @param {string} type - "film" or "series".
- * @param {string} title - Title of the content.
- * @param {string} [season] - Season number (only for series).
- * @param {number} [epIndex] - Episode index (only for series).
+ * @param {string} type - The type of content ("film" or "series").
+ * @param {string} title - The title of the content.
+ * @param {string|number} [season] - The season number (for series).
+ * @param {number} [epIndex] - The episode index (for series).
+ * @returns {void}
  */
 function playVideo(videoPath, type, title, season, epIndex) {
     if (!videoPath) {
@@ -257,12 +246,10 @@ function playVideo(videoPath, type, title, season, epIndex) {
 }
 
 /**
- * Updates watch progress as the video plays.
- *
- * Saves the current time to localStorage and marks the item as fully watched
- * if more than 90% of the video is completed.
+ * Handles updating watch progress while the video is playing.
  *
  * @function
+ * @returns {void}
  */
 function handleVideoTimeUpdate() {
     if (!currentVideoContext) return;
@@ -287,11 +274,10 @@ function handleVideoTimeUpdate() {
 }
 
 /**
- * Marks the content as fully watched when the video ends.
- *
- * Called automatically when video playback reaches the end.
+ * Handles marking content as watched when the video ends.
  *
  * @function
+ * @returns {void}
  */
 function handleVideoEnded() {
     if (!currentVideoContext) return;
@@ -304,11 +290,10 @@ function handleVideoEnded() {
 }
 
 /**
- * Saves the current playback position when the video is paused.
- *
- * Updates watch progress in localStorage without marking as fully watched.
+ * Handles saving watch progress when the video is paused.
  *
  * @function
+ * @returns {void}
  */
 function handleVideoPause() {
     if (!currentVideoContext) return;
@@ -322,11 +307,10 @@ function handleVideoPause() {
 }
 
 /**
- * Closes current modal and return to the last opened content modal if applicable.
- *
- * Removes active classes from modals, resets video player, and restores body overflow.
+ * Closes all modals and restores the previous state.
  *
  * @function
+ * @returns {void}
  */
 function closeModals() {
     const wasVideoModalActive = videoModal.classList.contains("active");

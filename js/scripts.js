@@ -1,12 +1,8 @@
 /**
- * Controls global user interface behavior and navigation interactions.
- *
- * This module sets up all DOM event listeners required for navigation, filtering,
- * modals, video tracking, and search interactions. It manages section transitions,
- * updates active navigation states, and reacts to filter input to refresh content dynamically.
- * It also handles global keyboard shortcuts and graceful fallback when images fail to load.
- *
  * @module scripts
+ * @description
+ * Contains main application logic, global event listeners, and utility functions.
+ * Coordinates interactions between modules and manages app-wide behaviors.
  */
 
 let currentSection = "home";
@@ -19,17 +15,10 @@ const videoModal = document.getElementById("videoModal");
 const videoPlayer = document.getElementById("videoPlayer");
 
 /**
- * Attaches all necessary event listeners to DOM elements for navigation, filtering, search, modal control, and video handling.
- *
- * This includes:
- * - Navigation link clicks and section switching
- * - Search input with debounce
- * - Modal open/close behavior
- * - Filter changes for both films and series
- * - Video player tracking (time update, end, pause)
- * - Global keyboard shortcuts (Escape to close modals, "/" to focus search)
+ * Sets up all global event listeners for navigation, filtering, modals, video tracking, and search.
  *
  * @function
+ * @returns {void}
  */
 function setupEventListeners() {
     navLinks.forEach((link) => {
@@ -121,13 +110,11 @@ function setupEventListeners() {
 }
 
 /**
- * Displays the requested section and updates its content if necessary.
- *
- * Hides all other sections, shows the one specified, and triggers corresponding content
- * rendering depending on the section (films, series, search, or stats).
+ * Shows the specified section and updates content as needed.
  *
  * @function
- * @param {string} sectionName - The ID of the section to display.
+ * @param {string} sectionName - The name of the section to display.
+ * @returns {void}
  */
 function showSection(sectionName) {
     sections.forEach((section) => {
@@ -156,18 +143,26 @@ function showSection(sectionName) {
 }
 
 /**
- * Sets the clicked navigation link as active and removes the active state from others.
- *
- * Visually highlights the currently selected section in the navigation bar.
+ * Sets the given navigation link as active and removes active state from others.
  *
  * @function
- * @param {HTMLElement} activeLink - The link element that was clicked.
+ * @param {Element} activeLink - The navigation link element to activate.
+ * @returns {void}
  */
 function setActiveNavLink(activeLink) {
     navLinks.forEach((link) => link.classList.remove("active"));
     activeLink.classList.add("active");
 }
 
+/**
+ * Handles the global error event for images.
+ *
+ * Replaces broken images with a fallback icon when an image fails to load.
+ *
+ * @event
+ * @param {Event} e - The error event.
+ * @returns {void}
+ */
 document.addEventListener("error", (e) => {
     if (e.target.tagName === "IMG") {
         e.target.style.display = "none";
@@ -175,6 +170,15 @@ document.addEventListener("error", (e) => {
     }
 }, true);
 
+/**
+ * Handles the global keydown event for keyboard shortcuts.
+ *
+ * Focuses the search input when the "/" key is pressed (without Ctrl or Alt).
+ *
+ * @event
+ * @param {KeyboardEvent} e - The keydown event.
+ * @returns {void}
+ */
 document.addEventListener("keydown", (e) => {
     if (e.key === "/" && !e.ctrlKey && !e.altKey) {
         e.preventDefault();

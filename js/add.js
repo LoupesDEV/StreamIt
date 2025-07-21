@@ -1,12 +1,9 @@
 /**
- * Provides utility functions for formatting and displaying JSON data,
- * as well as updating UI elements based on user input.
- *
- * This module includes functions to apply syntax highlighting to JSON strings,
- * extract and clean the inner content of a JSON object, and dynamically toggle
- * the visibility of form fields depending on the selected media type.
- *
  * @module add
+ * @description
+ * Handles the addition of new films and series via a form interface.
+ * Manages dynamic form fields, collects and formats input data,
+ * and generates JSON output for new media entries.
  */
 
 const typeSelect = document.getElementById("type-add");
@@ -16,18 +13,11 @@ const seasonsInput = document.getElementById("seasons-add");
 const episodesContainer = document.getElementById("episodesContainer-add");
 
 /**
- * Applies syntax highlighting to a JSON string or object.
+ * Applies syntax highlighting to a JSON string for display in HTML.
  *
- * This function takes a JSON object or string, escapes HTML-sensitive characters,
- * and wraps values (keys, strings, numbers, booleans, null) in <span> elements
- * with specific CSS classes for visual syntax highlighting. This is typically used
- * to display JSON data in a readable and styled format within HTML.
- *
- * @function
- * @param {string|Object} json - The JSON string or object to highlight. If an object is provided, it is stringified using `JSON.stringify`.
- * @returns {string} The highlighted HTML string representing the formatted JSON.
+ * @param {Object|string} json - The JSON object or string to highlight.
+ * @returns {string} The HTML string with syntax highlighting.
  */
-
 function syntaxHighlight(json) {
     if (typeof json != "string") {
         json = JSON.stringify(json, null, 2);
@@ -54,15 +44,11 @@ function syntaxHighlight(json) {
 }
 
 /**
- * Extracts the inner JSON content from an object, removing the outer braces and base indentation.
+ * Extracts and returns the inner content of a JSON object as a formatted string,
+ * removing the outermost braces and adjusting indentation.
  *
- * Converts the given object into a pretty-printed JSON string, then strips the first and last lines
- * (which contain the opening and closing braces) and removes the leading indentation from each remaining line.
- * This is useful for embedding only the core content of an object in another context without the outer structure.
- *
- * @function
- * @param {Object} obj - The object to convert and extract from.
- * @returns {string} A formatted string representing the inner JSON content (without outer braces or base indentation).
+ * @param {Object} obj - The JSON object to process.
+ * @returns {string} The formatted inner JSON string.
  */
 function getInnerJsonString(obj) {
     let json = JSON.stringify(obj, null, 2);
@@ -75,12 +61,10 @@ function getInnerJsonString(obj) {
 }
 
 /**
- * Updates the visibility of input fields based on the selected media type.
+ * Updates the visibility of form fields based on the selected media type.
+ * Shows or hides film and series fields accordingly.
  *
- * Displays the film-related fields if "film" is selected, the series-related fields if "serie" is selected,
- * and hides both if no valid type is selected.
- *
- * @function
+ * @returns {void}
  */
 function updateFields() {
     if (typeSelect.value === "film") {
@@ -98,6 +82,13 @@ function updateFields() {
 typeSelect.addEventListener("change", updateFields);
 updateFields();
 
+/**
+ * Handles the input event on the seasons input field.
+ * Dynamically generates season and episode input fields based on the number of seasons.
+ *
+ * @param {Event} event - The input event.
+ * @returns {void}
+ */
 seasonsInput && seasonsInput.addEventListener("input", function () {
     episodesContainer.innerHTML = "";
     const nbSeasons = parseInt(seasonsInput.value, 10);
@@ -115,6 +106,13 @@ seasonsInput && seasonsInput.addEventListener("input", function () {
     }
 
     document.querySelectorAll(".episodesCount-add").forEach((input) => {
+        /**
+         * Handles the input event on the episode count input fields.
+         * Dynamically generates episode title and description fields for each episode.
+         *
+         * @param {Event} event - The input event.
+         * @returns {void}
+         */
         input.addEventListener("input", function () {
             const seasonNum = parseInt(this.getAttribute("data-season"), 10);
             if (isNaN(seasonNum) || seasonNum < 1) return;
@@ -152,6 +150,13 @@ seasonsInput && seasonsInput.addEventListener("input", function () {
     });
 });
 
+/**
+ * Handles the form submission event.
+ * Collects form data, formats it as JSON, displays the result, and sets up the copy button.
+ *
+ * @param {Event} event - The submit event.
+ * @returns {void}
+ */
 document.getElementById("addForm").addEventListener("submit", function (event) {
     event.preventDefault();
     const folder = document.getElementById("folder-add").value;

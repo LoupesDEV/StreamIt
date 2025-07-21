@@ -1,21 +1,17 @@
 /**
- * Manages the rendering and visual presentation of film and series content.
- *
- * This module provides functions to display popular items, individual films and series,
- * generate styled content cards, and handle empty result states. It also includes logic
- * to determine the type of content item and structure the corresponding HTML output.
- * All rendering is performed by injecting HTML into predefined container elements in the DOM.
- *
  * @module display
+ * @description
+ * Manages rendering and updating the UI for films, series, and their details.
+ * Handles DOM manipulation for displaying media content and metadata.
  */
 
 /**
  * Displays the most popular films and series based on IMDb ratings.
  *
- * Sorts the film and series data by descending IMDb rating, selects the top six items
- * from each category, and renders them using the appropriate display container.
+ * Sorts and selects the top 6 films and series, then renders them in their respective containers.
  *
  * @function
+ * @returns {void}
  */
 function displayPopularContent() {
     const popularFilms = Object.values(filmsData)
@@ -31,13 +27,11 @@ function displayPopularContent() {
 }
 
 /**
- * Displays a list of film items in the films display grid.
- *
- * Sorts the provided films alphabetically by title, then renders them
- * in the DOM element with the ID "filmsGrid" using the displayContent function.
+ * Displays a sorted list of films in the films grid container.
  *
  * @function
- * @param {Object[]} films - An array of film objects to display.
+ * @param {Object[]} films - Array of film objects to display.
+ * @returns {void}
  */
 function displayFilms(films) {
     const sortedFilms = films.slice().sort((a, b) => a.title.localeCompare(b.title));
@@ -45,13 +39,11 @@ function displayFilms(films) {
 }
 
 /**
- * Displays a list of film items in the series display grid.
- *
- * Sorts the provided series alphabetically by title, then renders them
- * in the DOM element with the ID "seriesGrid" using the displayContent function.
+ * Displays a sorted list of series in the series grid container.
  *
  * @function
- * @param {Object[]} series - An array of series objects to display.
+ * @param {Object[]} series - Array of series objects to display.
+ * @returns {void}
  */
 function displaySeries(series) {
     const sortedSeries = series.slice().sort((a, b) => a.title.localeCompare(b.title));
@@ -59,15 +51,12 @@ function displaySeries(series) {
 }
 
 /**
- * Displays a list of content items in the specified container.
- *
- * Retrieves the DOM element by its ID and populates it with content cards generated
- * from the provided items. If the container is not found or the items array is empty,
- * a "no results" message is displayed instead.
+ * Renders a list of content items (films or series) into a specified container.
  *
  * @function
- * @param {Object[]} items - An array of content objects to display (e.g., films or series).
- * @param {string} containerId - The ID of the DOM element where the content should be rendered.
+ * @param {Object[]} items - Array of content items to display.
+ * @param {string} containerId - The DOM element ID where content will be injected.
+ * @returns {void}
  */
 function displayContent(items, containerId) {
     const container = document.getElementById(containerId);
@@ -82,15 +71,11 @@ function displayContent(items, containerId) {
 }
 
 /**
- * Creates an HTML content card for a given item (film or series).
- *
- * Builds a styled card element containing the item's title, banner image, genres,
- * release year, IMDb rating, and a badge indicating whether it has been fully watched.
- * The card includes an onclick handler to open a modal with detailed information.
+ * Generates the HTML for a single content card (film or series).
  *
  * @function
- * @param {Object} item - The content item to render (must include title, genres, year, IMDb rating, and optionally a banner).
- * @returns {string} A string of HTML representing the content card.
+ * @param {Object} item - The content item to render.
+ * @returns {string} The HTML string for the content card.
  */
 function createContentCard(item) {
     const genres = item.genres ? item.genres
@@ -131,27 +116,22 @@ function createContentCard(item) {
 }
 
 /**
- * Determines the type of content item based on its properties.
- *
- * Checks whether the item has a "seasons" property to classify it as a series;
- * otherwise, it is considered a film.
+ * Determines the type of a content item (film or series).
  *
  * @function
- * @param {Object} item - The content item to evaluate.
- * @returns {string} Returns "series" if the item has seasons, otherwise "film".
+ * @param {Object} item - The content item to check.
+ * @returns {string} Returns `"series"` if the item has a `seasons` property, otherwise `"film"`.
  */
 function getItemType(item) {
     return item.seasons ? "series" : "film";
 }
 
 /**
- * Generates an HTML block displaying a "no results" message.
- *
- * Returns a styled HTML string containing an icon and a message, used when no content matches the user's search or filter criteria.
+ * Generates the HTML for a "no results" message.
  *
  * @function
  * @param {string} [message="Aucun résultat trouvé"] - The message to display.
- * @returns {string} An HTML string representing the "no results" message.
+ * @returns {string} The HTML string for the no results message.
  */
 function showNoResults(message = "Aucun résultat trouvé") {
     return `
@@ -163,13 +143,10 @@ function showNoResults(message = "Aucun résultat trouvé") {
 }
 
 /**
- * Retrieves the most recent film from the films data.
- *
- * This function assumes that the filmsData object is structured such that
- * the last entry corresponds to the most recently added or updated film.
+ * Retrieves the most recently added film from the films data.
  *
  * @function
- * @return {Object} - The latest film object, or undefined if no films are available.
+ * @returns {Object} The latest film object.
  */
 function getLatestFilm() {
     const films = Object.values(filmsData);
@@ -177,13 +154,10 @@ function getLatestFilm() {
 }
 
 /**
- * Retrieves the most recent serie from the series data.
- *
- * This function assumes that the seriesData object is structured such that
- * the last entry corresponds to the most recently added or updated serie.
+ * Retrieves the most recently added series from the series data.
  *
  * @function
- * @return {Object} - The latest serie object, or undefined if no serie are available.
+ * @returns {Object} The latest series object.
  */
 function getLatestSeries() {
     const series = Object.values(seriesData);
@@ -191,13 +165,12 @@ function getLatestSeries() {
 }
 
 /**
- * Renders a featured slider with the latest film and series.
+ * Renders the featured slider with the latest film and series.
  *
- * This function creates a slider that displays the most recent film and series,
- * allowing users to navigate between them. It includes auto-sliding functionality
- * and clickable cards that open a modal with detailed information.
+ * Handles slider navigation, auto-sliding, and click events to open modals for featured items.
  *
  * @function
+ * @returns {void}
  */
 function renderFeaturedSlider() {
     const film = getLatestFilm();

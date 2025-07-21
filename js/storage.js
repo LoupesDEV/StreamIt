@@ -1,45 +1,42 @@
 /**
- * Provides access to and manipulation of watch progress data stored in localStorage.
- *
- * This module defines global datasets (`filmsData`, `seriesData`) and manages user watch state
- * for both films and series, including whether content has been watched and the last watched timestamp.
- * Data is persisted across sessions using the `watchedContent` key in localStorage.
- *
  * @module storage
+ * @description
+ * Manages saving and retrieving watched content data in localStorage.
+ * Provides functions to mark content as watched and retrieve watch history.
  */
 
 let filmsData = {};
 let seriesData = {};
 
 /**
- * Retrieves the entire watched content object from localStorage.
- *
- * Returns a default structure if no data is present.
+ * Retrieves the watched content data from localStorage.
  *
  * @function
- * @returns {Object} An object with `films` and `series` properties containing watch data.
+ * @returns {Object} The watched content data with films and series.
  */
 function getWatchedContent() {
     return JSON.parse(localStorage.getItem("watchedContent") || '{"films":{},"series":{}}');
 }
 
 /**
- * Stores the provided watched content data in localStorage.
+ * Saves the watched content data to localStorage.
  *
  * @function
- * @param {Object} data - The data to persist, containing `films` and `series` watch information.
+ * @param {Object} data - The watched content data to store.
+ * @returns {void}
  */
 function setWatchedContent(data) {
     localStorage.setItem("watchedContent", JSON.stringify(data));
 }
 
 /**
- * Marks a film as watched or not and saves the current playback time.
+ * Marks a film as watched or unwatched and updates the last watched time.
  *
  * @function
  * @param {string} title - The title of the film.
- * @param {boolean} [watched=true] - Whether the film is marked as watched.
- * @param {number} [time=0] - The current playback time in seconds.
+ * @param {boolean} [watched=true] - Whether the film is watched.
+ * @param {number} [time=0] - The last watched timestamp in seconds.
+ * @returns {void}
  */
 function markFilmWatched(title, watched = true, time = 0) {
     const data = getWatchedContent();
@@ -54,7 +51,7 @@ function markFilmWatched(title, watched = true, time = 0) {
  *
  * @function
  * @param {string} title - The title of the film.
- * @returns {Object} An object with `watched` (boolean) and `time` (number).
+ * @returns {Object} The watch data ({watched: boolean, time: number}).
  */
 function getFilmWatchData(title) {
     const data = getWatchedContent();
@@ -62,14 +59,15 @@ function getFilmWatchData(title) {
 }
 
 /**
- * Marks a specific episode of a series as watched or not, and saves the current playback time.
+ * Marks an episode as watched or unwatched and updates the last watched time.
  *
  * @function
  * @param {string} seriesTitle - The title of the series.
- * @param {string|number} season - The season number.
- * @param {number} epIndex - The index of the episode.
- * @param {boolean} [watched=true] - Whether the episode is marked as watched.
- * @param {number} [time=0] - The current playback time in seconds.
+ * @param {string|number} season - The season number or name.
+ * @param {number} epIndex - The episode index.
+ * @param {boolean} [watched=true] - Whether the episode is watched.
+ * @param {number} [time=0] - The last watched timestamp in seconds.
+ * @returns {void}
  */
 function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time = 0) {
     const data = getWatchedContent();
@@ -80,13 +78,13 @@ function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time =
 }
 
 /**
- * Retrieves the watch data for a specific episode of a series.
+ * Retrieves the watch data for a specific episode.
  *
  * @function
  * @param {string} seriesTitle - The title of the series.
- * @param {string|number} season - The season number.
- * @param {number} epIndex - The index of the episode.
- * @returns {Object} An object with `watched` (boolean) and `time` (number).
+ * @param {string|number} season - The season number or name.
+ * @param {number} epIndex - The episode index.
+ * @returns {Object} The watch data ({watched: boolean, time: number}).
  */
 function getEpisodeWatchData(seriesTitle, season, epIndex) {
     const data = getWatchedContent();
@@ -96,12 +94,10 @@ function getEpisodeWatchData(seriesTitle, season, epIndex) {
 }
 
 /**
- * Checks if all episodes of a series have been marked as watched.
- *
- * Iterates over all seasons and episodes of the series.
+ * Checks if all episodes in a series have been watched.
  *
  * @function
- * @param {Object} series - The series object containing a `seasons` structure.
+ * @param {Object} series - The series object with seasons and episodes.
  * @returns {boolean} True if all episodes are watched, false otherwise.
  */
 function isSeriesFullyWatched(series) {

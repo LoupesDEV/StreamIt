@@ -1,24 +1,22 @@
 /**
- * Handles the loading of external data sources required by the application.
- *
- * This module is responsible for asynchronously fetching and parsing JSON data
- * related to films and series. It ensures that the data is properly retrieved
- * and made available for use elsewhere in the application, and handles error
- * reporting in case of failure.
- *
  * @module dataLoader
+ * @description
+ * Loads and parses film and series data from external sources or local files.
+ * Provides functions to fetch, validate, and structure media datasets.
  */
 
 /**
- * Loads film and series data from local JSON files.
+ * Asynchronously loads film and series data from external JSON files.
  *
- * Fetches data from 'data/films_data.json' and 'data/series_data.json',
- * parses the responses into JavaScript objects, and assigns them to
- * the corresponding global variables. Displays an error message if the
- * loading process fails.
+ * Fetches `films_data.json` and `series_data.json` from the `data` directory,
+ * parses their contents, and assigns them to the global variables `filmsData`
+ * and `seriesData`. Logs a success message upon completion. If an error occurs
+ * during fetching or parsing, logs the error and displays a user-friendly
+ * message using `showNoResults`.
  *
  * @async
- * @function
+ * @function loadData
+ * @returns {Promise<void>} Resolves when data is loaded or an error is handled.
  */
 async function loadData() {
     try {

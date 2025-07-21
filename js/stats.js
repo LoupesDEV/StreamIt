@@ -1,27 +1,18 @@
 /**
- * Provides analytical insights into the film and series datasets.
- *
- * This module calculates and displays statistics such as content counts, average ratings,
- * most frequent genres, unique contributors (actors, directors, creators), and top-rated content.
- * It is designed to give users an overview of their media collection in a concise visual format.
- *
  * @module stats
+ * @description
+ * Calculates and displays statistics about the films and series.
+ * Shows counts, averages, popular genres, and top-rated content.
  */
 
 /**
- * Displays statistical summaries of the films and series datasets.
+ * Calculates and displays statistics for films and series datasets.
  *
- * Calculates and renders key metrics including:
- * - Total number of films and series
- * - Average IMDb ratings
- * - Total number of episodes
- * - Most popular genres
- * - Number of unique actors, directors, and creators
- * - Highest rated film and series
- *
- * The results are displayed in a structured grid inside the "statsContent" container.
+ * Shows counts, average ratings, popular genres, unique contributors,
+ * and top-rated content in a visual format.
  *
  * @function
+ * @returns {void}
  */
 function displayStats() {
     const films = Object.values(filmsData);

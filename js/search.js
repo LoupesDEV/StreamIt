@@ -1,24 +1,16 @@
 /**
- * Provides global search functionality across films and series.
- *
- * This module defines logic to capture and process search queries,
- * match them against various fields in the dataset (titles, descriptions, genres, people),
- * and display the results dynamically in the search section of the interface.
- *
  * @module search
+ * @description
+ * Handles search functionality, including query processing and displaying results.
+ * Matches user queries against films and series and updates the UI with results.
  */
 
 /**
- * Handles global search functionality for films and series.
- *
- * Retrieves the user's search query from the input field, normalizes it,
- * and performs a case-insensitive search across titles, descriptions, genres,
- * directors/creators, and actors. Displays matching results in the search section.
- *
- * Automatically navigates to the search section if results are found and it’s not already visible.
- * Clears the result area if the query is empty.
+ * Handles the global search input, processes the query, matches it against films and series,
+ * and displays the results in the search section.
  *
  * @function
+ * @returns {void}
  */
 function handleSearch() {
     const query = searchInput.value.trim().toLowerCase();
