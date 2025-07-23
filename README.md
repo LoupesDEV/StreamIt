@@ -51,7 +51,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 > 💡 *Aucune installation supplémentaire n’est requise: StreamIt fonctionne directement dans votre navigateur!*
 
 > *Note bonus* : Tous les films et séries présents sont issus de ma base de données personnelle, mais vous pouvez facilement ajouter vos propres contenus en modifiant les fichiers JSON du dossier `data/`.
-> Pour disposer de la même bibliothèque que moi, prévoyez environ 1 To de stockage pour l’ensemble des films et séries.
+> Pour disposer de la même bibliothèque que moi, prévoyez environ 1,5 To de stockage pour l’ensemble des films et séries.
 
 # Fonctionnalités
 
@@ -79,8 +79,11 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
             <td><img src="medias/README/films_info.png" alt="Page de stream"/></td>
         </tr>
         <tr>
-            <td><img src="medias/README/series.png" alt="Page d'ajout"/></td>
-            <td><img src="medias/README/series_info.png" alt="Page des statistiques"/></td>
+            <td><img src="medias/README/series.png" alt="Page des séries"/></td>
+            <td><img src="medias/README/series_info.png" alt="Page de stream"/></td>
+        <tr>
+            <td><img src="medias/README/stats.png" alt="Page des statistiques"/></td>
+            <td><img src="medias/README/add.png" alt="Page d'ajout"/></td>
         </tr>
     </table>
 </div>
@@ -91,23 +94,23 @@ Le projet est organisé de la manière suivante:
 
 ```
 StreamIt/
-├── index.html              # Page d'accueil de l'application
-├── error.html              # Page d'erreur (404)
-├── css/                    # Dossier contenant les fichiers CSS
-├── js/                     # Dossier contenant les fichiers JavaScript
-├── medias/                 # Dossier contenant les médias (images, vidéos, etc.)
-│   ├── films/              # Dossier pour les images des films
-│   ├── series/             # Dossier pour les images des séries
-│   └── README/             # Dossier pour les images du README
-├── data/                   # Dossier contenant les données JSON
-│   ├── films_data.json     # Données des films
-│   └── series_data.json    # Données des séries
-├── README.md               # Documentation du projet
-├── CONTRIBUTING.md         # Guide de contribution
-├── CODE_OFCONDUCT.md       # Code de conduite pour les contributeurs
-├── jsdoc.json              # Configuration pour JSDoc
-├── .gitignore              # Fichier pour ignorer certains fichiers dans Git
-└── LICENSE                 # Fichier de licence
+├── index.html                # Page principale l'application
+├── error.html                # Page d'erreur (404)
+├── css/                      # Dossier contenant les fichiers CSS
+├── js/                       # Dossier contenant les fichiers JavaScript
+├── medias/                   # Dossier contenant les médias (images, vidéos, etc.)
+│   ├── films/                # Dossier pour les images des films
+│   ├── series/               # Dossier pour les images des séries
+│   └── README/               # Dossier pour les images du README
+├── data/                     # Dossier contenant les données JSON
+│   ├── films_data.json       # Données des films
+│   └── series_data.json      # Données des séries
+├── README.md                 # Documentation du projet
+├── CONTRIBUTING.md           # Guide de contribution
+├── CODE_OFCONDUCT.md         # Code de conduite pour les contributeurs
+├── jsdoc.json                # Configuration pour JSDoc
+├── .gitignore                # Fichier pour ignorer certains fichiers dans Git
+└── LICENSE                   # Fichier de licence
 ```
 
 # Contributeurs
