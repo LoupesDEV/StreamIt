@@ -3471,5 +3471,152 @@
         }
       ]
     }
+  },
+  "Squid Game": {
+    "title": "Squid Game",
+    "description": "Tentés par un prix alléchant en cas de victoire malheureusement, des centaines de joueurs désargentés acceptent de s'affronter lors de jeux pour enfants aux enjeux mortels.",
+    "banner": "medias/series/squid-game/squid-game.jpg",
+    "IMDb": 8,
+    "IMDb_link": "https://www.imdb.com/title/tt10919420//",
+    "year": 2021,
+    "genres": [
+      "Conspiracy Thriller",
+      "Dark Comedy",
+      "Jorean Drama",
+      "Psychological Drama",
+      "Suspense Mystery",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "creators": [
+      "Hwang Dong-hyuk"
+    ],
+    "stars": [
+      "Lee Jung-jae",
+      "Wi Ha-joon",
+      "Jeon Young-soo"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=GYoD8oOH31M",
+    "seasons": {
+      "1": [
+        {
+          "title": "Un, deux, trois, soleil",
+          "desc": "Ruiné et prêt à tout, Gi-hun accepte de participer à un jeu mystérieux. Mais dès la première épreuve, la promesse d'argent facile fait place à l'horreur.",
+          "video": "medias/series/squid-game/1-1.mp4"
+        },
+        {
+          "title": "Enfer",
+          "desc": "Le groupe organise un vote pour décider s'il continue ou abandonne l'aventure. Mais la réalité du monde extérieur peut s'avérer aussi impitoyable que le jeu.",
+          "video": "medias/series/squid-game/1-2.mp4"
+        },
+        {
+          "title": "L'homme au parapluie",
+          "desc": "Plusieurs joueurs passent à l'épreuve suivante, aussi délicieuse que mortelle. Certains sont plus avantagés que les autres. Jun-ho réussit quant à lui à s'infiltrer.",
+          "video": "medias/series/squid-game/1-3.mp4"
+        },
+        {
+          "title": "L'équipe avant tout",
+          "desc": "Les joueurs forment des alliances. La nuit tombée, personne n'est à l'abri au dortoir. Pour la troisième épreuve, l'équipe de Gi-hun doit penser de façon stratégique.",
+          "video": "medias/series/squid-game/1-4.mp4"
+        },
+        {
+          "title": "Un monde juste",
+          "desc": "Gi-hun et son équipe se relaient pour monter la garde toute la nuit. Les hommes masqués rencontrent des ennuis dans leur propre camp de conspirateurs.",
+          "video": "medias/series/squid-game/1-5.mp4"
+        },
+        {
+          "title": "Gganbu",
+          "desc": "Les joueurs se mettent par deux pour la quatrième épreuve. Gi-hun est aux prises avec un dilemme moral. Tandis que Sang-woo choisit de se préserver, Sae-byeok se livre.",
+          "video": "medias/series/squid-game/1-6.mp4"
+        },
+        {
+          "title": "VIP",
+          "desc": "Les invités VIP sont accueillis avec les honneurs aux premières loges du spectacle. La pression du cinquième match est tellement forte que certains joueurs craquent.",
+          "video": "medias/series/squid-game/1-7.mp4"
+        },
+        {
+          "title": "Leader",
+          "desc": "Avant la dernière épreuve, la méfiance et le dégoût règnent parmi les finalistes. Jun-ho s'enfuit, bien décidé à révéler les sombres dessous de la compétition.",
+          "video": "medias/series/squid-game/1-8.mp4"
+        },
+        {
+          "title": "Jour de chance",
+          "desc": "La dernière manche constitue un test tout aussi cruel, mais cette fois, la conclusion repose entre les mains d'un seul joueur. Le cerveau du jeu sort de l'ombre...",
+          "video": "medias/series/squid-game/1-9.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Du pain et des jeux de hasard",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-1.mp4"
+        },
+        {
+          "title": "La fête d'Halloween",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-2.mp4"
+        },
+        {
+          "title": "001",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-3.mp4"
+        },
+        {
+          "title": "Six jambes",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-4.mp4"
+        },
+        {
+          "title": "Un jeu de plus",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-5.mp4"
+        },
+        {
+          "title": "O ﻿ X",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-6.mp4"
+        },
+        {
+          "title": "Amis ou ennemis",
+          "desc": " ",
+          "video": "medias/series/squid-game/2-7.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Épisode 1",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": " ",
+          "video": "medias/series/squid-game/3-6.mp4"
+        }
+      ]
+    }
   }
 }
