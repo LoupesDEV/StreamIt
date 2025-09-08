@@ -9,17 +9,11 @@
   "background_color": "#181818",
   "theme_color": "#181818",
   "lang": "fr",
-  "categories": ["entertainment", "video", "movies", "tv"],
+  "categories": ["movies", "series", "streaming", "StreamIt", "films", "TV shows"],
   "icons": [
     {
       "src": "medias/logo.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "medias/logo.png",
-      "sizes": "512x512",
+      "sizes": "500x500",
       "type": "image/png",
       "purpose": "any maskable"
     }
@@ -27,27 +21,51 @@
   "screenshots": [
     {
       "src": "medias/README/accueil.png",
-      "sizes": "1920x1080",
+      "sizes": "1919x1079",
       "type": "image/png",
       "label": "Accueil"
     },
     {
       "src": "medias/README/watching.png",
-      "sizes": "1920x1080",
+      "sizes": "1919x1079",
       "type": "image/png",
       "label": "Lecteur vidéo"
     },
     {
       "src": "medias/README/series.png",
-      "sizes": "1920x1080",
+      "sizes": "1919x1079",
       "type": "image/png",
       "label": "Page des séries"
     },
     {
+      "src": "medias/README/series_info.png",
+      "sizes": "1919x1079",
+      "type": "image/png",
+      "label": "Page d'information des séries"
+    },
+    {
       "src": "medias/README/films.png",
-      "sizes": "1920x1080",
+      "sizes": "1919x1079",
       "type": "image/png",
       "label": "Page des films"
+    },
+    {
+      "src": "medias/README/films_info.png",
+      "sizes": "1919x1079",
+      "type": "image/png",
+      "label": "Page d'information des films"
+    },
+    {
+      "src": "medias/README/add.png",
+      "sizes": "1919x1079",
+      "type": "image/png",
+      "label": "Page d'ajout de films et séries"
+    },
+    {
+      "src": "medias/README/stats.png",
+      "sizes": "1919x1079",
+      "type": "image/png",
+      "label": "Page des stats"
     }
   ],
   "related_applications": [],
