@@ -6,11 +6,11 @@
     --text-primary: #ffffff;
     --text-secondary: #b3b3b3;
     --text-muted: #888888;
-    --accent: #7c3aed;
-    --accent-hover: #5b21b6;
-    --accent-light: #a78bfa;
-    --accent-dark: #4c1d95;
-    --accent-rgb: 124, 58, 237;
+    --accent: #dc2626;
+    --accent-hover: #991b1b;
+    --accent-light: #f87171;
+    --accent-dark: #7f1d1d;
+    --accent-rgb: 220, 38, 38;
     --gradient-primary: linear-gradient(
             135deg,
             var(--accent) 0%,
