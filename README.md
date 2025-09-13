@@ -72,15 +72,15 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
     <table>
         <tr>
             <td><img src="medias/README/accueil.png" alt="Page d'accueil"/></td>
-            <td><img src="medias/README/watching.png" alt="Page des séries"/></td>
+            <td><img src="medias/README/watching.png" alt="Page de lecture"/></td>
         </tr>
         <tr>
             <td><img src="medias/README/films.png" alt="Page des films"/></td>
-            <td><img src="medias/README/films_info.png" alt="Page de stream"/></td>
+            <td><img src="medias/README/films_info.png" alt="Page d'information des films"/></td>
         </tr>
         <tr>
             <td><img src="medias/README/series.png" alt="Page des séries"/></td>
-            <td><img src="medias/README/series_info.png" alt="Page de stream"/></td>
+            <td><img src="medias/README/series_info.png" alt="Page d'information des séries"/></td>
         <tr>
             <td><img src="medias/README/stats.png" alt="Page des statistiques"/></td>
             <td><img src="medias/README/add.png" alt="Page d'ajout"/></td>
