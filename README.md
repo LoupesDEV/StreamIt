@@ -6,7 +6,7 @@
 
 <div align="center">
     <p>Application web moderne pour organiser, explorer et regarder vos films et séries préférés en toute simplicité.</p>
-    <img src="https://m3-markdown-badges.vercel.app/stars/9/3/KucoDEV/StreamIt">
+    <img src="https://m3-markdown-badges.vercel.app/stars/9/3/LoupesDEV/StreamIt">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html3.svg">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg">
@@ -31,7 +31,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
    Téléchargez le projet en clonant le dépôt Git:
    ```bash
-   git clone https://github.com/KucoDEV/StreamIt.git
+   git clone https://github.com/LoupesDEV/StreamIt.git
    ```
 
 2. **Lancer un serveur local**
@@ -117,7 +117,7 @@ StreamIt/
 
 Merci aux personnes et ressources ayant contribué au projet:
 
-- [KucoDEV](https://github.com/KucoDEV) — Développement principal, conception et maintenance.
+- [LoupesDEV](https://github.com/LoupesDEV) — Développement principal, conception et maintenance.
 - [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) —
   Sécurité et bonnes pratiques.
 
