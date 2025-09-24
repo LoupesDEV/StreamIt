@@ -6,21 +6,9 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2661044/",
     "year": 2014,
-    "genres": [
-      "Dystopian Sci-Fi",
-      "Teen Drama",
-      "Action",
-      "Drama",
-      "Sci-Fi"
-    ],
-    "creators": [
-      "Jason Rothenberg"
-    ],
-    "stars": [
-      "Eliza Taylor",
-      "Bob Morley",
-      "Marie Avgeropoulos"
-    ],
+    "genres": ["Dystopian Sci-Fi", "Teen Drama", "Action", "Drama", "Sci-Fi"],
+    "creators": ["Jason Rothenberg"],
+    "stars": ["Eliza Taylor", "Bob Morley", "Marie Avgeropoulos"],
     "seasons": {
       "1": [
         {
@@ -555,14 +543,8 @@
       "History",
       "Thriller"
     ],
-    "creators": [
-      "Craig Mazin"
-    ],
-    "stars": [
-      "Jared Harris",
-      "Stellan Skarsgård",
-      "Jessie Buckley"
-    ],
+    "creators": ["Craig Mazin"],
+    "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
     "trailer": "https://www.youtube.com/watch?v=skCiDK542aM",
     "seasons": {
       "1": [
@@ -613,15 +595,8 @@
       "Drama",
       "Fantasy"
     ],
-    "creators": [
-      "David Benioff",
-      "D.B. Weiss"
-    ],
-    "stars": [
-      "Emilia Clarke",
-      "Kit Harington",
-      "Peter Dinklage"
-    ],
+    "creators": ["David Benioff", "D.B. Weiss"],
+    "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
     "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
     "seasons": {
       "1": [
@@ -1023,15 +998,8 @@
       "Fantasy",
       "Romance"
     ],
-    "creators": [
-      "Ryan J. Condal",
-      "George R.R. Martin"
-    ],
-    "stars": [
-      "Matt Smith",
-      "Emma D'Arcy",
-      "Olivia Cooke"
-    ],
+    "creators": ["Ryan J. Condal", "George R.R. Martin"],
+    "stars": ["Matt Smith", "Emma D'Arcy", "Olivia Cooke"],
     "trailer": "https://www.youtube.com/watch?v=Nt5TyxXxj0A",
     "seasons": {
       "1": [
@@ -1149,15 +1117,8 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": [
-      "Craig Mazin",
-      "Neil Druckmann"
-    ],
-    "stars": [
-      "Bella Ramsey",
-      "Pedro Pascal",
-      "Gabriel Luna"
-    ],
+    "creators": ["Craig Mazin", "Neil Druckmann"],
+    "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
     "trailer": "https://www.youtube.com/watch?v=Sh4MVJLUNNY",
     "seasons": {
       "1": [
@@ -1263,14 +1224,8 @@
       "Drama",
       "Thriller"
     ],
-    "creators": [
-      "Vince Gilligan"
-    ],
-    "stars": [
-      "Bryan Cranston",
-      "Aaron Paul",
-      "Anna Gunn"
-    ],
+    "creators": ["Vince Gilligan"],
+    "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
     "trailer": "https://www.youtube.com/watch?v=CoWsuFdqeYE",
     "seasons": {
       "1": [
@@ -1602,20 +1557,9 @@
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
     "year": 2013,
-    "genres": [
-      "Gangster",
-      "Period Drama",
-      "Crime",
-      "Drama"
-    ],
-    "creators": [
-      "Steven Knight"
-    ],
-    "stars": [
-      "Cillian Murphy",
-      "Paul Anderson",
-      "Helen McCrory"
-    ],
+    "genres": ["Gangster", "Period Drama", "Crime", "Drama"],
+    "creators": ["Steven Knight"],
+    "stars": ["Cillian Murphy", "Paul Anderson", "Helen McCrory"],
     "trailer": "https://senpai-stream.art/collection/le-labyrinthe",
     "seasons": {
       "1": [
@@ -1827,14 +1771,8 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": [
-      "Brian K. Vaughan"
-    ],
-    "stars": [
-      "Mike Vogel",
-      "Rachelle Lefevre",
-      "Alexander Koch"
-    ],
+    "creators": ["Brian K. Vaughan"],
+    "stars": ["Mike Vogel", "Rachelle Lefevre", "Alexander Koch"],
     "seasons": {
       "1": [
         {
@@ -2055,14 +1993,8 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": [
-      "John Griffin"
-    ],
-    "stars": [
-      "Harold Perrineau",
-      "Catalina Sandino Moreno",
-      "Eion Bailey"
-    ],
+    "creators": ["John Griffin"],
+    "stars": ["Harold Perrineau", "Catalina Sandino Moreno", "Eion Bailey"],
     "seasons": {
       "1": [
         {
@@ -2239,15 +2171,8 @@
       "Drama",
       "Fantasy"
     ],
-    "creators": [
-      "Patrick McKay",
-      "John D. Payne"
-    ],
-    "stars": [
-      "Morfydd Clark",
-      "Charlie Vickers",
-      "Charles Edwards"
-    ],
+    "creators": ["Patrick McKay", "John D. Payne"],
+    "stars": ["Morfydd Clark", "Charlie Vickers", "Charles Edwards"],
     "trailer": "https://www.youtube.com/watch?v=Bsnka8xrlfU",
     "seasons": {
       "1": [
@@ -2350,15 +2275,8 @@
       "Psychological Drama",
       "Drama"
     ],
-    "creators": [
-      "Scott Frank",
-      "Allan Scott"
-    ],
-    "stars": [
-      "Anya Taylor-Joy",
-      "Chloe Pirrie",
-      "Bill Camp"
-    ],
+    "creators": ["Scott Frank", "Allan Scott"],
+    "stars": ["Anya Taylor-Joy", "Chloe Pirrie", "Bill Camp"],
     "trailer": "https://www.youtube.com/watch?v=4SB9SBnWeqc",
     "seasons": {
       "1": [
@@ -2419,14 +2337,8 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": [
-      "Haro Aso"
-    ],
-    "stars": [
-      "Kento Yamazaki",
-      "Tao Tsuchiya",
-      "Nijirô Murakami"
-    ],
+    "creators": ["Haro Aso"],
+    "stars": ["Kento Yamazaki", "Tao Tsuchiya", "Nijirô Murakami"],
     "trailer": "https://www.imdb.com/title/tt10795658/",
     "seasons": {
       "1": [
@@ -2533,14 +2445,8 @@
       "Romance",
       "War"
     ],
-    "creators": [
-      "Michael Hirst"
-    ],
-    "stars": [
-      "Katheryn Winnick",
-      "Gustaf Skarsgård",
-      "Alexander Ludwig"
-    ],
+    "creators": ["Michael Hirst"],
+    "stars": ["Katheryn Winnick", "Gustaf Skarsgård", "Alexander Ludwig"],
     "trailer": "https://www.youtube.com/watch?v=mAl60ykBm4A",
     "seasons": {
       "1": [
@@ -3016,14 +2922,8 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": [
-      "Graham Yost"
-    ],
-    "stars": [
-      "Rebecca Ferguson",
-      "Common",
-      "Tim Robbins"
-    ],
+    "creators": ["Graham Yost"],
+    "stars": ["Rebecca Ferguson", "Common", "Tim Robbins"],
     "trailer": "https://www.youtube.com/watch?v=8QOFIMvl-PU",
     "seasons": {
       "1": [
@@ -3151,14 +3051,8 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": [
-      "Charlie Brooker"
-    ],
-    "stars": [
-      "Anjana Vasan",
-      "Cristin Milioti",
-      "Jimmi Simpson"
-    ],
+    "creators": ["Charlie Brooker"],
+    "stars": ["Anjana Vasan", "Cristin Milioti", "Jimmi Simpson"],
     "seasons": {
       "1": [
         {
@@ -3323,15 +3217,8 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": [
-      "Baran bo Odar",
-      "Jantje Friese"
-    ],
-    "stars": [
-      "Louis Hofmann",
-      "Karoline Eichhorn",
-      "Lisa Vicari"
-    ],
+    "creators": ["Baran bo Odar", "Jantje Friese"],
+    "stars": ["Louis Hofmann", "Karoline Eichhorn", "Lisa Vicari"],
     "trailer": "https://www.imdb.com/title/tt5753856/",
     "seasons": {
       "1": [
@@ -3491,14 +3378,8 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": [
-      "Hwang Dong-hyuk"
-    ],
-    "stars": [
-      "Lee Jung-jae",
-      "Wi Ha-joon",
-      "Jeon Young-soo"
-    ],
+    "creators": ["Hwang Dong-hyuk"],
+    "stars": ["Lee Jung-jae", "Wi Ha-joon", "Jeon Young-soo"],
     "trailer": "https://www.youtube.com/watch?v=GYoD8oOH31M",
     "seasons": {
       "1": [
