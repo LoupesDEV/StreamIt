@@ -1084,35 +1084,74 @@
     "video": "medias/films/conjuring-l-heure-du-jugement/conjuring-l-heure-du-jugement.mp4"
   },
   "Tu ne tueras point": {
-  "title": "Tu ne tueras point",
-  "description": "Quand la Seconde Guerre mondiale a éclaté, Desmond, un jeune américain, s’est retrouvé confronté à un dilemme: comme n’importe lequel de ses compatriotes, il voulait servir son pays, mais la violence était incompatible avec ses croyances et ses principes moraux. Il s’opposait ne serait-ce qu’à tenir une arme et refusait d’autant plus de tuer. Il s’engagea tout de même dans l’infanterie comme médecin. Son refus d’infléchir ses convictions lui valut d’être rudement mené par ses camarades et sa hiérarchie, mais c’est armé de sa seule foi qu’il est entré dans l’enfer de la guerre pour en devenir l’un des plus grands héros. Lors de la bataille d’Okinawa sur l’imprenable falaise de Maeda, il a réussi à sauver des dizaines de vies seul sous le feu de l’ennemi, ramenant en sureté, du champ de bataille, un à un les soldats blessés.\n\n",
-  "banner": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.jpg",
-  "IMDb": 7.8,
-  "IMDb_link": "https://www.imdb.com/title/tt2119532/",
-  "year": 2016,
-  "genres": [
-    "Docudrama",
-    "Epic",
-    "Period Drama",
-    "War Epic",
-    "Biography",
-    "Drama",
-    "History",
-    "War"
-  ],
-  "directors": [
-    "Mel Gibson"
-  ],
-  "writers": [
-    "Robert Schenkkan",
-    "Andrew Knight"
-  ],
-  "stars": [
-    "Andrew Garfield",
-    "Sam Worthington",
-    "Luke Bracey"
-  ],
-  "trailer": "https://www.youtube.com/watch?v=egCk2kE3HQI",
-  "video": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.mp4"
-}
+    "title": "Tu ne tueras point",
+    "description": "Quand la Seconde Guerre mondiale a éclaté, Desmond, un jeune américain, s'est retrouvé confronté à un dilemme: comme n'importe lequel de ses compatriotes, il voulait servir son pays, mais la violence était incompatible avec ses croyances et ses principes moraux. Il s'opposait ne serait-ce qu'à tenir une arme et refusait d'autant plus de tuer. Il s'engagea tout de même dans l'infanterie comme médecin. Son refus d'infléchir ses convictions lui valut d'être rudement mené par ses camarades et sa hiérarchie, mais c'est armé de sa seule foi qu'il est entré dans l'enfer de la guerre pour en devenir l'un des plus grands héros. Lors de la bataille d'Okinawa sur l'imprenable falaise de Maeda, il a réussi à sauver des dizaines de vies seul sous le feu de l'ennemi, ramenant en sureté, du champ de bataille, un à un les soldats blessés.\n\n",
+    "banner": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.jpg",
+    "IMDb": 7.8,
+    "IMDb_link": "https://www.imdb.com/title/tt2119532/",
+    "year": 2016,
+    "genres": [
+      "Docudrama",
+      "Epic",
+      "Period Drama",
+      "War Epic",
+      "Biography",
+      "Drama",
+      "History",
+      "War"
+    ],
+    "directors": ["Mel Gibson"],
+    "writers": ["Robert Schenkkan", "Andrew Knight"],
+    "stars": ["Andrew Garfield", "Sam Worthington", "Luke Bracey"],
+    "trailer": "https://www.youtube.com/watch?v=egCk2kE3HQI",
+    "video": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.mp4"
+  },
+  "Top Gun : Maverick": {
+    "title": "Top Gun : Maverick",
+    "description": "Après avoir été l'un des meilleurs pilotes de chasse de l'Aéronavale américaine pendant plus de trente ans, Pete “Maverick\" Mitchell continue à repousser ses limites en tant que pilote d'essai. Il refuse de monter en grade, car cela l'obligerait à renoncer à voler. Il est chargé de former un détachement de jeunes diplômés de l'école Top Gun pour une mission spéciale qu'aucun pilote n'aurait jamais imaginée. Lors de cette mission, Maverick rencontre le lieutenant Bradley “Rooster” Bradshaw, le fils de son défunt ami, le navigateur Nick “Goose” Bradshaw. Face à un avenir incertain, hanté par ses fantômes, Maverick va devoir affronter ses pires cauchemars au cours d'une mission qui exigera les plus grands sacrifices.",
+    "banner": "medias/films/top-gun-maverick/top-gun-maverick.jpg",
+    "IMDb": 8.2,
+    "IMDb_link": "https://www.imdb.com/title/tt1745960/",
+    "year": 2022,
+    "genres": ["Action Epic", "Epic", "Action", "Drama"],
+    "directors": ["Joseph Kosinski"],
+    "writers": ["Jim Cash", "Jack Epps Jr.", "Peter Craig"],
+    "stars": ["Tom Cruise", "Jennifer Connelly", "Miles Teller"],
+    "trailer": "https://www.youtube.com/watch?v=V4gQdk1nAn0",
+    "video": "medias/films/top-gun-maverick/top-gun-maverick.mp4"
+  },
+  "Sous la Seine": {
+    "title": "Sous la Seine",
+    "description": "Lorsqu'un requin géant apparaît dans la Seine, une scientifique en deuil doit affronter son passé tragique pour sauver Paris d'un bain de sang au retentissement international.",
+    "banner": "medias/films/sous-la-seine/sous-la-seine.jpg",
+    "IMDb": 5.2,
+    "IMDb_link": "https://www.imdb.com/title/tt13964390/",
+    "year": 2024,
+    "genres": ["French", "Action", "Drama", "Horror", "Sport", "Thriller"],
+    "directors": ["Xavier Gens"],
+    "writers": ["Yannick Dahan", "Maud Heywang", "Xavier Gens"],
+    "stars": ["Bérénice Bejo", "Nassim Lyes", "Léa Léviant"],
+    "trailer": "https://www.youtube.com/watch?v=HPfkQ9gMLMY",
+    "video": "medias/films/sous-la-seine/sous-la-seine.mp4"
+  },
+  "Destination finale : Bloodlines": {
+    "title": "Destination finale : Bloodlines",
+    "description": "Stefani, 18 ans, fait d'affreux cauchemars. Dans ceux-ci, elle voit sa grand-mère échapper à la mort dans un accident qui aurait dû la tuer il y a 50 ans. Son ancêtre a réussi alors à esquiver le décès jusqu'à l'âge de 80 ans ou elle meurt de façon naturelle. À cause de ce miracle, toute sa descendance doit quelque chose à la mort.",
+    "banner": "medias/films/destination-finale-bloodlines/destination-finale-bloodlines.jpg",
+    "IMDb": 6.7,
+    "IMDb_link": "https://www.imdb.com/title/tt9619824/",
+    "year": 2025,
+    "genres": [
+      "Dark Comedy",
+      "Splatter Horror",
+      "Supernatural Horror",
+      "Teen Horror",
+      "Thriller"
+    ],
+    "directors": ["Zach Lipovsky", "Adam B. Stein"],
+    "writers": ["Guy Busick", "Lori Evans Taylor", "Jon Watts"],
+    "stars": ["Kaitlyn Santa Juana", "Teo Briones", "Rya Kihlstedt"],
+    "trailer": "https://www.youtube.com/watch?v=2Dk_tQvEe3o",
+    "video": "medias/films/destination-finale-bloodlines/destination-finale-bloodlines.mp4"
+  }
 }
