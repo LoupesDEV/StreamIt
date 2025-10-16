@@ -3565,5 +3565,1973 @@
         }
       ]
     }
+  },
+  "Better Call Saul": {
+    "title": "Better Call Saul",
+    "description": "MenuMenuRecherchez des films, séries, animés ..Ctrl + QSe connecterS'inscrire->",
+    "banner": "medias/series/better-call-saul/better-call-saul.jpg",
+    "IMDb": 9.0,
+    "IMDb_link": "https://www.imdb.com/title/tt3032476/",
+    "year": 2015,
+    "genres": [
+      "Drug Crime",
+      "Epic",
+      "Legal Drama",
+      "Psychological Drama",
+      "Tragedy",
+      "Crime",
+      "Drama"
+    ],
+    "creators": ["Vince Gilligan", "Peter Gould"],
+    "stars": ["Bob Odenkirk", "Rhea Seehorn", "Jonathan Banks"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Uno",
+          "desc": "Jimmy McGill cherche à joindre les deux bouts et à faire oublier son passé, mais les mauvaises habitudes ont la vie dure, surtout quand se présente une occasion en or.",
+          "video": "medias/series/better-call-saul/1-1.mp4"
+        },
+        {
+          "title": "Mijo",
+          "desc": "Lors d'un violent affrontement avec de dangereux criminels, Jimmy risque la mort et va peut-être devoir la vie à son talent de persuasion.",
+          "video": "medias/series/better-call-saul/1-2.mp4"
+        },
+        {
+          "title": "Nacho",
+          "desc": "Pour blanchir son nouveau client et sauver sa peau par la même occasion, Jimmy doit orienter la police vers une autre piste, tout aussi crédible.",
+          "video": "medias/series/better-call-saul/1-3.mp4"
+        },
+        {
+          "title": "Héros",
+          "desc": "Ne sachant plus que faire pour développer sa clientèle, Jimmy fait preuve de créativité et en profite pour s'offrir une petite vengeance.",
+          "video": "medias/series/better-call-saul/1-4.mp4"
+        },
+        {
+          "title": "Le Jeune Berger des Alpes",
+          "desc": "Jimmy teste ses compétences dans un nouveau domaine d'expertise tout en faisant de son mieux pour protéger son frère.",
+          "video": "medias/series/better-call-saul/1-5.mp4"
+        },
+        {
+          "title": "Histoire de flics",
+          "desc": "Mike a besoin de l'aide de Jimmy, et si ce dernier pousse le sens du service assez loin, il ne parvient pas pour autant à dissiper les craintes de Mike.",
+          "video": "medias/series/better-call-saul/1-6.mp4"
+        },
+        {
+          "title": "Bingo",
+          "desc": "Poussé par ses nouveaux clients à prendre des décisions mêlant travail et sentiments, Jimmy fait appel à une aide clandestine.",
+          "video": "medias/series/better-call-saul/1-7.mp4"
+        },
+        {
+          "title": "Rico",
+          "desc": "Jimmy n'hésite pas à s'investir pour dénicher des preuves contre une entreprise malhonnête, ce qui n'est pas pour déplaire à Chuck.",
+          "video": "medias/series/better-call-saul/1-8.mp4"
+        },
+        {
+          "title": "Pimento",
+          "desc": "L'affaire dont s'occupe Jimmy l'oblige à ravaler sa fierté et à chercher de l'aide dans une direction inattendue. Mike, quant à lui, réintègre le marché du travail.",
+          "video": "medias/series/better-call-saul/1-9.mp4"
+        },
+        {
+          "title": "Marco",
+          "desc": "De passage dans sa ville natale, Jimmy retrouve une vieille connaissance. Les deux acolytes ne tardent pas à reprendre leurs marques.",
+          "video": "medias/series/better-call-saul/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Un nouveau chapitre",
+          "desc": "Tandis que Jimmy profite de sa liberté retrouvée, sa relation avec Kim se dégrade. De son côté, Mike coupe les ponts avec un client imprudent.",
+          "video": "medias/series/better-call-saul/2-1.mp4"
+        },
+        {
+          "title": "Le Gâteau à la crème",
+          "desc": "Mike tente de désamorcer une situation avant qu'elle ne devienne explosive. Jimmy retrouve ses instincts et joue avec le feu pour innocenter un client excentrique.",
+          "video": "medias/series/better-call-saul/2-2.mp4"
+        },
+        {
+          "title": "Amarillo",
+          "desc": "Quand les efforts de Jimmy pour convaincre davantage de clients de Sandpiper deviennent suspects, il change de tactique et trouve une nouvelle façon de briller.",
+          "video": "medias/series/better-call-saul/2-3.mp4"
+        },
+        {
+          "title": "Réquisitoire",
+          "desc": "Mike étudie une offre alléchante qui risque de le mettre dans de beaux draps, tandis que Jimmy se démène pour réparer les dégâts causés par sa campagne sans scrupules.",
+          "video": "medias/series/better-call-saul/2-4.mp4"
+        },
+        {
+          "title": "Rebecca",
+          "desc": "Kim se démène pour redorer son blason, Jimmy a du mal à supporter qu'une jeune collaboratrice s'immisce dans son travail et Chuck rouvre une vieille blessure.",
+          "video": "medias/series/better-call-saul/2-5.mp4"
+        },
+        {
+          "title": "Bali Ha'i",
+          "desc": "Jimmy trouve du réconfort dans un endroit familier, Kim réfléchit à une proposition qui pourrait changer sa vie, et Mike est poussé dans ses retranchements.",
+          "video": "medias/series/better-call-saul/2-6.mp4"
+        },
+        {
+          "title": "Regonflé",
+          "desc": "Jimmy trouve une solution originale à ses problèmes chez Davis & Main. Kim s'impatiente en attendant qu'une offre généreuse se concrétise.",
+          "video": "medias/series/better-call-saul/2-7.mp4"
+        },
+        {
+          "title": "Fifi",
+          "desc": "Mike, accablé de toutes parts, tente de reprendre le contrôle de sa vie. Jimmy saisit sa chance quand une opportunité se présente à lui de façon inespérée.",
+          "video": "medias/series/better-call-saul/2-8.mp4"
+        },
+        {
+          "title": "La Roue de la fortune",
+          "desc": "Après un contretemps domestique humiliant, Chuck jure de révéler la véritable nature de Jimmy à Kim. Quant à Mike, il se montre téméraire face à Hector Salamanca.",
+          "video": "medias/series/better-call-saul/2-9.mp4"
+        },
+        {
+          "title": "Klick",
+          "desc": "Après l'accident de Chuck, Jimmy doit prendre des décisions difficiles. Mike se prépare en vue d'une mystérieuse mission dans le désert.",
+          "video": "medias/series/better-call-saul/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Mabel",
+          "desc": "Tandis que Chuck prépare son prochain coup, un autre mensonge vient hanter Jimmy. Ébranlé, Mike essaie de trouver qui peut bien le surveiller, et par quel moyen.",
+          "video": "medias/series/better-call-saul/3-1.mp4"
+        },
+        {
+          "title": "Témoignage",
+          "desc": "Mike se rapproche de sa cible et se sert de Jimmy pour une mission. Une nouvelle recrue égaye les bureaux de Wexler et McGill. Kim reçoit une nouvelle préoccupante.",
+          "video": "medias/series/better-call-saul/3-2.mp4"
+        },
+        {
+          "title": "Les Causes perdues",
+          "desc": "Alors que Mike rencontre son mystérieux nouvel allié, Jimmy fait face aux conséquences humiliantes de l'incident survenu chez Chuck.",
+          "video": "medias/series/better-call-saul/3-3.mp4"
+        },
+        {
+          "title": "Sabrosito",
+          "desc": "La tension monte à Los Pollos Hermanos quand une vieille querelle s'envenime. Kim aide Jimmy à préparer une audience au tribunal avec Chuck.",
+          "video": "medias/series/better-call-saul/3-4.mp4"
+        },
+        {
+          "title": "Manigances",
+          "desc": "À l'approche de son rendez-vous avec le comité, Jimmy organise une série de surprises pour Chuck avec l'aide de Kim.",
+          "video": "medias/series/better-call-saul/3-5.mp4"
+        },
+        {
+          "title": "Question d'étiquette",
+          "desc": "Tandis que Chuck essaie de comprendre ce qui s'est passé lors de l'audience, Jimmy imagine comment se sortir brillamment d'un problème financier. Don Hector énerve Nacho.",
+          "video": "medias/series/better-call-saul/3-6.mp4"
+        },
+        {
+          "title": "Frais",
+          "desc": "Tandis que Jimmy peine à joindre les deux bouts, la culpabilité ronge Kim, et Nacho persuade un ancien fournisseur de rejoindre son complot pour faire tomber Hector.",
+          "video": "medias/series/better-call-saul/3-7.mp4"
+        },
+        {
+          "title": "Faux pas",
+          "desc": "Tandis que Jimmy ne recule devant rien pour signer un contrat, Nacho se prépare à l'action et Mike établit un partenariat secret.",
+          "video": "medias/series/better-call-saul/3-8.mp4"
+        },
+        {
+          "title": "Chute",
+          "desc": "Jimmy imagine un plan tordu qui ramène Sandpiper sur le tapis, Chuck et Howard s'affrontent sur l'avenir du cabinet, et Kim fait tout pour satisfaire un nouveau client.",
+          "video": "medias/series/better-call-saul/3-9.mp4"
+        },
+        {
+          "title": "Lanterne",
+          "desc": "Traumatisée, Kim revoit ses priorités. Jimmy essaie de se faire pardonner une erreur. Chuck subit une série de contretemps.",
+          "video": "medias/series/better-call-saul/3-10.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Fumée",
+          "desc": "Alors que Jimmy est confronté à une tragédie soudaine, Mike se rend à Madrigal en mission de reconnaissance, et Nacho rencontre Juan Bolsa.",
+          "video": "medias/series/better-call-saul/4-1.mp4"
+        },
+        {
+          "title": "Respirez",
+          "desc": "Tandis que Jimmy joue de son charme lors d'un entretien d'embauche, Gus surveille de près l’évolution du coma d'Hector Salamanca. Outrée, Kim craque, et incendie Howard.",
+          "video": "medias/series/better-call-saul/4-2.mp4"
+        },
+        {
+          "title": "Le Bavarois",
+          "desc": "Les hommes de Gus font vivre un calvaire à Nacho. Jimmy imagine un plan infaillible pour faire de l'argent facile. Kim se jette à corps perdu dans son travail.",
+          "video": "medias/series/better-call-saul/4-3.mp4"
+        },
+        {
+          "title": "Parler",
+          "desc": "Jimmy, agité, s'embarque dans une nouvelle entreprise pendant que Mike brûle des ponts. Kim poursuit sa quête du bonheur. Nacho tente de survivre à une guerre de territoire...",
+          "video": "medias/series/better-call-saul/4-4.mp4"
+        },
+        {
+          "title": "Sacrée aventure",
+          "desc": "Jimmy identifie un nouveau marché où faire fructifier ses talents. Mike examine un partenariat potentiel. Kim mène une négociation difficile…",
+          "video": "medias/series/better-call-saul/4-5.mp4"
+        },
+        {
+          "title": "Piñatas",
+          "desc": "Kim décide de stimuler sa carrière, ce qui complique les plans déjà alambiqués de Jimmy. Mike et Gus verrouillent leur organisation avant l’arrivée d'ouvriers allemands.",
+          "video": "medias/series/better-call-saul/4-6.mp4"
+        },
+        {
+          "title": "Un truc stupide",
+          "desc": "Tandis que la tension monte avec Kim, Jimmy continue de renforcer ses activités parallèles, et la police entre en scène. L'état de santé d'Hector franchit un nouveau cap.",
+          "video": "medias/series/better-call-saul/4-7.mp4"
+        },
+        {
+          "title": "Coushatta",
+          "desc": "Afin d'éviter à Huell de faire de la prison, Jimmy et Kim s'associent pour concocter un plan de génie parfaitement illégal. L'occasion pour eux de renouer des liens amoureux et professionnels. Pendant ce temps, Nacho doit affirmer son autorité mais craint d'être rattrapé de nouveau par la famille Salamanca. Malgré le temps de récréation imaginé par Mike pour les ouvriers, la construction du laboratoire de Gus prend du retard…",
+          "video": "medias/series/better-call-saul/4-8.mp4"
+        },
+        {
+          "title": "Auf Wiedersehen !",
+          "desc": "Alors qu'il va bientôt savoir s'il peut récupérer sa licence d'avocat, Jimmy est confiant et peut compter sur le soutien de Kim. Lalo Salamanca est de passage en ville pour prendre des nouvelles d'Hector et se présenter à Gus Fring. Le comportement de Werner inquiète de plus en plus Mike…",
+          "video": "medias/series/better-call-saul/4-9.mp4"
+        },
+        {
+          "title": "Le gagnant rafle tout",
+          "desc": "Un an après la mort de Chuck, Jimmy envisage de récupérer sa licence en exploitant son deuil. Kim supporte cette stratégie mais ne s'attend pas à un tel pouvoir de manipulation de la part de Jimmy. Pendant ce temps, Mike est sur la piste de Werner Ziegler, l'architecte du laboratoire qui a pris la fuite…",
+          "video": "medias/series/better-call-saul/4-10.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Magic Man",
+          "desc": "Malgré les appréhensions de Kim, Jimmy fonce tête baissée dans sa nouvelle vie de Saul. Lalo perturbe le projet que Gus élabore pour la laverie. Gene panique à Omaha.",
+          "video": "medias/series/better-call-saul/5-1.mp4"
+        },
+        {
+          "title": "Moins 50 %",
+          "desc": "Jimmy s'efforce de garder la cadence face au flot continu de clients suite à sa promotion. Poussé par Gus, Nacho prend un gros risque pour gagner la confiance de Lalo.",
+          "video": "medias/series/better-call-saul/5-2.mp4"
+        },
+        {
+          "title": "L'Homme de la situation",
+          "desc": "Lalo confie une mission à Saul. Une intervention d'urgence pour le compte de Mesa Verde bouleverse Kim. En prison, Domingo reçoit la visite de deux agents de la DEA.",
+          "video": "medias/series/better-call-saul/5-3.mp4"
+        },
+        {
+          "title": "Namaste",
+          "desc": "Jimmy réfléchit à une offre d'Howard. Ulcérée face au rejet de sa proposition amiable par Mesa Verde, Kim change de tactique. Hank et Steve surveillent la cache de Gus.",
+          "video": "medias/series/better-call-saul/5-4.mp4"
+        },
+        {
+          "title": "À la mémoire de Max",
+          "desc": "Mike émerge blessé, et loin de chez lui. Saul ne lésine pas sur les moyens pour stopper l'expulsion de son nouveau client. Kim joue une longue partie contre Mesa Verde.",
+          "video": "medias/series/better-call-saul/5-5.mp4"
+        },
+        {
+          "title": "Wexler contre Goodman",
+          "desc": "Jimmy convoque son équipe vidéo pour saborder les plans de Mesa Verde, mais Kim commence à hésiter. Mike tend un piège à Lalo.",
+          "video": "medias/series/better-call-saul/5-6.mp4"
+        },
+        {
+          "title": "JMM",
+          "desc": "Alors que Jimmy et Kim gèrent de façon surprenante les retombées de la réunion avec Mesa Verde, Lalo demande un service impossible tout en mijotant sa vengeance.",
+          "video": "medias/series/better-call-saul/5-7.mp4"
+        },
+        {
+          "title": "Transporteur",
+          "desc": "Une course fort lucrative de Jimmy pour Lalo se transforme en une exténuante odyssée dans un désert aussi torride qu'hostile.",
+          "video": "medias/series/better-call-saul/5-8.mp4"
+        },
+        {
+          "title": "La Route du mauvais choix",
+          "desc": "Bouleversé, Jimmy brode rapidement une histoire pour expliquer sa longue absence, mais il ne trompe personne. Kim envisage un important changement de cap.",
+          "video": "medias/series/better-call-saul/5-9.mp4"
+        },
+        {
+          "title": "Un truc impardonnable",
+          "desc": "Après une conversation tendue avec Lalo, Jimmy exige des réponses de Mike. Howard avertit Kim, qui reste dubitative. Nacho entreprend un voyage angoissant au Mexique.",
+          "video": "medias/series/better-call-saul/5-10.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Du vin et des roses",
+          "desc": "Après l'attaque visant Lalo, Nacho prend la fuite. Jimmy et Kim élaborent un plan pour décrédibiliser Howard. Mike commence à douter des intentions de Gus.",
+          "video": "medias/series/better-call-saul/6-1.mp4"
+        },
+        {
+          "title": "La carotte et le bâton",
+          "desc": "Une idée brillante de Kim place Jimmy face à d'anciens clients qui lui en veulent toujours. Mike tente de garder une longueur d'avance sur les Salamanca.",
+          "video": "medias/series/better-call-saul/6-2.mp4"
+        },
+        {
+          "title": "Le marteau et l'enclume",
+          "desc": "Acculé, Nacho finit par accepter un marché. Le bureau du procureur essaie de pousser Jimmy à balancer le cartel. Huell prend part au complot contre Howard.",
+          "video": "medias/series/better-call-saul/6-3.mp4"
+        },
+        {
+          "title": "Délit de fuite",
+          "desc": "Une mise en scène bien orchestrée ternit un peu plus la réputation d'Howard. Kim a peur d'être suivie. Jimmy se rend compte que sa notoriété prend une nouvelle direction.",
+          "video": "medias/series/better-call-saul/6-4.mp4"
+        },
+        {
+          "title": "Salement amoché",
+          "desc": "Gus s'impatiente en attendant que Lalo réagisse. Kim arrache des informations à une ancienne collègue. Howard monte sur le ring.",
+          "video": "medias/series/better-call-saul/6-5.mp4"
+        },
+        {
+          "title": "Dur à la hache",
+          "desc": "Tandis que Jimmy met la dernière touche au plan Sandpiper, Kim parvient à organiser une réunion qui lui tient à cœur, et Lalo retrouve la trace d'une personne liée à Gus.",
+          "video": "medias/series/better-call-saul/6-6.mp4"
+        },
+        {
+          "title": "Plan et exécution",
+          "desc": "Lalo surveille sa prochaine cible. Jimmy et Kim gèrent un problème de dernière minute. La médiation de l'affaire Sandpiper tourne au vinaigre.",
+          "video": "medias/series/better-call-saul/6-7.mp4"
+        },
+        {
+          "title": "Dans le viseur",
+          "desc": "Au cours d'une très longue nuit, Jimmy et Kim doivent faire face aux conséquences de leurs actions, tandis que Lalo met son plan final à exécution.",
+          "video": "medias/series/better-call-saul/6-8.mp4"
+        },
+        {
+          "title": "Partie de plaisir",
+          "desc": "Tandis que Mike règle les derniers détails, le cartel convoque Gus à une réunion. Une réception commémorative met Jimmy et Kim sur les nerfs.",
+          "video": "medias/series/better-call-saul/6-9.mp4"
+        },
+        {
+          "title": "Nippy",
+          "desc": "À Omaha, Gene fait en sorte de neutraliser une menace grâce à une manœuvre habile impliquant un chien imaginaire et des viennoiseries.",
+          "video": "medias/series/better-call-saul/6-10.mp4"
+        },
+        {
+          "title": "Breaking Bad",
+          "desc": "Le présent se conjugue au passé alors que Gene reçoit des nouvelles d'Albuquerque et échafaude un plan pour faire de l'argent facile.",
+          "video": "medias/series/better-call-saul/6-11.mp4"
+        },
+        {
+          "title": "De l'eau dans le gaz",
+          "desc": "Un simple appel téléphonique en Floride provoque une réaction en chaîne décisive. La dernière arnaque de Gene tourne mal.",
+          "video": "medias/series/better-call-saul/6-12.mp4"
+        },
+        {
+          "title": "Saul au monde",
+          "desc": "Révélations. Regrets. Violations de la loi RICO. Les univers et les identités de Jimmy se rejoignent dans une ultime confrontation.",
+          "video": "medias/series/better-call-saul/6-13.mp4"
+        }
+      ]
+    }
+  },
+  "La Chute de la maison Usher": {
+    "title": "La Chute de la maison Usher",
+    "description": "Basée sur des œuvres d'Edgar Allan Poe, cette série malfaisante suit une dynastie familiale qui s'effondre lorsque ses héritiers commencent mystérieusement à mourir.",
+    "banner": "medias/series/la-chute-de-la-maison-usher/la-chute-de-la-maison-usher.jpg",
+    "IMDb": 7.9,
+    "IMDb_link": "https://www.imdb.com/title/tt15567174/",
+    "year": 2023,
+    "genres": ["Supernatural Horror", "Drama", "Horror", "Mystery"],
+    "creators": ["Mike Flanagan"],
+    "stars": ["Carla Gugino", "Bruce Greenwood", "Mary McDonnell"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Sur le minuit lugubre",
+          "desc": "Une enquête incrimine un riche PDG pris dans la tourmente, sur fond de tragédies, traumatismes et menace surnaturelle. La famille Usher apprend que l'un des leurs la trahit.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-1.mp4"
+        },
+        {
+          "title": "Le masque de la mort rouge",
+          "desc": "Assoiffé d'argent et de vengeance, Perry organise une rave masquée qui dérape de la plus étrange façon. Le jeune Roderick vante les mérites d'un opioïde révolutionnaire.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-2.mp4"
+        },
+        {
+          "title": "L'assassinat dans la rue Morgue",
+          "desc": "Chargée de la publicité des Usher, Camille manœuvre pour faire basculer la controverse en faveur de sa famille et révèle la réalité crue des expériences de sa soeur.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-3.mp4"
+        },
+        {
+          "title": "Le chat noir",
+          "desc": "Leo adopte un chat noir qui ne tarde pas à provoquer un malheur, et à faire entrer une femme mystérieuse dans sa maison. Roderick souffre d'hallucinations terrifiantes.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-4.mp4"
+        },
+        {
+          "title": "Le coeur révélateur",
+          "desc": "Alors qu'elle est sur le point de tester sa technologie cardiaque sur une patiente, Victorine se querelle violemment avec Alessandra. Un aveu de Dupin jette un froid.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-5.mp4"
+        },
+        {
+          "title": "Scarabée d'or",
+          "desc": "Pym déterre des informations troublantes sur Verna. Alors que son mariage vacille, Tamerlane anime un lancement de produit houleux qui fait voler toutes les attentes en éclats.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-6.mp4"
+        },
+        {
+          "title": "Le puits et le pendule",
+          "desc": "Furieux, Frederick entreprend de gérer une affaire restée en suspens. Madeline reçoit un message inquiétant dans un lieu lourd de souvenirs. Dupin se méfie de Roderick.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-7.mp4"
+        },
+        {
+          "title": "Le corbeau",
+          "desc": "En 1980, Roderick et Madeline saisissent l'occasion d'asseoir leur fortune, mais en payant le prix. Des décennies plus tard, les héritiers Usher en subissent les conséquences.",
+          "video": "medias/series/la-chute-de-la-maison-usher/1-8.mp4"
+        }
+      ]
+    }
+  },
+  "The Walking Dead": {
+    "title": "The Walking Dead",
+    "description": "Après une apocalypse, ayant transformé la quasi-totalité de la population en zombies, un groupe d'hommes et de femmes, mené par le shérif adjoint Rick Grimes, tente de survivre… Ensemble, ils vont devoir, tant bien que mal, faire face à ce nouveau monde, devenu méconnaissable, à travers leur périple dans le Sud profond des États-Unis.",
+    "banner": "medias/series/the-walking-dead/the-walking-dead.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt1520211/",
+    "year": 2010,
+    "genres": [
+      "Psychological Drama",
+      "Zombie Horror",
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "creators": ["Frank Darabont"],
+    "stars": ["Normaln Reedus", "Melissa McBride", "Lauren Cohan"],
+    "trailer": "https://www.youtube.com/watch?v=AbtiqJGhWyY",
+    "seasons": {
+      "1": [
+        {
+          "title": "Passé décomposé",
+          "desc": "Rick part à la recherche de sa famille dans un monde envahi de morts vivants. Morgan et Duane aident Rick en lui apprenant de nouvelles règles cruciales pour sa survie.",
+          "video": "medias/series/the-walking-dead/1-1.mp4"
+        },
+        {
+          "title": "Tripes",
+          "desc": "Rick met involontairement en danger un groupe de survivants en permettant aux rôdeurs de découvrir leur cachette. Mais un ennemi encore plus dangereux se cache parmi eux.",
+          "video": "medias/series/the-walking-dead/1-2.mp4"
+        },
+        {
+          "title": "T’as qu’à discuter avec les grenouilles",
+          "desc": "Rick retourne à Atlanta afin de récupérer le sac d'armes et sauver la vie d'un homme. Lori et Shane doivent faire face au retour d'une personne qu'ils croyaient morte.",
+          "video": "medias/series/the-walking-dead/1-3.mp4"
+        },
+        {
+          "title": "Le Gang",
+          "desc": "La mission de Rick à Atlanta est mise en péril par des événements imprévus. Entre-temps, au camp, Jim se montre extrêmement perturbé.",
+          "video": "medias/series/the-walking-dead/1-4.mp4"
+        },
+        {
+          "title": "Feux de forêt",
+          "desc": "Après l'attaque, Rick mène le groupe de rescapés vers le CDC. Blessé, Jim se voit contraint de prendre une terrible décision.",
+          "video": "medias/series/the-walking-dead/1-5.mp4"
+        },
+        {
+          "title": "Sujet-test 19",
+          "desc": "Un étrange médecin accueille Rick et son groupe au sein du CDC. Mais dans ce nouveau refuge, un autre danger les menace.",
+          "video": "medias/series/the-walking-dead/1-6.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Ce qui nous attend",
+          "desc": "Rick parvient à conduire le groupe hors d'Atlanta. Sur l'autoroute, les survivants doivent affronter une menace sans précédent. L'un d'entre eux disparaît.",
+          "video": "medias/series/the-walking-dead/2-1.mp4"
+        },
+        {
+          "title": "Saignée",
+          "desc": "Venant en aide à un homme, Rick découvre un lieu qui pourra leur servir de refuge. Shane part pour une mission dangereuse à la recherche de matériel médical.",
+          "video": "medias/series/the-walking-dead/2-2.mp4"
+        },
+        {
+          "title": "Le Tout pour le tout",
+          "desc": "Le groupe attend désespérément le retour de Shane, qui s'est retrouvé piégé dans une école encerclée par des rôdeurs. Daryl et Andrea recherchent une personne.",
+          "video": "medias/series/the-walking-dead/2-3.mp4"
+        },
+        {
+          "title": "Rose Cherokee",
+          "desc": "Rick négocie avec Hershel afin que le groupe puisse continuer à habiter à la ferme, tandis que les autres sont confrontés à une nouvelle menace. Glenn part en mission.",
+          "video": "medias/series/the-walking-dead/2-4.mp4"
+        },
+        {
+          "title": "Le Chupacabra",
+          "desc": "Seul dans les bois, Daryl trouve un indice mais il est attaqué par des rôdeurs. Rick remet en question ses choix. Glenn ne sait plus quoi penser des intentions de Maggie.",
+          "video": "medias/series/the-walking-dead/2-5.mp4"
+        },
+        {
+          "title": "Secrets",
+          "desc": "Glenn doit garder deux secrets. Andrea se découvre un nouveau talent qui sera rapidement mis à l'épreuve. Rick fait une découverte à propos d'une personne proche.",
+          "video": "medias/series/the-walking-dead/2-6.mp4"
+        },
+        {
+          "title": "Déjà plus ou moins mort",
+          "desc": "Le groupe découvre une terrible menace au cœur même de leur refuge. Rick tente de trouver avec Hershel le moyen de sortir d'une dangereuse impasse. Dale défie Shane.",
+          "video": "medias/series/the-walking-dead/2-7.mp4"
+        },
+        {
+          "title": "Nebraska",
+          "desc": "Le groupe tente de rétablir l'ordre suite à une terrible découverte. Hershel disparaît, et Rick et Glenn doivent suivre ses traces jusqu'en ville.",
+          "video": "medias/series/the-walking-dead/2-8.mp4"
+        },
+        {
+          "title": "Le Doigt sur la détente",
+          "desc": "Piégés, Rick, Hershel et Glenn doivent affronter de nouveaux ennemis, tant zombies que humains. Shane se donne pour mission de ramener Lori à la ferme.",
+          "video": "medias/series/the-walking-dead/2-9.mp4"
+        },
+        {
+          "title": "À 18 miles, au moins",
+          "desc": "Rick et Shane s'affrontent à propos du sort d'un prisonnier. Andrea aide la fille de Hershel à prendre une décision cruciale.",
+          "video": "medias/series/the-walking-dead/2-10.mp4"
+        },
+        {
+          "title": "Juge, juré et bourreau",
+          "desc": "Rick prend une décision importante avec Shane. Dale pense que le groupe est en train de perdre son humanité. Les actions de Carl ont des conséquences inattendues.",
+          "video": "medias/series/the-walking-dead/2-11.mp4"
+        },
+        {
+          "title": "Les Meilleurs Anges de notre nature",
+          "desc": "Le groupe apprend qu'une personne dangereuse pourrait rôder dans les parages. La nuit tombée, Rick, Shane, Daryl et Glenn ratissent les bois à sa recherche.",
+          "video": "medias/series/the-walking-dead/2-12.mp4"
+        },
+        {
+          "title": "Près du feu mourant",
+          "desc": "Rick revient pour trouver la ferme en proie à un terrible danger. Dans le chaos qui s'ensuit, le groupe se divise et le leadership de Rick est remis en question.",
+          "video": "medias/series/the-walking-dead/2-13.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Graines",
+          "desc": "Dans un monde toujours plus hostile, alors que la grossesse de Lori arrive à terme, Rick est à la recherche d'un endroit sûr où le groupe pourra trouver refuge.",
+          "video": "medias/series/the-walking-dead/3-1.mp4"
+        },
+        {
+          "title": "Malade",
+          "desc": "La situation ne fait qu'empirer avec la découverte de nouveaux ennemis. Rick et le groupe doivent se battre pour assurer la survie de l'un d'eux.",
+          "video": "medias/series/the-walking-dead/3-2.mp4"
+        },
+        {
+          "title": "Marchez avec moi",
+          "desc": "Après avoir été témoin d'un accident, Andrea et Michonne tombent sur une nouvelle communauté de survivants. Une rencontre peut-être moins positive qu'il n'y parait.",
+          "video": "medias/series/the-walking-dead/3-3.mp4"
+        },
+        {
+          "title": "Un tueur à l'intérieur",
+          "desc": "Michonne et Andrea se familiarisent avec leur nouvel environnement tandis qu'au sein de la prison, le groupe doit faire face à de multiples conflits.",
+          "video": "medias/series/the-walking-dead/3-4.mp4"
+        },
+        {
+          "title": "Dis-le",
+          "desc": "Rick tente de surmonter sa peine suite à sa récente perte. Michonne reste toujours aussi méfiante à l'égard du Gouverneur. Ce dernier organise un étrange divertissement.",
+          "video": "medias/series/the-walking-dead/3-5.mp4"
+        },
+        {
+          "title": "La Traque",
+          "desc": "Alors qu'Andrea se rapproche du Gouverneur, Michonne parvient à une décision au sujet de Woodbury. Glenn et Maggie partent accomplir une mission.",
+          "video": "medias/series/the-walking-dead/3-6.mp4"
+        },
+        {
+          "title": "Quand les morts approchent",
+          "desc": "Le Gouverneur montre son vrai visage alors qu'il cherche à obtenir des informations. À la prison, un nouveau venu fait bouger les choses.",
+          "video": "medias/series/the-walking-dead/3-7.mp4"
+        },
+        {
+          "title": "Une vie de souffrance",
+          "desc": "Dans la prison, les membres du groupe décident qu'ils doivent faire passer leur survie avant tout, tandis que ceux partis à Woodbury avancent en terrain inconnu.",
+          "video": "medias/series/the-walking-dead/3-8.mp4"
+        },
+        {
+          "title": "Le Roi du suicide",
+          "desc": "Rick tente de secourir un membre du groupe. La plus grande confusion règne à Woodbury suite à une récente attaque. De nouveaux venus posent problème au sein de la prison.",
+          "video": "medias/series/the-walking-dead/3-9.mp4"
+        },
+        {
+          "title": "Chez nous",
+          "desc": "Alors que le groupe discute de la voie à suivre, Rick, hanté par ses fantômes, perd pied. Le Gouverneur tente de rétablir l'ordre à Woodbury.",
+          "video": "medias/series/the-walking-dead/3-10.mp4"
+        },
+        {
+          "title": "Entre deux feux",
+          "desc": "Leur sécurité étant menacée, Rick et le groupe doivent faire un choix. Andrea décide de prendre les choses en mains alors que Woodbury est sur le pied de guerre.",
+          "video": "medias/series/the-walking-dead/3-11.mp4"
+        },
+        {
+          "title": "Retrouvailles",
+          "desc": "Réalisant que les forces du Gouverneur les surpassent largement en puissance de feu, Rick décide d'organiser une expédition pour se procurer de nouvelles armes.",
+          "video": "medias/series/the-walking-dead/3-12.mp4"
+        },
+        {
+          "title": "Une flèche sur la porte",
+          "desc": "Dans une tentative pour faire cesser le massacre, Rick et le Gouverneur décident de se rencontrer afin de discuter de la possibilité d'une trêve.",
+          "video": "medias/series/the-walking-dead/3-13.mp4"
+        },
+        {
+          "title": "La Proie",
+          "desc": "Le Gouverneur part à la poursuite d'un opposant qui a fui Woodbury. En son absence, un traître tente de saboter le plan échafaudé par le Gouverneur.",
+          "video": "medias/series/the-walking-dead/3-14.mp4"
+        },
+        {
+          "title": "Cette triste vie",
+          "desc": "Rick et son groupe sont confrontés à un grave problème : s'ils souhaitent parvenir à une trêve avec le Gouverneur, ils devront faire un sacrifice difficile.",
+          "video": "medias/series/the-walking-dead/3-15.mp4"
+        },
+        {
+          "title": "Bienvenue dans le tombeau",
+          "desc": "Rick et le groupe doivent décider si la prison mérite d'être défendue alors que la menace d'une attaque menée par le Gouverneur est imminente.",
+          "video": "medias/series/the-walking-dead/3-16.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "30 jours sans accident",
+          "desc": "Désormais en sécurité dans les locaux de la prison, le groupe de Rick baisse la garde, mais la réalité va très vite refaire surface.",
+          "video": "medias/series/the-walking-dead/4-1.mp4"
+        },
+        {
+          "title": "Infectés",
+          "desc": "Pendant que certains survivants sont placés en quarantaine, Carol vole au secours de deux jeunes filles, et Tyreese fait une surprenante découverte.",
+          "video": "medias/series/the-walking-dead/4-2.mp4"
+        },
+        {
+          "title": "Isolement",
+          "desc": "Devant la propagation du virus, Hershel décide d'isoler les personnes contaminées et d'envoyer un groupe en reconnaissance à la recherche de médicaments.",
+          "video": "medias/series/the-walking-dead/4-3.mp4"
+        },
+        {
+          "title": "Indifférence",
+          "desc": "La duperie de Bob est mise au jour tandis que le groupe part à la recherche de médicaments, et Rick s'interroge sur les conséquences de l'aveu de Carol.",
+          "video": "medias/series/the-walking-dead/4-4.mp4"
+        },
+        {
+          "title": "Internement",
+          "desc": "Dans la zone de quarantaine de la prison, Hershel, Sasha et Glenn s'occupent des victimes de la grippe dont l'état devient préoccupant.",
+          "video": "medias/series/the-walking-dead/4-5.mp4"
+        },
+        {
+          "title": "Appât vivant",
+          "desc": "Lors d'un flashback, le Gouverneur découvre l'appartement de Lilly et Tara, de leur père handicapé et de Meghan, la fille de Lilly.",
+          "video": "medias/series/the-walking-dead/4-6.mp4"
+        },
+        {
+          "title": "Poids mort",
+          "desc": "Après avoir volé au secours de Meghan et du Gouverneur, Martinez les invite à rejoindre son camp, à condition qu'ils le reconnaissent comme leader du groupe.",
+          "video": "medias/series/the-walking-dead/4-7.mp4"
+        },
+        {
+          "title": "Désespéré",
+          "desc": "Après avoir pris Michonne et Hershel en otage, le Gouverneur décide de rassembler ses troupes et d'attaquer la prison.",
+          "video": "medias/series/the-walking-dead/4-8.mp4"
+        },
+        {
+          "title": "Après",
+          "desc": "Partis à la recherche de vivres, Rick et Carl trouvent refuge dans une maison abandonnée où Carl s'en prend à son père affaibli.",
+          "video": "medias/series/the-walking-dead/4-9.mp4"
+        },
+        {
+          "title": "Détenus",
+          "desc": "Pendant que Beth et Daryl se mettent à la recherche de survivants après l'attaque de la prison, Tyreese découvre l'existence du Terminus, un mystérieux refuge.",
+          "video": "medias/series/the-walking-dead/4-10.mp4"
+        },
+        {
+          "title": "Revendiqué",
+          "desc": "Tandis que Michonne et Carl se rapprochent lors d'une expédition, Abraham tente d'envoyer Eugene à Washington pour lui faire rencontrer les responsables gouvernementaux.",
+          "video": "medias/series/the-walking-dead/4-11.mp4"
+        },
+        {
+          "title": "Parenthèse",
+          "desc": "Beth et Daryl passent la soirée à se confier autour d'un verre, pour échapper aux tensions au sein du camp.",
+          "video": "medias/series/the-walking-dead/4-12.mp4"
+        },
+        {
+          "title": "Seul",
+          "desc": "Maggie délaisse Bob et Sasha après avoir trouvé la route du Terminus, tandis que Beth et Daryl se retrouvent piégés dans une maison funéraire assaillie par des zombies.",
+          "video": "medias/series/the-walking-dead/4-13.mp4"
+        },
+        {
+          "title": "Le Verger",
+          "desc": "Convaincu d'être en sécurité dans un nouveau refuge, le groupe de Tyreese est bientôt inquiété par l'étrange comportement de Mika et Lizzie.",
+          "video": "medias/series/the-walking-dead/4-14.mp4"
+        },
+        {
+          "title": "Nous",
+          "desc": "Une querelle éclate tandis que les membres du groupe de Glenn tentent de rattraper le temps perdu avec Maggie et les autres sur la route du Terminus.",
+          "video": "medias/series/the-walking-dead/4-15.mp4"
+        },
+        {
+          "title": "A",
+          "desc": "Rick est confronté à une innommable brutalité après avoir croisé les autres survivants sur la route du Terminus.",
+          "video": "medias/series/the-walking-dead/4-16.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Pas de sanctuaire",
+          "desc": "Terrifié et pris au piège, le groupe s'apprête à connaître le destin que lui réserve la communauté de Terminus. Gareth s'en prend à Rick.",
+          "video": "medias/series/the-walking-dead/5-1.mp4"
+        },
+        {
+          "title": "Étrangers",
+          "desc": "Le groupe fait la connaissance d'un prêtre qui semble leur cacher quelque chose malgré son hospitalité. Bob fait une atroce découverte au sujet de Terminus.",
+          "video": "medias/series/the-walking-dead/5-2.mp4"
+        },
+        {
+          "title": "Quatre murs et un toit",
+          "desc": "Tandis que le Père Gabriel fait une surprenante confession, Abraham insiste pour mettre le cap sur Washington, mais Rick préfère attendre.",
+          "video": "medias/series/the-walking-dead/5-3.mp4"
+        },
+        {
+          "title": "L'Hôpital",
+          "desc": "Blessée, Beth se réveille à l'hôpital. Chargée d'aider les patients, elle se demande à qui elle peut désormais faire confiance.",
+          "video": "medias/series/the-walking-dead/5-4.mp4"
+        },
+        {
+          "title": "Développement personnel",
+          "desc": "Un accident retarde l'arrivée du groupe à Washington. Après l'attaque d'une horde de rôdeurs, Eugene, encore sous le choc, se confie à Tara.",
+          "video": "medias/series/the-walking-dead/5-5.mp4"
+        },
+        {
+          "title": "Anéanti",
+          "desc": "Lancés sur la piste de la voiture à la croix blanche, Carol et Daryl se retrouvent à Atlanta où ils repèrent un autre véhicule portant le même symbole.",
+          "video": "medias/series/the-walking-dead/5-6.mp4"
+        },
+        {
+          "title": "Croix",
+          "desc": "Pendant que le groupe de Rick réfléchit à la stratégie à adopter, Beth tente une échappée et Tara prend la défense d'Eugene.",
+          "video": "medias/series/the-walking-dead/5-7.mp4"
+        },
+        {
+          "title": "Coda",
+          "desc": "Pendant qu'à l'église, le Père Gabriel, Carl et Michonne tentent de repousser les rôdeurs, Rick négocie un échange d'otages à l'hôpital.",
+          "video": "medias/series/the-walking-dead/5-8.mp4"
+        },
+        {
+          "title": "Ce qui s'est passé et le monde dans lequel on vit",
+          "desc": "Le groupe d'Atlanta raccompagne Noah dans sa ville d'origine où il espère retrouver sa famille, mais le danger guette.",
+          "video": "medias/series/the-walking-dead/5-9.mp4"
+        },
+        {
+          "title": "Les Autres",
+          "desc": "Démoralisé, le groupe erre à nouveau à la recherche de nourriture, et trouve refuge dans une grange abandonnée alors qu'une tempête fait rage.",
+          "video": "medias/series/the-walking-dead/5-10.mp4"
+        },
+        {
+          "title": "La Distance",
+          "desc": "Le groupe se retrouve face à un dilemme quand un inconnu leur propose son aide. Alors que Rick reste suspicieux, Michonne décide de tenter le coup.",
+          "video": "medias/series/the-walking-dead/5-11.mp4"
+        },
+        {
+          "title": "Souvenez-vous",
+          "desc": "Après avoir été accueillis en Alexandria, Rick et les autres survivants s'inquiètent de la vulnérabilité de leurs nouveaux alliés face aux rôdeurs.",
+          "video": "medias/series/the-walking-dead/5-12.mp4"
+        },
+        {
+          "title": "Oublier",
+          "desc": "Carol élabore un plan pour s'introduire dans l'armurerie et y voler des armes. Aaron recrute l'aide de Daryl, et Sasha propose de jouer les sentinelles.",
+          "video": "medias/series/the-walking-dead/5-13.mp4"
+        },
+        {
+          "title": "Perte",
+          "desc": "Abraham montre de quoi il est capable lors d'une attaque de rôdeurs en Alexandria, tandis que Deanna craint la puissance des nouveaux arrivants.",
+          "video": "medias/series/the-walking-dead/5-14.mp4"
+        },
+        {
+          "title": "Essayer",
+          "desc": "Rick confronte Deanna au sujet de Pete. Glenn enjoint Nicholas de ne pas quitter la communauté. Daryl et Aaron font une étrange découverte dans la forêt.",
+          "video": "medias/series/the-walking-dead/5-15.mp4"
+        },
+        {
+          "title": "Conquérir",
+          "desc": "Deanna rassemble sa communauté pour décider du sort de Rick. Pendant ce temps, Aaron et Daryl traquent un homme affublé d'un poncho rouge.",
+          "video": "medias/series/the-walking-dead/5-16.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Comme si c'était la première fois",
+          "desc": "Luttant toujours pour s'intégrer en Alexandria, Rick et son groupe doivent calmer leurs ardeurs, tandis que leur petite communauté fait face à de nouvelles menaces.",
+          "video": "medias/series/the-walking-dead/6-1.mp4"
+        },
+        {
+          "title": "JSS",
+          "desc": "Pendant que certains membres du groupe tentent de dérouter une horde de rôdeurs, Alexandria fait face à un nouveau danger.",
+          "video": "medias/series/the-walking-dead/6-2.mp4"
+        },
+        {
+          "title": "Merci",
+          "desc": "Glenn et Michonne tentent de rallier Alexandria au plus vite avant que la foule de rôdeurs ne s'y rende, attirée par le bruit.",
+          "video": "medias/series/the-walking-dead/6-3.mp4"
+        },
+        {
+          "title": "Ici n'est pas ici",
+          "desc": "Morgan évoque sa rencontre avec un homme qui l'a aidé à trouver la paix en l'initiant aux valeurs fondamentales de la non-violence.",
+          "video": "medias/series/the-walking-dead/6-4.mp4"
+        },
+        {
+          "title": "Maintenant",
+          "desc": "Après la récente attaque en Alexandria, le moral de la petite communauté est au plus bas. Aaron propose à Maggie de l'aider à retrouver Glenn.",
+          "video": "medias/series/the-walking-dead/6-5.mp4"
+        },
+        {
+          "title": "Toujours responsable",
+          "desc": "En tentant d'éloigner la horde, Daryl, séparé d'Abraham et de Sasha, fait la rencontre de trois inconnus.",
+          "video": "medias/series/the-walking-dead/6-6.mp4"
+        },
+        {
+          "title": "Attention",
+          "desc": "Rick interpelle Morgan sur son refus de tuer et s'interroge sur la capacité des habitants d'Alexandria à protéger leur communauté.",
+          "video": "medias/series/the-walking-dead/6-7.mp4"
+        },
+        {
+          "title": "D'un bout à l'autre",
+          "desc": "Alors que la situation devient critique en Alexandria, les habitants, pris au piège, sont contraints d'affronter les rôdeurs au péril de leur vie.",
+          "video": "medias/series/the-walking-dead/6-8.mp4"
+        },
+        {
+          "title": "Sans issue",
+          "desc": "Pendant que Daryl, Abraham et Sasha font face à un nouvel ennemi, Rick et le reste du groupe élaborent un plan pour échapper aux rôdeurs en Alexandria.",
+          "video": "medias/series/the-walking-dead/6-9.mp4"
+        },
+        {
+          "title": "L'Autre Monde",
+          "desc": "Lors d'une mission d'approvisionnement, Rick et Daryl croisent le chemin d'un mystérieux personnage, tandis qu'Alexandria connaît un nouveau souffle.",
+          "video": "medias/series/the-walking-dead/6-10.mp4"
+        },
+        {
+          "title": "Les nœuds se défont",
+          "desc": "Le groupe hésite à croire un nouvel arrivant le mettant en garde contre un redoutable ennemi. Lors d'un déplacement, les membres doivent prendre une décision cruciale.",
+          "video": "medias/series/the-walking-dead/6-11.mp4"
+        },
+        {
+          "title": "Pas encore demain",
+          "desc": "Rick et Morgan font face à un désaccord, alors que le groupe se prépare à livrer sa plus grande bataille. Pendant ce temps, le passé de Carol revient la hanter.",
+          "video": "medias/series/the-walking-dead/6-12.mp4"
+        },
+        {
+          "title": "Le Même Bateau",
+          "desc": "L'affrontement avec les Sauveurs a des répercussions inattendues, mettant le groupe face à une rude épreuve.",
+          "video": "medias/series/the-walking-dead/6-13.mp4"
+        },
+        {
+          "title": "Deux fois plus long",
+          "desc": "Les médicaments se faisant rares, Denise part en mission d'approvisionnement avec Daryl et Rosita. Pendant ce temps, Eugene tente de faire ses preuves auprès d'Abraham.",
+          "video": "medias/series/the-walking-dead/6-14.mp4"
+        },
+        {
+          "title": "Est",
+          "desc": "Plusieurs groupes quittent Alexandria à la recherche de l'un des leurs porté disparu. Morgan dévoile un secret longtemps gardé.",
+          "video": "medias/series/the-walking-dead/6-15.mp4"
+        },
+        {
+          "title": "Dernier jour sur Terre",
+          "desc": "Rick et les autres envisagent différents scénarios lorsqu'une mission importante à la Colline s'avère plus compliquée que prévu.",
+          "video": "medias/series/the-walking-dead/6-16.mp4"
+        }
+      ],
+      "7": [
+        {
+          "title": "Le jour viendra où tu ne seras plus",
+          "desc": "Rick et son groupe subissent les effroyables conséquences de leur capture par les hommes de Negan, avant de devoir laisser l'un d'entre eux en otage aux Sauveurs.",
+          "video": "medias/series/the-walking-dead/7-1.mp4"
+        },
+        {
+          "title": "Le Puits",
+          "desc": "Deux des survivants arrivent au Royaume, une nouvelle communauté en apparence idyllique que dirige un chef amateur de grandeur.",
+          "video": "medias/series/the-walking-dead/7-2.mp4"
+        },
+        {
+          "title": "La Cellule",
+          "desc": "Détenu au quartier général des Sauveurs, un Alexandrien apprend pourquoi Dwight s'est soumis à Negan et révèle pourquoi lui se refuse à le faire.",
+          "video": "medias/series/the-walking-dead/7-3.mp4"
+        },
+        {
+          "title": "Service",
+          "desc": "Quand les Sauveurs viennent s'approvisionner en Alexandria, le groupe attend la réaction de Rick. Le Père Gabriel se comporte avec sang-froid.",
+          "video": "medias/series/the-walking-dead/7-4.mp4"
+        },
+        {
+          "title": "Des mecs qui ont la gnaque",
+          "desc": "Gregory vient à la Colline exiger le départ de Maggie et Sasha. Tandis que Rick entame une expédition pour chercher des provisions, Carl se lance dans une autre mission.",
+          "video": "medias/series/the-walking-dead/7-5.mp4"
+        },
+        {
+          "title": "Donne-moi ta parole",
+          "desc": "Une Alexandrienne se retrouve dans une communauté isolée dont elle cherche à déterminer les véritables intentions.",
+          "video": "medias/series/the-walking-dead/7-6.mp4"
+        },
+        {
+          "title": "Chante-moi une chanson",
+          "desc": "Arrivé clandestinement au Sanctuaire des Sauveurs, un Alexandrien a droit à une visite. Spencer critique la soumission de Rick. Rosita demande à Eugène de l'aider.",
+          "video": "medias/series/the-walking-dead/7-7.mp4"
+        },
+        {
+          "title": "Les  cœurs battent toujours",
+          "desc": "Negan s'installe en Alexandria tandis que Rick et Aaron trouvent un message mystérieux dans une réserve. Richard soumet une requête à Carol et Morgan.",
+          "video": "medias/series/the-walking-dead/7-8.mp4"
+        },
+        {
+          "title": "Une pierre sur la route",
+          "desc": "Envisageant les différentes options pour répliquer face aux Sauveurs, Rick et le groupe tentent de mobiliser la Colline et le Royaume.",
+          "video": "medias/series/the-walking-dead/7-9.mp4"
+        },
+        {
+          "title": "De nouveaux meilleurs amis",
+          "desc": "Richard élabore un complot pour provoquer la guerre contre les Sauveurs. À la recherche d'un Alexandrien, Rick et les autres découvrent une étrange communauté.",
+          "video": "medias/series/the-walking-dead/7-10.mp4"
+        },
+        {
+          "title": "Divers ennemis et autres menaces",
+          "desc": "Le dernier prisonnier de Negan découvre la vie au Sanctuaire avant d'être récompensé pour son ingéniosité. Dwight se retrouve dans une situation délicate.",
+          "video": "medias/series/the-walking-dead/7-11.mp4"
+        },
+        {
+          "title": "Dis okay",
+          "desc": "Rick et Michonne partent à la recherche d'armes. Rosita ne veut plus attendre que le groupe passe à l'action. Tara hésite à révéler à Rick l'existence d'Oceanside.",
+          "video": "medias/series/the-walking-dead/7-12.mp4"
+        },
+        {
+          "title": "Enterrez-moi ici",
+          "desc": "Au Royaume, Carol interroge Morgan sur Alexandria. Des tensions éclatent lorsque les soldats d'Ezekiel remettent leurs provisions aux Sauveurs.",
+          "video": "medias/series/the-walking-dead/7-13.mp4"
+        },
+        {
+          "title": "L'Autre Côté",
+          "desc": "Maggie prépare la communauté de la Colline à entrer en guerre contre les Sauveurs. Avides d'action, Sasha et Rosita s'allient pour effectuer une mission secrète.",
+          "video": "medias/series/the-walking-dead/7-14.mp4"
+        },
+        {
+          "title": "Ce qu'il leur manque",
+          "desc": "Tara emmène un groupe d'Alexandriens à Oceanside. Gregory n'apprécie pas l'autorité grandissante de Carol. Negan demande à sa dernière capture de rejoindre les Sauveurs.",
+          "video": "medias/series/the-walking-dead/7-15.mp4"
+        },
+        {
+          "title": "Le Premier Jour du reste de ta vie",
+          "desc": "Dwight propose un plan à Daryl. Sasha se remémore des jours meilleurs. Rick et le groupe attendent l'arrivée des Sauveurs en Alexandria.",
+          "video": "medias/series/the-walking-dead/7-16.mp4"
+        }
+      ],
+      "8": [
+        {
+          "title": "Miséricorde",
+          "desc": "Rick et ses amis ont subi une énième attaque des Sauveurs en Alexandria. Cette bataille a laissé des traces. Avec ses compagnons des communautés de la Colline et du Royaume, Rick est bien décidé à mettre un terme à l'emprise de Negan. Mais l'homme à la batte de baseball rassemble lui aussi ses troupes.",
+          "video": "medias/series/the-walking-dead/8-1.mp4"
+        },
+        {
+          "title": "Les Damnés",
+          "desc": "Les survivants des trois communautés, celle d'Alexandria, celle de la Colline et celle du Royaume, décident de partager leurs informations et d'unir leurs efforts pour mettre fin aux agissements des Sauveurs et de leur infâme chef, Negan. Rick, de son côté, croise de nouveau la route d'une vielle connaissance.",
+          "video": "medias/series/the-walking-dead/8-2.mp4"
+        },
+        {
+          "title": "Monstres",
+          "desc": "Dans l'opposition sans pitié qui voit les communautés d'Alexandria, de la Colline et du Royaume affronter les troupes de l'infâme Negan, certains actes déboucheront sur des conséquences inattendues. En ce temps de guerre, avoir trop de morale peut s'avérer une faiblesse…",
+          "video": "medias/series/the-walking-dead/8-3.mp4"
+        },
+        {
+          "title": "Un type ordinaire",
+          "desc": "La guerre totale est maintenant déclarée entre les Sauveurs et les différents groupes, dont celui de Rick, d'Ezekiel et de Maggie. Mais les hommes de Negan ont, semble-t-il, une nouvelle arme dans leur arsenal qui pourrait changer la tournure des combats. Rick et ses compagnons vont-ils pouvoir prendre le dessus ?",
+          "video": "medias/series/the-walking-dead/8-4.mp4"
+        },
+        {
+          "title": "Une terreur comme vous",
+          "desc": "Alors que les positions des Sauveurs sont de plus en plus fragilisées, les lieutenants de Negan sont en ébullition. Ils veulent savoir comment Rick et ses alliés ont pu les attaquer. L'atmosphère est à la suspicion chez les Sauveurs, mais Negan n'a pas dit son dernier mot.",
+          "video": "medias/series/the-walking-dead/8-5.mp4"
+        },
+        {
+          "title": "Le Roi, la veuve et Rick",
+          "desc": "Après avoir constaté que l'attaque contre les Sauveurs est plus difficile que prévu, Rick tente une nouvelle approche avec la communauté de le Décharge. À la colline, les prisonniers Sauveurs posent question. Faut-il les laisser vivre ? La tension est palpable et la situation est sur le point de dégénérer.",
+          "video": "medias/series/the-walking-dead/8-6.mp4"
+        },
+        {
+          "title": "Après, c'est maintenant",
+          "desc": "Le Sanctuaire des Sauveurs est assiégé par des centaines de zombies affamés. Aux alentours, les troupes d'Alexandria, de la Colline et du Royaume surveillent la situation. Negan et ses lieutenants tentent d'élaborer une stratégie pour s'en sortir. Rick, de son coté, veut s'en tenir au plan initial.",
+          "video": "medias/series/the-walking-dead/8-7.mp4"
+        },
+        {
+          "title": "Y'a que comme ça que ça peut marcher",
+          "desc": "La guerre pour renverser la dictature de Negan est en marche ! Forts de leurs nouvelles alliances avec la Colline et le Royaume, Rick, Carl, Carol, Daryl, Michonne et les habitants d'Alexandria sont prêts à en découdre avec leur ennemi commun.",
+          "video": "medias/series/the-walking-dead/8-8.mp4"
+        },
+        {
+          "title": "Honneur",
+          "desc": "Rick fait face à de nouvelles difficultés après une bataille. Pendant ce temps, la lutte se poursuit dans d'autres communautés alors que les principaux membres sont confrontés à des décisions difficiles.",
+          "video": "medias/series/the-walking-dead/8-9.mp4"
+        },
+        {
+          "title": "Les Égarés et les Pillards",
+          "desc": "Les groupes unissent leurs forces et convergent sur le sommet de la Colline. Aaron et Enid recherchent des alliés. Simon prend les choses en main.",
+          "video": "medias/series/the-walking-dead/8-10.mp4"
+        },
+        {
+          "title": "Vivant ou Mort",
+          "desc": "Daryl se retrouve en mauvaise compagnie alors que son groupe se dirige vers la Colline. La foi de Gabriel est testée.",
+          "video": "medias/series/the-walking-dead/8-11.mp4"
+        },
+        {
+          "title": "La Clé",
+          "desc": "Le leadership de la Colline fait face à un dilemme difficile après l'arrivée de visiteurs inattendus. Rick se retrouve face à face avec un adversaire.",
+          "video": "medias/series/the-walking-dead/8-12.mp4"
+        },
+        {
+          "title": "Ne nous égare pas",
+          "desc": "Des problèmes surviennent lorsque des visiteurs inattendus arrivent au sommet de la Colline et que la communauté est mise en action. Des découvertes déchirantes sont faites.",
+          "video": "medias/series/the-walking-dead/8-13.mp4"
+        },
+        {
+          "title": "Ça compte encore",
+          "desc": "Un prisonnier de Heaps fait une découverte. Carol cherche quelqu'un dans la forêt voisine. Rick et Morgan se retrouvent en compagnie d'étrangers.",
+          "video": "medias/series/the-walking-dead/8-14.mp4"
+        },
+        {
+          "title": "Valeur",
+          "desc": "Avec la menace des Sauveurs qui se profile encore, Aaron continue de chercher des alliés. Daryl et Rosita agissent et affrontent un vieil ami.",
+          "video": "medias/series/the-walking-dead/8-15.mp4"
+        },
+        {
+          "title": "Colère",
+          "desc": "Les communautés unissent leurs forces, dans la dernière position contre les Sauveurs, alors que la guerre totale se déroule.",
+          "video": "medias/series/the-walking-dead/8-16.mp4"
+        }
+      ],
+      "9": [
+        {
+          "title": "Un nouveau départ",
+          "desc": "Après la fin du conflit avec les Sauveurs et Negan, Rick et ses amis de la Colline veulent se rendre à Washington.",
+          "video": "medias/series/the-walking-dead/9-1.mp4"
+        },
+        {
+          "title": "Le Pont",
+          "desc": "Les survivants de la Colline, d'Alexandria, du Rivage et du Royaume unissent leurs efforts pour rebâtir un pont.",
+          "video": "medias/series/the-walking-dead/9-2.mp4"
+        },
+        {
+          "title": "Avertissements",
+          "desc": "Alors que des membres des communautés de survivants travaillent à réparer le pont, une disparition devient inquiétante.",
+          "video": "medias/series/the-walking-dead/9-3.mp4"
+        },
+        {
+          "title": "Les Obligés",
+          "desc": "Rick est animé par le désir d'un avenir meilleur. Mais avant de réaliser ses rêves, il doit d'abord expier ses péchés.",
+          "video": "medias/series/the-walking-dead/9-4.mp4"
+        },
+        {
+          "title": "Ce qui viendra ensuite",
+          "desc": "Rick est forcé d'affronter ses démons du passé pour envisager l'avenir et protéger les survivants des communautés.",
+          "video": "medias/series/the-walking-dead/9-5.mp4"
+        },
+        {
+          "title": "Que sommes-nous devenus ?",
+          "desc": "Au-delà des murs des communautés, les survivants découvrent un nouveau groupe : peuvent-ils lui faire confiance ?",
+          "video": "medias/series/the-walking-dead/9-6.mp4"
+        },
+        {
+          "title": "Stradivarius",
+          "desc": "Carol se met à la recherche d'une vieille connaissance, un homme qui vit maintenant seul dans un environnement hostile.",
+          "video": "medias/series/the-walking-dead/9-7.mp4"
+        },
+        {
+          "title": "Évolution",
+          "desc": "Un groupe de survivants décide d'aller sauver l'un des leurs qui est porté disparu. Mais cette mission est dangereuse.",
+          "video": "medias/series/the-walking-dead/9-8.mp4"
+        },
+        {
+          "title": "Adaptation",
+          "desc": "Daryl, Michonne et leurs compagnons se frottent aux étranges Chuchoteurs. Negan revient sur les traces de son passé.",
+          "video": "medias/series/the-walking-dead/9-9.mp4"
+        },
+        {
+          "title": "Oméga",
+          "desc": "Les survivants de la Colline vont faire connaissance avec les redoutables Chuchoteurs, un gang bien organisé.",
+          "video": "medias/series/the-walking-dead/9-10.mp4"
+        },
+        {
+          "title": "L'Échange",
+          "desc": "Alpha lance son groupe à l'assaut de la colonie de Hilltop dans une tentative désespérée de retrouver sa fille.",
+          "video": "medias/series/the-walking-dead/9-11.mp4"
+        },
+        {
+          "title": "Les Gardiens",
+          "desc": "Les Chuchoteurs constituent un groupe hostile, et leur projet est de nuire aux survivants des communautés déjà en place.",
+          "video": "medias/series/the-walking-dead/9-12.mp4"
+        },
+        {
+          "title": "Goulot d'étranglement",
+          "desc": "Alpha veut récupérer Lydia et envoie un groupe pour la chercher, même si le sang doit couler lors de cette mission.",
+          "video": "medias/series/the-walking-dead/9-13.mp4"
+        },
+        {
+          "title": "Cicatrices",
+          "desc": "Un étranger arrive dans la communauté d'Alexandria. Cette nouvelle donne oblige les survivants à affronter leur passé.",
+          "video": "medias/series/the-walking-dead/9-14.mp4"
+        },
+        {
+          "title": "Le Calme avant",
+          "desc": "Les survivants de la Colline, d'Alexandria, du Royaume et du Rivage se réunissent, mais bien des questions demeurent.",
+          "video": "medias/series/the-walking-dead/9-15.mp4"
+        },
+        {
+          "title": "La Tempête",
+          "desc": "Alors qu'une tempête de neige fait rage, les survivants des communautés doivent faire des choix cruciaux pour le futur.",
+          "video": "medias/series/the-walking-dead/9-16.mp4"
+        }
+      ],
+      "10": [
+        {
+          "title": "Les Limites franchies",
+          "desc": "Quelques mois après un rude hiver, les communautés prospèrent sans aucun signe de Chuchoteurs. Michonne insiste sur le fait qu'il faut respecter leur territoire. Après qu'un masque de Chuchoteur s'est échoué à Oceanside, les groupes sont mis en alerte maximale.",
+          "video": "medias/series/the-walking-dead/10-1.mp4"
+        },
+        {
+          "title": "Nous sommes la fin du monde",
+          "desc": "Des flash-back détaillent la manière dont Alpha et Lydia ont rencontré Bêta et commencé à bâtir la communauté des Chuchoteurs. Dans le présent, une Chuchoteuse a du ressentiment envers Alpha, pour l'avoir forcée à abandonner son enfant.",
+          "video": "medias/series/the-walking-dead/10-2.mp4"
+        },
+        {
+          "title": "Fantômes",
+          "desc": "En Alexandria, la communauté se défend contre des vagues constantes de rôdeurs ce qui les épuise tant moralement que physiquement. Les survivants soupçonnent qu'Alpha les envoie, mais Lydia insiste pour dire que ce n'est pas elle. Negan gagne la confiance d'Aaron après l'avoir sauvé d'une horde.",
+          "video": "medias/series/the-walking-dead/10-3.mp4"
+        },
+        {
+          "title": "À bas les chuchotements",
+          "desc": "En Alexandria, un groupe provoque impitoyablement Lydia qui reste à leurs yeux une des « Chuchoteurs » puis s'attaquent à elle physiquement pendant la nuit. Negan la sauve mais tue accidentellement Margo, une des assaillantes. Negan est alors enfermé avant son jugement, mais il disparaît, mettant la communauté en alerte.",
+          "video": "medias/series/the-walking-dead/10-4.mp4"
+        },
+        {
+          "title": "C'est toujours comme ça que ça finit",
+          "desc": "Kelly est désorientée à cause de sa perte auditive et se perd dans les bois, mais est retrouvée plus tard par Daryl, Connie et Magna. Aaron rencontre Gamma et lui propose des bandages après qu'elle se soit coupé la main. Gamma s'enfuit et informe Alpha qui lui demande alors de poursuivre cette relation.",
+          "video": "medias/series/the-walking-dead/10-5.mp4"
+        },
+        {
+          "title": "Les Liens",
+          "desc": "Carol a entrepris de détruire la horde de marcheurs d'Alpha et Daryl la suit. Après que Carol a capturé un Chuchoteur, Daryl devient sceptique quant à ses intentions. En Alexandria, Rosita et plusieurs autres survivants tombent malades, ce qui pousse Siddiq à s'en prendre à Dante pour ne pas avoir fourni les soins adéquats.",
+          "video": "medias/series/the-walking-dead/10-6.mp4"
+        },
+        {
+          "title": "Ouvre les yeux",
+          "desc": "Carol interroge le Chuchoteur capturé, au cours de laquelle il félicite Alpha d'avoir tué Lydia; il est ensuite empoisonné à mort par Dante qui rejette la faute sur Siddiq. Carol prévoit de retourner les Chuchoteurs contre Alpha pour avoir menti à propos de la mort de Lydia.",
+          "video": "medias/series/the-walking-dead/10-7.mp4"
+        },
+        {
+          "title": "Le Monde d'avant",
+          "desc": "Le vrai visage de Dante, en tant qu'espion des Chuchoteurs, est révélé. Rosita est obligée d'achever Siddiq, réanimé. Dante est responsable de nombreux événements récents qui ont accru la paranoïa de la communauté à propos des Chuchoteurs et qui la détruit de l'intérieur.",
+          "video": "medias/series/the-walking-dead/10-8.mp4"
+        },
+        {
+          "title": "À l'étroit",
+          "desc": "Le groupe doit trouver comment sortir d'une situation précaire.",
+          "video": "medias/series/the-walking-dead/10-9.mp4"
+        },
+        {
+          "title": "Surveillance",
+          "desc": "Le groupe doit défendre Alexandria contre une force extérieure menaçante.",
+          "video": "medias/series/the-walking-dead/10-10.mp4"
+        },
+        {
+          "title": "Étoiles filantes",
+          "desc": "Les Chuchoteurs viennent à Hilltop. Après la rencontre de Daryl et Lydia avec Alpha, les communautés doivent décider de courir ou de se battre. Pendant ce temps, la communication d'Eugène avec Stéphanie se complique.",
+          "video": "medias/series/the-walking-dead/10-11.mp4"
+        },
+        {
+          "title": "Marche avec nous",
+          "desc": "Alpha, toujours accompagnée de sa horde de Chuchoteurs, et avec l'aide de Negan, attaque la communauté de la Colline.",
+          "video": "medias/series/the-walking-dead/10-12.mp4"
+        },
+        {
+          "title": "L'Île",
+          "desc": "Michonne décide de raccompagner Virgil sur son île. En échange, il fournit des armes à la jeune femme.",
+          "video": "medias/series/the-walking-dead/10-13.mp4"
+        },
+        {
+          "title": "Regarde les fleurs",
+          "desc": "L'incendie qui a eu lieu à la Colline va laisser des traces chez les survivants, qui doivent se réorganiser en urgence.",
+          "video": "medias/series/the-walking-dead/10-14.mp4"
+        },
+        {
+          "title": "La Tour",
+          "desc": "L'ultime combat contre les Chuchoteurs approche à grands pas. Eugene fait la connaissance de Princesse et son groupe.",
+          "video": "medias/series/the-walking-dead/10-15.mp4"
+        },
+        {
+          "title": "Une mort certaine",
+          "desc": "La bataille finale contre Bêta et ses alliés est à son apogée. Aaron et Alden se trouvent dans une situation difficile.",
+          "video": "medias/series/the-walking-dead/10-16.mp4"
+        },
+        {
+          "title": "De retour",
+          "desc": "Maggie est de retour mais entraîne avec elle des histoires de son passé. La sécurité de Negan est à nouveau en jeu.",
+          "video": "medias/series/the-walking-dead/10-17.mp4"
+        },
+        {
+          "title": "Viens me trouver",
+          "desc": "Carol et Daryl découvrent une vieille cabane. Dans ce lieu assez particulier, des souvenirs remontent à la surface.",
+          "video": "medias/series/the-walking-dead/10-18.mp4"
+        },
+        {
+          "title": "Encore un",
+          "desc": "Les survivants font face à une crise alors que Gabriel et Aaron sont partis chercher de la nourriture.",
+          "video": "medias/series/the-walking-dead/10-19.mp4"
+        },
+        {
+          "title": "L'écharde",
+          "desc": "Les survivants Eugene, Ezekiel, Yumiko et « Princess » Juanita se retrouvent emprisonnés et isolés les uns des autres.",
+          "video": "medias/series/the-walking-dead/10-20.mp4"
+        },
+        {
+          "title": "Divergence",
+          "desc": "Arrivés à une bifurcation, Daryl et Carol décident d'emprunter un chemin différent. Quel impact cette décision aura t-elle sur leur relation ?",
+          "video": "medias/series/the-walking-dead/10-21.mp4"
+        },
+        {
+          "title": "Il était une fois Negan",
+          "desc": "Dans l'espoir de faire baisser les tensions, Carol entraîne Negan dans une excursion. Celui-ci met à profit cette diversion pour se remémorer tous les événements passés qui l'ont amené à être où il se trouve. Cela le pousse également à réfléchir à ce qu'il va faire dans l'avenir.",
+          "video": "medias/series/the-walking-dead/10-22.mp4"
+        }
+      ],
+      "11": [
+        {
+          "title": "Achéron, première partie",
+          "desc": "Partie trouver de la nourriture, Maggie propose un projet aux survivants d'Alexandria. Mais les ennuis s'accumulent.",
+          "video": "medias/series/the-walking-dead/11-1.mp4"
+        },
+        {
+          "title": "Achéron, deuxième partie",
+          "desc": "Dans les couloirs du métro, un des survivants ne parvient pas à se mettre à l'abri, et les morts-vivants s'infiltrent.",
+          "video": "medias/series/the-walking-dead/11-2.mp4"
+        },
+        {
+          "title": "Traqués",
+          "desc": "Magna et Kelly tentent d'apprivoiser des chevaux. De leur côté, Judith et Gracie font face au départ de leurs parents.",
+          "video": "medias/series/the-walking-dead/11-3.mp4"
+        },
+        {
+          "title": "Extradition",
+          "desc": "Daryl et Dog sont capturés par les Faucheurs et conduits à leur quartier général où ils retrouvent une connaissance.",
+          "video": "medias/series/the-walking-dead/11-4.mp4"
+        },
+        {
+          "title": "Sous les cendres",
+          "desc": "Aaron, Carol, Lydia et Jerry arpentent les ruines de la Colline, et le groupe d'Eugene veut s'intégrer au Commonwealth.",
+          "video": "medias/series/the-walking-dead/11-5.mp4"
+        },
+        {
+          "title": "Infiltré",
+          "desc": "Connie et Virgil trouvent refuge dans une demeure qui abrite d'étranges créatures. Pope teste la loyauté de Daryl.",
+          "video": "medias/series/the-walking-dead/11-6.mp4"
+        },
+        {
+          "title": "Promesses non tenues",
+          "desc": "Maggie et Elijah découvrent une tactique de survie grâce à Negan. Le groupe d'Eugene part éliminer des zombies.",
+          "video": "medias/series/the-walking-dead/11-7.mp4"
+        },
+        {
+          "title": "Offensive",
+          "desc": "Les Faucheurs défendent Meridian d'une horde. Les Alexandriens se protègent des rôdeurs, au cœur d'une tempête.",
+          "video": "medias/series/the-walking-dead/11-8.mp4"
+        },
+        {
+          "title": "Pas le choix",
+          "desc": "Daryl, Maggie, Gabriel, Negan et Elijah se battent contre la bande des Moissonneurs pour obtenir de la nourriture.",
+          "video": "medias/series/the-walking-dead/11-9.mp4"
+        },
+        {
+          "title": "Nouveaux repaires",
+          "desc": "Les héros vivent Halloween dans le Commonwealth ; Daryl et Rosita suivent une formation militaire dirigée par Mercer; Carol enquête sur l'état de santé d'Ezekiel.",
+          "video": "medias/series/the-walking-dead/11-10.mp4"
+        },
+        {
+          "title": "Transfuges",
+          "desc": "Stephanie a disparu, et Eugene se lance à sa recherche. Connie enquête sur le passé et l'histoire du soldat Davis.",
+          "video": "medias/series/the-walking-dead/11-11.mp4"
+        },
+        {
+          "title": "Les chanceux",
+          "desc": "Aaron et Maggie rencontrent la gouverneure Pamela Milton alors qu'elle visite la communauté d'Alexandria.",
+          "video": "medias/series/the-walking-dead/11-12.mp4"
+        },
+        {
+          "title": "Chefs de guerre",
+          "desc": "Maggie, Lydia et Elijah aident un survivant qui vient d'une autre communauté appelée Riverbend. Que s'y passe-t-il ?",
+          "video": "medias/series/the-walking-dead/11-13.mp4"
+        },
+        {
+          "title": "Pourri en son sein",
+          "desc": "Maggie, Lydia et Elijah viennent en aide à Aaron et Gabriel. Sebastian oblige Daryl et Rosita à commettre un braquage.",
+          "video": "medias/series/the-walking-dead/11-14.mp4"
+        },
+        {
+          "title": "Confiance",
+          "desc": "Entre la communauté de la Colline avec Maggie et celle de la République avec Daryl, les points de tension augmentent.",
+          "video": "medias/series/the-walking-dead/11-15.mp4"
+        },
+        {
+          "title": "Catastrophes naturelles",
+          "desc": "Maggie se prépare à défendre Hilltop; les habitants de Riverbend se défendent contre Hornsby; Hornsby engage Leah pour la tuer.",
+          "video": "medias/series/the-walking-dead/11-16.mp4"
+        },
+        {
+          "title": "Confinement",
+          "desc": "Daryl et Negan se précipitent vers le Commonwealth pour empêcher Hornsby de s'en prendre à leurs familles. Pamela s'occupe des manifestants qui demandent justice pour les crimes de Sebastian. Mercer a besoin de l'aide de Rosita pour combattre une horde.",
+          "video": "medias/series/the-walking-dead/11-17.mp4"
+        },
+        {
+          "title": "Un nouveau Pacte",
+          "desc": "Carol passe un accord avec Pamela pour effacer l'ardoise de ses amis. Aaron, Jerry, Lydia et Elijah partent à Oceanside pour les mettre au courant d'un plan. Le Commonwealth célèbre la Journée des fondateurs.",
+          "video": "medias/series/the-walking-dead/11-18.mp4"
+        },
+        {
+          "title": "Un variant",
+          "desc": "Eugene s'enfuit, et Mercer est chargé de le retrouver. Le groupe d'Aaron fait face à un imprévu sur la route.",
+          "video": "medias/series/the-walking-dead/11-19.mp4"
+        },
+        {
+          "title": "Ce qu'on a perdu",
+          "desc": "Daryl et Carol enquêtent sur le sort de leurs amis après que Pamela les ait fait disparaître du Commonwealth. Malheureusement, leur seule piste est Hornsby. Pendant ce temps, Pamela demande à Yumiko de poursuivre Eugene au nom du Commonwealth.",
+          "video": "medias/series/the-walking-dead/11-20.mp4"
+        },
+        {
+          "title": "L'avant-poste 22",
+          "desc": "Séparés de leurs enfants, Maggie, Gabriel et Rosita suivent un convoi militaire vers une destination mystérieuse. Ezekiel, Kelly, Negan et Annie se retrouvent sur un chantier. Daryl et Carol suivent un train qui a pris Connie à son bord.",
+          "video": "medias/series/the-walking-dead/11-21.mp4"
+        },
+        {
+          "title": "Foi",
+          "desc": "Ezekiel et Negan s'allient pour mener une révolte de travailleurs clandestins contre le directeur. Aaron, Jerry, Lydia et Elijah rattrapent Luke et Jules qui fuient Oceanside. Eugene est jugé avec Yumiko comme avocat de la défense.",
+          "video": "medias/series/the-walking-dead/11-22.mp4"
+        },
+        {
+          "title": "Famille",
+          "desc": "Les Alexandriens et les prisonniers retournent au Commonwealth pour affronter Pamela Milton. Pendant ce temps, un essaim de zombies s'approche de la ville.",
+          "video": "medias/series/the-walking-dead/11-23.mp4"
+        },
+        {
+          "title": "Repose en paix",
+          "desc": "Rosita, Gabriel et Eugene réussissent à sauver Coco, mais Rosita est mordue à l'épaule gauche en s'échappant. Après avoir emmené Judith dans une maison sûre, elle est soignée par Tomi et révèle à Daryl et Carol que Michonne était partie à la recherche d'un Rick encore vivant. Princesse et Max font sortir Mercer qui mène ses hommes et les forces de la coalition à affronter Pamela alors qu'elle se barricade dans les domaines. Alors que les gens à l'extérieur sont sur le point d'être dévorés, Daryl prononce un discours entraînant qui pousse les hommes de Pamela à se retourner contre elle et à permettre à tout le monde d'entrer. Mercer arrête Pamela pour ses crimes, mais elle essaie de se nourrir d'un Lance zombifié à la place. Reconnaissant que la prison est un pire sort pour Pamela, Maggie pose Lance et la sauve. Unis et rejoints par Aaron, Lydia, Jerry et Elijah, tout le monde attire le troupeau dans les domaines et le fait exploser, détruisant le troupeau et sauvant le Commonwealth.",
+          "video": "medias/series/the-walking-dead/11-24.mp4"
+        }
+      ]
+    }
+  },
+  "Qui a tué Sara ?": {
+    "title": "Qui a tué Sara ?",
+    "description": "Après 18 ans de prison, Álex se venge de la famille Lazcano qui l'a accusé à tort du meurtre de sa sœur Sara pour sauver sa réputation.",
+    "banner": "medias/series/qui-a-tue-sara/qui-a-tue-sara.jpg",
+    "IMDb": 6.4,
+    "IMDb_link": "https://www.imdb.com/title/tt11937816/",
+    "year": 2021,
+    "genres": [
+      "Spanish",
+      "Epic",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Suspense Mystery",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "creators": ["José Ignacio Valenzuela"],
+    "stars": ["Manolo Cardona", "Ginés Garcia Millan", "Carolina Miranda"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Ce n'était pas une erreur",
+          "desc": "Álex porte ses premiers coups contre la famille Lazcano lors de la cérémonie d'investiture de Rodolfo comme PDG. Une certaine \"Diane la chasseresse\" offre son aide.",
+          "video": "medias/series/qui-a-tue-sara/1-1.mp4"
+        },
+        {
+          "title": "Mauvaises personnes",
+          "desc": "César refusant de lui dire ce qui est arrivé à Sara il y a 18 ans, Elisa cherche des réponses auprès d'Álex. Chema et Lorenzo se mettent en quête de mères porteuses.",
+          "video": "medias/series/qui-a-tue-sara/1-2.mp4"
+        },
+        {
+          "title": "Affectueusement, Sara",
+          "desc": "Mariana reçoit un sinistre rappel du crime dans son courrier. Un flashback révèle que Sara connaissait le secret de Chema. Elisa s'infiltre dans la maison d'Álex.",
+          "video": "medias/series/qui-a-tue-sara/1-3.mp4"
+        },
+        {
+          "title": "Le monstre de la famille",
+          "desc": "Rodolfo rend visite à Álex et apprend un détail choquant sur la mort de Sara. Elisa souhaite qu'Álex lui accorde sa confiance, mais elle doit d'abord passer un test.",
+          "video": "medias/series/qui-a-tue-sara/1-4.mp4"
+        },
+        {
+          "title": "Assurance-vie",
+          "desc": "Les secrets des Lazcano commencent à peser trop lourd pour Elroy. Elisa et Álex assistent à une fête masquée au casino.",
+          "video": "medias/series/qui-a-tue-sara/1-5.mp4"
+        },
+        {
+          "title": "La chasse",
+          "desc": "Le côté le plus sombre de César est brutalement exposé lors de la soirée au casino, ébranlant la loyauté de la fratrie Lazcano. Le passé trouble d'Elroy est révélé.",
+          "video": "medias/series/qui-a-tue-sara/1-6.mp4"
+        },
+        {
+          "title": "Peur et culpabilité",
+          "desc": "Álex et la fratrie Lazcano se rendent à la propriété familiale. L'empire du jeu de César tremble à mesure que les événements de la soirée masquée deviennent publics.",
+          "video": "medias/series/qui-a-tue-sara/1-7.mp4"
+        },
+        {
+          "title": "Où les rêves se réalisent",
+          "desc": "Un autre suspect dans la mort de Sara entre en jeu. Chema partage une nouvelle avec sa famille, mais la révélation d'un secret lui vole la vedette.",
+          "video": "medias/series/qui-a-tue-sara/1-8.mp4"
+        },
+        {
+          "title": "Voir le monde brûler",
+          "desc": "Álex et Rodolfo fouillent le passé pour découvrir l'identité de Diane la chasseresse. Elisa aide Bruno à comprendre ce qui est arrivé à Emara.",
+          "video": "medias/series/qui-a-tue-sara/1-9.mp4"
+        },
+        {
+          "title": "Deux tombes",
+          "desc": "Des flashbacks éclairent ce terrible jour de 2001. Si le journal de Sara semble détenir la clé de son meurtre, un secret dissimulé dans un mur raconte une autre histoire.",
+          "video": "medias/series/qui-a-tue-sara/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "La double vie de Sara",
+          "desc": "Le cadavre retrouvé dans son jardin pourrait bien renvoyer Alex en prison. Afin de prouver son innocence, il cherche à en savoir plus auprès du psychiatre de Sara.",
+          "video": "medias/series/qui-a-tue-sara/2-1.mp4"
+        },
+        {
+          "title": "Tant de sang sur les mains",
+          "desc": "Lorenzo accepte de devenir l'avocat d'Alex, Mariana décide de s'occuper du sort d'Elroy, tandis qu'Elisa fait les frais de l'une des attaques d'Alex contre César.",
+          "video": "medias/series/qui-a-tue-sara/2-2.mp4"
+        },
+        {
+          "title": "Effondrement",
+          "desc": "A cause de l'obsession de vengeance d'Alex, Elisa prend une décision précipitée. Moncho entre par effraction chez Chema et Lorenzo. Sara fait une découverte choquante.",
+          "video": "medias/series/qui-a-tue-sara/2-3.mp4"
+        },
+        {
+          "title": "A toi de jouer",
+          "desc": "Six mois plus tard, Alex découvre l'identité du cadavre dans son jardin. Entre-temps, César a disparu et Elisa revient d'Europe.",
+          "video": "medias/series/qui-a-tue-sara/2-4.mp4"
+        },
+        {
+          "title": "Les morts parlent",
+          "desc": "Alex aide Lorenzo et Chema à gérer les répercussions de ce qui est arrivé chez eux. Sergio s'en prend à Elisa pour atteindre César. Une nuit, Nicandro aborde Marifer",
+          "video": "medias/series/qui-a-tue-sara/2-5.mp4"
+        },
+        {
+          "title": "Une affaire personnelle",
+          "desc": "Une agent se présente au bureau de Lorenzo pour en savoir plus sur Moncho. Marifer révèle à Nicandro son plan pour retrouver sa mère. Alex recherche Elisa.",
+          "video": "medias/series/qui-a-tue-sara/2-6.mp4"
+        },
+        {
+          "title": "Nous n'avons jamais été amis",
+          "desc": "Des flashbacks révèlent le lien qui unit Sara et Marifer. Le frère de Moncho se venge. Nicandro remet à Alex la preuve que Sara mène une double vie.",
+          "video": "medias/series/qui-a-tue-sara/2-7.mp4"
+        },
+        {
+          "title": "C'est moi qui ai tué Sara",
+          "desc": "Une cassette vidéo bien cachée devient une pièce à conviction cruciale qui permet à tous de réaliser qu'ils cherchaient le meurtrier de Sara au mauvais endroit.",
+          "video": "medias/series/qui-a-tue-sara/2-8.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Ce n'était pas une erreur",
+          "desc": "Alex porte ses premiers coups contre la famille Lazcano lors de la cérémonie d'investiture de Rodolfo comme PDG. Une certaine \"Diane la chasseresse\" offre son aide.",
+          "video": "medias/series/qui-a-tue-sara/3-1.mp4"
+        },
+        {
+          "title": "Mauvaises personnes",
+          "desc": "César refusant de lui dire ce qui est arrivé à Sara il y a 18 ans, Elisa cherche des réponses auprès d'Alex. Chema et Lorenzo se mettent en quête de mères porteuses.",
+          "video": "medias/series/qui-a-tue-sara/3-2.mp4"
+        },
+        {
+          "title": "Affectueusement, Sara",
+          "desc": "Mariana reçoit un sinistre rappel du crime dans son courrier. Un flashback révèle que Sara connaissait le secret de Chema. Elisa s'infiltre dans la maison d'Alex.",
+          "video": "medias/series/qui-a-tue-sara/3-3.mp4"
+        },
+        {
+          "title": "Le monstre de la famille",
+          "desc": "Rodolfo rend visite à Alex et apprend un détail choquant sur la mort de Sara. Elisa souhaite qu'Alex lui accorde sa confiance, mais elle doit d'abord passer un test.",
+          "video": "medias/series/qui-a-tue-sara/3-4.mp4"
+        },
+        {
+          "title": "Assurance-vie",
+          "desc": "Les secrets des Lazcano commencent à peser trop lourd pour Elroy. Elisa et Alex assistent à une fête masquée au casino.",
+          "video": "medias/series/qui-a-tue-sara/3-5.mp4"
+        },
+        {
+          "title": "La chasse",
+          "desc": "Le côté le plus sombre de César est brutalement exposé lors de la soirée au casino, ébranlant la loyauté de la fratrie Lazcano. Le passé trouble d'Elroy est révélé.",
+          "video": "medias/series/qui-a-tue-sara/3-6.mp4"
+        },
+        {
+          "title": "Peur et culpabilité",
+          "desc": "Alex et la fratrie Lazcano se rendent à la propriété familiale. L'empire du jeu de César tremble à mesure que les événements de la soirée masquée deviennent publics.",
+          "video": "medias/series/qui-a-tue-sara/3-7.mp4"
+        }
+      ]
+    }
+  },
+  "Prison Break": {
+    "title": "Prison Break",
+    "description": "Michael Scofield s'engage dans une véritable lutte contre la montre : son frère Lincoln est dans le couloir de la mort, en attente de son exécution. Persuadé de son innocence mais à court de solutions, Michael décide de se faire incarcérer à son tour dans le pénitencier d'état de Fox River pour organiser leur évasion...",
+    "banner": "medias/series/prison-break/prison-break.jpg",
+    "IMDb": 8.3,
+    "IMDb_link": "https://www.imdb.com/title/tt0455275/",
+    "year": 2005,
+    "genres": [
+      "Conspiracy Thriller",
+      "Prison Drama",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "creators": ["Paul T. Scheuring"],
+    "stars": ["Dominic Purcell", "Wentworth Miller", "Amaury Nolasco"],
+    "seasons": {
+      "1": [
+        {
+          "title": "La  Grande Évasion",
+          "desc": "Michael Scofield, ingénieur en génie civil, se fait emprisonner pour pouvoir préparer sur le terrain l'évasion de son frère, un condamné à mort qui dit avoir été piégé.",
+          "video": "medias/series/prison-break/1-1.mp4"
+        },
+        {
+          "title": "Allen",
+          "desc": "Michael essaie de mettre la main sur deux choses nécessaires à son plan d'évasion : un médicament qui le fera passer pour diabétique et une grande vis.",
+          "video": "medias/series/prison-break/1-2.mp4"
+        },
+        {
+          "title": "Mise à l'épreuve",
+          "desc": "En cherchant à recruter Abruzzi et Sucre, Michael se heurte à quelques difficultés. Quant à Lincoln, il veut qu'un membre de sa famille assiste à son exécution.",
+          "video": "medias/series/prison-break/1-3.mp4"
+        },
+        {
+          "title": "Alchimie",
+          "desc": "Michael se procure les agents corrosifs nécessaires à son plan d'évasion. Son nouveau compagnon de cellule, le Disjoncté, s'intéresse d'un peu trop près à son tatouage.",
+          "video": "medias/series/prison-break/1-4.mp4"
+        },
+        {
+          "title": "Le Transfert",
+          "desc": "Kellerman et Hale se démènent pour faire transférer Michael, mais il parvient à déjouer leurs plans et teste la première partie de son itinéraire d'évasion.",
+          "video": "medias/series/prison-break/1-5.mp4"
+        },
+        {
+          "title": "Au cœur de l'enfer (1)",
+          "desc": "Le stratagème de Michael, pour pouvoir creuser plus longtemps en provoquant un confinement en cellule, tourne à l'émeute. Kellerman paie un détenu pour qu'il tue Lincoln.",
+          "video": "medias/series/prison-break/1-6.mp4"
+        },
+        {
+          "title": "Au cœur de l'enfer (2)",
+          "desc": "Pendant l'émeute, Michael sauve Sara, l'assassin essaie de tuer Lincoln et Bellick met Pope au défi de parler au gouverneur.",
+          "video": "medias/series/prison-break/1-7.mp4"
+        },
+        {
+          "title": "Route 66",
+          "desc": "Tandis que Michael cherche un accès à la salle de repos des gardiens, Kellerman et Hale tentent d'assassiner Veronica et L.J.",
+          "video": "medias/series/prison-break/1-8.mp4"
+        },
+        {
+          "title": "Un homme hors du commun",
+          "desc": "T-Bag perd un esclave et jette son dévolu sur le suivant. Quant à Abruzzi, sa dégringolade dans la hiérarchie de la prison met en péril le plan d'évasion.",
+          "video": "medias/series/prison-break/1-9.mp4"
+        },
+        {
+          "title": "Cause perdue",
+          "desc": "Pour reprendre le contrôle de l'équipe de travail pénitentiaire et ne pas perdre toute chance de s'évader, Abruzzi persuade Michael de livrer Fibonacci à Falzone.",
+          "video": "medias/series/prison-break/1-10.mp4"
+        },
+        {
+          "title": "Un de trop",
+          "desc": "Michael fabrique un appareil destiné à calculer le temps nécessaire à l'évasion du groupe auquel vient s'ajouter une nouvelle recrue, Westmoreland.",
+          "video": "medias/series/prison-break/1-11.mp4"
+        },
+        {
+          "title": "Rédemption",
+          "desc": "Lincoln prévient Michael qu'il lui faudra abandonner un homme, et Abruzzi menace de tuer T-Bag s'il ne renonce pas à s'échapper.",
+          "video": "medias/series/prison-break/1-12.mp4"
+        },
+        {
+          "title": "Au bout du tunnel",
+          "desc": "Alors que l'exécution de Lincoln est imminente, Michael met son plan à exécution. Kellerman demande des comptes à Hale, et Veronica s'adresse aux médias.",
+          "video": "medias/series/prison-break/1-13.mp4"
+        },
+        {
+          "title": "Comme un rat",
+          "desc": "Tandis que Michael se surpasse en sabotant la chaise électrique pour retarder l'exécution de Lincoln, Veronica et Nick essaient de faire exhumer le corps de Steadman.",
+          "video": "medias/series/prison-break/1-14.mp4"
+        },
+        {
+          "title": "In extremis",
+          "desc": "Lincoln obtient un report d'exécution quand le juge ordonne l'exhumation du corps de Steadman, et Sucre aide Michael à vérifier le nouvel itinéraire vers l'infirmerie.",
+          "video": "medias/series/prison-break/1-15.mp4"
+        },
+        {
+          "title": "Les Blessures de l'âme",
+          "desc": "Des flashbacks retracent les événements qui ont envoyé Michael, Lincoln, Sucre, C-Note et T-Bag en prison, et expliquent comment Sara en est venue à y travailler.",
+          "video": "medias/series/prison-break/1-16.mp4"
+        },
+        {
+          "title": "Dépression",
+          "desc": "Alors que Michael est placé à l'isolement, Sucre doit se débrouiller seul pour reboucher le trou creusé dans la salle de repos des gardiens.",
+          "video": "medias/series/prison-break/1-17.mp4"
+        },
+        {
+          "title": "Poker menteur",
+          "desc": "Tandis que Michael aide le Disjoncté à se remémorer le tatouage manquant, les autres membres de l'équipe empêchent Bellick de réattribuer la cellule de Michael et Sucre.",
+          "video": "medias/series/prison-break/1-18.mp4"
+        },
+        {
+          "title": "La Clef",
+          "desc": "Michael cherche comment dérober la clé de l'infirmerie à Sara. Pendant ce temps, Lincoln découvre le rôle joué par son père dans les événements qui ont détruit sa vie.",
+          "video": "medias/series/prison-break/1-19.mp4"
+        },
+        {
+          "title": "Sans retour",
+          "desc": "Une fois le trou découvert, les détenus n'ont d'autre choix que de s'évader d'urgence, mais ils devront peut-être abandonner Lincoln qui est étroitement surveillé.",
+          "video": "medias/series/prison-break/1-20.mp4"
+        },
+        {
+          "title": "Le Grand Soir",
+          "desc": "Michael force Pope à transférer Lincoln de l'isolement à l'infirmerie, et les évadés parviennent tant bien que mal jusqu'au bureau de Sara.",
+          "video": "medias/series/prison-break/1-21.mp4"
+        },
+        {
+          "title": "Les Fugitifs",
+          "desc": "Après l'évasion, c'est un Bellick forcené qui prend la tête d'une gigantesque chasse à l'homme, tandis que la vice-présidente joue son va-tout pour accaparer le pouvoir.",
+          "video": "medias/series/prison-break/1-22.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Chasse à l'homme",
+          "desc": "Michael et ses acolytes faussent compagnie à Bellick, le forçant ainsi à passer la main à un agent du FBI qui parvient à déchiffrer le plan d'évasion de Michael.",
+          "video": "medias/series/prison-break/2-1.mp4"
+        },
+        {
+          "title": "Otis",
+          "desc": "Mahone fait de L.J. un appât pour piéger Lincoln et Michael. Alors qu'ils tentent désespérément de faire sortir L.J. du tribunal, les frères retrouvent leur poursuivant.",
+          "video": "medias/series/prison-break/2-2.mp4"
+        },
+        {
+          "title": "L'erreur est humaine",
+          "desc": "L'atout maître de Michael est désormais entre les mains de Mahone. Quant à Bellick, il a été renvoyé et s'adjoint un partenaire pour remettre la main sur les évadés.",
+          "video": "medias/series/prison-break/2-3.mp4"
+        },
+        {
+          "title": "Association de malfaiteurs",
+          "desc": "Bellick capture Michael et son équipe, mais ce n'est pas la récompense de la police qui l'intéresse. Quant à T-Bag, il échappe de justesse aux flics dans le Nebraska.",
+          "video": "medias/series/prison-break/2-4.mp4"
+        },
+        {
+          "title": "Plan 1213",
+          "desc": "Les frères arrivent enfin dans l'Utah, mais ils ne sont malheureusement pas seuls. Inconsciente du danger, Sara invite Kellerman chez elle.",
+          "video": "medias/series/prison-break/2-5.mp4"
+        },
+        {
+          "title": "L'étau se resserre",
+          "desc": "Pour récupérer les millions enterrés, Michael doit convaincre T-Bag de se rappeler le plan qu'il a mémorisé, tandis que Mahone s'approche dangereusement de sa proie.",
+          "video": "medias/series/prison-break/2-6.mp4"
+        },
+        {
+          "title": "Les Confessions",
+          "desc": "Les évadés mettent la main sur le trésor, mais Sucre a d'autres desseins. De son côté, Lincoln risque tout pour retrouver L.J., et Sara atterrit sur le radar du Cartel.",
+          "video": "medias/series/prison-break/2-7.mp4"
+        },
+        {
+          "title": "À la vie, à la mort",
+          "desc": "Avec l'argent envolé et la police aux trousses, Michael et Sucre n'ont pas d'autre solution que de se jeter à l'eau, mais le fleuve leur réserve un piège mortel.",
+          "video": "medias/series/prison-break/2-8.mp4"
+        },
+        {
+          "title": "Le Duel",
+          "desc": "Michael rend visite à l'ex-femme de Mahone et commence à comprendre le sombre secret de l'agent. Quant à Kellerman, il continue sa traque morbide de Sara.",
+          "video": "medias/series/prison-break/2-9.mp4"
+        },
+        {
+          "title": "Rendez-vous",
+          "desc": "Bellick emploie la force pour contraindre T-Bag à cracher son secret. Michael revoit enfin Sara, mais leurs retrouvailles, interrompues par Mahone, sont de courte durée.",
+          "video": "medias/series/prison-break/2-10.mp4"
+        },
+        {
+          "title": "Bolshoï Booze",
+          "desc": "Pour mettre son fils à l'abri et rejoindre Michael, Lincoln doit se séparer de L.J. T-Bag échappe à la police, en payant le prix fort, et Kellerman torture Sara.",
+          "video": "medias/series/prison-break/2-11.mp4"
+        },
+        {
+          "title": "Si près du but",
+          "desc": "C-Note cherche des médicaments pour sa fille. Bellick est au centre d'une enquête. Aldo s'explique et se réconcilie avec Michael, mais il le paie très cher.",
+          "video": "medias/series/prison-break/2-12.mp4"
+        },
+        {
+          "title": "Le Piège parfait",
+          "desc": "Arrêtés, Michael et Lincoln sont en route pour la prison de Fox River, mais Mahone et Kellerman font tout pour que les frères n'arrivent pas vivants à destination.",
+          "video": "medias/series/prison-break/2-13.mp4"
+        },
+        {
+          "title": "Un simple inconnu",
+          "desc": "Kellerman met Michael et Lincoln en présence de Steadman, mais leur plan échoue. De son côté, Bellick se met à dos un dangereux prisonnier de Fox River.",
+          "video": "medias/series/prison-break/2-14.mp4"
+        },
+        {
+          "title": "Entre les lignes",
+          "desc": "Pendant leur cavale avec Kellerman, Michael et Lincoln racontent leur histoire à la télévision nationale, et Michael en profite pour envoyer un message codé à Sara.",
+          "video": "medias/series/prison-break/2-15.mp4"
+        },
+        {
+          "title": "La Fin du voyage",
+          "desc": "Pendant le braquage d'un restaurant, C-Note doit laisser de côté la santé de sa fille pour sauver la vie d'une serveuse. Kellerman résout l'énigme de la clé de Sara.",
+          "video": "medias/series/prison-break/2-16.mp4"
+        },
+        {
+          "title": "Le Péché originel",
+          "desc": "Michael et Sara demandent à Pope de récupérer la preuve qui permettra de renverser le Cartel. De son côté, un évadé doit choisir entre sa fille et ses comparses.",
+          "video": "medias/series/prison-break/2-17.mp4"
+        },
+        {
+          "title": "Dernière chance",
+          "desc": "Michael, Lincoln et Sara ont enfin mis la main sur l'enregistrement qui innocente Lincoln, mais il leur faut un allié au gouvernement pour faire éclater la vérité.",
+          "video": "medias/series/prison-break/2-18.mp4"
+        },
+        {
+          "title": "Le Chantage",
+          "desc": "Michael rencontre enfin la présidente. Pendant ce temps, l'agent Wheeler propose à C-Note de le libérer, à condition qu'il trahisse Mahone.",
+          "video": "medias/series/prison-break/2-19.mp4"
+        },
+        {
+          "title": "Panama",
+          "desc": "Alors que les frères s'apprêtent à embarquer pour la liberté, Sara se sacrifie par amour pour leur permettre de fuir.",
+          "video": "medias/series/prison-break/2-20.mp4"
+        },
+        {
+          "title": "L'Appât du gain",
+          "desc": "Michael est bien décidé à récupérer les 5 millions de dollars et à mettre fin au règne de la terreur de T-Bag. Pendant ce temps, le procès de Sara s'ouvre à Chicago.",
+          "video": "medias/series/prison-break/2-21.mp4"
+        },
+        {
+          "title": "Sona",
+          "desc": "Pour sauver son frère, Michael essaie de contourner les conséquences de la trahison de Mahone. Un témoin-surprise renverse la donne au procès de Sara.",
+          "video": "medias/series/prison-break/2-22.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Survivre",
+          "desc": "À Sona, Michael se met à dos le criminel qui fait la loi dans la prison. À l'extérieur, Lincoln recherche Sara, avec des conséquences catastrophiques.",
+          "video": "medias/series/prison-break/3-1.mp4"
+        },
+        {
+          "title": "L'Eau et le Feu",
+          "desc": "Michael essaie d'assurer la sécurité du prisonnier James Whistler dont sa liberté dépend. Quant à Lincoln, il enquête sur Sofia.",
+          "video": "medias/series/prison-break/3-2.mp4"
+        },
+        {
+          "title": "Le Chat et la Souris",
+          "desc": "Après une série de contretemps, Michael finit par découvrir Whistler qui lui apprend la vérité. De son côté, Lincoln s'efforce de sauver Sara et L.J.",
+          "video": "medias/series/prison-break/3-3.mp4"
+        },
+        {
+          "title": "Chacun pour soi",
+          "desc": "À Sona, Mahone est sujet à des hallucinations, T-Bag monte en grade dans la prison, et Michael conçoit un nouveau plan d'évasion.",
+          "video": "medias/series/prison-break/3-4.mp4"
+        },
+        {
+          "title": "Interférence",
+          "desc": "Alors que Michael est à deux doigts de l'évasion, un nouveau détenu, qui semble connaître le passé de Whistler, fait son entrée en prison.",
+          "video": "medias/series/prison-break/3-5.mp4"
+        },
+        {
+          "title": "Le Dernier Combat",
+          "desc": "La tentative d'évasion est compromise lorsque Whistler est accusé de meurtre. Mahone se voit offrir un marché intéressant, et Lincoln et Sofia doivent droguer un gardien.",
+          "video": "medias/series/prison-break/3-6.mp4"
+        },
+        {
+          "title": "Œil pour œil",
+          "desc": "Une valse des allégeances s'engage à l'occasion du combat à mort entre Michael et Whistler, et le pouvoir de Lechero est sérieusement mis à mal.",
+          "video": "medias/series/prison-break/3-7.mp4"
+        },
+        {
+          "title": "Plus dure sera la chute",
+          "desc": "Susan, dans un dernier effort désespéré pour sortir Whistler de Sona, met tout le monde en danger.",
+          "video": "medias/series/prison-break/3-8.mp4"
+        },
+        {
+          "title": "Contre-pouvoir",
+          "desc": "À Sona, un nouveau maton place Michael à l'isolement, avant de lui redonner espoir. Par la suite, Mahone et T-Bag se joignent aux détenus candidats à l'évasion.",
+          "video": "medias/series/prison-break/3-9.mp4"
+        },
+        {
+          "title": "Régner ou mourir",
+          "desc": "Michael, Mahone, Whistler et Lechero essaient de s'enfuir par le tunnel, tandis que Sofia découvre un portefeuille caché dans le sac de Whistler.",
+          "video": "medias/series/prison-break/3-10.mp4"
+        },
+        {
+          "title": "30 secondes",
+          "desc": "Alors que Michael met le point final à son plan d'évasion, ses acolytes se retournent contre lui. De son côté, Whistler envisage la trahison quand Sofia est menacée.",
+          "video": "medias/series/prison-break/3-11.mp4"
+        },
+        {
+          "title": "Contre vents et marées",
+          "desc": "Michael, Whistler, Mahone et McGrady échappent enfin à l'enfer de Sona, mais leur plan est compromis et l'échange tourne court.",
+          "video": "medias/series/prison-break/3-12.mp4"
+        },
+        {
+          "title": "Vengeance",
+          "desc": "Parmi les rebondissements du dernier épisode de la troisième saison, L.J. et Whistler sont échangés, et les machinations de T-Bag finissent par porter leurs fruits.",
+          "video": "medias/series/prison-break/3-13.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Épisode 1 & 2",
+          "desc": "Alors qu'il cherche à se venger de la mort de Sara, Michael apprend quelque chose d'inimaginable. Pendant ce temps, T-Bag, en fuite, est abandonné dans le désert.",
+          "video": "medias/series/prison-break/4-1.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Ogygia",
+          "desc": "7 ans après la mort de Michael Scofield, Lincoln Burrows est retombé dans ses vieux travers, Sara Scofield a refait sa vie et T-Bag est libéré de Fox River pour bonne conduite. Ce dernier récupère un courrier anonyme contenant une photo de Michael, laissant supposer qu'il est en vie, et le nom d'une prison au Yemen : Ogygia. Lincoln demande l'aide de C-Note, devenu religieux, pour se rendre dans ce pays en guerre civile et retrouver son frère…",
+          "video": "medias/series/prison-break/5-1.mp4"
+        },
+        {
+          "title": "La Théorie des jeux",
+          "desc": "Au Yemen, alors que la ville est assiégée par l'État islamique, Lincoln et C-Note reçoivent un message leur demandant de trouver le « Sheik de la lumière ». Emprisonné sous le patronyme de Kaniel Outis, terroriste accusé d'avoir tué un agent de la CIA, Michael prépare son évasion avec son compagnon de cellule, Whip. Après avoir eu la preuve que Michael est en vie, Sara contacte le département d'État où elle a la désagréable surprise de tomber sur Paul Kellerman…",
+          "video": "medias/series/prison-break/5-2.mp4"
+        },
+        {
+          "title": "Le Menteur",
+          "desc": "Lincoln et Sucre reçoivent un nouveau message de Michael, leur indiquant le point de rendez-vous après son évasion de la prison d'Ogygia, prévue le soir-même. Mise en garde par T-Bag sur les deux personnes qui la poursuivent, Sara découvre que son téléphone a été piraté lors de son entrevue avec Kellerman…",
+          "video": "medias/series/prison-break/5-3.mp4"
+        },
+        {
+          "title": "L'Ennemi de mon ennemi",
+          "desc": "Daesh étant sur le point de prendre le contrôle de la prison d'Oygia, Michael et ses amis codétenus pactisent avec le diable pour s'évader en s'alliant avec le chef des terroristes, Abu Ramal. T-Bag apprend par Kellerman qu'un ex-agent infiltré de la CIA, agissant pour son propre compte, tirerait les ficelles de toute cette affaire…",
+          "video": "medias/series/prison-break/5-4.mp4"
+        },
+        {
+          "title": "Solutions d'urgence",
+          "desc": "Maintenant qu'il a retrouvé son frère, Lincoln exige des explications de Michael, qui lui confie avoir accepté de disparaître et de travailler pour Poséidon pour protéger sa famille. Sara découvre l'implication de son mari, Jacob Anton Ness, que T-Bag a pris en photo avec les deux tueurs…",
+          "video": "medias/series/prison-break/5-5.mp4"
+        },
+        {
+          "title": "Prisonniers du désert",
+          "desc": "Pour sortir de la ville et alors qu'ils sont toujours poursuivis, les deux frères et les évadés d'Ogygia n'ont d'autre choix que de fuir à travers le désert. De leur côté, les deux agents de la CIA font appel à la NSA pour localiser Kaniel Outis, qu'ils ont pour mission de tuer…",
+          "video": "medias/series/prison-break/5-6.mp4"
+        },
+        {
+          "title": "La Traversée",
+          "desc": "Lincoln parvient à embarquer avec Michael pour la Crète où Sara les rejoint pour soigner ce dernier, blessé et empoisonné. Les deux frères rejoignent ensuite Sucre sur un autre navire pour traverser l'Atlantique. Lorsqu'il voit la photo de son mari, Michael confirme à Sara que Jacob Anton Ness est bien Poséidon…",
+          "video": "medias/series/prison-break/5-7.mp4"
+        },
+        {
+          "title": "Descendance",
+          "desc": "Récupérés en mer et débarqués à Marseille, les deux frères parviennent à prendre un avion pour les États-Unis où ils échappent une fois de plus aux deux agents de Poséidon. Mais ce dernier détient Mike et Sara…",
+          "video": "medias/series/prison-break/5-8.mp4"
+        },
+        {
+          "title": "Le Dernier Plan",
+          "desc": "Poséidon retient toujours son fils mais Michael met en exécution le plan qu'il prépare depuis 7 ans pour faire tomber celui qui l'a piégé…",
+          "video": "medias/series/prison-break/5-9.mp4"
+        }
+      ]
+    }
+  },
+  "The Night Agent": {
+    "title": "The Night Agent",
+    "description": "Lorsqu'un agent du FBI répond à l'appel téléphonique nocturne d'une experte en cybersécurité, ils se retrouvent à dénouer un écheveau de complots politiques qui ne cesse de s'étendre.",
+    "banner": "medias/series/the-night-agent/the-night-agent.jpg",
+    "IMDb": 7.4,
+    "IMDb_link": "https://www.imdb.com/title/tt13918776/",
+    "year": 2023,
+    "genres": ["Conspiracy Thriller", "Action", "Drama", "Thriller"],
+    "creators": ["Millicent Shelton"],
+    "stars": ["Luciane Buchanan", "Gabriel Basso", "Fola Evans-Akingbola"],
+    "trailer": "",
+    "seasons": {
+      "1": [
+        {
+          "title": "L'appel",
+          "desc": "Alors qu'il assure le Night Action de la Maison-Blanche, Peter, agent du FBI, reçoit un appel de détresse, puis se voit chargé de protéger Rose, experte en cybersécurité.",
+          "video": "medias/series/the-night-agent/1-1.mp4"
+        },
+        {
+          "title": "Numéro en mémoire",
+          "desc": "Après avoir établi un lien entre les Campbell et le FBI, Peter est contraint de s'enfuir avec Rose à la recherche d'un disque dur, et d'autres réponses.",
+          "video": "medias/series/the-night-agent/1-2.mp4"
+        },
+        {
+          "title": "La gardienne du zoo",
+          "desc": "Peter collabore avec Rose pour une mission périlleuse à la Maison-Blanche. En parallèle, un agent de renom rejoint le service de sécurité de la fille du vice-président.",
+          "video": "medias/series/the-night-agent/1-3.mp4"
+        },
+        {
+          "title": "Pas pour tout le monde",
+          "desc": "Rose et Peter se renseignent auprès de l'un des contacts des Campbell et obtiennent de précieuses informations. Monks se confie à Chelsea. Paulo se rapproche de Maddie.",
+          "video": "medias/series/the-night-agent/1-4.mp4"
+        },
+        {
+          "title": "La marionnette",
+          "desc": "Peter rend visite à une personne de l'entourage de Hawkins. Rose fait un rapprochement crucial. La soirée de Maddie tourne au vinaigre, obligeant les services secrets à intervenir.",
+          "video": "medias/series/the-night-agent/1-5.mp4"
+        },
+        {
+          "title": "En eaux profondes",
+          "desc": "Des tueurs aux trousses, Peter et Rose se séparent sur la route de la Maison-Blanche. Mais une découverte choquante change brutalement le cours de leur vie.",
+          "video": "medias/series/the-night-agent/1-6.mp4"
+        },
+        {
+          "title": "Un plat qui se mange froid",
+          "desc": "Désormais en cavale ensemble, Peter et Rose font plus ample connaissance tout en enquêtant. À la Maison-Blanche, les conspirateurs se procurent une vidéo perturbante.",
+          "video": "medias/series/the-night-agent/1-7.mp4"
+        },
+        {
+          "title": "Retour sur image",
+          "desc": "L'identité et les plans du suspect de l'attentat font surface. Chelsea et Peter foncent pour retrouver Maddie alors qu'elle a envoyé un message codé dans une vidéo.",
+          "video": "medias/series/the-night-agent/1-8.mp4"
+        },
+        {
+          "title": "Un mal familier",
+          "desc": "Après de nouvelles révélations, Peter et Rose se démènent afin de trouver plus de preuves grâce à Chelsea et Maddie. Une menace encore plus grave plane sur Camp David.",
+          "video": "medias/series/the-night-agent/1-9.mp4"
+        },
+        {
+          "title": "Les pères",
+          "desc": "Le petit groupe tente de déjouer un complot odieux avant que des vies ne soient perdues. Peter doit ensuite affronter son propre passé pour entamer un nouveau chapitre.",
+          "video": "medias/series/the-night-agent/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Suivi d'appel",
+          "desc": "Après une mission désastreuse à Bangkok, Peter disparaît pour suivre un agent américain accusé de divulguer des informations. Pendant ce temps, Rose reçoit un appel troublant.",
+          "video": "medias/series/the-night-agent/2-1.mp4"
+        },
+        {
+          "title": "Déconnexion",
+          "desc": "Enfin réunis, Peter et Rose foncent pour intercepter Warren. Noor envisage d'utiliser son accès à des informations iraniennes classifiées pour servir des intérêts personnels.",
+          "video": "medias/series/the-night-agent/2-2.mp4"
+        },
+        {
+          "title": "Biens publics",
+          "desc": "Catherine aide Peter qui enquête sur Foxglove en secret, tandis que Noor tombe sur une personne inattendue. Un braquage tourne mal.",
+          "video": "medias/series/the-night-agent/2-3.mp4"
+        },
+        {
+          "title": "Des mesures désespérées",
+          "desc": "Peter et Rose infiltrent une fête chez l'ambassadeur d'Iran, éveillant les soupçons de Javad. Tomas et Markus s'accrochent au sujet du plan Foxglove.",
+          "video": "medias/series/the-night-agent/2-4.mp4"
+        },
+        {
+          "title": "Une affaire de famille",
+          "desc": "Très intéressé à l'idée d'obtenir des infos sur Night Action, Jacob fait une offre alléchante à Solomon. Javad sent que quelqu'un le trahit. Sami part en mission secrète en Iran.",
+          "video": "medias/series/the-night-agent/2-5.mp4"
+        },
+        {
+          "title": "Un bon agent",
+          "desc": "Rose traverse une crise de conscience. Viktor révèle son véritable objectif à Tomas. Le chasseur devient la proie quand l'équipe de Solomon traque les moindres faits et gestes de Peter.",
+          "video": "medias/series/the-night-agent/2-6.mp4"
+        },
+        {
+          "title": "Coup de sang",
+          "desc": "Peter se montre sans pitié pour forcer Solomon à parler. Sur une piste, Rose cherche des réponses auprès d'un scientifique de Foxglove... et se retrouve dans une situation mortelle.",
+          "video": "medias/series/the-night-agent/2-7.mp4"
+        },
+        {
+          "title": "Divergence",
+          "desc": "Prêt à tout pour retrouver Rose, Peter passe un accord qui change la donne avec Jacob. Tomas découvre jusqu'où Markus est prêt à aller pour servir son père.",
+          "video": "medias/series/the-night-agent/2-8.mp4"
+        },
+        {
+          "title": "Échange culturel",
+          "desc": "Peter doit vraiment tout donner pour s'introduire dans l'un des bâtiments les plus sécurisés de New York. Rose et le professeur Cole imaginent un plan audacieux pour neutraliser Markus.",
+          "video": "medias/series/the-night-agent/2-9.mp4"
+        },
+        {
+          "title": "Le prix à payer",
+          "desc": "Pris par le temps, Peter et Rose se précipitent pour empêcher une catastrophe qui pourrait faire de très nombreuses victimes. Catherine fait une proposition intéressante.",
+          "video": "medias/series/the-night-agent/2-10.mp4"
+        }
+      ]
+    }
   }
 }
