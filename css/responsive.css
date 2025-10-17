@@ -68,6 +68,10 @@
   .slider-dots {
     gap: 1rem;
   }
+
+  .slider-track {
+    height: 220px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -112,6 +116,10 @@
   .slider-dots {
     margin-top: 0.7rem;
     gap: 0.7rem;
+  }
+
+  .slider-track {
+    height: 120px;
   }
 }
 
@@ -171,5 +179,9 @@
   .slider-dots {
     margin-top: 0.4rem;
     gap: 0.4rem;
+  }
+
+  .slider-track {
+    height: 80px;
   }
 }

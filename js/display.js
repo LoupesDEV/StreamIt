@@ -199,38 +199,46 @@ function renderFeaturedSlider() {
 
   function render() {
     slider.innerHTML = `
-            <div class="slider-wrapper">
-                <div class="slider-track">
-                    ${featuredItems
-                      .map(
-                        (item, idx) => `
-                        <div class="slider-card featured" data-idx="${idx}" style="cursor:pointer;">
-                            <img src="${item.banner}" alt="${item.title}" class="slider-img">
-                            <div class="slider-overlay">
-                                <div class="slider-card-title">${item.title}</div>
-                                <div class="slider-card-desc">${item.description}</div>
-                            </div>
-                        </div>
-                    `
-                      )
-                      .join("")}
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          ${featuredItems
+            .map(
+              (item, idx) => `
+              <div class="slider-card featured ${
+                idx === currentIndex ? "active" : ""
+              }"
+                   data-idx="${idx}" style="cursor:pointer;" aria-hidden="${
+                idx === currentIndex ? "false" : "true"
+              }">
+                <img src="${item.banner}" alt="${
+                item.title
+              }" class="slider-img">
+                <div class="slider-overlay">
+                  <div class="slider-card-title">${item.title}</div>
+                  <div class="slider-card-desc">${item.description}</div>
                 </div>
-                <div class="slider-dots">
-                    ${featuredItems
-                      .map(
-                        (_, dotIdx) => `
-                        <span class="slider-dot${
-                          dotIdx === currentIndex ? " active" : ""
-                        }" data-idx="${dotIdx}"></span>
-                    `
-                      )
-                      .join("")}
-                </div>
-            </div>
-        `;
+              </div>
+            `
+            )
+            .join("")}
+        </div>
+        <div class="slider-dots">
+          ${featuredItems
+            .map(
+              (_, dotIdx) => `
+                <span class="slider-dot${
+                  dotIdx === currentIndex ? " active" : ""
+                }" data-idx="${dotIdx}"></span>
+              `
+            )
+            .join("")}
+        </div>
+      </div>
+    `;
 
-    const track = slider.querySelector(".slider-track");
-    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    // No horizontal translate needed anymore
+    // const track = slider.querySelector(".slider-track");
+    // track.style.transform = `translateX(-${currentIndex * 100}%)`;
 
     slider.querySelectorAll(".slider-card.featured").forEach((card) => {
       card.onclick = () => {
