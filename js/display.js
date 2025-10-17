@@ -212,7 +212,7 @@ function renderFeaturedSlider() {
               }">
                 <img src="${item.banner}" alt="${
                 item.title
-              }" class="slider-img">
+              }" class="slider-img" onerror="this.style.display='none'">
                 <div class="slider-overlay">
                   <div class="slider-card-title">${item.title}</div>
                   <div class="slider-card-desc">${item.description}</div>
