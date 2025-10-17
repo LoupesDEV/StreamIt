@@ -3172,7 +3172,7 @@
       "6": [
         {
           "title": "Joan est horrible",
-          "desc": "Une femme d'âge moyen est stupéfaite de découvrir qu'une plate-forme mondiale de streaming a lancé une adaptation dramatique télévisée de prestige de sa vie – dans laquelle elle est représentée par la star d'Hollywood Salma Hayek Pinault.",
+          "desc": "Une femme d'âge moyen est stupéfaite de découvrir qu'une plate-forme mondiale de streaming a lancé une adaptation dramatique télévisée de prestige de sa vie - dans laquelle elle est représentée par la star d'Hollywood Salma Hayek Pinault.",
           "video": "medias/series/black-mirror/6-1.mp4"
         },
         {
@@ -3749,7 +3749,7 @@
         },
         {
           "title": "Respirez",
-          "desc": "Tandis que Jimmy joue de son charme lors d'un entretien d'embauche, Gus surveille de près l’évolution du coma d'Hector Salamanca. Outrée, Kim craque, et incendie Howard.",
+          "desc": "Tandis que Jimmy joue de son charme lors d'un entretien d'embauche, Gus surveille de près l'évolution du coma d'Hector Salamanca. Outrée, Kim craque, et incendie Howard.",
           "video": "medias/series/better-call-saul/4-2.mp4"
         },
         {
@@ -3769,7 +3769,7 @@
         },
         {
           "title": "Piñatas",
-          "desc": "Kim décide de stimuler sa carrière, ce qui complique les plans déjà alambiqués de Jimmy. Mike et Gus verrouillent leur organisation avant l’arrivée d'ouvriers allemands.",
+          "desc": "Kim décide de stimuler sa carrière, ce qui complique les plans déjà alambiqués de Jimmy. Mike et Gus verrouillent leur organisation avant l'arrivée d'ouvriers allemands.",
           "video": "medias/series/better-call-saul/4-6.mp4"
         },
         {
@@ -3999,7 +3999,7 @@
           "video": "medias/series/the-walking-dead/1-2.mp4"
         },
         {
-          "title": "T’as qu’à discuter avec les grenouilles",
+          "title": "T'as qu'à discuter avec les grenouilles",
           "desc": "Rick retourne à Atlanta afin de récupérer le sac d'armes et sauver la vie d'un homme. Lori et Shane doivent faire face au retour d'une personne qu'ils croyaient morte.",
           "video": "medias/series/the-walking-dead/1-3.mp4"
         },
@@ -5530,6 +5530,1029 @@
           "title": "Le prix à payer",
           "desc": "Pris par le temps, Peter et Rose se précipitent pour empêcher une catastrophe qui pourrait faire de très nombreuses victimes. Catherine fait une proposition intéressante.",
           "video": "medias/series/the-night-agent/2-10.mp4"
+        }
+      ]
+    }
+  },
+  "Stranger Things": {
+    "title": "Stranger Things",
+    "description": "Quand un jeune garçon disparaît, une petite ville découvre une affaire mystérieuse, des expériences secrètes, des forces surnaturelles terrifiantes... et une fillette.",
+    "banner": "medias/series/stranger-things/stranger-things.jpg",
+    "IMDb": 8.6,
+    "IMDb_link": "https://www.imdb.com/title/tt4574334/",
+    "year": 2016,
+    "genres": [
+      "Dark Fantasy",
+      "Fantasy Epic",
+      "Monster Horror",
+      "Sci-Fi Epic",
+      "Supernatural Fantasy",
+      "Supernatural Horror",
+      "Teen Horror",
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "creators": ["Matt Duffer", "Ross Duffer"],
+    "stars": ["Winona Ryder", "David Harbour", "Finn Wolfhard"],
+    "trailer": "https://www.youtube.com/watch?v=l7nzodXfVsg",
+    "seasons": {
+      "1": [
+        {
+          "title": "Chapitre un : La Disparition de Will Byers",
+          "desc": "Tandis qu'il rentre chez lui, le jeune Will est témoin d'une scène terrifiante. Non loin de là, un sinistre secret hante les sous-sols d'un laboratoire du gouvernement.",
+          "video": "medias/series/stranger-things/1-1.mp4"
+        },
+        {
+          "title": "Chapitre deux : La Barjot de Maple Street",
+          "desc": "Lucas, Mike et Dustin tentent de communiquer avec la fille qu'ils ont découverte dans les bois. Hopper interroge Joyce à propos d'un étrange appel téléphonique.",
+          "video": "medias/series/stranger-things/1-2.mp4"
+        },
+        {
+          "title": "Chapitre trois : Petit papa Noël",
+          "desc": "Plus inquiète que jamais, Nancy se met à la recherche de Barbara et découvre à cette occasion ce que tramait Jonathan. Joyce est persuadée que Will essaie de lui parler.",
+          "video": "medias/series/stranger-things/1-3.mp4"
+        },
+        {
+          "title": "Chapitre quatre : Le Corps",
+          "desc": "Refusant de croire que Will est mort, Joyce essaye d'entrer en contact avec son fils. Onze subit une transformation. Nancy et Jonathan décident d'unir leurs forces.",
+          "video": "medias/series/stranger-things/1-4.mp4"
+        },
+        {
+          "title": "Chapitre cinq : La Puce et l'Acrobate",
+          "desc": "Hopper s'introduit dans le labo, Nancy et Jonathan affrontent la force qui a enlevé Will, et les garçons demandent à M. Clarke comment se rendre dans une autre dimension.",
+          "video": "medias/series/stranger-things/1-5.mp4"
+        },
+        {
+          "title": "Chapitre six : Le Monstre",
+          "desc": "Paniqué, Jonathan cherche Nancy dans le noir. Steve est lui aussi sur ses traces. Hopper et Joyce découvrent la vérité sur les activités secrètes du laboratoire.",
+          "video": "medias/series/stranger-things/1-6.mp4"
+        },
+        {
+          "title": "Chapitre sept : Le Bain",
+          "desc": "Onze n'arrive pas à entrer en contact avec Will. Lucas donne l'alerte sur un danger imminent. Nancy et Jonathan montrent à la police les clichés pris par Jonathan.",
+          "video": "medias/series/stranger-things/1-7.mp4"
+        },
+        {
+          "title": "Chapitre huit : Le Monde à l'envers",
+          "desc": "Hopper et Joyce sont aux mains du Dr Brenner. Les garçons attendent avec Onze dans le gymnase. Nancy et Jonathan s'arment pour livrer bataille.",
+          "video": "medias/series/stranger-things/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Chapitre un : MADMAX",
+          "desc": "Alors que la ville se prépare pour Halloween, la salle de jeux frémit devant des scores exceptionnels et les citrouilles réservent bien des surprises à Hopper, sceptique.",
+          "video": "medias/series/stranger-things/2-1.mp4"
+        },
+        {
+          "title": "Chapitre deux : Des bonbons ou un sort, espèce de taré",
+          "desc": "Après l'expérience terrifiante de Will lors de la nuit d'Halloween, Mike se demande si Onze traîne encore dans le coin. Obsédée par Barbara, Nancy veut parler.",
+          "video": "medias/series/stranger-things/2-2.mp4"
+        },
+        {
+          "title": "Chapitre trois : Le Batracien",
+          "desc": "Tandis que Dustin adopte un nouvel animal de compagnie plutôt bizarre, Onze s'énerve. Plein de bonnes intentions, Bob exhorte Will à affronter ses peurs.",
+          "video": "medias/series/stranger-things/2-3.mp4"
+        },
+        {
+          "title": "Chapitre quatre : Will le sage",
+          "desc": "Épuisé par ses crises, Will se confie à Joyce qui réagit de façon surprenante. Tous deux assoiffés de vérité, Hopper creuse sans relâche et Onze fouille des archives.",
+          "video": "medias/series/stranger-things/2-4.mp4"
+        },
+        {
+          "title": "Chapitre cinq : Dig Dug",
+          "desc": "Tandis qu'Onze enquête sur son passé, Nancy et Jonathan discutent théories du complot avec un nouvel allié. \"Bob la Malice\" s'attaque à un problème difficile.",
+          "video": "medias/series/stranger-things/2-5.mp4"
+        },
+        {
+          "title": "Chapitre six : L'Espion",
+          "desc": "Pendant que la connexion de Will au monstre de l'ombre s'intensifie sans que personne sache comment arrêter le processus, Dustin et Steve partent en expédition.",
+          "video": "medias/series/stranger-things/2-6.mp4"
+        },
+        {
+          "title": "Chapitre sept : La Sœur perdue",
+          "desc": "Guidée par ses visions, Onze arrive seule dans la planque d'une bande de zonards violents dont la chef a plus d'un tour dans son sac et beaucoup à raconter.",
+          "video": "medias/series/stranger-things/2-7.mp4"
+        },
+        {
+          "title": "Chapitre huit : Le Flagelleur mental",
+          "desc": "Un héros improbable se révèle quand un événement meurtrier boucle le laboratoire d'Hawkins, piégeant Will et plusieurs autres à l'intérieur.",
+          "video": "medias/series/stranger-things/2-8.mp4"
+        },
+        {
+          "title": "Chapitre neuf : Le Portail",
+          "desc": "Entre retrouvailles et explications, Onze continue sur sa lancée pendant que les survivants donnent l'assaut contre la force monstrueuse qui tient Will en otage.",
+          "video": "medias/series/stranger-things/2-9.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Chapitre un : Suzie, tu me reçois ?",
+          "desc": "Avec l'été, on prend un nouveau job, on tombe amoureux... Mais un étrange message radio capté par Dustin et une inquiétante réaction de Will cassent toute l'ambiance.",
+          "video": "medias/series/stranger-things/3-1.mp4"
+        },
+        {
+          "title": "Chapitre deux : Comme des rats",
+          "desc": "Nancy et Jonathan se penchent sur un tuyau alarmant. Steve et Robin sont recrutés pour une mission secrète. Max et Onze font des courses. Billy a des visions troublantes.",
+          "video": "medias/series/stranger-things/3-2.mp4"
+        },
+        {
+          "title": "Chapitre trois : La Maître-Nageuse disparue",
+          "desc": "Elfe et Max partent à la recherche de Billy. Will regrette les camaraderies d'enfance. Steve et Dustin enquêtent. Joyce et Hopper retournent au laboratoire d'Hawkins.",
+          "video": "medias/series/stranger-things/3-3.mp4"
+        },
+        {
+          "title": "Chapitre quatre : Le Sauna",
+          "desc": "Le lancement du code rouge fédère les vieux amis contre un ennemi terriblement familier. Karen exhorte Nancy à approfondir ses recherches. Robin trouve une carte utile.",
+          "video": "medias/series/stranger-things/3-4.mp4"
+        },
+        {
+          "title": "Chapitre cinq : L'Armada",
+          "desc": "De drôles de surprises se cachent dans une ancienne ferme et dans les tréfonds du centre commercial Starcourt. Pendant ce temps, le flagelleur mental reprend des forces.",
+          "video": "medias/series/stranger-things/3-5.mp4"
+        },
+        {
+          "title": "Chapitre six : E Pluribus Unum",
+          "desc": "Le docteur Alexei révèle ce que les Russes sont en train de construire. Mike enrage. Onze fait une découverte cruciale. Dustin et Erica organisent un sauvetage audacieux.",
+          "video": "medias/series/stranger-things/3-6.mp4"
+        },
+        {
+          "title": "Chapitre sept : La Morsure",
+          "desc": "Le temps presse. L'équipe de Hopper revient en trombe à Hawkins, avec un assassin aux trousses. Onze et les enfants se préparent à la guerre.",
+          "video": "medias/series/stranger-things/3-7.mp4"
+        },
+        {
+          "title": "Chapitre huit : La Bataille de Starcourt",
+          "desc": "La terreur règne dans l'espace de restauration quand le flagelleur mental réclame son dû, tandis que dans les profondeurs obscures de Starcourt se joue l'avenir du monde.",
+          "video": "medias/series/stranger-things/3-8.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Chapitre un : Le Club du feu de l'Enfer",
+          "desc": "Harcelée dans son nouveau lycée, Elfe est dans l'incapacité de riposter. Joyce ouvre un mystérieux paquet. À Hawkins, une joueuse bagarreuse enflamme la soirée D&D.",
+          "video": "medias/series/stranger-things/4-1.mp4"
+        },
+        {
+          "title": "Chapitre deux : La Malédiction de Vecna",
+          "desc": "Mike s'envole pour la Californie, tandis qu'un cadavre prend Hawkins de court. Nancy cherche des indices. Très ébranlé, Eddie raconte à la bande ce qu'il a vu.",
+          "video": "medias/series/stranger-things/4-2.mp4"
+        },
+        {
+          "title": "Chapitre trois : Le Monstre et la Super-Héroïne",
+          "desc": "Murray et Joyce vont en Alaska, Elfe paie le prix de ses actes, et Robin et Nancy trouvent des infos sur les démons d'Hawkins. Le Dr Owens apporte de terribles nouvelles.",
+          "video": "medias/series/stranger-things/4-3.mp4"
+        },
+        {
+          "title": "Chapitre quatre : Cher Billy",
+          "desc": "Max court un grave danger… et manque de temps. Un patient de l'hôpital psychiatrique de Pennhurst reçoit des visiteuses. En Russie, Hopper fait du mieux qu'il peut.",
+          "video": "medias/series/stranger-things/4-4.mp4"
+        },
+        {
+          "title": "Chapitre cinq : Projet \"Nina\"",
+          "desc": "Dans le Nevada avec le Dr. Owens, Elfe est contrainte d'affronter son passé. La bande d'Hawkins fouille une maison à la recherche d'indices. Vecna fait encore une victime.",
+          "video": "medias/series/stranger-things/4-5.mp4"
+        },
+        {
+          "title": "Chapitre six : Le Plongeon",
+          "desc": "Un sauvetage périlleux se prépare derrière le rideau de fer. En Californie, la bande demande de l'aide à une hackeuse. Steve prend un gros risque pour l'équipe.",
+          "video": "medias/series/stranger-things/4-6.mp4"
+        },
+        {
+          "title": "Chapitre sept : Le Massacre du laboratoire d'Hawkins",
+          "desc": "Hopper s'apprête à combattre un monstre. Dustin décortique les motivations de Vecna… et décode un message venu de l'au-delà. Un vieux souvenir redonne des forces à Elfe.",
+          "video": "medias/series/stranger-things/4-7.mp4"
+        },
+        {
+          "title": "Chapitre huit : Papa",
+          "desc": "Nancy est saisie de visions peu réjouissantes, et Elfe réussit un test décisif. Réunie à Hawkins, la bande récupère du matériel et se prépare à la bagarre.",
+          "video": "medias/series/stranger-things/4-8.mp4"
+        },
+        {
+          "title": "Chapitre neuf : L'Infiltration",
+          "desc": "Dans un fracas de métal, les héroïques protagonistes au cœur pur luttent âprement aux quatre coins du champ de bataille. Il faut sauver Hawkins, et le monde entier avec !",
+          "video": "medias/series/stranger-things/4-9.mp4"
+        }
+      ]
+    }
+  },
+  "Cobra Kai": {
+    "title": "Cobra Kai",
+    "description": "Ennemis acharnés. Dojos en guerre. Et du sang neuf. Johnny et Daniel ravivent leur rivalité dans cette série qui fait suite à la saga \"Karaté Kid\".",
+    "banner": "medias/series/cobra-kai/cobra-kai.jpg",
+    "IMDb": 8.4,
+    "IMDb_link": "https://www.imdb.com/title/tt7221388/",
+    "year": 2018,
+    "genres": [
+      "Martial Arts",
+      "Teen Comedy",
+      "Teen Drama",
+      "Action",
+      "Comedy",
+      "Drama",
+      "Sport"
+    ],
+    "creators": ["Josh Heald", "Jon Hurwitz", "Hayden Schlossberg"],
+    "stars": ["Ralph Macchio", "William Zabka", "Courtney Henggeler"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Le roi des tarés",
+          "desc": "Sombrant dans l'alcool et vivant dans l'ombre de son ancien rival Daniel, Johnny touche le fond et décide de rouvrir le dojo Cobra Kai.",
+          "video": "medias/series/cobra-kai/1-1.mp4"
+        },
+        {
+          "title": "Frappe le premier",
+          "desc": "Daniel est déconcerté de découvrir le nouveau dojo Cobra Kai. Plus tard, il entend parler d'une violente altercation impliquant Kyler, le petit ami de Sam.",
+          "video": "medias/series/cobra-kai/1-2.mp4"
+        },
+        {
+          "title": "Esqueleto",
+          "desc": "Daniel se porte volontaire pour surveiller le bal d'Halloween afin de garder un œil sur Sam. Johnny essaie de recruter d'autres étudiants pour son dojo.",
+          "video": "medias/series/cobra-kai/1-3.mp4"
+        },
+        {
+          "title": "Cobra Kai ne meurt jamais",
+          "desc": "L'une des enseignes de Daniel est dégradée. La mère de Miguel interdit à son fils de continuer à prendre des cours de karaté. Johnny apprend que Robby sèche l'école.",
+          "video": "medias/series/cobra-kai/1-4.mp4"
+        },
+        {
+          "title": "Compensation",
+          "desc": "Cobra Kai recrute son deuxième élève. Daniel élabore un plan pour se venger de Johnny. Lorsque Kyler trahit Sam, Miguel prend sa défense à l'école.",
+          "video": "medias/series/cobra-kai/1-5.mp4"
+        },
+        {
+          "title": "Frisson",
+          "desc": "C'est l'affluence à Cobra Kai depuis le combat de Miguel, mais Johnny refroidit l'ardeur de ses élèves. Pour blesser son père, Robby se met à travailler pour Daniel.",
+          "video": "medias/series/cobra-kai/1-6.mp4"
+        },
+        {
+          "title": "All Valley",
+          "desc": "Johnny doit convaincre le comité du tournoi d'annuler la sentence d'exclusion à vie de Cobra Kai, mais Daniel siège au comité. Miguel et Sam ont rendez-vous.",
+          "video": "medias/series/cobra-kai/1-7.mp4"
+        },
+        {
+          "title": "Mue",
+          "desc": "Tandis que Johnny prépare ses élèves au tournoi, Daniel commence à former Robby au Miyagi-do, ignorant toujours que son élève est le fils de Johnny.",
+          "video": "medias/series/cobra-kai/1-8.mp4"
+        },
+        {
+          "title": "Différents mais pareils",
+          "desc": "Un échange entre Johnny et Daniel à propos d'une voiture s'achève en journée de réminiscence inattendue. Les élèves de Cobra Kai cherchent à se venger des stars du lycée.",
+          "video": "medias/series/cobra-kai/1-9.mp4"
+        },
+        {
+          "title": "Pitié",
+          "desc": "Le jour du tournoi est arrivé. Johnny enseigne à ses élèves la troisième règle de Cobra Kai : pas de pitié ! Un visage familier du passé réapparaît.",
+          "video": "medias/series/cobra-kai/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Pitié Partie II",
+          "desc": "Malgré la victoire de Cobra Kai, Johnny veut donner une nouvelle orientation à son dojo. Daniel ouvre sa propre école avec deux élèves : Sam et Robby.",
+          "video": "medias/series/cobra-kai/2-1.mp4"
+        },
+        {
+          "title": "De retour en noir",
+          "desc": "Daniel aide Sam et Robby à trouver l'équilibre en pleine opération commerciale. Johnny impressionne Kreese avec une méthode d'entraînement créative mais risquée.",
+          "video": "medias/series/cobra-kai/2-2.mp4"
+        },
+        {
+          "title": "Feu et glace",
+          "desc": "Quand Miguel découvre l'identité de Robby, Johnny s'ouvre sur ses échecs en tant que père. Pour recruter des élèves, Daniel organise une démonstration lors d'un festival.",
+          "video": "medias/series/cobra-kai/2-3.mp4"
+        },
+        {
+          "title": "Le moment de vérité",
+          "desc": "Daniel tente de refaire la promotion de Miyagi-do, mais Cobra Kai accapare l'attention. Johnny soupçonne Kreese d'exagérer ses exploits passés.",
+          "video": "medias/series/cobra-kai/2-4.mp4"
+        },
+        {
+          "title": "Tout compris",
+          "desc": "Après la bagarre provoquée par Eli, Daniel s'efforce de donner confiance à Dimitri. Johnny découvre que Robby vit chez Daniel.",
+          "video": "medias/series/cobra-kai/2-5.mp4"
+        },
+        {
+          "title": "À droite",
+          "desc": "Les nouveaux élèves de Daniel apprennent à régler leurs comptes. Alors que Johnny profite d'un road trip avec de vieux amis, Kreese lui casse du sucre sur le dos.",
+          "video": "medias/series/cobra-kai/2-6.mp4"
+        },
+        {
+          "title": "Accalmie",
+          "desc": "Les deux senseis expérimentent de nouvelles techniques, et Johnny découvre les méthodes de Kreese. La passion de Daniel pour Miyagi-do met son travail en péril.",
+          "video": "medias/series/cobra-kai/2-7.mp4"
+        },
+        {
+          "title": "Gloire de l'amour",
+          "desc": "La température monte entre Sam et Robby, tandis que l'atmosphère demeure glaciale entre Daniel et Amanda. Johnny essaie une application de rencontres.",
+          "video": "medias/series/cobra-kai/2-8.mp4"
+        },
+        {
+          "title": "Pulpo",
+          "desc": "Johnny et Daniel se croisent dans un restaurant et décident d'une trêve inattendue. Pendant ce temps, des tensions entre leurs élèves éclatent au cours d'une fête.",
+          "video": "medias/series/cobra-kai/2-9.mp4"
+        },
+        {
+          "title": "Aucune pitié",
+          "desc": "À la rentrée, le ressentiment entre Tory et Sam dégénère en affrontement entre les factions karatékas dans les couloirs de West Valley High.",
+          "video": "medias/series/cobra-kai/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Conséquences",
+          "desc": "Miguel se bat pour sa vie, Robby a disparu et les réputations de Daniel et de Johnny sont en lambeaux après la bagarre à West Valley.",
+          "video": "medias/series/cobra-kai/3-1.mp4"
+        },
+        {
+          "title": "L'inné et l'acquis",
+          "desc": "Daniel et Johnny font équipe pour retrouver Robby. L'avenir de Miguel est incertain. Kreese essaie de persuader Tory de réintégrer Cobra Kai.",
+          "video": "medias/series/cobra-kai/3-2.mp4"
+        },
+        {
+          "title": "L'heure des comptes",
+          "desc": "L'image ternie de Daniel auprès du public affecte son commerce, au point de recevoir une offre de rachat. Johnny tente de lever des fonds pour l'opération de Miguel.",
+          "video": "medias/series/cobra-kai/3-3.mp4"
+        },
+        {
+          "title": "Le droit chemin",
+          "desc": "Suite à une réunion importante au Japon, Daniel se rend dans la ville natale de Monsieur Miyagi, dans l'archipel d'Okinawa. Johnny tente de renouer avec Robby.",
+          "video": "medias/series/cobra-kai/3-4.mp4"
+        },
+        {
+          "title": "Miyagi-Do",
+          "desc": "À Okinawa, Daniel passe du temps avec une vieille amie... et avec un vieil ennemi qui a beaucoup à lui apprendre. La rivalité des deux dojos finit par éclater violemment.",
+          "video": "medias/series/cobra-kai/3-5.mp4"
+        },
+        {
+          "title": "Le roi Cobra",
+          "desc": "Miguel aide Johnny à composer le message idéal pour les réseaux sociaux. Kreese repère de nouvelles recrues tandis que Daniel et Amanda tentent de fermer Cobra Kai.",
+          "video": "medias/series/cobra-kai/3-6.mp4"
+        },
+        {
+          "title": "Obstacles",
+          "desc": "Daniel passe du temps avec sa fille Sam, traumatisée. Johnny envisage de créer un nouveau dojo mais a bien du mal à trouver un nom qui percute.",
+          "video": "medias/series/cobra-kai/3-7.mp4"
+        },
+        {
+          "title": "Le bon, la brute et l'aigle",
+          "desc": "Informés de l'annulation du tournoi de karaté All Valley, les trois sensei concurrents se rendent à un conseil municipal pour plaider leur cause.",
+          "video": "medias/series/cobra-kai/3-8.mp4"
+        },
+        {
+          "title": "Feel The Night",
+          "desc": "La Valley s'apprête à fêter Noël et il y a de l'amour dans l'air. Daniel et Miguel trouvent un terrain d'entente inattendu et les recrues de Cobra Kai partent en mission.",
+          "video": "medias/series/cobra-kai/3-9.mp4"
+        },
+        {
+          "title": "19 décembre",
+          "desc": "Les vieilles blessures commencent à cicatriser à l'occasion d'une soirée dans un country club, mais une agression par les élèves de Kreese rebat les cartes des alliances.",
+          "video": "medias/series/cobra-kai/3-10.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Au boulot",
+          "desc": "Johnny et Daniel font équipe au sein du même dojo, mais leurs styles différents s'opposent d'emblée. Kreese tente de convaincre un ancien allié de rejoindre Cobra Kai.",
+          "video": "medias/series/cobra-kai/4-1.mp4"
+        },
+        {
+          "title": "Apprendre à marcher",
+          "desc": "Alors que Johnny mise sur les techniques de défense, Daniel apprend à passer à l'attaque. Amanda affronte Tory, tandis que Kenny, le nouveau, se fait harceler au lycée.",
+          "video": "medias/series/cobra-kai/4-2.mp4"
+        },
+        {
+          "title": "Avant de voler",
+          "desc": "Encouragé par Robby, Kenny essaie d'intégrer Cobra Kai. Johnny incite Sam à avoir plus confiance en elle pour oser faire le grand saut.",
+          "video": "medias/series/cobra-kai/4-3.mp4"
+        },
+        {
+          "title": "Bicéphale",
+          "desc": "Kreese fait revenir Terry à Cobra Kai, mais son ancien associé ne veut pas que l'histoire se répète. Johnny est de plus en plus jaloux que Miguel adule autant Daniel.",
+          "video": "medias/series/cobra-kai/4-4.mp4"
+        },
+        {
+          "title": "Balle de match",
+          "desc": "Lorsque Johnny et Daniel décident de s'affronter dans un combat entre senseis, leur dojo ainsi que leur alliance qui bat déjà de l'aile menacent de s'effondrer.",
+          "video": "medias/series/cobra-kai/4-5.mp4"
+        },
+        {
+          "title": "Ça attire les nanas",
+          "desc": "De gros changements concernant le championnat obligent Johnny à chercher une nouvelle recrue pour le dojo de l'aigle venimeux. Tory a un service à demander aux LaRusso.",
+          "video": "medias/series/cobra-kai/4-6.mp4"
+        },
+        {
+          "title": "Un champ de mines",
+          "desc": "Daniel propose à Anthony de rejoindre le dojo Miyagi-Do et comprend qu'il ne connaît pas son fils si bien que ça. Miguel apprend la vérité à propos de Johnny et Carmen.",
+          "video": "medias/series/cobra-kai/4-7.mp4"
+        },
+        {
+          "title": "La fête",
+          "desc": "Miguel et Sam passent une excellente soirée au bal du lycée jusqu'à ce qu'un autre couple fasse une apparition inattendue. Terry attire Johnny dans un endroit bien connu.",
+          "video": "medias/series/cobra-kai/4-8.mp4"
+        },
+        {
+          "title": "La chute",
+          "desc": "C'est le coup d'envoi du tournoi annuel de karaté All Valley où les dojos vont s'affronter, espérant décrocher le titre ultime... et régler certains comptes personnels.",
+          "video": "medias/series/cobra-kai/4-9.mp4"
+        },
+        {
+          "title": "L'ascension",
+          "desc": "Le tournoi s'achève de façon bouleversante, laissant ses participants sous le choc et deux champions face à un avenir incertain.",
+          "video": "medias/series/cobra-kai/4-10.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Loin de la maison",
+          "desc": "Le nouvel allié et colocataire de Daniel met les nerfs d'Amanda à rude épreuve. Miguel cherche son père au Mexique. Terry entreprend la mutation de Cobra Kai.",
+          "video": "medias/series/cobra-kai/5-1.mp4"
+        },
+        {
+          "title": "Taupe et sombreros",
+          "desc": "Chozen et Daniel concoctent un plan hasardeux contre Terry. Au Mexique, Robby et Johnny cherchent Miguel qui, de son côté, apprend la vérité sur son père.",
+          "video": "medias/series/cobra-kai/5-2.mp4"
+        },
+        {
+          "title": "Un jeu dangereux",
+          "desc": "Un autre ennemi ressurgit du passé de Daniel. Après une journée au spa et une grosse remise en question, Sam prend une décision concernant son avenir avec Miguel.",
+          "video": "medias/series/cobra-kai/5-3.mp4"
+        },
+        {
+          "title": "Terrain glissant",
+          "desc": "Alors que Johnny et Carmen roucoulent, Daniel et Amanda sont ébranlés par les manigances de Terry. Les ados règlent leurs comptes au parc aquatique.",
+          "video": "medias/series/cobra-kai/5-4.mp4"
+        },
+        {
+          "title": "Les grands moyens",
+          "desc": "Daniel s'appuie sur un ami... et sur un meilleur ennemi. La situation entre Miguel et Robby est des plus tendues. Un visage familier refait son apparition.",
+          "video": "medias/series/cobra-kai/5-5.mp4"
+        },
+        {
+          "title": "Ouroboros",
+          "desc": "Terry recrute une experte de la voie du poing. Daniel évite le conflit, tandis que Johnny et Chozen cherchent la bagarre. En prison, Kreese est face à de vieux démons.",
+          "video": "medias/series/cobra-kai/5-6.mp4"
+        },
+        {
+          "title": "On ne fait pas d'omelette...",
+          "desc": "Terry et Kim organisent une compétition brutale, tandis que Chozen enseigne à ses élèves une tout autre leçon. Johnny et Daniel exigent des réponses de Kreese.",
+          "video": "medias/series/cobra-kai/5-7.mp4"
+        },
+        {
+          "title": "Taikai",
+          "desc": "L'envie de participer à un tournoi international de prestige relance la guerre des dojos. La loyauté de Tory est mise à l'épreuve. Sam a du mal à se détacher de Miguel.",
+          "video": "medias/series/cobra-kai/5-8.mp4"
+        },
+        {
+          "title": "Survie",
+          "desc": "Tory paie le prix de son attitude rebelle. La conscience de la Rascasse lui joue un mauvais tour. Une nuit de fête en ville se termine mal pour Johnny, Daniel et Chozen.",
+          "video": "medias/series/cobra-kai/5-9.mp4"
+        },
+        {
+          "title": "La tête du serpent",
+          "desc": "Une bagarre éclate en pleine nuit quand Johnny, Daniel, Chozen et leurs élèves unissent leurs techniques et leurs forces pour confondre Terry et se débarrasser de lui.",
+          "video": "medias/series/cobra-kai/5-10.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "La vallée apaisée",
+          "desc": "Les élèves du Miyagi-Do s'entraînent pour le Sekai Taikai et tentent de mettre leurs rivalités de côté. Johnny et Chozen ne sont pas d'accord sur le nouveau nom du dojo.",
+          "video": "medias/series/cobra-kai/6-1.mp4"
+        },
+        {
+          "title": "Le prix",
+          "desc": "Kreese se soumet à un test dangereux afin de prouver sa valeur. Daniel donne un coup de pouce à Johnny, et les jeunes savourent un avant-goût des soirées étudiantes.",
+          "video": "medias/series/cobra-kai/6-2.mp4"
+        },
+        {
+          "title": "La nuit porte conseil",
+          "desc": "Daniel est bouleversé par une surprenante découverte. Johnny cherche un moyen pour que Sam et Tory reprennent confiance en elles. Le lieu du tournoi est dévoilé.",
+          "video": "medias/series/cobra-kai/6-3.mp4"
+        },
+        {
+          "title": "Outsiders",
+          "desc": "Daniel et Johnny invitent un nouveau sensei à évaluer leurs élèves. Les amitiés se font rivalités quand la compétition s'intensifie pour une place au Sekai Taikai.",
+          "video": "medias/series/cobra-kai/6-4.mp4"
+        },
+        {
+          "title": "Best of the Best",
+          "desc": "Les meilleurs élèves du Miyagi-Do s'apprêtent à combattre pour le rôle de capitaine d'équipe, mais une immense tragédie change la donne. Kreese révèle sa surprise ultime.",
+          "video": "medias/series/cobra-kai/6-5.mp4"
+        },
+        {
+          "title": "Benvinguts a Barcelona",
+          "desc": "Pendant le tournoi de Sekai Taikai, une trahison risque de perturber l'équipe du Miyagi-Dô. Un événement inimaginable surprend tout le monde.",
+          "video": "medias/series/cobra-kai/6-6.mp4"
+        },
+        {
+          "title": "Un mal de chien",
+          "desc": "En cherchant des indices sur le passé de M. Miyagi, Daniel se retrouve en danger. Miguel doute de l'implication de Robby. Sam est témoin d'agissements répréhensibles hors du tapis.",
+          "video": "medias/series/cobra-kai/6-7.mp4"
+        },
+        {
+          "title": "Turbulences en tous genres",
+          "desc": "Un souci familial fait craindre le pire à Miguel et Johnny. Chozen et une sensei rivale cherchent leurs élèves ensemble... et font une découverte à laquelle ils ne s'attendaient pas.",
+          "video": "medias/series/cobra-kai/6-8.mp4"
+        },
+        {
+          "title": "Les Princes de la ville",
+          "desc": "Qui parviendra au round suivant du tournoi par équipe après le match éliminatoire : Miyagi-Dô ou Cobra Kai ? Une terrible révélation bouleverse Daniel.",
+          "video": "medias/series/cobra-kai/6-9.mp4"
+        },
+        {
+          "title": "Eunjangdo",
+          "desc": "Daniel et Johnny transforment le centre historique de Barcelone en terrain d'entraînement pour leurs capitaines. Un coup bas pendant les demi-finales provoque une bagarre générale.",
+          "video": "medias/series/cobra-kai/6-10.mp4"
+        },
+        {
+          "title": "L'épreuve du feu",
+          "desc": "Tandis que leurs élèves envisagent la vie après le karaté, Daniel et Johnny ne sont pas du même avis concernant la reprise du Sekai Taikai. Kreese remet en question ses principes.",
+          "video": "medias/series/cobra-kai/6-11.mp4"
+        },
+        {
+          "title": "Sonnés",
+          "desc": "Sam et Robby comptent sur le soutien de leurs amis pour s'entraîner à relever les défis à venir. Johnny et Carmen accueillent un nouveau membre dans leur équipe.",
+          "video": "medias/series/cobra-kai/6-12.mp4"
+        },
+        {
+          "title": "Tous ces squelettes",
+          "desc": "Alors que l'heure de vérité sonne, Daniel et Johnny regardent leur passé en face. Robby affronte Axel dans le cadre du championnat du monde de karaté.",
+          "video": "medias/series/cobra-kai/6-13.mp4"
+        },
+        {
+          "title": "Frappe le dernier",
+          "desc": "L'action bat son plein tandis que les meilleurs combattants de la vallée opposent leur courage à la vitesse et à la force de leurs rivaux. Mais une ultime surprise change la donne.",
+          "video": "medias/series/cobra-kai/6-14.mp4"
+        },
+        {
+          "title": "L'ancien roi des tarés",
+          "desc": "Rivalités féroces. Nouvelles opportunités. Daniel et Johnny se retrouvent là où tout a commencé - mais les enjeux n'ont jamais été aussi ambitieux.",
+          "video": "medias/series/cobra-kai/6-15.mp4"
+        }
+      ]
+    }
+  },
+  "La Peste": {
+    "title": "La Peste",
+    "description": "En 2029, alors que l'on a appris à vivre avec les variants saisonniers du Covid, on découvre dans cette ville du Sud un nouveau variant du bacille de la peste. Faute de traitement, le gouvernement central décide, afin d'épargner le reste du pays, de boucler la ville et d'y appliquer un mystérieux « Plan D » aux monstrueux ressorts.",
+    "banner": "medias/series/la-peste/la-peste.jpg",
+    "IMDb": 5.2,
+    "IMDb_link": "https://www.imdb.com/title/tt27548095/",
+    "year": 2024,
+    "genres": ["French", "Drama", "Sci-Fi", "Thriller"],
+    "creators": ["Antoine Garceau"],
+    "stars": ["Frédéric Pierrot", "Hugo Becker", "Judith Chemla"],
+    "trailer": "https://www.youtube.com/watch?v=XdlLEJO_1_w",
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Sud de la France, été 2030. Le docteur Bernard Rieux trouve le cadavre d'un rat sur son palier. Il est contacté par Sylvain Rambert, un journaliste venu de la capitale pour enquêter sur d'étranges disparitions toutes classées sans suite. Alerté par un employé de la mairie, Rieux suggère à Rambert de s'intéresser aux manœuvres du maire, prêt à tout pour sauver sa saison estivale, alors qu'une mystérieuse maladie commence à se répandre en ville …",
+          "video": "medias/series/la-peste/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Lors d'une réunion houleuse à la mairie, Rieux, Laurence et Castel ont beau alerter les autorités et parler d'un bacille de la peste en pleine mutation, rien n'y fait. Ne pas affoler les touristes, c'est le mot d'ordre. Tarrou propose à Rieux de créer des brigades sanitaires. La grève des éboueurs est neutralisée par la milice paramilitaire et l'un des grévistes, Oumar Diop, est condamné à un an de prison. Rambert envisage de rejoindre Laurence à la capitale, quitte à renoncer à son enquête. Il n'en a pas le temps : le préfet Chauvat verrouille la ville et parle au professeur Richard de l'application d'un mystérieux plan « D ».",
+          "video": "medias/series/la-peste/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Toute la ville est confinée sous haute surveillance. C'est la première phase du plan Darwin. La jeune Nora, son frère et sa petite sœur, se réfugient chez Rieux qui demande à Lucie Ferrières, la voisine pianiste du cinquième, de les prendre en charge. Sans nouvelle de Laurence, Rambert veut quitter la ville à tout prix. Grand apprend à Rieux que le préfet a l'intention de déclencher la deuxième phase du plan Darwin, aux conséquences funestes pour la population…",
+          "video": "medias/series/la-peste/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Oumar Diop a déclenché une mutinerie et pris le directeur de la maison d'arrêt en otage. Rambert accepte de négocier avec Diop en échange de la libération de Laurence, et à condition que Rieux puisse porter secours aux survivants de la prison avec ses brigades sanitaires. Mais tout ne se passe pas comme prévu. Profitant de l'absence de Lucie, Nora a invité chez elle Jacky, son amoureux, jeune milicien dévoré par l'ambition. Il se retrouve bientôt en possession d'informations clés sur la réalité du plan Darwin...",
+          "video": "medias/series/la-peste/1-4.mp4"
+        }
+      ]
+    }
+  },
+  "Mercredi": {
+    "title": "Mercredi",
+    "description": "Brillante, sarcastique et un peu morte à l'intérieur, Mercredi Addams enquête sur une série de sombres mystères tout en se faisant des amis à l'Académie Nevermore.",
+    "banner": "medias/series/mercredi/mercredi.jpg",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt13443470/",
+    "year": 2022,
+    "genres": [
+      "Coming-of-Age",
+      "Dark Fantasy",
+      "Supernatural Fantasy",
+      "Teen Comedy",
+      "Whodunnit",
+      "Comedy",
+      "Crime",
+      "Fantasy",
+      "Mystery"
+    ],
+    "creators": ["Alfred Gough", "Miles Millar"],
+    "stars": ["Jenna Ortega", "Hunter Doohan", "Emma Myers"],
+    "trailer": "https://www.youtube.com/watch?v=X7UoGHx7MDI",
+    "seasons": {
+      "1": [
+        {
+          "title": "Mercredi porte-malheur",
+          "desc": "Quand Mercredi se fait renvoyer à cause d'une farce particulièrement mordante, ses parents l'expédient à l'Académie Nevermore, le pensionnat où ils sont tombés amoureux.",
+          "video": "medias/series/mercredi/1-1.mp4"
+        },
+        {
+          "title": "Un malheur qui arrive toujours seul",
+          "desc": "Le shérif interroge Mercredi sur les événements étranges de la nuit. Plus tard, Mercredi se mesure à une farouche rivale lors d'une course féroce pour la coupe Allan Poe.",
+          "video": "medias/series/mercredi/1-2.mp4"
+        },
+        {
+          "title": "Malheur à mes ennemis ?",
+          "desc": "Mercredi tombe sur une société secrète. Pendant la Journée du Lien, Marginaux et Normis se mélangent dans le Monde des Pèlerins. Vous reprendrez bien du fudge ?",
+          "video": "medias/series/mercredi/1-3.mp4"
+        },
+        {
+          "title": "Le Bal des malheurs",
+          "desc": "Mercredi invite Xavier au bal, attisant la jalousie de Tyler… Mais La Chose a plus d'un atout dans sa manche ! Pendant ce temps, Eugene fait le guet vers la grotte.",
+          "video": "medias/series/mercredi/1-4.mp4"
+        },
+        {
+          "title": "30 ans de malheur",
+          "desc": "C'est le week-end des parents et Mercredi fouille dans le passé, sans imaginer les conséquences de ses recherches pour Gomez. La famille d'Enid la presse de \"transmuter\".",
+          "video": "medias/series/mercredi/1-5.mp4"
+        },
+        {
+          "title": "Malheureux anniversaire",
+          "desc": "Pleins de bonnes intentions, les amis de Mercredi lui organisent un anniversaire-surprise. Mais elle préférerait marquer cette triste occasion en élucidant les crimes.",
+          "video": "medias/series/mercredi/1-6.mp4"
+        },
+        {
+          "title": "Malheureusement vôtre",
+          "desc": "Le fantaisiste oncle Fétide débarque et expose sa théorie sur le monstre. Mercredi accepte à contrecœur un rendez-vous avec Tyler dans la crypte de Crackstone.",
+          "video": "medias/series/mercredi/1-7.mp4"
+        },
+        {
+          "title": "Oiseau de malheur",
+          "desc": "Mercredi se heurte à Weems, mais ses problèmes ne font que commencer. Pour combattre une force maléfique ancestrale, elle va avoir besoin de l'aide de toute sa bande.",
+          "video": "medias/series/mercredi/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Un malheureux nouveau départ",
+          "desc": "Après des vacances d'été productives, une Mercredi maussade retrouve Nevermore, auréolée malgré elle du statut d'héroïne et cible d'un regard malveillant et harceleur.",
+          "video": "medias/series/mercredi/2-1.mp4"
+        },
+        {
+          "title": "Un moindre malheur ?",
+          "desc": "La journée annuelle de la farce bat son plein et sème le chaos à Nevermore. Mercredi se retrouve face à un ancien ennemi, avec une alliée encombrante à ses côtés.",
+          "video": "medias/series/mercredi/2-2.mp4"
+        },
+        {
+          "title": "Tous les malheurs sont dans la nature",
+          "desc": "Privée de ses capacités et du livre de Goody, Mercredi est contrainte de mener un vrai travail de détective à l'ancienne lors d'une sortie camping avec l'école.",
+          "video": "medias/series/mercredi/2-3.mp4"
+        },
+        {
+          "title": "Un malheur fou",
+          "desc": "Fidèles à l'esprit de la famille Addams, Fétide et La Chose se font interner pour aider Mercredi à mener son enquête. Voulant cacher un secret, Bianca en découvre un autre.",
+          "video": "medias/series/mercredi/2-4.mp4"
+        },
+        {
+          "title": "Quand le malheur vous rattrape",
+          "desc": "Tyler s'est enfui, et Mercredi se prépare à un affrontement risqué pendant le jour des Morts. L'appétit grandissant de Slurp devient problématique pour Pugsley.",
+          "video": "medias/series/mercredi/2-5.mp4"
+        },
+        {
+          "title": "Chacun son malheur",
+          "desc": "La rencontre d'un esprit venu du passé de Nevermore offre à Mercredi et Enid un regard nouveau l'une sur l'autre - mais met également l'une de leurs camarades de classe en danger.",
+          "video": "medias/series/mercredi/2-6.mp4"
+        },
+        {
+          "title": "L'argent ne fait pas le malheur",
+          "desc": "À l'approche du gala, Mercredi déniche des infos compromettantes sur Dort, Enid essaie de ne pas se transformer en louve et Morticia engage un bras de fer avec grand-maman.",
+          "video": "medias/series/mercredi/2-7.mp4"
+        },
+        {
+          "title": "Malheur aux vaincus !",
+          "desc": "Lorsque des secrets de famille depuis longtemps enfouis refont surface, Mercredi se lance dans une course contre la montre pour empêcher la réalisation d'une sombre prophétie.",
+          "video": "medias/series/mercredi/2-8.mp4"
+        }
+      ]
+    }
+  },
+  "La casa de papel": {
+    "title": "La casa de papel",
+    "description": "Huit voleurs font une prise d'otages dans la Maison royale de la Monnaie d'Espagne, tandis qu'un génie du crime manipule la police pour mettre son plan à exécution.",
+    "banner": "medias/series/la-casa-de-papel/la-casa-de-papel.jpg",
+    "IMDb": 8.2,
+    "IMDb_link": "https://www.imdb.com/title/tt6468322/",
+    "year": 2017,
+    "genres": [
+      "Spanish",
+      "Heist",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "creators": ["Alex Pina"],
+    "stars": ["Ursula Corbero", "Alvaro Morte", "Itziar Ituno"],
+    "trailer": "https://www.youtube.com/watch?v=0ULjL4cbSro",
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Le Professeur recrute une jeune braqueuse et sept autres criminels en vue d'un cambriolage grandiose ciblant la Maison royale de la Monnaie d'Espagne.",
+          "video": "medias/series/la-casa-de-papel/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Raquel, qui gère les négociations pour la libération des otages, établit un contact avec le Professeur. L'un des otages est un élément clé du plan des cambrioleurs.",
+          "video": "medias/series/la-casa-de-papel/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "La police identifie l'un des cambrioleurs. Raquel se méfie de l'homme qu'elle a rencontré dans un bar.",
+          "video": "medias/series/la-casa-de-papel/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Raquel traverse une crise personnelle avec son ex. Les otages prennent peur en entendant des coups de feu. Les cambrioleurs n'arrivent pas à se mettre d'accord.",
+          "video": "medias/series/la-casa-de-papel/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Les cambrioleurs laissent des médecins entrer dans l'édifice et un policier s'infiltre parmi eux. Le Professeur saura-t-il garder une longueur d'avance sur Raquel ?",
+          "video": "medias/series/la-casa-de-papel/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "L'état de Mónica s'aggrave. Le Professeur se délecte après sa dernière ruse. Rio est troublé par une nouvelle dont il prend connaissance à la télévision.",
+          "video": "medias/series/la-casa-de-papel/1-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Le Professeur risque d'être découvert à cause d'une avancée dans l'enquête et d'une erreur commise par l'un des cambrioleurs.",
+          "video": "medias/series/la-casa-de-papel/1-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Tokyo surprend Alison en train de bavarder avec Rio et la met au pied du mur. La police pense avoir été infiltrée par un espion.",
+          "video": "medias/series/la-casa-de-papel/1-8.mp4"
+        },
+        {
+          "title": "Épisode 9",
+          "desc": "Le Professeur se hâte pour empêcher un témoin de l'identifier. Berlin cherche à se venger quand son nom est dévoilé et bafoué dans la presse.",
+          "video": "medias/series/la-casa-de-papel/1-9.mp4"
+        },
+        {
+          "title": "Épisode 10",
+          "desc": "Raquel pénètre dans la Maison de la Monnaie pour s'assurer que tous les otages sont encore sains et saufs. Nairobi donne un conseil à Alison.",
+          "video": "medias/series/la-casa-de-papel/1-10.mp4"
+        },
+        {
+          "title": "Épisode 11",
+          "desc": "Ángel et Raquel mettent leur loyauté respective en doute. Mónica prend l'initiative avec Denver. Rio doit prendre une décision difficile.",
+          "video": "medias/series/la-casa-de-papel/1-11.mp4"
+        },
+        {
+          "title": "Épisode 12",
+          "desc": "Arturo continue à élaborer un plan d'évasion pour un groupe d'otages. Le Professeur révèle qui lui a donné l'idée du braquage.",
+          "video": "medias/series/la-casa-de-papel/1-12.mp4"
+        },
+        {
+          "title": "Épisode 13",
+          "desc": "Le Professeur rencontre la mère de Raquel dans des circonstances stressantes. Les cambrioleurs demandent aux otages de choisir entre l'argent et la liberté.",
+          "video": "medias/series/la-casa-de-papel/1-13.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Épisode 1",
+          "desc": "Alors que la police scientifique cherche des traces d'ADN dans la maison de Tolède, le Professeur perd le contrôle. Les cambrioleurs sont au bord de la crise de nerfs.",
+          "video": "medias/series/la-casa-de-papel/2-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "La police interroge le premier malfaiteur capturé. Furieux contre Berlin et ses agissements récents, Rio prend position contre lui.",
+          "video": "medias/series/la-casa-de-papel/2-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Espérant apprendre l'identité du Professeur, Raquel en appelle aux émotions de son prisonnier. Une punition déclenche une révolte chez les voleurs.",
+          "video": "medias/series/la-casa-de-papel/2-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Comme ils réalisent que leur plan capote, les voleurs veulent utiliser la presse pour gagner la confiance du public. Raquel prépare un piège pour capturer le Professeur.",
+          "video": "medias/series/la-casa-de-papel/2-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Arturo tente un autre plan d'évasion. À l'occasion d'une discussion avec Salva, un petit détail attire l'attention de Raquel. Les idées se bousculent alors dans sa tête.",
+          "video": "medias/series/la-casa-de-papel/2-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Après avoir confessé un secret longtemps bien gardé, Moscou perd la confiance de son fils. Quand le plan B pour libérer Tokyo échoue, elle doit improviser.",
+          "video": "medias/series/la-casa-de-papel/2-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Alors que l'un des leurs est grièvement blessé, les cambrioleurs entament une course contre la montre pour le sauver. Seule avec Mónica, Ariadna lui fait une confession.",
+          "video": "medias/series/la-casa-de-papel/2-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Comme elle a été retirée de l'affaire à cause de sa relation avec le Professeur, Raquel décide de trouver elle-même le cerveau du braquage.",
+          "video": "medias/series/la-casa-de-papel/2-8.mp4"
+        },
+        {
+          "title": "Épisode 9",
+          "desc": "Quand la police s'introduit dans la Maison de la Monnaie, Berlin entraîne les cambrioleurs dans une ultime épreuve. Sauront-ils s'échapper avec le butin et la vie sauve ?",
+          "video": "medias/series/la-casa-de-papel/2-9.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Épisode 1",
+          "desc": "Lorsque Rio est fait prisonnier, Tokyo lance un appel de détresse au Professeur et l'équipe se reforme autour d'un audacieux plan de sauvetage.",
+          "video": "medias/series/la-casa-de-papel/3-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Le Professeur recrute Martín pour mettre à exécution le plan de son frère et viser la Banque d'Espagne. Première étape ? Semer le chaos le plus total.",
+          "video": "medias/series/la-casa-de-papel/3-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Malgré les efforts de Tokyo et Nairobi, la situation dégénère. Le Professeur se souvient des explications de Berlin pour voler l'or de la chambre forte inondée.",
+          "video": "medias/series/la-casa-de-papel/3-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Le Professeur s'étonne de constater que Tamayo ne respecte pas les protocoles. Bogotá calme les angoisses de Denver. Pris par le temps, Palerme lance le plan \"Flipper\".",
+          "video": "medias/series/la-casa-de-papel/3-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Sous le choc après le dernier coup du Professeur, les autorités s'en prennent à Raquel via une nouvelle inspectrice. Une violente dispute éclate entre Palerme et Nairobi.",
+          "video": "medias/series/la-casa-de-papel/3-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Au moment où l'inspectrice Sierra prépare un plan pour infiltrer une équipe dans la Banque d'Espagne, le Professeur et Raquel perdent la communication avec Palerme.",
+          "video": "medias/series/la-casa-de-papel/3-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "La joie de Tokyo est de courte durée. Ángel se rapproche de Raquel et du Professeur. Les autorités offrent plusieurs millions de dollars contre des informations.",
+          "video": "medias/series/la-casa-de-papel/3-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Tokyo essaie de noyer son chagrin. Sierra adopte une tactique très ciblée pour mettre Nairobi en position de faiblesse, tandis que Suárez continue de traquer Raquel.",
+          "video": "medias/series/la-casa-de-papel/3-8.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Épisode 1",
+          "desc": "La colère et le chagrin accentuent les tensions dans le groupe. Touché par un deuil, le Professeur tente une esquive aussi audacieuse que dangereuse.",
+          "video": "medias/series/la-casa-de-papel/4-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Le groupe assiste avec stupéfaction aux agissements de Palerme. Sierra intensifie les négociations en tête-à-tête. Le Professeur se souvient du mariage de son frère.",
+          "video": "medias/series/la-casa-de-papel/4-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "La taupe du Professeur essaie de transmettre un message à l'intérieur du QG. L'amitié entre Monica et Rio attise la jalousie de Denver.",
+          "video": "medias/series/la-casa-de-papel/4-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Berlin avait prédit que Gandía causerait des problèmes lors de l'opération. L'interrogatoire de Lisbonne pousse Alicia Sierra à se livrer.",
+          "video": "medias/series/la-casa-de-papel/4-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Denver est obligé de recourir à une personne infiltrée. Nairobi doit motiver son équipe alors que le danger qui les menace est de plus en plus palpable.",
+          "video": "medias/series/la-casa-de-papel/4-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Gandía retient Nairobi en otage pour négocier. Le Professeur cherche désespérément un nouveau plan pour sauver les siens.",
+          "video": "medias/series/la-casa-de-papel/4-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "L'équipe est sous le choc après l'attaque qu'elle vient de subir. Le Professeur met le plan qu'il a peaufiné à exécution avec l'aide de nouvelles recrues et de Palerme.",
+          "video": "medias/series/la-casa-de-papel/4-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Le Professeur, Benjamin et les autres tentent de libérer Lisbonne. Emportée par la colère, Tokyo doute de la validité du plan. Sierra prend les choses en main.",
+          "video": "medias/series/la-casa-de-papel/4-8.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Épisode 1",
+          "desc": "Le Professeur affronte Sierra tandis que Tamayo fait grimper les enchères des négociations en appelant l'armée. Dans le passé, Berlin rencontre un membre de sa famille.",
+          "video": "medias/series/la-casa-de-papel/5-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Arturo saisit l'occasion de se défendre tout en assouvissant une vengeance personnelle. Lisbonne fait une découverte cruciale.",
+          "video": "medias/series/la-casa-de-papel/5-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Une lourde trahison et une urgence vitale prennent Sierra par surprise. Palerme mobilise les troupes alors que l'armée se rapproche de la bande.",
+          "video": "medias/series/la-casa-de-papel/5-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "La vie d'Helsinki étant menacée, les braqueurs montent une contre-attaque secrète. Des années plus tôt, Berlin et son fils réalisent leur premier casse ensemble.",
+          "video": "medias/series/la-casa-de-papel/5-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Alors que les tirs fusent et qu'elle est coincée dans la cuisine, Tokyo repense à son premier amour et à sa première rencontre avec le Professeur.",
+          "video": "medias/series/la-casa-de-papel/5-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Sierra profite du désespoir du Professeur pour tirer son épingle du jeu. Les membres de l'équipe tentent de gérer les répercussions affectives de la mort de leur amie.",
+          "video": "medias/series/la-casa-de-papel/5-6.mp4"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Tamayo lance une chasse à l'homme dans son quartier alors que ses ennemis se cachent. Dans le passé, Berlin et Palermo exposent leur plan pour sortir l'or de la banque.",
+          "video": "medias/series/la-casa-de-papel/5-7.mp4"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Tamayo court après l'or tandis que l'équipe engage une course contre la montre. Monica redoute de devenir folle. Des années auparavant, Berlin tombe de haut.",
+          "video": "medias/series/la-casa-de-papel/5-8.mp4"
+        },
+        {
+          "title": "Épisode 9",
+          "desc": "Le Professeur découvre avec stupéfaction que ses tactiques sont utilisées contre lui. Et quand tout espoir semble perdu, il décide de prendre son courage à deux mains.",
+          "video": "medias/series/la-casa-de-papel/5-9.mp4"
+        },
+        {
+          "title": "Épisode 10",
+          "desc": "Avec plusieurs vies en jeu et l'économie de l'Espagne au bord du précipice, l'ultime bras de fer entre le Professeur et Tamayo s'engage.",
+          "video": "medias/series/la-casa-de-papel/5-10.mp4"
+        }
+      ]
+    }
+  },
+  "The Walking Dead : The Ones Who Live": {
+    "title": "The Walking Dead : The Ones Who Live",
+    "description": "Séparés par la distance et par les fantômes de ceux qu'ils étaient avant, Rick et Michonne tentent de se retrouver dans un autre monde régi par la guerre contre les morts.",
+    "banner": "medias/series/the-walking-dead-the-ones-who-live/the-walking-dead-the-ones-who-live.jpg",
+    "IMDb": 7.7,
+    "IMDb_link": "https://www.imdb.com/title/tt9859436/",
+    "year": 2024,
+    "genres": ["Zombie Horror", "Drama", "Horror", "Thriller"],
+    "creators": ["Scott M. Gimple", "Danai Gurira", "Andrew Lincoln"],
+    "stars": ["Andrew Lincoln", "Danai Gurira", "Pollyanna McIntosh"],
+    "trailer": "https://www.youtube.com/watch?v=fCBVA_MxD_0",
+    "seasons": {
+      "1": [
+        {
+          "title": "Des années",
+          "desc": "Rick tente de trouver sa place dans un monde totalement différent de celui qu'il a connu.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-1.mp4"
+        },
+        {
+          "title": "Disparu",
+          "desc": "Michonne aide Aiden et Bailey à retrouver leur immense caravane. Aiden, Bailey, ainsi que leur amie Nat, se retrouvent donc avec Michonne et acceptent de l'aider dans sa recherche de Rick.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-2.mp4"
+        },
+        {
+          "title": "Au revoir",
+          "desc": "Rick et Michonne doivent trouver un moyen de survivre.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-3.mp4"
+        },
+        {
+          "title": "Ce qu'on...",
+          "desc": "Rick et Michonne tentent de retrouver l'amour qu'ils avaient.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-4.mp4"
+        },
+        {
+          "title": "Devient",
+          "desc": "Des personnes dangereuses rendent le voyage de Rick et Michonne difficile.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-5.mp4"
+        },
+        {
+          "title": "La dernière fois",
+          "desc": "Rick et Michonne doivent accomplir une mission qui relève du miracle.",
+          "video": "medias/series/the-walking-dead-the-ones-who-live/1-6.mp4"
         }
       ]
     }
