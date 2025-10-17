@@ -70,15 +70,15 @@ function displayStats() {
           </ul>
         </div>
         <div class="stat-card">
-          <h4>👥 Acteurs uniques</h4>
+          <h4>👥 Acteurs</h4>
           <p><strong>${allActors.size}</strong></p>
         </div>
         <div class="stat-card">
-          <h4>🎬 Réalisateurs uniques</h4>
+          <h4>🎬 Réalisateurs</h4>
           <p><strong>${allDirectors.size}</strong></p>
         </div>
         <div class="stat-card">
-          <h4>📝 Créateurs uniques</h4>
+          <h4>📝 Créateurs</h4>
           <p><strong>${allCreators.size}</strong></p>
         </div>
         <div class="stat-card">
