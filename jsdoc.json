@@ -1,8 +1,6 @@
 {
   "source": {
-    "include": [
-      "js"
-    ],
+    "include": ["js"],
     "includePattern": "\\.js$"
   },
   "opts": {

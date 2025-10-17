@@ -41,7 +41,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
       recommandée).
     - Avec **Python**:
       ```bash
-      python3 -m http.server 8000
+        python3 -m http.server 8000
       ```
 
 3. **Ouvrir l’application dans le navigateur**

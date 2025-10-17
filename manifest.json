@@ -10,7 +10,7 @@
   "theme_color": "#181818",
   "lang": "fr",
   "categories": ["movies", "series", "streaming", "StreamIt", "films", "TV shows"],
-  "icons": [
+    "icons": [
     {
       "src": "medias/logo.png",
       "sizes": "500x500",

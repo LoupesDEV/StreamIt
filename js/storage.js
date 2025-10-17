@@ -15,7 +15,9 @@ let seriesData = {};
  * @returns {Object} The watched content data with films and series.
  */
 function getWatchedContent() {
-    return JSON.parse(localStorage.getItem("watchedContent") || '{"films":{},"series":{}}');
+  return JSON.parse(
+    localStorage.getItem("watchedContent") || '{"films":{},"series":{}}'
+  );
 }
 
 /**
@@ -26,7 +28,7 @@ function getWatchedContent() {
  * @returns {void}
  */
 function setWatchedContent(data) {
-    localStorage.setItem("watchedContent", JSON.stringify(data));
+  localStorage.setItem("watchedContent", JSON.stringify(data));
 }
 
 /**
@@ -39,11 +41,11 @@ function setWatchedContent(data) {
  * @returns {void}
  */
 function markFilmWatched(title, watched = true, time = 0) {
-    const data = getWatchedContent();
-    if (!data.films[title]) data.films[title] = {};
-    data.films[title].watched = watched;
-    data.films[title].time = time;
-    setWatchedContent(data);
+  const data = getWatchedContent();
+  if (!data.films[title]) data.films[title] = {};
+  data.films[title].watched = watched;
+  data.films[title].time = time;
+  setWatchedContent(data);
 }
 
 /**
@@ -54,8 +56,8 @@ function markFilmWatched(title, watched = true, time = 0) {
  * @returns {Object} The watch data ({watched: boolean, time: number}).
  */
 function getFilmWatchData(title) {
-    const data = getWatchedContent();
-    return data.films[title] || {watched: false, time: 0};
+  const data = getWatchedContent();
+  return data.films[title] || { watched: false, time: 0 };
 }
 
 /**
@@ -69,12 +71,18 @@ function getFilmWatchData(title) {
  * @param {number} [time=0] - The last watched timestamp in seconds.
  * @returns {void}
  */
-function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time = 0) {
-    const data = getWatchedContent();
-    if (!data.series[seriesTitle]) data.series[seriesTitle] = {};
-    if (!data.series[seriesTitle][season]) data.series[seriesTitle][season] = {};
-    data.series[seriesTitle][season][epIndex] = {watched, time};
-    setWatchedContent(data);
+function markEpisodeWatched(
+  seriesTitle,
+  season,
+  epIndex,
+  watched = true,
+  time = 0
+) {
+  const data = getWatchedContent();
+  if (!data.series[seriesTitle]) data.series[seriesTitle] = {};
+  if (!data.series[seriesTitle][season]) data.series[seriesTitle][season] = {};
+  data.series[seriesTitle][season][epIndex] = { watched, time };
+  setWatchedContent(data);
 }
 
 /**
@@ -87,10 +95,15 @@ function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time =
  * @returns {Object} The watch data ({watched: boolean, time: number}).
  */
 function getEpisodeWatchData(seriesTitle, season, epIndex) {
-    const data = getWatchedContent();
-    return ((data.series[seriesTitle] && data.series[seriesTitle][season] && data.series[seriesTitle][season][epIndex]) || {
-            watched: false, time: 0,
-        });
+  const data = getWatchedContent();
+  return (
+    (data.series[seriesTitle] &&
+      data.series[seriesTitle][season] &&
+      data.series[seriesTitle][season][epIndex]) || {
+      watched: false,
+      time: 0,
+    }
+  );
 }
 
 /**
@@ -101,13 +114,13 @@ function getEpisodeWatchData(seriesTitle, season, epIndex) {
  * @returns {boolean} True if all episodes are watched, false otherwise.
  */
 function isSeriesFullyWatched(series) {
-    if (!series.seasons) return false;
-    for (const seasonNum in series.seasons) {
-        const episodes = series.seasons[seasonNum];
-        for (let i = 0; i < episodes.length; i++) {
-            const watchData = getEpisodeWatchData(series.title, seasonNum, i);
-            if (!watchData.watched) return false;
-        }
+  if (!series.seasons) return false;
+  for (const seasonNum in series.seasons) {
+    const episodes = series.seasons[seasonNum];
+    for (let i = 0; i < episodes.length; i++) {
+      const watchData = getEpisodeWatchData(series.title, seasonNum, i);
+      if (!watchData.watched) return false;
     }
-    return true;
+  }
+  return true;
 }

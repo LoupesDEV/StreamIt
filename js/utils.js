@@ -13,7 +13,7 @@
  * @returns {Object} The film object containing metadata like title, description, genres, etc.
  */
 function getFilmByTitle(title) {
-    return filmsData[title];
+  return filmsData[title];
 }
 
 /**
@@ -24,7 +24,7 @@ function getFilmByTitle(title) {
  * @returns {Object} The series object containing metadata like title, description, seasons, etc.
  */
 function getSeriesByTitle(title) {
-    return seriesData[title];
+  return seriesData[title];
 }
 
 /**
@@ -35,7 +35,7 @@ function getSeriesByTitle(title) {
  * @returns {string} The escaped string.
  */
 function escapeForHTML(str) {
-    return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+  return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
 }
 
 /**
@@ -47,13 +47,13 @@ function escapeForHTML(str) {
  * @returns {Function} A debounced version of the original function.
  */
 function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
     };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
 }

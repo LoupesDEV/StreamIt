@@ -14,8 +14,8 @@
  */
 const msg = localStorage.getItem("streamit_404_error");
 if (msg) {
-    document.getElementById("error-message").textContent = msg;
-    localStorage.removeItem("streamit_404_error");
+  document.getElementById("error-message").textContent = msg;
+  localStorage.removeItem("streamit_404_error");
 }
 
 /**
@@ -26,8 +26,8 @@ if (msg) {
  * @returns {void}
  */
 function handleErrorAndRedirect(message) {
-    localStorage.setItem("streamit_404_error", message);
-    window.location.href = "error.html";
+  localStorage.setItem("streamit_404_error", message);
+  window.location.href = "error.html";
 }
 
 /**
@@ -48,10 +48,16 @@ document.addEventListener("contextmenu", (e) => e.preventDefault());
  * @returns {void}
  */
 document.addEventListener("keydown", (e) => {
-    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") || (e.ctrlKey && e.key.toLowerCase() === "u")) {
-        e.preventDefault();
-        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
-    }
+  if (
+    e.key === "F12" ||
+    (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
+    (e.ctrlKey && e.key.toLowerCase() === "u")
+  ) {
+    e.preventDefault();
+    handleErrorAndRedirect(
+      "L'utilisation des outils de développement est interdite sur cette page."
+    );
+  }
 });
 
 /**
@@ -63,10 +69,12 @@ document.addEventListener("keydown", (e) => {
  * @private
  */
 (function detectDevTools() {
-    const start = Date.now();
-    debugger;
-    if (Date.now() - start > 100) {
-        handleErrorAndRedirect("L'utilisation des outils de développement est interdite sur cette page.");
-    }
-    setTimeout(detectDevTools, 1000);
+  const start = Date.now();
+  debugger;
+  if (Date.now() - start > 100) {
+    handleErrorAndRedirect(
+      "L'utilisation des outils de développement est interdite sur cette page."
+    );
+  }
+  setTimeout(detectDevTools, 1000);
 })();

@@ -1,44 +1,44 @@
 :root {
-    --bg-primary: #121212;
-    --bg-secondary: #1a1a1a;
-    --bg-card: #2a2a2a;
-    --bg-hover: #333333;
-    --text-primary: #ffffff;
-    --text-secondary: #b3b3b3;
-    --text-muted: #888888;
-    --accent: #dc2626;
-    --accent-hover: #991b1b;
-    --accent-light: #f87171;
-    --accent-dark: #7f1d1d;
-    --accent-rgb: 220, 38, 38;
-    --gradient-primary: linear-gradient(
-            135deg,
-            var(--accent) 0%,
-            var(--accent-light) 100%
-    );
-    --gradient-secondary: linear-gradient(
-            135deg,
-            var(--bg-secondary) 0%,
-            var(--bg-card) 100%
-    );
-    --gradient-hover: linear-gradient(
-            135deg,
-            var(--accent-hover) 0%,
-            var(--accent) 100%
-    );
-    --border: #404040;
-    --border-light: #555555;
-    --success: #1db954;
-    --warning: #ffa500;
-    --error: #ff4444;
-    --info: #2196f3;
-    --border-radius: 8px;
-    --border-radius-large: 12px;
-    --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    --shadow-large: 0 8px 32px rgba(0, 0, 0, 0.4);
-    --shadow-accent: 0 4px 12px rgba(var(--accent-rgb), 0.3);
-    --transition: all 0.3s ease;
-    --transition-fast: all 0.15s ease;
-    --boolean: #ffd700;
-    --null: #ff7f7f;
+  --bg-primary: #121212;
+  --bg-secondary: #1a1a1a;
+  --bg-card: #2a2a2a;
+  --bg-hover: #333333;
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --text-muted: #888888;
+  --accent: #dc2626;
+  --accent-hover: #991b1b;
+  --accent-light: #f87171;
+  --accent-dark: #7f1d1d;
+  --accent-rgb: 220, 38, 38;
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--accent) 0%,
+    var(--accent-light) 100%
+  );
+  --gradient-secondary: linear-gradient(
+    135deg,
+    var(--bg-secondary) 0%,
+    var(--bg-card) 100%
+  );
+  --gradient-hover: linear-gradient(
+    135deg,
+    var(--accent-hover) 0%,
+    var(--accent) 100%
+  );
+  --border: #404040;
+  --border-light: #555555;
+  --success: #1db954;
+  --warning: #ffa500;
+  --error: #ff4444;
+  --info: #2196f3;
+  --border-radius: 8px;
+  --border-radius-large: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-large: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-accent: 0 4px 12px rgba(var(--accent-rgb), 0.3);
+  --transition: all 0.3s ease;
+  --transition-fast: all 0.15s ease;
+  --boolean: #ffd700;
+  --null: #ff7f7f;
 }
