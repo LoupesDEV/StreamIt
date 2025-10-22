@@ -86,5 +86,20 @@
     "name": "Gladiator",
     "films": ["Gladiator", "Gladiator II"],
     "series": []
+  },
+  "Venom": {
+    "name": "Venom",
+    "films": ["Venom", "Venom: Let There Be Carnage", "Venom : The Last Dance"],
+    "series": []
+  },
+  "Les Bad Guys": {
+    "name": "Les Bad Guys",
+    "films": ["Les Bad Guys", "Les Bad Guys 2"],
+    "series": []
+  },
+  "Dexter": {
+    "name": "Dexter",
+    "films": [],
+    "series": ["Dexter", "Dexter : New Blood", "Dexter : Les Origines"]
   }
 }

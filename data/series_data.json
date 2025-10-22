@@ -6927,5 +6927,768 @@
         }
       ]
     }
+  },
+  "Lupin": {
+    "title": "Lupin",
+    "description": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
+    "banner": "medias/series/lupin/lupin.jpg",
+    "IMDb": 7.5,
+    "IMDb_link": "https://www.imdb.com/title/tt2531336/",
+    "year": 2021,
+    "genres": ["French", "Heist", "Action", "Crime", "Drama", "Mystery"],
+    "creators": ["George Kay"],
+    "stars": ["Omar Sy", "Ludivine Sagnier", "Soufiane Guerrab"],
+    "trailer": "https://www.youtube.com/watch?v=gCmuYqeeNpc",
+    "seasons": {
+      "1": [
+        {
+          "title": "Chapitre 1",
+          "desc": "Hanté par l'injustice qui a frappé sa famille, Assane veut régler ses comptes en volant un collier de diamants. Mais rien ne se passe comme prévu.",
+          "video": "medias/series/lupin/1-1.mp4"
+        },
+        {
+          "title": "Chapitre 2",
+          "desc": "Assane élabore un scénario pour entrer en contact avec un détenu qui peut le renseigner sur la mort de Babakar. Anne Pellegrini avoue un lourd secret.",
+          "video": "medias/series/lupin/1-2.mp4"
+        },
+        {
+          "title": "Chapitre 3",
+          "desc": "Assane interroge le commissaire Dumont et utilise un stratagème pour écarter la police. Le lien entre Hubert Pellegrini et le sort de Babakar est révélé au grand jour.",
+          "video": "medias/series/lupin/1-3.mp4"
+        },
+        {
+          "title": "Chapitre 4",
+          "desc": "Assane sollicite l'aide d'une journaliste pour réunir des preuves contre Hubert. Guédira fait le rapprochement entre certains éléments du casse du Louvre.",
+          "video": "medias/series/lupin/1-4.mp4"
+        },
+        {
+          "title": "Chapitre 5",
+          "desc": "Dans le train pour Étretat, Assane, Claire et Raoul font une mauvaise rencontre. Acculé, Assane envoie un message au capitaine Laugier.",
+          "video": "medias/series/lupin/1-5.mp4"
+        },
+        {
+          "title": "Chapitre 6",
+          "desc": "Avec Guédira dans son sillage, Assane suit les traces de Raoul. Mais dans un manoir abandonné de Bourneville, une violente altercation l'oppose à Léonard.",
+          "video": "medias/series/lupin/1-6.mp4"
+        },
+        {
+          "title": "Chapitre 7",
+          "desc": "Hubert conclut un accord avec Dumont et tend un piège à Assane... Mais celui-ci a une fois de plus une longueur d'avance. Claire fait une proposition à Hubert.",
+          "video": "medias/series/lupin/1-7.mp4"
+        },
+        {
+          "title": "Chapitre 8",
+          "desc": "Tout en essayant de gagner la confiance de Juliette à travers une série d'exploits, Assane met au point une intrigue élaborée pour prendre Hubert par surprise.",
+          "video": "medias/series/lupin/1-8.mp4"
+        },
+        {
+          "title": "Chapitre 9",
+          "desc": "Léonard file Assane jusqu'à son domicile pendant qu'Hubert orchestre un coup monté. Assane laisse à Guédira un indice qui éclaire la vraie nature de Dumont.",
+          "video": "medias/series/lupin/1-9.mp4"
+        },
+        {
+          "title": "Chapitre 10",
+          "desc": "Dans un ultime stratagème censé tout déjouer, Assane et Benjamin recrutent et déguisent un astucieux complice afin de livrer Hubert à la justice.",
+          "video": "medias/series/lupin/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Chapitre 1",
+          "desc": "Voulant arranger les choses avec Claire et Raoul, Assane échafaude un plan pour leur faire quitter la France. L'enjeu est élevé et l'opération risquée : il n'a plus droit à l'erreur.",
+          "video": "medias/series/lupin/2-1.mp4"
+        },
+        {
+          "title": "Chapitre 2",
+          "desc": "Quand un événement secoue la France, Guédira et Raoul refusent d'y croire. Une petite annonce fait resurgir des fantômes du passé et un espoir depuis longtemps perdu.",
+          "video": "medias/series/lupin/2-2.mp4"
+        },
+        {
+          "title": "Chapitre 3",
+          "desc": "Alors que Fleur et Guédira concluent un accord, Belkacem rend visite à Benjamin. Assane affronte un nouvel ennemi à l'identité inconnue, tout en gardant un œil sur sa famille.",
+          "video": "medias/series/lupin/2-3.mp4"
+        },
+        {
+          "title": "Chapitre 4",
+          "desc": "Assane se rapproche des ravisseurs, mais toujours aucune trace de la captive. Il est chargé d'une nouvelle mission de taille et se retrouve face à un choix impossible.",
+          "video": "medias/series/lupin/2-4.mp4"
+        },
+        {
+          "title": "Chapitre 5",
+          "desc": "De plus en plus soupçonneuse, Claire commence sa propre enquête. Une surprise attend Guédira, qui se voit offrir une opportunité inouïe pour un fan d'Arsène Lupin.",
+          "video": "medias/series/lupin/2-5.mp4"
+        },
+        {
+          "title": "Chapitre 6",
+          "desc": "Maintenant qu'il a identifié son adversaire, Assane fonce pour protéger sa famille et échapper à des représailles. Belkacem se méfie de Guédira. Mariama envoie un message.",
+          "video": "medias/series/lupin/2-6.mp4"
+        },
+        {
+          "title": "Chapitre 7",
+          "desc": "Une réunion de famille tant attendue se profile. Aidé de Mariama, Assane abat sa dernière carte afin d'arrêter Keller, réparer ses erreurs et s'éclipser en beauté.",
+          "video": "medias/series/lupin/2-7.mp4"
+        }
+      ]
+    }
+  },
+  "Dexter": {
+    "title": "Dexter",
+    "description": "Brillant expert scientifique du service médico-légal de la police de Miami, Dexter Morgan est spécialisé dans l'analyse de prélèvements et d'éclaboussures de sang. Mais Dexter cache un terrible secret : c'est également un tueur en série ! Un serial killer pas comme les autres, avec sa propre vision de la justice, qui, grâce au code fourni par son père adoptif, ne s'en prend qu'à des personnes coupables de meurtres affreux ou de délits répréhensibles. Mais Dexter n'attend pas que la justice les libère ou les relâche, faute de preuves. Il les assassine, avant même que la police ne remonte jusqu'à eux et efface ses traces. Sa demi-sœur, Debra, travaille dans le même commissariat que lui et n'a de cesse de traquer tous les meurtriers, quels qu'ils soient... sans savoir qu'elle en fréquente un, tous les jours !",
+    "banner": "medias/series/dexter/dexter.jpg",
+    "video": "medias/series/dexter/dexter.mp4",
+    "IMDb": 8.6,
+    "IMDb_link": "https://www.imdb.com/title/tt0773262/",
+    "year": 2006,
+    "genres": [
+      "Dark Comedy",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Serial Killer",
+      "Suspense Mystery",
+      "Whodunnit",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": ["Michael C. Hall", "Jennifer Carpenter", "David Zayas"],
+    "creators": ["James Manos Jr."],
+    "seasons": {
+      "1": [
+        {
+          "title": "Deux en un",
+          "desc": "Médecin-légiste de la police de Miami, Dexter Morgan est spécialisé dans l'analyse de prélèvements sanguins. Il est apprécié de tous ses collègues à l'exception du Sergent Doakes, qui se méfie de lui. Et il n'a pas tort car Dexter consacre une partie de son temps à régler son compte à quelques assassins en liberté. Une vision très personnelle de la justice qui lui permet de canaliser certaines pulsions. Pour l'heure, Dexter est impressionné par le cas d'un tueur en série qui laisse derrière lui des cadavres proprement découpés, sans une goutte de sang...",
+          "video": "medias/series/dexter/1-1.mp4"
+        },
+        {
+          "title": "Les Larmes du crocodile",
+          "desc": "Dexter est emballé lorsqu'il découvre que le tueur veut jouer au chat et à la souris avec lui. Celui-ci s'est introduit dans son appartement et a laissé dans le congélateur une poupée découpée de la même façon que ses victimes. Y a-t-il caché un indice ?...",
+          "video": "medias/series/dexter/1-2.mp4"
+        },
+        {
+          "title": "Ouverture du score",
+          "desc": "Jeremy Downs vient d’être relâché. Il y a quatre ans, l’adolescent avait sauvagement assassiné plusieurs camarades avant d’être appréhendé puis condamné à une peine ridicule. Persuadé que le garçon va récidiver, Dexter le suit afin que justice soit faite. Deb, promue au sein de la brigade criminelle, enquête sur le décès de Cherry, la nouvelle victime du tueur de prostituées. La jeune femme mutilée s’avère être une ancienne collègue de Deb, du temps où elle tapinait sous couverture. James Doakes poursuit son enquête visant à faire tomber Carlos Guerreros tandis que Dexter, sur les traces de Jeremy, se remémore des événements de son adolescence perturbée, notamment les circonstances de son premier meurtre…",
+          "video": "medias/series/dexter/1-3.mp4"
+        },
+        {
+          "title": "Bout à bout",
+          "desc": "Une main coupée est retrouvée sur la plage disposée avec une mise en scène rappelant à Dexter un souvenir d'enfance. Le tueur a procédé cette fois-ci différemment ! Outre la présence de sang, il s'agit de la main d'un homme. Le légiste découvre qu'elle appartient à Tony Tucci, jusqu'alors soupçonné d'être le mystérieux tueur en série...",
+          "video": "medias/series/dexter/1-4.mp4"
+        },
+        {
+          "title": "Le Rêve américain",
+          "desc": "Tony Tucci a enfin été retrouvé en vie ! Debra aide le sergent Doakes sur l'enquête. Il recherche des indices sur les lieux où le tueur a procédé aux interventions sur sa dernière victime... Rita demande l'aide de Dexter sur une affaire d'immigration clandestine...",
+          "video": "medias/series/dexter/1-5.mp4"
+        },
+        {
+          "title": "Retour à l'envoyeur",
+          "desc": "Dexter est inquiet. Son ami de jeu a récupéré le cadavre de Valérie Castillo, qu'il avait jeté à la mer, et l'a replacé sur les lieux du crime. La police enquête sur cette nouvelle affaire. Debra pense qu'il s'agit d'un imitateur. Le nœud se resserre autour de Dexter lorsqu'un témoin oculaire est découvert... Rita apprend que son ex-futur mari est sorti de prison. La nouvelle vient assombrir la fête d'anniversaire qu'elle préparait pour Astor...",
+          "video": "medias/series/dexter/1-6.mp4"
+        },
+        {
+          "title": "Ça reste entre nous",
+          "desc": "Debra fait preuve de beaucoup de détermination pour coincer le tueur au camion frigorifique. Elle recoupe les données de contraventions sur les lieux des meurtres, ce qui l'amène à un certain Neil Perry... Dexter découvre que le jeune Jeremy Downs, auquel il avait laissé la vie sauve, a encore fait des siennes... Rita panique lorsqu'elle apprend que son mari a récupéré les enfants à la sortie de l'école...",
+          "video": "medias/series/dexter/1-7.mp4"
+        },
+        {
+          "title": "Démystification",
+          "desc": "Dexter s'intéresse au suicide d'une jeune femme qui présente des similitudes avec deux autres affaires. Dans les trois cas, il s'agissait de femmes riches et puissantes qui avaient décidé d'en finir avec la vie. Dexter découvre qu'elles étaient toutes suivies par le même thérapeute...",
+          "video": "medias/series/dexter/1-8.mp4"
+        },
+        {
+          "title": "Au nom du père",
+          "desc": "La poursuite d'un suspect se termine par la mort de celui-ci. Doakes assure qu'il était en état de légitime défense. Mais Angel n'a pas la même version des faits... Dexter reçoit un courrier recommandé lui signalant la mort de son père biologique. Harry lui aurait-il menti sur la mort de ses parents ?...",
+          "video": "medias/series/dexter/1-9.mp4"
+        },
+        {
+          "title": "Chambre 103",
+          "desc": "La police de Miami reçoit un nouvel indice qui la mène sur les lieux d'un nouveau crime. Un forfait perpétré par le mystérieux tueur au camion frigorifique ? Dexter le pense ! Une fois sur place, l'expert sanguin, assailli par quelques souvenirs déroutants, fait un malaise... Rita apprend que Paul a déposé plainte contre elle pour coups et blessures...",
+          "video": "medias/series/dexter/1-10.mp4"
+        },
+        {
+          "title": "Tout se dit",
+          "desc": "Victime d'une agression, Angel a été hospitalisé dans un état critique. Tous ces collègues sont aux urgences, espérant qu'il va s'en sortir... Pendant ce temps, Rudy s'attaque à une nouvelle victime pour détourner l'attention, le temps qu'il mette son plan à exécution... Rita ne sait comment réagir quand les enfants réclament leur père... Et Dexter mène l'enquête pour en savoir sur la scène du crime où Harry l'a trouvé...",
+          "video": "medias/series/dexter/1-11.mp4"
+        },
+        {
+          "title": "Réunion de famille",
+          "desc": "Rudy prend le large avec Deb qu'il retient captive pour le grand moment. Dexter cherche un indice qui pourrait le faire remonter jusqu'au tueur... Doakes et Laguerta apprennent par Vince qu'Angel était sur la piste du tueur avant son agression. En interrogeant le convalescent, ils en viennent vite à la conclusion que le petit ami prothésiste de Deb pourrait bien être le coupable...",
+          "video": "medias/series/dexter/1-12.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "L'Ombre d'un doute",
+          "desc": "Dexter compte les jours, les heures, les minutes même, depuis son dernier crime : celui de son frère de sang, au sens propre comme au figuré. Son envie de tuer l'obsède. Parvenant à tromper la vigilance du sergent Doakes qui, sans répit, le piste, il s'apprête à exercer sa Némésis sur une nouvelle victime. Alors qu'il est sur le point de parachever son rituel criminel, il échoue de manière incompréhensible dans sa tentative. Cette impuissance passagère le plonge aussitôt dans un océan de doute.",
+          "video": "medias/series/dexter/2-1.mp4"
+        },
+        {
+          "title": "Faire le deuil",
+          "desc": "Le cimetière sous-marin de Dexter ayant été découvert par des plongeurs, le FBI dépêche à Miami Frank Lundy, agent fédéral précédé d'une réputation légendaire en charge de l'enquête sur \"le Boucher de Bay Harbour\". Au même moment, la brigade criminelle tente de démanteler un réseau de trafiquants semant la terreur dans les ghettos latinos. Little Chino, membre de ce gang responsable de plusieurs crimes à la machette, devient alors la nouvelle proie d'un Dexter prêt à accomplir sa justice immanente et avide de retrouver sa capacité à tuer.",
+          "video": "medias/series/dexter/2-2.mp4"
+        },
+        {
+          "title": "Mensonges et conséquences",
+          "desc": "Avouant à Rita qu'il souffre d'une addiction sans préciser la nature de celle-ci, Dexter s'engage à suivre les séances des Toxicomanes anonymes. Peu convaincu de l'utilité de cette thérapie par la parole et obnubilé par la traque de sa prochaine victime, il ignore l'intérêt que lui porte manifestement Lila, jeune artiste convaincue de discerner sa part d'ombre. Parallèlement, Debra et Batista intègrent l'équipe de Frank Lundy qui commence son investigation autour du \"Boucher de Bay Harbour\".",
+          "video": "medias/series/dexter/2-3.mp4"
+        },
+        {
+          "title": "Transparence",
+          "desc": "Un lien semble se dessiner entre les différentes victimes du \"Boucher de Bay Harbour\" : treize d'entre elles ont été suspectées ou jugées pour meurtre. Aux premières loges pour connaître la progression de l'enquête, Dexter constate que l'étau se resserre dangereusement autour de lui et cherche alors le moyen de saboter le travail de Lundy. Ce n'est cependant pas le seul danger qui met en péril son équilibre précaire, une autre menace tout aussi pernicieuse ne demande qu'à s'abattre sur lui : la très troublante Lila.",
+          "video": "medias/series/dexter/2-4.mp4"
+        },
+        {
+          "title": "Ami ou ennemi ?",
+          "desc": "Dexter fait part du meurtre de sa mère à Lila, qui lui enjoint alors de chercher à savoir ce que sont devenus les assassins pour enfin le délivrer de ses démons. Ses recherches le mènent à d'importantes découvertes sur les rapports que sa mère entretenait avec Harry Morgan. Il apprend également qu'un seul des criminels responsables de son traumatisme est encore en vie et qu'il tient un bar à une heure de Miami. Lila convainc Dexter de l'y accompagner pour affronter son bourreau.",
+          "video": "medias/series/dexter/2-5.mp4"
+        },
+        {
+          "title": "Dex, mensonges et vidéo",
+          "desc": "Debra avise incidemment son frère que Coral Cove, la marina où l'esquif de Dexter est amarré, a été placée sous surveillance vidéo par l'agent Lundy. Comprenant aussitôt que les images risquent de le confondre, il cherche le moyen d'effacer toute preuve de son passage en ces lieux. En pleine confusion, Dexter finit par succomber aux charmes de Lila et, soudainement incapable de mentir, avoue cette relation à Rita. Celle-ci, logiquement blessée, décide alors de se séparer de lui.",
+          "video": "medias/series/dexter/2-6.mp4"
+        },
+        {
+          "title": "Allumez le feu",
+          "desc": "Le Boucher de Bay Harbor envoie un manifeste au groupe d'agents spéciaux chargés de sa capture pour leur faire perdre du temps. Dans le même temps Dexter cherche à pousser Doakes à la faute, ce dernier se rapprochant de la vérité sur son passé. La relation de Dexter avec Lila devient de plus en plus charnelle et fusionnelle, ce qui n'est pas vraiment au goût de Debra. Mais le tiraillement d'avec son ancienne vie avec Rita et les enfants est toujours présent, Lila n'apprécie guère ... et son appartement \"soudainement\" prend feu. De son côté, Debra se rapproche de plus en plus de Lundy.",
+          "video": "medias/series/dexter/2-7.mp4"
+        },
+        {
+          "title": "L'étau se resserre",
+          "desc": "L'enquête pour retrouver le Bay Harbor Butcher prend une nouvelle tournure interne lorsqu'il est fait état que ce dernier a de fortes chances d'appartenir à la police de Miami. Dexter est saisi de doutes sur l'origine de l'incendie chez Lila, et commence peu à peu à se méfier de son trouble jeu, d'autant que l'attachement à l'excès de cette dernière commence à lui faire perdre pied et baisser sa garde.",
+          "video": "medias/series/dexter/2-8.mp4"
+        },
+        {
+          "title": "Trophées",
+          "desc": "Dexter prend conscience qu'il aimerait renouer avec Rita, tandis que Lila continue de s'accrocher à lui en utilisant son entourage. Tout va en revanche pour le mieux entre Debra et Lundy, bien que les deux nouveaux tourtereaux ne soient pas totalement d'accord sur la pertinence de révéler leur liaison. Filé par le FBI, puis convoqué en pleine nuit au poste, Dexter croit bien voir arriver la fin pour lui, surtout après avoir constaté la disparition de sa \"boîte à trophées\" de son appartement. Mais contre toute attente, c'est sur Doakes que toutes les lumières de la suspicion se braquent. Ce dernier continue d'ailleurs de faire cavalier seul, malgré ses récentes découvertes sur Dexter. Désormais protégé et surveillé en permanence par les agents de Lundy, Dexter est très embêté de ne pouvoir terminer de s'occuper du corps de sa dernière victime, Jimenez, l'assassin de sa mère. Dex finit par trouver une ouverture pour aller finir le boulot, mais tombe sur Doakes qui l'avait pisté.",
+          "video": "medias/series/dexter/2-9.mp4"
+        },
+        {
+          "title": "Harry dans tous ses états",
+          "desc": "Dexter hésite sur le sort à réserver à son nouveau captif, Doakes. Envisageant d'abord de le tuer, Dexter se ravise lorsque celui-ci est sur le point de révéler quelque chose sur son père. Dexter décide finalement de fabriquer de nouvelles fausses preuves à la charge de Doakes, et de mener enquête et réflexion sur ce nouveau mystère entourant son défunt paternel adoptif. Au poste, Laguerta continue de soutenir la thèse de l'innocence de Doakes. La relation entre Debra et Lundy prend une légère tournure conflictuelle lorsque Debra comprend que leur histoire risque de se terminer une fois le cas du Bay Harbor Butcher résolu, et Lundy parti enquêter vers d'autres affaires. Les choses s'améliorent doucement en revanche entre Dexter et Rita. Sans doute pas du goût de Lila qui manigance quelque chose de son côté en se servant de sa nouvelle relation d'avec Angel.",
+          "video": "medias/series/dexter/2-10.mp4"
+        },
+        {
+          "title": "Droit devant",
+          "desc": "Dexter et Rita Bennett reprennent leur relation progressivement en yacht, au beau milieu de la mer, avec toute la famille Bennett pour relier leurs liens, mais Dexter a organisé cela en guise d'adieu, il compte se rendre à la police après les découvertes qu'il a fait sur la cause du décès de son père adoptif Harry. Lila profite de la virée en mer pour se faufiler dans sa voiture et tombe sur son GPS qu'il a utilisé pour pister ses victimes mais aussi pour tracer sa route dans les Everglades jusqu'à la cabane qui retient Doakes. C'est lorsqu'il se prépare à se révéler à sa soeur en tant que \"the Bay Harbor Butcher\" qu'il se rend compte par les paroles de Deb' qu'il y a Rita, Cody, Astor et elle qui comptent énormément sur lui. Se rendre ? Plus question !",
+          "video": "medias/series/dexter/2-11.mp4"
+        },
+        {
+          "title": "Âme sœur",
+          "desc": "Lila, guidée par le récepteur GPS qu'elle a volé à Dexter, trouve le chalet où est enfermé le sergent Doakes et découvre ainsi la véritable drogue de Dexter, le meurtre. Loin d'être effrayée par cette révélation, elle s'auto-proclame âme-soeur de Dexter et faisant sienne sa folie, tue Doakes en laissant ouvert le robinet d'une bonbonne de gaz. Une explosion s'en suit.",
+          "video": "medias/series/dexter/2-12.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Notre père",
+          "desc": "Lors d'une de ses chasses nocturnes, Dexter tue un homme inconnu qui l'agresse. Il vient de bafouer le Code de Harry : il a ôté la vie à un innocent, frère du procureur qui plus est. De plus, sa vraie cible a disparu dans la nature, après avoir vu le visage de Dexter. L'affaire est confiée à Debra, qui espère passer détective. De son côté, Dexter se rapproche de plus en plus de Rita, qui lui annonce qu'elle est enceinte...",
+          "video": "medias/series/dexter/3-1.mp4"
+        },
+        {
+          "title": "À la recherche de Freebo",
+          "desc": "La grossesse de Rita est confirmée, mais Dexter a d'autres soucis. Il doit retrouver Freebo et l'éliminer avant que ses collègues ne lui mettent la main dessus. Miguel Prado s'impatiente et, alors que personne ne voit le coup venir, Debra pourrait bien répondre à ses attentes en reliant son enquête à celle d'Angel.",
+          "video": "medias/series/dexter/3-2.mp4"
+        },
+        {
+          "title": "Prédateurs",
+          "desc": "Depuis le meurtre de Freebo, Miguel Prado multiplie les marques d'affection envers son \"complice\". Dexter, peu habitué à ce genre de rapprochement, est plutôt embarrassé. Le procureur est rapidement rattrapé par l'affaire Chicky Hines, un criminel qu'il inculpe sans avoir pris en compte un témoignage le disculpant du meurtre. Maria Laguerta commence à s'interroger sur le véritable fond de son ami de toujours. Le corps mutilé d'une nouvelle victime est découvert dans un parc de Miami. Il s'agit d'un témoin interrogé quelques jours plus tôt par Deb dans l'affaire Freebo...",
+          "video": "medias/series/dexter/3-3.mp4"
+        },
+        {
+          "title": "Jeu de rôle",
+          "desc": "Dexter et Rita annoncent aux enfants que leur mère est enceinte, ce qui amènera la question du mariage. Miguel doit comprendre que son frère est un problème. Quinn joue de son charme au détriment de Deb qui est de plus en plus sollicitée par l'agent Yuki.",
+          "video": "medias/series/dexter/3-4.mp4"
+        },
+        {
+          "title": "l'appel du large",
+          "desc": "Rita veut que Dexter vienne vivre avec elle et les enfants, mais pour cela il faut acheter une maison plus grande, ce qui ne l'enchante pas. Peu enclin à en discuter, il préfère suivre les indications de Miguel Prado et traquer un tueur. Deb retrouve Wendell, le gamin qui surveillait l'entrée de la maison de Freebo.",
+          "video": "medias/series/dexter/3-5.mp4"
+        },
+        {
+          "title": "Vouloir, c'est pouvoir",
+          "desc": "Alors que Miguel connaît la véritable nature de Dexter. Celui-ci décide de le mettre à l'épreuve pour vérifier ses convictions. Ils montent ensemble un plan d'assassinat contre un néo-nazi. Debra, toujours sur l'enquête du dépeceur, se met à suspecter Ramon Prado.",
+          "video": "medias/series/dexter/3-6.mp4"
+        },
+        {
+          "title": "C'est du gâteau",
+          "desc": "Excité à l'idée de débarrasser le monde de ses «méchants», Miguel Prado propose à Dexter une nouvelle cible. Il s'agit d'Ellen Wolf, une excellente avocate dont l'unique crime est de faire sortir des assassins de prison. Un défaut insuffisant aux yeux de Dexter. Le serial killer entre alors dans un questionnement sur la finalité et le sens de son code. Doit-il le modifier pour ne pas décevoir Miguel ? Pendant ce temps, l'enquête sur l'écorcheur piétine et Batista décide de se servir d'Anton comme appât pour appréhender le tueur en série. Deb, en désaccord avec son supérieur, continue ses propres investigations et suit à présent une piste intéressante. Placée en soins palliatifs, Camilla supplie Dexter de l'aider à mourir",
+          "video": "medias/series/dexter/3-7.mp4"
+        },
+        {
+          "title": "L'Effet papillon",
+          "desc": "La nouvelle piste découverte par Deb conduit les enquêteurs à interroger des élagueurs, toujours présents sur les scènes de crime de l'écorcheur. Deb, qui a passé la nuit avec Anton, lui apprend qu'il n'est pas un véritable indic et qu'aucune charge n'est retenue contre lui. Il est donc libre de collaborer ou non avec la police de Miami. Le lendemain, Anton est introuvable. Miguel Prado désire passer à l'étape supérieure : tuer. Il présente à Dexter leur nouvelle cible, Billy Fleeter, un joueur de football américain raté, contraint à tuer pour rembourser sa dette auprès d'un bookmaker. Malgré les avertissements d'Harry, Dexter enseigne alors à Miguel les rudiments du parfait meurtrier. Mais attention, l'élève pourrait bientôt dépasser le maître...",
+          "video": "medias/series/dexter/3-8.mp4"
+        },
+        {
+          "title": "Tous en scène",
+          "desc": "En enseignant à Miguel les rudiments du parfait meurtrier, Dexter a créé un monstre. Le lendemain du premier meurtre orchestré par son élève, Dex apprend que celui-ci n'est pas directement rentré auprès de Sylvia. Ellen Wolf est introuvable et le tueur en série fait rapidement le rapprochement entre l'aversion de son ami pour l'avocate et sa disparition. Dexter tente de provoquer le procureur adjoint afin que sa vulnérabilité soit palpable par les enquêteurs... Depuis le kidnapping d'Anton, toutes les patrouilles recherchent activement George King. Doutant de la sincérité de son ami, Dexter analyse le sang de la chemise offerte en gage de confiance et s'aperçoit qu'un monstre l'a manipulé",
+          "video": "medias/series/dexter/3-9.mp4"
+        },
+        {
+          "title": "Options",
+          "desc": "Dexter ne digère pas le comportement de Miguel à son égard et prépare sa vengeance. Les enquêteurs mettent la main sur Toby Edwards, un barman qui aurait rendu visite à Ellen Wolf la nuit de son meurtre. Dexter y voit une excellente occasion d'effrayer le procureur adjoint, en lui soufflant la possibilité d'un témoignage. Le sergent Batista se rend au chevet de sa compagne, battue par l'un de ses clients, tandis que Debra remet en question sa relation avec Anton. Doit-elle prendre le risque de perdre sa plaque pour une simple relation avec le témoin clé de l'enquête sur laquelle elle travaille ? Sylvia, certaine que son époux la trompe, débarque à l'improviste chez Maria Laguerta et y découvre Miguel. La jeune femme évoque l'absence de son mari la nuit de l'assassinat d'Ellen. Dexter se rend chez son ancien meilleur ami et y fait une surprenante découverte...",
+          "video": "medias/series/dexter/3-10.mp4"
+        },
+        {
+          "title": "Adios, amigo",
+          "desc": "Dexter participe à l'enterrement de sa vie de garçon organisé par ses collègues de travail et auquel participe aussi Miguel. Alors que Dexter prend la décision d'éliminer Miguel et qu'il réfléchit à la façon dont il va s'y prendre, la lieutenant LaGuerta commence à se douter de l'implication de Miguel dans l'assassinat de l'avocate Ellen Wolf.",
+          "video": "medias/series/dexter/3-11.mp4"
+        },
+        {
+          "title": "Demain, je me marie",
+          "desc": "Le corps de Miguel Prado est retrouvé dans un parc de Miami. Les enquêteurs songent immédiatement à l'écorcheur. Fier de la réussite de son plan, Dexter joue à l'ami endeuillé, se réfugiant dans le travail. Mais Ramon Prado, loin d'être dupe, menace le tueur en série et saccage son appartement. En gage de gratitude pour son professionnalisme dans l'affaire de l'écorcheur, Angel Batista offre à Debra la promotion de sa vie : la plaque d'inspecteur qui la faisait tant rêver. Mais Deb est rapidement rattrapée par ses relations douteuses avec Anton, le témoin clé de l'enquête. Ce conflit d'intérêt pourrait nuire à son nouveau statut. La veille de son mariage, Dexter se retrouve dans une situation familière : il est ligoté sur une table. Dans le rôle du bourreau : George King...",
+          "video": "medias/series/dexter/3-12.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Morphée contre Trinité",
+          "desc": "Avec son nouveau statut de père de famille, Dexter ne dort plus. Ce qui lui pose des problèmes, autant dans sa vie professionnelle que dans sa vie de tueur. D'autant plus que The Trinity Killer, un meurtrier aussi méticuleux que lui, frappe désormais Miami...",
+          "video": "medias/series/dexter/4-1.mp4"
+        },
+        {
+          "title": "Et les restes, alors ?",
+          "desc": "A la suite de son accident de voiture, Dexter souffre d'une légère amnésie et ne parvient plus à se souvenir de l'endroit où il a caché le corps de Benny Gomez. Debra, quant à elle, est quelque peu déboussolée par le retour imprévu de Franck Lundy.",
+          "video": "medias/series/dexter/4-2.mp4"
+        },
+        {
+          "title": "Aveuglé par la lumière",
+          "desc": "Dexter semble avoir du mal à s'habituer à sa nouvelle vie de famille. En effet, après avoir parlé au docteur, Rita lui interdit de prendre la voiture seul et le conduit partout, le privant encore d'avantage de liberté.Pour ne rien arranger, une série de vandalismes dans leur quartier contraint l'ensemble du voisinage à organiser des rondes de nuit. Les ballades nocturnes de Dexter étant ainsi impossibles, il décide de prendre les choses en main.",
+          "video": "medias/series/dexter/4-3.mp4"
+        },
+        {
+          "title": "Un peu de liberté !",
+          "desc": "Dexter profite des quelques jours d'absence de Rita et des enfants pour étudier, à sa manière, le dossier d'une policière ayant assistée aux meurtres de son mari et de sa fille. Debra, quant à elle, est tiraillée par ses sentiments envers Frank Lundy.",
+          "video": "medias/series/dexter/4-4.mp4"
+        },
+        {
+          "title": "Inspecteur Harry",
+          "desc": "Dexter profite de la mort de Frank Lundy pour récupérer tous les document que possédait ce dernier sur l' enquête du Trinity. Il espère ainsi le retrouver. Rita, quant à elle, découvre que Dexter a gardé son ancien appartement. Furieuse, elle lui demande des explications sur ses mensonges.",
+          "video": "medias/series/dexter/4-5.mp4"
+        },
+        {
+          "title": "Les Charpentiers du cœur",
+          "desc": "Dexter commence à faire connaissance avec Arthur Mitchell, sa nouvelle proie. Il essaie de comprendre comment il gère sa vie de tueur et sa vie de famille ; car se son côté, Rita a de moins en moins confiance en lui et souhaite voir un psy de couple afin que Dexter se confie et s'ouvre à elle.",
+          "video": "medias/series/dexter/4-6.mp4"
+        },
+        {
+          "title": "L'Étale",
+          "desc": "Dexter tente inlassablement de trouver le juste équilibre entre vie de famille, travail et activités nocturnes. Pour cela il sollicite les conseils d'Arthur qui semble si bien concilier ces différents aspects. Afin d'avoir un peu de temps libre il se met en quête d'activités pour Cody et Astor, mais cela ne fait que l'occuper un peu plus. La police découvre le bras d'un jeune mannequin du Guatemala dans le corps d'un alligator et remonte la piste jusqu'à un célèbre photographe, Jonathan Farrow. Dexter se met en tête de l'éliminer, ayant trouvé des preuves de sa culpabilité, mais sa tâche sera freinée par les filatures de Quinn. Pendant ce temps, Debra, de retour au travail, se concentre sur deux dossiers : la recherche de l'identité de Trinité et l'enquête sur le passé de son père. Ses recherches inquiètent Dexter, qui craint fortement qu'elle finisse par découvrir la vérité sur ces deux affaires.",
+          "video": "medias/series/dexter/4-7.mp4"
+        },
+        {
+          "title": "Tueurs en vadrouille",
+          "desc": "Dexter, troublé par son infraction au code d'Harry, tente d'oublier son erreur en se concentrant sur le meurtre d'Arthur. Lorsque ce dernier annonce son départ pour quelques jours à Tampa, Dexter n'hésite pas une seconde et décide de l'accompagner. Debra, elle, fait une découverte quant au meurtre de Frank Lundy, remettant en question toute l'enquête.",
+          "video": "medias/series/dexter/4-8.mp4"
+        },
+        {
+          "title": "L'Affamé",
+          "desc": "En s'immisçant encore d'avantage dans l'intimité d'Arthur, Dexter découvre petit à petit toute la pression que celui-ci exerce sur sa famille et l'enfer qu'il leur fait vivre. Il décide donc, pour Thanksgiving, de partager son temps entre sa famille et celle d'Arthur.",
+          "video": "medias/series/dexter/4-9.mp4"
+        },
+        {
+          "title": "Les Innocents",
+          "desc": "Dexter, après ses rencontres avec Arthur et sa famille, pense tout savoir du Tueur de la Trinité. Mais lorsqu'un enfant de 10 ans disparaît, cela remet en cause toutes ses théories. Le Tueur de la Trinité ne s'arrêterait donc pas à trois crimes, comme le supposait l'agent Frank Lundy. Une course contre la montre débute. Les secrets se multiplient. Vince Masuka n'arrive pas à confesser à Dexter la scène dont il a été témoin le jour de Thanksgiving. Cody, le fils de Rita, est obligé de couvrir Dexter pour éviter qu'un de ses mensonges ne soit révélé. Quant à Debra, ses découvertes récentes la forcent à prendre une décision difficile...",
+          "video": "medias/series/dexter/4-10.mp4"
+        },
+        {
+          "title": "Enchanté, Dexter Morgan !",
+          "desc": "Christine est interrogée par la police sur ses liens avec Trinité. Refusant de parler, elle est finalement relâchée et se tourne vers son père, Arthur, qui la rejette. Elle demande à voir Debra pour se confesser, tandis que Dexter s'emploie à fabriquer de fausses preuves pointant un autre suspect afin d'avoir le champ libre et d'éliminer lui-même Arthur. Ce dernier traque tous les \"Kyle Butler\" de la ville avant de comprendre qu'il ne s'agit que d'un pseudonyme. Il remonte la piste jusqu'au Miami Metro où il découvre la véritable identité de Dexter.",
+          "video": "medias/series/dexter/4-11.mp4"
+        },
+        {
+          "title": "Guet-apens",
+          "desc": "Dexter poursuit Arthur à travers la ville. Il doit se débarrasser de lui avant que la police le trouve et, surtout, avant qu'il s'en prenne à sa famille. Pendant ce temps, Debra fait de troublantes découvertes sur le passé de son père qui la mènent à la véritable identité des parents de son frère. La police comprend le mode opératoire du tueur, à savoir un cycle de quatre victimes, et identifie Arthur Mitchell comme étant Trinité. Mais il est déjà loin lorsque sa maison est perquisitionnée. Dexter le retrouve, ayant enfin l'occasion d'accomplir sa tâche : l'éliminer. Il est bien décidé à faire mieux qu'Arthur, c'est-à-dire protéger sa famille et son secret, mais cette volonté ne suffit pas face au destin",
+          "video": "medias/series/dexter/4-12.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Ma faute",
+          "desc": "Sonné par la découverte du cadavre de Rita, Dexter n'arrive pas à exprimer la moindre émotion. L'affaire qui porte la marque du tueur de la Trinité est prise en charge par le FBI. Les agents considèrent malgré tout Dexter comme un suspect potentiel. L'officier Joey Quinn reste perplexe devant l'attitude de Dexter et le soupçonne bientôt d'être impliqué dans l'assassinat de son épouse. D'autant qu'il a appris que Rita flirtait avec son voisin Elliot...",
+          "video": "medias/series/dexter/5-1.mp4"
+        },
+        {
+          "title": "Santa muerte",
+          "desc": "Au grand soulagement de Dexter, les agents du FBI ne le considèrent plus comme suspect. Ils cherchent en revanche à comprendre l'implication de Trinité dans l'assassinat de Rita. Debra, qui souhaite aider son frère, l'accueille ainsi que les enfants dans son petit studio. Dans le camion qui a servi au déménagement, Dexter découvre une trace de sang qui réveille ses vieux démons. Il décide de mener l'enquête sur un certain Boyd Fowler, un employé du service de voirie de la ville.",
+          "video": "medias/series/dexter/5-2.mp4"
+        },
+        {
+          "title": "Serial grilleur",
+          "desc": "Dexter et Debra engagent Sonya. La jeune femme diplômée sera la baby-sitter de Harrison. A la suite de la bagarre qui a opposé Batista et le sergent Lopez, un agent des affaires internes rend visite à Laguerta. Lopez a porté plainte contre Batista qui risque sa place. Dexter s'est «occupé» du tueur en série Boyd Fowler. Mais Lumen, la jeune femme que Fowler s'apprêtait à exécuter, surprend Dexter...",
+          "video": "medias/series/dexter/5-3.mp4"
+        },
+        {
+          "title": "Une question de confiance",
+          "desc": "Dexter passe la nuit à soigner et rassurer Lumen ; il en oublie la baby-sitter. Dans l'affaire Santa Muerte du quartier vénézuélien de Miami, des indices conduisent Debra à procéder à l'arrestation de Carlos Fuentes et de son frère Marco. Quinn soupçonne Dexter d'être Kyle Butler, l'homme recherché par le FBI...",
+          "video": "medias/series/dexter/5-4.mp4"
+        },
+        {
+          "title": "Horus",
+          "desc": "Lumen n'a désormais plus qu'une idée en tête : retrouver ceux qui l'ont battue et violée afin de leur faire payer leur crime. Inquiet, Dexter tente de la dissuader de continuer dans cette voie. Il constate rapidement que la jeune femme persiste et fait le maximum pour aboutir dans ses recherches. Elle trouve la trace de l'ancien codétenu de Foyd Bowler du côté du Julia Tuttle Bridge. Ce quartier de Miami est peuplé de sans-abri et de délinquants sexuels. De son côté, aidée de Vince, Debra poursuit son enquête sur les meurtres de la Santa Muerte. Et Angel soupçonne Maria d'avoir une relation extra-conjugale avec un officier des affaires internes...",
+          "video": "medias/series/dexter/5-5.mp4"
+        },
+        {
+          "title": "Cloisonnement",
+          "desc": "Non sans soulagement, Dexter croit constater que l'explosive Lumen a quitté Miami. Il décide de reprendre le cours «normal» de son existence. Il peut maintenant se consacrer à l'éducation de son fils Harrison mais aussi entamer la traque d'une nouvelle proie. De son côté, Debra découvre un peu mieux qui est Vince. Alors que Dexter est en chasse, il reçoit un appel désespéré de Lumen : restée à Miami, elle a retrouvé un de ses agresseurs et lui a tiré dessus. Elle a besoin d'aide rapidement...",
+          "video": "medias/series/dexter/5-6.mp4"
+        },
+        {
+          "title": "Sainte Brigitte",
+          "desc": "Lumen aimerait s'impliquer plus dans les «actes» de Dexter et la traque de ses ravisseurs mais celui-ci hésite malgré le fait qu'il pense que Lumen lui ressemble. Un accident de voiture précipite les choses : les cadavres des femmes contenus dans les tonneaux de Boyd Fowler se retrouvent sur la chaussée. La brigade criminelle est sur l'affaire. La piste mène à un séminariste de renom, celui dont Fowler écoutait les discours, le charismatique Jordan Chase, ainsi qu'à son chef de la sécurité Cole Harmon. Pendant ce temps, LaGuerta essaie de trouver un moyen de régler rapidement l'affaire Fuentes en organisant un piège au Club Mayan...",
+          "video": "medias/series/dexter/5-7.mp4"
+        },
+        {
+          "title": "Tic tac, tic tac",
+          "desc": "Dexter et Lumen planifient de tuer Cole Harmon pendant l'un des séminaires de Jordan Chase, persuadés qu'il est l'un des tortionnaires de Lumen. Ils louent une chambre dans le même hôtel et préparent minutieusement leur plan. Jordan Chase, très au fait de la vie de Dexter, demande à le rencontrer. Pendant ce temps, Debra est discréditée dans l'affaire du Club Mayan et de la fusillade qui a mal tourné. De son côté, Stan Liddy continue d'enquêter sur Lumen et demande toujours un peu plus d'argent à Quinn...",
+          "video": "medias/series/dexter/5-8.mp4"
+        },
+        {
+          "title": "Crise d'ado",
+          "desc": "Dexter se rapproche de Jordan Chase pour mieux le cerner. Il remarque que l'homme ne se sépare jamais d'une fiole de sang qu'il porte autour du cou. Dexter espère en récupérer un échantillon pour savoir à qui il appartient. De son côté, Lumen est surprise dans la maison par ce qu'elle pense être des cambrioleurs : il s'agit en fait d'Astor et d'une de ses amies, qui cherchent un endroit pour faire la fête. Les deux adolescentes donnent bien du souci à Dexter. Debra veut rouvrir le dossier des femmes retrouvées dans les barils, alors que Stan Liddy s'intéresse de très près à Dexter et Lumen, malgré la désapprobation de Quinn...",
+          "video": "medias/series/dexter/5-9.mp4"
+        },
+        {
+          "title": "Numéro 13",
+          "desc": "Après avoir tué Cole Harmon, Dexter et Lumen veulent passer à l'étape suivante et mieux cerner Jordan Chase. Dexter apprend l'identité de la femme dont Jordan garde un échantillon de sang : il s'agit d'une certaine Emily Birch. Dexter pense qu'elle est la première victime de Jordan, Boyd, Dan, Cole et d'un cinquième individu, non encore identifié. Après une entrevue avec Lumen, Emily lui révèle que l'inconnu s'appelle Alex Tilden. Alors que Lumen devient une véritable disciple de Dexter, Debra reprend l'enquête sur les femmes trouvées dans les barils ; elle comprend qu'une victime se fait justice elle-même. Quant à Stan Liddy, il continue d'espionner Dexter...",
+          "video": "medias/series/dexter/5-10.mp4"
+        },
+        {
+          "title": "L'Appât",
+          "desc": "Dexter découvre avec stupeur que son appartement est sous surveillance avec du matériel d'enregistrement de la police de Miami. Lumen et lui sont donc sous pression. Dexter soupçonne Joey Quinn d'être derrière cette procédure, mais il doit s'en assurer. De son côté, Debra progresse à grands pas dans son enquête sur les femmes retrouvées dans les barils. Elle pense qu'une survivante se venge avec l'aide d'un ange gardien. Elle cherche l'indice qui relie les meurtres à Jordan Chase. Stan Liddy, plus déterminé que jamais à réintégrer la police, veut confondre Dexter avec l'aide de Quinn...",
+          "video": "medias/series/dexter/5-11.mp4"
+        },
+        {
+          "title": "Sa Dextérité",
+          "desc": "Le temps est compté pour Dexter s'il veut retrouver la trace de Jordan Chase qui retient Lumen prisonnière. Désespéré, il part en chasse, et c'est alors que sa belle-famille débarque à l'improviste. Pour tenter de localiser Chase, Dexter repasse par le poste de police. Là, il est embarqué malgré lui sur la scène de crime de Stan Liddy, encore un fâcheux contretemps. De son côté, Debra est plus que jamais persuadée que Jordan Chase est coupable des viols et qu'une victime, survivante, cherche à se venger. Quant à Quinn, il se trouve dans une situation très gênante dont seul Dexter va pouvoir le sortir...",
+          "video": "medias/series/dexter/5-12.mp4"
+        }
+      ],
+      "6": [
+        {
+          "title": "Ces choses-là",
+          "desc": "La vie de Dexter a repris son cours, et il s'occupe de son fils avec l'aide de Jamie, la soeur d'Angel Batista. Il veut inscrire Harrison dans une école maternelle catholique, mais son athéisme intrigue la directrice de l'établissement. Parallèlement, il participe à une réunion d'anciens élèves de son lycée. Sur place, il tente de prendre un échantillon d'ADN de Joe Walker, un ancien quaterback, car il croit qu'il a assassiné son épouse, Janet. De son côté, Maria LaGuerta, désormais divorcé de Batista, est promue capitaine. Quant à Quinn, il souhaite aller plus loin dans sa relation avec Debra...",
+          "video": "medias/series/dexter/6-1.mp4"
+        },
+        {
+          "title": "Il était une fois...",
+          "desc": "Après la fusillade au restaurant, Debra, qui a fait preuve de bravoure, est devenue très populaire, notamment sur Internet et les sites de partage de vidéos. Le chef de la police veut lui offrir une promotion et le grade de lieutenant, malgré les réticences du capitaine LaGuerta. Dans le cadre de l'enquête sur le cadavre de la plage, Angel interroge le frère Sam, un ancien criminel et détenu repenti, devenu garagiste et surtout très croyant. Dexter le soupçonne d'être toujours un tueur en série...",
+          "video": "medias/series/dexter/6-2.mp4"
+        },
+        {
+          "title": "Cours après moi shérif",
+          "desc": "Le corps d'une prostituée a été retrouvé sur les berges. Fait étrange : il manque une dent au cadavre. Se rappelant un détail similaire dans d'autres meurtres perpétrés par un tueur en série, Dexter soupçonne un retraité de l'Oregon. Il mène aussitôt une enquête sur son passé. Debra éprouve des difficultés à s'adapter à son nouveau poste de lieutenant, qui implique qu'elle prenne en charge les formalités administratives. De plus, elle doit superviser Quinn, qui ne lui facilite pas la tâche. Travis et son mentor Gellar ont capturé un homme qui faisait son footing et exigent de lui qu'il se repente devant Dieu pour expier ses péchés...",
+          "video": "medias/series/dexter/6-3.mp4"
+        },
+        {
+          "title": "Les Chevaux de l'apocalypse",
+          "desc": "Debra et la brigade criminelle, notamment la dernière recrue Mike Anderson, venu de Chicago, enquêtent sur un crime mystique, mis en scène en référence aux Cavaliers de l'Apocalypse et au Livre des révélations. Le meurtrier est surnommé le «tueur du Jugement dernier». Quand son fils tombe malade et doit subir une intervention chirurgicale, Dexter, fou d'inquiétude, ne sait plus s'il doit prier ou croire en la science. Il évoque sa foi avec Sam...",
+          "video": "medias/series/dexter/6-4.mp4"
+        },
+        {
+          "title": "L'Ange des ténèbres",
+          "desc": "Grâce à un infime détail, Dexter parvient à identifier Travis Marhsall, le complice du tueur que la brigade de Miami recherche. Le jeune homme travaille au musée des Beaux-Arts, n'a jamais été condamné et fut autrefois l'étudiant de James Gellar. De leur côté, Batista et Quinn se rendent à l'université de Tallahassee pour rencontrer Carissa Porter, l'ancienne assistante de Gellar. Ils cherchent à en apprendre davantage sur le passé du professeur. Installée provisoirement chez Dexter depuis sa rupture avec Quinn, Debra réalise qu'elle doit rapidement trouver un appartement. Sam passe la soirée chez Dexter...",
+          "video": "medias/series/dexter/6-5.mp4"
+        },
+        {
+          "title": "Lâcher prise",
+          "desc": "Alors que Dexter poursuit Travis, dans l'espoir qu'il le mène jusqu'au professeur Gellar, il apprend que Sam a été agressé dans son garage. Il se lance à la recherche du coupable. Debra peine à entretenir des rapports normaux avec ses anciens collègues devenus ses subordonnés. Pour resserrer les liens avec son équipe, elle décide d'organiser une pendaison de crémaillère. Quant à Travis, il a de plus en plus de mal à suivre les ordres du professeur Gellar...",
+          "video": "medias/series/dexter/6-6.mp4"
+        },
+        {
+          "title": "Virée entre frères",
+          "desc": "Dexter Morgan est à nouveau confronté à ses pires démons. Cette fois-ci, il quitte le soleil de la Floride et prend la route en direction du Nebraska. Dans son périple, il est accompagné par le fantôme de son frère maudit, Brian Moser. Dexter n'a qu'une idée en tête : retrouver le fils du Tueur de la Trinité. Car la mère et la soeur de celui-ci viennent d'être assassinées. Une fois là-bas, Dexter espère également retrouver les sensations de tuer qu'il avait auparavant. Dans le même temps, Travis a fait le choix de reprendre sa liberté. Il annonce alors cette nouvelle au professeur Gellar...",
+          "video": "medias/series/dexter/6-7.mp4"
+        },
+        {
+          "title": "La Putain de Babylone",
+          "desc": "Depuis son périple au Nebraska, où il s'est rendu pour retrouver le fils du Tueur de la Trinité, Debra est furieuse contre Dexter. Elle lui reproche d'être parti beaucoup plus longtemps que prévu. Entre eux, le courant ne passe plus et les tentatives de Dexter pour communiquer avec Debra échouent systématiquement. De son côté, la jeune femme est à la recherche des anciens étudiants de Gellar. Elle rend alors visite à la soeur de Travis. Dans le même temps, Gellar n'hésite pas à harceler Travis afin de le ramener auprès de lui. Dexter et Travis décident de faire alliance pour éliminer Gellar...",
+          "video": "medias/series/dexter/6-8.mp4"
+        },
+        {
+          "title": "Les Coupes de la colère",
+          "desc": "Après s'être porté au secours de Travis, qui a accepté de l'aider, Dexter lui trouve une chambre d'hôtel où il sera à l'abri. Ensemble, ils tentent de deviner qui sera la prochaine victime de Gellar. Des indices les amènent à contacter le professeur Casey, qui ne cache pas son athéisme, mais celui-ci ne prend pas leur avertissement au sérieux. Une découverte permet à Dexter de comprendre qu'il s'est trompé sur toute la ligne. Debra consulte désormais régulièrement une psychologue afin de remettre de l'ordre dans sa vie...",
+          "video": "medias/series/dexter/6-9.mp4"
+        },
+        {
+          "title": "Le Châtiment",
+          "desc": "Réalisant qu'il a commis une erreur de jugement, Dexter redouble d'efforts pour retrouver la trace du tueur. Pour ne pas être gêné par la police dans ses investigations, il lance les forces de l'ordre sur une fausse piste. Il tente de retrouver Holly, la femme que Travis avait libérée. De son côté, Debra réalise qu'elle se repose trop sur son frère après avoir fait une crise d'angoisse sur une scène de crime...",
+          "video": "medias/series/dexter/6-10.mp4"
+        },
+        {
+          "title": "Le Lac de l'enfer",
+          "desc": "Dexter se retrouve sur le yacht où Travis et ses complices préparaient leur prochain «tableau» et comprend qu'une attaque au gaz se prépare. Travis compte frapper fort en envoyant Beth Dorsey et sa capsule contenant un gaz mortel directement dans les locaux de la police. Inquiet de ne pas avoir de nouvelles de Batista, Quinn se lance à sa recherche. L'affrontement entre Debra et LaGuerta à propos de l'enquête sur le décès d'une call-girl prend de nouvelles proportions. Quant à la psychologue de Debra, elle lui fait une suggestion déroutante...",
+          "video": "medias/series/dexter/6-11.mp4"
+        },
+        {
+          "title": "La Fin d'un monde",
+          "desc": "Dexter parvient à rejoindre la côte. Avec la brigade criminelle, il tente d'arrêter le Tueur du Jugement dernier avant une éclipse de lune qui marquera son dernier acte abominable. Batista informe Quinn que celui-ci est transféré en raison de son comportement irresponsable ces derniers temps. Malgré ses difficultés, Debra se résout à affronter son nouvel état émotionnel...",
+          "video": "medias/series/dexter/6-12.mp4"
+        }
+      ],
+      "7": [
+        {
+          "title": "Es-tu un... ?",
+          "desc": "Pris la main dans le sac par sa sœur, en plein meurtre de Travis Marshall, Dexter doit agir vite et trouver un moyen de convaincre Debra que ce à quoi elle vient d'assister n'est pas une habitude mais un coup de folie. Maligne, la jeune femme ne croit pas à un mot de l'histoire de son frère et décide donc d'enquêter pour comprendre ce qui s'est vraiment passé. L'étau se resserre encore un peu plus pour le serial killer lorsque le Capitaine Laguerta découvre une pièce à conviction sur la scène de crime et que la stagiaire Louis Greene, toujours convaincu que quelque chose cloche chez son collègue, fouille son ordinateur et ses comptes bancaires à la recherche d'une explication ou d'un indice...",
+          "video": "medias/series/dexter/7-1.mp4"
+        },
+        {
+          "title": "Le code a changé",
+          "desc": "Debra sait désormais toute la vérité sur les activités de son frère mais décide de ne pas le faire arrêter. Elle le prend sous son aile, chez elle, persuadée qu'elle peut le soigner et réparer les erreurs de son père, qui l'a encouragé à succomber à ses instincts plutôt qu'à les réprimer. De son coté, Dexter lui promet qu'il ne tuera plus mais échafaude pourtant déjà un plan pour supprimer Louis Greene, devenu bien trop gênant...",
+          "video": "medias/series/dexter/7-2.mp4"
+        },
+        {
+          "title": "À tombeau ouvert",
+          "desc": "Dexter explique en détails à Debra le fonctionnement de son code, afin de la convaincre qu'il y a du positif dans son activité meurtrière. La jeune femme reste cependant difficile à convaincre. Pendant ce temps, le tueur en série doit aussi composer avec les Ukrainiens qui sont à ses trousses grâce un GPS que Viktor portait sur lui...",
+          "video": "medias/series/dexter/7-3.mp4"
+        },
+        {
+          "title": "La Fin du Minotaure",
+          "desc": "Après avoir obtenu les aveux de Ray Speltez, Debra et le reste du Miami Metro est choquée d'apprendre qu'il doit être relâché car les droits Miranda n'ont pas été respectés pendant sa capture et son interrogatoire. Une situation tout aussi insupportable pour Dexter qui décide qu'il est temps pour lui d'agir... à sa manière ! En parallèle de cette affaire, le gérant du club de strip-tease, agacé par les intrusions répétées de la police, monte tout un stratagème visant à faire accuser une personne qui n'a rien à voir avec le meurtre. Isaak Sirko sait parfaitement que Dexter est impliqué et a bien l'intention de le faire payer...",
+          "video": "medias/series/dexter/7-4.mp4"
+        },
+        {
+          "title": "En eaux profondes",
+          "desc": "Dexter découvre que quelqu'un a été tué sur son bateau et mène l'enquête pour trouver l'identité de la victime ainsi que celle de son agresseur. Sa rencontre avec Hannah McKay sur l'affaire Wayne Randall chamboule toutefois ses plans. Cette femme cache un secret, possiblement meurtrier, et il est bien décidé à le déterrer. A-t-il trouvé sa prochaine cible ?",
+          "video": "medias/series/dexter/7-5.mp4"
+        },
+        {
+          "title": "Je t'aime moi non plus",
+          "desc": "Debra fait la rencontre d' un écrivain fasciné par Hannah McKay, qui consacre son prochain livre à son histoire. Ce qui n'était au départ qu'une tactique pour en apprendre davantage sur la jeune femme se transforme en un véritable lien d'amitié. Pendant ce temps, Batista prend la décision de changer de vie alors qu'une opportunité alléchante s'offre à lui et Laguerta poursuit son enquête secrète qui la conduit à reconsidérer l'identité du Bay Harbor Butcher à la lumière d'un nouvel indice...",
+          "video": "medias/series/dexter/7-6.mp4"
+        },
+        {
+          "title": "Alchimie",
+          "desc": "Dexter et Hannah McKay multiplient les rencontres et commencent doucement s'attacher l'un à l'autre, tout en restant sur leurs gardes. Sal Price ne tarde pas à découvrir leur petit manège amoureux et décide d'aider Debra. De son côté, Quinn tente de protéger sa petite amie par tous les moyens, quitte à prendre les mauvaises décisions, les plus dangereuses...",
+          "video": "medias/series/dexter/7-7.mp4"
+        },
+        {
+          "title": "Le cœur a ses raisons...",
+          "desc": "Dexter n'a pas l'intention de révéler à Debra sa relation avec Hannah McKay, imaginant par avance sa désapprobation la plus totale. Le mensonge de trop pour le frère et la sœur ? Les choses se compliquent pour le serial killer lorsqu'Astor et Cody viennent lui rendre une visite surprise de quelques jours. A peine sorti de prison, Isaak reprend sa traque et a bien l'intention, cette fois-ci, de ne pas laisser s'échapper Dexter...",
+          "video": "medias/series/dexter/7-8.mp4"
+        },
+        {
+          "title": "Reposer en mer",
+          "desc": "Le Miami Metro doit faire face à un nouveau criminel, qui brûle ses victimes et les regarde se transformer en cendres. Dexter est bien décidé à mettre la main sur lui avant ses collègues afin de lui réserver un traitement à la hauteur des actes qu'il commet. Les frères Koshka, de leur côté, sont plus que jamais en conflit, et cela ne tourne pas du tout à l'avantage de Dexter...",
+          "video": "medias/series/dexter/7-9.mp4"
+        },
+        {
+          "title": "Le Cavalier noir",
+          "desc": "Hannah a la très mauvaise surprise de voir son père au pas de sa porte. Dexter fait sa rencontre et comprend que quelque chose cloche chez lui, mais quoi ? Peut-il être sa prochaine victime ? Pendant ce temps, le pyromane fou devient de plus en plus vicieux, n'hésitant pas à tuer une mère et son fils. Un meurtre qui n'est pas sans rappeler à Dexter celui de sa propre mère. De son côté, Laguerta demande de l'aide à son ancien supérieur alors qu'elle pense avoir compris ce qui était vraiment arrivé à Doakes quelques années plus tôt, remettant sérieusement en doute sa culpabilité...",
+          "video": "medias/series/dexter/7-10.mp4"
+        },
+        {
+          "title": "Lendemain de fête",
+          "desc": "C'est Noël et Debra reçoit son premier cadeau : le père de Hannah, juste avant d'être exécuté par Dexter, lui a envoyé une preuve de la culpabilité de sa fille. Au même moment, le tueur en série apprend que l'homme derrière la mort de sa mère vient de sortir de prison. Une aubaine pour qu'il puisse enfin se venger ? Et s'il n'était pas le seul à vouloir la saisir ?",
+          "video": "medias/series/dexter/7-11.mp4"
+        },
+        {
+          "title": "Le Début de la fin",
+          "desc": "LaGuerta est sur le point de révéler le secret de Dexter. Il essaye tant bien que mal de protéger sa sœur, mais elle va devoir faire un choix : trahir son frère ou trahir ses convictions et son métier ? La vie du serial killer ne pourra plus jamais être la même, d'autant qu'Hannah dort désormais en prison...",
+          "video": "medias/series/dexter/7-12.mp4"
+        }
+      ],
+      "8": [
+        {
+          "title": "La Neuro-psychopathe",
+          "desc": "Debra ne parvient pas à oublier la nuit où elle a tiré sur Maria LaGuerta. La jeune femme, qui noie son chagrin dans l'alcool, a quitté la brigade criminelle pour travailler au sein d'une agence privée. Dexter tente tant bien que mal de lui venir en aide, mais elle refuse obstinément d'adresser la parole à son frère. Batista a été promu lieutenant et enquête sur le meurtre d'un homme à qui on a enlevé un bout du cerveau. Pour cette affaire, il fait appel au docteur Evelyn Vogel, une éminente neuro-psychiatre, experte dans le domaine des meurtres en série. Dexter s'interroge sur cette nouvelle venue, qui semble en savoir beaucoup sur lui...",
+          "video": "medias/series/dexter/8-1.mp4"
+        },
+        {
+          "title": "Vous êtes parfait",
+          "desc": "Debra se plonge dans les affaires que lui assigne son patron et refuse toujours de parler à Dexter. Pendant ce temps, Batista et son équipe recherchent le tueur qui découpe le cerveau de ses victimes. Le docteur Evelyn Vogel, éminente neuro-psychiatre, leur vient en aide pour établir le profil du criminel. Rapidement, elle se rapproche de Dexter et finit par lui demander un service très particulier...",
+          "video": "medias/series/dexter/8-2.mp4"
+        },
+        {
+          "title": "Ce qui ronge Dexter Morgan",
+          "desc": "Deb, qui ne parvient toujours pas à se pardonner le meurtre de Maria LaGuerta, traverse une période particulièrement chaotique. La jeune femme débarque ivre morte au commissariat et finit par se confier à Quinn. Dexter et le reste de l'équipe perquisitionnent le domicile de Lyle Sussman. Ils y retrouvent le suspect sans vie, abattu d'une balle dans la bouche. Si la police est persuadée que Sussman s'est donné la mort, Dexter, lui, s'interroge. Quelqu'un a-t-il manipulé le défunt pour lui faire porter le chapeau ? Pendant ce temps, Evelyn Vogel découvre deux nouveaux paquets sur le perron de sa maison. L'un d'eux est destiné à Dexter...",
+          "video": "medias/series/dexter/8-3.mp4"
+        },
+        {
+          "title": "Cicatrices",
+          "desc": "Dexter s'intéresse à AJ Yates, un potentiel tueur en série autrefois soigné par le docteur Vogel. En rentrant chez lui, il fait la connaissance d'une amie de Jamie, Cassie, qui semble assez impressionnée. Quinn fête son nouveau grade de sergent et se bat pour sauver l'honneur de Debra, tandis que Masuka reçoit une visite-surprise. Pendant ce temps, la police enquête sur un nouveau meurtre...",
+          "video": "medias/series/dexter/8-4.mp4"
+        },
+        {
+          "title": "En famille...",
+          "desc": "Après leur accident de voiture, Debra et Dexter suivent une thérapie familiale avec le docteur Vogel. Mais lorsque la neuropsychiatre se fait enlever par Yates, ils doivent surmonter leurs différends et unir leurs forces pour la retrouver. La Miami Metro interroge Ed Hamilton, suspecté du meurtre de sa gouvernante, Norma Rivera. Mais les soupçons de Dexter se portent plutôt sur le fils de celui-ci, Zach.",
+          "video": "medias/series/dexter/8-5.mp4"
+        },
+        {
+          "title": "Après mûres réflexions...",
+          "desc": "Dexter découvre que Zach Hamilton, le principal suspect dans le meurtre de Norma Rivera, fréquente le docteur Vogel. Elle lui confirme que le jeune homme présente toutes les caractéristiques du serial killer. Dexter décide d'en savoir plus et semble même intrigué par les côtés sombres de Zach. De son côté, Angel choisit d'attribuer la promotion de sergent à Miller plutôt qu'à Quinn. Pour Debra, une nouvelle affaire de mœurs prend une tournure inattendue...",
+          "video": "medias/series/dexter/8-6.mp4"
+        },
+        {
+          "title": "T'es où ?",
+          "desc": "Dexter se réveille dans un terrain vague de Miami. Il réalise que le retour en ville de son ancienne amante, Hannah McKay, n'augure rien de bon. Tandis que Debra s'inquiète de la réapparition de la jeune femme, Dexter tente de savoir ce qui l'amène à Miami. Il découvre que la criminelle a refait sa vie avec un milliardaire auquel elle semble très attachée. Parallèlement, Dexter tente d'enseigner le code à Zach Hamilton. Mais le jeune tueur en série ne maîtrise pas encore toutes les subtilités de cette sombre activité. De leur côté, Jamie et Quinn peinent à se comprendre. La jeune femme souffre de la complicité de son petit ami et de Deb...",
+          "video": "medias/series/dexter/8-7.mp4"
+        },
+        {
+          "title": "Y sommes-nous ?",
+          "desc": "La police de Miami enquête sur le meurtre de Cassie. Dexter est persuadé de connaître l'identité du coupable : tout, sur la scène du crime, le pousse à soupçonner Zach Hamilton. Dexter et Hannah prennent la route pour retrouver le jeune homme, qui a loué une chambre d'hôtel hors de la ville. Sur place, ils font une étonnante découverte. De son côté, Deb a réussi à convaincre son patron d'arrêter Hannah. Elle est désormais obsédée par l'idée de la retrouver...",
+          "video": "medias/series/dexter/8-8.mp4"
+        },
+        {
+          "title": "Toute la musique que j'aime",
+          "desc": "Dexter découvre la véritable identité du neurochirurgien : il s’agit d’Oliver Saxon et les tests ADN lui permettent de révéler qu’il n’est autre que le fils du docteur Vogel. Celle-ci décide de régler son problème en famille. Dexter, lui, est bien décidé à tuer Saxon pour le faire expier. Hannah se réfugie chez Deborah.",
+          "video": "medias/series/dexter/8-9.mp4"
+        },
+        {
+          "title": "Adieu Miami",
+          "desc": "Dexter veut plus que jamais quitter définitivement Miami avec Hannah et Harrison pour aller vivre en Argentine. Mais il sent qu'il doit aussi protéger le docteur Vogel de son fils psychopathe, Oliver Saxon. Avant de changer de vie, Dexter veut toutefois en finir avec Saxon et lui réserve sa chambre de torture. Debra de son côté, malgré sa douleur à l'idée de perdre son frère de vue, accepte lentement la nouvelle situation, tout en se posant des questions sur son retour à la brigade criminelle...",
+          "video": "medias/series/dexter/8-10.mp4"
+        },
+        {
+          "title": "De l'ombre à la lumière...",
+          "desc": "Elway, bien décidé à empocher la prime promise pour sa capture, et l’adjoint du marshal sont toujours à la recherche d’Hannah. De son côté, Dexter, qui n’a pu sauver le docteur Vogel, annonce qu’il va quitter Miami avec son fils. Oliver Saxon propose un marché à Dexter tandis que Debra réintègre son poste à la Crime.",
+          "video": "medias/series/dexter/8-11.mp4"
+        },
+        {
+          "title": "Un seul être vous manque...",
+          "desc": "Dexter doit prendre une décision rapide quand il apprend qu'Elway surveille l'aéroport. Il réussit à le neutraliser, mais cela entraîne l'interdiction de tout départ d'avion. Alors qu'un ouragan menace Miami, Dexter n'a pas d'autre choix que d'emmener Hannah et Harrison à Jacksonville, où ils pourront prendre un vol. Au retour, il apprend que Debra est à l'hôpital dans un état grave et qu'Oliver Saxon est toujours en liberté...",
+          "video": "medias/series/dexter/8-12.mp4"
+        }
+      ]
+    }
+  },
+  "Dexter : New Blood": {
+    "title": "Dexter : New Blood",
+    "description": "Dix ans après sa disparition dans la tourmente de l'ouragan Laura, Dexter Morgan vit désormais loin de la Floride, sous une autre identité, dans la petite ville d'Iron Lake, dans l’État de New York. L'ex-expert médico-légal de la police de Miami voit son « Passager Noir » refaire surface, à la suite d'évènements inattendus qui viennent troubler sa routine.",
+    "banner": "medias/series/dexter-new-blood/dexter-new-blood.jpg",
+    "video": "medias/series/dexter-new-blood/dexter-new-blood.mp4",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt14164730/",
+    "year": 2021,
+    "genres": [
+      "Serial Killer",
+      "Suspense Mystery",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "stars": ["Michael C. Hall", "Jack Alcott", "Julia Jones"],
+    "trailer": "",
+    "creators": ["Clyde Phillips"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Coup de froid",
+          "desc": "Au cours des dix dernières années, Dexter a mené une vie tranquille et isolée, loin des tentations de son passé. Lorsqu'une vedette locale commence à se comporter de manière irresponsable et qu'un mystérieux étranger semble être sur la piste de Dexter, celui-ci se demande s'il peut continuer à réprimer les envies de meurtre de son sombre passager.",
+          "video": "medias/series/dexter-new-blood/1-1.mp4"
+        },
+        {
+          "title": "Putain d'ouragan",
+          "desc": "Une simple affaire de disparition se transforme en scène de crime et la cabane de Dexter devient le point de départ des opérations de recherche et de sauvetage. Le moment est mal choisi pour Dexter, qui essaie de renouer avec son fils disparu depuis longtemps, Harrison. Alors qu'Angela et Harrison font connaissance, Dexter s'efforce de séparer son ancien et son nouveau monde.",
+          "video": "medias/series/dexter-new-blood/1-2.mp4"
+        },
+        {
+          "title": "Signaux de fumée",
+          "desc": "Dexter espère avoir une chance d'arranger les choses avec Harrison, ce qui s'avère difficile à faire quand il y a une enquête criminelle à part entière que Dexter a lui-même provoquée. Harrison rejoint l'équipe de lutte du lycée et se fait rapidement un nom à l'école. Pendant ce temps, un podcasteur de vrais crimes de Los Angeles arrive à Iron Lake et se lie d'amitié avec la petite amie du chef de la police de Dexter.",
+          "video": "medias/series/dexter-new-blood/1-3.mp4"
+        },
+        {
+          "title": "H pour les Héros",
+          "desc": "Le père de la personne que Dexter a tuée fait une annonce surprenante qui pourrait s'avérer être un énorme problème pour Dexter. Pendant ce temps, Dexter découvre que Harrison a été impliqué dans un grave incident au lycée. Et maintenant, ce jeune nouveau venu est considéré comme un héros par toute la ville. Angela s'intéresse de plus près à une affaire de disparition.",
+          "video": "medias/series/dexter-new-blood/1-4.mp4"
+        },
+        {
+          "title": "Fugue",
+          "desc": "La méthode employée par Dexter pour protéger son fils de la drogue libère son sombre passager de manière très impulsive. Pendant ce temps, Angela et Molly font un voyage à New York qui les pousse à s'interroger sur un membre respecté de la communauté.",
+          "video": "medias/series/dexter-new-blood/1-5.mp4"
+        },
+        {
+          "title": "Trop de sandwiches au thon",
+          "desc": "Quelqu'un à Iron Lake a découvert l'identité secrète de Jim Lindsay, ce qui a poussé Dexter à se mettre en chasse pour découvrir de qui il s'agit. Cette poursuite l'amène à réaliser qu'il n'est peut-être pas le seul tueur en série de la ville. Pendant ce temps, Harrison devient incontrôlable au cours d'un match de lutte et Angela fait une sombre découverte de son côté.",
+          "video": "medias/series/dexter-new-blood/1-6.mp4"
+        },
+        {
+          "title": "La peau de ses dents",
+          "desc": "Dexter craint qu'un tueur en série ait jeté son dévolu sur une personne à laquelle il tient profondément. Il passe donc de prédateur à protecteur... un rôle dans lequel il n'est pas à l'aise. Pendant ce temps, Angela arrête un habitant d'Iron Lake qui pourrait être le coupable d'une affaire classée lui tenant à cœur.  Dexter et Harrison rencontrent de nouveaux obstacles dans leur relation, ce qui amène Harrison à se tourner vers une personne très dangereuse comme figure paternelle.",
+          "video": "medias/series/dexter-new-blood/1-7.mp4"
+        },
+        {
+          "title": "Grand jeu",
+          "desc": "Dexter se bat pour sa vie dans les bois d'Iron Lake, menant à une confrontation dans un camp d'été abandonné. Existe-t-il un meilleur endroit pour qu'un tueur en série affronte un autre tueur violent ? Harrison se trouve à la croisée des chemins entre deux figures paternelles qui peuvent le conduire sur deux voies très différentes. Pendant ce temps, Angela commence à faire des découvertes inquiétantes.",
+          "video": "medias/series/dexter-new-blood/1-8.mp4"
+        },
+        {
+          "title": "Les affaires familiales",
+          "desc": "Dexter et Harrison se retrouvent plus proches que jamais pendant les vacances de Noël. Quel genre de cadeaux le père et le fils vont-ils s'offrir ? Mais cela amène père et fils dans le collimateur d'un tueur en série très violent et effrayant. Angela commence à se demander si Iron Lake est vraiment l'endroit confortable et sûr qu'elle a toujours pensé être.",
+          "video": "medias/series/dexter-new-blood/1-9.mp4"
+        },
+        {
+          "title": "Les péchés du père",
+          "desc": "Dexter et Harrison tentent de vivre une vie normale dans un endroit qui ne l'est pas autant qu'ils le pensaient. Pourront-ils vivre heureux pour toujours, malgré toutes les menaces qui pèsent sur eux ?",
+          "video": "medias/series/dexter-new-blood/1-10.mp4"
+        }
+      ]
+    }
+  },
+  "Dexter : Les Origines": {
+    "title": "Dexter : Les Origines",
+    "description": "En 1991 à Miami, Dexter est un étudiant en passe de devenir un tueur en série. Lorsque ses pulsions sanguinaires ne peuvent plus être ignorées, le jeune homme trouve réconfort et compréhension auprès de Harry, son père adoptif. Celui-ci lui enseigne des règles pour l’aider à repérer et à tuer des personnes qui méritent de mourir, tout en évitant de se faire coincer par les forces de l’ordre. C’est un défi particulier pour le stagiaire débutant en médecine légale au département de police de Miami.",
+    "banner": "medias/series/dexter-les-origines/dexter-les-origines.jpg",
+    "video": "medias/series/dexter-les-origines/dexter-les-origines.mp4",
+    "IMDb": 8.2,
+    "IMDb_link": "https://www.imdb.com/title/tt32252772/",
+    "year": 2024,
+    "genres": ["Serial Killer", "Crime", "Drama", "Mystery"],
+    "stars": ["Patrick Gibson", "Christian Slater", "Molly Brown"],
+    "creators": ["Clyde Phillips"],
+    "seasons": {
+      "1": [
+        {
+          "title": "Et au commencement…",
+          "desc": "À Miami en Floride, le jeune Dexter Morgan est tiraillé entre son avenir prometteur et des pulsions de tueur qu'il ressent en lui. Son père, Harry, un policier, comprend que son fils possède des prédispositions à tuer. Il va tenter de canaliser ses instincts meurtriers et lui enseigne certaines valeurs…",
+          "video": "medias/series/dexter-les-origines/1-1.mp4"
+        },
+        {
+          "title": "Un gamin dans un magasin de bonbons",
+          "desc": "Dexter doit trouver ses marques dans son nouveau stage au sein du département de médecine légale du Miami Metro alors qu'Harry reprend le travail après son arrêt maladie. Par ailleurs, Deb se rebelle contre son père en se comportant comme une délinquante…",
+          "video": "medias/series/dexter-les-origines/1-2.mp4"
+        },
+        {
+          "title": "Deux flics à Miami",
+          "desc": "Aaron Spencer publie un communiqué sur l'affaire de l'enlèvement du jeune Jimmy. Les forces de l'ordre promettent de résoudre ce cas. L'inspectrice Maria LaGuerta fait son arrivée, ce qui provoque quelques remous au sein de l'unité criminelle. Dexter commence à s'intéresser au personnage de Tony Ferrer…",
+          "video": "medias/series/dexter-les-origines/1-3.mp4"
+        },
+        {
+          "title": "Accrochage",
+          "desc": "La police criminelle de Miami est appelée sur une scène de crime. Les inspecteurs découvrent le corps du jeune Jimmy, pendu à proximité d'un pont. Dexter est perturbé par cette macabre nouvelle. Harry tente de le réconforter et l'affecte à une autre affaire sur laquelle travaille Maria LaGuerta…",
+          "video": "medias/series/dexter-les-origines/1-4.mp4"
+        },
+        {
+          "title": "F comme Fiasco",
+          "desc": "Dexter retourne à la maison de Mad Dog avant que la police ne débarque pour effacer les traces de son passage. Mais ce coup de pression ne passe pas inaperçu. Harry, le père de Dexter, décide de recadrer les pulsions de son fils. Il l'encourage à ne plus se lancer dans des initiatives risquées...",
+          "video": "medias/series/dexter-les-origines/1-5.mp4"
+        },
+        {
+          "title": "Le plaisir de tuer",
+          "desc": "Après des appréciations des supérieurs de la police, on demande à Harry de travailler avec Maria LaGuerta. Les enquêteurs se plongent dans une affaire de meurtre. Dexter apporte son expertise. Il suggère que le meurtre est lié à d'autres crimes antérieurs, bien qu'ils aient tous été assassinés de manière différente...",
+          "video": "medias/series/dexter-les-origines/1-6.mp4"
+        },
+        {
+          "title": "Le grand méchant problème de cadavre",
+          "desc": "Dexter est parfois à la limite en transportant le cadavre de Levi Reed. Plus tard, Vince Mazuka lui demande de relever les empreintes digitales d'un bras coupé, dont Dexter déduit qu'il s'agit de celui de Tony Ferrer. Sachant que cela pourrait mener la police à lui, Dexter jette le bras dans un marais...",
+          "video": "medias/series/dexter-les-origines/1-7.mp4"
+        },
+        {
+          "title": "Affaires et plaisir",
+          "desc": "Dexter se confie à son père Harry. Il lui dit qu'il soupçonne Aaron Spencer d'avoir enlevé Nicky, son propre fils. Mais Harry ne semble pas croire à cette théorie. En revanche, Harry demande à Dexter de rechercher sa soeur Debra, qui apparemment n'est pas rentrée chez elle. En fait, Debra est partie avec Gio...",
+          "video": "medias/series/dexter-les-origines/1-8.mp4"
+        },
+        {
+          "title": "Collecte de sang",
+          "desc": "Après un raid du SWAT qui a mal tourné, Dexter se rapproche de l'auteur du rapt de l'enfant. Pendant ce temps, Deb travaille avec son père et voit la police de Miami sous un nouveau jour. Harry s'intéresse de plus près à l'affaire du tueur en série mais cache sa théorie à LaGuerta...",
+          "video": "medias/series/dexter-les-origines/1-9.mp4"
+        },
+        {
+          "title": "Code Blues",
+          "desc": "La police de Miami est secouée par un enlèvement qui la touche de près. Plus tard, Dexter se lance à la poursuite d'un tueur qui est passé à travers les mailles du système judiciaire. Mais d'abord, Dexter doit survivre à un double rendez-vous avec Debra et son nouveau petit ami...",
+          "video": "medias/series/dexter-les-origines/1-10.mp4"
+        }
+      ]
+    }
   }
 }
