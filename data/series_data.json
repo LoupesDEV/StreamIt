@@ -6556,5 +6556,376 @@
         }
       ]
     }
+  },
+  "Designated Survivor": {
+    "title": "Designated Survivor",
+    "description": "Dans ce passionnant thriller politique, le sort de l'Amérique repose dans les mains d'un petit fonctionnaire après qu'une attaque sur Washington a décimé le gouvernement.",
+    "banner": "medias/series/designated-survivor/designated-survivor.jpg",
+    "IMDb": 7.4,
+    "IMDb_link": "https://www.imdb.com/title/tt5296406/",
+    "year": 2016,
+    "genres": [
+      "Political Drama",
+      "Political Thriller",
+      "Suspense Mystery",
+      "Action",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "creators": ["David Guggenheim"],
+    "stars": ["Kiefer Sutherland", "Adan Canto", "Italia Ricci"],
+    "trailer": "https://www.youtube.com/watch?v=INvwjmyMo08",
+    "seasons": {
+      "1": [
+        {
+          "title": "Pilote",
+          "desc": "Quand une bombe tue le président, entre autres, Tom Kirkman, un modeste membre de cabinet, doit soudainement prendre mes rênes d'un gouvernement en plein chaos.",
+          "video": "medias/series/designated-survivor/1-1.mp4"
+        },
+        {
+          "title": "Le premier jour",
+          "desc": "Le lendemain de l'attentat, le nouveau président Kirkman affronte un gouvernement rebelle, et une conspiration voit déjà le jour. Le FBI commence à traquer les terroristes.",
+          "video": "medias/series/designated-survivor/1-2.mp4"
+        },
+        {
+          "title": "La confession",
+          "desc": "Wells approfondis sa théorie sur l'attentat revendiqué par un groupe militant, et Kirkman fait l'expérience de manœuvres politiques impitoyables.",
+          "video": "medias/series/designated-survivor/1-3.mp4"
+        },
+        {
+          "title": "L'ennemi",
+          "desc": "Quand une grève contre Majid Nassar menace, les provocations déloyales d'un gouverneur  et d'un chef militaire font sérieusement douter le président Kirkman.",
+          "video": "medias/series/designated-survivor/1-4.mp4"
+        },
+        {
+          "title": "La mission",
+          "desc": "Alors que Wells découvre de nouvelles informations, Kirkman décide malgré lui d'envoyer le corps d'élite de la Marine combattre Majid Nassar.",
+          "video": "medias/series/designated-survivor/1-5.mp4"
+        },
+        {
+          "title": "L'interrogatoire",
+          "desc": "Alors que Kirkman tente de gagner la confiance des gouverneurs d'État doutant de sa légitimité, Wells et Atwood cuisine Majid Nassar sur son rôle dans l'attentat.",
+          "video": "medias/series/designated-survivor/1-6.mp4"
+        },
+        {
+          "title": "Le traître",
+          "desc": "Atwood, qui soupçonne MacLeish, doit se montrer extrêmement prudent. L'arrestation d'un héros américain en Russie déclenche une crise d'espionnage internationale.",
+          "video": "medias/series/designated-survivor/1-7.mp4"
+        },
+        {
+          "title": "Les résultats",
+          "desc": "Alors qu'un nouvel acte de terrorisme met en péril les nouvelles élections, Kirkman assume ses responsabilités face à Leo, et Atwood fait une confession déchirante.",
+          "video": "medias/series/designated-survivor/1-8.mp4"
+        },
+        {
+          "title": "Le plan",
+          "desc": "Wells accumule des preuves accablantes contre un homme politique haut placé tandis que Kirkman fait une découverte alarmante en écoutant un lanceur d'alerte de la NSA.",
+          "video": "medias/series/designated-survivor/1-9.mp4"
+        },
+        {
+          "title": "Le serment",
+          "desc": "Persuadé qu'un traître se cache parmi eux, Kirkman demande à Emily d'enquêter discrètement. Wells poursuit sa source anonyme et découvre une nouvelle menace.",
+          "video": "medias/series/designated-survivor/1-10.mp4"
+        },
+        {
+          "title": "Les guerriers",
+          "desc": "Au lendemain du bain de sang, une conspiration se dévoile et MacLeish joue audacieusement de son pouvoir. Wells laisse à Ritter une piste semée d'indices.",
+          "video": "medias/series/designated-survivor/1-11.mp4"
+        },
+        {
+          "title": "La fin du début",
+          "desc": "Apprenant qui se cache derrière la conspiration, Kirkman décide de tendre un piège. Wells poursuit une piste qui mène l'enquête à un tournant décisif.",
+          "video": "medias/series/designated-survivor/1-12.mp4"
+        },
+        {
+          "title": "Le contre-feu",
+          "desc": "Après l'annonce d'une nouvelle qui ébranle la nation, un journaliste pugnace révèle des informations confidentielles tandis que Wells cible la source de la conspiration.",
+          "video": "medias/series/designated-survivor/1-13.mp4"
+        },
+        {
+          "title": "Le commandant en chef",
+          "desc": "À Washingtion, l'enquête de Wells prend un tour très inatendu, tandis qu'en Afrique, l'agressif leader d'une guérilla, met la fermeté du président Kirkman à dure épreuve.",
+          "video": "medias/series/designated-survivor/1-14.mp4"
+        },
+        {
+          "title": "Les cent premiers jours",
+          "desc": "Un sujet sensible menace les efforts de Kirkman pour sortir le gouvernement de l'état de crise. Guidés par une empreinte, Wells et Atwood tombent dans un piège meurtrier.",
+          "video": "medias/series/designated-survivor/1-15.mp4"
+        },
+        {
+          "title": "Le parti d'abord",
+          "desc": "Alors que politique et sectarisme sapent les efforts de Kirkman pour faire adopter la législation sur les armes à feu, Wells enquête sur un entrepreneur militaire véreux.",
+          "video": "medias/series/designated-survivor/1-16.mp4"
+        },
+        {
+          "title": "Le neuvième juge",
+          "desc": "Les allégeances politiques se dessinent pendant la mise en place d'une nouvelle Cour suprême. Wells et Atwood enquêtent sur le groupe de rebelles dans le Dakota du Nord.",
+          "video": "medias/series/designated-survivor/1-17.mp4"
+        },
+        {
+          "title": "Lazare",
+          "desc": "Un scandale menace de mettre Hookstraten sur la touche, le journaliste Abe Leonard suit les tuyaux d'un mystérieux informateur et Wells provoque les conspirateurs.",
+          "video": "medias/series/designated-survivor/1-18.mp4"
+        },
+        {
+          "title": "La mésalliance",
+          "desc": "Atwood traque un leader d'extrême-droite. Ritter recherche Wells. La commission d'éthique s'acharne, mais Hookstraten s'engage avec Kirkman pour l'enseignement des arts.",
+          "video": "medias/series/designated-survivor/1-19.mp4"
+        },
+        {
+          "title": "Le scandale",
+          "desc": "Un article explosif sur l'attentat du Capitole menace de saboter les plans de Kirkman pour son premier sommet de l'OTAN. Ritter et Russink tendent un piège au traître.",
+          "video": "medias/series/designated-survivor/1-20.mp4"
+        },
+        {
+          "title": "Impact imminent",
+          "desc": "Les conspirateurs se préparant à frapper, le FBI s'efforce d'arrêter leur tête pensante. Kirkman demande à Aaron de forcer le traître de la Maison-Blanche à se démasquer.",
+          "video": "medias/series/designated-survivor/1-21.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "L'anniversaire",
+          "desc": "Un détournement d'avion déclenche une crise internationale. Un nouveau venu dynamique bouscule les habitudes de la Maison-Blanche. Wells traque Lloyd autour du monde.",
+          "video": "medias/series/designated-survivor/2-1.mp4"
+        },
+        {
+          "title": "In cauda venenum",
+          "desc": "Quand la chasse à l'homme lancée contre Lloyd déclenche une terrifiante épreuve de force, Kirkman se retrouve pris entre respecter la loi et contrer une menace imminente.",
+          "video": "medias/series/designated-survivor/2-2.mp4"
+        },
+        {
+          "title": "Épidémie",
+          "desc": "Alors qu'une terrible épidémie de grippe éclate et qu'un monument confédéré déchaîne les passions, Rennett et Wells découvrent des indices lourds de conséquences.",
+          "video": "medias/series/designated-survivor/2-3.mp4"
+        },
+        {
+          "title": "Un exercice d'équilibre",
+          "desc": "Alors qu'un incident fatal à la frontière du Mexique bloque des négociations commerciales déjà conflictuelles, un scandale menace la Première dame des Etats-Unis...",
+          "video": "medias/series/designated-survivor/2-4.mp4"
+        },
+        {
+          "title": "Des idiots",
+          "desc": "Alors que la cote de confiance de Kirkman chute à la suite d'une remarque spontanée incendiaire, Wells et Rennet enquêtent sur le meurtre d'une politicienne britanique",
+          "video": "medias/series/designated-survivor/2-5.mp4"
+        },
+        {
+          "title": "La collision",
+          "desc": "Tandis que l'équipage d'un navire de guerre américain se retrouve coincé dans des eaux hostiles après un accident, Wells et Rennett doivent gérer une prise d'otage...",
+          "video": "medias/series/designated-survivor/2-6.mp4"
+        },
+        {
+          "title": "Les liens du sang",
+          "desc": "Tandis que les procès ensevelissent impitoyablement la famille de Kirkman, lui se retrouve pris dans un bras de fer diplomatique, et Moss entrave l'enquête de Wells...",
+          "video": "medias/series/designated-survivor/2-7.mp4"
+        },
+        {
+          "title": "Chez soi",
+          "desc": "Lors d'un voyage secret en Afghanistan, Kirkman négocie avec d'influents chefs de guerre et Wells part au feu. A Washington, Seth a des ennuis avec la justice...",
+          "video": "medias/series/designated-survivor/2-8.mp4"
+        },
+        {
+          "title": "La journée des trois lettres",
+          "desc": "Kirkman gère la reconnaissance d'un héros de guerre, l'exécution imminente d'un condamné et l'effondrement d'un essaim d'abeilles, et Wells suit une piste d'argent sale...",
+          "video": "medias/series/designated-survivor/2-9.mp4"
+        },
+        {
+          "title": "La ligne de feu",
+          "desc": "Alors qu'ancrés dans leurs certitudes, des extrémistes religieux défient un violent feu de forêt au mépris des efforts de la Maison-Blanche, Wells cherche qui l'a trahie.",
+          "video": "medias/series/designated-survivor/2-10.mp4"
+        },
+        {
+          "title": "Le deuil",
+          "desc": "Alors que Kirkman peine à surmonter une douleur inouïe, des rebelles cubains utilisent Wells et une délégation commerciale comme une monnaie d'échange fortement cotée.",
+          "video": "medias/series/designated-survivor/2-11.mp4"
+        },
+        {
+          "title": "L'ultime frontière",
+          "desc": "Quand un piratage à la NASA met en péril les astronautes de la station spatiale, Wells remue ciel et terre pour trouver le coupable. Un éminent conseiller déçoit Kirkman.",
+          "video": "medias/series/designated-survivor/2-12.mp4"
+        },
+        {
+          "title": "Le péché originel",
+          "desc": "Un sit-in d'Amérindiens dans la Maison Blanche pousse Kirkman à réparer une vieille injustice. Wells compte sur un espion russe pour traquer les pirates informatiques.",
+          "video": "medias/series/designated-survivor/2-13.mp4"
+        },
+        {
+          "title": "Dans les ténèbres",
+          "desc": "Quand une panne d'électricité plonge la capitale dans le chaos, Kirkman entre en conflit avec le maire. Chuck déchiffre un indice camouflé dans le code des pirates.",
+          "video": "medias/series/designated-survivor/2-14.mp4"
+        },
+        {
+          "title": "Réunion au sommet",
+          "desc": "A la Maison Blanche, Emily enquête sur une fuite menaçant des pourparlers de paix aux enjeux énormes. Un transfuge supplie Wells de l'aider.",
+          "video": "medias/series/designated-survivor/2-15.mp4"
+        },
+        {
+          "title": "Les retombées",
+          "desc": "Après un accord de paix historique, une bombe radiologique remet la guerre à l'ordre du jour. Wells tente de déjouer une machination effarante.",
+          "video": "medias/series/designated-survivor/2-16.mp4"
+        },
+        {
+          "title": "Le prix de la guerre",
+          "desc": "Tandis qu'il mène des représailles contre le pays qui a commandité la bombe sale, Kirkman envoie Wells négocier avec un chef rebelle dans la zone de combat.",
+          "video": "medias/series/designated-survivor/2-17.mp4"
+        },
+        {
+          "title": "Un raz de marée",
+          "desc": "Une fuite révèle les notes des sessions de Kirkman avec son psy, et une crise constitutionnelle déferle sur le président et la Maison-Blanche. Wells talonne les pirates.",
+          "video": "medias/series/designated-survivor/2-18.mp4"
+        },
+        {
+          "title": "Une question d'aptitude",
+          "desc": "Le mandat de Kirkman se joue lors d'une audience qui vise à évaluer son aptitude au travail. Wells expose ses soupçons sur l'identité du pirate informatique.",
+          "video": "medias/series/designated-survivor/2-19.mp4"
+        },
+        {
+          "title": "Une cruelle réception",
+          "desc": "Après le meurtre d'un diplomate, Ethan West prend la défense d'un jeune Américain, potentielle monnaie d’échange pour un gouvernement étranger. Wells persiste, et signe.",
+          "video": "medias/series/designated-survivor/2-20.mp4"
+        },
+        {
+          "title": "La cible",
+          "desc": "Les deux partis en lice jouent leurs atouts afin de séduire Kirkman. Kendra se retrouve en ligne de mire. Kirkman mise sur la peste contre le choléra.",
+          "video": "medias/series/designated-survivor/2-21.mp4"
+        },
+        {
+          "title": "À bout de course",
+          "desc": "Tout en s'interrogeant sur son avenir politique, Kirkman fait le maximum afin d'éviter une catastrophe humanitaire. Wells se démène pour protéger la fille de Rennett.",
+          "video": "medias/series/designated-survivor/2-22.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "#systèmeenpanne",
+          "desc": "Alors que Kirkman se présente aux élections pour la première fois, les débuts de sa campagne sont pour le moins hésitants. Wells reçoit une proposition inattendue.",
+          "video": "medias/series/designated-survivor/3-1.mp4"
+        },
+        {
+          "title": "#penteglissante",
+          "desc": "Un débat houleux sur le mariage des enfants secoue l'équipe de Kirkman. La dépendance aux opioïdes n'épargne personne. Wells découvre une nouvelle menace.",
+          "video": "medias/series/designated-survivor/3-2.mp4"
+        },
+        {
+          "title": "#vieprivée",
+          "desc": "Une attaque politique contre Kirkman met la vie privée et les droits des transgenres à l'ordre du jour. Aaron s'interroge. Wells et Eli traquent un bioterroriste.",
+          "video": "medias/series/designated-survivor/3-3.mp4"
+        },
+        {
+          "title": "#faireavancerlhistoire",
+          "desc": "Les origines ethniques d'Aaron et une grève générale des enseignants font la une. Wells découvre une sinistre anomalie dans une épidémie internationale de grippe.",
+          "video": "medias/series/designated-survivor/3-4.mp4"
+        },
+        {
+          "title": "#riendepersonnel",
+          "desc": "D'ignobles fausses informations déclenchent une tempête d'émotions sur les réseaux sociaux. Isabel pourrait compromettre les élections. Wells flaire un complot.",
+          "video": "medias/series/designated-survivor/3-5.mp4"
+        },
+        {
+          "title": "#urgence",
+          "desc": "Un enfant guatémaltèque mourant dans un hôpital du Texas met la question de l'immigration au premier plan. Une agression ouvre les yeux de Kirkman sur une autre réalité.",
+          "video": "medias/series/designated-survivor/3-6.mp4"
+        },
+        {
+          "title": "#crisedidentité",
+          "desc": "Un bombardier russe égaré met en péril Seattle. Mars part en croisade contre un labo pharmaceutique. Le passé d'Aaron affecte la campagne de Kirkman.",
+          "video": "medias/series/designated-survivor/3-7.mp4"
+        },
+        {
+          "title": "#peurbleue",
+          "desc": "Kirkman se lance dans une chasse effrénée au bioterroriste. Lorraine ne recule devant rien en jetant l'épidémie d'opiacés au cœur de la campagne.",
+          "video": "medias/series/designated-survivor/3-8.mp4"
+        },
+        {
+          "title": "#tousindécis",
+          "desc": "Mal placé dans les sondages, Kirkman hésite à forcer la main du FBI pour arrêter rapidement le bioterroriste. Emily est bouleversée par les dernières volontés de sa mère.",
+          "video": "medias/series/designated-survivor/3-9.mp4"
+        },
+        {
+          "title": "#lavéritéoulavictoire",
+          "desc": "Le jour de l'élection, Kirkman tente d'apaiser sa conscience en évoquant avec son thérapeute les événements tout récents, et ses propres décisions.",
+          "video": "medias/series/designated-survivor/3-10.mp4"
+        }
+      ]
+    }
+  },
+  "The Walking Dead : Daryl Dixon": {
+    "title": "The Walking Dead : Daryl Dixon",
+    "description": "Daryl Dixon se réveille quelque part sur le continent européen et essaie de reconstituer ce qui s'est passé. Comment est-il arrivé ici ? Comment va-t-il rentrer chez lui ?",
+    "banner": "medias/series/the-walking-dead-daryl-dixon/the-walking-dead-daryl-dixon.jpg",
+    "IMDb": 7.5,
+    "IMDb_link": "https://www.imdb.com/title/tt13062500/",
+    "year": 2023,
+    "genres": ["Zombie Horror", "Drama", "Horror"],
+    "creators": ["David Zabel"],
+    "stars": ["Norman Reedus", "Melissa McBride", "Romain Levi"],
+    "trailer": "https://www.youtube.com/watch?v=F8nWo0zjC14",
+    "seasons": {
+      "1": [
+        {
+          "title": "L'Âme perdue",
+          "desc": "Après son départ du Commonwealth, Daryl Dixon s'échoue en France, suscitant la colère d'un mouvement autocratique grandissant centré à Paris et mettant en danger un jeune garçon au cœur d'un mouvement religieux bienveillant.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-1.mp4"
+        },
+        {
+          "title": "Alouette",
+          "desc": "Daryl, Isabelle, Laurent et Sylvie rencontrent des problèmes sur leur route ; Isabelle se souvient du jour où sont apparus les affamés ; Laurent a du mal à s'intégrer.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-2.mp4"
+        },
+        {
+          "title": "Paris sera toujours Paris",
+          "desc": "À son arrivée à Paris, le groupe reçoit l'aide d'anciens amis mais s'attire l'attention de nouveaux ennemis.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-3.mp4"
+        },
+        {
+          "title": "La Dame de fer",
+          "desc": "Daryl et Isabelle négocient avec le propriétaire du club Demimonde.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-4.mp4"
+        },
+        {
+          "title": "Deux Amours",
+          "desc": "Daryl et Laurent se rendent dans la communauté du Nid pendant qu'Isabelle évalue ses options. Genet met son plan à exécution.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-5.mp4"
+        },
+        {
+          "title": "Rentrer à la maison",
+          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/1-6.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "La gentillesse des étrangers",
+          "desc": "Norman Reedus et Melissa McBride reprennent du service sur les routes d'une France post-apocalyptique dans cette saison 2 de Daryl Dixon. Le spin-off de la saga The Walking Dead repart là où la première saison s'était arrêtée.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-1.mp4"
+        },
+        {
+          "title": "Moulin Rouge",
+          "desc": "Après son départ du Commonwealth, Daryl Dixon s'échoue en France, soulevant l'ire d'un mouvement autocratique fragmenté mais croissant centré sur Paris et mettant en danger un jeune garçon au cœur d'un mouvement religieux bienveillant.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-2.mp4"
+        },
+        {
+          "title": "L'Invisible",
+          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-3.mp4"
+        },
+        {
+          "title": "Le Paradis Pour Toi",
+          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-4.mp4"
+        },
+        {
+          "title": "Vouloir, c'est pouvoir",
+          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-5.mp4"
+        },
+        {
+          "title": "Au Revoir Les Enfants",
+          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/2-6.mp4"
+        }
+      ]
+    }
   }
 }

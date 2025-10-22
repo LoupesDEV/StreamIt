@@ -63,6 +63,11 @@
                 <a href="#" class="nav-link" data-section="series">Séries</a>
               </li>
               <li>
+                <a href="#" class="nav-link" data-section="collections"
+                  >Collections</a
+                >
+              </li>
+              <li>
                 <a href="#" class="nav-link" data-section="stats">Stats</a>
               </li>
               <li>
@@ -185,6 +190,34 @@
             </div>
           </div>
           <div class="content-grid" id="seriesGrid"></div>
+        </div>
+      </section>
+
+      <section id="collections" class="section">
+        <div class="container">
+          <h2>Collections</h2>
+          <div class="content-grid" id="collectionsGrid"></div>
+        </div>
+      </section>
+
+      <!-- Collection detail page (not in nav) -->
+      <section id="collection" class="section">
+        <div class="container">
+          <button
+            class="btn btn-secondary"
+            onclick="showSection('collections')"
+          >
+            &larr; Retour aux collections
+          </button>
+          <h2 id="collectionTitle" style="margin-top: 1rem">Collection</h2>
+
+          <div class="content-section">
+            <div class="content-grid" id="collectionFilmsGrid"></div>
+          </div>
+
+          <div class="content-section">
+            <div class="content-grid" id="collectionSeriesGrid"></div>
+          </div>
         </div>
       </section>
 

@@ -236,10 +236,6 @@ function renderFeaturedSlider() {
       </div>
     `;
 
-    // No horizontal translate needed anymore
-    // const track = slider.querySelector(".slider-track");
-    // track.style.transform = `translateX(-${currentIndex * 100}%)`;
-
     slider.querySelectorAll(".slider-card.featured").forEach((card) => {
       card.onclick = () => {
         const idx = parseInt(card.getAttribute("data-idx"));
@@ -270,4 +266,149 @@ function renderFeaturedSlider() {
 
   render();
   resetAutoSlide();
+}
+
+/**
+ * Displays available collections in the collections grid.
+ * Fetches `data/collections.json` if `collectionsData` is not already loaded.
+ *
+ * @function
+ * @returns {Promise<void>}
+ */
+async function displayCollections() {
+  const container = document.getElementById("collectionsGrid");
+  if (!container) return;
+
+  try {
+    if (typeof collectionsData === "undefined") {
+      const resp = await fetch("data/collections.json");
+      collectionsData = await resp.json();
+    }
+
+    const collections = Object.values(collectionsData || {}).sort((a, b) =>
+      a.name.localeCompare(b.name, "fr", { sensitivity: "base" })
+    );
+    if (!collections || collections.length === 0) {
+      container.innerHTML =
+        '<div class="no-results"><i class="fas fa-folder-open"></i><p>Aucune collection trouvée</p></div>';
+      return;
+    }
+
+    container.innerHTML = collections
+      .map((col) => createCollectionCard(col))
+      .join("");
+  } catch (err) {
+    console.error("Erreur en chargeant les collections:", err);
+    container.innerHTML =
+      '<div class="no-results"><i class="fas fa-exclamation-triangle"></i><p>Erreur lors du chargement des collections</p></div>';
+  }
+}
+
+/**
+ * Creates HTML for a single collection card.
+ * Clicking the card opens a modal that lists all films and series in the collection.
+ *
+ * @function
+ * @param {Object} collection - The collection object ({ name, films, series }).
+ * @returns {string} HTML string for the collection card.
+ */
+function createCollectionCard(collection) {
+  const filmsCount = collection.films ? collection.films.length : 0;
+  const seriesCount = collection.series ? collection.series.length : 0;
+
+  let thumbnail = "";
+  if (collection.films && collection.films.length > 0) {
+    const first = filmsData[collection.films[0]];
+    if (first && first.banner) thumbnail = first.banner;
+  }
+  if (!thumbnail && collection.series && collection.series.length > 0) {
+    const firstS = seriesData[collection.series[0]];
+    if (firstS && firstS.banner) thumbnail = firstS.banner;
+  }
+
+  const thumbHtml = thumbnail
+    ? `<img src="${thumbnail}" alt="${collection.name}" onerror="this.style.display='none'">`
+    : '<i class="fas fa-folder-open"></i>';
+
+  return `
+    <div class="content-card" onclick="showCollectionPage('${escapeForHTML(
+      collection.name
+    )}')">
+      <div class="card-image">
+        ${thumbHtml}
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">${collection.name}</h3>
+        <div class="card-meta">
+          <span class="card-year">${filmsCount} films • ${seriesCount} séries</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Navigates to the collection page and displays its content.
+ *
+ * @function
+ * @param {string} collectionName
+ */
+function showCollectionPage(collectionName) {
+  if (!collectionName) return;
+  (async () => {
+    try {
+      if (typeof collectionsData === "undefined") {
+        const resp = await fetch("data/collections.json");
+        collectionsData = await resp.json();
+      }
+      const collection = collectionsData[collectionName];
+      if (!collection) {
+        alert("Collection introuvable");
+        return;
+      }
+      displayCollectionPage(collection);
+      showSection("collection");
+    } catch (err) {
+      console.error("Erreur en ouvrant la collection:", err);
+      alert("Erreur lors de l'ouverture de la collection");
+    }
+  })();
+}
+
+/**
+ * Renders the collection page with films and series grids.
+ * @param {Object} collection
+ */
+function displayCollectionPage(collection) {
+  const titleEl = document.getElementById("collectionTitle");
+  const filmsGrid = document.getElementById("collectionFilmsGrid");
+  const seriesGrid = document.getElementById("collectionSeriesGrid");
+  if (!titleEl || !filmsGrid || !seriesGrid) return;
+
+  titleEl.textContent = `${collection.name}`;
+
+  const films = (collection.films || [])
+    .map((t) => filmsData[t])
+    .filter(Boolean);
+  const series = (collection.series || [])
+    .map((t) => seriesData[t])
+    .filter(Boolean);
+
+  const filmsSection = filmsGrid.closest(".content-section");
+  if (films.length) {
+    filmsGrid.innerHTML = films.map((f) => createContentCard(f)).join("");
+    if (filmsSection) filmsSection.style.display = "block";
+  } else {
+    filmsGrid.innerHTML = "";
+    if (filmsSection) filmsSection.style.display = "none";
+  }
+
+  const seriesSection = seriesGrid.closest(".content-section");
+  if (series.length) {
+    seriesGrid.innerHTML = series.map((s) => createContentCard(s)).join("");
+    if (seriesSection) seriesSection.style.display = "block";
+  } else {
+    seriesGrid.innerHTML = "";
+    if (seriesSection) seriesSection.style.display = "none";
+  }
 }

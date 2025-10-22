@@ -135,6 +135,9 @@ function showSection(sectionName) {
     case "series":
       displaySeries(Object.values(seriesData));
       break;
+    case "collections":
+      displayCollections();
+      break;
     case "search":
       if (searchInput.value.trim()) {
         handleSearch();

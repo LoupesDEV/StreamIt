@@ -1,0 +1,90 @@
+{
+  "Cars": {
+    "name": "Cars",
+    "films": ["Cars", "Cars 2", "Cars 3"],
+    "series": []
+  },
+  "The Walking Dead": {
+    "name": "The Walking Dead",
+    "films": [],
+    "series": [
+      "The Walking Dead",
+      "The Walking Dead : The Ones Who Live",
+      "The Walking Dead : Daryl Dixon"
+    ]
+  },
+  "Le Labyrinthe": {
+    "name": "Le Labyrinthe",
+    "films": [
+      "Le Labyrinthe",
+      "Le Labyrinthe : La Terre brûlée",
+      "Le Labyrinthe : Le Remède mortel"
+    ],
+    "series": []
+  },
+  "Harry Potter": {
+    "name": "Harry Potter",
+    "films": [
+      "Harry Potter à l'école des sorciers",
+      "Harry Potter et la Chambre des secrets",
+      "Harry Potter et le Prisonnier d'Azkaban",
+      "Harry Potter et la Coupe de feu",
+      "Harry Potter et l'Ordre du Phénix",
+      "Harry Potter et le Prince de sang-mêlé",
+      "Harry Potter et les Reliques de la mort - 1ère partie",
+      "Harry Potter et les Reliques de la mort - 2ème partie"
+    ],
+    "series": []
+  },
+  "La Planète Des Singes": {
+    "name": "La Planète Des Singes",
+    "films": [
+      "La Planète des singes",
+      "La Planète des singes : Les Origines",
+      "La Planète des singes : L'Affrontement",
+      "La Planète des singes : Suprématie",
+      "La Planète des singes : Le Nouveau Royaume"
+    ],
+    "series": []
+  },
+  "Hunger Games": {
+    "name": "Hunger Games",
+    "films": [
+      "Hunger Games",
+      "Hunger Games : L'Embrasement",
+      "Hunger Games : La Révolte - Partie 1",
+      "Hunger Games : La Révolte - Partie 2",
+      "Hunger Games : La Ballade du serpent et de l'oiseau chanteur"
+    ],
+    "series": []
+  },
+  "Le Seigneur des Anneaux": {
+    "name": "Le Seigneur des Anneaux",
+    "films": [
+      "Le Seigneur des anneaux : La Communauté de l'anneau",
+      "Le Seigneur des anneaux : Les Deux Tours",
+      "Le Seigneur des anneaux : Le Retour du roi"
+    ],
+    "series": ["Le Seigneur des anneaux : Les Anneaux de pouvoir"]
+  },
+  "Sans un bruit": {
+    "name": "Sans un bruit",
+    "films": ["Sans un bruit", "Sans un bruit 2", "Sans un bruit : Jour 1"],
+    "series": []
+  },
+  "Taxi": {
+    "name": "Taxi",
+    "films": ["Taxi", "Taxi 2", "Taxi 3", "Taxi 4", "Taxi 5"],
+    "series": []
+  },
+  "Game Of Thrones": {
+    "name": "Game Of Thrones",
+    "films": [],
+    "series": ["Game of Thrones", "House of the Dragon"]
+  },
+  "Gladiator": {
+    "name": "Gladiator",
+    "films": ["Gladiator", "Gladiator II"],
+    "series": []
+  }
+}
