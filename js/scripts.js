@@ -143,9 +143,6 @@ function showSection(sectionName) {
         handleSearch();
       }
       break;
-    case "stats":
-      displayStats();
-      break;
   }
 }
 
