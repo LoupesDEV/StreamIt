@@ -101,5 +101,26 @@
     "name": "Dexter",
     "films": [],
     "series": ["Dexter", "Dexter : New Blood", "Dexter : Les Origines"]
+  },
+  "Batman": {
+    "name": "Batman",
+    "films": [
+      "Batman Begins",
+      "Batman The Dark Knight : Le Chevalier noir",
+      "Batman The Dark Knight Rises",
+      "The Batman"
+    ],
+    "series": []
+  },
+  "Detective Comics (DC)": {
+    "name": "Detective Comics (DC)",
+    "films": [
+      "Man of Steel",
+      "Batman Begins",
+      "Batman The Dark Knight : Le Chevalier noir",
+      "Batman The Dark Knight Rises",
+      "The Batman"
+    ],
+    "series": []
   }
 }

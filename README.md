@@ -55,14 +55,64 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
 # Fonctionnalités
 
-- **Gestion complète du contenu** 🎞️ : Parcourez et gérez facilement vos films et séries préférés grâce à des fiches détaillées (description, genres, note IMDb, créateurs, réalisateurs, acteurs).
-- **Chargement dynamique des données** 📊 : Profitez d'une interface réactive où les informations se mettent à jour en temps réel, sans rechargement de page.
-- **Lecteur vidéo intégré** 🎥 : Regardez vos films et épisodes directement dans l’application avec un lecteur moderne, des contrôles intuitifs et une reprise rapide de la lecture.
-- **Recherche intelligente** 🔍 : Accédez instantanément à n'importe quel contenu grâce à une barre de recherche puissante disponible dès l'accueil.
-- **Navigation intuitive** 🧭 : Passez facilement d’un contenu à l’autre ou revenez à l’accueil via une interface fluide et ergonomique.
-- **Design adaptatif** 📱💻 : Bénéficiez d’une expérience optimale sur tous vos appareils (ordinateur, tablette, mobile) grâce à une mise en page responsive.
-- **Ajout de contenu simplifié** 📝 : Enrichissez votre bibliothèque en quelques clics grâce à des formulaires dédiés à l’ajout de nouveaux films ou séries.
-- **Import/Export des informations de visionnage** 🔄 : Exportez ou importez facilement votre historique, vos épisodes vus, minutages et autres données pour migrer ou synchroniser vos informations entre différents appareils.
+- **Gestion complète du contenu** 🎞️  
+    Fiches détaillées pour films & séries (titre, synopsis, genres, note IMDb, créateurs, réalisateurs, acteurs, durée, année).
+
+- **Chargement dynamique** 📊  
+    Interface réactive avec mise à jour asynchrone des listes et des fiches sans rechargement de page.
+
+- **Lecteur vidéo intégré** 🎥  
+    Lecteur moderne avec contrôles (play/pause, seek, vitesse, piste audio, sous-titres), reprise automatique de la lecture et position de reprise.
+
+- **Recherche intelligente & filtres avancés** 🔍  
+    Barre de recherche instantanée + filtres (genre, année, note, langue, disponibilité) et tris personnalisables.
+
+- **Navigation intuitive** 🧭  
+    Parcours fluide entre pages, historique de navigation, et boutons de retour/accueil faciles d’accès.
+
+- **Design adaptatif (responsive)** 📱💻  
+    Interface optimisée pour desktop, tablette et mobile avec disposition adaptative et composants réactifs.
+
+- **Ajout & édition de contenu simplifiés** 📝  
+    Formulaires pour ajouter/modifier films, séries, saisons et épisodes; validation JSON et aperçu avant enregistrement.
+
+- **Collections & playlists** 📚  
+    Créez, organisez et partagez des collections ou listes de lecture (favoris, à regarder, playlists thématiques).
+
+- **Profils utilisateurs & permissions** 👥  
+    Multi-utilisateurs, profils personnalisés, préférences (langue, qualité vidéo) et gestion des droits.
+
+- **Historique & statistiques de visionnage** 📈  
+    Suivi des épisodes vus, minutages, temps visionné, classements personnels et tableaux de statistiques.
+
+- **Import / Export & synchronisation** 🔄  
+    Importer/exporter la bibliothèque et l’historique au format JSON, synchronisation entre appareils via fichiers ou API.
+
+- **Fonctionnalités sociales** ⭐  
+    Notes, avis, commentaires et partage de collections ou titres (optionnel selon configuration).
+
+- **Support des sous-titres et pistes audio** 🔤  
+    Chargement de fichiers de sous-titres (SRT, VTT), sélection de pistes audio et compatibilité multi-langue.
+
+- **Compatibilité & performance** ⚡  
+    Chargement paresseux des médias, cache local (IndexedDB/localStorage) et prise en charge des grands catalogues.
+
+- **Accessibilité** ♿  
+    Navigation clavier, contrastes adaptés et support des lecteurs d’écran pour une utilisation inclusive.
+
+- **Extensibilité & intégration** 🔌  
+    API simple pour développeurs, import depuis sources externes, et possibilité d’ajouter plugins ou connecteurs.
+
+- **Sécurité & confidentialité** 🔒  
+    Options pour stockage local privé, export/effacement des données et bonnes pratiques pour la gestion des fichiers médias.
+
+- **Documentation & contribution** 📘  
+    Guides pour installation, configuration, contribution et modèles de données JSON clairement documentés.
+
+- **Paramètres avancés** ⚙️  
+    Contrôles pour qualité par défaut, stockage des médias, préférences d’affichage et réglages de lecture.
+
+Ces fonctionnalités peuvent être activées ou adaptées selon vos besoins et la configuration de votre instance StreamIt.
 
 # Démo
 
@@ -82,8 +132,8 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
             <td><img src="medias/README/series.png" alt="Page des séries"/></td>
             <td><img src="medias/README/series_info.png" alt="Page d'information des séries"/></td>
         <tr>
+            <td><img src="medias/README/collections.png" alt="Page des collections"/></td>
             <td><img src="medias/README/stats.png" alt="Page des statistiques"/></td>
-            <td><img src="medias/README/add.png" alt="Page d'ajout"/></td>
         </tr>
     </table>
 </div>
@@ -104,7 +154,8 @@ StreamIt/
 │   └── README/               # Dossier pour les images du README
 ├── data/                     # Dossier contenant les données JSON
 │   ├── films_data.json       # Données des films
-│   └── series_data.json      # Données des séries
+│   ├── series_data.json      # Données des séries
+│   └── collections.json      # Données des collections
 ├── README.md                 # Documentation du projet
 ├── CONTRIBUTING.md           # Guide de contribution
 ├── CODE_OFCONDUCT.md         # Code de conduite pour les contributeurs
