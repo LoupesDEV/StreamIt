@@ -121,6 +121,7 @@ function setupEventListeners() {
  * @returns {void}
  */
 function showSection(sectionName) {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   sections.forEach((section) => {
     section.classList.remove("active");
   });
