@@ -62,7 +62,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
     Interface réactive avec mise à jour asynchrone des listes et des fiches sans rechargement de page.
 
 - **Lecteur vidéo intégré** 🎥  
-    Lecteur moderne avec contrôles (play/pause, seek, vitesse, piste audio, sous-titres), reprise automatique de la lecture et position de reprise.
+    Lecteur moderne avec contrôles, reprise automatique de la lecture et position de reprise.
 
 - **Recherche intelligente & filtres avancés** 🔍  
     Barre de recherche instantanée + filtres (genre, année, note, langue, disponibilité) et tris personnalisables.
@@ -79,20 +79,8 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 - **Collections & playlists** 📚  
     Créez, organisez et partagez des collections ou listes de lecture (favoris, à regarder, playlists thématiques).
 
-- **Profils utilisateurs & permissions** 👥  
-    Multi-utilisateurs, profils personnalisés, préférences (langue, qualité vidéo) et gestion des droits.
-
-- **Historique & statistiques de visionnage** 📈  
-    Suivi des épisodes vus, minutages, temps visionné, classements personnels et tableaux de statistiques.
-
 - **Import / Export & synchronisation** 🔄  
     Importer/exporter la bibliothèque et l’historique au format JSON, synchronisation entre appareils via fichiers ou API.
-
-- **Fonctionnalités sociales** ⭐  
-    Notes, avis, commentaires et partage de collections ou titres (optionnel selon configuration).
-
-- **Support des sous-titres et pistes audio** 🔤  
-    Chargement de fichiers de sous-titres (SRT, VTT), sélection de pistes audio et compatibilité multi-langue.
 
 - **Compatibilité & performance** ⚡  
     Chargement paresseux des médias, cache local (IndexedDB/localStorage) et prise en charge des grands catalogues.
@@ -100,19 +88,8 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 - **Accessibilité** ♿  
     Navigation clavier, contrastes adaptés et support des lecteurs d’écran pour une utilisation inclusive.
 
-- **Extensibilité & intégration** 🔌  
-    API simple pour développeurs, import depuis sources externes, et possibilité d’ajouter plugins ou connecteurs.
-
-- **Sécurité & confidentialité** 🔒  
-    Options pour stockage local privé, export/effacement des données et bonnes pratiques pour la gestion des fichiers médias.
-
 - **Documentation & contribution** 📘  
     Guides pour installation, configuration, contribution et modèles de données JSON clairement documentés.
-
-- **Paramètres avancés** ⚙️  
-    Contrôles pour qualité par défaut, stockage des médias, préférences d’affichage et réglages de lecture.
-
-Ces fonctionnalités peuvent être activées ou adaptées selon vos besoins et la configuration de votre instance StreamIt.
 
 # Démo
 
@@ -133,7 +110,7 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
             <td><img src="medias/README/series_info.png" alt="Page d'information des séries"/></td>
         <tr>
             <td><img src="medias/README/collections.png" alt="Page des collections"/></td>
-            <td><img src="medias/README/stats.png" alt="Page des statistiques"/></td>
+            <td><img src="medias/README/collections_info.png" alt="Page d'information des collections"/></td>
         </tr>
     </table>
 </div>
