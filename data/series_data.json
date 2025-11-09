@@ -6,9 +6,21 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2661044/",
     "year": 2014,
-    "genres": ["Dystopian Sci-Fi", "Teen Drama", "Action", "Drama", "Sci-Fi"],
-    "creators": ["Jason Rothenberg"],
-    "stars": ["Eliza Taylor", "Bob Morley", "Marie Avgeropoulos"],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Drama",
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "creators": [
+      "Jason Rothenberg"
+    ],
+    "stars": [
+      "Eliza Taylor",
+      "Bob Morley",
+      "Marie Avgeropoulos"
+    ],
     "seasons": {
       "1": [
         {
@@ -543,8 +555,14 @@
       "History",
       "Thriller"
     ],
-    "creators": ["Craig Mazin"],
-    "stars": ["Jared Harris", "Stellan Skarsgård", "Jessie Buckley"],
+    "creators": [
+      "Craig Mazin"
+    ],
+    "stars": [
+      "Jared Harris",
+      "Stellan Skarsgård",
+      "Jessie Buckley"
+    ],
     "trailer": "https://www.youtube.com/watch?v=skCiDK542aM",
     "seasons": {
       "1": [
@@ -595,8 +613,15 @@
       "Drama",
       "Fantasy"
     ],
-    "creators": ["David Benioff", "D.B. Weiss"],
-    "stars": ["Emilia Clarke", "Kit Harington", "Peter Dinklage"],
+    "creators": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "stars": [
+      "Emilia Clarke",
+      "Kit Harington",
+      "Peter Dinklage"
+    ],
     "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
     "seasons": {
       "1": [
@@ -998,8 +1023,15 @@
       "Fantasy",
       "Romance"
     ],
-    "creators": ["Ryan J. Condal", "George R.R. Martin"],
-    "stars": ["Matt Smith", "Emma D'Arcy", "Olivia Cooke"],
+    "creators": [
+      "Ryan J. Condal",
+      "George R.R. Martin"
+    ],
+    "stars": [
+      "Matt Smith",
+      "Emma D'Arcy",
+      "Olivia Cooke"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Nt5TyxXxj0A",
     "seasons": {
       "1": [
@@ -1117,8 +1149,15 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": ["Craig Mazin", "Neil Druckmann"],
-    "stars": ["Bella Ramsey", "Pedro Pascal", "Gabriel Luna"],
+    "creators": [
+      "Craig Mazin",
+      "Neil Druckmann"
+    ],
+    "stars": [
+      "Bella Ramsey",
+      "Pedro Pascal",
+      "Gabriel Luna"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Sh4MVJLUNNY",
     "seasons": {
       "1": [
@@ -1200,8 +1239,8 @@
           "video": "medias/series/the-last-of-us/2-6.mp4"
         },
         {
-          "title": "Épisode 7",
-          "desc": "À venir",
+          "title": "Convergence",
+          "desc": "Au cœur de la bataille qui oppose les factions rivales de Seattle, la quête d'Ellie la conduit vers une confrontation dévastatrice.",
           "video": "medias/series/the-last-of-us/2-7.mp4"
         }
       ]
@@ -1224,8 +1263,14 @@
       "Drama",
       "Thriller"
     ],
-    "creators": ["Vince Gilligan"],
-    "stars": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"],
+    "creators": [
+      "Vince Gilligan"
+    ],
+    "stars": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn"
+    ],
     "trailer": "https://www.youtube.com/watch?v=CoWsuFdqeYE",
     "seasons": {
       "1": [
@@ -1557,9 +1602,20 @@
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
     "year": 2013,
-    "genres": ["Gangster", "Period Drama", "Crime", "Drama"],
-    "creators": ["Steven Knight"],
-    "stars": ["Cillian Murphy", "Paul Anderson", "Helen McCrory"],
+    "genres": [
+      "Gangster",
+      "Period Drama",
+      "Crime",
+      "Drama"
+    ],
+    "creators": [
+      "Steven Knight"
+    ],
+    "stars": [
+      "Cillian Murphy",
+      "Paul Anderson",
+      "Helen McCrory"
+    ],
     "trailer": "https://senpai-stream.art/collection/le-labyrinthe",
     "seasons": {
       "1": [
@@ -1771,8 +1827,14 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": ["Brian K. Vaughan"],
-    "stars": ["Mike Vogel", "Rachelle Lefevre", "Alexander Koch"],
+    "creators": [
+      "Brian K. Vaughan"
+    ],
+    "stars": [
+      "Mike Vogel",
+      "Rachelle Lefevre",
+      "Alexander Koch"
+    ],
     "seasons": {
       "1": [
         {
@@ -1993,8 +2055,14 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": ["John Griffin"],
-    "stars": ["Harold Perrineau", "Catalina Sandino Moreno", "Eion Bailey"],
+    "creators": [
+      "John Griffin"
+    ],
+    "stars": [
+      "Harold Perrineau",
+      "Catalina Sandino Moreno",
+      "Eion Bailey"
+    ],
     "seasons": {
       "1": [
         {
@@ -2171,8 +2239,15 @@
       "Drama",
       "Fantasy"
     ],
-    "creators": ["Patrick McKay", "John D. Payne"],
-    "stars": ["Morfydd Clark", "Charlie Vickers", "Charles Edwards"],
+    "creators": [
+      "Patrick McKay",
+      "John D. Payne"
+    ],
+    "stars": [
+      "Morfydd Clark",
+      "Charlie Vickers",
+      "Charles Edwards"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Bsnka8xrlfU",
     "seasons": {
       "1": [
@@ -2275,8 +2350,15 @@
       "Psychological Drama",
       "Drama"
     ],
-    "creators": ["Scott Frank", "Allan Scott"],
-    "stars": ["Anya Taylor-Joy", "Chloe Pirrie", "Bill Camp"],
+    "creators": [
+      "Scott Frank",
+      "Allan Scott"
+    ],
+    "stars": [
+      "Anya Taylor-Joy",
+      "Chloe Pirrie",
+      "Bill Camp"
+    ],
     "trailer": "https://www.youtube.com/watch?v=4SB9SBnWeqc",
     "seasons": {
       "1": [
@@ -2337,8 +2419,14 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": ["Haro Aso"],
-    "stars": ["Kento Yamazaki", "Tao Tsuchiya", "Nijirô Murakami"],
+    "creators": [
+      "Haro Aso"
+    ],
+    "stars": [
+      "Kento Yamazaki",
+      "Tao Tsuchiya",
+      "Nijirô Murakami"
+    ],
     "trailer": "https://www.imdb.com/title/tt10795658/",
     "seasons": {
       "1": [
@@ -2445,8 +2533,14 @@
       "Romance",
       "War"
     ],
-    "creators": ["Michael Hirst"],
-    "stars": ["Katheryn Winnick", "Gustaf Skarsgård", "Alexander Ludwig"],
+    "creators": [
+      "Michael Hirst"
+    ],
+    "stars": [
+      "Katheryn Winnick",
+      "Gustaf Skarsgård",
+      "Alexander Ludwig"
+    ],
     "trailer": "https://www.youtube.com/watch?v=mAl60ykBm4A",
     "seasons": {
       "1": [
@@ -2922,8 +3016,14 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": ["Graham Yost"],
-    "stars": ["Rebecca Ferguson", "Common", "Tim Robbins"],
+    "creators": [
+      "Graham Yost"
+    ],
+    "stars": [
+      "Rebecca Ferguson",
+      "Common",
+      "Tim Robbins"
+    ],
     "trailer": "https://www.youtube.com/watch?v=8QOFIMvl-PU",
     "seasons": {
       "1": [
@@ -3051,8 +3151,14 @@
       "Mystery",
       "Sci-Fi"
     ],
-    "creators": ["Charlie Brooker"],
-    "stars": ["Anjana Vasan", "Cristin Milioti", "Jimmi Simpson"],
+    "creators": [
+      "Charlie Brooker"
+    ],
+    "stars": [
+      "Anjana Vasan",
+      "Cristin Milioti",
+      "Jimmi Simpson"
+    ],
     "seasons": {
       "1": [
         {
@@ -3217,8 +3323,15 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "creators": ["Baran bo Odar", "Jantje Friese"],
-    "stars": ["Louis Hofmann", "Karoline Eichhorn", "Lisa Vicari"],
+    "creators": [
+      "Baran bo Odar",
+      "Jantje Friese"
+    ],
+    "stars": [
+      "Louis Hofmann",
+      "Karoline Eichhorn",
+      "Lisa Vicari"
+    ],
     "trailer": "https://www.imdb.com/title/tt5753856/",
     "seasons": {
       "1": [
@@ -3378,8 +3491,14 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": ["Hwang Dong-hyuk"],
-    "stars": ["Lee Jung-jae", "Wi Ha-joon", "Jeon Young-soo"],
+    "creators": [
+      "Hwang Dong-hyuk"
+    ],
+    "stars": [
+      "Lee Jung-jae",
+      "Wi Ha-joon",
+      "Jeon Young-soo"
+    ],
     "trailer": "https://www.youtube.com/watch?v=GYoD8oOH31M",
     "seasons": {
       "1": [
@@ -3507,9 +3626,18 @@
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt24513650//",
     "year": 2022,
-    "genres": ["Crime", "Drama"],
-    "creators": ["Casper"],
-    "stars": ["Casper", "Richard Jenkins", "Evan Peters"],
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "creators": [
+      "Casper"
+    ],
+    "stars": [
+      "Casper",
+      "Richard Jenkins",
+      "Evan Peters"
+    ],
     "trailer": "https://www.youtube.com/watch?v=AfLeLpo1NVA",
     "seasons": {
       "1": [
@@ -3582,8 +3710,15 @@
       "Crime",
       "Drama"
     ],
-    "creators": ["Vince Gilligan", "Peter Gould"],
-    "stars": ["Bob Odenkirk", "Rhea Seehorn", "Jonathan Banks"],
+    "creators": [
+      "Vince Gilligan",
+      "Peter Gould"
+    ],
+    "stars": [
+      "Bob Odenkirk",
+      "Rhea Seehorn",
+      "Jonathan Banks"
+    ],
     "seasons": {
       "1": [
         {
@@ -3921,9 +4056,20 @@
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt15567174/",
     "year": 2023,
-    "genres": ["Supernatural Horror", "Drama", "Horror", "Mystery"],
-    "creators": ["Mike Flanagan"],
-    "stars": ["Carla Gugino", "Bruce Greenwood", "Mary McDonnell"],
+    "genres": [
+      "Supernatural Horror",
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "creators": [
+      "Mike Flanagan"
+    ],
+    "stars": [
+      "Carla Gugino",
+      "Bruce Greenwood",
+      "Mary McDonnell"
+    ],
     "seasons": {
       "1": [
         {
@@ -3983,8 +4129,14 @@
       "Horror",
       "Thriller"
     ],
-    "creators": ["Frank Darabont"],
-    "stars": ["Normaln Reedus", "Melissa McBride", "Lauren Cohan"],
+    "creators": [
+      "Frank Darabont"
+    ],
+    "stars": [
+      "Normaln Reedus",
+      "Melissa McBride",
+      "Lauren Cohan"
+    ],
     "trailer": "https://www.youtube.com/watch?v=AbtiqJGhWyY",
     "seasons": {
       "1": [
@@ -4914,8 +5066,14 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": ["José Ignacio Valenzuela"],
-    "stars": ["Manolo Cardona", "Ginés Garcia Millan", "Carolina Miranda"],
+    "creators": [
+      "José Ignacio Valenzuela"
+    ],
+    "stars": [
+      "Manolo Cardona",
+      "Ginés Garcia Millan",
+      "Carolina Miranda"
+    ],
     "seasons": {
       "1": [
         {
@@ -5066,8 +5224,14 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": ["Paul T. Scheuring"],
-    "stars": ["Dominic Purcell", "Wentworth Miller", "Amaury Nolasco"],
+    "creators": [
+      "Paul T. Scheuring"
+    ],
+    "stars": [
+      "Dominic Purcell",
+      "Wentworth Miller",
+      "Amaury Nolasco"
+    ],
     "seasons": {
       "1": [
         {
@@ -5423,9 +5587,20 @@
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt13918776/",
     "year": 2023,
-    "genres": ["Conspiracy Thriller", "Action", "Drama", "Thriller"],
-    "creators": ["Millicent Shelton"],
-    "stars": ["Luciane Buchanan", "Gabriel Basso", "Fola Evans-Akingbola"],
+    "genres": [
+      "Conspiracy Thriller",
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "creators": [
+      "Millicent Shelton"
+    ],
+    "stars": [
+      "Luciane Buchanan",
+      "Gabriel Basso",
+      "Fola Evans-Akingbola"
+    ],
     "trailer": "",
     "seasons": {
       "1": [
@@ -5553,8 +5728,15 @@
       "Fantasy",
       "Horror"
     ],
-    "creators": ["Matt Duffer", "Ross Duffer"],
-    "stars": ["Winona Ryder", "David Harbour", "Finn Wolfhard"],
+    "creators": [
+      "Matt Duffer",
+      "Ross Duffer"
+    ],
+    "stars": [
+      "Winona Ryder",
+      "David Harbour",
+      "Finn Wolfhard"
+    ],
     "trailer": "https://www.youtube.com/watch?v=l7nzodXfVsg",
     "seasons": {
       "1": [
@@ -5753,8 +5935,16 @@
       "Drama",
       "Sport"
     ],
-    "creators": ["Josh Heald", "Jon Hurwitz", "Hayden Schlossberg"],
-    "stars": ["Ralph Macchio", "William Zabka", "Courtney Henggeler"],
+    "creators": [
+      "Josh Heald",
+      "Jon Hurwitz",
+      "Hayden Schlossberg"
+    ],
+    "stars": [
+      "Ralph Macchio",
+      "William Zabka",
+      "Courtney Henggeler"
+    ],
     "seasons": {
       "1": [
         {
@@ -6102,9 +6292,20 @@
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt27548095/",
     "year": 2024,
-    "genres": ["French", "Drama", "Sci-Fi", "Thriller"],
-    "creators": ["Antoine Garceau"],
-    "stars": ["Frédéric Pierrot", "Hugo Becker", "Judith Chemla"],
+    "genres": [
+      "French",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "creators": [
+      "Antoine Garceau"
+    ],
+    "stars": [
+      "Frédéric Pierrot",
+      "Hugo Becker",
+      "Judith Chemla"
+    ],
     "trailer": "https://www.youtube.com/watch?v=XdlLEJO_1_w",
     "seasons": {
       "1": [
@@ -6149,8 +6350,15 @@
       "Fantasy",
       "Mystery"
     ],
-    "creators": ["Alfred Gough", "Miles Millar"],
-    "stars": ["Jenna Ortega", "Hunter Doohan", "Emma Myers"],
+    "creators": [
+      "Alfred Gough",
+      "Miles Millar"
+    ],
+    "stars": [
+      "Jenna Ortega",
+      "Hunter Doohan",
+      "Emma Myers"
+    ],
     "trailer": "https://www.youtube.com/watch?v=X7UoGHx7MDI",
     "seasons": {
       "1": [
@@ -6255,8 +6463,14 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": ["Alex Pina"],
-    "stars": ["Ursula Corbero", "Alvaro Morte", "Itziar Ituno"],
+    "creators": [
+      "Alex Pina"
+    ],
+    "stars": [
+      "Ursula Corbero",
+      "Alvaro Morte",
+      "Itziar Ituno"
+    ],
     "trailer": "https://www.youtube.com/watch?v=0ULjL4cbSro",
     "seasons": {
       "1": [
@@ -6518,9 +6732,22 @@
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt9859436/",
     "year": 2024,
-    "genres": ["Zombie Horror", "Drama", "Horror", "Thriller"],
-    "creators": ["Scott M. Gimple", "Danai Gurira", "Andrew Lincoln"],
-    "stars": ["Andrew Lincoln", "Danai Gurira", "Pollyanna McIntosh"],
+    "genres": [
+      "Zombie Horror",
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "creators": [
+      "Scott M. Gimple",
+      "Danai Gurira",
+      "Andrew Lincoln"
+    ],
+    "stars": [
+      "Andrew Lincoln",
+      "Danai Gurira",
+      "Pollyanna McIntosh"
+    ],
     "trailer": "https://www.youtube.com/watch?v=fCBVA_MxD_0",
     "seasons": {
       "1": [
@@ -6573,8 +6800,14 @@
       "Mystery",
       "Thriller"
     ],
-    "creators": ["David Guggenheim"],
-    "stars": ["Kiefer Sutherland", "Adan Canto", "Italia Ricci"],
+    "creators": [
+      "David Guggenheim"
+    ],
+    "stars": [
+      "Kiefer Sutherland",
+      "Adan Canto",
+      "Italia Ricci"
+    ],
     "trailer": "https://www.youtube.com/watch?v=INvwjmyMo08",
     "seasons": {
       "1": [
@@ -6857,9 +7090,19 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt13062500/",
     "year": 2023,
-    "genres": ["Zombie Horror", "Drama", "Horror"],
-    "creators": ["David Zabel"],
-    "stars": ["Norman Reedus", "Melissa McBride", "Romain Levi"],
+    "genres": [
+      "Zombie Horror",
+      "Drama",
+      "Horror"
+    ],
+    "creators": [
+      "David Zabel"
+    ],
+    "stars": [
+      "Norman Reedus",
+      "Melissa McBride",
+      "Romain Levi"
+    ],
     "trailer": "https://www.youtube.com/watch?v=F8nWo0zjC14",
     "seasons": {
       "1": [
@@ -6935,9 +7178,22 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2531336/",
     "year": 2021,
-    "genres": ["French", "Heist", "Action", "Crime", "Drama", "Mystery"],
-    "creators": ["George Kay"],
-    "stars": ["Omar Sy", "Ludivine Sagnier", "Soufiane Guerrab"],
+    "genres": [
+      "French",
+      "Heist",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "creators": [
+      "George Kay"
+    ],
+    "stars": [
+      "Omar Sy",
+      "Ludivine Sagnier",
+      "Soufiane Guerrab"
+    ],
     "trailer": "https://www.youtube.com/watch?v=gCmuYqeeNpc",
     "seasons": {
       "1": [
@@ -7051,8 +7307,14 @@
       "Mystery",
       "Thriller"
     ],
-    "stars": ["Michael C. Hall", "Jennifer Carpenter", "David Zayas"],
-    "creators": ["James Manos Jr."],
+    "stars": [
+      "Michael C. Hall",
+      "Jennifer Carpenter",
+      "David Zayas"
+    ],
+    "creators": [
+      "James Manos Jr."
+    ],
     "seasons": {
       "1": [
         {
@@ -7567,9 +7829,15 @@
       "Drama",
       "Mystery"
     ],
-    "stars": ["Michael C. Hall", "Jack Alcott", "Julia Jones"],
+    "stars": [
+      "Michael C. Hall",
+      "Jack Alcott",
+      "Julia Jones"
+    ],
     "trailer": "",
-    "creators": ["Clyde Phillips"],
+    "creators": [
+      "Clyde Phillips"
+    ],
     "seasons": {
       "1": [
         {
@@ -7633,9 +7901,20 @@
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt32252772/",
     "year": 2024,
-    "genres": ["Serial Killer", "Crime", "Drama", "Mystery"],
-    "stars": ["Patrick Gibson", "Christian Slater", "Molly Brown"],
-    "creators": ["Clyde Phillips"],
+    "genres": [
+      "Serial Killer",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "stars": [
+      "Patrick Gibson",
+      "Christian Slater",
+      "Molly Brown"
+    ],
+    "creators": [
+      "Clyde Phillips"
+    ],
     "seasons": {
       "1": [
         {

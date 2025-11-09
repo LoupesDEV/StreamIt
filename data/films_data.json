@@ -6,10 +6,25 @@
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
-    "genres": ["Buddy Comedy", "Adventure", "Comedy", "Family"],
-    "directors": ["Guillaume Canet"],
-    "writers": ["René Goscinny", "Albert Uderzo", "Guillaume Canet"],
-    "stars": ["Guillaume Canet", "Gilles Lellouche", "Vincent Cassel"],
+    "genres": [
+      "Buddy Comedy",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "directors": [
+      "Guillaume Canet"
+    ],
+    "writers": [
+      "René Goscinny",
+      "Albert Uderzo",
+      "Guillaume Canet"
+    ],
+    "stars": [
+      "Guillaume Canet",
+      "Gilles Lellouche",
+      "Vincent Cassel"
+    ],
     "trailer": "https://www.youtube.com/watch?v=YY9ptFQgs4w",
     "video": "medias/films/asterix-obelix-l-empire-du-milieu/asterix-obelix-l-empire-du-milieu.mp4"
   },
@@ -30,9 +45,17 @@
       "Romance",
       "Sci-Fi"
     ],
-    "directors": ["Scott Derrickson"],
-    "writers": ["Zach Dean"],
-    "stars": ["Miles Teller", "Anya Taylor-Joy", "Sigourney Weaver"],
+    "directors": [
+      "Scott Derrickson"
+    ],
+    "writers": [
+      "Zach Dean"
+    ],
+    "stars": [
+      "Miles Teller",
+      "Anya Taylor-Joy",
+      "Sigourney Weaver"
+    ],
     "trailer": "https://www.youtube.com/watch?v=gWTXQnlWDRg",
     "video": "medias/films/the-gorge/the-gorge.mp4"
   },
@@ -43,10 +66,22 @@
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
-    "genres": ["Action", "Mystery", "Thriller"],
-    "directors": ["Jérôme Salle"],
-    "writers": ["Christian Zübert"],
-    "stars": ["Jeanne Goursaud", "Dougray Scott", "Lera Abova"],
+    "genres": [
+      "Action",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Jérôme Salle"
+    ],
+    "writers": [
+      "Christian Zübert"
+    ],
+    "stars": [
+      "Jeanne Goursaud",
+      "Dougray Scott",
+      "Lera Abova"
+    ],
     "trailer": "https://www.youtube.com/watch?v=TSAP-U61JkA",
     "video": "medias/films/exterritorial/exterritorial.mp4"
   },
@@ -57,10 +92,26 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
-    "genres": ["Alien Invasion", "Monster Horror", "Drama", "Horror", "Sci-Fi"],
-    "directors": ["John Krasinski"],
-    "writers": ["Bryan Woods", "Scott Beck", "John Krasinski"],
-    "stars": ["Emily Blunt", "John Krasinski", "Millicent Simmonds"],
+    "genres": [
+      "Alien Invasion",
+      "Monster Horror",
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "directors": [
+      "John Krasinski"
+    ],
+    "writers": [
+      "Bryan Woods",
+      "Scott Beck",
+      "John Krasinski"
+    ],
+    "stars": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds"
+    ],
     "trailer": "https://www.youtube.com/watch?v=OfImjmzcvLA",
     "video": "medias/films/sans-un-bruit/sans-un-bruit.mp4"
   },
@@ -80,9 +131,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["John Krasinski"],
-    "writers": ["John Krasinski", "Bryan Woods", "Scott Beck"],
-    "stars": ["Emily Blunt", "Millicent Simmonds", "Cillian Murphy"],
+    "directors": [
+      "John Krasinski"
+    ],
+    "writers": [
+      "John Krasinski",
+      "Bryan Woods",
+      "Scott Beck"
+    ],
+    "stars": [
+      "Emily Blunt",
+      "Millicent Simmonds",
+      "Cillian Murphy"
+    ],
     "trailer": "https://www.youtube.com/watch?v=xmaFiG8yKFc",
     "video": "medias/films/sans-un-bruit-2/sans-un-bruit-2.mp4"
   },
@@ -101,9 +162,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Michael Sarnoski"],
-    "writers": ["Michael Sarnoski", "John Krasinski", "Bryan Woods"],
-    "stars": ["Lupita Nyong'o", "Joseph Quinn", "Alex Wolff"],
+    "directors": [
+      "Michael Sarnoski"
+    ],
+    "writers": [
+      "Michael Sarnoski",
+      "John Krasinski",
+      "Bryan Woods"
+    ],
+    "stars": [
+      "Lupita Nyong'o",
+      "Joseph Quinn",
+      "Alex Wolff"
+    ],
     "trailer": "https://www.youtube.com/watch?v=P2Txu56Rj-g",
     "video": "medias/films/sans-un-bruit-jour-1/sans-un-bruit-jour-1.mp4"
   },
@@ -122,9 +193,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Gary Ross"],
-    "writers": ["Gary Ross", "Suzanne Collins", "Billy Ray"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "directors": [
+      "Gary Ross"
+    ],
+    "writers": [
+      "Gary Ross",
+      "Suzanne Collins",
+      "Billy Ray"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=wqUq0lsQ684",
     "video": "medias/films/hunger-games/hunger-games.mp4"
   },
@@ -135,12 +216,28 @@
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
-    "genres": ["Dystopian Sci-Fi", "Action", "Adventure", "Sci-Fi", "Thriller"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Simon Beaufoy", "Michael Arndt", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Simon Beaufoy",
+      "Michael Arndt",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=nbzjLhsmVXc",
-    "video": "medias/films/hunger-games-l-embrasementhunger-games-l-embrasement/hunger-games-l-embrasement.mp4"
+    "video": "medias/films/hunger-games-l-embrasement/hunger-games-l-embrasement.mp4"
   },
   "Hunger Games : La Révolte - Partie 1": {
     "title": "Hunger Games : La Révolte - Partie 1",
@@ -149,10 +246,26 @@
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951265/",
     "year": 2014,
-    "genres": ["Dystopian Sci-Fi", "Action", "Adventure", "Sci-Fi", "Thriller"],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Peter Craig",
+      "Danny Strong",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=zdMIft77FEY",
     "video": "medias/films/hunger-games-la-revolte-partie-1/hunger-games-la-revolte-partie-1.mp4"
   },
@@ -171,9 +284,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Peter Craig", "Danny Strong", "Suzanne Collins"],
-    "stars": ["Jennifer Lawrence", "Josh Hutcherson", "Liam Hemsworth"],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Peter Craig",
+      "Danny Strong",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Jennifer Lawrence",
+      "Josh Hutcherson",
+      "Liam Hemsworth"
+    ],
     "trailer": "https://www.youtube.com/watch?v=MGZ0kzmcWAU",
     "video": "medias/films/hunger-games-la-revolte-partie-2/hunger-games-la-revolte-partie-2.mp4"
   },
@@ -194,9 +317,19 @@
       "Thriller",
       "War"
     ],
-    "directors": ["Francis Lawrence"],
-    "writers": ["Michael Lesslie", "Michael Arndt", "Suzanne Collins"],
-    "stars": ["Rachel Zegler", "Tom Blyth", "Viola Davis"],
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "Michael Lesslie",
+      "Michael Arndt",
+      "Suzanne Collins"
+    ],
+    "stars": [
+      "Rachel Zegler",
+      "Tom Blyth",
+      "Viola Davis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=YV0-YKWfNPs",
     "video": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur.mp4"
   },
@@ -215,9 +348,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Tim Burton"],
-    "writers": ["Pierre Boulle", "William Broyles Jr.", "Lawrence Konner"],
-    "stars": ["Mark Wahlberg", "Tim Roth", "Helena Bonham Carter"],
+    "directors": [
+      "Tim Burton"
+    ],
+    "writers": [
+      "Pierre Boulle",
+      "William Broyles Jr.",
+      "Lawrence Konner"
+    ],
+    "stars": [
+      "Mark Wahlberg",
+      "Tim Roth",
+      "Helena Bonham Carter"
+    ],
     "video": "medias/films/la-planete-des-singes/la-planete-des-singes.mp4"
   },
   "La Planète des singes : Les Origines": {
@@ -227,10 +370,25 @@
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
     "year": 2011,
-    "genres": ["Action", "Drama", "Sci-Fi", "Thriller"],
-    "directors": ["Rupert Wyatt"],
-    "writers": ["Rick Jaffa", "Amanda Silver", "Pierre Boulle"],
-    "stars": ["James Franco", "Freida Pinto", "Andy Serkis"],
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "directors": [
+      "Rupert Wyatt"
+    ],
+    "writers": [
+      "Rick Jaffa",
+      "Amanda Silver",
+      "Pierre Boulle"
+    ],
+    "stars": [
+      "James Franco",
+      "Freida Pinto",
+      "Andy Serkis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Vn8GriIog1s",
     "video": "medias/films/la-planete-des-singes-les-origines/la-planete-des-singes-les-origines.mp4"
   },
@@ -249,9 +407,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Matt Reeves"],
-    "writers": ["Mark Bomback", "Rick Jaffa", "Amanda Silver"],
-    "stars": ["Gary Oldman", "Keri Russell", "Andy Serkis"],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "writers": [
+      "Mark Bomback",
+      "Rick Jaffa",
+      "Amanda Silver"
+    ],
+    "stars": [
+      "Gary Oldman",
+      "Keri Russell",
+      "Andy Serkis"
+    ],
     "trailer": "https://www.youtube.com/watch?v=dPcwB7okdzU",
     "video": "medias/films/la-planete-des-singes-l-affrontement/la-planete-des-singes-l-affrontement.mp4"
   },
@@ -274,9 +442,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Matt Reeves"],
-    "writers": ["Mark Bomback", "Matt Reeves", "Rick Jaffa"],
-    "stars": ["Andy Serkis", "Woody Harrelson", "Steve Zahn"],
+    "directors": [
+      "Matt Reeves"
+    ],
+    "writers": [
+      "Mark Bomback",
+      "Matt Reeves",
+      "Rick Jaffa"
+    ],
+    "stars": [
+      "Andy Serkis",
+      "Woody Harrelson",
+      "Steve Zahn"
+    ],
     "trailer": "https://www.youtube.com/watch?v=kIiiAq19tg8",
     "video": "medias/films/la-planete-des-singes-suprematie/la-planete-des-singes-suprematie.mp4"
   },
@@ -296,9 +474,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Wes Ball"],
-    "writers": ["Josh Friedman", "Rick Jaffa", "Amanda Silver"],
-    "stars": ["Owen Teague", "Freya Allan", "Kevin Durand"],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "Josh Friedman",
+      "Rick Jaffa",
+      "Amanda Silver"
+    ],
+    "stars": [
+      "Owen Teague",
+      "Freya Allan",
+      "Kevin Durand"
+    ],
     "trailer": "https://www.youtube.com/watch?v=h-Kd5wXdK-U",
     "video": "medias/films/la-planete-des-singes-le-nouveau-royaume/la-planete-des-singes-le-nouveau-royaume.mp4"
   },
@@ -321,9 +509,19 @@
       "Adventure",
       "Comedy"
     ],
-    "directors": ["Jared Hess"],
-    "writers": ["Allison Schroeder", "Chris Bowman", "Hubbel Palmer"],
-    "stars": ["Jason Momoa", "Jack Black", "Emma Myers"],
+    "directors": [
+      "Jared Hess"
+    ],
+    "writers": [
+      "Allison Schroeder",
+      "Chris Bowman",
+      "Hubbel Palmer"
+    ],
+    "stars": [
+      "Jason Momoa",
+      "Jack Black",
+      "Emma Myers"
+    ],
     "trailer": "https://www.youtube.com/watch?v=E9slRynYcmI",
     "video": "medias/films/minecraft-le-film/minecraft-le-film.mp4"
   },
@@ -346,9 +544,17 @@
       "Adventure",
       "Biography"
     ],
-    "directors": ["Ridley Scott"],
-    "writers": ["David Scarpa"],
-    "stars": ["Joaquin Phoenix", "Vanessa Kirby", "Tahar Rahim"],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Scarpa"
+    ],
+    "stars": [
+      "Joaquin Phoenix",
+      "Vanessa Kirby",
+      "Tahar Rahim"
+    ],
     "trailer": "https://www.youtube.com/watch?v=A3xaMZZooVs",
     "video": "medias/films/napoleon/napoleon.mp4"
   },
@@ -359,10 +565,23 @@
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
-    "genres": ["Psychological Drama", "Drama", "War"],
-    "directors": ["Marian Bushan"],
-    "writers": ["Marian Bushan", "Mykola Voronin"],
-    "stars": ["Pavlo Aldoshyn", "Maryna Koshkina", "Andrey Mostrenko"],
+    "genres": [
+      "Psychological Drama",
+      "Drama",
+      "War"
+    ],
+    "directors": [
+      "Marian Bushan"
+    ],
+    "writers": [
+      "Marian Bushan",
+      "Mykola Voronin"
+    ],
+    "stars": [
+      "Pavlo Aldoshyn",
+      "Maryna Koshkina",
+      "Andrey Mostrenko"
+    ],
     "trailer": "https://www.youtube.com/watch?v=W_cCXmw2GQM",
     "video": "medias/films/sniper-le-corbeau-blanc/sniper-le-corbeau-blanc.mp4"
   },
@@ -373,10 +592,26 @@
     "IMDb": 6.8,
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
-    "genres": ["Suspense Mystery", "Action", "Mystery", "Sci-Fi", "Thriller"],
-    "directors": ["Wes Ball"],
-    "writers": ["Noah Oppenheim", "Grant Pierce Myers", "T.S. Nowlin"],
-    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Will Poulter"],
+    "genres": [
+      "Suspense Mystery",
+      "Action",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "Noah Oppenheim",
+      "Grant Pierce Myers",
+      "T.S. Nowlin"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Kaya Scodelario",
+      "Will Poulter"
+    ],
     "trailer": "https://www.youtube.com/watch?v=LyPiCH_4Al4",
     "video": "medias/films/le-labyrinthe/le-labyrinthe.mp4"
   },
@@ -395,9 +630,18 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Wes Ball"],
-    "writers": ["T.S. Nowlin", "James Dashner"],
-    "stars": ["Dylan O'Brien", "Kaya Scodelario", "Thomas Brodie-Sangster"],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "T.S. Nowlin",
+      "James Dashner"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Kaya Scodelario",
+      "Thomas Brodie-Sangster"
+    ],
     "trailer": "https://www.youtube.com/watch?v=K7jyL2cS6dc",
     "video": "medias/films/le-labyrinthe-la-terre-brulee/le-labyrinthe-la-terre-brulee.mp4"
   },
@@ -408,10 +652,24 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4500922/",
     "year": 2018,
-    "genres": ["Action", "Adventure", "Sci-Fi", "Thriller"],
-    "directors": ["Wes Ball"],
-    "writers": ["T.S. Nowlin", "James Dashner"],
-    "stars": ["Dylan O'Brien", "Ki Hong Lee", "Kaya Scodelario"],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "directors": [
+      "Wes Ball"
+    ],
+    "writers": [
+      "T.S. Nowlin",
+      "James Dashner"
+    ],
+    "stars": [
+      "Dylan O'Brien",
+      "Ki Hong Lee",
+      "Kaya Scodelario"
+    ],
     "trailer": "https://www.youtube.com/watch?v=gx3HVAx82sg",
     "video": "medias/films/le-labyrinthe-le-remede-mortel/le-labyrinthe-le-remede-mortel.mp4"
   },
@@ -429,9 +687,17 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "directors": ["Luc Besson"],
-    "writers": ["Luc Besson"],
-    "stars": ["Scarlett Johansson", "Morgan Freeman", "Choi Min-sik"],
+    "directors": [
+      "Luc Besson"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Scarlett Johansson",
+      "Morgan Freeman",
+      "Choi Min-sik"
+    ],
     "trailer": "https://www.youtube.com/watch?v=7gPrNpHaFX8",
     "video": "medias/films/lucy/lucy.mp4"
   },
@@ -455,9 +721,19 @@
       "Drama",
       "Fantasy"
     ],
-    "directors": ["Peter Jackson"],
-    "writers": ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
-    "stars": ["Elijah Wood", "Ian McKellen", "Orlando Bloom"],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
     "trailer": "https://www.youtube.com/watch?v=KCYr5PpGOvk",
     "video": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/le-seigneur-des-anneaux-la-communaute-de-l-anneau.mp4"
   },
@@ -481,9 +757,19 @@
       "Drama",
       "Fantasy"
     ],
-    "directors": ["Peter Jackson"],
-    "writers": ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
-    "stars": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
     "trailer": "https://www.youtube.com/watch?v=c9blKqmyeV4",
     "video": "medias/films/le-seigneur-des-anneaux-les-deux-tours/le-seigneur-des-anneaux-les-deux-tours.mp4"
   },
@@ -506,9 +792,19 @@
       "Adventure",
       "Drama"
     ],
-    "directors": ["Peter Jackson"],
-    "writers": ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
-    "stars": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "directors": [
+      "Peter Jackson"
+    ],
+    "writers": [
+      "J.R.R. Tolkien",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
     "trailer": "https://www.youtube.com/watch?v=RCuDRcK0BBM",
     "video": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/le-seigneur-des-anneaux-le-retour-du-roi.mp4"
   },
@@ -528,9 +824,20 @@
       "Family",
       "Sport"
     ],
-    "directors": ["John Lasseter", "Joe Ranft"],
-    "writers": ["John Lasseter", "Joe Ranft", "Jorgen Klubien"],
-    "stars": ["Owen Wilson", "Bonnie Hunt", "Paul Newman"],
+    "directors": [
+      "John Lasseter",
+      "Joe Ranft"
+    ],
+    "writers": [
+      "John Lasseter",
+      "Joe Ranft",
+      "Jorgen Klubien"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Bonnie Hunt",
+      "Paul Newman"
+    ],
     "video": "medias/films/cars/cars.mp4"
   },
   "Cars 2": {
@@ -552,9 +859,20 @@
       "Family",
       "Sci-Fi"
     ],
-    "directors": ["John Lasseter", "Bradford Lewis"],
-    "writers": ["John Lasseter", "Bradford Lewis", "Dan Fogelman"],
-    "stars": ["Owen Wilson", "Larry the Cable Guy", "Michael Caine"],
+    "directors": [
+      "John Lasseter",
+      "Bradford Lewis"
+    ],
+    "writers": [
+      "John Lasseter",
+      "Bradford Lewis",
+      "Dan Fogelman"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Larry the Cable Guy",
+      "Michael Caine"
+    ],
     "video": "medias/films/cars-2/cars-2.mp4"
   },
   "Cars 3": {
@@ -573,9 +891,19 @@
       "Family",
       "Sport"
     ],
-    "directors": ["Brian Fee"],
-    "writers": ["Brian Fee", "Ben Queen", "Eyal Podell"],
-    "stars": ["Owen Wilson", "Cristela Alonzo", "Chris Cooper"],
+    "directors": [
+      "Brian Fee"
+    ],
+    "writers": [
+      "Brian Fee",
+      "Ben Queen",
+      "Eyal Podell"
+    ],
+    "stars": [
+      "Owen Wilson",
+      "Cristela Alonzo",
+      "Chris Cooper"
+    ],
     "video": "medias/films/cars-3/cars-3.mp4"
   },
   "Gran Turismo": {
@@ -593,9 +921,19 @@
       "Drama",
       "Sport"
     ],
-    "directors": ["Neill Blomkamp"],
-    "writers": ["Jason Hall", "Zach Baylin", "Alex Tse"],
-    "stars": ["David Harbour", "Orlando Bloom", "Archie Madekwe"],
+    "directors": [
+      "Neill Blomkamp"
+    ],
+    "writers": [
+      "Jason Hall",
+      "Zach Baylin",
+      "Alex Tse"
+    ],
+    "stars": [
+      "David Harbour",
+      "Orlando Bloom",
+      "Archie Madekwe"
+    ],
     "trailer": "https://www.youtube.com/watch?v=oS_E5W7URs4",
     "video": "medias/films/gran-turismo/gran-turismo.mp4"
   },
@@ -616,9 +954,19 @@
       "Drama",
       "History"
     ],
-    "directors": ["Christopher Nolan"],
-    "writers": ["Christopher Nolan", "Kai Bird", "Martin Sherwin"],
-    "stars": ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Christopher Nolan",
+      "Kai Bird",
+      "Martin Sherwin"
+    ],
+    "stars": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon"
+    ],
     "trailer": "https://www.youtube.com/watch?v=CoXtvSRpHgM",
     "video": "medias/films/oppenheimer/oppenheimer.mp4"
   },
@@ -639,15 +987,25 @@
       "Drama",
       "Sport"
     ],
-    "directors": ["James Mangold"],
-    "writers": ["Jez Butterworth", "John-Henry Butterworth", "Jason Keller"],
-    "stars": ["Matt Damon", "Christian Bale", "Jon Bernthal"],
+    "directors": [
+      "James Mangold"
+    ],
+    "writers": [
+      "Jez Butterworth",
+      "John-Henry Butterworth",
+      "Jason Keller"
+    ],
+    "stars": [
+      "Matt Damon",
+      "Christian Bale",
+      "Jon Bernthal"
+    ],
     "trailer": "https://www.youtube.com/watch?v=maxybmxQuTE",
     "video": "medias/films/le-mans-66/le-mans-66.mp4"
   },
   "Interstellar": {
     "title": "Interstellar",
-    "description": "Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque‐là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.",
+    "description": "Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque-là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.",
     "banner": "medias/films/interstellar/interstellar.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt0816692/",
@@ -663,9 +1021,18 @@
       "Drama",
       "Sci-Fi"
     ],
-    "directors": ["Christopher Nolan"],
-    "writers": ["Jonathan Nolan", "Christopher Nolan"],
-    "stars": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Jonathan Nolan",
+      "Christopher Nolan"
+    ],
+    "stars": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
     "trailer": "https://www.youtube.com/watch?v=HsPP6xSzQoE",
     "video": "medias/films/interstellar/interstellar.mp4"
   },
@@ -685,13 +1052,20 @@
       "Romance",
       "Thriller"
     ],
-    "directors": ["Alexandre de La Patellière", "Matthieu Delaporte"],
+    "directors": [
+      "Alexandre de La Patellière",
+      "Matthieu Delaporte"
+    ],
     "writers": [
       "Alexandre Dumas",
       "Alexandre de La Patellière",
       "Matthieu Delaporte"
     ],
-    "stars": ["Pierre Niney", "Bastien Bouillon", "Anaïs Demoustier"],
+    "stars": [
+      "Pierre Niney",
+      "Bastien Bouillon",
+      "Anaïs Demoustier"
+    ],
     "trailer": "https://www.youtube.com/watch?v=u0YnbsyvGS0",
     "video": "medias/films/le-comte-de-monte-cristo/le-comte-de-monte-cristo.mp4"
   },
@@ -711,9 +1085,17 @@
       "Family",
       "Musical"
     ],
-    "directors": ["Barry Jenkins"],
-    "writers": ["Jeff Nathanson"],
-    "stars": ["Aaron Pierre", "Kelvin Harrison Jr.", "Tiffany Boone"],
+    "directors": [
+      "Barry Jenkins"
+    ],
+    "writers": [
+      "Jeff Nathanson"
+    ],
+    "stars": [
+      "Aaron Pierre",
+      "Kelvin Harrison Jr.",
+      "Tiffany Boone"
+    ],
     "trailer": "https://www.youtube.com/watch?v=2rWXguw0S-k",
     "video": "medias/films/mufasa-le-roi-lion/mufasa-le-roi-lion.mp4"
   },
@@ -724,10 +1106,25 @@
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/title/tt29610108/",
     "year": 2025,
-    "genres": ["Action", "Drama", "Mystery", "Thriller"],
-    "directors": ["Juan Carlos Medina"],
-    "writers": ["Denis Brusseaux", "Guillaume Mautalent", "Juan Carlos Medina"],
-    "stars": ["Sami Bouajila", "Julie Gayet", "Philippe Résimont"],
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Juan Carlos Medina"
+    ],
+    "writers": [
+      "Denis Brusseaux",
+      "Guillaume Mautalent",
+      "Juan Carlos Medina"
+    ],
+    "stars": [
+      "Sami Bouajila",
+      "Julie Gayet",
+      "Philippe Résimont"
+    ],
     "trailer": "https://www.youtube.com/watch?v=R6WYFnLNMa0",
     "video": "medias/films/six-jours/six-jours.mp4"
   },
@@ -746,9 +1143,17 @@
       "Drama",
       "Sport"
     ],
-    "directors": ["Ron Howard"],
-    "writers": ["Peter Morgan"],
-    "stars": ["Daniel Brühl", "Chris Hemsworth", "Olivia Wilde"],
+    "directors": [
+      "Ron Howard"
+    ],
+    "writers": [
+      "Peter Morgan"
+    ],
+    "stars": [
+      "Daniel Brühl",
+      "Chris Hemsworth",
+      "Olivia Wilde"
+    ],
     "trailer": "https://www.youtube.com/watch?v=N4C5qOwHiB8",
     "video": "medias/films/rush/rush.mp4"
   },
@@ -759,10 +1164,25 @@
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt0914798/",
     "year": 2008,
-    "genres": ["Period Drama", "Prison Drama", "Tragedy", "Drama", "War"],
-    "directors": ["Mark Herman"],
-    "writers": ["John Boyne", "Mark Herman"],
-    "stars": ["Asa Butterfield", "David Thewlis", "Rupert Friend"],
+    "genres": [
+      "Period Drama",
+      "Prison Drama",
+      "Tragedy",
+      "Drama",
+      "War"
+    ],
+    "directors": [
+      "Mark Herman"
+    ],
+    "writers": [
+      "John Boyne",
+      "Mark Herman"
+    ],
+    "stars": [
+      "Asa Butterfield",
+      "David Thewlis",
+      "Rupert Friend"
+    ],
     "video": "medias/films/le-garcon-au-pyjama-raye/le-garcon-au-pyjama-raye.mp4"
   },
   "Taxi": {
@@ -782,9 +1202,17 @@
       "Comedy",
       "Crime"
     ],
-    "directors": ["Gérard Pirès"],
-    "writers": ["Luc Besson"],
-    "stars": ["Samy Naceri", "Frédéric Diefenthal", "Marion Cotillard"],
+    "directors": [
+      "Gérard Pirès"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Marion Cotillard"
+    ],
     "video": "medias/films/taxi/taxi.mp4"
   },
   "Taxi 2": {
@@ -794,10 +1222,22 @@
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt0183869/",
     "year": 2000,
-    "genres": ["Action", "Comedy", "Crime"],
-    "directors": ["Gérard Krawczyk"],
-    "writers": ["Luc Besson"],
-    "stars": ["Samy Naceri", "Frédéric Diefenthal", "Emma Wiklund"],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Emma Wiklund"
+    ],
     "video": "medias/films/taxi-2/taxi-2.mp4"
   },
   "Taxi 3": {
@@ -807,10 +1247,22 @@
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt0295721/",
     "year": 2000,
-    "genres": ["Action", "Comedy", "Crime"],
-    "directors": ["Gérard Krawczyk"],
-    "writers": ["Luc Besson"],
-    "stars": ["Samy Naceri", "Frédéric Diefenthal", "Bernard Farcy"],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Bernard Farcy"
+    ],
     "video": "medias/films/taxi-3/taxi-3.mp4"
   },
   "Taxi 4": {
@@ -820,10 +1272,22 @@
     "IMDb": 5.6,
     "IMDb_link": "https://www.imdb.com/title/tt0804540/",
     "year": 2007,
-    "genres": ["Action", "Comedy", "Crime"],
-    "directors": ["Gérard Krawczyk"],
-    "writers": ["Luc Besson"],
-    "stars": ["Samy Naceri", "Frédéric Diefenthal", "Bernard Farcy"],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Gérard Krawczyk"
+    ],
+    "writers": [
+      "Luc Besson"
+    ],
+    "stars": [
+      "Samy Naceri",
+      "Frédéric Diefenthal",
+      "Bernard Farcy"
+    ],
     "video": "medias/films/taxi-4/taxi-4.mp4"
   },
   "Taxi 5": {
@@ -833,10 +1297,24 @@
     "IMDb": 4.6,
     "IMDb_link": "https://www.imdb.com/title/tt7238392/",
     "year": 2018,
-    "genres": ["Action", "Comedy", "Crime"],
-    "directors": ["Franck Gastambide"],
-    "writers": ["Franck Gastambide", "Stéphane Kazandjian", "Luc Besson"],
-    "stars": ["Franck Gastambide", "Malik Bentalha", "Bernard Farcy"],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directors": [
+      "Franck Gastambide"
+    ],
+    "writers": [
+      "Franck Gastambide",
+      "Stéphane Kazandjian",
+      "Luc Besson"
+    ],
+    "stars": [
+      "Franck Gastambide",
+      "Malik Bentalha",
+      "Bernard Farcy"
+    ],
     "video": "medias/films/taxi-5/taxi-5.mp4"
   },
   "WALL·E": {
@@ -858,9 +1336,19 @@
       "Family",
       "Sci-Fi"
     ],
-    "directors": ["Andrew Stanton"],
-    "writers": ["Andrew Stanton", "Pete Docter", "Jim Reardon"],
-    "stars": ["Ben Burtt", "Elissa Knight", "Jeff Garlin"],
+    "directors": [
+      "Andrew Stanton"
+    ],
+    "writers": [
+      "Andrew Stanton",
+      "Pete Docter",
+      "Jim Reardon"
+    ],
+    "stars": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
     "video": "medias/films/wall-e/wall-e.mp4"
   },
   "Intouchables": {
@@ -870,10 +1358,25 @@
     "IMDb": 8.5,
     "IMDb_link": "https://www.imdb.com/title/tt1675434/",
     "year": 2011,
-    "genres": ["Docudrama", "Comedy", "Drama"],
-    "directors": ["Olivier Nakache", "Éric Toledano"],
-    "writers": ["Olivier Nakache", "Éric Toledano", "Philippe Pozzo di Borgo"],
-    "stars": ["François Cluzet", "Omar Sy", "Anne Le Ny"],
+    "genres": [
+      "Docudrama",
+      "Comedy",
+      "Drama"
+    ],
+    "directors": [
+      "Olivier Nakache",
+      "Éric Toledano"
+    ],
+    "writers": [
+      "Olivier Nakache",
+      "Éric Toledano",
+      "Philippe Pozzo di Borgo"
+    ],
+    "stars": [
+      "François Cluzet",
+      "Omar Sy",
+      "Anne Le Ny"
+    ],
     "video": "medias/films/intouchables/intouchables.mp4"
   },
   "Là-haut": {
@@ -894,9 +1397,20 @@
       "Drama",
       "Family"
     ],
-    "directors": ["Pete Docter", "Bob Peterson"],
-    "writers": ["Pete Docter", "Bob Peterson", "Tom McCarthy"],
-    "stars": ["Edward Asner", "Jordan Nagai", "John Ratzenberger"],
+    "directors": [
+      "Pete Docter",
+      "Bob Peterson"
+    ],
+    "writers": [
+      "Pete Docter",
+      "Bob Peterson",
+      "Tom McCarthy"
+    ],
+    "stars": [
+      "Edward Asner",
+      "Jordan Nagai",
+      "John Ratzenberger"
+    ],
     "video": "medias/films/la-haut/la-haut.mp4"
   },
   "Kingdom of Heaven": {
@@ -918,9 +1432,17 @@
       "History",
       "War"
     ],
-    "directors": ["Ridley Scott"],
-    "writers": ["William Monahan"],
-    "stars": ["Orlando Bloom", "Eva Green", "Liam Neeson"],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "William Monahan"
+    ],
+    "stars": [
+      "Orlando Bloom",
+      "Eva Green",
+      "Liam Neeson"
+    ],
     "video": "medias/films/kingdom-of-heaven/kingdom-of-heaven.mp4"
   },
   "Gladiator": {
@@ -940,9 +1462,19 @@
       "Adventure",
       "Drama"
     ],
-    "directors": ["Ridley Scott"],
-    "writers": ["David Franzoni", "John Logan", "William Nicholson"],
-    "stars": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Franzoni",
+      "John Logan",
+      "William Nicholson"
+    ],
+    "stars": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
     "video": "medias/films/gladiator/gladiator.mp4"
   },
   "Gladiator II": {
@@ -962,9 +1494,19 @@
       "Adventure",
       "Drama"
     ],
-    "directors": ["Ridley Scott"],
-    "writers": ["David Franzoni", "Peter Craig", "David Scarpa"],
-    "stars": ["Paul Mescal", "Denzel Washington", "Pedro Pascal"],
+    "directors": [
+      "Ridley Scott"
+    ],
+    "writers": [
+      "David Franzoni",
+      "Peter Craig",
+      "David Scarpa"
+    ],
+    "stars": [
+      "Paul Mescal",
+      "Denzel Washington",
+      "Pedro Pascal"
+    ],
     "video": "medias/films/gladiator-ii/gladiator-ii.mp4"
   },
   "The Deep House": {
@@ -981,9 +1523,20 @@
       "Mystery",
       "Thriller"
     ],
-    "directors": ["Alexandre Bustillo", "Julien Maury"],
-    "writers": ["Alexandre Bustillo", "Julien Maury", "Rachel Parker"],
-    "stars": ["Camille Rowe", "James Jagger", "Eric Savin"],
+    "directors": [
+      "Alexandre Bustillo",
+      "Julien Maury"
+    ],
+    "writers": [
+      "Alexandre Bustillo",
+      "Julien Maury",
+      "Rachel Parker"
+    ],
+    "stars": [
+      "Camille Rowe",
+      "James Jagger",
+      "Eric Savin"
+    ],
     "trailer": "https://www.youtube.com/watch?v=FNEVVY249yo",
     "video": "medias/films/the-deep-house/the-deep-house.mp4"
   },
@@ -1003,9 +1556,19 @@
       "History",
       "War"
     ],
-    "directors": ["Edward Berger"],
-    "writers": ["Edward Berger", "Lesley Paterson", "Ian Stokell"],
-    "stars": ["Felix Kammerer", "Albrecht Schuch", "Aaron Hilmer"],
+    "directors": [
+      "Edward Berger"
+    ],
+    "writers": [
+      "Edward Berger",
+      "Lesley Paterson",
+      "Ian Stokell"
+    ],
+    "stars": [
+      "Felix Kammerer",
+      "Albrecht Schuch",
+      "Aaron Hilmer"
+    ],
     "trailer": "https://www.youtube.com/watch?v=5ABgVzSc_BY",
     "video": "medias/films/a-l-ouest-rien-de-nouveau/a-l-ouest-rien-de-nouveau.mp4"
   },
@@ -1016,10 +1579,24 @@
     "IMDb": 7,
     "IMDb_link": "https://www.imdb.com/title/tt7181546/",
     "year": 2025,
-    "genres": ["Gun Fu", "Martial Arts", "One-Person Army Action", "Thriller"],
-    "directors": ["Len Wiseman"],
-    "writers": ["Shay Hatten", "Derek Kolstad"],
-    "stars": ["Ana de Armas", "Keanu Reeves", "Ian McShane"],
+    "genres": [
+      "Gun Fu",
+      "Martial Arts",
+      "One-Person Army Action",
+      "Thriller"
+    ],
+    "directors": [
+      "Len Wiseman"
+    ],
+    "writers": [
+      "Shay Hatten",
+      "Derek Kolstad"
+    ],
+    "stars": [
+      "Ana de Armas",
+      "Keanu Reeves",
+      "Ian McShane"
+    ],
     "trailer": "https://www.youtube.com/watch?v=zKqoJai2-yo",
     "video": "medias/films/ballerina/ballerina.mp4"
   },
@@ -1030,10 +1607,22 @@
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt1382725/",
     "year": 2010,
-    "genres": ["Drama", "History", "War"],
-    "directors": ["Rose Bosch"],
-    "writers": ["Rose Bosch"],
-    "stars": ["Jean Reno", "Mélanie Laurent", "Gad Elmaleh"],
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "directors": [
+      "Rose Bosch"
+    ],
+    "writers": [
+      "Rose Bosch"
+    ],
+    "stars": [
+      "Jean Reno",
+      "Mélanie Laurent",
+      "Gad Elmaleh"
+    ],
     "trailer": "https://www.youtube.com/watch?v=qXOmq3tcmnw",
     "video": "medias/films/la-rafle/la-rafle.mp4"
   },
@@ -1044,10 +1633,26 @@
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt0433035/",
     "year": 2011,
-    "genres": ["Boxing", "Action", "Drama", "Sci-Fi", "Sport"],
-    "directors": ["Shawn Levy"],
-    "writers": ["John Gatins", "Dan Gilroy", "Jeremy Leven"],
-    "stars": ["Hugh Jackman", "Evangeline Lilly", "Dakota Goyo"],
+    "genres": [
+      "Boxing",
+      "Action",
+      "Drama",
+      "Sci-Fi",
+      "Sport"
+    ],
+    "directors": [
+      "Shawn Levy"
+    ],
+    "writers": [
+      "John Gatins",
+      "Dan Gilroy",
+      "Jeremy Leven"
+    ],
+    "stars": [
+      "Hugh Jackman",
+      "Evangeline Lilly",
+      "Dakota Goyo"
+    ],
     "trailer": "https://www.dailymotion.com/video/x8a3dr9",
     "video": "medias/films/real-steel/real-steel.mp4"
   },
@@ -1058,10 +1663,25 @@
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt16311594/",
     "year": 2025,
-    "genres": ["Car Action", "Motorsport", "Action", "Drama", "Sport"],
-    "directors": ["Joseph Kosinski"],
-    "writers": ["Joseph Kosinski", "Ehren Kruger"],
-    "stars": ["Brad Pitt", "Damson Idris", "Javier Bardem"],
+    "genres": [
+      "Car Action",
+      "Motorsport",
+      "Action",
+      "Drama",
+      "Sport"
+    ],
+    "directors": [
+      "Joseph Kosinski"
+    ],
+    "writers": [
+      "Joseph Kosinski",
+      "Ehren Kruger"
+    ],
+    "stars": [
+      "Brad Pitt",
+      "Damson Idris",
+      "Javier Bardem"
+    ],
     "trailer": "https://www.youtube.com/watch?v=SnHqzN08KAw",
     "video": "medias/films/f1-le-film/f1-le-film.mp4"
   },
@@ -1072,14 +1692,25 @@
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt22898462/",
     "year": 2025,
-    "genres": ["Supernatural Horror", "Horror", "Mystery", "Thriller"],
-    "directors": ["Michael Chaves"],
+    "genres": [
+      "Supernatural Horror",
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "directors": [
+      "Michael Chaves"
+    ],
     "writers": [
       "Ian Goldberg",
       "Richard Naing",
       "David Leslie Johnson-McGoldrick"
     ],
-    "stars": ["Patrick Wilson", "Vera Farmiga", "Mia Tomlinson"],
+    "stars": [
+      "Patrick Wilson",
+      "Vera Farmiga",
+      "Mia Tomlinson"
+    ],
     "trailer": "https://www.youtube.com/watch?v=FgdS-IaFMQE",
     "video": "medias/films/conjuring-l-heure-du-jugement/conjuring-l-heure-du-jugement.mp4"
   },
@@ -1100,9 +1731,18 @@
       "History",
       "War"
     ],
-    "directors": ["Mel Gibson"],
-    "writers": ["Robert Schenkkan", "Andrew Knight"],
-    "stars": ["Andrew Garfield", "Sam Worthington", "Luke Bracey"],
+    "directors": [
+      "Mel Gibson"
+    ],
+    "writers": [
+      "Robert Schenkkan",
+      "Andrew Knight"
+    ],
+    "stars": [
+      "Andrew Garfield",
+      "Sam Worthington",
+      "Luke Bracey"
+    ],
     "trailer": "https://www.youtube.com/watch?v=egCk2kE3HQI",
     "video": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.mp4"
   },
@@ -1113,10 +1753,25 @@
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt1745960/",
     "year": 2022,
-    "genres": ["Action Epic", "Epic", "Action", "Drama"],
-    "directors": ["Joseph Kosinski"],
-    "writers": ["Jim Cash", "Jack Epps Jr.", "Peter Craig"],
-    "stars": ["Tom Cruise", "Jennifer Connelly", "Miles Teller"],
+    "genres": [
+      "Action Epic",
+      "Epic",
+      "Action",
+      "Drama"
+    ],
+    "directors": [
+      "Joseph Kosinski"
+    ],
+    "writers": [
+      "Jim Cash",
+      "Jack Epps Jr.",
+      "Peter Craig"
+    ],
+    "stars": [
+      "Tom Cruise",
+      "Jennifer Connelly",
+      "Miles Teller"
+    ],
     "trailer": "https://www.youtube.com/watch?v=V4gQdk1nAn0",
     "video": "medias/films/top-gun-maverick/top-gun-maverick.mp4"
   },
@@ -1127,10 +1782,27 @@
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt13964390/",
     "year": 2024,
-    "genres": ["French", "Action", "Drama", "Horror", "Sport", "Thriller"],
-    "directors": ["Xavier Gens"],
-    "writers": ["Yannick Dahan", "Maud Heywang", "Xavier Gens"],
-    "stars": ["Bérénice Bejo", "Nassim Lyes", "Léa Léviant"],
+    "genres": [
+      "French",
+      "Action",
+      "Drama",
+      "Horror",
+      "Sport",
+      "Thriller"
+    ],
+    "directors": [
+      "Xavier Gens"
+    ],
+    "writers": [
+      "Yannick Dahan",
+      "Maud Heywang",
+      "Xavier Gens"
+    ],
+    "stars": [
+      "Bérénice Bejo",
+      "Nassim Lyes",
+      "Léa Léviant"
+    ],
     "trailer": "https://www.youtube.com/watch?v=HPfkQ9gMLMY",
     "video": "medias/films/sous-la-seine/sous-la-seine.mp4"
   },
@@ -1148,9 +1820,20 @@
       "Teen Horror",
       "Thriller"
     ],
-    "directors": ["Zach Lipovsky", "Adam B. Stein"],
-    "writers": ["Guy Busick", "Lori Evans Taylor", "Jon Watts"],
-    "stars": ["Kaitlyn Santa Juana", "Teo Briones", "Rya Kihlstedt"],
+    "directors": [
+      "Zach Lipovsky",
+      "Adam B. Stein"
+    ],
+    "writers": [
+      "Guy Busick",
+      "Lori Evans Taylor",
+      "Jon Watts"
+    ],
+    "stars": [
+      "Kaitlyn Santa Juana",
+      "Teo Briones",
+      "Rya Kihlstedt"
+    ],
     "trailer": "https://www.youtube.com/watch?v=2Dk_tQvEe3o",
     "video": "medias/films/destination-finale-bloodlines/destination-finale-bloodlines.mp4"
   },
@@ -1161,10 +1844,25 @@
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt0241527/",
     "year": 2001,
-    "genres": ["Teen Fantasy", "Adventure", "Family", "Fantasy", "Holiday"],
-    "directors": ["Chris Columbus"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Richard Harris", "Maggie Smith", "Robbie Coltrane"],
+    "genres": [
+      "Teen Fantasy",
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Holiday"
+    ],
+    "directors": [
+      "Chris Columbus"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Richard Harris",
+      "Maggie Smith",
+      "Robbie Coltrane"
+    ],
     "trailer": "https://www.youtube.com/watch?v=P1BGgqhVGAI",
     "video": "medias/films/harry-potter-a-l-ecole-des-sorciers/harry-potter-a-l-ecole-des-sorciers.mp4"
   },
@@ -1184,9 +1882,18 @@
       "Fantasy",
       "Mystery"
     ],
-    "directors": ["Chris Columbus"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+    "directors": [
+      "Chris Columbus"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Z3T8PuWuoL0",
     "video": "medias/films/harry-potter-et-la-chambre-des-secrets/harry-potter-et-la-chambre-des-secrets.mp4"
   },
@@ -1208,9 +1915,18 @@
       "Fantasy",
       "Mystery"
     ],
-    "directors": ["Alfonso Cuaron"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Daniel Radcliffe", "Richard Griffiths", "Pam Ferris"],
+    "directors": [
+      "Alfonso Cuaron"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Daniel Radcliffe",
+      "Richard Griffiths",
+      "Pam Ferris"
+    ],
     "trailer": "https://www.youtube.com/watch?v=CLncEeVf4ks",
     "video": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/harry-potter-et-le-prisonnier-d-azkaban.mp4"
   },
@@ -1230,15 +1946,24 @@
       "Fantasy",
       "Mystery"
     ],
-    "directors": ["Mike Newell"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Eric Sykes", "Timothy Spall", "David Tennant"],
+    "directors": [
+      "Mike Newell"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Eric Sykes",
+      "Timothy Spall",
+      "David Tennant"
+    ],
     "trailer": "https://www.youtube.com/watch?v=XO9rqIgzDL0",
     "video": "medias/films/harry-potter-et-la-coupe-de-feu/harry-potter-et-la-coupe-de-feu.mp4"
   },
   "Harry Potter et l'Ordre du Phénix": {
     "title": "Harry Potter et l'Ordre du Phénix",
-    "description": "Alors qu'il entame sa cinquième année d'étude à Poudlard, Harry Potter découvre qu'une bonne partie de la communauté des sorciers feint d'ignorer sa récente confrontation avec Lord Voldemort, et préfèrent nier cette aveuglante évidence : le Seigneur des Ténèbres est bel et bien vivant. De plus, la communauté magique lit les mensonges de Rita Skeeter dans la Gazette du Sorcier sous contrôle du Ministère de la Magie. Craignant que le puissant Albus Dumbledore ne mente à propos du retour de Voldemort dans le but de saper son autorité et de lui ravir son poste, le Ministre de la Magie Cornélius Fudge nomme un nouveau Professeur de Défense contre les Forces du Mal, qu'il charge de surveiller le vieux doyen et ses étudiants. Mais celle‐ci, Dolores Ombrage, se révèle incapable de préparer les collégiens à affronter les nouvelles menaces qui planent sur Poudlard…",
+    "description": "Alors qu'il entame sa cinquième année d'étude à Poudlard, Harry Potter découvre qu'une bonne partie de la communauté des sorciers feint d'ignorer sa récente confrontation avec Lord Voldemort, et préfèrent nier cette aveuglante évidence : le Seigneur des Ténèbres est bel et bien vivant. De plus, la communauté magique lit les mensonges de Rita Skeeter dans la Gazette du Sorcier sous contrôle du Ministère de la Magie. Craignant que le puissant Albus Dumbledore ne mente à propos du retour de Voldemort dans le but de saper son autorité et de lui ravir son poste, le Ministre de la Magie Cornélius Fudge nomme un nouveau Professeur de Défense contre les Forces du Mal, qu'il charge de surveiller le vieux doyen et ses étudiants. Mais celle-ci, Dolores Ombrage, se révèle incapable de préparer les collégiens à affronter les nouvelles menaces qui planent sur Poudlard…",
     "banner": "medias/films/harry-potter-et-l-ordre-du-phenix/harry-potter-et-l-ordre-du-phenix.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt0373889/",
@@ -1252,9 +1977,18 @@
       "Fantasy",
       "Mystery"
     ],
-    "directors": ["David Yates"],
-    "writers": ["J.K. Rowling", "Michael Goldenberg"],
-    "stars": ["Daniel Radcliffe", "Harry Melling", "Jason Boyd"],
+    "directors": [
+      "David Yates"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Michael Goldenberg"
+    ],
+    "stars": [
+      "Daniel Radcliffe",
+      "Harry Melling",
+      "Jason Boyd"
+    ],
     "trailer": "https://www.youtube.com/watch?v=S8-SXEGMmi4",
     "video": "medias/films/harry-potter-et-l-ordre-du-phenix/harry-potter-et-l-ordre-du-phenix.mp4"
   },
@@ -1277,15 +2011,24 @@
       "Fantasy",
       "Mystery"
     ],
-    "directors": ["David Yates"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Daniel Radcliffe", "Michael Gambon", "Dave Legeno"],
+    "directors": [
+      "David Yates"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Daniel Radcliffe",
+      "Michael Gambon",
+      "Dave Legeno"
+    ],
     "trailer": "https://www.youtube.com/watch?v=yb-VYG3x5E8",
     "video": "medias/films/harry-potter-et-le-prince-de-sang-mele/harry-potter-et-le-prince-de-sang-mele.mp4"
   },
   "Harry Potter et les Reliques de la mort - 1ère partie": {
     "title": "Harry Potter et les Reliques de la mort - 1ère partie",
-    "description": "Le pouvoir de Voldemort s'étend. Celui‐ci contrôle maintenant le Ministère de la Magie et Poudlard. Harry, Ron et Hermione décident de terminer le travail commencé par Dumbledore, et de retrouver les derniers Horcruxes pour vaincre le Seigneur des Ténèbres. Mais il reste bien peu d'espoir aux trois sorciers, qui doivent réussir à tout prix.",
+    "description": "Le pouvoir de Voldemort s'étend. Celui-ci contrôle maintenant le Ministère de la Magie et Poudlard. Harry, Ron et Hermione décident de terminer le travail commencé par Dumbledore, et de retrouver les derniers Horcruxes pour vaincre le Seigneur des Ténèbres. Mais il reste bien peu d'espoir aux trois sorciers, qui doivent réussir à tout prix.",
     "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/harry-potter-et-les-reliques-de-la-mort-1ere-partie.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt0926084/",
@@ -1302,9 +2045,18 @@
       "Family",
       "Fantasy"
     ],
-    "directors": ["David Yates"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Bill Nighy", "Emma Watson", "Richard Griffiths"],
+    "directors": [
+      "David Yates"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Bill Nighy",
+      "Emma Watson",
+      "Richard Griffiths"
+    ],
     "trailer": "https://www.youtube.com/watch?v=HgZZsnleZJQ",
     "video": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/harry-potter-et-les-reliques-de-la-mort-1ere-partie.mp4"
   },
@@ -1327,15 +2079,24 @@
       "Family",
       "Fantasy"
     ],
-    "directors": ["David Yates"],
-    "writers": ["J.K. Rowling", "Steve Kloves"],
-    "stars": ["Ralph Fiennes", "Michael Gambon", "Alan Rickman"],
+    "directors": [
+      "David Yates"
+    ],
+    "writers": [
+      "J.K. Rowling",
+      "Steve Kloves"
+    ],
+    "stars": [
+      "Ralph Fiennes",
+      "Michael Gambon",
+      "Alan Rickman"
+    ],
     "trailer": "https://www.youtube.com/watch?v=aiaIfICU-Tk",
     "video": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/harry-potter-et-les-reliques-de-la-mort-2eme-partie.mp4"
   },
   "Lilo & Stitch": {
     "title": "Lilo & Stitch",
-    "description": "Sur l'île d'Hawaï, une petite fille espiègle nommée Lilo adopte ce qu'elle croit être un chien étrange, qu'elle prénomme Stitch. Mais Stitch est en réalité une créature extraterrestre créée pour semer le chaos. Malgré son tempérament destructeur, il découvre peu à peu les valeurs de l’amitié, de l’amour et de la famille. Ensemble, Lilo et Stitch vont prouver qu’une vraie famille peut naître là où on s’y attend le moins. Un mélange d’humour, d’émotion et d’action dans cette réinvention en prises de vues réelles du classique animé de Disney.",
+    "description": "Sur l'île d'Hawaï, une petite fille espiègle nommée Lilo adopte ce qu'elle croit être un chien étrange, qu'elle prénomme Stitch. Mais Stitch est en réalité une créature extraterrestre créée pour semer le chaos. Malgré son tempérament destructeur, il découvre peu à peu les valeurs de l'amitié, de l'amour et de la famille. Ensemble, Lilo et Stitch vont prouver qu'une vraie famille peut naître là où on s'y attend le moins. Un mélange d'humour, d'émotion et d'action dans cette réinvention en prises de vues réelles du classique animé de Disney.",
     "banner": "medias/films/lilo-stitch/lilo-stitch.jpg",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt11655566/",
@@ -1352,9 +2113,19 @@
       "Family",
       "Fantasy"
     ],
-    "directors": ["Dean Fleischer Camp"],
-    "writers": ["Chris Kekaniokalani Bright", "Mike Van Waes", "Chris Sanders"],
-    "stars": ["Maia Kealoha", "Sydney Agudong", "Chris Sanders"],
+    "directors": [
+      "Dean Fleischer Camp"
+    ],
+    "writers": [
+      "Chris Kekaniokalani Bright",
+      "Mike Van Waes",
+      "Chris Sanders"
+    ],
+    "stars": [
+      "Maia Kealoha",
+      "Sydney Agudong",
+      "Chris Sanders"
+    ],
     "trailer": "https://www.youtube.com/watch?v=PTTS50KDPas",
     "video": "medias/films/lilo-stitch/lilo-stitch.mp4"
   },
@@ -1365,24 +2136,52 @@
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt4045450/",
     "year": 2025,
-    "genres": ["Slasher Horror", "Horror"],
-    "directors": ["Jennifer Kaytin Robinson"],
-    "writers": ["Sam Lanksy", "Jennifer Kaytin Robinson", "Leah McKendrick"],
-    "stars": ["Madelyn Cline", "Chase Sui Wonders", "Jonah Hauer-King"],
+    "genres": [
+      "Slasher Horror",
+      "Horror"
+    ],
+    "directors": [
+      "Jennifer Kaytin Robinson"
+    ],
+    "writers": [
+      "Sam Lanksy",
+      "Jennifer Kaytin Robinson",
+      "Leah McKendrick"
+    ],
+    "stars": [
+      "Madelyn Cline",
+      "Chase Sui Wonders",
+      "Jonah Hauer-King"
+    ],
     "trailer": "https://www.youtube.com/watch?v=tbS03lbYYUc",
     "video": "medias/films/souviens-toi-l-ete-dernier/souviens-toi-l-ete-dernier.mp4"
   },
   "Un ours dans le Jura": {
     "title": "Un ours dans le Jura",
-    "description": "Michel et Cathy, un couple usé par le temps et les difficultés financières, ne se parle plus vraiment. Jusqu’au jour où Michel, pour éviter un ours sur la route, heurte une voiture et tue les deux occupants. 2 morts et 2 millions en billets usagés dans le coffre, forcément, ça donne envie de se reparler. Et surtout de se taire.",
+    "description": "Michel et Cathy, un couple usé par le temps et les difficultés financières, ne se parle plus vraiment. Jusqu'au jour où Michel, pour éviter un ours sur la route, heurte une voiture et tue les deux occupants. 2 morts et 2 millions en billets usagés dans le coffre, forcément, ça donne envie de se reparler. Et surtout de se taire.",
     "banner": "medias/films/un-ours-dans-le-jura/un-ours-dans-le-jura.jpg",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt33984333/",
     "year": 2027,
-    "genres": ["French", "Dark Comedy", "Comedy", "Crime", "Thriller"],
-    "directors": ["Franck Dubosc"],
-    "writers": ["Franck Dubosc", "Sarah Kaminsky"],
-    "stars": ["Franck Dubosc", "Laure Calamy", "Benoît Poelvoorde"],
+    "genres": [
+      "French",
+      "Dark Comedy",
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "directors": [
+      "Franck Dubosc"
+    ],
+    "writers": [
+      "Franck Dubosc",
+      "Sarah Kaminsky"
+    ],
+    "stars": [
+      "Franck Dubosc",
+      "Laure Calamy",
+      "Benoît Poelvoorde"
+    ],
     "trailer": "https://www.youtube.com/watch?v=5sKKfKOQTJA",
     "video": "medias/films/un-ours-dans-le-jura/un-ours-dans-le-jura.mp4"
   },
@@ -1404,15 +2203,25 @@
       "Family",
       "Fantasy"
     ],
-    "directors": ["Dean DeBlois"],
-    "writers": ["Dean DeBlois", "Cressida Cowell", "William Davies"],
-    "stars": ["Mason Thames", "Nico Parker", "Gerard Butler"],
+    "directors": [
+      "Dean DeBlois"
+    ],
+    "writers": [
+      "Dean DeBlois",
+      "Cressida Cowell",
+      "William Davies"
+    ],
+    "stars": [
+      "Mason Thames",
+      "Nico Parker",
+      "Gerard Butler"
+    ],
     "trailer": "https://www.youtube.com/watch?v=seY55AKGmxQ",
     "video": "medias/films/dragons-4/dragons-4.mp4"
   },
   "Venom": {
     "title": "Venom",
-    "description": "Des symbiotes débarquent sur la Terre, parmi eux, Venom, qui va s’allier avec Eddie Brock. De son côté, un puissant scientifique tente de faire évoluer l’humanité avec les symbiotes, le duo d’anti‐héros va devoir tout faire pour l’arrêter !",
+    "description": "Des symbiotes débarquent sur la Terre, parmi eux, Venom, qui va s'allier avec Eddie Brock. De son côté, un puissant scientifique tente de faire évoluer l'humanité avec les symbiotes, le duo d'anti-héros va devoir tout faire pour l'arrêter !",
     "banner": "medias/films/venom/venom.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1270797/",
@@ -1427,15 +2236,25 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "directors": ["Ruben Fleischer"],
-    "writers": ["Jeff Pinkner", "Scott Rosenberg", "Kelly Marcel"],
-    "stars": ["Tom Hardy", "Michelle Williams", "Riz Ahmed"],
+    "directors": [
+      "Ruben Fleischer"
+    ],
+    "writers": [
+      "Jeff Pinkner",
+      "Scott Rosenberg",
+      "Kelly Marcel"
+    ],
+    "stars": [
+      "Tom Hardy",
+      "Michelle Williams",
+      "Riz Ahmed"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Pw9ZvTicmIg",
     "video": "medias/films/venom/venom.mp4"
   },
   "Venom: Let There Be Carnage": {
     "title": "Venom: Let There Be Carnage",
-    "description": "Environ un an après avoir affronté Riot, Eddie Brock « cohabite » toujours avec le symbiote Venom. Alors qu’il tente de relancer sa carrière de journaliste d'investigation, Eddie se rend en prison pour interviewer le tueur en série Cletus Kasady. Il ignore que ce dernier est lui aussi l'hôte d'un symbiote, Carnage.",
+    "description": "Environ un an après avoir affronté Riot, Eddie Brock « cohabite » toujours avec le symbiote Venom. Alors qu'il tente de relancer sa carrière de journaliste d'investigation, Eddie se rend en prison pour interviewer le tueur en série Cletus Kasady. Il ignore que ce dernier est lui aussi l'hôte d'un symbiote, Carnage.",
     "banner": "medias/films/venom-let-there-be-carnage/venom-let-there-be-carnage.jpg",
     "video": "medias/films/venom-let-there-be-carnage/venom-let-there-be-carnage.mp4",
     "IMDb": 5.9,
@@ -1450,10 +2269,19 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "stars": ["Tom Hardy", "Woody Harrelson", "Michelle Williams"],
+    "stars": [
+      "Tom Hardy",
+      "Woody Harrelson",
+      "Michelle Williams"
+    ],
     "trailer": "https://www.youtube.com/watch?v=E4UaPgtpvf4",
-    "directors": ["Andy Serkis"],
-    "writers": ["Kelly Marcel", "Tom Hardy"]
+    "directors": [
+      "Andy Serkis"
+    ],
+    "writers": [
+      "Kelly Marcel",
+      "Tom Hardy"
+    ]
   },
   "Venom : The Last Dance": {
     "title": "Venom : The Last Dance",
@@ -1473,24 +2301,48 @@
       "Sci-Fi",
       "Thriller"
     ],
-    "stars": ["Tom Hardy", "Chiwetel Ejiofor", "Juno Temple"],
+    "stars": [
+      "Tom Hardy",
+      "Chiwetel Ejiofor",
+      "Juno Temple"
+    ],
     "trailer": "https://www.youtube.com/watch?v=TEg5kTBN22I",
-    "directors": ["Kelly Marcel"],
-    "writers": ["Kelly Marcel", "Tom Hardy", "Todd McFarlane"]
+    "directors": [
+      "Kelly Marcel"
+    ],
+    "writers": [
+      "Kelly Marcel",
+      "Tom Hardy",
+      "Todd McFarlane"
+    ]
   },
   "Le Secret de Khéops": {
     "title": "Le Secret de Khéops",
-    "description": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d’Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d’une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l’histoire de leur réconciliation.",
+    "description": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d'Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d'une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l'histoire de leur réconciliation.",
     "banner": "medias/films/le-secret-de-kheops/le-secret-de-kheops.jpg",
     "video": "medias/films/le-secret-de-kheops/le-secret-de-kheops.mp4",
     "IMDb": 5.5,
     "IMDb_link": "https://www.imdb.com/title/tt34482468/",
     "year": 2025,
-    "genres": ["French", "Adventure", "Comedy"],
-    "stars": ["Fabrice Luchini", "Julia Piaton", "Gavril Dartevelle"],
+    "genres": [
+      "French",
+      "Adventure",
+      "Comedy"
+    ],
+    "stars": [
+      "Fabrice Luchini",
+      "Julia Piaton",
+      "Gavril Dartevelle"
+    ],
     "trailer": "https://www.youtube.com/watch?v=ZwwmEHy2NxU",
-    "directors": ["Barbara Schulz"],
-    "writers": ["Barbara Schulz", "Christophe Turpin", "Jérôme Tonnerre"]
+    "directors": [
+      "Barbara Schulz"
+    ],
+    "writers": [
+      "Barbara Schulz",
+      "Christophe Turpin",
+      "Jérôme Tonnerre"
+    ]
   },
   "Les Bad Guys": {
     "title": "Les Bad Guys",
@@ -1512,10 +2364,19 @@
       "Crime",
       "Family"
     ],
-    "stars": ["Sam Rockwell", "Marc Maron", "Awkwafina"],
+    "stars": [
+      "Sam Rockwell",
+      "Marc Maron",
+      "Awkwafina"
+    ],
     "trailer": "https://www.youtube.com/watch?v=lN9K4kdKNh4",
-    "directors": ["Pierre Perifel"],
-    "writers": ["Aaron Blabey", "Etan Cohen"]
+    "directors": [
+      "Pierre Perifel"
+    ],
+    "writers": [
+      "Aaron Blabey",
+      "Etan Cohen"
+    ]
   },
   "Les Bad Guys 2": {
     "title": "Les Bad Guys 2",
@@ -1537,10 +2398,21 @@
       "Crime",
       "Family"
     ],
-    "stars": ["Joey Naber", "Omid Djalili", "Monia Ayachi"],
+    "stars": [
+      "Joey Naber",
+      "Omid Djalili",
+      "Monia Ayachi"
+    ],
     "trailer": "https://www.youtube.com/watch?v=bf5y-p5Mprg",
-    "directors": ["Pierre Perifel", "JP Sans"],
-    "writers": ["Yoni Brenner", "Etan Cohen", "Aaron Blabey"]
+    "directors": [
+      "Pierre Perifel",
+      "JP Sans"
+    ],
+    "writers": [
+      "Yoni Brenner",
+      "Etan Cohen",
+      "Aaron Blabey"
+    ]
   },
   "Batman Begins": {
     "title": "Batman Begins",
@@ -1561,10 +2433,20 @@
       "Drama",
       "Thriller"
     ],
-    "stars": ["Christian Bale", "Michael Caine", "Liam Neeson"],
+    "stars": [
+      "Christian Bale",
+      "Michael Caine",
+      "Liam Neeson"
+    ],
     "trailer": "https://www.youtube.com/watch?v=jXrFsn9pcZY",
-    "directors": ["Christopher Nolan"],
-    "writers": ["Bob Kane", "David S. Goyer", "Christopher Nolan"]
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Bob Kane",
+      "David S. Goyer",
+      "Christopher Nolan"
+    ]
   },
   "Batman The Dark Knight : Le Chevalier noir": {
     "title": "Batman The Dark Knight : Le Chevalier noir",
@@ -1584,10 +2466,20 @@
       "Drama",
       "Thriller"
     ],
-    "stars": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "stars": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
     "trailer": "https://www.youtube.com/watch?v=UMgb3hQCb08",
-    "directors": ["Christopher Nolan"],
-    "writers": ["Jonathan Nolan", "Christopher Nolan", "David S. Goyer"]
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Jonathan Nolan",
+      "Christopher Nolan",
+      "David S. Goyer"
+    ]
   },
   "Batman The Dark Knight Rises": {
     "title": "Batman The Dark Knight Rises",
@@ -1607,10 +2499,20 @@
       "Drama",
       "Thriller"
     ],
-    "stars": ["Christian Bale", "Gary Oldman", "Tom Hardy"],
+    "stars": [
+      "Christian Bale",
+      "Gary Oldman",
+      "Tom Hardy"
+    ],
     "trailer": "https://www.youtube.com/watch?v=OiqPQ7L_C00",
-    "directors": ["Christopher Nolan"],
-    "writers": ["Jonathan Nolan", "Christopher Nolan", "David S. Goyer"]
+    "directors": [
+      "Christopher Nolan"
+    ],
+    "writers": [
+      "Jonathan Nolan",
+      "Christopher Nolan",
+      "David S. Goyer"
+    ]
   },
   "The Batman": {
     "title": "The Batman",
@@ -1632,14 +2534,24 @@
       "Drama",
       "Mystery"
     ],
-    "stars": ["Robert Pattinson", "Zoë Kravitz", "Jeffrey Wright"],
+    "stars": [
+      "Robert Pattinson",
+      "Zoë Kravitz",
+      "Jeffrey Wright"
+    ],
     "trailer": "https://www.youtube.com/watch?v=hWRSJlp50rQ",
-    "directors": ["Matt Reeves"],
-    "writers": ["Matt Reeves", "Peter Craig", "Bob Kane"]
+    "directors": [
+      "Matt Reeves"
+    ],
+    "writers": [
+      "Matt Reeves",
+      "Peter Craig",
+      "Bob Kane"
+    ]
   },
   "Man of Steel": {
     "title": "Man of Steel",
-    "description": "Un petit garçon découvre qu’il possède des pouvoirs surnaturels et qu’il n’est pas né sur Terre. Plus tard, il s’engage dans un périple afin de comprendre d’où il vient et pourquoi il a été envoyé sur notre planète. Mais il devra devenir un héros s’il veut sauver le monde de la destruction totale et incarner l’espoir pour toute l’humanité.",
+    "description": "Un petit garçon découvre qu'il possède des pouvoirs surnaturels et qu'il n'est pas né sur Terre. Plus tard, il s'engage dans un périple afin de comprendre d'où il vient et pourquoi il a été envoyé sur notre planète. Mais il devra devenir un héros s'il veut sauver le monde de la destruction totale et incarner l'espoir pour toute l'humanité.",
     "banner": "medias/films/man-of-steel/man-of-steel.jpg",
     "video": "medias/films/man-of-steel/man-of-steel.mp4",
     "IMDb": 7.1,
@@ -1657,9 +2569,277 @@
       "Action",
       "Adventure"
     ],
-    "stars": ["Henry Cavill", "Amy Adams", "Michael Shannon"],
+    "stars": [
+      "Henry Cavill",
+      "Amy Adams",
+      "Michael Shannon"
+    ],
     "trailer": "https://www.youtube.com/watch?v=Xw4VeR7tCxU",
-    "directors": ["Zack Snyder"],
-    "writers": ["David S. Goyer", "Christopher Nolan", "Jerry Siegel"]
+    "directors": [
+      "Zack Snyder"
+    ],
+    "writers": [
+      "David S. Goyer",
+      "Christopher Nolan",
+      "Jerry Siegel"
+    ]
+  },
+  "Marche ou crève": {
+    "title": "Marche ou crève",
+    "description": "Dans une Amérique totalitaire instaurée après une longue guerre fratricide, 50 jeunes hommes participent à une marche d'endurance de plus de 500 kilomètres, filmée et diffusée en direct. Les marcheurs ont l'obligation de conserver un rythme constant, avec interdiction formelle de s'arrêter. Après trois avertissements consécutifs, les contrevenants sont froidement abattus. Un seul en sortira vivant, avec une somme faramineuse et un prix de son choix. Habité par un motif secret, le jeune Raymond Garraty tente sa chance, nouant sur la route un fort lien d'amitié avec l'Afro-Américain Peter McVries.",
+    "banner": "medias/films/marche-ou-creve/marche-ou-creve.jpg",
+    "video": "medias/films/marche-ou-creve/marche-ou-creve.mp4",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt10374610/",
+    "year": 2025,
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Psychological Horror",
+      "Psychological Thriller",
+      "Survival",
+      "Teen Horror",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Cooper Hoffman",
+      "David Jonsson",
+      "Garrett Wareing"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=my_EskdQzWc",
+    "directors": [
+      "Francis Lawrence"
+    ],
+    "writers": [
+      "JT Mollner",
+      "Stephen King"
+    ]
+  },
+  "Batman v Superman : L'Aube de la Justice": {
+    "title": "Batman v Superman : L'Aube de la Justice",
+    "description": "Craignant que Superman n'abuse de sa toute-puissance, le Chevalier noir décide de l'affronter : le monde a-t-il davantage besoin d'un super-héros aux pouvoirs sans limite ou d'un justicier à la force redoutable mais d'origine humaine ? Pendant ce temps-là, une terrible menace se profile à l'horizon…",
+    "banner": "medias/films/batman-v-superman-l-aube-de-la-justice/batman-v-superman-l-aube-de-la-justice.jpg",
+    "video": "medias/films/batman-v-superman-l-aube-de-la-justice/batman-v-superman-l-aube-de-la-justice.mp4",
+    "IMDb": 6.4,
+    "IMDb_link": "https://www.imdb.com/title/tt2975590/",
+    "year": 2016,
+    "genres": [
+      "Superhero",
+      "Tragedy",
+      "Urban Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Ben Affleck",
+      "Henry Cavill",
+      "Amy Adams"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=Kj_a56b0TAQ",
+    "directors": [
+      "Zack Snyder"
+    ],
+    "writers": [
+      "Bob Kane",
+      "Bill Finger",
+      "Jerry Siegel"
+    ]
+  },
+  "Suicide Squad": {
+    "title": "Suicide Squad",
+    "description": "C’est tellement jouissif d’être un salopard ! Face à une menace aussi énigmatique qu’invincible, l’agent secret Amanda Waller réunit une armada de crapules de la pire espèce. Armés jusqu’aux dents par le gouvernement, ces Super‐Méchants s’embarquent alors pour une mission‐suicide. Jusqu’au moment où ils comprennent qu’ils ont été sacrifiés. Vont‐ils accepter leur sort ou se rebeller ?",
+    "banner": "medias/films/suicide-squad/suicide-squad.jpg",
+    "video": "medias/films/suicide-squad/suicide-squad.mp4",
+    "IMDb": 5.9,
+    "IMDb_link": "https://www.imdb.com/title/tt1386697/",
+    "year": 2016,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dark Comedy",
+      "Dark Fantasy",
+      "Epic",
+      "Fantasy Epic",
+      "Sci-Fi Epic",
+      "Superhero",
+      "Action",
+      "Adventure"
+    ],
+    "stars": [
+      "Will Smith",
+      "Jaime FitzSimons",
+      "Ike Barinholtz"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=WsfDNPFfxYM",
+    "directors": [
+      "David Ayer"
+    ],
+    "writers": [
+      "David Ayer",
+      "John Ostrander"
+    ]
+  },
+  "Wonder Woman": {
+    "title": "Wonder Woman",
+    "description": "Avant d'être Wonder Woman, elle s'appelait Diana, princesse des Amazones, entraînée pour être une guerrière impossible à conquérir. Elle est élevée sur une île isolée et paradisiaque, mais lorsqu'un pilote américain s'écrase sur leur rivage et annonce qu'un conflit à grande échelle fait rage dans le monde, Diana quitte son foyer, convaincue qu'elle doit arrêter cette menace. Combattant aux côtés de cet homme et des siens pour mettre fin à cette guerre et à toutes les guerres, Diana découvre ses vrais pouvoirs... Et son véritable destin.",
+    "banner": "medias/films/wonder-woman/wonder-woman.jpg",
+    "video": "medias/films/wonder-woman/wonder-woman.mp4",
+    "IMDb": 7.3,
+    "IMDb_link": "https://www.imdb.com/title/tt0451279/",
+    "year": 2017,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Sci-Fi Epic",
+      "Superhero",
+      "War Epic",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "stars": [
+      "Gal Gadot",
+      "Chris Pine",
+      "Connie Nielsen"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=e71n9fg7Pa0",
+    "directors": [
+      "Patty Jenkins"
+    ],
+    "writers": [
+      "Allan Heinberg",
+      "Zack Snyder",
+      "Jason Fuchs"
+    ]
+  },
+  "Justice League": {
+    "title": "Justice League",
+    "description": "Après avoir retrouvé foi en l'humanité, Bruce Wayne, inspiré par l'altruisme de Superman, sollicite l'aide de sa nouvelle alliée, Diana Prince, pour affronter un ennemi plus redoutable que jamais. Ensemble, Batman et Wonder Woman ne tardent pas à recruter une équipe de méta-humains pour faire face à cette menace inédite. Pourtant, malgré la force que représente cette ligue de héros sans précédent – Batman, Wonder Woman, Aquaman, Cyborg et The Flash –, il est peut-être déjà trop tard pour sauver la planète d'une attaque apocalyptique…",
+    "banner": "medias/films/justice-league/justice-league.jpg",
+    "video": "medias/films/justice-league/justice-league.mp4",
+    "IMDb": 6.0,
+    "IMDb_link": "https://www.imdb.com/title/tt0974015/",
+    "year": 2017,
+    "genres": [
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Ben Affleck",
+      "Henry Cavill",
+      "Amy Adams"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=DMFKAGHJSo0",
+    "directors": [
+      "Zack Snyder"
+    ],
+    "writers": [
+      "Jerry Siegel",
+      "Joe Shuster",
+      "Chris Terrio"
+    ]
+  },
+  "Aquaman": {
+    "title": "Aquaman",
+    "description": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
+    "banner": "medias/films/aquaman/aquaman.jpg",
+    "video": "medias/films/aquaman/aquaman.mp4",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt1477834/",
+    "year": 2018,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Globetrotting Adventure",
+      "Sci-Fi Epic",
+      "Sea Adventure",
+      "Superhero",
+      "Action",
+      "Adventure"
+    ],
+    "stars": [
+      "Jason Momoa",
+      "Amber Heard",
+      "Willem Dafoe"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=zSUZBOosVOQ",
+    "directors": [
+      "James Wan"
+    ],
+    "writers": [
+      "David Leslie Johnson-McGoldrick",
+      "Will Beall",
+      "Geoff Johns"
+    ]
+  },
+  "Shazam!": {
+    "title": "Shazam!",
+    "description": "On a tous un super-héros qui sommeille au fond de soi… il faut juste un peu de magie pour le réveiller. Pour Billy Batson, gamin débrouillard de 14 ans placé dans une famille d'accueil, il suffit de crier « Shazam ! » pour se transformer en super-héros. Ado dans un corps d'adulte sculpté à la perfection, Shazam s'éclate avec ses tout nouveaux superpouvoirs. Est-il capable de voler ? De voir à travers n'importe quel type de matière ? De faire jaillir la foudre de ses mains ? Et de sauter son examen de sciences sociales ? Shazam repousse les limites de ses facultés avec l'insouciance d'un enfant. Mais il lui faudra maîtriser rapidement ses pouvoirs pour combattre les forces des ténèbres du Dr Thaddeus Sivana…",
+    "banner": "medias/films/shazam/shazam.jpg",
+    "video": "medias/films/shazam/shazam.mp4",
+    "IMDb": 7.0,
+    "IMDb_link": "https://www.imdb.com/title/tt0448115/",
+    "year": 2019,
+    "genres": [
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "stars": [
+      "Zachary Levi",
+      "Mark Strong",
+      "Asher Angel"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=0X-9bqDr_UQ",
+    "directors": [
+      "David F. Sandberg"
+    ],
+    "writers": [
+      "Henry Gayden",
+      "Darren Lernke",
+      "Bill Parker"
+    ]
+  },
+  "Joker": {
+    "title": "Joker",
+    "description": "Dans les années 1980, à Gotham City, Arthur Fleck, un humoriste de stand‐up raté, bascule dans la folie et devient le Joker.",
+    "banner": "medias/films/joker/joker.jpg",
+    "video": "medias/films/joker/joker.mp4",
+    "IMDb": 8.3,
+    "IMDb_link": "https://www.imdb.com/title/tt7286456/",
+    "year": 2019,
+    "genres": [
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Tragedy",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "stars": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=_LUWnjT3iks",
+    "directors": [
+      "Todd Phillips"
+    ],
+    "writers": [
+      "Todd Phillips",
+      "Scott Silver",
+      "Bob Kane"
+    ]
   }
 }
