@@ -55,41 +55,41 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
 # Fonctionnalités
 
-- **Gestion complète du contenu** 🎞️  
-    Fiches détaillées pour films & séries (titre, synopsis, genres, note IMDb, créateurs, réalisateurs, acteurs, durée, année).
+- **Gestion complète du contenu** 🎞️
+    Fiches détaillées pour films & séries (titre, synopsis, genres, note, créateurs, réalisateurs, acteurs, durée, année).
 
-- **Chargement dynamique** 📊  
+- **Chargement dynamique** 📊
     Interface réactive avec mise à jour asynchrone des listes et des fiches sans rechargement de page.
 
-- **Lecteur vidéo intégré** 🎥  
-    Lecteur moderne avec contrôles, reprise automatique de la lecture et position de reprise.
+- **Lecteur vidéo intégré** 🎥
+    Lecteur moderne avec contrôles et reprise de la lecture (suivi local de la position de lecture).
 
-- **Recherche intelligente & filtres avancés** 🔍  
-    Barre de recherche instantanée + filtres (genre, année, note, langue, disponibilité) et tris personnalisables.
+- **Recherche intelligente & filtres avancés** 🔍
+    Barre de recherche instantanée et filtres pour affiner les résultats (genre, année, note, etc.).
 
-- **Navigation intuitive** 🧭  
-    Parcours fluide entre pages, historique de navigation, et boutons de retour/accueil faciles d’accès.
+- **Navigation intuitive** 🧭
+    Parcours fluide entre sections, gestion des états et actions de navigation claires pour l'utilisateur.
 
-- **Design adaptatif (responsive)** 📱💻  
-    Interface optimisée pour desktop, tablette et mobile avec disposition adaptative et composants réactifs.
+- **Design adaptatif (responsive)** 📱💻
+    Interface optimisée pour desktop, tablette et mobile avec mise en page réactive.
 
-- **Ajout & édition de contenu simplifiés** 📝  
-    Formulaires pour ajouter/modifier films, séries, saisons et épisodes; validation JSON et aperçu avant enregistrement.
+- **Ajout & aperçu de contenu** 📝
+    Formulaires dynamiques pour créer/éditer des fiches avec validation et aperçu JSON. Note : les changements sont préparés côté client (aperçu/copier) — l'écriture automatique sur un serveur n'est pas fournie.
 
-- **Collections & playlists** 📚  
-    Créez, organisez et partagez des collections ou listes de lecture (favoris, à regarder, playlists thématiques).
+- **Collections & playlists** 📚
+    Création et consultation de collections ou listes thématiques (favoris, à regarder, playlists).
 
-- **Import / Export & synchronisation** 🔄  
-    Importer/exporter la bibliothèque et l’historique au format JSON, synchronisation entre appareils via fichiers ou API.
+- **Import / Export** 🔄
+    Import et export manuels via fichiers JSON pour la sauvegarde et la restauration de l'historique. La synchronisation automatique multi-appareils (via API serveur) n'est pas incluse.
 
-- **Compatibilité & performance** ⚡  
-    Chargement paresseux des médias, cache local (IndexedDB/localStorage) et prise en charge des grands catalogues.
+- **Compatibilité & performance** ⚡
+    Optimisations côté client (caching local et amélioration des performances). Remarque : IndexedDB ou lazy-loading des médias ne sont pas activement utilisés par défaut — il est possible d'ajouter ces optimisations si nécessaire.
 
-- **Accessibilité** ♿  
-    Navigation clavier, contrastes adaptés et support des lecteurs d’écran pour une utilisation inclusive.
+- **Accessibilité** ♿
+    Support de base pour la navigation clavier et styles focus visibles. Un support complet pour lecteurs d'écran et ARIA peut nécessiter des améliorations supplémentaires.
 
-- **Documentation & contribution** 📘  
-    Guides pour installation, configuration, contribution et modèles de données JSON clairement documentés.
+- **Documentation & contribution** 📘
+    Guides et modèles pour l'installation, la contribution et le format des données (à enrichir si besoin).
 
 # Démo
 
