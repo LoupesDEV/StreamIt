@@ -159,7 +159,106 @@
       "Justice League",
       "Aquaman",
       "Shazam!",
-      "Joker"
+      "Joker",
+      "Birds of Prey et la fantabuleuse histoire de Harley Quinn",
+      "Wonder Woman 1984",
+      "Black Adam",
+      "Shazam! La Rage des dieux",
+      "The Flash",
+      "Blue Beetle",
+      "Aquaman et le Royaume perdu",
+      "Joker : Folie à deux",
+      "Superman"
+    ],
+    "series": []
+  },
+  "Shazam!": {
+    "name": "Shazam!",
+    "films": [
+      "Shazam!",
+      "Shazam! La Rage des dieux"
+    ],
+    "series": []
+  },
+  "Aquaman": {
+    "name": "Aquaman",
+    "films": [
+      "Aquaman",
+      "Aquaman et le Royaume perdu"
+    ],
+    "series": []
+  },
+  "Joker": {
+    "name": "Joker",
+    "films": [
+      "Joker",
+      "Joker : Folie à deux"
+    ],
+    "series": []
+  },
+  "Divergente": {
+    "name": "Divergente",
+    "films": [
+      "Divergente",
+      "Divergente 2 : L'Insurrection",
+      "Divergente 3 : Au-delà du mur"
+    ],
+    "series": []
+  },
+  "28... plus tard": {
+    "name": "28... plus tard",
+    "films": [
+      "28 Jours plus tard",
+      "28 Semaines plus tard",
+      "28 Ans plus tard"
+    ],
+    "series": []
+  },
+  "Les Intrus": {
+    "name": "Les Intrus",
+    "films": [
+      "Les Intrus",
+      "Les Intrus : Chapitre 2"
+    ],
+    "series": []
+  },
+  "Dune": {
+    "name": "Dune",
+    "films": [
+      "Dune : Première partie",
+      "Dune : Deuxième partie"
+    ],
+    "series": []
+  },
+  "Jumanji": {
+    "name": "Jumanji",
+    "films": [
+      "Jumanji : Bienvenue dans la jungle",
+      "Jumanji : Next Level"
+    ],
+    "series": []
+  },
+  "La Plateforme": {
+    "name": "La Plateforme",
+    "films": [
+      "La Plateforme",
+      "La Plateforme 2"
+    ],
+    "series": []
+  },
+  "Wonder Woman": {
+    "name": "Wonder Woman",
+    "films": [
+      "Wonder Woman",
+      "Wonder Woman 1984"
+    ],
+    "series": []
+  },
+  "Top Gun": {
+    "name": "Top Gun",
+    "films": [
+      "Top Gun",
+      "Top Gun : Maverick"
     ],
     "series": []
   }

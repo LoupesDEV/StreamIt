@@ -2841,5 +2841,760 @@
       "Scott Silver",
       "Bob Kane"
     ]
+  },
+  "Divergente": {
+    "title": "Divergente",
+    "description": "L’aventure palpitante de Tris Prior (Woodley) qui, plongée dans un futur où chaque individu appartient à un groupe choisi selon sa personnalité, se retrouve parmi les inclassables, incapable d’appartenir à un seul groupe, en un mot, Divergente. Lorsqu’elle découvre qu’une conspiration se trame afin de détruire tous les Divergents, elle doit à tout prix découvrir ce qui rend la Divergence si dangereuse, avant qu’il ne soit trop tard.",
+    "banner": "medias/films/divergente/divergente.jpg",
+    "video": "medias/films/divergente/divergente.mp4",
+    "IMDb": 6.6,
+    "IMDb_link": "https://www.imdb.com/title/tt1840309/",
+    "year": 2014,
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Teen Adventure",
+      "Teen Drama",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Shailene Woodley",
+      "Theo James",
+      "Ashley Judd"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=gxbwcBlj_dM",
+    "directors": [
+      "Neil Burger"
+    ],
+    "writers": [
+      "Evan Daugherty",
+      "Vanessa Taylor",
+      "Veronica Roth"
+    ]
+  },
+  "Divergente 2 : L'Insurrection": {
+    "title": "Divergente 2 : L'Insurrection",
+    "description": "Dans un monde post-apocalyptique où la société a été réorganisée autour de 5 factions (Audacieux, Érudits, Altruistes, Sincères et Fraternels), Tris a mis à jour un complot mené par la faction dominante, les Érudits, dirigés par Jeanine. Abandonnant une ville à feu et à sang, à la recherche d’alliés, Tris et Quatre sont désormais traqués par les autorités. Janine décrète la loi martiale pour anéantir les Divergents, tandis que la guerre entre les factions prend de l’ampleur. Pourquoi les Divergents sont-ils une menace pour la société ? La découverte d’un objet mystérieux, hérité du passé, pourrait bien bouleverser l’équilibre des forces…",
+    "banner": "medias/films/divergente-2-l-insurrection/divergente-2-l-insurrection.jpg",
+    "video": "medias/films/divergente-2-l-insurrection/divergente-2-l-insurrection.mp4",
+    "IMDb": 6.2,
+    "IMDb_link": "https://www.imdb.com/title/tt2908446/",
+    "year": 2015,
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Kate Winslet",
+      "Jai Courtney",
+      "Mekhi Phifer"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=l4YTrX3gmco",
+    "directors": [
+      "Robert Schwentke"
+    ],
+    "writers": [
+      "Brian Duffield",
+      "Akiva Goldsman",
+      "Mark Bomback"
+    ]
+  },
+  "Divergente 3 : Au-delà du mur": {
+    "title": "Divergente 3 : Au-delà du mur",
+    "description": "Tris et ses alliés ont réussi à renverser les Érudits. Les sans-faction mettent alors en place une dictature, imposant à tous la disparition des factions. Plutôt que de se plier à ce nouveau pouvoir totalitaire, Tris, Tobias et leurs amis choisissent de s'échapper. Le monde qu'ils découvrent au-delà de la Clôture ne correspond en rien à ce qu'on leur a dit. Ils apprennent ainsi que leur ville, Chicago, fait partie d'une expérience censée sauver l'humanité contre sa propre dégénérescence. Mais l'humanité peut-elle être sauvée contre elle-même ?",
+    "banner": "medias/films/divergente-3-au-dela-du-mur/divergente-3-au-dela-du-mur.jpg",
+    "video": "medias/films/divergente-3-au-dela-du-mur/divergente-3-au-dela-du-mur.mp4",
+    "IMDb": 5.7,
+    "IMDb_link": "https://www.imdb.com/title/tt3410834/",
+    "year": 2016,
+    "genres": [
+      "Conspiracy Thriller",
+      "Dystopian Sci-Fi",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Shailene Woodley",
+      "Theo James",
+      "Naomi Watts"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=IME-Af-uRSE",
+    "directors": [
+      "Robert Schwentke"
+    ],
+    "writers": [
+      "Noah Oppenheim",
+      "Adam Cooper",
+      "Bill Collage"
+    ]
+  },
+  "28 Jours plus tard": {
+    "title": "28 Jours plus tard",
+    "description": "Un commando de la Protection Animale fait irruption dans un laboratoire top secret pour délivrer des dizaines de chimpanzés soumis à de terribles expériences. Mais aussitôt libérés, les primates, contaminés par un mystérieux virus et animés d’une rage incontrôlable, bondissent sur leurs « sauveurs » et les massacrent. 28 jours plus tard, le mal s’est répandu à une vitesse fulgurante à travers le pays, la population a été évacuée en masse et Londres n’est plus qu’une ville fantôme. Les rares rescapés se terrent pour échapper aux « Contaminés » assoiffés de violence. C’est dans ce contexte que Jim, un coursier, sort d’un profond coma…",
+    "banner": "medias/films/28-jours-plus-tard/28-jours-plus-tard.jpg",
+    "video": "medias/films/28-jours-plus-tard/28-jours-plus-tard.mp4",
+    "IMDb": 7.5,
+    "IMDb_link": "https://www.imdb.com/title/tt0289043/",
+    "year": 2002,
+    "genres": [
+      "Body Horror",
+      "Disaster",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Monster Horror",
+      "Psychological Drama",
+      "Pyschological Horror",
+      "Psychological Thriller",
+      "Road Trip",
+      "Sci-Fi Epic"
+    ],
+    "stars": [
+      "Alex Palmer",
+      "Bindu De Stoppani",
+      "Jukka Hiltunen"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=oPvUhUrst20",
+    "directors": [
+      "Danny Boyle"
+    ],
+    "writers": [
+      "Alex Garland"
+    ]
+  },
+  "28 Semaines plus tard": {
+    "title": "28 Semaines plus tard",
+    "description": "Il y a 6 mois, un virus a décimé l'Angleterre, transformant la population en monstres sanguinaires. Aujourd'hui, la situation est maîtrisée et Londres contrôlée par l'armée de l'OTAN sous commandement américain, et les rares survivants reviennent dans les quartiers sécurisés de la ville. Don a échappé de justesse a une attaque de zombies en s'enfuyant sous les yeux de sa femme, qui elle, n'a pas eu sa chance. Il retrouve ses enfants à Londres. Alors qu'ils tentent de se reconstruire, quelque part, un effroyable secret les attend. Tout n'est pas terminé…",
+    "banner": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.jpg",
+    "video": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.mp4",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt0463854/",
+    "year": 2007,
+    "genres": [
+      "Zombie Horror",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Robert Carlyle",
+      "Rose Byrne",
+      "Jeremy Renner"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=ZkOMtSrz9HM",
+    "directors": [
+      "Juan Carlos Fresnadillo"
+    ],
+    "writers": [
+      "Rowan Joffe",
+      "Juan Carlos Fresnadillo",
+      "Enrique Lopez Lavigne"
+    ]
+  },
+  "28 Ans plus tard": {
+    "title": "28 Ans plus tard",
+    "description": "Cela fait près de trente ans que le Virus de la Fureur s’est échappé d’un laboratoire d’armement biologique. Alors qu’un confinement très strict a été mis en place, certains ont trouvé le moyen de survivre parmi les personnes infectées. C’est ainsi qu’une communauté de rescapés s’est réfugiée sur une petite île seulement reliée au continent par une route, placée sous haute protection. Lorsque l’un des habitants de l’île est envoyé en mission sur le continent, il découvre que non seulement les infectés ont muté, mais que d’autres survivants aussi, dans un contexte à la fois mystérieux et terrifiant…",
+    "banner": "medias/films/28-ans-plus-tard/28-ans-plus-tard.jpg",
+    "video": "medias/films/28-ans-plus-tard/28-ans-plus-tard.mp4",
+    "IMDb": 6.6,
+    "IMDb_link": "https://www.imdb.com/title/tt10548174/",
+    "year": 2025,
+    "genres": [
+      "Survival",
+      "Zombie Horror",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Rocco Haynes",
+      "Haley Flaherty",
+      "Harriet Taylor"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=MCHGqNHbRQE",
+    "directors": [
+      "Danny Boyle"
+    ],
+    "writers": [
+      "Alex Garland"
+    ]
+  },
+  "Les Intrus": {
+    "title": "Les Intrus",
+    "description": "Un jeune couple traverse le pays pour commencer une nouvelle vie ensemble dans le Pacifique Nord-Ouest. En chemin, leur voiture tombe en panne et ils sont forcés de passer la nuit dans une maison AirBnb isolée en Oregon. Tout au long de la nuit, ils sont terrorisés par trois inconnus masqués.",
+    "banner": "medias/films/les-intrus/les-intrus.jpg",
+    "video": "medias/films/les-intrus/les-intrus.mp4",
+    "IMDb": 4.7,
+    "IMDb_link": "https://www.imdb.com/title/tt22050754/",
+    "year": 2024,
+    "genres": [
+      "Psychological Horror",
+      "Slasher Horror",
+      "Horror"
+    ],
+    "stars": [
+      "Ryan Bown",
+      "Matus Lajcak",
+      "Olivia Kreutzova"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=A8Xbqchzv-s",
+    "directors": [
+      "Renny Harlin"
+    ],
+    "writers": [
+      "Alan R. Cohen",
+      "Alan Freedland",
+      "Bryan Bertino"
+    ]
+  },
+  "Les Intrus : Chapitre 2": {
+    "title": "Les Intrus : Chapitre 2",
+    "description": "Lorsqu’ils découvrent que l’une de leurs victimes, Maya, a survécu, ils reviennent pour terminer ce qu’ils ont commencé. Traquée et isolée, Maya doit affronter un nouveau chapitre terrifiant alors que les tueurs, insensés et inarrêtables, la traquent, prêts à éliminer quiconque se mettra en travers de leur route.",
+    "banner": "medias/films/les-intrus-chapitre-2/les-intrus-chapitre-2.jpg",
+    "video": "medias/films/les-intrus-chapitre-2/les-intrus-chapitre-2.mp4",
+    "IMDb": 4.7,
+    "IMDb_link": "https://www.imdb.com/title/tt28671344/",
+    "year": 2025,
+    "genres": [
+      "Slasher Horror",
+      "Whodunnit",
+      "Horror",
+      "Mystery"
+    ],
+    "stars": [
+      "Ema Horvath",
+      "Olivia Kreutzova",
+      "Matus Lajcak"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=t7q9ICeeDO4",
+    "directors": [
+      "Renny Harlin"
+    ],
+    "writers": [
+      "Alan R. Cohen",
+      "Alan Freedland",
+      "Bryan Bertino"
+    ]
+  },
+  "Dune : Première partie": {
+    "title": "Dune : Première partie",
+    "description": "L'histoire de Paul Atreides, jeune homme aussi doué que brillant, voué à connaître un destin hors du commun qui le dépasse totalement. Car, s'il veut préserver l'avenir de sa famille et de son peuple, il devra se rendre sur Dune, la planète la plus dangereuse de l'Univers. Mais aussi la seule à même de fournir la ressource la plus précieuse capable de décupler la puissance de l'Humanité. Tandis que des forces maléfiques se disputent le contrôle de cette planète, seuls ceux qui parviennent à dominer leur peur pourront survivre…",
+    "banner": "medias/films/dune-premiere-partie/dune-premiere-partie.jpg",
+    "video": "medias/films/dune-premiere-partie/dune-premiere-partie.mp4",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt1160419/",
+    "year": 2021,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Desert Adventure",
+      "Epic",
+      "Sci-Fi Epic",
+      "Soap Opera",
+      "Space Sci-Fi",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "stars": [
+      "Timothée Chalamet",
+      "Rebecca Ferguson",
+      "Oscar Isaac"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=gHt8tCHbB2M",
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "writers": [
+      "Jon Spaihts",
+      "Denis Villeneuve",
+      "Eric Roth"
+    ]
+  },
+  "Dune : Deuxième partie": {
+    "title": "Dune : Deuxième partie",
+    "description": "Le voyage mythique de Paul Atreides qui s'allie à Chani et aux Fremen dans sa quête de vengeance envers les conspirateurs qui ont anéanti sa famille. Devant choisir entre l'amour de sa vie et le destin de l'univers, il fera tout pour éviter un terrible futur que lui seul peut prédire.",
+    "banner": "medias/films/dune-deuxieme-partie/dune-deuxieme-partie.jpg",
+    "video": "medias/films/dune-deuxieme-partie/dune-deuxieme-partie.mp4",
+    "IMDb": 8.4,
+    "IMDb_link": "https://www.imdb.com/title/tt15239678/",
+    "year": 2024,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Desert Adventure",
+      "Epic",
+      "Sci-Fi",
+      "Soap Opera",
+      "Space Sci-Fi",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "stars": [
+      "Timothée Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=SUfv36bB5jA",
+    "directors": [
+      "Denis Villeneuve"
+    ],
+    "writers": [
+      "Denis Villeneuve",
+      "Jon Spaihts",
+      "Frank Herbert"
+    ]
+  },
+  "Jumanji : Bienvenue dans la jungle": {
+    "title": "Jumanji : Bienvenue dans la jungle",
+    "description": "Quatre lycéens découvrent une vieille console contenant un jeu vidéo dont ils n’avaient jamais entendu parler : Jumanji. En voulant jouer, ils se retrouvent mystérieusement propulsés dans la jungle de Jumanji, où ils deviennent leurs avatars. Spencer est désormais un aventurier musclé, Fridge, le footeux, devient un véritable Einstein, Bethany, la fille si populaire au lycée, se transforme en professeur d’âge mûr et la timide Martha est maintenant une redoutable combattante. Ils vont rapidement découvrir qu’il ne suffit pas de jouer à Jumanji, il faut y survivre… Pour vaincre le jeu et revenir dans le monde réel, ils vont devoir affronter les pires dangers, découvrir ce qu’Alan Parrish a laissé vingt ans auparavant, et changer leur façon de voir la vie et eux‐mêmes. Sinon, ils resteront prisonniers de Jumanji pour toujours…",
+    "banner": "medias/films/jumanji-bienvenue-dans-la-jungle/jumanji-bienvenue-dans-la-jungle.jpg",
+    "video": "medias/films/jumanji-bienvenue-dans-la-jungle/jumanji-bienvenue-dans-la-jungle.mp4",
+    "IMDb": 6.9,
+    "IMDb_link": "https://www.imdb.com/title/tt2283362/",
+    "year": 2017,
+    "genres": [
+      "Body Swap Comedy",
+      "High-Concept Comedy",
+      "Jungle Adventure",
+      "Quest",
+      "Supernatural Fantasy",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "stars": [
+      "Dwayne Johnson",
+      "Kevin Hart",
+      "Jack Black"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=oZI2njF5rx0",
+    "directors": [
+      "Jake Kasdan"
+    ],
+    "writers": [
+      "Chris McKenna",
+      "Erik Sommers",
+      "Scott Rosenberg"
+    ]
+  },
+  "Jumanji : Next Level": {
+    "title": "Jumanji : Next Level",
+    "description": "L’équipe est de retour, mais le jeu a changé. Alors qu’ils retournent dans Jumanji pour secourir l’un des leurs, ils découvrent un monde totalement inattendu. Des déserts arides aux montagnes enneigées, les joueurs vont devoir braver des espaces inconnus et inexplorés, afin de sortir du jeu le plus dangereux du monde...",
+    "banner": "medias/films/jumanji-next-level/jumanji-next-level.jpg",
+    "video": "medias/films/jumanji-next-level/jumanji-next-level.mp4",
+    "IMDb": 6.6,
+    "IMDb_link": "https://www.imdb.com/title/tt7975244/",
+    "year": 2019,
+    "genres": [
+      "Body Swap Comedy",
+      "High-Concept Comedy",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "stars": [
+      "Dwayne Johnson",
+      "Kevin Hart",
+      "Jack Black"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=f6ZEL7tIVLM",
+    "directors": [
+      "Jake Kasdan"
+    ],
+    "writers": [
+      "Jake Kasdan",
+      "Jeff Pinkner",
+      "Scott Rosenberg"
+    ]
+  },
+  "La Plateforme": {
+    "title": "La Plateforme",
+    "description": "Une plateforme de nourriture descend d'étage en étage pour ravitailler les résidents d'une tour. Ceux du dessus se gavent, affamant ceux du dessous. La révolte gronde.",
+    "banner": "medias/films/la-plateforme/la-plateforme.jpg",
+    "video": "medias/films/la-plateforme/la-plateforme.mp4",
+    "IMDb": 7.0,
+    "IMDb_link": "https://www.imdb.com/title/tt8228288/",
+    "year": 2019,
+    "genres": [
+      "Spanish",
+      "Dystopian Sci-Fi",
+      "Prison Drama",
+      "Horror",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Ivan Massagué",
+      "Zorion Eguileor",
+      "Antonia San Juan"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=Q6kEozJ4nrw",
+    "directors": [
+      "Galder Gaztelu-Urrutia"
+    ],
+    "writers": [
+      "David Desola",
+      "Pedro Rivero"
+    ]
+  },
+  "La Plateforme 2": {
+    "title": "La Plateforme 2",
+    "description": "Quand un mystérieux leader impose sa loi avec un système brutal de cellules verticales, une nouvelle arrivante se rebelle contre une répartition alimentaire discutable.",
+    "banner": "medias/films/la-plateforme-2/la-plateforme-2.jpg",
+    "video": "medias/films/la-plateforme-2/la-plateforme-2.mp4",
+    "IMDb": 4.9,
+    "IMDb_link": "https://www.imdb.com/title/tt27729779/",
+    "year": 2024,
+    "genres": [
+      "Spanish",
+      "Dystopian Sci-Fi",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Milena Smit",
+      "Hovik Keuchkerian",
+      "Natalia Tena"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=eNawDoduXAQ",
+    "directors": [
+      "Galder Gaztelu-Urrutia"
+    ],
+    "writers": [
+      "Galder Gaztelu-Urrutia",
+      "Pedro Rivero",
+      "David Desola"
+    ]
+  },
+  "Birds of Prey et la fantabuleuse histoire de Harley Quinn": {
+    "title": "Birds of Prey et la fantabuleuse histoire de Harley Quinn",
+    "description": "Vous connaissez l’histoire du flic, de l’oiseau chanteur, de la cinglée et de la princesse mafieuse ?  Birds of Prey et la fantabuleuse histoire de Harley Quinn est une histoire déjantée racontée par Harley en personne, d’une manière dont elle seule a le secret.  Roman Sionis, l’ennemi le plus abominable et le plus narcissique de Gotham, ainsi que son fidèle acolyte Zsasz décident de s'en prendre à une certaine « Cass ». La ville est passée au peigne fin pour retrouver la trace de la jeune fille.  Les parcours de Harley, de la Chasseuse, de Black Canary et de Renee Montoya se télescopent et ce quatuor improbable n’a d’autre choix que de faire équipe pour éliminer Roman…",
+    "banner": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn.jpg",
+    "video": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn.mp4",
+    "IMDb": 6.1,
+    "IMDb_link": "https://www.imdb.com/title/tt7713068/",
+    "year": 2020,
+    "genres": [
+      "Dark Comedy",
+      "Superhero",
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "stars": [
+      "Margot Robbie",
+      "Rosie Perez",
+      "Mary Elizabeth Winstead"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=6bh1OHkIuYA",
+    "directors": [
+      "Cathy Yan"
+    ],
+    "writers": [
+      "Christina Hodson",
+      "Paul Dini",
+      "Bruce Timm"
+    ]
+  },
+  "Wonder Woman 1984": {
+    "title": "Wonder Woman 1984",
+    "description": "Suite des aventures de Diana Prince, alias Wonder Woman, Amazone devenue une super-héroïne dans notre monde. Après la Première guerre mondiale, direction les années 80 ! Cette fois, Wonder Woman doit affronter deux nouveaux ennemis, particulièrement redoutables : Max Lord et Cheetah.",
+    "banner": "medias/films/wonder-woman-1984/wonder-woman-1984.jpg",
+    "video": "medias/films/wonder-woman-1984/wonder-woman-1984.mp4",
+    "IMDb": 5.3,
+    "IMDb_link": "https://www.imdb.com/title/tt7126948/",
+    "year": 2020,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Holiday"
+    ],
+    "stars": [
+      "Gal Gadot",
+      "Chris Pine",
+      "Kristen Wiig"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=w1tjGOTrPZ8",
+    "directors": [
+      "Patty Jenkins"
+    ],
+    "writers": [
+      "Patty Jenkins",
+      "Geoff Johns",
+      "Dave Callaham"
+    ]
+  },
+  "Black Adam": {
+    "title": "Black Adam",
+    "description": "Près de 5000 ans après avoir été doté des pouvoirs tout puissants des dieux égyptiens – et emprisonné très rapidement après – Black Adam est libéré de sa tombe terrestre, prêt à faire régner sa forme unique de justice dans le monde moderne.",
+    "banner": "medias/films/black-adam/black-adam.jpg",
+    "video": "medias/films/black-adam/black-adam.mp4",
+    "IMDb": 6.1,
+    "IMDb_link": "https://www.imdb.com/title/tt6443346/",
+    "year": 2022,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Sci-Fi Epic",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Dwayne Johnson",
+      "Aldis Hodge",
+      "Pierce Brosnan"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=yVKC22BuV1w",
+    "directors": [
+      "Jaume Collet-Serra"
+    ],
+    "writers": [
+      "Adam Sztykiel",
+      "Rory Haines",
+      "Sohrab Noshirvani"
+    ]
+  },
+  "Shazam! La Rage des dieux": {
+    "title": "Shazam! La Rage des dieux",
+    "description": "Investis des pouvoirs des dieux, Billy Batson et ses copains apprennent encore à concilier leur vie d’ados avec leurs responsabilités de super-héros dès lors qu’ils se transforment en adultes. Mais quand les Filles de l’Atlas, trio d’anciennes déesses ivres de vengeance, débarquent sur Terre pour retrouver la magie qu’on leur a volée il y a longtemps, Billy, alias Shazam, et sa famille s’engagent dans une bataille destinée à conserver leurs superpouvoirs, à rester en vie et à sauver la planète. Mais une bande d’adolescents peut-elle vraiment empêcher la destruction du monde ? Et, surtout, Billy en a-t-il seulement envie ... ?",
+    "banner": "medias/films/shazam-la-rage-des-dieux/shazam-la-rage-des-dieux.jpg",
+    "video": "medias/films/shazam-la-rage-des-dieux/shazam-la-rage-des-dieux.mp4",
+    "IMDb": 5.9,
+    "IMDb_link": "https://www.imdb.com/title/tt10151854/",
+    "year": 2023,
+    "genres": [
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Zachary Levi",
+      "Asher Angel",
+      "Jack Dylan Grazer"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=sDm4nRYv7dI",
+    "directors": [
+      "David F. Sandberg"
+    ],
+    "writers": [
+      "Henry Gayden",
+      "Chris Morgan",
+      "Bill Parker"
+    ]
+  },
+  "The Flash": {
+    "title": "The Flash",
+    "description": "Les mondes entrent en collision lorsque Barry, alias \"The Flash\", utilise ses pouvoirs pour voyager dans le temps afin de changer les événements du passé. Mais lorsque sa tentative de sauver sa famille modifie par inadvertance le futur, Barry se retrouve piégé dans une réalité où le Général Zod est revenu, avide de destruction, et il n'y a aucun super-héros vers qui se tourner. Enfin, à moins que Barry ne puisse faire sortir un Batman très différent de sa retraite et arrive à sauver un Kryptonien emprisonné… mais pas celui qu'il recherche. En fin de compte, pour sauver le monde dans lequel il se trouve et retourner dans le futur qu'il connaît, le seul espoir de Barry est de foncer. Mais faire le sacrifice ultime suffira-t-il à réinitialiser l'univers ?",
+    "banner": "medias/films/the-flash/the-flash.jpg",
+    "video": "medias/films/the-flash/the-flash.mp4",
+    "IMDb": 6.6,
+    "IMDb_link": "https://www.imdb.com/title/tt0439572/",
+    "year": 2023,
+    "genres": [
+      "Superhero",
+      "Supernatural Fantasy",
+      "Time Travel",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Ezra Miller",
+      "Michael Keaton",
+      "Sasha Calle"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=mUMlQZfjK1c",
+    "directors": [
+      "Andy Muschietti"
+    ],
+    "writers": [
+      "Christina Hodson",
+      "John Francis Daley",
+      "Jonathan Goldstein"
+    ]
+  },
+  "Blue Beetle": {
+    "title": "Blue Beetle",
+    "description": "Fraîchement diplômé de l’université, Jaime Reyes rentre chez lui, plein d’ambitions, mais il découvre que la situation a bien changé depuis son départ. Tandis qu’il cherche sa place dans le monde, le destin s’en mêle : Jaime se retrouve par hasard en possession du Scarabée, une ancienne relique d’une biotechnologie extraterrestre. Dès lors que le Scarabée choisit de faire de Jaime son hôte, le jeune homme se voit revêtu d’une armure hors du commun qui lui octroie des pouvoirs extraordinaires – et imprévisibles. Tout bascule alors pour Jaime qui devient le super-héros Blue Beetle…",
+    "banner": "medias/films/blue-beetle/blue-beetle.jpg",
+    "video": "medias/films/blue-beetle/blue-beetle.mp4",
+    "IMDb": 5.9,
+    "IMDb_link": "https://www.imdb.com/title/tt9362930/",
+    "year": 2023,
+    "genres": [
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Xolo Mariduena",
+      "Bruna Marquezine",
+      "Becky G"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=-OOAZLZeZBc",
+    "directors": [
+      "Angel Manuel Soto"
+    ],
+    "writers": [
+      "Gareth Dunnet-Alcocer"
+    ]
+  },
+  "Aquaman et le Royaume perdu": {
+    "title": "Aquaman et le Royaume perdu",
+    "description": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
+    "banner": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.jpg",
+    "video": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.mp4",
+    "IMDb": 5.6,
+    "IMDb_link": "https://www.imdb.com/title/tt9663764/",
+    "year": 2023,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Fantasy Epic",
+      "Sci-Fi Epic",
+      "Sea Adventure",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "stars": [
+      "Jason momoa",
+      "Patrick Wilson",
+      "Yahya Abdul-Mateen II"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=aky3iFEBfm0",
+    "directors": [
+      "James Wan"
+    ],
+    "writers": [
+      "David Leslie Johnson-McGoldrick",
+      "James Wan",
+      "Jason Momoa"
+    ]
+  },
+  "Joker : Folie à deux": {
+    "title": "Joker : Folie à deux",
+    "description": "Arthur Fleck, alors interné dans l'asile d'Arkham, attend d'être jugé pour les crimes qu'il a commis sous les traits de Joker. Déchiré entre ses deux identités, Arthur ne trouve pas seulement le grand amour, mais aussi la mélodie qui a toujours sommeillé en lui.",
+    "banner": "medias/films/joker-folie-a-deux/joker-folie-a-deux.jpg",
+    "video": "medias/films/joker-folie-a-deux/joker-folie-a-deux.mp4",
+    "IMDb": 5.2,
+    "IMDb_link": "https://www.imdb.com/title/tt11315808/",
+    "year": 2024,
+    "genres": [
+      "Jukebox Musical",
+      "Prison Drama",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Drama",
+      "Musical",
+      "Thriller"
+    ],
+    "stars": [
+      "Joaquin Phoenix",
+      "Lady Gaga",
+      "Brendan Gleeson"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=Y3Rylcxs6Fw",
+    "directors": [
+      "Todd Phillips"
+    ],
+    "writers": [
+      "Scott Silver",
+      "Todd Phillips",
+      "Bob Kane"
+    ]
+  },
+  "Superman": {
+    "title": "Superman",
+    "description": "Superman doit trouver l’équilibre entre ses racines kryptoniennes et son identité humaine, sous les traits de Clark Kent, originaire de Smallville, dans le Kansas. Il est l’incarnation de la vérité, de la justice et des valeurs américaines et il est animé par une véritable bienveillance dans un monde qui considère cette qualité comme obsolète.",
+    "banner": "medias/films/superman/superman.jpg",
+    "video": "medias/films/superman/superman.mp4",
+    "IMDb": 7.1,
+    "IMDb_link": "https://www.imdb.com/title/tt5950044/",
+    "year": 2025,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Epic",
+      "Sci-Fi Epic",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "David Corenswet",
+      "Alan Tudyk",
+      "Grace Chan"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=qu5n7RALVpE",
+    "directors": [
+      "James Gunn"
+    ],
+    "writers": [
+      "James Gunn",
+      "Jerry Siegel",
+      "Joe Shuster"
+    ]
+  },
+  "Top Gun": {
+    "title": "Top Gun",
+    "description": "Jeune as du pilotage et tête brûlée d'une école réservée à l'élite de l'Aéronavale américaine, la fameuse « Top Gun », Pete Mitchell, dit Maverick, tombe sous le charme d'une instructrice alors qu'il est en compétition pour le titre du meilleur pilote…",
+    "banner": "medias/films/top-gun/top-gun.jpg",
+    "video": "medias/films/top-gun/top-gun.mp4",
+    "IMDb": 7.0,
+    "IMDb_link": "https://www.imdb.com/title/tt0092099/",
+    "year": 1986,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "stars": [
+      "Tom Cruise",
+      "Kelly McGillis",
+      "Val Kilmer"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=i8sEGppZX-s",
+    "directors": [
+      "Tony Scott"
+    ],
+    "writers": [
+      "Jim Cash",
+      "Jack Epps Jr.",
+      "Ehud Yonay"
+    ]
   }
 }
