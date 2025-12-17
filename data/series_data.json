@@ -5761,7 +5761,7 @@
           "video": "medias/series/stranger-things/1-4.mp4"
         },
         {
-          "title": "Chapitre cinq : La Puce et l'Acrobate",
+          "title": "Chapitre cinq : La Puce et l’Acrobate",
           "desc": "Hopper s'introduit dans le labo, Nancy et Jonathan affrontent la force qui a enlevé Will, et les garçons demandent à M. Clarke comment se rendre dans une autre dimension.",
           "video": "medias/series/stranger-things/1-5.mp4"
         },
@@ -5776,7 +5776,7 @@
           "video": "medias/series/stranger-things/1-7.mp4"
         },
         {
-          "title": "Chapitre huit : Le Monde à l'envers",
+          "title": "Chapitre huit : Le Monde à l’envers",
           "desc": "Hopper et Joyce sont aux mains du Dr Brenner. Les garçons attendent avec Onze dans le gymnase. Nancy et Jonathan s'arment pour livrer bataille.",
           "video": "medias/series/stranger-things/1-8.mp4"
         }
@@ -5789,12 +5789,12 @@
         },
         {
           "title": "Chapitre deux : Des bonbons ou un sort, espèce de taré",
-          "desc": "Après l'expérience terrifiante de Will lors de la nuit d'Halloween, Mike se demande si Onze traîne encore dans le coin. Obsédée par Barbara, Nancy veut parler.",
+          "desc": "Après l’expérience terrifiante de Will lors de la nuit d'Halloween, Mike se demande si Onze traîne encore dans le coin. Obsédée par Barbara, Nancy veut parler.",
           "video": "medias/series/stranger-things/2-2.mp4"
         },
         {
           "title": "Chapitre trois : Le Batracien",
-          "desc": "Tandis que Dustin adopte un nouvel animal de compagnie plutôt bizarre, Onze s'énerve. Plein de bonnes intentions, Bob exhorte Will à affronter ses peurs.",
+          "desc": "Tandis que Dustin adopte un nouvel animal de compagnie plutôt bizarre, Onze s’énerve. Plein de bonnes intentions, Bob exhorte Will à affronter ses peurs.",
           "video": "medias/series/stranger-things/2-3.mp4"
         },
         {
@@ -5808,7 +5808,7 @@
           "video": "medias/series/stranger-things/2-5.mp4"
         },
         {
-          "title": "Chapitre six : L'Espion",
+          "title": "Chapitre six : L’Espion",
           "desc": "Pendant que la connexion de Will au monstre de l'ombre s'intensifie sans que personne sache comment arrêter le processus, Dustin et Steve partent en expédition.",
           "video": "medias/series/stranger-things/2-6.mp4"
         },
@@ -5819,7 +5819,7 @@
         },
         {
           "title": "Chapitre huit : Le Flagelleur mental",
-          "desc": "Un héros improbable se révèle quand un événement meurtrier boucle le laboratoire d'Hawkins, piégeant Will et plusieurs autres à l'intérieur.",
+          "desc": "Un héros improbable se révèle quand un événement meurtrier boucle le laboratoire d’Hawkins, piégeant Will et plusieurs autres à l'intérieur.",
           "video": "medias/series/stranger-things/2-8.mp4"
         },
         {
@@ -5866,7 +5866,7 @@
         },
         {
           "title": "Chapitre huit : La Bataille de Starcourt",
-          "desc": "La terreur règne dans l'espace de restauration quand le flagelleur mental réclame son dû, tandis que dans les profondeurs obscures de Starcourt se joue l'avenir du monde.",
+          "desc": "La terreur règne dans l'espace de restauration quand le flagelleur mental réclame son dû, tandis que dans les profondeurs obscures de Starcourt se joue l’avenir du monde.",
           "video": "medias/series/stranger-things/3-8.mp4"
         }
       ],
@@ -5915,6 +5915,28 @@
           "title": "Chapitre neuf : L'Infiltration",
           "desc": "Dans un fracas de métal, les héroïques protagonistes au cœur pur luttent âprement aux quatre coins du champ de bataille. Il faut sauver Hawkins, et le monde entier avec !",
           "video": "medias/series/stranger-things/4-9.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "Chapitre un : L'incursion",
+          "desc": "Novembre 1987. La bande berne les militaires pour entrer dans le monde à l'envers et chercher Vecna... sans s'apercevoir qu'un danger menace quelqu'un de proche.",
+          "video": "medias/series/stranger-things/5-1.mp4"
+        },
+        {
+          "title": "Chapitre deux : La disparition de...",
+          "desc": "Après une attaque sournoise chez les Wheeler, Mike et Nancy paient le prix de leur silence. Onze et Hopper se lancent dans une mission de sauvetage.",
+          "video": "medias/series/stranger-things/5-2.mp4"
+        },
+        {
+          "title": "Chapitre trois : Le piège",
+          "desc": "Will perçoit les intentions de Vecna, ce qui permet à l'équipe de lui tendre un piège. Holly explore son nouvel environnement.",
+          "video": "medias/series/stranger-things/5-3.mp4"
+        },
+        {
+          "title": "Chapitre quatre : Sorcellerie",
+          "desc": "Les militaires resserrent leur emprise sur la ville. Mike, Lucas et Robin planifient une évasion audacieuse. Elfe se retrouve face à son adversaire.",
+          "video": "medias/series/stranger-things/5-4.mp4"
         }
       ]
     }
