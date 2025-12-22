@@ -86,12 +86,14 @@ export function openDetails(item) {
             renderEpisodes(seasons[seasonKeys[0]], seasonKeys[0]);
 
             seasonSelect.onchange = (e) => {
-                const selectedKey = e.target && typeof e.target.value === 'string' ? e.target.value : null;
-                const selectedSeason = selectedKey && Object.prototype.hasOwnProperty.call(seasons, selectedKey)
-                    ? seasons[selectedKey]
+                const rawValue = e.target && typeof e.target.value === 'string' ? e.target.value : null;
+                const selectedKey = rawValue && Object.prototype.hasOwnProperty.call(seasons, rawValue)
+                    ? rawValue
                     : null;
+                const selectedSeason = selectedKey ? seasons[selectedKey] : null;
                 if (selectedSeason) {
-                    renderEpisodes(selectedSeason, selectedKey);
+                    const safeSeasonId = String(selectedKey);
+                    renderEpisodes(selectedSeason, safeSeasonId);
                 }
             };
         } else {
@@ -133,13 +135,17 @@ function renderEpisodes(episodes, seasonNum) {
         ];
     }
 
+    const safeSeasonNum = typeof seasonNum === 'string'
+        ? seasonNum.replace(/[^0-9]/g, '') || '1'
+        : String(Number.isFinite(seasonNum) ? seasonNum : 1);
+
     if (episodes.length > 0) activeVideoSrc = episodes[0].video;
 
     episodes.forEach((ep, idx) => {
         const row = document.createElement('div');
         row.className = "episode-item flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl cursor-pointer transition-all border border-transparent hover:border-white/5 hover:bg-white/[0.02] group bg-[#0a0a0a]";
 
-        const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${seasonNum}-EP${idx + 1}`;
+        const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${safeSeasonNum}-EP${idx + 1}`;
         const thumbUrl = activeDetailItem ? activeDetailItem.banner : fallbackThumb;
 
         // Left container: index + thumbnail
