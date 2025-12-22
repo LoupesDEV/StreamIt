@@ -86,7 +86,13 @@ export function openDetails(item) {
             renderEpisodes(seasons[seasonKeys[0]], seasonKeys[0]);
 
             seasonSelect.onchange = (e) => {
-                renderEpisodes(seasons[e.target.value], e.target.value);
+                const selectedKey = e.target && typeof e.target.value === 'string' ? e.target.value : null;
+                const selectedSeason = selectedKey && Object.prototype.hasOwnProperty.call(seasons, selectedKey)
+                    ? seasons[selectedKey]
+                    : null;
+                if (selectedSeason) {
+                    renderEpisodes(selectedSeason, selectedKey);
+                }
             };
         } else {
             const opt = document.createElement('option');
@@ -136,24 +142,64 @@ function renderEpisodes(episodes, seasonNum) {
         const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${seasonNum}-EP${idx + 1}`;
         const thumbUrl = activeDetailItem ? activeDetailItem.banner : fallbackThumb;
 
-        row.innerHTML = `
-            <div class="flex items-center gap-6 w-full md:w-auto">
-                <span class="text-2xl font-black text-gray-600 group-hover:text-red-500 transition-colors w-8 text-center">${idx + 1}</span>
-                <div class="relative w-40 h-24 flex-shrink-0 bg-gray-900 rounded-lg overflow-hidden shadow-lg">
-                    <img src="${thumbUrl}" onerror="this.src='${fallbackThumb}'" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-500 scale-100 group-hover:scale-110">
-                    <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors">
-                        <i class="fas fa-play text-white text-xl opacity-0 group-hover:opacity-100 transition-all"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-1 w-full text-center md:text-left overflow-hidden">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
-                    <h4 class="font-bold text-white text-xl truncate group-hover:text-red-400 transition-colors">${ep.title}</h4>
-                    <span class="text-sm font-bold text-gray-400 bg-black/30 px-2 py-1 rounded-md">${ep.duration || '45m'}</span>
-                </div>
-                <p class="text-gray-400 text-sm leading-relaxed line-clamp-2">${ep.desc || "..."}</p>
-            </div>
-        `;
+        // Left container: index + thumbnail
+        const leftContainer = document.createElement('div');
+        leftContainer.className = "flex items-center gap-6 w-full md:w-auto";
+
+        const indexSpan = document.createElement('span');
+        indexSpan.className = "text-2xl font-black text-gray-600 group-hover:text-red-500 transition-colors w-8 text-center";
+        indexSpan.textContent = String(idx + 1);
+        leftContainer.appendChild(indexSpan);
+
+        const thumbContainer = document.createElement('div');
+        thumbContainer.className = "relative w-40 h-24 flex-shrink-0 bg-gray-900 rounded-lg overflow-hidden shadow-lg";
+
+        const img = document.createElement('img');
+        img.src = thumbUrl;
+        img.className = "w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-500 scale-100 group-hover:scale-110";
+        img.onerror = function () {
+            this.src = fallbackThumb;
+        };
+        thumbContainer.appendChild(img);
+
+        const overlay = document.createElement('div');
+        overlay.className = "absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors";
+
+        const playIcon = document.createElement('i');
+        playIcon.className = "fas fa-play text-white text-xl opacity-0 group-hover:opacity-100 transition-all";
+        overlay.appendChild(playIcon);
+
+        thumbContainer.appendChild(overlay);
+        leftContainer.appendChild(thumbContainer);
+
+        // Right container: title, duration, description
+        const rightContainer = document.createElement('div');
+        rightContainer.className = "flex-1 w-full text-center md:text-left overflow-hidden";
+
+        const titleRow = document.createElement('div');
+        titleRow.className = "flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2";
+
+        const titleEl = document.createElement('h4');
+        titleEl.className = "font-bold text-white text-xl truncate group-hover:text-red-400 transition-colors";
+        titleEl.textContent = ep.title;
+
+        const durationEl = document.createElement('span');
+        durationEl.className = "text-sm font-bold text-gray-400 bg-black/30 px-2 py-1 rounded-md";
+        durationEl.textContent = ep.duration || '45m';
+
+        titleRow.appendChild(titleEl);
+        titleRow.appendChild(durationEl);
+
+        const descEl = document.createElement('p');
+        descEl.className = "text-gray-400 text-sm leading-relaxed line-clamp-2";
+        descEl.textContent = ep.desc || "...";
+
+        rightContainer.appendChild(titleRow);
+        rightContainer.appendChild(descEl);
+
+        row.appendChild(leftContainer);
+        row.appendChild(rightContainer);
+
         row.onclick = (e) => {
             e.stopPropagation();
             playVideo(ep.video);
