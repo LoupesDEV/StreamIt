@@ -7991,5 +7991,293 @@
         }
       ]
     }
+  },
+  "Emily in Paris": {
+    "title": "Emily in Paris",
+    "description": "Nouvelles passions, nouvelles modes, nouvelle Emily ? Une Américaine génie du marketing s'épanouit en amour comme dans la vie après avoir décroché le job de ses rêves à Paris.",
+    "banner": "medias/series/emily-in-paris/emily-in-paris.jpg",
+    "video": "medias/series/emily-in-paris/emily-in-paris.mp4",
+    "IMDb": 6.8,
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt8962124/",
+    "year": 2020,
+    "genres": [
+      "Steamy Romance",
+      "Workplace Drama",
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "stars": [
+      "Lily Collins",
+      "Philippine Leroy-Beaulieu",
+      "Ashley Park"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=oSkDB9xhFqU",
+    "creators": [
+      "Darren Star"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Emily à Paris",
+          "desc": "Pleine d'idées novatrices et débordante d'une énergie très américaine, Emily débarque dans son nouveau bureau parisien. Mais, malheur, elle ne parle pas français !",
+          "video": "medias/series/emily-in-paris/1-1.mp4"
+        },
+        {
+          "title": "Masculin Féminin",
+          "desc": "Emily navigue dans les méandres de l'amour à la française quand son enthousiasme professionnel lors d'une soirée impressionne un client entreprenant... et marié.",
+          "video": "medias/series/emily-in-paris/1-2.mp4"
+        },
+        {
+          "title": "Sexy ou sexiste",
+          "desc": "Emily exprime ses réserves face à une nouvelle campagne osée, tout en jonglant avec des problèmes de plomberie, des cours de langue et des collègues désagréables.",
+          "video": "medias/series/emily-in-paris/1-3.mp4"
+        },
+        {
+          "title": "Juste un baiser",
+          "desc": "Une nouvelle connaissance aide gentiment Emily à harponner un client potentiel mais, au bureau, les affres d'une liaison mettent ses négociations en péril.",
+          "video": "medias/series/emily-in-paris/1-4.mp4"
+        },
+        {
+          "title": "Faux amis",
+          "desc": "Emily découvre que sa popularité croissante sur les réseaux sociaux lui ouvre des portes. Gabriel et Emily se retrouvent seuls lors d'une soirée entre amis.",
+          "video": "medias/series/emily-in-paris/1-5.mp4"
+        },
+        {
+          "title": "Ringarde",
+          "desc": "Lorsqu'un rendez-vous avec une maison de couture emblématique dérape pour une faute de goût, Emily trouve du réconfort auprès d'un professeur en apparence charmant.",
+          "video": "medias/series/emily-in-paris/1-6.mp4"
+        },
+        {
+          "title": "Une fin à la française",
+          "desc": "Après avoir accepté de chaperonner une actrice américaine qui vient présenter un gala, Emily voit sa nuit tourner à la catastrophe... avec une célébrité ingérable !",
+          "video": "medias/series/emily-in-paris/1-7.mp4"
+        },
+        {
+          "title": "Affaires de famille",
+          "desc": "Le week-end d'Emily dans le château d'une amie pétille comme du champagne. À Paris, Mindy revoit à contrecœur de vieilles amies, mais la soirée finit sur une bonne note.",
+          "video": "medias/series/emily-in-paris/1-8.mp4"
+        },
+        {
+          "title": "Vente aux enchères américaine à Paris",
+          "desc": "Une vente aux enchères, une robe sublime et deux créateurs d'avant-garde s'ajoutent aux soucis d'Emily, qui attire l'attention du potentiel héritier de Pierre Cadault.",
+          "video": "medias/series/emily-in-paris/1-9.mp4"
+        },
+        {
+          "title": "Défilé annulé",
+          "desc": "Sur la sellette après sa débâcle lors de la Fashion Week, Emily se démène pour élaborer un nouveau plan tout en se préparant à dire adieu à un bon ami.",
+          "video": "medias/series/emily-in-paris/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Voulez-vous coucher avec moi ?",
+          "desc": "Rongée par la culpabilité après de hot retrouvailles avec Gabriel, Emily reprend ses distances en s'accordant un week-end romantique. Mindy fait tapisserie aux toilettes.",
+          "video": "medias/series/emily-in-paris/2-1.mp4"
+        },
+        {
+          "title": "Bienvenue à Saint-Tropez !",
+          "desc": "Travailler le week-end ? Of course ! Même à Saint-Tropez, Emily ne lâche rien. Pourtant, une bourde sur les réseaux sociaux pourrait vite l'obliger à faire un long break.",
+          "video": "medias/series/emily-in-paris/2-2.mp4"
+        },
+        {
+          "title": "Bon anniversaire !",
+          "desc": "En pleins préparatifs de son dîner d'anniversaire, Emily a des vapeurs avec Camille et ses amies, et accepte un coup de main de Gabriel... pour le menu.",
+          "video": "medias/series/emily-in-paris/2-3.mp4"
+        },
+        {
+          "title": "Jules et Emily",
+          "desc": "Quand les aventures intimes d'Emily déteignent sur son job, elle concentre son énergie sur ses cours de français. Mindy ne se laissera pas impressionner par un mime !",
+          "video": "medias/series/emily-in-paris/2-4.mp4"
+        },
+        {
+          "title": "Un Anglais à Paris",
+          "desc": "Tout en pratiquant son français avec un copain de classe blasé, Emily jongle entre le lancement du restaurant de Gabriel, une soirée Chopard et une Camille machiavélique.",
+          "video": "medias/series/emily-in-paris/2-5.mp4"
+        },
+        {
+          "title": "Le point d'ébullition",
+          "desc": "La tension monte lors de la soirée d'ouverture de Chez Lavaux. Alfie hérisse Emily en sous-estimant son style et son job. Sylvie attire l'attention d'un photographe.",
+          "video": "medias/series/emily-in-paris/2-6.mp4"
+        },
+        {
+          "title": "Le cuisinier, la voleuse et l'amant",
+          "desc": "Quand Emily et Alfie cessent enfin de se chamailler, elle croit pourtant prendre une veste alors qu'elle ne l'avait qu'empruntée. Sylvie sort de ses gonds de luxe.",
+          "video": "medias/series/emily-in-paris/2-7.mp4"
+        },
+        {
+          "title": "Champagne et autres problèmes",
+          "desc": "Après un dîner suspicieusement décadent avec Alfie, Emily rejoint le château de la famille de Camille, où le champagne n'est hélas pas le seul à être sabré.",
+          "video": "medias/series/emily-in-paris/2-8.mp4"
+        },
+        {
+          "title": "Senteurs et sentiments",
+          "desc": "La patronne d'Emily à Chicago s'intéresse de plus près aux comptes de Savoir, mettant Sylvie sur les nerfs. Une cruelle révélation perturbe la jolie romance de Mindy.",
+          "video": "medias/series/emily-in-paris/2-9.mp4"
+        },
+        {
+          "title": "Une révolution française",
+          "desc": "Emily ne sait plus à quelle sainte se vouer quand un défilé de mode à Versailles déclenche une épreuve de force qui pourrait déterminer l'avenir de Savoir, et le sien.",
+          "video": "medias/series/emily-in-paris/2-10.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "J'ai deux amours",
+          "desc": "Emily change de coiffure sur un coup de tête. Pour le reste, elle traîne des pieds, n'arrivant à prendre aucune décision concernant sa vie professionnelle ou amoureuse.",
+          "video": "medias/series/emily-in-paris/3-1.mp4"
+        },
+        {
+          "title": "Qu'est-ce que ça veut dire ?",
+          "desc": "Alors que Savoir bascule vers le précipice, Emily demande de l'aide à un ancien collègue. Une tentative de détente pendant un gala fastueux tourne vite très mal.",
+          "video": "medias/series/emily-in-paris/3-2.mp4"
+        },
+        {
+          "title": "Le pigeon de la farce",
+          "desc": "Sylvie use de son charme face aux conditions de travail qui se détériorent, Mindy fait des galipettes en coulisses, et Emily prend une décision concernant son avenir.",
+          "video": "medias/series/emily-in-paris/3-3.mp4"
+        },
+        {
+          "title": "Emily part en live",
+          "desc": "En jouant les touristes à Paris, Emily décroche un petit boulot qui met son niveau de français à l'épreuve. Camille séduit une artiste mystérieuse.",
+          "video": "medias/series/emily-in-paris/3-4.mp4"
+        },
+        {
+          "title": "La Liste",
+          "desc": "Emily utilise ses contacts pour faire inscrire Sylvie sur la liste des dix personnes les plus influentes de Paris. Mindy tombe sur un vieil ami. Alfie organise une fête.",
+          "video": "medias/series/emily-in-paris/3-5.mp4"
+        },
+        {
+          "title": "Ex-en-Provence",
+          "desc": "Lors d'un événement automobile, Emily et son équipe séjournent dans un château en Provence. Champs de lavande, gastronomie et invité-surprise... Il y a de la romance dans l'air.",
+          "video": "medias/series/emily-in-paris/3-6.mp4"
+        },
+        {
+          "title": "Comment se faire larguer en beauté",
+          "desc": "L'agence Grateau se retrouve au cœur d'une double catastrophe stylistique. Après avoir reçu une invitation énigmatique, Mindy demande à Emily et Gabriel de l'accompagner.",
+          "video": "medias/series/emily-in-paris/3-7.mp4"
+        },
+        {
+          "title": "Fashion victime",
+          "desc": "L'avenir de Pierre est compromis et les rumeurs vont bon train sur l'ouverture de son magasin. Sylvie contacte une ancienne connaissance. Emily soutient Gabriel.",
+          "video": "medias/series/emily-in-paris/3-8.mp4"
+        },
+        {
+          "title": "Il y a de l'amour dans l'air",
+          "desc": "Alors qu'elle ne sait déjà plus où elle en est avec Alfie, Emily se retrouve dans une situation délicate avec le petit ami de Mindy. Gabriel se concentre sur son avenir.",
+          "video": "medias/series/emily-in-paris/3-9.mp4"
+        },
+        {
+          "title": "Oh mon beau château de cartes...",
+          "desc": "Bien occupée à discréditer un collègue et à aider Gabriel à réaliser son rêve étoilé, Emily assiste aussi à une fête champenoise... où les bulles explosent sans sommation.",
+          "video": "medias/series/emily-in-paris/3-10.mp4"
+        }
+      ],
+      "4": [
+        {
+          "title": "Balle de break",
+          "desc": "Après un mariage raté et une vidéo virale, Emily se démène pour remettre de l'ordre dans ses affaires de cœur et de bureau avant le tournoi de Roland-Garros.",
+          "video": "medias/series/emily-in-paris/4-1.mp4"
+        },
+        {
+          "title": "L'amour en fuite",
+          "desc": "D'abord inquiet, Gabriel se fâche quand Emily lui révèle un gros secret. Mindy fait une découverte choquante chez JVMA. Camille se réfugie en Normandie pour fuir ses problèmes.",
+          "video": "medias/series/emily-in-paris/4-2.mp4"
+        },
+        {
+          "title": "Au bal masqué",
+          "desc": "Gabriel se retrouve dans une situation de colocation compliquée. Emily organise un bal masqué somptueux pour la Maison Lavaux, au cours duquel sentiments et choix s'affirment.",
+          "video": "medias/series/emily-in-paris/4-3.mp4"
+        },
+        {
+          "title": "La zone grise",
+          "desc": "Emily cherche un endroit intime pour un tête-à-tête romantique, Sylvie demande une faveur pour l'inauguration du club de Laurent et l'histoire d'amour de Mindy débouche sur une impasse.",
+          "video": "medias/series/emily-in-paris/4-4.mp4"
+        },
+        {
+          "title": "Trompe-l'œil",
+          "desc": "Les faux-semblants sont de mise pour l'agence Grateau et le produit de soin qu'elle lance, et Gabriel et son étoile au Michelin. La virée aux puces de Camille tourne mal.",
+          "video": "medias/series/emily-in-paris/4-5.mp4"
+        },
+        {
+          "title": "Souvenirs de Noël",
+          "desc": "Après un changement de plan de dernière minute pour les fêtes, Emily fait une halte dans un chalet d'une station des Alpes... et découvre que les pentes sont glissantes.",
+          "video": "medias/series/emily-in-paris/4-6.mp4"
+        },
+        {
+          "title": "Lost in translation",
+          "desc": "Sylvie confie une stagiaire à Emily. La communication est brouillée entre Gabriel et Emily qui ne comprend pas ce qu'il dit. Mindy enlève le haut pour un nouveau numéro.",
+          "video": "medias/series/emily-in-paris/4-7.mp4"
+        },
+        {
+          "title": "Et vite se remettre en selle...",
+          "desc": "Le fringant sauveur d'Emily réapparaît et lui lance une invitation irrésistible. Mindy teste son spectacle au Crazy Horse. Genevieve s'incruste.",
+          "video": "medias/series/emily-in-paris/4-8.mp4"
+        },
+        {
+          "title": "Vacances romaines",
+          "desc": "Alors qu'une nouvelle voisine emménage, Emily commet l'impensable en prenant un jour de congé... pour découvrir Rome avec un charmant guide touristique.",
+          "video": "medias/series/emily-in-paris/4-9.mp4"
+        },
+        {
+          "title": "Tous les chemins mènent à Rome",
+          "desc": "Joindre l'utile à l'agréable ? Ce n'est pas ainsi qu'Emily envisage son séjour en Italie. Les planètes s'alignent pour Gabriel. Mindy trouve l'inspiration parmi les ruines.",
+          "video": "medias/series/emily-in-paris/4-10.mp4"
+        }
+      ],
+      "5": [
+        {
+          "title": "La Dolce Emily",
+          "desc": "Flairant une nouvelle opportunité, Emily n'hésite pas à salir ses talons chics tandis que Sylvie charme l'élite romaine avec le concours d'une princesse désargentée.",
+          "video": "medias/series/emily-in-paris/5-1.mp4"
+        },
+        {
+          "title": "Le vrai du faux ?",
+          "desc": "Après avoir commis un fashion faux pas, Emily s'interroge sur ce qui est authentique ou non tout autour d'elle. Mindy est engagée pour participer à un cocktail grandiose.",
+          "video": "medias/series/emily-in-paris/5-2.mp4"
+        },
+        {
+          "title": "Soucis d'Intimissimi",
+          "desc": "Le tournage d'une pub finit en roue libre à cause des querelles de Sylvie et Giancarlo sur le plateau. Une campagne de lingerie sexy incite Emily à s'ouvrir davantage.",
+          "video": "medias/series/emily-in-paris/5-3.mp4"
+        },
+        {
+          "title": "Rome est tombée",
+          "desc": "Sylvie s'apprête à affronter les critiques lors d'une première à Solitano. Mindy évite une discussion gênante. Emily découvre la rançon du succès sur les réseaux sociaux.",
+          "video": "medias/series/emily-in-paris/5-4.mp4"
+        },
+        {
+          "title": "Bonjour, Paris !",
+          "desc": "À peine rentrée à Paris, Emily doit sauver l'inauguration d'un hôtel après une annulation de dernière minute. Sylvie est obligée de tenir la chandelle... chez elle.",
+          "video": "medias/series/emily-in-paris/5-5.mp4"
+        },
+        {
+          "title": "Celui qui allait à l'ambassade",
+          "desc": "Emily a le mal du pays et s'autorise une pause sucrée sur le sol américain. Après une formation éclair en réseaux sociaux, Sylvie espionne une ancienne amie sur Insta.",
+          "video": "medias/series/emily-in-paris/5-6.mp4"
+        },
+        {
+          "title": "Deuxième chance",
+          "desc": "En pleine conférence, une annonce fracassante surprend le monde de la mode. Une marque d'eau de luxe engage l'agence Grateau pour se maintenir à flot après un tsunami médiatique.",
+          "video": "medias/series/emily-in-paris/5-7.mp4"
+        },
+        {
+          "title": "Prise de position",
+          "desc": "Emily charme le chien d'un styliste pour décrocher un rendez-vous. De son côté, Sylvie se retrouve au cœur d'un scandale lors d'une fête de famille mouvementée.",
+          "video": "medias/series/emily-in-paris/5-8.mp4"
+        },
+        {
+          "title": "La Belle Époque",
+          "desc": "Les rêves de Marcello ne tiennent qu'à un fil quand il n'a que deux semaines pour se préparer à un événement prisé. Une visite imprévue ravive chez Emily le souvenir du passé.",
+          "video": "medias/series/emily-in-paris/5-9.mp4"
+        },
+        {
+          "title": "Veni, Vidi, Venise",
+          "desc": "Dans le chaos débordant de la Fashion Week de Venise, Emily se démène pour rester à flot. À Paris, l'agence fait face à une véritable déferlante.",
+          "video": "medias/series/emily-in-paris/5-10.mp4"
+        }
+      ]
+    }
   }
 }

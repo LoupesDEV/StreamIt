@@ -3663,5 +3663,40 @@
       "Rick Jaffa",
       "Amanda Silver"
     ]
+  },
+  "Running Man": {
+    "title": "Running Man",
+    "description": "Dans un futur proche, les participants du jeu télévisé Running Man sont traqués en direct par des chasseurs professionnels. Ils doivent survivre 30 jours sous les yeux d’un public avide de violence. Ben Richards, prêt à tout pour sauver sa fille malade, est forcé de participer par un producteur impitoyable. Mais son courage et sa révolte feront de lui le favori du public… et la pire menace du système.",
+    "banner": "medias/films/running-man/running-man.jpg",
+    "video": "medias/films/running-man/running-man.mp4",
+    "IMDb": 6.5,
+    "IMDb_link": "https://www.imdb.com/title/tt14107334/",
+    "year": 2025,
+    "genres": [
+      "Conspiracy Thriller",
+      "Dark Comedy",
+      "Dystopian Sci-Fi",
+      "One-Person Army Action",
+      "Political Thriller",
+      "Survival",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Glen Powell",
+      "Alyssa Benn",
+      "Sienna Benn"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=Px6ErasfdXI",
+    "directors": [
+      "Edgar Wright"
+    ],
+    "writers": [
+      "Edgar Wright",
+      "Michael Bacall",
+      "Stephen King"
+    ]
   }
 }

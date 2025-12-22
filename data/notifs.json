@@ -1,9 +1,16 @@
 [
     {
+        "id": 3,
+        "type": "series",
+        "title": "Nouvelle Série Disponible",
+        "message": "Regardez ''Emily in Paris'' dès maintenant sur StreamIt.",
+        "time": "22 Déc 2025"
+    },
+    {
         "id": 2,
         "type": "films",
         "title": "Nouveaux Films Ajoutés",
-        "message": "Découvrez Avatar et Avatar 2, maintenant disponibles sur StreamIt.",
+        "message": "Découvrez ''Avatar'', ''Avatar 2'' & ''Running Man'', maintenant disponibles sur StreamIt.",
         "time": "22 Déc 2025"
     },
     {
