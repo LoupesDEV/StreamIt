@@ -12,7 +12,10 @@ if (msg && errorMessageEl) {
 }
 
 if (errorCodeEl) {
-  errorCodeEl.textContent = (paramCode || "404").toString();
+  if (paramCode === "403") {
+    errorCodeEl.textContent = "403 - Forbidden";
+  } else
+    errorCodeEl.textContent = (paramCode || "404").toString();
 }
 
 function handleErrorAndRedirect(message, code = 404) {
