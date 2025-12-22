@@ -1,59 +1,66 @@
-/**
- * @module utils
- * @description
- * Provides utility functions for data access, string manipulation, and function debouncing.
- * Used across multiple modules to simplify common operations.
- */
+// --- UTILS ---
+export function playVideo(src) {
+    const overlay = document.getElementById('videoOverlay');
+    const player = document.getElementById('mainPlayer');
 
-/**
- * Retrieves a film object by its title from the film's data.
- *
- * @function
- * @param {string} title - The title of the film to retrieve.
- * @returns {Object} The film object containing metadata like title, description, genres, etc.
- */
-function getFilmByTitle(title) {
-  return filmsData[title];
+    if (!src) {
+        alert("Vidéo non disponible pour le moment.");
+        return;
+    }
+
+    player.src = src;
+    overlay.classList.remove('hidden');
+    setTimeout(() => {
+        player.play().catch(e => console.log("Autoplay bloqué par le navigateur", e));
+    }, 50);
 }
 
-/**
- * Retrieves a series object by its title from the series data.
- *
- * @function
- * @param {string} title - The title of the series to retrieve.
- * @returns {Object} The series object containing metadata like title, description, seasons, etc.
- */
-function getSeriesByTitle(title) {
-  return seriesData[title];
+export function closeVideo() {
+    const overlay = document.getElementById('videoOverlay');
+    const player = document.getElementById('mainPlayer');
+    player.pause();
+    player.src = "";
+    overlay.classList.add('hidden');
 }
 
-/**
- * Escapes backslashes and single quotes in a string for safe HTML/JS injection.
- *
- * @function
- * @param {string} str - The string to escape.
- * @returns {string} The escaped string.
- */
-function escapeForHTML(str) {
-  return str.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+export function toggleNotifs() {
+    const dropdown = document.getElementById('notifDropdown');
+    dropdown.classList.toggle('active');
 }
 
-/**
- * Creates a debounced version of a function that delays its execution.
- *
- * @function
- * @param {Function} func - The function to debounce.
- * @param {number} wait - The delay in milliseconds.
- * @returns {Function} A debounced version of the original function.
- */
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
+export function toggleMobileMenu() {
+    const menu = document.getElementById('mobileMenuPanel');
+    const search = document.getElementById('mobileSearchPanel');
+
+    if (search.classList.contains('active')) {
+        search.classList.remove('active');
+    }
+
+    menu.classList.toggle('active');
+}
+
+export function toggleMobileSearch() {
+    const search = document.getElementById('mobileSearchPanel');
+    const menu = document.getElementById('mobileMenuPanel');
+
+    if (menu.classList.contains('active')) {
+        menu.classList.remove('active');
+    }
+
+    search.classList.toggle('active');
+
+    if (search.classList.contains('active')) {
+        document.getElementById('mobileSearchInput').focus();
+    }
+}
+
+export function showLoader() {
+    document.getElementById('loader').classList.remove('hidden');
+    document.getElementById('loader').style.opacity = '1';
+}
+
+export function hideLoader() {
+    const loader = document.getElementById('loader');
+    loader.style.opacity = '0';
+    setTimeout(() => loader.classList.add('hidden'), 700);
 }

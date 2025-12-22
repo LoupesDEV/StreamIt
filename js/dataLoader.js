@@ -1,34 +1,31 @@
-/**
- * @module dataLoader
- * @description
- * Loads and parses film and series data from external sources or local files.
- * Provides functions to fetch, validate, and structure media datasets.
- */
+export async function fetchAllData() {
+    try {
+        await new Promise(r => setTimeout(r, 800));
 
-/**
- * Asynchronously loads film and series data from external JSON files.
- *
- * Fetches `films_data.json` and `series_data.json` from the `data` directory,
- * parses their contents, and assigns them to the global variables `filmsData`
- * and `seriesData`. Logs a success message upon completion. If an error occurs
- * during fetching or parsing, logs the error and displays a user-friendly
- * message using `showNoResults`.
- *
- * @async
- * @function loadData
- * @returns {Promise<void>} Resolves when data is loaded or an error is handled.
- */
-async function loadData() {
-  try {
-    const filmsResponse = await fetch("data/films_data.json");
-    filmsData = await filmsResponse.json();
+        const [filmsRes, seriesRes] = await Promise.all([
+            fetch('data/films.json'),
+            fetch('data/series.json')
+        ]);
 
-    const seriesResponse = await fetch("data/series_data.json");
-    seriesData = await seriesResponse.json();
+        if (!filmsRes.ok || !seriesRes.ok) throw new Error("Erreur de chargement des fichiers JSON");
 
-    console.log("Data loaded successfully");
-  } catch (error) {
-    console.error("Error loading data:", error);
-    showNoResults("Erreur de chargement des données");
-  }
+        const films = await filmsRes.json();
+        const series = await seriesRes.json();
+
+        return { films, series };
+    } catch (error) {
+        console.error("Erreur Data Loader:", error);
+        return { films: {}, series: {} };
+    }
+}
+
+export async function fetchNotifs() {
+    try {
+        const res = await fetch('data/notifs.json');
+        if (!res.ok) throw new Error("Erreur notifs");
+        return await res.json();
+    } catch (error) {
+        console.warn("Impossible de charger les notifications");
+        return [];
+    }
 }
