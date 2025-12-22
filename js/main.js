@@ -198,7 +198,12 @@ function handleSearch(e) {
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
     const res = all.filter(i => i.title.toLowerCase().includes(q));
 
-    document.getElementById('sectionTitle').innerHTML = `Résultats pour "${q}" <span class="text-gray-500 text-sm ml-2">(${res.length})</span>`;
+    const sectionTitleEl = document.getElementById('sectionTitle');
+    sectionTitleEl.textContent = `Résultats pour "${q}" `;
+    const countSpan = document.createElement('span');
+    countSpan.className = 'text-gray-500 text-sm ml-2';
+    countSpan.textContent = `(${res.length})`;
+    sectionTitleEl.appendChild(countSpan);
     renderGrid(res);
 }
 
