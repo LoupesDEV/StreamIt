@@ -1,0 +1,16 @@
+[
+    {
+        "id": 2,
+        "type": "films",
+        "title": "Nouveaux Films Ajoutés",
+        "message": "Découvrez Avatar et Avatar 2, maintenant disponibles sur StreamIt.",
+        "time": "22 Déc 2025"
+    },
+    {
+        "id": 1,
+        "type": "update",
+        "title": "Mise à jour",
+        "message": "StreamIt a été mis à jour vers la version 2.1.0.",
+        "time": "22 Déc 2025"
+    }
+]
