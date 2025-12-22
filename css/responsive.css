@@ -8,8 +8,16 @@
         font-size: 1.5rem;
     }
 
+    #mobileMenuPanel {
+        background-color: #000000 !important;
+    }
+
     #mobileMenuPanel.active {
         transform: translate(0);
+    }
+
+    #mobileMenuPanel button {
+        background-color: transparent !important;
     }
 
     #mobileSearchPanel.active {
