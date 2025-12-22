@@ -15,7 +15,7 @@ export function setupHero(item) {
     document.getElementById('heroYear').innerText = item.year;
     document.getElementById('heroType').innerText = isSerie ? 'Série' : 'Film';
 
-    let durationText = "2h 15m";
+    let durationText = item.duration || "2h 15min";
     if (isSerie && item.seasons) {
         const nbSeasons = Object.keys(item.seasons).length;
         durationText = nbSeasons + (nbSeasons > 1 ? " Saisons" : " Saison");
@@ -54,7 +54,10 @@ export function openDetails(item) {
     document.getElementById('detailDesc').innerText = item.description;
     document.getElementById('detailYear').innerText = item.year;
 
-    let durationText = "2h 15m";
+    const matchScore = item.IMDb ? Math.round(item.IMDb * 10) : 90;
+    document.getElementById('detailMatch').innerText = `${matchScore}% Recommandé`;
+
+    let durationText = item.duration || "2h 15min";
     if (isSerie && item.seasons) {
         const nbSeasons = Object.keys(item.seasons).length;
         durationText = nbSeasons + (nbSeasons > 1 ? " Saisons" : " Saison");

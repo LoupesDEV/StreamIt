@@ -4,6 +4,7 @@
     "description": "Nous sommes en 50 avant J.C. L'Impératrice de Chine est emprisonnée suite à un coup d'État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l'impératrice, s'enfuit en Gaule pour demander de l'aide aux deux valeureux guerriers Astérix et Obélix, dotés d'une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l'Empire du Milieu…",
     "banner": "medias/films/asterix-obelix-l-empire-du-milieu/asterix-obelix-l-empire-du-milieu.jpg",
     "IMDb": 5.1,
+    "duration": "1h 50min",
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
     "genres": [
@@ -1545,6 +1546,7 @@
     "description": "« À l'ouest rien de nouveau » raconte l'histoire poignante d'un jeune soldat allemand sur le front occidental pendant la Première Guerre mondiale. En première ligne, Paul et ses camarades voient l'euphorie initiale se muer en désespoir et en épouvante quand ils se retrouvent à défendre leurs vies au fond des tranchées. Réalisé par Edward Berger, le film s'inspire du bestseller éponyme d'Erich Maria Remarque.",
     "banner": "medias/films/a-l-ouest-rien-de-nouveau/a-l-ouest-rien-de-nouveau.jpg",
     "IMDb": 7.8,
+    "duration": "2h 26min",
     "IMDb_link": "https://www.imdb.com/title/tt1016150/",
     "year": 2022,
     "genres": [
@@ -1577,6 +1579,7 @@
     "description": "Enfant, Eve Macarro a assisté impuissante au meurtre de son père par une bande de tueurs à gages. Devenue adulte, elle consacre sa vie au ballet et… au combat. Formée selon les traditions ancestrales de la Ruska Roma, Eve est devenue une redoutable combattante - l'égale ou presque du légendaire John Wick, qu'elle croise parfois dans les couloirs de l'Hôtel Continental, à New York. Quand la Directrice la juge enfin prête pour une mission, Eve voit l'occasion de régler ses comptes avec les meurtriers de son père. Quitte à devoir affronter, au passage, John Wick lui-même.",
     "banner": "medias/films/ballerina/ballerina.jpg",
     "IMDb": 7,
+    "duration": "2h 04min",
     "IMDb_link": "https://www.imdb.com/title/tt7181546/",
     "year": 2025,
     "genres": [
@@ -2752,6 +2755,7 @@
     "banner": "medias/films/aquaman/aquaman.jpg",
     "video": "medias/films/aquaman/aquaman.mp4",
     "IMDb": 6.8,
+    "duration": "2h 23min",
     "IMDb_link": "https://www.imdb.com/title/tt1477834/",
     "year": 2018,
     "genres": [
@@ -2945,6 +2949,7 @@
     "banner": "medias/films/28-jours-plus-tard/28-jours-plus-tard.jpg",
     "video": "medias/films/28-jours-plus-tard/28-jours-plus-tard.mp4",
     "IMDb": 7.5,
+    "duration": "1h 54min",
     "IMDb_link": "https://www.imdb.com/title/tt0289043/",
     "year": 2002,
     "genres": [
@@ -2978,6 +2983,7 @@
     "banner": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.jpg",
     "video": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.mp4",
     "IMDb": 6.8,
+    "duration": "1h 40min",
     "IMDb_link": "https://www.imdb.com/title/tt0463854/",
     "year": 2007,
     "genres": [
@@ -3005,6 +3011,7 @@
     "banner": "medias/films/28-ans-plus-tard/28-ans-plus-tard.jpg",
     "video": "medias/films/28-ans-plus-tard/28-ans-plus-tard.mp4",
     "IMDb": 6.6,
+    "duration": "1h 55min",
     "IMDb_link": "https://www.imdb.com/title/tt10548174/",
     "year": 2025,
     "genres": [
@@ -3476,6 +3483,7 @@
     "banner": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.jpg",
     "video": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.mp4",
     "IMDb": 5.6,
+    "duration": "2h 04min",
     "IMDb_link": "https://www.imdb.com/title/tt9663764/",
     "year": 2023,
     "genres": [
