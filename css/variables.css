@@ -1,18 +1,15 @@
 :root {
-    /* Couleurs */
     --color-bg: #050505;
     --color-primary: #DC2626;
     --color-primary-hover: #B91C1C;
     --color-text: #FFFFFF;
     --color-text-muted: #9CA3AF;
 
-    /* Effets de Verre (Liquid Glass) */
     --glass-bg: rgba(20, 20, 20, 0.6);
     --glass-border: rgba(255, 255, 255, 0.08);
     --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     --glass-blur: 20px;
 
-    /* Interface */
     --nav-bg: rgba(5, 5, 5, 0.8);
     --card-bg: #1a1a1a;
     --overlay-bg: #050505;

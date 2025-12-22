@@ -155,3 +155,17 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: var(--color-primary);
 }
+
+select {
+    background-color: var(--card-bg) !important;
+    color: white !important;
+}
+
+select option {
+    background-color: var(--card-bg) !important;
+    color: white !important;
+}
+
+select:focus {
+    background-color: var(--card-bg) !important;
+}
