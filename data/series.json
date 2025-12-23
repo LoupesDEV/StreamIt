@@ -2,7 +2,8 @@
   "Les 100": {
     "title": "Les 100",
     "description": "Après une apocalypse nucléaire causée par l'Homme lors d'une troisième Guerre Mondiale, les 318 survivants recensés se réfugient dans des stations spatiales et parviennent à y vivre et à se reproduire, atteignant le nombre de 4000. Mais 97 ans plus tard, le vaisseau mère, l'Arche, est en piteux état. Une centaine de jeunes délinquants emprisonnés au fil des années pour des crimes ou des trahisons sont choisis comme cobayes par les autorités pour redescendre sur Terre et tester les chances de survie. Dès leur arrivée, ils découvrent un nouveau monde dangereux mais fascinant...",
-    "banner": "medias/series/les-100/les-100.jpg",
+    "poster": "medias/series/les-100/poster.jpg",
+    "banner": "medias/series/les-100/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2661044/",
     "year": 2014,
@@ -26,7 +27,6 @@
         {
           "title": "L'exil",
           "desc": "Près d'un siècle après une apocalypse nucléaire, cent jeunes prisonniers d'une station spatiale vieillissante sont envoyés sur Terre pour y tester les conditions de vie.",
-          "duration": "42min",
           "video": "medias/series/les-100/1-1.mp4"
         },
         {
@@ -542,7 +542,8 @@
   "Chernobyl": {
     "title": "Chernobyl",
     "description": "L'histoire vraie de la pire catastrophe causée par l'homme et de ceux qui ont sacrifié leur vie pour sauver l'Europe du drame.",
-    "banner": "medias/series/chernobyl/chernobyl.jpg",
+    "poster": "medias/series/chernobyl/poster.jpg",
+    "banner": "medias/series/chernobyl/banner.jpg",
     "IMDb": 9.3,
     "IMDb_link": "https://www.imdb.com/title/tt7366338/",
     "year": 2019,
@@ -598,7 +599,8 @@
   "Game of Thrones": {
     "title": "Game of Thrones",
     "description": "Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. La confrérie de la Garde de Nuit, protégeant le Royaume de toute créature pouvant provenir d'au-delà du Mur protecteur, n'a plus les ressources nécessaires pour assurer la sécurité de tous. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de fer, le symbole du pouvoir absolu.",
-    "banner": "medias/series/game-of-thrones/game-of-thrones.jpg",
+    "poster": "medias/series/game-of-thrones/poster.jpg",
+    "banner": "medias/series/game-of-thrones/banner.jpg",
     "IMDb": 9.2,
     "IMDb_link": "https://www.imdb.com/title/tt0944947/",
     "year": 2011,
@@ -1011,7 +1013,8 @@
   "House of the Dragon": {
     "title": "House of the Dragon",
     "description": "Près de 200 ans avant les évènements de Games of Thrones, le continent de Westeros est en proie à de nombreux dangers. Une guerre civile se prépare dans différents endroits du royaume : cette guerre sera appelée la Danse des Dragons. De son côté, la maison Targaryen se disloque peu à peu et le règne des dragons est menacé.",
-    "banner": "medias/series/house-of-the-dragon/house-of-the-dragon.jpg",
+    "poster": "medias/series/house-of-the-dragon/poster.jpg",
+    "banner": "medias/series/house-of-the-dragon/banner.jpg",
     "IMDb": 8.3,
     "IMDb_link": "https://www.imdb.com/title/tt11198330/",
     "year": 2022,
@@ -1120,7 +1123,7 @@
         },
         {
           "title": "La semaison rouge",
-          "desc": "Rhaenyra cherche à prendre l'avantage par des moyens inhabituels et Daemon fait pression sur un jeune seigneur pour qu'il soulève des bannerets...",
+          "desc": "Rhaenyra cherche à prendre l'avantage par des moyens inhabituels et Daemon fait pression sur un jeune seigneur pour qu'il soulève des posterets...",
           "video": "medias/series/house-of-the-dragon/2-7.mp4"
         },
         {
@@ -1134,7 +1137,8 @@
   "The Last of Us": {
     "title": "The Last of Us",
     "description": "Vingt ans après la destruction de la civilisation moderne, Joel, un survivant endurci, est engagé pour faire sortir Ellie, une jeune fille de 14 ans, d'une zone de quarantaine oppressante. Ce qui n'est au départ qu'un petit travail se transforme rapidement en un voyage brutal et époustouflant, alors que dans ce duo improbable, chacun dépend de l'autre pour sa survie.",
-    "banner": "medias/series/the-last-of-us/the-last-of-us.jpg",
+    "poster": "medias/series/the-last-of-us/poster.jpg",
+    "banner": "medias/series/the-last-of-us/banner.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt3581920/",
     "year": 2023,
@@ -1250,7 +1254,8 @@
   "Breaking Bad": {
     "title": "Breaking Bad",
     "description": "Walter White, professeur de chimie dans un lycée d'Albuquerque au Nouveau-Mexique, est atteint d'un cancer pulmonaire en phase terminale. Il s'associe à Jesse Pinkman, un ancien élève, cancre, toxicomane et dealer, afin d'assurer l'avenir financier de sa famille après son décès. L'improbable duo va alors synthétiser et commercialiser la plus pure méthamphétamine en cristaux jamais vue dans les Amériques.",
-    "banner": "medias/series/breaking-bad/breaking-bad.jpg",
+    "poster": "medias/series/breaking-bad/poster.jpg",
+    "banner": "medias/series/breaking-bad/banner.jpg",
     "IMDb": 9.5,
     "IMDb_link": "https://www.imdb.com/fr/title/tt0903747/",
     "year": 2008,
@@ -1599,7 +1604,8 @@
   "Peaky Blinders": {
     "title": "Peaky Blinders",
     "description": "En 1919, à Birmingham, soldats, révolutionnaires politiques et criminels combattent pour se faire une place dans le paysage industriel de l'après-Guerre. Le Parlement s'attend à une violente révolte, et Winston Churchill mobilise des forces spéciales pour contenir les menaces. La famille Shelby compte parmi les membres les plus redoutables. Surnommés les 'Peaky Blinders' par rapport à leur utilisation de lames de rasoir cachées dans leurs casquettes, ils tirent principalement leur argent de paris et de vol. Tommy Shelby, le plus dangereux de tous, va devoir faire face à l'arrivée de Campbell, un impitoyable chef de la police qui a pour mission de nettoyer la ville. Ne doit-il pas se méfier tout autant de la ravissante Grace Burgess ? Fraîchement installée dans le voisinage, celle-ci semble cacher un mystérieux passé et un dangereux secret.",
-    "banner": "medias/series/peaky-blinders/peaky-blinders.jpg",
+    "poster": "medias/series/peaky-blinders/poster.jpg",
+    "banner": "medias/series/peaky-blinders/banner.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2442560/",
     "year": 2013,
@@ -1816,7 +1822,8 @@
   "Under The Dome": {
     "title": "Under The Dome",
     "description": "D'après le roman du même nom de Stephen King, cette émission suit les habitants de Chester's Mill, une petite ville des États-Unis où les événements exceptionnels sont rares. Mais un jour, un dôme invisible apparaît et englobe toute la ville. Les habitants sont pris au piège et ne peuvent plus sortir de la ville, et personne ne peut y entrer. Ils doivent dorénavant se soutenir mutuellement pour traverser cette épreuve, mais l'isolement du monde extérieur mettra à rude épreuve la communauté.",
-    "banner": "medias/series/under-the-dome/under-the-dome.jpg",
+    "poster": "medias/series/under-the-dome/poster.jpg",
+    "banner": "medias/series/under-the-dome/banner.jpg",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt1553656/",
     "year": 2013,
@@ -2043,7 +2050,8 @@
   "From": {
     "title": "From",
     "description": "Découvrez le mystère d'une ville cauchemardesque dans le centre des États-Unis qui piège tous ceux qui y entrent. Alors que les habitants réticents se battent pour garder un sentiment de normalité et cherchent une issue, ils doivent également survivre aux menaces de la forêt environnante, y compris les créatures terrifiantes qui sortent lorsque le soleil se couche.",
-    "banner": "medias/series/from/from.jpg",
+    "poster": "medias/series/from/poster.jpg",
+    "banner": "medias/series/from/banner.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt9813792/",
     "year": 2022,
@@ -2226,7 +2234,8 @@
   "Le Seigneur des anneaux : Les Anneaux de pouvoir": {
     "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
     "description": "Divers personnages, connus et inconnus, doivent faire face à la résurgence du mal en Terre du Milieu. Des profondeurs des Montagnes de Brume aux forêts majestueuses du Lindon, de l'île des Rois de Númenor aux contrées les plus éloignées du monde, ces royaumes et personnages vont forger un héritage qui demeurera bien après leur disparition.",
-    "banner": "medias/series/le-seigneur-des-anneaux-les-anneaux-de-pouvoir/le-seigneur-des-anneaux-les-anneaux-de-pouvoir.jpg",
+    "poster": "medias/series/le-seigneur-des-anneaux-les-anneaux-de-pouvoir/poster.jpg",
+    "banner": "medias/series/le-seigneur-des-anneaux-les-anneaux-de-pouvoir/banner.jpg",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt7631058/",
     "year": 2022,
@@ -2340,7 +2349,8 @@
   "Le Jeu de la dame": {
     "title": "Le Jeu de la dame",
     "description": "Dans les années 1950, une jeune orpheline qui révèle un talent étonnant pour les échecs s'envole vers une gloire improbable tout en se battant contre ses addictions.",
-    "banner": "medias/series/le-jeu-de-la-dame/le-jeu-de-la-dame.jpg",
+    "poster": "medias/series/le-jeu-de-la-dame/poster.jpg",
+    "banner": "medias/series/le-jeu-de-la-dame/banner.jpg",
     "IMDb": 8.5,
     "IMDb_link": "https://www.imdb.com/title/tt10048342/",
     "year": 2020,
@@ -2404,7 +2414,8 @@
   "Alice in Borderland": {
     "title": "Alice in Borderland",
     "description": "Un gamer paumé et ses deux amis se retrouvent dans un Tokyo parallèle, où ils sont contraints de participer à une série de jeux sadiques pour survivre.",
-    "banner": "medias/series/alice-in-borderland/alice-in-borderland.jpg",
+    "poster": "medias/series/alice-in-borderland/poster.jpg",
+    "banner": "medias/series/alice-in-borderland/banner.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt10795658/",
     "year": 2020,
@@ -2519,7 +2530,8 @@
   "Vikings": {
     "title": "Vikings",
     "description": "Les exploits d'un groupe de vikings de la fin du 8ème siècle jusqu'au milieu du 11ème, mené par Ragnar Lodbrok, l'un des plus populaires héros viking de tous les temps, qui a régné quelques temps sur le Danemark et la Suède...",
-    "banner": "medias/series/vikings/vikings.jpg",
+    "poster": "medias/series/vikings/poster.jpg",
+    "banner": "medias/series/vikings/banner.jpg",
     "IMDb": 8.5,
     "IMDb_link": "https://www.imdb.com/title/tt2306299/",
     "year": 2013,
@@ -3006,7 +3018,8 @@
   "Silo": {
     "title": "Silo",
     "description": "Dans un monde futur dévasté et toxique, des milliers de survivants habitent un gigantesque silo souterrain. Après la transgression d'une règle d'or par leur shérif et la mort mystérieuse de plusieurs résidents, Juliette, une mécanicienne, perce peu à peu les terribles secrets du Silo.",
-    "banner": "medias/series/silo/silo.jpg",
+    "poster": "medias/series/silo/poster.jpg",
+    "banner": "medias/series/silo/banner.jpg",
     "IMDb": 8.1,
     "IMDb_link": "https://www.imdb.com/title/tt14688458/",
     "year": 2023,
@@ -3136,7 +3149,8 @@
   "Black Mirror": {
     "title": "Black Mirror",
     "description": "Chaque épisode de cette anthologie montre la dépendance des hommes vis-à-vis de tout ce qui a un écran...",
-    "banner": "medias/series/black-mirror/black-mirror.jpg",
+    "poster": "medias/series/black-mirror/poster.jpg",
+    "banner": "medias/series/black-mirror/banner.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt2085059/",
     "year": 2011,
@@ -3308,7 +3322,8 @@
   "Dark": {
     "title": "Dark",
     "description": "Un enfant disparu lance quatre familles dans une quête éperdue pour trouver des réponses. La chasse au coupable fait émerger les péchés et les secrets d'une petite ville.",
-    "banner": "medias/series/dark/dark.jpg",
+    "poster": "medias/series/dark/poster.jpg",
+    "banner": "medias/series/dark/banner.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt5753856/",
     "year": 2017,
@@ -3476,7 +3491,8 @@
   "Squid Game": {
     "title": "Squid Game",
     "description": "Tentés par un prix alléchant en cas de victoire malheureusement, des centaines de joueurs désargentés acceptent de s'affronter lors de jeux pour enfants aux enjeux mortels.",
-    "banner": "medias/series/squid-game/squid-game.jpg",
+    "poster": "medias/series/squid-game/poster.jpg",
+    "banner": "medias/series/squid-game/banner.jpg",
     "IMDb": 8,
     "IMDb_link": "https://www.imdb.com/title/tt10919420//",
     "year": 2021,
@@ -3623,7 +3639,8 @@
   "Dahmer : Monstre - L'histoire de Jeffrey Dahmer": {
     "title": "Dahmer : Monstre - L'histoire de Jeffrey Dahmer",
     "description": "Entre 1978 et 1991, Jeffrey Dahmer a pris la vie de dix-sept personnes innocentes. La série Dahmer : Monstre - L'histoire de Jeffrey Dahmer se penche sur ces crimes abjects du point de vue des victimes, jusqu'à présent négligées. Leurs communautés ont été particulièrement pénalisées par le racisme systémique et les failles institutionnelles de la police qui ont permis à l'un des tueurs en série les plus célèbres d'Amérique de continuer à se livrer à sa folie meurtrière à la barbe des autorités pendant plus de dix ans.",
-    "banner": "medias/series/dahmer-monstre-l-histoire-de-jeffrey-dahmer/dahmer-monstre-l-histoire-de-jeffrey-dahmer.jpg",
+    "poster": "medias/series/dahmer-monstre-l-histoire-de-jeffrey-dahmer/poster.jpg",
+    "banner": "medias/series/dahmer-monstre-l-histoire-de-jeffrey-dahmer/banner.jpg",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt24513650//",
     "year": 2022,
@@ -3698,7 +3715,8 @@
   "Better Call Saul": {
     "title": "Better Call Saul",
     "description": "MenuMenuRecherchez des films, séries, animés ..Ctrl + QSe connecterS'inscrire->",
-    "banner": "medias/series/better-call-saul/better-call-saul.jpg",
+    "poster": "medias/series/better-call-saul/poster.jpg",
+    "banner": "medias/series/better-call-saul/banner.jpg",
     "IMDb": 9.0,
     "IMDb_link": "https://www.imdb.com/title/tt3032476/",
     "year": 2015,
@@ -4053,7 +4071,8 @@
   "La Chute de la maison Usher": {
     "title": "La Chute de la maison Usher",
     "description": "Basée sur des œuvres d'Edgar Allan Poe, cette série malfaisante suit une dynastie familiale qui s'effondre lorsque ses héritiers commencent mystérieusement à mourir.",
-    "banner": "medias/series/la-chute-de-la-maison-usher/la-chute-de-la-maison-usher.jpg",
+    "poster": "medias/series/la-chute-de-la-maison-usher/poster.jpg",
+    "banner": "medias/series/la-chute-de-la-maison-usher/banner.jpg",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt15567174/",
     "year": 2023,
@@ -4119,7 +4138,8 @@
   "The Walking Dead": {
     "title": "The Walking Dead",
     "description": "Après une apocalypse, ayant transformé la quasi-totalité de la population en zombies, un groupe d'hommes et de femmes, mené par le shérif adjoint Rick Grimes, tente de survivre… Ensemble, ils vont devoir, tant bien que mal, faire face à ce nouveau monde, devenu méconnaissable, à travers leur périple dans le Sud profond des États-Unis.",
-    "banner": "medias/series/the-walking-dead/the-walking-dead.jpg",
+    "poster": "medias/series/the-walking-dead/poster.jpg",
+    "banner": "medias/series/the-walking-dead/banner.jpg",
     "IMDb": 8.1,
     "IMDb_link": "https://www.imdb.com/title/tt1520211/",
     "year": 2010,
@@ -5052,7 +5072,8 @@
   "Qui a tué Sara ?": {
     "title": "Qui a tué Sara ?",
     "description": "Après 18 ans de prison, Álex se venge de la famille Lazcano qui l'a accusé à tort du meurtre de sa sœur Sara pour sauver sa réputation.",
-    "banner": "medias/series/qui-a-tue-sara/qui-a-tue-sara.jpg",
+    "poster": "medias/series/qui-a-tue-sara/poster.jpg",
+    "banner": "medias/series/qui-a-tue-sara/banner.jpg",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt11937816/",
     "year": 2021,
@@ -5212,7 +5233,8 @@
   "Prison Break": {
     "title": "Prison Break",
     "description": "Michael Scofield s'engage dans une véritable lutte contre la montre : son frère Lincoln est dans le couloir de la mort, en attente de son exécution. Persuadé de son innocence mais à court de solutions, Michael décide de se faire incarcérer à son tour dans le pénitencier d'état de Fox River pour organiser leur évasion...",
-    "banner": "medias/series/prison-break/prison-break.jpg",
+    "poster": "medias/series/prison-break/poster.jpg",
+    "banner": "medias/series/prison-break/banner.jpg",
     "IMDb": 8.3,
     "IMDb_link": "https://www.imdb.com/title/tt0455275/",
     "year": 2005,
@@ -5584,7 +5606,8 @@
   "The Night Agent": {
     "title": "The Night Agent",
     "description": "Lorsqu'un agent du FBI répond à l'appel téléphonique nocturne d'une experte en cybersécurité, ils se retrouvent à dénouer un écheveau de complots politiques qui ne cesse de s'étendre.",
-    "banner": "medias/series/the-night-agent/the-night-agent.jpg",
+    "poster": "medias/series/the-night-agent/poster.jpg",
+    "banner": "medias/series/the-night-agent/banner.jpg",
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt13918776/",
     "year": 2023,
@@ -5713,7 +5736,8 @@
   "Stranger Things": {
     "title": "Stranger Things",
     "description": "Quand un jeune garçon disparaît, une petite ville découvre une affaire mystérieuse, des expériences secrètes, des forces surnaturelles terrifiantes... et une fillette.",
-    "banner": "medias/series/stranger-things/stranger-things.jpg",
+    "poster": "medias/series/stranger-things/poster.jpg",
+    "banner": "medias/series/stranger-things/banner.jpg",
     "IMDb": 8.6,
     "IMDb_link": "https://www.imdb.com/title/tt4574334/",
     "year": 2016,
@@ -5945,7 +5969,8 @@
   "Cobra Kai": {
     "title": "Cobra Kai",
     "description": "Ennemis acharnés. Dojos en guerre. Et du sang neuf. Johnny et Daniel ravivent leur rivalité dans cette série qui fait suite à la saga \"Karaté Kid\".",
-    "banner": "medias/series/cobra-kai/cobra-kai.jpg",
+    "poster": "medias/series/cobra-kai/poster.jpg",
+    "banner": "medias/series/cobra-kai/banner.jpg",
     "IMDb": 8.4,
     "IMDb_link": "https://www.imdb.com/title/tt7221388/",
     "year": 2018,
@@ -6311,7 +6336,8 @@
   "La Peste": {
     "title": "La Peste",
     "description": "En 2029, alors que l'on a appris à vivre avec les variants saisonniers du Covid, on découvre dans cette ville du Sud un nouveau variant du bacille de la peste. Faute de traitement, le gouvernement central décide, afin d'épargner le reste du pays, de boucler la ville et d'y appliquer un mystérieux « Plan D » aux monstrueux ressorts.",
-    "banner": "medias/series/la-peste/la-peste.jpg",
+    "poster": "medias/series/la-peste/poster.jpg",
+    "banner": "medias/series/la-peste/banner.jpg",
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt27548095/",
     "year": 2024,
@@ -6358,7 +6384,8 @@
   "Mercredi": {
     "title": "Mercredi",
     "description": "Brillante, sarcastique et un peu morte à l'intérieur, Mercredi Addams enquête sur une série de sombres mystères tout en se faisant des amis à l'Académie Nevermore.",
-    "banner": "medias/series/mercredi/mercredi.jpg",
+    "poster": "medias/series/mercredi/poster.jpg",
+    "banner": "medias/series/mercredi/banner.jpg",
     "IMDb": 8.0,
     "IMDb_link": "https://www.imdb.com/title/tt13443470/",
     "year": 2022,
@@ -6473,7 +6500,8 @@
   "La casa de papel": {
     "title": "La casa de papel",
     "description": "Huit voleurs font une prise d'otages dans la Maison royale de la Monnaie d'Espagne, tandis qu'un génie du crime manipule la police pour mettre son plan à exécution.",
-    "banner": "medias/series/la-casa-de-papel/la-casa-de-papel.jpg",
+    "poster": "medias/series/la-casa-de-papel/poster.jpg",
+    "banner": "medias/series/la-casa-de-papel/banner.jpg",
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt6468322/",
     "year": 2017,
@@ -6751,7 +6779,8 @@
   "The Walking Dead : The Ones Who Live": {
     "title": "The Walking Dead : The Ones Who Live",
     "description": "Séparés par la distance et par les fantômes de ceux qu'ils étaient avant, Rick et Michonne tentent de se retrouver dans un autre monde régi par la guerre contre les morts.",
-    "banner": "medias/series/the-walking-dead-the-ones-who-live/the-walking-dead-the-ones-who-live.jpg",
+    "poster": "medias/series/the-walking-dead-the-ones-who-live/poster.jpg",
+    "banner": "medias/series/the-walking-dead-the-ones-who-live/banner.jpg",
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt9859436/",
     "year": 2024,
@@ -6810,7 +6839,8 @@
   "Designated Survivor": {
     "title": "Designated Survivor",
     "description": "Dans ce passionnant thriller politique, le sort de l'Amérique repose dans les mains d'un petit fonctionnaire après qu'une attaque sur Washington a décimé le gouvernement.",
-    "banner": "medias/series/designated-survivor/designated-survivor.jpg",
+    "poster": "medias/series/designated-survivor/poster.jpg",
+    "banner": "medias/series/designated-survivor/banner.jpg",
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt5296406/",
     "year": 2016,
@@ -7109,7 +7139,8 @@
   "The Walking Dead : Daryl Dixon": {
     "title": "The Walking Dead : Daryl Dixon",
     "description": "Daryl Dixon se réveille quelque part sur le continent européen et essaie de reconstituer ce qui s'est passé. Comment est-il arrivé ici ? Comment va-t-il rentrer chez lui ?",
-    "banner": "medias/series/the-walking-dead-daryl-dixon/the-walking-dead-daryl-dixon.jpg",
+    "poster": "medias/series/the-walking-dead-daryl-dixon/poster.jpg",
+    "banner": "medias/series/the-walking-dead-daryl-dixon/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt13062500/",
     "year": 2023,
@@ -7197,7 +7228,8 @@
   "Lupin": {
     "title": "Lupin",
     "description": "Inspiré par les aventures d'Arsène Lupin, le gentleman cambrioleur Assane Diop décide de venger son père d'une terrible injustice.",
-    "banner": "medias/series/lupin/lupin.jpg",
+    "poster": "medias/series/lupin/poster.jpg",
+    "banner": "medias/series/lupin/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt2531336/",
     "year": 2021,
@@ -7313,7 +7345,8 @@
   "Dexter": {
     "title": "Dexter",
     "description": "Brillant expert scientifique du service médico-légal de la police de Miami, Dexter Morgan est spécialisé dans l'analyse de prélèvements et d'éclaboussures de sang. Mais Dexter cache un terrible secret : c'est également un tueur en série ! Un serial killer pas comme les autres, avec sa propre vision de la justice, qui, grâce au code fourni par son père adoptif, ne s'en prend qu'à des personnes coupables de meurtres affreux ou de délits répréhensibles. Mais Dexter n'attend pas que la justice les libère ou les relâche, faute de preuves. Il les assassine, avant même que la police ne remonte jusqu'à eux et efface ses traces. Sa demi-sœur, Debra, travaille dans le même commissariat que lui et n'a de cesse de traquer tous les meurtriers, quels qu'ils soient... sans savoir qu'elle en fréquente un, tous les jours !",
-    "banner": "medias/series/dexter/dexter.jpg",
+    "poster": "medias/series/dexter/poster.jpg",
+    "banner": "medias/series/dexter/banner.jpg",
     "video": "medias/series/dexter/dexter.mp4",
     "IMDb": 8.6,
     "IMDb_link": "https://www.imdb.com/title/tt0773262/",
@@ -7840,7 +7873,8 @@
   "Dexter : New Blood": {
     "title": "Dexter : New Blood",
     "description": "Dix ans après sa disparition dans la tourmente de l'ouragan Laura, Dexter Morgan vit désormais loin de la Floride, sous une autre identité, dans la petite ville d'Iron Lake, dans l'État de New York. L'ex-expert médico-légal de la police de Miami voit son « Passager Noir » refaire surface, à la suite d'évènements inattendus qui viennent troubler sa routine.",
-    "banner": "medias/series/dexter-new-blood/dexter-new-blood.jpg",
+    "poster": "medias/series/dexter-new-blood/poster.jpg",
+    "banner": "medias/series/dexter-new-blood/banner.jpg",
     "video": "medias/series/dexter-new-blood/dexter-new-blood.mp4",
     "IMDb": 8.0,
     "IMDb_link": "https://www.imdb.com/title/tt14164730/",
@@ -7919,7 +7953,8 @@
   "Dexter : Les Origines": {
     "title": "Dexter : Les Origines",
     "description": "En 1991 à Miami, Dexter est un étudiant en passe de devenir un tueur en série. Lorsque ses pulsions sanguinaires ne peuvent plus être ignorées, le jeune homme trouve réconfort et compréhension auprès de Harry, son père adoptif. Celui-ci lui enseigne des règles pour l'aider à repérer et à tuer des personnes qui méritent de mourir, tout en évitant de se faire coincer par les forces de l'ordre. C'est un défi particulier pour le stagiaire débutant en médecine légale au département de police de Miami.",
-    "banner": "medias/series/dexter-les-origines/dexter-les-origines.jpg",
+    "poster": "medias/series/dexter-les-origines/poster.jpg",
+    "banner": "medias/series/dexter-les-origines/banner.jpg",
     "video": "medias/series/dexter-les-origines/dexter-les-origines.mp4",
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt32252772/",
@@ -7996,8 +8031,8 @@
   "Emily in Paris": {
     "title": "Emily in Paris",
     "description": "Nouvelles passions, nouvelles modes, nouvelle Emily ? Une Américaine génie du marketing s'épanouit en amour comme dans la vie après avoir décroché le job de ses rêves à Paris.",
-    "banner": "medias/series/emily-in-paris/emily-in-paris.jpg",
-    "video": "medias/series/emily-in-paris/emily-in-paris.mp4",
+    "poster": "medias/series/emily-in-paris/poster.jpg",
+    "banner": "medias/series/emily-in-paris/banner.jpg",
     "IMDb": 6.8,
     "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt8962124/",

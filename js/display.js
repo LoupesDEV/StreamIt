@@ -8,7 +8,7 @@ export function setupHero(item) {
 
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
 
-    document.getElementById('heroImage').src = item.banner;
+    document.getElementById('heroImage').src = item.banner || item.poster;
     document.getElementById('heroTitle').innerText = item.title;
     document.getElementById('heroDesc').innerText = item.description;
     document.getElementById('heroRating').innerText = item.IMDb;
@@ -49,7 +49,7 @@ export function openDetails(item) {
     const overlay = document.getElementById('detailsOverlay');
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
 
-    document.getElementById('detailHeroImg').src = item.banner;
+    document.getElementById('detailHeroImg').src = item.banner || item.poster;
     document.getElementById('detailTitle').innerText = item.title;
     document.getElementById('detailDesc').innerText = item.description;
     document.getElementById('detailYear').innerText = item.year;
@@ -149,9 +149,8 @@ function renderEpisodes(episodes, seasonNum) {
         row.className = "episode-item flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl cursor-pointer transition-all border border-transparent hover:border-white/5 hover:bg-white/[0.02] group bg-[#0a0a0a]";
 
         const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${safeSeasonNum}-EP${idx + 1}`;
-        const thumbUrl = activeDetailItem ? activeDetailItem.banner : fallbackThumb;
+        const thumbUrl = activeDetailItem ? activeDetailItem.poster : fallbackThumb;
 
-        // Left container: index + thumbnail
         const leftContainer = document.createElement('div');
         leftContainer.className = "flex items-center gap-6 w-full md:w-auto";
 
@@ -181,7 +180,6 @@ function renderEpisodes(episodes, seasonNum) {
         thumbContainer.appendChild(overlay);
         leftContainer.appendChild(thumbContainer);
 
-        // Right container: title, duration, description
         const rightContainer = document.createElement('div');
         rightContainer.className = "flex-1 w-full text-center md:text-left overflow-hidden";
 
@@ -224,7 +222,7 @@ export function createMediaCard(item, extraClasses = "") {
     const fallback = `https://placehold.co/400x600/1a1a1a/e50914?text=${encodeURIComponent(item.title)}`;
 
     card.innerHTML = `
-        <img src="${item.banner}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
+        <img src="${item.poster}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
         <div class="absolute inset-x-0 bottom-0 p-4 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
             <h3 class="font-bold text-white text-base md:text-lg leading-tight mb-1 drop-shadow-md line-clamp-1">${item.title}</h3>
             <div class="flex items-center gap-3 text-xs font-bold text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity delay-100">

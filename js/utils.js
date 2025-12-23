@@ -1,4 +1,3 @@
-// --- UTILS ---
 export function playVideo(src) {
     const overlay = document.getElementById('videoOverlay');
     const player = document.getElementById('mainPlayer');

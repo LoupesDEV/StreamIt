@@ -2,9 +2,9 @@
   "Astérix Et Obélix : L'Empire du Milieu": {
     "title": "Astérix Et Obélix : L'Empire du Milieu",
     "description": "Nous sommes en 50 avant J.C. L'Impératrice de Chine est emprisonnée suite à un coup d'État fomenté par Deng Tsin Quin, un prince félon. Aidée par Graindemaïs, le marchand phénicien, et par sa fidèle guerrière Tat Han, la princesse Fu-Yi, fille unique de l'impératrice, s'enfuit en Gaule pour demander de l'aide aux deux valeureux guerriers Astérix et Obélix, dotés d'une force surhumaine grâce à leur potion magique. Nos deux inséparables Gaulois acceptent bien sûr de venir en aide à la Princesse pour sauver sa mère et libérer son pays. Et les voici tous en route pour une grande aventure vers la Chine. Mais César et sa puissante armée, toujours en soif de conquêtes, ont eux aussi pris la direction de l'Empire du Milieu…",
-    "banner": "medias/films/asterix-obelix-l-empire-du-milieu/asterix-obelix-l-empire-du-milieu.jpg",
+    "poster": "medias/films/asterix-obelix-l-empire-du-milieu/poster.jpg",
+    "banner": "medias/films/asterix-obelix-l-empire-du-milieu/banner.jpg",
     "IMDb": 5.1,
-    "duration": "1h 50min",
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
     "genres": [
@@ -32,7 +32,8 @@
   "The Gorge": {
     "title": "The Gorge",
     "description": "Deux agents hautement entraînés se rapprochent malgré la distance lorsqu'ils sont envoyés garder deux côtés opposés d'une mystérieuse gorge. Quand un mal surgit des profondeurs, ils doivent faire équipe pour survivre à ce qui est tapi sous la surface.",
-    "banner": "medias/films/the-gorge/the-gorge.jpg",
+    "poster": "medias/films/the-gorge/poster.jpg",
+    "banner": "medias/films/the-gorge/banner.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
@@ -63,7 +64,8 @@
   "Exterritorial": {
     "title": "Exterritorial",
     "description": "Quand son fils disparaît dans un consulat américain, Sara, ex-soldate des forces spéciales, fait tout ce qu'elle peut pour le retrouver et découvre une sinistre conspiration.",
-    "banner": "medias/films/exterritorial/exterritorial.jpg",
+    "poster": "medias/films/exterritorial/poster.jpg",
+    "banner": "medias/films/exterritorial/banner.jpg",
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
@@ -89,7 +91,8 @@
   "Sans un bruit": {
     "title": "Sans un bruit",
     "description": "Une famille tente de survivre sous la menace de mystérieuses créatures qui attaquent au moindre bruit. S'ils vous entendent, il est déjà trop tard.",
-    "banner": "medias/films/sans-un-bruit/sans-un-bruit.jpg",
+    "poster": "medias/films/sans-un-bruit/poster.jpg",
+    "banner": "medias/films/sans-un-bruit/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
@@ -119,7 +122,8 @@
   "Sans un bruit 2": {
     "title": "Sans un bruit 2",
     "description": "Après les événements mortels survenus dans sa maison, la famille Abbot doit faire face au danger du monde extérieur. Pour survivre, ils doivent se battre en silence. Forcés à s'aventurer en terrain inconnu, ils réalisent que les créatures qui attaquent au moindre son ne sont pas la seule menace qui se dresse sur leur chemin…",
-    "banner": "medias/films/sans-un-bruit-2/sans-un-bruit-2.jpg",
+    "poster": "medias/films/sans-un-bruit-2/poster.jpg",
+    "banner": "medias/films/sans-un-bruit-2/banner.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
@@ -151,7 +155,8 @@
   "Sans un bruit : Jour 1": {
     "title": "Sans un bruit : Jour 1",
     "description": "Alors que Samira rentre à New York, son simple voyage se transforme en cauchemar suite à l'attaque de mystérieuses créatures attirées par le son. Accompagnée de son chat Frodon et d'un allié inattendu, Samira se lance dans un voyage périlleux à travers une ville où règne le silence. Pour rester en vie, sa seule solution est de ne faire aucun bruit.",
-    "banner": "medias/films/sans-un-bruit-jour-1/sans-un-bruit-jour-1.jpg",
+    "poster": "medias/films/sans-un-bruit-jour-1/poster.jpg",
+    "banner": "medias/films/sans-un-bruit-jour-1/banner.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
@@ -182,7 +187,8 @@
   "Hunger Games": {
     "title": "Hunger Games",
     "description": "Dans un proche futur, les États-Unis sont devenus un gouvernement fédéral dystopique dans lequel chacun des 12 districts doit envoyer un garçon et une fille combattre lors d'un événement annuel télévisé, « Les Hunger Games ». La seule issue à ces jeux pour les « Tributs » est de tuer ou d'être tué. Lorsque la petite sœur de Katniss est tirée au sort pour y participer, celle-ci décide de prendre sa place.",
-    "banner": "medias/films/hunger-games/hunger-games.jpg",
+    "poster": "medias/films/hunger-games/poster.jpg",
+    "banner": "medias/films/hunger-games/banner.jpg",
     "IMDb": 7.2,
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
@@ -213,7 +219,8 @@
   "Hunger Games : L'Embrasement": {
     "title": "Hunger Games : L'Embrasement",
     "description": "Après les premiers Hunger Games, Katniss est devenue le symbole de la rébellion. Le peuple de Panem est impatient de la retrouver pour la grande Tournée de la victoire. Mais Katniss va devoir prouver au Capitole et au Président Snow que ses sentiments envers Peeta étaient sincères afin de sauver ceux qu'elle aime…",
-    "banner": "medias/films/hunger-games-l-embrasement/hunger-games-l-embrasement.jpg",
+    "poster": "medias/films/hunger-games-l-embrasement/poster.jpg",
+    "banner": "medias/films/hunger-games-l-embrasement/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
@@ -243,7 +250,8 @@
   "Hunger Games : La Révolte - Partie 1": {
     "title": "Hunger Games : La Révolte - Partie 1",
     "description": "Katniss Everdeen s'est réfugiée dans le District 13 après avoir détruit à jamais l'arène et les Jeux. Sous le commandement de la Présidente Coin, chef du district, et suivant les conseils de ses amis en qui elle a toute confiance, Katniss déploie ses ailes pour devenir le symbole de la rébellion. Elle va se battre pour sauver Peeta et libérer le pays tout entier, à qui son courage a redonné espoir.",
-    "banner": "medias/films/hunger-games-la-revolte-partie-1/hunger-games-la-revolte-partie-1.jpg",
+    "poster": "medias/films/hunger-games-la-revolte-partie-1/poster.jpg",
+    "banner": "medias/films/hunger-games-la-revolte-partie-1/banner.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951265/",
     "year": 2014,
@@ -273,7 +281,8 @@
   "Hunger Games : La Révolte - Partie 2": {
     "title": "Hunger Games : La Révolte - Partie 2",
     "description": "Alors que Panem est ravagé par une guerre désormais totale, Katniss et le Président Snow vont s'affronter pour la dernière fois. Katniss et ses plus proches amis - Gale, Finnick, et Peeta - sont envoyés en mission pour le District 13 : ils vont risquer leur vie pour tenter d'assassiner le Président Snow, qui s'est juré de détruire Katniss. Les pièges mortels, les ennemis et les choix déchirants qui attendent Katniss seront des épreuves bien pires que tout ce qu'elle a déjà pu affronter dans l'arène…",
-    "banner": "medias/films/hunger-games-la-revolte-partie-2/hunger-games-la-revolte-partie-2.jpg",
+    "poster": "medias/films/hunger-games-la-revolte-partie-2/poster.jpg",
+    "banner": "medias/films/hunger-games-la-revolte-partie-2/banner.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
@@ -304,7 +313,8 @@
   "Hunger Games : La Ballade du serpent et de l'oiseau chanteur": {
     "title": "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
     "description": "Le jeune Coriolanus est le dernier espoir de sa lignée, la famille Snow autrefois riche et fière est aujourd'hui tombée en disgrâce dans un Capitole d'après-guerre. À l'approche des 10ème Hunger Games, il est assigné à contrecœur à être le mentor de Lucy Gray Baird, une tribut originaire du District 12, le plus pauvre et le plus méprisé de Panem. Le charme de Lucy Gray ayant captivé le public, Snow y voit l'opportunité de changer son destin, et va s'allier à elle pour faire pencher le sort en leur faveur. Luttant contre ses instincts, déchiré entre le bien et le mal, Snow se lance dans une course contre la montre pour survivre et découvrir s'il deviendra finalement un oiseau chanteur ou un serpent.",
-    "banner": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur.jpg",
+    "poster": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/poster.jpg",
+    "banner": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/banner.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
@@ -337,7 +347,8 @@
   "La Planète des singes": {
     "title": "La Planète des singes",
     "description": "En 2029, un groupe d'astronautes entraîne sur la station orbitale Oberon des singes pour remplacer l'homme dans des explorations spatiales à haut risque. Suite à la réception d'étranges signaux, les astronautes envoient le chimpanzé Pericles afin d'en connaître l'origine. Toutes les communications entre le primate et la station sont subitement interrompues et le vaisseau disparaît des radars. Désobéissant à ses supérieurs, Leo Davidson embarque dans un des vaisseaux expérimentaux pour aller porter secours à Pericles. Tout comme lui, il perd le contrôle des commandes et s'écrase dans les marais d'une forêt tropicale. L'intrépide pilote voit alors un groupe d'humains affolés foncer droit sur lui, et se fait capturer par des chimpanzés parlants. Qu'est-il arrivé sur cette planète pour que des singes en viennent à dominer la race humaine ?",
-    "banner": "medias/films/la-planete-des-singes/la-planete-des-singes.jpg",
+    "poster": "medias/films/la-planete-des-singes/poster.jpg",
+    "banner": "medias/films/la-planete-des-singes/banner.jpg",
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
     "year": 2001,
@@ -367,7 +378,8 @@
   "La Planète des singes : Les Origines": {
     "title": "La Planète des singes : Les Origines",
     "description": "Dans un laboratoire, des scientifiques expérimentent un traitement sur des singes pour vaincre la maladie d'Alzheimer. Mais leurs essais ont des effets secondaires inattendus : ils découvrent que la substance utilisée permet d'augmenter radicalement l'activité cérébrale de leurs sujets. César, est alors le premier jeune chimpanzé faisant preuve d'une intelligence remarquable. Mais trahi par les humains qui l'entourent et en qui il avait confiance, il va mener le soulèvement de toute son espèce contre l'Homme dans un combat spectaculaire.",
-    "banner": "medias/films/la-planete-des-singes-les-origines/la-planete-des-singes-les-origines.jpg",
+    "poster": "medias/films/la-planete-des-singes-les-origines/poster.jpg",
+    "banner": "medias/films/la-planete-des-singes-les-origines/banner.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
     "year": 2011,
@@ -396,7 +408,8 @@
   "La Planète des singes : L'Affrontement": {
     "title": "La Planète des singes : L'Affrontement",
     "description": "Une nation de plus en plus nombreuse de singes évolués, dirigée par César, est menacée par un groupe d'humains qui a survécu au virus dévastateur qui s'est répandu 10 ans plus tôt. Ils parviennent à une trêve fragile, mais de courte durée : les deux camps sont sur le point de se livrer une guerre qui décidera de l'espèce dominante sur Terre.",
-    "banner": "medias/films/la-planete-des-singes-l-affrontement/la-planete-des-singes-l-affrontement.jpg",
+    "poster": "medias/films/la-planete-des-singes-l-affrontement/poster.jpg",
+    "banner": "medias/films/la-planete-des-singes-l-affrontement/banner.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
     "year": 2014,
@@ -427,7 +440,8 @@
   "La Planète des singes : Suprématie": {
     "title": "La Planète des singes : Suprématie",
     "description": "César et les Singes sont contraints de mener un combat dont ils ne veulent pas contre une armée d'Humains dirigée par un Colonel impitoyable. Les Singes connaissent des pertes considérables et César, dans sa quête de vengeance, va devoir lutter contre ses instincts les plus noirs. Au terme d'un périple qui le conduira à un face à face avec le Colonel, les Singes et les Humains vont se livrer une guerre sans merci à l'issue de laquelle une seule des deux espèces survivra - et dominera la planète.",
-    "banner": "medias/films/la-planete-des-singes-suprematie/la-planete-des-singes-suprematie.jpg",
+    "poster": "medias/films/la-planete-des-singes-suprematie/poster.jpg",
+    "banner": "medias/films/la-planete-des-singes-suprematie/banner.jpg",
     "IMDb": 7.4,
     "IMDb_link": "https://www.imdb.com/title/tt3450958/",
     "year": 2017,
@@ -462,7 +476,8 @@
   "La Planète des singes : Le Nouveau Royaume": {
     "title": "La Planète des singes : Le Nouveau Royaume",
     "description": "Plusieurs générations après le règne de César, les singes ont définitivement pris le pouvoir. Les humains, quant à eux, ont régressé à l'état sauvage et vivent en retrait. Alors qu'un nouveau chef tyrannique construit peu à peu son empire, un jeune singe entreprend un périlleux voyage qui l'amènera à questionner tout ce qu'il sait du passé et à faire des choix qui définiront l'avenir des singes et des humains...",
-    "banner": "medias/films/la-planete-des-singes-le-nouveau-royaume/la-planete-des-singes-le-nouveau-royaume.jpg",
+    "poster": "medias/films/la-planete-des-singes-le-nouveau-royaume/poster.jpg",
+    "banner": "medias/films/la-planete-des-singes-le-nouveau-royaume/banner.jpg",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt11389872/",
     "year": 2024,
@@ -494,7 +509,8 @@
   "Minecraft, Le Film": {
     "title": "Minecraft, Le Film",
     "description": "Quatre mésadaptés traversent soudainement un portail mystérieux menant à la Surface : un étrange univers cubique qui évolue grâce à l'imagination. Pour rentrer chez eux, ils se lancent dans une quête magique avec Steve, un surprenant fabricateur expert. L'aventure les poussera à faire preuve d'audace et à renouer avec les qualités qui donnent à chacun une créativité unique.",
-    "banner": "medias/films/minecraft-le-film/minecraft-le-film.jpg",
+    "poster": "medias/films/minecraft-le-film/poster.jpg",
+    "banner": "medias/films/minecraft-le-film/banner.jpg",
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt3566834/",
     "year": 2025,
@@ -529,7 +545,8 @@
   "Napoléon": {
     "title": "Napoléon",
     "description": "Un regard personnel sur les origines du chef militaire français et son ascension rapide et impitoyable vers le statut d'empereur. L'histoire est vue à travers le prisme de la relation explosive et addictive de Napoléon avec sa femme et son grand amour, Joséphine.",
-    "banner": "medias/films/napoleon/napoleon.jpg",
+    "poster": "medias/films/napoleon/poster.jpg",
+    "banner": "medias/films/napoleon/banner.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt13287846/",
     "year": 2023,
@@ -562,7 +579,8 @@
   "Sniper : Le Corbeau Blanc": {
     "title": "Sniper : Le Corbeau Blanc",
     "description": "Région du Donbass, Ukraine, 2014. Mykola, un professeur de physique, renonce à son mode de vie paisible suite à la perte de sa femme enceinte, tuée par des soldats à l'aube de l'invasion russe. Souhaitant se venger, il réussit à intégrer les forces armées ukrainiennes et obtient le poste convoité de sniper. Sa cible devient alors un sniper d'élite russe dont l'élimination pourrait changer le cours du conflit.",
-    "banner": "medias/films/sniper-le-corbeau-blanc/sniper-le-corbeau-blanc.jpg",
+    "poster": "medias/films/sniper-le-corbeau-blanc/poster.jpg",
+    "banner": "medias/films/sniper-le-corbeau-blanc/banner.jpg",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
@@ -589,7 +607,8 @@
   "Le Labyrinthe": {
     "title": "Le Labyrinthe",
     "description": "Thomas, 16 ans, se réveille dans un ascenseur. Il ne sait plus qui il est ni d'où il vient, et ne semble se rappeler que de son prénom. Lorsque l'ascenseur s'ouvre, il est accueilli par d'autres garçons de son âge dans la clairière, un monde mystérieux entouré par un labyrinthe impénétrable, et où personne ne sait pourquoi il est là.",
-    "banner": "medias/films/le-labyrinthe/le-labyrinthe.jpg",
+    "poster": "medias/films/le-labyrinthe/poster.jpg",
+    "banner": "medias/films/le-labyrinthe/banner.jpg",
     "IMDb": 6.8,
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
@@ -619,7 +638,8 @@
   "Le Labyrinthe : La Terre brûlée": {
     "title": "Le Labyrinthe : La Terre brûlée",
     "description": "Thomas et les autres Blocards vont devoir faire face à leur plus grand défi, rechercher des indices à propos de la mystérieuse et puissante organisation connue sous le nom de WICKED. Or le monde qu'ils découvrent à l'extérieur du Labyrinthe a été ravagé par l'Apocalypse. Leur périple les amène à la Terre Brûlée, un paysage de désolation rempli d'obstacles inimaginables. Plus de gouvernement, plus d'ordre… et des hordes de gens en proie à une folie meurtrière qui errent dans les villes en ruine. Les Blocards vont devoir unir leurs forces avec d'autres combattants pour pouvoir affronter WICKED et tenter de défier son immense pouvoir.",
-    "banner": "medias/films/le-labyrinthe-la-terre-brulee/le-labyrinthe-la-terre-brulee.jpg",
+    "poster": "medias/films/le-labyrinthe-la-terre-brulee/poster.jpg",
+    "banner": "medias/films/le-labyrinthe-la-terre-brulee/banner.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4046784/",
     "year": 2015,
@@ -649,7 +669,8 @@
   "Le Labyrinthe : Le Remède mortel": {
     "title": "Le Labyrinthe : Le Remède mortel",
     "description": "Dans ce dernier volet de l'épopée Le Labyrinthe, Thomas et les Blocards s'engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrôlée par la terrible organisation WICKED. Une cité qui pourrait s'avérer être le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d'obtenir les réponses tant recherchées depuis leur réveil au cœur du Labyrinthe.",
-    "banner": "medias/films/le-labyrinthe-le-remede-mortel/le-labyrinthe-le-remede-mortel.jpg",
+    "poster": "medias/films/le-labyrinthe-le-remede-mortel/poster.jpg",
+    "banner": "medias/films/le-labyrinthe-le-remede-mortel/banner.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt4500922/",
     "year": 2018,
@@ -677,7 +698,8 @@
   "Lucy": {
     "title": "Lucy",
     "description": "Lucy, une jeune étudiante ordinaire, se fait kidnapper. À son réveil, elle découvre que les membres d'une organisation criminelle lui ont inséré un paquet de drogue dans l'estomac dans le but de lui faire passer la frontière. Mais lorsqu'à la suite d'un coup porté à son ventre le produit se déverse dans son corps et s'implante dans son système, la jeune femme en subit les étonnants effets. Cette substance synthétique lui permet de décupler ses capacités intellectuelles et physiques. Devenue un génie autant qu'une véritable machine de guerre, Lucy dispose désormais de pouvoirs illimités et surhumains…",
-    "banner": "medias/films/lucy/lucy.jpg",
+    "poster": "medias/films/lucy/poster.jpg",
+    "banner": "medias/films/lucy/banner.jpg",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
     "year": 2014,
@@ -705,7 +727,8 @@
   "Le Seigneur des anneaux : La Communauté de l'anneau": {
     "title": "Le Seigneur des anneaux : La Communauté de l'anneau",
     "description": "Le jeune et timide Hobbit, Frodon Sacquet, hérite d'un anneau. Bien loin d'être une simple babiole, il s'agit de l'Anneau Unique, un instrument de pouvoir absolu qui permettrait à Sauron, le Seigneur des ténèbres, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples. À moins que Frodon, aidé d'une Compagnie constituée de Hobbits, d'Hommes, d'un Magicien, d'un Nain, et d'un Elfe, ne parvienne à emporter l'Anneau à travers la Terre du Milieu jusqu'à la Crevasse du Destin, lieu où il a été forgé, et à le détruire pour toujours. Un tel périple signifie s'aventurer très loin en Mordor, les terres du Seigneur des ténèbres, où est rassemblée son armée d'Orques maléfiques… La Compagnie doit non seulement combattre les forces extérieures du mal mais aussi les dissensions internes et l'influence corruptrice qu'exerce l'Anneau lui-même.",
-    "banner": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/le-seigneur-des-anneaux-la-communaute-de-l-anneau.jpg",
+    "poster": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/poster.jpg",
+    "banner": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/banner.jpg",
     "IMDb": 8.9,
     "IMDb_link": "https://www.imdb.com/title/tt0120737/",
     "year": 2001,
@@ -741,7 +764,8 @@
   "Le Seigneur des anneaux : Les Deux Tours": {
     "title": "Le Seigneur des anneaux : Les Deux Tours",
     "description": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. À travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant magicien. Eowyn, la nièce du Roi, reconnaît en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forêt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forêt…",
-    "banner": "medias/films/le-seigneur-des-anneaux-les-deux-tours/le-seigneur-des-anneaux-les-deux-tours.jpg",
+    "poster": "medias/films/le-seigneur-des-anneaux-les-deux-tours/poster.jpg",
+    "banner": "medias/films/le-seigneur-des-anneaux-les-deux-tours/banner.jpg",
     "IMDb": 8.8,
     "IMDb_link": "https://www.imdb.com/title/tt0167261/",
     "year": 2002,
@@ -777,7 +801,8 @@
   "Le Seigneur des anneaux : Le Retour du roi": {
     "title": "Le Seigneur des anneaux : Le Retour du roi",
     "description": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. À travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant magicien. Eowyn, la nièce du Roi, reconnaît en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forêt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forêt…",
-    "banner": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/le-seigneur-des-anneaux-le-retour-du-roi.jpg",
+    "poster": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/poster.jpg",
+    "banner": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/banner.jpg",
     "IMDb": 9,
     "IMDb_link": "https://www.imdb.com/title/tt0167260/",
     "year": 2003,
@@ -812,7 +837,8 @@
   "Cars": {
     "title": "Cars",
     "description": "Un champion de course, Flash McQueen vit à cent à l'heure jusqu'à ce qu'un détour le mène à Radiator Springs, une petite ville oubliée sur la Route 66. Il y rencontre Sally, Martin, Doc Hudson et un tas de personnages amusants qui l'aident à découvrir que la vie vaut plus que les trophées et la célébrité.",
-    "banner": "medias/films/cars/cars.jpg",
+    "poster": "medias/films/cars/poster.jpg",
+    "banner": "medias/films/cars/banner.jpg",
     "IMDb": 7.3,
     "IMDb_link": "https://www.imdb.com/title/tt0317219/",
     "year": 2006,
@@ -844,7 +870,8 @@
   "Cars 2": {
     "title": "Cars 2",
     "description": "La célèbre voiture de course Flash McQueen et l'incomparable dépanneuse Martin quittent Radiator Springs pour courir le tout premier Grand Prix mondial qui sacrera la voiture la plus rapide du monde. Mais la route est pleine d'imprévus, de déviations et de surprises, surtout lorsque Martin se retrouve entraîné dans une affaire d'espionnage international !",
-    "banner": "medias/films/cars-2/cars-2.jpg",
+    "poster": "medias/films/cars-2/poster.jpg",
+    "banner": "medias/films/cars-2/banner.jpg",
     "IMDb": 6.2,
     "IMDb_link": "https://www.imdb.com/title/tt1216475/",
     "year": 2011,
@@ -879,7 +906,8 @@
   "Cars 3": {
     "title": "Cars 3",
     "description": "Dépassé par une nouvelle génération de coureurs auto emmenés par l'arrogant Jackson Storm, le légendaire Flash McQueen est soudain mis sur le bas-côté. Pour revenir dans la course, il aura besoin de la jeune technicienne Cruz Ramirez, de l'inspiration du fabuleux Hudson Hornet et de quelques rebondissements inattendus et tours du destin.",
-    "banner": "medias/films/cars-3/cars-3.jpg",
+    "poster": "medias/films/cars-3/poster.jpg",
+    "banner": "medias/films/cars-3/banner.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt3606752/",
     "year": 2017,
@@ -910,7 +938,8 @@
   "Gran Turismo": {
     "title": "Gran Turismo",
     "description": "Gran Turismo est inspiré de l'incroyable histoire vécue d'une invraisemblable bande d'infortunés -' un amateur de jeu vidéo de classe ouvrière, un ex-pilote d'autos de course paumé et un idéaliste de l'industrie du sport motorisé. Ensemble, ils risquent tout pour percer dans le sport le plus prestigieux au monde. Gran Turismo est une captivante histoire et un feu roulant d'action qui prouvent que tout est possible lorsqu'on conduit avec l'énergie du désespoir.",
-    "banner": "medias/films/gran-turismo/gran-turismo.jpg",
+    "poster": "medias/films/gran-turismo/poster.jpg",
+    "banner": "medias/films/gran-turismo/banner.jpg",
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt4495098/",
     "year": 2023,
@@ -941,7 +970,8 @@
   "Oppenheimer": {
     "title": "Oppenheimer",
     "description": "En 1942, convaincus que l'Allemagne nazie est en train de développer une arme nucléaire, les États-Unis initient, dans le plus grand secret, le \"Projet Manhattan\" destiné à mettre au point la première bombe atomique de l'histoire. Pour piloter ce dispositif, le gouvernement engage J. Robert Oppenheimer, brillant physicien, qui sera bientôt surnommé \"le père de la bombe atomique\". C'est dans le laboratoire ultra-secret de Los Alamos, au cœur du désert du Nouveau-Mexique, que le scientifique et son équipe mettent au point une arme révolutionnaire dont les conséquences, vertigineuses, continuent de peser sur le monde actuel…",
-    "banner": "medias/films/oppenheimer/oppenheimer.jpg",
+    "poster": "medias/films/oppenheimer/poster.jpg",
+    "banner": "medias/films/oppenheimer/banner.jpg",
     "IMDb": 8.3,
     "IMDb_link": "https://www.imdb.com/title/tt15398776/",
     "year": 2023,
@@ -974,7 +1004,8 @@
   "Le Mans 66": {
     "title": "Le Mans 66",
     "description": "Relate l'histoire vraie qui a conduit l'ingénieur automobile visionnaire américain Caroll Shelby à faire équipe avec le pilote de course britannique surdoué Ken Miles. Bravant l'ordre établi, défiant les lois de la physique et luttant contre leurs propres démons, les deux hommes n'avaient qu'un seul but : construire pour le compte de Ford Motor Company un bolide révolutionnaire capable de renverser la suprématie de l'écurie d'Enzo Ferrari sur le mythique circuit des 24 heures du Mans en 1966…",
-    "banner": "medias/films/le-mans-66/le-mans-66.jpg",
+    "poster": "medias/films/le-mans-66/poster.jpg",
+    "banner": "medias/films/le-mans-66/banner.jpg",
     "IMDb": 8.1,
     "IMDb_link": "https://www.imdb.com/title/tt1950186/",
     "year": 2019,
@@ -1007,7 +1038,8 @@
   "Interstellar": {
     "title": "Interstellar",
     "description": "Dans un futur proche, face à une Terre exsangue, un groupe d'explorateurs utilise un vaisseau interstellaire pour franchir un trou de ver permettant de parcourir des distances jusque-là infranchissables. Leur but : trouver un nouveau foyer pour l'humanité.",
-    "banner": "medias/films/interstellar/interstellar.jpg",
+    "poster": "medias/films/interstellar/poster.jpg",
+    "banner": "medias/films/interstellar/banner.jpg",
     "IMDb": 8.7,
     "IMDb_link": "https://www.imdb.com/title/tt0816692/",
     "year": 2014,
@@ -1040,7 +1072,8 @@
   "Le Comte de Monte-Cristo": {
     "title": "Le Comte de Monte-Cristo",
     "description": "Victime d'un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu'il n'a pas commis. Après quatorze ans de détention au château d'If, il parvient à s'évader. Devenu immensément riche, il revient sous l'identité du comte de Monte-Cristo pour se venger des trois hommes qui l'ont trahi.",
-    "banner": "medias/films/le-comte-de-monte-cristo/le-comte-de-monte-cristo.jpg",
+    "poster": "medias/films/le-comte-de-monte-cristo/poster.jpg",
+    "banner": "medias/films/le-comte-de-monte-cristo/banner.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/title/tt26446278/",
     "year": 2024,
@@ -1073,7 +1106,8 @@
   "Mufasa : Le Roi lion": {
     "title": "Mufasa : Le Roi lion",
     "description": "Rafiki raconte à la jeune lionne Kiara - fille de Simba et Nala - la légende de Mufasa. Il est épaulé par Timon et Pumbaa, célèbres pour leurs répliques percutantes. Présentée sous forme de flashbacks, l'histoire de Mufasa retrace le parcours d'un lionceau orphelin, seul et désemparé, qui croise un jour la route du sympathique Taka, héritier d'une lignée royale. Cette rencontre inattendue devient le point de départ d'un voyage jalonné de péripéties pour un petit groupe « d'indésirables » formé autour d'eux, désormais en quête de son destin. Leur amitié sera mise à rude épreuve lorsqu'ils devront s'unir pour affronter un adversaire aussi menaçant que redoutable…",
-    "banner": "medias/films/mufasa-le-roi-lion/mufasa-le-roi-lion.jpg",
+    "poster": "medias/films/mufasa-le-roi-lion/poster.jpg",
+    "banner": "medias/films/mufasa-le-roi-lion/banner.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt13186482/",
     "year": 2024,
@@ -1103,7 +1137,8 @@
   "Six jours": {
     "title": "Six jours",
     "description": "Malik, inspecteur de police, assiste impuissant à la mort d'une enfant suite à un kidnapping. En charge de l'enquête, il échoue à retrouver le meurtrier. Dix ans plus tard l'affaire s'apprête à être classée définitivement. Mais quand de nouveaux faits se révèlent, il entame une course contre la montre dans l'espoir de résoudre l'enquête avant l'expiration du délai de prescription dans six jours.",
-    "banner": "medias/films/six-jours/six-jours.jpg",
+    "poster": "medias/films/six-jours/poster.jpg",
+    "banner": "medias/films/six-jours/banner.jpg",
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/title/tt29610108/",
     "year": 2025,
@@ -1132,7 +1167,8 @@
   "Rush": {
     "title": "Rush",
     "description": "Le combat entre deux des plus grands rivaux que l'histoire du sport ait jamais connus, celui de James Hunt et Niki Lauda concourant pour les illustres écuries McLaren et Ferrari. Issu de la classe des privilégiés, charismatique et beau garçon, tout oppose le play-boy anglais James Hunt à Niki Lauda, son adversaire autrichien, réservé et méthodique. RUSH suit la vie instable de ces deux pilotes, sur les circuits et en dehors, et retrace leur rivalité depuis leurs tout débuts.",
-    "banner": "medias/films/rush/rush.jpg",
+    "poster": "medias/films/rush/poster.jpg",
+    "banner": "medias/films/rush/banner.jpg",
     "IMDb": 8.1,
     "IMDb_link": "https://www.imdb.com/title/tt1979320/",
     "year": 2013,
@@ -1161,7 +1197,8 @@
   "Le Garçon au Pyjama Rayé": {
     "title": "Le Garçon au Pyjama Rayé",
     "description": "Seconde Guerre mondiale. Bruno a tout juste 9 ans lorsque son père, un officier nazi remarqué par le Führer, se voit confier le commandement du camp de concentration polonais d'Auschwitz. Le petit garçon n'apprécie guère de devoir quitter la belle et grande maison de Berlin pour se retrouver dans une demeure isolée et triste. De sa chambre, il aperçoit des hommes, des femmes et des enfants tous vêtus de pyjamas rayés. Personne ne lui explique qui ils sont, mais l'innocence aidant, il va se lier d'amitié avec un enfant juif…",
-    "banner": "medias/films/le-garcon-au-pyjama-raye/le-garcon-au-pyjama-raye.jpg",
+    "poster": "medias/films/le-garcon-au-pyjama-raye/poster.jpg",
+    "banner": "medias/films/le-garcon-au-pyjama-raye/banner.jpg",
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt0914798/",
     "year": 2008,
@@ -1189,7 +1226,8 @@
   "Taxi": {
     "title": "Taxi",
     "description": "Daniel est un fou du volant. Cet ex-livreur de pizzas est aujourd'hui chauffeur de taxi et sait échapper aux radars les plus perfectionnés. Pourtant, un jour, il croise la route d'Emilien, policier recalé pour la huitième fois à son permis de conduire. Pour conserver son taxi, il accepte le marché que lui propose Emilien : l'aider à démanteler un gang de braqueurs de banques qui écume les succursales de la ville à bord de puissants véhicules. Road-movie urbain sur un scénario de Luc Besson, également producteur.",
-    "banner": "medias/films/taxi/taxi.jpg",
+    "poster": "medias/films/taxi/poster.jpg",
+    "banner": "medias/films/taxi/banner.jpg",
     "IMDb": 7,
     "IMDb_link": "https://www.imdb.com/title/tt0152930/",
     "year": 1998,
@@ -1219,7 +1257,8 @@
   "Taxi 2": {
     "title": "Taxi 2",
     "description": "Daniel, le chauffeur de taxi dingue de vitesse, et Emilien, l'inspecteur de police inexpérimenté, se retrouvent à Paris. Le ministre de la défense japonais vient tester le savoir-faire hexagonal en matière de lutte antiterroriste et signer le contrat du siècle avec l'Etat français. Mais il est enlevé par des yakusas...",
-    "banner": "medias/films/taxi-2/taxi-2.jpg",
+    "poster": "medias/films/taxi-2/poster.jpg",
+    "banner": "medias/films/taxi-2/banner.jpg",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt0183869/",
     "year": 2000,
@@ -1244,7 +1283,8 @@
   "Taxi 3": {
     "title": "Taxi 3",
     "description": "C'est décembre à Marseille. Daniel rajoute des options à son taxi et Lili voit rouge. Le commissaire Gilbert est aveuglé par Qiu, sa stagiaire chinoise, et son enquête piétine. Emilien voit des pères Noël partout et Petra s'impatiente. De Marseille à Tignes, de la Canebière aux pistes de ski, l'aventure peut commencer...",
-    "banner": "medias/films/taxi-3/taxi-3.jpg",
+    "poster": "medias/films/taxi-3/poster.jpg",
+    "banner": "medias/films/taxi-3/banner.jpg",
     "IMDb": 5.8,
     "IMDb_link": "https://www.imdb.com/title/tt0295721/",
     "year": 2000,
@@ -1269,7 +1309,8 @@
   "Taxi 4": {
     "title": "Taxi 4",
     "description": "Après cinq ans d'absence, nous retrouvons Daniel et Émilien pour de nouvelles aventures sur la Canebière. Les autorités donnent à transférer, au commissariat de Marseille, un braqueur de banque belge recherché par Interpol.",
-    "banner": "medias/films/taxi-4/taxi-4.jpg",
+    "poster": "medias/films/taxi-4/poster.jpg",
+    "banner": "medias/films/taxi-4/banner.jpg",
     "IMDb": 5.6,
     "IMDb_link": "https://www.imdb.com/title/tt0804540/",
     "year": 2007,
@@ -1294,7 +1335,8 @@
   "Taxi 5": {
     "title": "Taxi 5",
     "description": "Sylvain Marot, super flic parisien et pilote d'exception, est muté contre son gré à la Police Municipale de Marseille. L'ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l'aide de puissantes Ferrari. Mais pour y parvenir, Marot n'aura pas d'autre choix que de collaborer avec le petit-neveu du célèbre Daniel, Eddy Maklouf, le pire chauffeur VTC de Marseille, mais le seul à pouvoir récupérer le légendaire TAXI blanc.",
-    "banner": "medias/films/taxi-5/taxi-5.jpg",
+    "poster": "medias/films/taxi-5/poster.jpg",
+    "banner": "medias/films/taxi-5/banner.jpg",
     "IMDb": 4.6,
     "IMDb_link": "https://www.imdb.com/title/tt7238392/",
     "year": 2018,
@@ -1321,7 +1363,8 @@
   "WALL·E": {
     "title": "WALL·E",
     "description": "Faites la connaissance de WALL•E (prononcez « Walli ») : WALL•E est le dernier être sur Terre et s'avère être un… petit robot ! 700 ans plus tôt, l'humanité a déserté notre planète laissant à cette incroyable petite machine le soin de nettoyer la Terre. Mais au bout de ces longues années, WALL•E a développé un petit défaut technique : une forte personnalité. Extrêmement curieux, très indiscret, il est surtout un peu trop seul… Cependant, sa vie s'apprête à être bouleversée avec l'arrivée d'une petite « robote », bien carénée et prénommée EVE. Tombant instantanément et éperdument amoureux d'elle, WALL•E va tout mettre en œuvre pour la séduire. Et lorsqu'EVE est rappelée dans l'espace pour y terminer sa mission, WALL•E n'hésite pas un seul instant : il se lance à sa poursuite… Hors de question pour lui de laisser passer le seul amour de sa vie… Pour être à ses côtés, il est prêt à aller au bout de l'univers et vivre la plus fantastique des aventures !",
-    "banner": "medias/films/wall-e/wall-e.jpg",
+    "poster": "medias/films/wall-e/poster.jpg",
+    "banner": "medias/films/wall-e/banner.jpg",
     "IMDb": 8.4,
     "IMDb_link": "https://www.imdb.com/title/tt0910970/",
     "year": 2008,
@@ -1355,7 +1398,8 @@
   "Intouchables": {
     "title": "Intouchables",
     "description": "À la suite d'un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survêtement… Deux univers vont se télescoper, s'apprivoiser, pour donner naissance à une amitié aussi dingue, drôle et forte qu'inattendue, une relation unique qui fera des étincelles et qui les rendra… Intouchables.",
-    "banner": "medias/films/intouchables/intouchables.jpg",
+    "poster": "medias/films/intouchables/poster.jpg",
+    "banner": "medias/films/intouchables/banner.jpg",
     "IMDb": 8.5,
     "IMDb_link": "https://www.imdb.com/title/tt1675434/",
     "year": 2011,
@@ -1383,7 +1427,8 @@
   "Là-haut": {
     "title": "Là-haut",
     "description": "À 78 ans, Carl n'envisage plus qu'une chose : finir tranquillement sa vie dans la petite maison où il a passé toute une existence paisible auprès de son épouse Ellie. Veuf désormais, il reste, en effet, attaché à son passé en refusant les propositions mirobolantes d'un promoteur pour racheter son bien. Quand des circonstances exceptionnelles le contraignent d'intégrer une maison de retraite, il prend une ultime fois les choses en mains et, transformant sa demeure en dirigeable, s'envole pour l'aventure, vers la partie du monde où sa femme et lui s'étaient promis un jour de s'installer. Il ne se doute pas alors qu'il a emporté avec lui un jeune passager clandestin, Russell et que le voyage sera loin d'être de tout repos…",
-    "banner": "medias/films/la-haut/la-haut.jpg",
+    "poster": "medias/films/la-haut/poster.jpg",
+    "banner": "medias/films/la-haut/banner.jpg",
     "IMDb": 8.3,
     "IMDb_link": "https://www.imdb.com/title/tt1049413/",
     "year": 2009,
@@ -1417,7 +1462,8 @@
   "Kingdom of Heaven": {
     "title": "Kingdom of Heaven",
     "description": "Balian le forgeron découvre que son père est un seigneur Croisé, peu avant que celui-ci ne meure et que ses terres à Jérusalem ne lui reviennent. Parti sur place, il se range au côté des fidèles du roi Baudoin, qui tentent de maintenir un équilibre fragile entre les Croisés et les troupes de Saladin. Mais le roi est mourant et puissants sont ceux qui s'opposent à lui et à la paix.",
-    "banner": "medias/films/kingdom-of-heaven/kingdom-of-heaven.jpg",
+    "poster": "medias/films/kingdom-of-heaven/poster.jpg",
+    "banner": "medias/films/kingdom-of-heaven/banner.jpg",
     "IMDb": 7.3,
     "IMDb_link": "https://www.imdb.com/title/tt0320661/",
     "year": 2005,
@@ -1449,7 +1495,8 @@
   "Gladiator": {
     "title": "Gladiator",
     "description": "Le général romain Maximus est le plus fidèle soutien de l'empereur Marc Aurèle, qu'il a conduit de victoire en victoire avec une bravoure et un dévouement exemplaires. Jaloux du prestige de Maximus, et plus encore de l'amour que lui voue l'empereur, le fils de Marc Aurèle, Commode, s'arroge brutalement le pouvoir, puis ordonne l'arrestation du général et son exécution. Maximus échappe à ses assassins mais ne peut empêcher le massacre de sa famille. Capturé par un marchand d'esclaves, il devient gladiateur et prépare sa vengeance.",
-    "banner": "medias/films/gladiator/gladiator.jpg",
+    "poster": "medias/films/gladiator/poster.jpg",
+    "banner": "medias/films/gladiator/banner.jpg",
     "IMDb": 8.5,
     "IMDb_link": "https://www.imdb.com/title/tt0172495/",
     "year": 2000,
@@ -1481,7 +1528,8 @@
   "Gladiator II": {
     "title": "Gladiator II",
     "description": "Des années après avoir assisté à la mort du héros vénéré Maximus aux mains de son oncle, Lucius est forcé d'entrer dans le Colisée lorsque son pays est conquis par les empereurs tyranniques qui gouvernent désormais Rome d'une main de fer. La rage au cœur et l'avenir de l'Empire en jeu, Lucius doit se tourner vers son passé pour trouver la force et l'honneur de rendre la gloire de Rome à son peuple.",
-    "banner": "medias/films/gladiator-ii/gladiator-ii.jpg",
+    "poster": "medias/films/gladiator-ii/poster.jpg",
+    "banner": "medias/films/gladiator-ii/banner.jpg",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt9218128/",
     "year": 2024,
@@ -1513,7 +1561,8 @@
   "The Deep House": {
     "title": "The Deep House",
     "description": "Tina et Ben sont un couple de jeunes YouTubers spécialisés dans les vidéos d'exploration sous-marine. En plongeant dans un lac français isolé, ils découvrent une maison immergée dans les eaux profondes. Ce qui était au départ une découverte unique se transforme rapidement en cauchemar lorsqu'ils réalisent que la maison était le théâtre d'atroces crimes. Pris au piège, leurs réserves d'oxygène diminuant dangereusement, Tina et Ben se rendent compte que le pire reste à venir: ils ne sont pas seuls dans la maison.",
-    "banner": "medias/films/the-deep-house/the-deep-house.jpg",
+    "poster": "medias/films/the-deep-house/poster.jpg",
+    "banner": "medias/films/the-deep-house/banner.jpg",
     "IMDb": 5.3,
     "IMDb_link": "https://www.imdb.com/title/tt11686490/",
     "year": 2021,
@@ -1544,9 +1593,9 @@
   "À l'ouest rien de nouveau": {
     "title": "À l'ouest rien de nouveau",
     "description": "« À l'ouest rien de nouveau » raconte l'histoire poignante d'un jeune soldat allemand sur le front occidental pendant la Première Guerre mondiale. En première ligne, Paul et ses camarades voient l'euphorie initiale se muer en désespoir et en épouvante quand ils se retrouvent à défendre leurs vies au fond des tranchées. Réalisé par Edward Berger, le film s'inspire du bestseller éponyme d'Erich Maria Remarque.",
-    "banner": "medias/films/a-l-ouest-rien-de-nouveau/a-l-ouest-rien-de-nouveau.jpg",
+    "poster": "medias/films/a-l-ouest-rien-de-nouveau/poster.jpg",
+    "banner": "medias/films/a-l-ouest-rien-de-nouveau/banner.jpg",
     "IMDb": 7.8,
-    "duration": "2h 26min",
     "IMDb_link": "https://www.imdb.com/title/tt1016150/",
     "year": 2022,
     "genres": [
@@ -1577,9 +1626,9 @@
   "Ballerina": {
     "title": "Ballerina",
     "description": "Enfant, Eve Macarro a assisté impuissante au meurtre de son père par une bande de tueurs à gages. Devenue adulte, elle consacre sa vie au ballet et… au combat. Formée selon les traditions ancestrales de la Ruska Roma, Eve est devenue une redoutable combattante - l'égale ou presque du légendaire John Wick, qu'elle croise parfois dans les couloirs de l'Hôtel Continental, à New York. Quand la Directrice la juge enfin prête pour une mission, Eve voit l'occasion de régler ses comptes avec les meurtriers de son père. Quitte à devoir affronter, au passage, John Wick lui-même.",
-    "banner": "medias/films/ballerina/ballerina.jpg",
+    "poster": "medias/films/ballerina/poster.jpg",
+    "banner": "medias/films/ballerina/banner.jpg",
     "IMDb": 7,
-    "duration": "2h 04min",
     "IMDb_link": "https://www.imdb.com/title/tt7181546/",
     "year": 2025,
     "genres": [
@@ -1606,7 +1655,8 @@
   "La Rafle": {
     "title": "La Rafle",
     "description": "1942, Joseph a onze ans. Et ce matin de juin, il doit aller à l'école, une étoile jaune cousue sur sa poitrine… Il reçoit les encouragements d'un voisin brocanteur. Les railleries d'une boulangère. Entre bienveillance et mépris, Jo, ses copains juifs comme lui, leurs familles, apprennent la vie dans un Paris occupé, sur la Butte Montmartre, où ils ont trouvé refuge. Du moins le croient-ils, jusqu'à ce matin du 16 juillet 1942, où leur fragile bonheur bascule… Du Vélodrome d'Hiver, où 13 000 raflés sont entassés, au camp de Beaune-La-Rolande, de Vichy à la terrasse du Berghof, La Rafle suit les destins réels des victimes et des bourreaux. De ceux qui ont orchestré. De ceux qui ont eu confiance. De ceux qui ont fui. De ceux qui se sont opposés. Tous les personnages du film ont existé. Tous les évènements, même les plus extrêmes, ont eu lieu cet été 1942.",
-    "banner": "medias/films/la-rafle/la-rafle.jpg",
+    "poster": "medias/films/la-rafle/poster.jpg",
+    "banner": "medias/films/la-rafle/banner.jpg",
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt1382725/",
     "year": 2010,
@@ -1632,7 +1682,8 @@
   "Real Steel": {
     "title": "Real Steel",
     "description": "Dans un futur proche, la boxe a évolué pour devenir un sport high-tech. Charlie Kenton, un ancien boxeur, a perdu toute chance de remporter le championnat depuis que les humains ont été remplacés sur le ring par des robots d'acier de 900 kilos et de 2,40 m de haut. À présent, il n'est plus qu'un manager minable qui utilise des robots bas de gamme fabriqués à partir de pièces de récupération. Il gagne juste assez pour survivre d'un combat à l'autre. Lorsque Charlie touche le fond, il accepte à contrecœur de faire équipe avec son fils Max, qu'il a perdu de vue depuis des années, pour construire et entraîner un champion. Dans l'arène où tous les coups sont permis, les enjeux sont plus élevés qu'ils ne l'ont jamais été. Contre toute attente, Charlie et Max ont une chance, une seule, de faire leur grand retour…",
-    "banner": "medias/films/real-steel/real-steel.jpg",
+    "poster": "medias/films/real-steel/poster.jpg",
+    "banner": "medias/films/real-steel/banner.jpg",
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt0433035/",
     "year": 2011,
@@ -1662,7 +1713,8 @@
   "F1® Le Film": {
     "title": "F1® Le Film",
     "description": "Sonny Hayes était le prodige de la F1 des années 90 jusqu'à son terrible accident. Trente ans plus tard, devenu un pilote indépendant, il est contacté par Ruben Cervantes, patron d'une écurie en faillite qui le convainc de revenir pour sauver l'équipe et prouver qu'il est toujours le meilleur. Aux côtés de Joshua Pearce, diamant brut prêt à devenir le numéro 1, Sonny réalise vite qu'en F1, son coéquipier est aussi son plus grand rival, que le danger est partout et qu'il risque de tout perdre.",
-    "banner": "medias/films/f1-le-film/f1-le-film.jpg",
+    "poster": "medias/films/f1-le-film/poster.jpg",
+    "banner": "medias/films/f1-le-film/banner.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt16311594/",
     "year": 2025,
@@ -1691,7 +1743,8 @@
   "Conjuring : L'Heure du jugement": {
     "title": "Conjuring : L'Heure du jugement",
     "description": "Alors qu'ils espéraient une nouvelle vie, Ed et Lorraine Warren se voient impliqués dans une dernière enquête…qu'ils n'auraient jamais dû accepter. Dans la maison de la famille Smurl, un mal ancien les attend. Un ennemi qu'ils croyaient à jamais enfoui... Découvrez comment les Warren ont affronté le cas le plus maléfique de leur carrière, inspiré de faits réels qui ont terrorisé l'Amérique.",
-    "banner": "medias/films/conjuring-l-heure-du-jugement/conjuring-l-heure-du-jugement.jpg",
+    "poster": "medias/films/conjuring-l-heure-du-jugement/poster.jpg",
+    "banner": "medias/films/conjuring-l-heure-du-jugement/banner.jpg",
     "IMDb": 6.3,
     "IMDb_link": "https://www.imdb.com/title/tt22898462/",
     "year": 2025,
@@ -1720,7 +1773,8 @@
   "Tu ne tueras point": {
     "title": "Tu ne tueras point",
     "description": "Quand la Seconde Guerre mondiale a éclaté, Desmond, un jeune américain, s'est retrouvé confronté à un dilemme: comme n'importe lequel de ses compatriotes, il voulait servir son pays, mais la violence était incompatible avec ses croyances et ses principes moraux. Il s'opposait ne serait-ce qu'à tenir une arme et refusait d'autant plus de tuer. Il s'engagea tout de même dans l'infanterie comme médecin. Son refus d'infléchir ses convictions lui valut d'être rudement mené par ses camarades et sa hiérarchie, mais c'est armé de sa seule foi qu'il est entré dans l'enfer de la guerre pour en devenir l'un des plus grands héros. Lors de la bataille d'Okinawa sur l'imprenable falaise de Maeda, il a réussi à sauver des dizaines de vies seul sous le feu de l'ennemi, ramenant en sureté, du champ de bataille, un à un les soldats blessés.\n\n",
-    "banner": "medias/films/tu-ne-tueras-point/tu-ne-tueras-point.jpg",
+    "poster": "medias/films/tu-ne-tueras-point/poster.jpg",
+    "banner": "medias/films/tu-ne-tueras-point/banner.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt2119532/",
     "year": 2016,
@@ -1752,7 +1806,8 @@
   "Top Gun : Maverick": {
     "title": "Top Gun : Maverick",
     "description": "Après avoir été l'un des meilleurs pilotes de chasse de l'Aéronavale américaine pendant plus de trente ans, Pete “Maverick\" Mitchell continue à repousser ses limites en tant que pilote d'essai. Il refuse de monter en grade, car cela l'obligerait à renoncer à voler. Il est chargé de former un détachement de jeunes diplômés de l'école Top Gun pour une mission spéciale qu'aucun pilote n'aurait jamais imaginée. Lors de cette mission, Maverick rencontre le lieutenant Bradley “Rooster” Bradshaw, le fils de son défunt ami, le navigateur Nick “Goose” Bradshaw. Face à un avenir incertain, hanté par ses fantômes, Maverick va devoir affronter ses pires cauchemars au cours d'une mission qui exigera les plus grands sacrifices.",
-    "banner": "medias/films/top-gun-maverick/top-gun-maverick.jpg",
+    "poster": "medias/films/top-gun-maverick/poster.jpg",
+    "banner": "medias/films/top-gun-maverick/banner.jpg",
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt1745960/",
     "year": 2022,
@@ -1781,7 +1836,8 @@
   "Sous la Seine": {
     "title": "Sous la Seine",
     "description": "Lorsqu'un requin géant apparaît dans la Seine, une scientifique en deuil doit affronter son passé tragique pour sauver Paris d'un bain de sang au retentissement international.",
-    "banner": "medias/films/sous-la-seine/sous-la-seine.jpg",
+    "poster": "medias/films/sous-la-seine/poster.jpg",
+    "banner": "medias/films/sous-la-seine/banner.jpg",
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt13964390/",
     "year": 2024,
@@ -1812,7 +1868,8 @@
   "Destination finale : Bloodlines": {
     "title": "Destination finale : Bloodlines",
     "description": "Stefani, 18 ans, fait d'affreux cauchemars. Dans ceux-ci, elle voit sa grand-mère échapper à la mort dans un accident qui aurait dû la tuer il y a 50 ans. Son ancêtre a réussi alors à esquiver le décès jusqu'à l'âge de 80 ans ou elle meurt de façon naturelle. À cause de ce miracle, toute sa descendance doit quelque chose à la mort.",
-    "banner": "medias/films/destination-finale-bloodlines/destination-finale-bloodlines.jpg",
+    "poster": "medias/films/destination-finale-bloodlines/poster.jpg",
+    "banner": "medias/films/destination-finale-bloodlines/banner.jpg",
     "IMDb": 6.7,
     "IMDb_link": "https://www.imdb.com/title/tt9619824/",
     "year": 2025,
@@ -1843,7 +1900,8 @@
   "Harry Potter à l'école des sorciers": {
     "title": "Harry Potter à l'école des sorciers",
     "description": "Orphelin, le jeune Harry Potter peut enfin quitter ses tyranniques oncle et tante Dursley lorsqu'un curieux messager lui révèle qu'il est un sorcier. À 11 ans, Harry va enfin pouvoir intégrer la légendaire école de sorcellerie de Poudlard, y trouver une famille digne de ce nom et des amis, développer ses dons, et préparer son glorieux avenir.",
-    "banner": "medias/films/harry-potter-a-l-ecole-des-sorciers/harry-potter-a-l-ecole-des-sorciers.jpg",
+    "poster": "medias/films/harry-potter-a-l-ecole-des-sorciers/poster.jpg",
+    "banner": "medias/films/harry-potter-a-l-ecole-des-sorciers/banner.jpg",
     "IMDb": 7.7,
     "IMDb_link": "https://www.imdb.com/title/tt0241527/",
     "year": 2001,
@@ -1872,7 +1930,8 @@
   "Harry Potter et la Chambre des secrets": {
     "title": "Harry Potter et la Chambre des secrets",
     "description": "Après de très mauvaises vacances passées chez ses odieux oncle et tante et son affreux cousin, Harry rejoint, non sans mal, l'École des Sorciers où, avec ses amis Ron et Hermione et l'aide ponctuelle de nouveaux venus, il parvient à élucider le mystère de la Chambre des secrets, malgré les pièges tendus par ses ennemis et sans le concours de Lockhart, un nouveau professeur fanfaron et lâche, chargé pourtant de vaincre les Forces du Mal.\n\n",
-    "banner": "medias/films/harry-potter-et-la-chambre-des-secrets/harry-potter-et-la-chambre-des-secrets.jpg",
+    "poster": "medias/films/harry-potter-et-la-chambre-des-secrets/poster.jpg",
+    "banner": "medias/films/harry-potter-et-la-chambre-des-secrets/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt0295297/",
     "year": 2002,
@@ -1903,7 +1962,8 @@
   "Harry Potter et le Prisonnier d'Azkaban": {
     "title": "Harry Potter et le Prisonnier d'Azkaban",
     "description": "Sirius Black, un dangereux sorcier criminel, s'échappe de la sombre prison d'Azkaban avec un seul et unique but : retrouver Harry Potter, en troisième année à l'école de Poudlard. Selon la légende, Black aurait jadis livré les parents du jeune sorcier à leur assassin, Lord Voldemort, et serait maintenant déterminé à tuer Harry…",
-    "banner": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/harry-potter-et-le-prisonnier-d-azkaban.jpg",
+    "poster": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/poster.jpg",
+    "banner": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/banner.jpg",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt0304141/",
     "year": 2004,
@@ -1936,7 +1996,8 @@
   "Harry Potter et la Coupe de feu": {
     "title": "Harry Potter et la Coupe de feu",
     "description": "La quatrième année à l'école de Poudlard est marquée par le « Tournoi des trois sorciers ». Les participants sont choisis par la fameuse « Coupe de feu » qui est à l'origine d'un scandale. Elle sélectionne Harry Potter alors qu'il n'a pas l'âge légal requis ! Accusé de tricherie et mis à mal par une série d'épreuves physiques de plus en plus difficiles, ce dernier sera enfin confronté à Celui dont on ne doit pas prononcer le nom, Lord V.",
-    "banner": "medias/films/harry-potter-et-la-coupe-de-feu/harry-potter-et-la-coupe-de-feu.jpg",
+    "poster": "medias/films/harry-potter-et-la-coupe-de-feu/poster.jpg",
+    "banner": "medias/films/harry-potter-et-la-coupe-de-feu/banner.jpg",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt0330373/",
     "year": 2005,
@@ -1967,7 +2028,8 @@
   "Harry Potter et l'Ordre du Phénix": {
     "title": "Harry Potter et l'Ordre du Phénix",
     "description": "Alors qu'il entame sa cinquième année d'étude à Poudlard, Harry Potter découvre qu'une bonne partie de la communauté des sorciers feint d'ignorer sa récente confrontation avec Lord Voldemort, et préfèrent nier cette aveuglante évidence : le Seigneur des Ténèbres est bel et bien vivant. De plus, la communauté magique lit les mensonges de Rita Skeeter dans la Gazette du Sorcier sous contrôle du Ministère de la Magie. Craignant que le puissant Albus Dumbledore ne mente à propos du retour de Voldemort dans le but de saper son autorité et de lui ravir son poste, le Ministre de la Magie Cornélius Fudge nomme un nouveau Professeur de Défense contre les Forces du Mal, qu'il charge de surveiller le vieux doyen et ses étudiants. Mais celle-ci, Dolores Ombrage, se révèle incapable de préparer les collégiens à affronter les nouvelles menaces qui planent sur Poudlard…",
-    "banner": "medias/films/harry-potter-et-l-ordre-du-phenix/harry-potter-et-l-ordre-du-phenix.jpg",
+    "poster": "medias/films/harry-potter-et-l-ordre-du-phenix/poster.jpg",
+    "banner": "medias/films/harry-potter-et-l-ordre-du-phenix/banner.jpg",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt0373889/",
     "year": 2007,
@@ -1998,7 +2060,8 @@
   "Harry Potter et le Prince de sang-mêlé": {
     "title": "Harry Potter et le Prince de sang-mêlé",
     "description": "Voldemort a renforcé son emprise sur le monde des sorciers aussi bien que sur celui des Moldus, et Poudlard n'est plus un endroit sûr. Harry est d'ailleurs persuadé que le danger rôde à l'intérieur même de l'école mais Dumbledore est plus soucieux de le préparer pour la bataille finale qu'il sent approcher à grands pas. Ensemble, ils tentent de trouver le talon d'Achille de Voldemort et, à cette fin, Dumbledore fait appel au Professeur Horace Slughorn, qui détient des informations cruciales.",
-    "banner": "medias/films/harry-potter-et-le-prince-de-sang-mele/harry-potter-et-le-prince-de-sang-mele.jpg",
+    "poster": "medias/films/harry-potter-et-le-prince-de-sang-mele/poster.jpg",
+    "banner": "medias/films/harry-potter-et-le-prince-de-sang-mele/banner.jpg",
     "IMDb": 7.6,
     "IMDb_link": "https://www.imdb.com/title/tt0417741/",
     "year": 2010,
@@ -2032,7 +2095,8 @@
   "Harry Potter et les Reliques de la mort - 1ère partie": {
     "title": "Harry Potter et les Reliques de la mort - 1ère partie",
     "description": "Le pouvoir de Voldemort s'étend. Celui-ci contrôle maintenant le Ministère de la Magie et Poudlard. Harry, Ron et Hermione décident de terminer le travail commencé par Dumbledore, et de retrouver les derniers Horcruxes pour vaincre le Seigneur des Ténèbres. Mais il reste bien peu d'espoir aux trois sorciers, qui doivent réussir à tout prix.",
-    "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/harry-potter-et-les-reliques-de-la-mort-1ere-partie.jpg",
+    "poster": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/poster.jpg",
+    "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/banner.jpg",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt0926084/",
     "year": 2010,
@@ -2066,7 +2130,8 @@
   "Harry Potter et les Reliques de la mort - 2ème partie": {
     "title": "Harry Potter et les Reliques de la mort - 2ème partie",
     "description": "Le combat entre les puissances du bien et du mal de l'univers des sorciers se transforme en guerre sans merci. L'école Poudlard est désormais sous la coupe du professeur Rogue et des force des ténèbres. Les enjeux sont devenus considérables et personne n'est plus en sécurité alors que se rapproche l'ultime épreuve de force avec Voldemort…",
-    "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/harry-potter-et-les-reliques-de-la-mort-2eme-partie.jpg",
+    "poster": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/poster.jpg",
+    "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/banner.jpg",
     "IMDb": 8.1,
     "IMDb_link": "https://www.imdb.com/title/tt1201607/",
     "year": 2011,
@@ -2100,7 +2165,8 @@
   "Lilo & Stitch": {
     "title": "Lilo & Stitch",
     "description": "Sur l'île d'Hawaï, une petite fille espiègle nommée Lilo adopte ce qu'elle croit être un chien étrange, qu'elle prénomme Stitch. Mais Stitch est en réalité une créature extraterrestre créée pour semer le chaos. Malgré son tempérament destructeur, il découvre peu à peu les valeurs de l'amitié, de l'amour et de la famille. Ensemble, Lilo et Stitch vont prouver qu'une vraie famille peut naître là où on s'y attend le moins. Un mélange d'humour, d'émotion et d'action dans cette réinvention en prises de vues réelles du classique animé de Disney.",
-    "banner": "medias/films/lilo-stitch/lilo-stitch.jpg",
+    "poster": "medias/films/lilo-stitch/poster.jpg",
+    "banner": "medias/films/lilo-stitch/banner.jpg",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt11655566/",
     "year": 2022,
@@ -2135,7 +2201,8 @@
   "Souviens-toi… l'été dernier": {
     "title": "Souviens-toi… l'été dernier",
     "description": "Lorsque cinq amis causent involontairement un accident de voiture mortel, ils décident de dissimuler leur implication et concluent un pacte pour garder le secret. Un an plus tard, leur passé revient les hanter et ils sont confrontés à une terrible vérité : quelqu'un sait ce qu'ils ont fait l'été dernier... et il est bien déterminé à se venger.",
-    "banner": "medias/films/souviens-toi-l-ete-dernier/souviens-toi-l-ete-dernier.jpg",
+    "poster": "medias/films/souviens-toi-l-ete-dernier/poster.jpg",
+    "banner": "medias/films/souviens-toi-l-ete-dernier/banner.jpg",
     "IMDb": 5.1,
     "IMDb_link": "https://www.imdb.com/title/tt4045450/",
     "year": 2025,
@@ -2162,7 +2229,8 @@
   "Un ours dans le Jura": {
     "title": "Un ours dans le Jura",
     "description": "Michel et Cathy, un couple usé par le temps et les difficultés financières, ne se parle plus vraiment. Jusqu'au jour où Michel, pour éviter un ours sur la route, heurte une voiture et tue les deux occupants. 2 morts et 2 millions en billets usagés dans le coffre, forcément, ça donne envie de se reparler. Et surtout de se taire.",
-    "banner": "medias/films/un-ours-dans-le-jura/un-ours-dans-le-jura.jpg",
+    "poster": "medias/films/un-ours-dans-le-jura/poster.jpg",
+    "banner": "medias/films/un-ours-dans-le-jura/banner.jpg",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt33984333/",
     "year": 2027,
@@ -2191,7 +2259,8 @@
   "Dragons": {
     "title": "Dragons",
     "description": "Sur l'île accidentée de Berk, où Vikings et dragons se vouent une haine viscérale depuis des générations, Harold fait figure d'exception. Fils inventif mais négligé du chef Stoïck la Brute, il bouscule les traditions en se liant d'amitié avec Krokmou, une Furie nocturne. Leur duo improbable va révéler la vraie nature des dragons et bouleverser les fondements de la société viking. Avec la forte et ambitieuse Astrid et l'excentrique forgeron du village Gueulfor à ses côtés, Harold fait face à un monde déchiré par la peur et l'incompréhension. Lorsqu'une ancienne menace refait surface et met en péril les Vikings autant que les dragons, l'amitié entre Harold et Krokmou devient la clé de l'élaboration d'un avenir meilleur. Ensemble, ils doivent trouver la voie menant à la paix, s'envolant au-delà des frontières de leurs mondes pour redéfinir la véritable nature d'un héros et d'un chef.",
-    "banner": "medias/films/dragons-4/dragons-4.jpg",
+    "poster": "medias/films/dragons-4/poster.jpg",
+    "banner": "medias/films/dragons-4/banner.jpg",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt26743210/",
     "year": 2025,
@@ -2225,7 +2294,8 @@
   "Venom": {
     "title": "Venom",
     "description": "Des symbiotes débarquent sur la Terre, parmi eux, Venom, qui va s'allier avec Eddie Brock. De son côté, un puissant scientifique tente de faire évoluer l'humanité avec les symbiotes, le duo d'anti-héros va devoir tout faire pour l'arrêter !",
-    "banner": "medias/films/venom/venom.jpg",
+    "poster": "medias/films/venom/poster.jpg",
+    "banner": "medias/films/venom/banner.jpg",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1270797/",
     "year": 2018,
@@ -2258,7 +2328,8 @@
   "Venom: Let There Be Carnage": {
     "title": "Venom: Let There Be Carnage",
     "description": "Environ un an après avoir affronté Riot, Eddie Brock « cohabite » toujours avec le symbiote Venom. Alors qu'il tente de relancer sa carrière de journaliste d'investigation, Eddie se rend en prison pour interviewer le tueur en série Cletus Kasady. Il ignore que ce dernier est lui aussi l'hôte d'un symbiote, Carnage.",
-    "banner": "medias/films/venom-let-there-be-carnage/venom-let-there-be-carnage.jpg",
+    "poster": "medias/films/venom-let-there-be-carnage/poster.jpg",
+    "banner": "medias/films/venom-let-there-be-carnage/banner.jpg",
     "video": "medias/films/venom-let-there-be-carnage/venom-let-there-be-carnage.mp4",
     "IMDb": 5.9,
     "IMDb_link": "https://www.imdb.com/title/tt7097896/",
@@ -2289,7 +2360,8 @@
   "Venom : The Last Dance": {
     "title": "Venom : The Last Dance",
     "description": "Eddie et Venom sont en cavale. Chacun est traqué par ses semblables et alors que l'étau se resserre, le duo doit prendre une décision dévastatrice qui annonce la conclusion des aventures d'Eddie et de Venom.",
-    "banner": "medias/films/venom-the-last-dance/venom-the-last-dance.jpg",
+    "poster": "medias/films/venom-the-last-dance/poster.jpg",
+    "banner": "medias/films/venom-the-last-dance/banner.jpg",
     "video": "medias/films/venom-the-last-dance/venom-the-last-dance.mp4",
     "IMDb": 6.0,
     "IMDb_link": "venom-the-last-dance",
@@ -2322,7 +2394,8 @@
   "Le Secret de Khéops": {
     "title": "Le Secret de Khéops",
     "description": "Le trésor du pharaon Khéops a-t-il été découvert pendant la campagne d'Égypte de Napoléon, ramené en France, puis caché à Paris ? Christian Robinson, archéologue flamboyant aux méthodes peu orthodoxes, en est persuadé depuis la découverte d'une mystérieuse inscription lors de nouvelles fouilles au Caire. Bien décidé à déchiffrer les indices laissés par Dominique Vivant Denon, le premier directeur du Louvre, Christian Robinson embarque dans son aventure sa fille et son petit-fils. Cette quête du trésor de Khéops, à Paris, est aussi l'histoire de leur réconciliation.",
-    "banner": "medias/films/le-secret-de-kheops/le-secret-de-kheops.jpg",
+    "poster": "medias/films/le-secret-de-kheops/poster.jpg",
+    "banner": "medias/films/le-secret-de-kheops/banner.jpg",
     "video": "medias/films/le-secret-de-kheops/le-secret-de-kheops.mp4",
     "IMDb": 5.5,
     "IMDb_link": "https://www.imdb.com/title/tt34482468/",
@@ -2350,7 +2423,8 @@
   "Les Bad Guys": {
     "title": "Les Bad Guys",
     "description": "Après toute une vie de braquages légendaires, les criminels notoires M. Loup, M. Serpent, M. Piranha, M. Requin et Mme Tarantule sont enfin capturés. Pour éviter une peine de prison, les animaux hors-la-loi doivent réussir leur plus grande arnaque : devenir des citoyens modèles. Sous la tutelle de leur mentor, le professeur Marmelade, la bande entreprend de faire croire au monde qu'elle est en train de devenir honnête.",
-    "banner": "medias/films/les-bad-guys/les-bad-guys.jpg",
+    "poster": "medias/films/les-bad-guys/poster.jpg",
+    "banner": "medias/films/les-bad-guys/banner.jpg",
     "video": "medias/films/les-bad-guys/les-bad-guys.mp4",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt8115900/",
@@ -2384,7 +2458,8 @@
   "Les Bad Guys 2": {
     "title": "Les Bad Guys 2",
     "description": "Un loup, un serpent, une tarentule, un requin et un piranha sont une ancienne bande de criminels repentis tentant une réinsertion dans la société. Cependant, leur mauvaise réputation les précède et ils peinent à trouver du travail. Lorsqu'une série de cambriolages sont perpétrés dans la ville, ils en deviennent les principaux suspects. Pour prouver leurs bonnes intentions, ils offrent à la commissaire de police d'utiliser leurs habiletés uniques pour identifier le véritable coupable.",
-    "banner": "medias/films/les-bad-guys-2/les-bad-guys-2.jpg",
+    "poster": "medias/films/les-bad-guys-2/poster.jpg",
+    "banner": "medias/films/les-bad-guys-2/banner.jpg",
     "video": "medias/films/les-bad-guys-2/les-bad-guys-2.mp4",
     "IMDb": 7.0,
     "IMDb_link": "https://www.imdb.com/title/tt30017619/",
@@ -2420,7 +2495,8 @@
   "Batman Begins": {
     "title": "Batman Begins",
     "description": "Alors que le souvenir de ses parents assassinés le hante, Bruce Wayne, désemparé, erre à travers le monde cherchant les moyens de combattre l'injustice et ses propres peurs. Avec l'aide de son dévoué majordome et homme de confiance Alfred, de l'inspecteur Jim Gordon et de son allié Lucius Fox, Wayne revient à Gotham City et révèle son alter ego: Batman, un justicier masqué qui utilise sa force, son intelligence et une batterie d'armes high-tech pour combattre les forces sinistres qui menacent la ville…",
-    "banner": "medias/films/batman-begins/batman-begins.jpg",
+    "poster": "medias/films/batman-begins/poster.jpg",
+    "banner": "medias/films/batman-begins/banner.jpg",
     "video": "medias/films/batman-begins/batman-begins.mp4",
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt0372784/",
@@ -2454,7 +2530,8 @@
   "Batman The Dark Knight : Le Chevalier noir": {
     "title": "Batman The Dark Knight : Le Chevalier noir",
     "description": "Batman aborde une phase décisive de sa guerre contre le crime à Gotham City. Avec l'aide du lieutenant de police Jim Gordon et du nouveau procureur Harvey Dent, il entreprend de démanteler les dernières organisations criminelles qui infestent les rues de la ville. L'association s'avère efficace, mais le trio se heurte bientôt à un nouveau génie du crime qui répand la terreur et le chaos dans Gotham : le Joker. On ne sait pas d'où il vient ni qui il est. Ce criminel possède une intelligence redoutable doublé d'un humour sordide et n'hésite pas à s'attaquer à la pègre locale dans le seul but de semer le chaos.",
-    "banner": "medias/films/the-dark-knight-le-chevalier-noir/the-dark-knight-le-chevalier-noir.jpg",
+    "poster": "medias/films/the-dark-knight-le-chevalier-noir/poster.jpg",
+    "banner": "medias/films/the-dark-knight-le-chevalier-noir/banner.jpg",
     "video": "medias/films/the-dark-knight-le-chevalier-noir/the-dark-knight-le-chevalier-noir.mp4",
     "IMDb": 9.1,
     "IMDb_link": "https://www.imdb.com/title/tt0468569/",
@@ -2487,7 +2564,8 @@
   "Batman The Dark Knight Rises": {
     "title": "Batman The Dark Knight Rises",
     "description": "Afin que l'image de l'ex-procureur Harvey Dent reste un modèle du genre pour les citoyens de Gotham City, Batman a endossé les crimes de ce dernier et a été chassé de la ville par les autorités.  Huit ans plus tard, alors que Gotham City est de nouveau sûre, le commissaire Gordon tombe sur un complot qui vise à détruire la ville de l'intérieur.  Il fait appel à Batman. Ce dernier devra faire face à la mystérieuse Selina Kyle et à Bane, un adversaire mortel, qui veut mettre en pièce le symbole Batman.",
-    "banner": "medias/films/the-dark-knight-rises/the-dark-knight-rises.jpg",
+    "poster": "medias/films/the-dark-knight-rises/poster.jpg",
+    "banner": "medias/films/the-dark-knight-rises/banner.jpg",
     "video": "medias/films/the-dark-knight-rises/the-dark-knight-rises.mp4",
     "IMDb": 8.4,
     "IMDb_link": "https://www.imdb.com/title/tt1345836/",
@@ -2520,7 +2598,8 @@
   "The Batman": {
     "title": "The Batman",
     "description": "Durant les deux années passées à arpenter les rues en tant que Batman, Bruce Wayne s'est aventuré au cœur des ténèbres de Gotham City. Disposant de seulement quelques alliés de confiance au sein du monde corrompu qu'est l'élite de la ville, le justicier solitaire s'est imposé comme l'unique incarnation de la vengeance parmi ses concitoyens. Lorsqu'un meurtrier s'en prend aux plus grandes personnalités de Gotham à l'aide de machinations sadiques, le plus grand détective du monde se lance dans une enquête dans la pègre en suivant des indices mystérieux, croisant ainsi Selina Kyle, alias Catwoman, Oswald Cobblepot, alias le Pingouin, Carmine Falcone et Edward Nashton, alias le Riddler. Alors que les pistes et les plans du criminel s'éclaircissent, Batman doit tisser de nouveaux liens, démasquer le coupable et rétablir la justice à Gotham City, depuis trop longtemps empoisonnée par l'abus de pouvoir et la corruption.",
-    "banner": "medias/films/the-batman/the-batman.jpg",
+    "poster": "medias/films/the-batman/poster.jpg",
+    "banner": "medias/films/the-batman/banner.jpg",
     "video": "medias/films/the-batman/the-batman.mp4",
     "IMDb": 7.8,
     "IMDb_link": "https://www.imdb.com/title/tt1877830/",
@@ -2555,7 +2634,8 @@
   "Man of Steel": {
     "title": "Man of Steel",
     "description": "Un petit garçon découvre qu'il possède des pouvoirs surnaturels et qu'il n'est pas né sur Terre. Plus tard, il s'engage dans un périple afin de comprendre d'où il vient et pourquoi il a été envoyé sur notre planète. Mais il devra devenir un héros s'il veut sauver le monde de la destruction totale et incarner l'espoir pour toute l'humanité.",
-    "banner": "medias/films/man-of-steel/man-of-steel.jpg",
+    "poster": "medias/films/man-of-steel/poster.jpg",
+    "banner": "medias/films/man-of-steel/banner.jpg",
     "video": "medias/films/man-of-steel/man-of-steel.mp4",
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt0770828/",
@@ -2590,7 +2670,8 @@
   "Marche ou crève": {
     "title": "Marche ou crève",
     "description": "Dans une Amérique totalitaire instaurée après une longue guerre fratricide, 50 jeunes hommes participent à une marche d'endurance de plus de 500 kilomètres, filmée et diffusée en direct. Les marcheurs ont l'obligation de conserver un rythme constant, avec interdiction formelle de s'arrêter. Après trois avertissements consécutifs, les contrevenants sont froidement abattus. Un seul en sortira vivant, avec une somme faramineuse et un prix de son choix. Habité par un motif secret, le jeune Raymond Garraty tente sa chance, nouant sur la route un fort lien d'amitié avec l'Afro-Américain Peter McVries.",
-    "banner": "medias/films/marche-ou-creve/marche-ou-creve.jpg",
+    "poster": "medias/films/marche-ou-creve/poster.jpg",
+    "banner": "medias/films/marche-ou-creve/banner.jpg",
     "video": "medias/films/marche-ou-creve/marche-ou-creve.mp4",
     "IMDb": 6.8,
     "IMDb_link": "https://www.imdb.com/title/tt10374610/",
@@ -2622,7 +2703,8 @@
   "Batman v Superman : L'Aube de la Justice": {
     "title": "Batman v Superman : L'Aube de la Justice",
     "description": "Craignant que Superman n'abuse de sa toute-puissance, le Chevalier noir décide de l'affronter : le monde a-t-il davantage besoin d'un super-héros aux pouvoirs sans limite ou d'un justicier à la force redoutable mais d'origine humaine ? Pendant ce temps-là, une terrible menace se profile à l'horizon…",
-    "banner": "medias/films/batman-v-superman-l-aube-de-la-justice/batman-v-superman-l-aube-de-la-justice.jpg",
+    "poster": "medias/films/batman-v-superman-l-aube-de-la-justice/poster.jpg",
+    "banner": "medias/films/batman-v-superman-l-aube-de-la-justice/banner.jpg",
     "video": "medias/films/batman-v-superman-l-aube-de-la-justice/batman-v-superman-l-aube-de-la-justice.mp4",
     "IMDb": 6.4,
     "IMDb_link": "https://www.imdb.com/title/tt2975590/",
@@ -2653,7 +2735,8 @@
   "Suicide Squad": {
     "title": "Suicide Squad",
     "description": "C'est tellement jouissif d'être un salopard ! Face à une menace aussi énigmatique qu'invincible, l'agent secret Amanda Waller réunit une armada de crapules de la pire espèce. Armés jusqu'aux dents par le gouvernement, ces Super-Méchants s'embarquent alors pour une mission-suicide. Jusqu'au moment où ils comprennent qu'ils ont été sacrifiés. Vont-ils accepter leur sort ou se rebeller ?",
-    "banner": "medias/films/suicide-squad/suicide-squad.jpg",
+    "poster": "medias/films/suicide-squad/poster.jpg",
+    "banner": "medias/films/suicide-squad/banner.jpg",
     "video": "medias/films/suicide-squad/suicide-squad.mp4",
     "IMDb": 5.9,
     "IMDb_link": "https://www.imdb.com/title/tt1386697/",
@@ -2687,7 +2770,8 @@
   "Wonder Woman": {
     "title": "Wonder Woman",
     "description": "Avant d'être Wonder Woman, elle s'appelait Diana, princesse des Amazones, entraînée pour être une guerrière impossible à conquérir. Elle est élevée sur une île isolée et paradisiaque, mais lorsqu'un pilote américain s'écrase sur leur rivage et annonce qu'un conflit à grande échelle fait rage dans le monde, Diana quitte son foyer, convaincue qu'elle doit arrêter cette menace. Combattant aux côtés de cet homme et des siens pour mettre fin à cette guerre et à toutes les guerres, Diana découvre ses vrais pouvoirs... Et son véritable destin.",
-    "banner": "medias/films/wonder-woman/wonder-woman.jpg",
+    "poster": "medias/films/wonder-woman/poster.jpg",
+    "banner": "medias/films/wonder-woman/banner.jpg",
     "video": "medias/films/wonder-woman/wonder-woman.mp4",
     "IMDb": 7.3,
     "IMDb_link": "https://www.imdb.com/title/tt0451279/",
@@ -2722,7 +2806,8 @@
   "Justice League": {
     "title": "Justice League",
     "description": "Après avoir retrouvé foi en l'humanité, Bruce Wayne, inspiré par l'altruisme de Superman, sollicite l'aide de sa nouvelle alliée, Diana Prince, pour affronter un ennemi plus redoutable que jamais. Ensemble, Batman et Wonder Woman ne tardent pas à recruter une équipe de méta-humains pour faire face à cette menace inédite. Pourtant, malgré la force que représente cette ligue de héros sans précédent - Batman, Wonder Woman, Aquaman, Cyborg et The Flash -, il est peut-être déjà trop tard pour sauver la planète d'une attaque apocalyptique…",
-    "banner": "medias/films/justice-league/justice-league.jpg",
+    "poster": "medias/films/justice-league/poster.jpg",
+    "banner": "medias/films/justice-league/banner.jpg",
     "video": "medias/films/justice-league/justice-league.mp4",
     "IMDb": 6.0,
     "IMDb_link": "https://www.imdb.com/title/tt0974015/",
@@ -2752,10 +2837,10 @@
   "Aquaman": {
     "title": "Aquaman",
     "description": "Personnage légendaire depuis 70 ans, Aquaman est le Roi des Sept Mers, régnant à contrecœur sur Atlantis. Pris en étau entre les Terriens qui détruisent constamment la mer et les habitants d'Atlantis prêts à se révolter, Aquaman doit protéger la planète tout entière…",
-    "banner": "medias/films/aquaman/aquaman.jpg",
+    "poster": "medias/films/aquaman/poster.jpg",
+    "banner": "medias/films/aquaman/banner.jpg",
     "video": "medias/films/aquaman/aquaman.mp4",
     "IMDb": 6.8,
-    "duration": "2h 23min",
     "IMDb_link": "https://www.imdb.com/title/tt1477834/",
     "year": 2018,
     "genres": [
@@ -2788,7 +2873,8 @@
   "Shazam!": {
     "title": "Shazam!",
     "description": "On a tous un super-héros qui sommeille au fond de soi… il faut juste un peu de magie pour le réveiller. Pour Billy Batson, gamin débrouillard de 14 ans placé dans une famille d'accueil, il suffit de crier « Shazam ! » pour se transformer en super-héros. Ado dans un corps d'adulte sculpté à la perfection, Shazam s'éclate avec ses tout nouveaux superpouvoirs. Est-il capable de voler ? De voir à travers n'importe quel type de matière ? De faire jaillir la foudre de ses mains ? Et de sauter son examen de sciences sociales ? Shazam repousse les limites de ses facultés avec l'insouciance d'un enfant. Mais il lui faudra maîtriser rapidement ses pouvoirs pour combattre les forces des ténèbres du Dr Thaddeus Sivana…",
-    "banner": "medias/films/shazam/shazam.jpg",
+    "poster": "medias/films/shazam/poster.jpg",
+    "banner": "medias/films/shazam/banner.jpg",
     "video": "medias/films/shazam/shazam.mp4",
     "IMDb": 7.0,
     "IMDb_link": "https://www.imdb.com/title/tt0448115/",
@@ -2818,7 +2904,8 @@
   "Joker": {
     "title": "Joker",
     "description": "Dans les années 1980, à Gotham City, Arthur Fleck, un humoriste de stand-up raté, bascule dans la folie et devient le Joker.",
-    "banner": "medias/films/joker/joker.jpg",
+    "poster": "medias/films/joker/poster.jpg",
+    "banner": "medias/films/joker/banner.jpg",
     "video": "medias/films/joker/joker.mp4",
     "IMDb": 8.3,
     "IMDb_link": "https://www.imdb.com/title/tt7286456/",
@@ -2849,7 +2936,8 @@
   "Divergente": {
     "title": "Divergente",
     "description": "L'aventure palpitante de Tris Prior (Woodley) qui, plongée dans un futur où chaque individu appartient à un groupe choisi selon sa personnalité, se retrouve parmi les inclassables, incapable d'appartenir à un seul groupe, en un mot, Divergente. Lorsqu'elle découvre qu'une conspiration se trame afin de détruire tous les Divergents, elle doit à tout prix découvrir ce qui rend la Divergence si dangereuse, avant qu'il ne soit trop tard.",
-    "banner": "medias/films/divergente/divergente.jpg",
+    "poster": "medias/films/divergente/poster.jpg",
+    "banner": "medias/films/divergente/banner.jpg",
     "video": "medias/films/divergente/divergente.mp4",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt1840309/",
@@ -2882,7 +2970,8 @@
   "Divergente 2 : L'Insurrection": {
     "title": "Divergente 2 : L'Insurrection",
     "description": "Dans un monde post-apocalyptique où la société a été réorganisée autour de 5 factions (Audacieux, Érudits, Altruistes, Sincères et Fraternels), Tris a mis à jour un complot mené par la faction dominante, les Érudits, dirigés par Jeanine. Abandonnant une ville à feu et à sang, à la recherche d'alliés, Tris et Quatre sont désormais traqués par les autorités. Janine décrète la loi martiale pour anéantir les Divergents, tandis que la guerre entre les factions prend de l'ampleur. Pourquoi les Divergents sont-ils une menace pour la société ? La découverte d'un objet mystérieux, hérité du passé, pourrait bien bouleverser l'équilibre des forces…",
-    "banner": "medias/films/divergente-2-l-insurrection/divergente-2-l-insurrection.jpg",
+    "poster": "medias/films/divergente-2-l-insurrection/poster.jpg",
+    "banner": "medias/films/divergente-2-l-insurrection/banner.jpg",
     "video": "medias/films/divergente-2-l-insurrection/divergente-2-l-insurrection.mp4",
     "IMDb": 6.2,
     "IMDb_link": "https://www.imdb.com/title/tt2908446/",
@@ -2912,7 +3001,8 @@
   "Divergente 3 : Au-delà du mur": {
     "title": "Divergente 3 : Au-delà du mur",
     "description": "Tris et ses alliés ont réussi à renverser les Érudits. Les sans-faction mettent alors en place une dictature, imposant à tous la disparition des factions. Plutôt que de se plier à ce nouveau pouvoir totalitaire, Tris, Tobias et leurs amis choisissent de s'échapper. Le monde qu'ils découvrent au-delà de la Clôture ne correspond en rien à ce qu'on leur a dit. Ils apprennent ainsi que leur ville, Chicago, fait partie d'une expérience censée sauver l'humanité contre sa propre dégénérescence. Mais l'humanité peut-elle être sauvée contre elle-même ?",
-    "banner": "medias/films/divergente-3-au-dela-du-mur/divergente-3-au-dela-du-mur.jpg",
+    "poster": "medias/films/divergente-3-au-dela-du-mur/poster.jpg",
+    "banner": "medias/films/divergente-3-au-dela-du-mur/banner.jpg",
     "video": "medias/films/divergente-3-au-dela-du-mur/divergente-3-au-dela-du-mur.mp4",
     "IMDb": 5.7,
     "IMDb_link": "https://www.imdb.com/title/tt3410834/",
@@ -2946,10 +3036,10 @@
   "28 Jours plus tard": {
     "title": "28 Jours plus tard",
     "description": "Un commando de la Protection Animale fait irruption dans un laboratoire top secret pour délivrer des dizaines de chimpanzés soumis à de terribles expériences. Mais aussitôt libérés, les primates, contaminés par un mystérieux virus et animés d'une rage incontrôlable, bondissent sur leurs « sauveurs » et les massacrent. 28 jours plus tard, le mal s'est répandu à une vitesse fulgurante à travers le pays, la population a été évacuée en masse et Londres n'est plus qu'une ville fantôme. Les rares rescapés se terrent pour échapper aux « Contaminés » assoiffés de violence. C'est dans ce contexte que Jim, un coursier, sort d'un profond coma…",
-    "banner": "medias/films/28-jours-plus-tard/28-jours-plus-tard.jpg",
+    "poster": "medias/films/28-jours-plus-tard/poster.jpg",
+    "banner": "medias/films/28-jours-plus-tard/banner.jpg",
     "video": "medias/films/28-jours-plus-tard/28-jours-plus-tard.mp4",
     "IMDb": 7.5,
-    "duration": "1h 54min",
     "IMDb_link": "https://www.imdb.com/title/tt0289043/",
     "year": 2002,
     "genres": [
@@ -2980,10 +3070,10 @@
   "28 Semaines plus tard": {
     "title": "28 Semaines plus tard",
     "description": "Il y a 6 mois, un virus a décimé l'Angleterre, transformant la population en monstres sanguinaires. Aujourd'hui, la situation est maîtrisée et Londres contrôlée par l'armée de l'OTAN sous commandement américain, et les rares survivants reviennent dans les quartiers sécurisés de la ville. Don a échappé de justesse a une attaque de zombies en s'enfuyant sous les yeux de sa femme, qui elle, n'a pas eu sa chance. Il retrouve ses enfants à Londres. Alors qu'ils tentent de se reconstruire, quelque part, un effroyable secret les attend. Tout n'est pas terminé…",
-    "banner": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.jpg",
+    "poster": "medias/films/28-semaines-plus-tard/poster.jpg",
+    "banner": "medias/films/28-semaines-plus-tard/banner.jpg",
     "video": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.mp4",
     "IMDb": 6.8,
-    "duration": "1h 40min",
     "IMDb_link": "https://www.imdb.com/title/tt0463854/",
     "year": 2007,
     "genres": [
@@ -3008,10 +3098,10 @@
   "28 Ans plus tard": {
     "title": "28 Ans plus tard",
     "description": "Cela fait près de trente ans que le Virus de la Fureur s'est échappé d'un laboratoire d'armement biologique. Alors qu'un confinement très strict a été mis en place, certains ont trouvé le moyen de survivre parmi les personnes infectées. C'est ainsi qu'une communauté de rescapés s'est réfugiée sur une petite île seulement reliée au continent par une route, placée sous haute protection. Lorsque l'un des habitants de l'île est envoyé en mission sur le continent, il découvre que non seulement les infectés ont muté, mais que d'autres survivants aussi, dans un contexte à la fois mystérieux et terrifiant…",
-    "banner": "medias/films/28-ans-plus-tard/28-ans-plus-tard.jpg",
+    "poster": "medias/films/28-ans-plus-tard/poster.jpg",
+    "banner": "medias/films/28-ans-plus-tard/banner.jpg",
     "video": "medias/films/28-ans-plus-tard/28-ans-plus-tard.mp4",
     "IMDb": 6.6,
-    "duration": "1h 55min",
     "IMDb_link": "https://www.imdb.com/title/tt10548174/",
     "year": 2025,
     "genres": [
@@ -3037,7 +3127,8 @@
   "Les Intrus": {
     "title": "Les Intrus",
     "description": "Un jeune couple traverse le pays pour commencer une nouvelle vie ensemble dans le Pacifique Nord-Ouest. En chemin, leur voiture tombe en panne et ils sont forcés de passer la nuit dans une maison AirBnb isolée en Oregon. Tout au long de la nuit, ils sont terrorisés par trois inconnus masqués.",
-    "banner": "medias/films/les-intrus/les-intrus.jpg",
+    "poster": "medias/films/les-intrus/poster.jpg",
+    "banner": "medias/films/les-intrus/banner.jpg",
     "video": "medias/films/les-intrus/les-intrus.mp4",
     "IMDb": 4.7,
     "IMDb_link": "https://www.imdb.com/title/tt22050754/",
@@ -3065,7 +3156,8 @@
   "Les Intrus : Chapitre 2": {
     "title": "Les Intrus : Chapitre 2",
     "description": "Lorsqu'ils découvrent que l'une de leurs victimes, Maya, a survécu, ils reviennent pour terminer ce qu'ils ont commencé. Traquée et isolée, Maya doit affronter un nouveau chapitre terrifiant alors que les tueurs, insensés et inarrêtables, la traquent, prêts à éliminer quiconque se mettra en travers de leur route.",
-    "banner": "medias/films/les-intrus-chapitre-2/les-intrus-chapitre-2.jpg",
+    "poster": "medias/films/les-intrus-chapitre-2/poster.jpg",
+    "banner": "medias/films/les-intrus-chapitre-2/banner.jpg",
     "video": "medias/films/les-intrus-chapitre-2/les-intrus-chapitre-2.mp4",
     "IMDb": 4.7,
     "IMDb_link": "https://www.imdb.com/title/tt28671344/",
@@ -3094,7 +3186,8 @@
   "Dune : Première partie": {
     "title": "Dune : Première partie",
     "description": "L'histoire de Paul Atreides, jeune homme aussi doué que brillant, voué à connaître un destin hors du commun qui le dépasse totalement. Car, s'il veut préserver l'avenir de sa famille et de son peuple, il devra se rendre sur Dune, la planète la plus dangereuse de l'Univers. Mais aussi la seule à même de fournir la ressource la plus précieuse capable de décupler la puissance de l'Humanité. Tandis que des forces maléfiques se disputent le contrôle de cette planète, seuls ceux qui parviennent à dominer leur peur pourront survivre…",
-    "banner": "medias/films/dune-premiere-partie/dune-premiere-partie.jpg",
+    "poster": "medias/films/dune-premiere-partie/poster.jpg",
+    "banner": "medias/films/dune-premiere-partie/banner.jpg",
     "video": "medias/films/dune-premiere-partie/dune-premiere-partie.mp4",
     "IMDb": 8.0,
     "IMDb_link": "https://www.imdb.com/title/tt1160419/",
@@ -3129,7 +3222,8 @@
   "Dune : Deuxième partie": {
     "title": "Dune : Deuxième partie",
     "description": "Le voyage mythique de Paul Atreides qui s'allie à Chani et aux Fremen dans sa quête de vengeance envers les conspirateurs qui ont anéanti sa famille. Devant choisir entre l'amour de sa vie et le destin de l'univers, il fera tout pour éviter un terrible futur que lui seul peut prédire.",
-    "banner": "medias/films/dune-deuxieme-partie/dune-deuxieme-partie.jpg",
+    "poster": "medias/films/dune-deuxieme-partie/poster.jpg",
+    "banner": "medias/films/dune-deuxieme-partie/banner.jpg",
     "video": "medias/films/dune-deuxieme-partie/dune-deuxieme-partie.mp4",
     "IMDb": 8.4,
     "IMDb_link": "https://www.imdb.com/title/tt15239678/",
@@ -3164,7 +3258,8 @@
   "Jumanji : Bienvenue dans la jungle": {
     "title": "Jumanji : Bienvenue dans la jungle",
     "description": "Quatre lycéens découvrent une vieille console contenant un jeu vidéo dont ils n'avaient jamais entendu parler : Jumanji. En voulant jouer, ils se retrouvent mystérieusement propulsés dans la jungle de Jumanji, où ils deviennent leurs avatars. Spencer est désormais un aventurier musclé, Fridge, le footeux, devient un véritable Einstein, Bethany, la fille si populaire au lycée, se transforme en professeur d'âge mûr et la timide Martha est maintenant une redoutable combattante. Ils vont rapidement découvrir qu'il ne suffit pas de jouer à Jumanji, il faut y survivre… Pour vaincre le jeu et revenir dans le monde réel, ils vont devoir affronter les pires dangers, découvrir ce qu'Alan Parrish a laissé vingt ans auparavant, et changer leur façon de voir la vie et eux-mêmes. Sinon, ils resteront prisonniers de Jumanji pour toujours…",
-    "banner": "medias/films/jumanji-bienvenue-dans-la-jungle/jumanji-bienvenue-dans-la-jungle.jpg",
+    "poster": "medias/films/jumanji-bienvenue-dans-la-jungle/poster.jpg",
+    "banner": "medias/films/jumanji-bienvenue-dans-la-jungle/banner.jpg",
     "video": "medias/films/jumanji-bienvenue-dans-la-jungle/jumanji-bienvenue-dans-la-jungle.mp4",
     "IMDb": 6.9,
     "IMDb_link": "https://www.imdb.com/title/tt2283362/",
@@ -3198,7 +3293,8 @@
   "Jumanji : Next Level": {
     "title": "Jumanji : Next Level",
     "description": "L'équipe est de retour, mais le jeu a changé. Alors qu'ils retournent dans Jumanji pour secourir l'un des leurs, ils découvrent un monde totalement inattendu. Des déserts arides aux montagnes enneigées, les joueurs vont devoir braver des espaces inconnus et inexplorés, afin de sortir du jeu le plus dangereux du monde...",
-    "banner": "medias/films/jumanji-next-level/jumanji-next-level.jpg",
+    "poster": "medias/films/jumanji-next-level/poster.jpg",
+    "banner": "medias/films/jumanji-next-level/banner.jpg",
     "video": "medias/films/jumanji-next-level/jumanji-next-level.mp4",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt7975244/",
@@ -3229,7 +3325,8 @@
   "La Plateforme": {
     "title": "La Plateforme",
     "description": "Une plateforme de nourriture descend d'étage en étage pour ravitailler les résidents d'une tour. Ceux du dessus se gavent, affamant ceux du dessous. La révolte gronde.",
-    "banner": "medias/films/la-plateforme/la-plateforme.jpg",
+    "poster": "medias/films/la-plateforme/poster.jpg",
+    "banner": "medias/films/la-plateforme/banner.jpg",
     "video": "medias/films/la-plateforme/la-plateforme.mp4",
     "IMDb": 7.0,
     "IMDb_link": "https://www.imdb.com/title/tt8228288/",
@@ -3260,7 +3357,8 @@
   "La Plateforme 2": {
     "title": "La Plateforme 2",
     "description": "Quand un mystérieux leader impose sa loi avec un système brutal de cellules verticales, une nouvelle arrivante se rebelle contre une répartition alimentaire discutable.",
-    "banner": "medias/films/la-plateforme-2/la-plateforme-2.jpg",
+    "poster": "medias/films/la-plateforme-2/poster.jpg",
+    "banner": "medias/films/la-plateforme-2/banner.jpg",
     "video": "medias/films/la-plateforme-2/la-plateforme-2.mp4",
     "IMDb": 4.9,
     "IMDb_link": "https://www.imdb.com/title/tt27729779/",
@@ -3290,7 +3388,8 @@
   "Birds of Prey et la fantabuleuse histoire de Harley Quinn": {
     "title": "Birds of Prey et la fantabuleuse histoire de Harley Quinn",
     "description": "Vous connaissez l'histoire du flic, de l'oiseau chanteur, de la cinglée et de la princesse mafieuse ?  Birds of Prey et la fantabuleuse histoire de Harley Quinn est une histoire déjantée racontée par Harley en personne, d'une manière dont elle seule a le secret.  Roman Sionis, l'ennemi le plus abominable et le plus narcissique de Gotham, ainsi que son fidèle acolyte Zsasz décident de s'en prendre à une certaine « Cass ». La ville est passée au peigne fin pour retrouver la trace de la jeune fille.  Les parcours de Harley, de la Chasseuse, de Black Canary et de Renee Montoya se télescopent et ce quatuor improbable n'a d'autre choix que de faire équipe pour éliminer Roman…",
-    "banner": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn.jpg",
+    "poster": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/poster.jpg",
+    "banner": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/banner.jpg",
     "video": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn.mp4",
     "IMDb": 6.1,
     "IMDb_link": "https://www.imdb.com/title/tt7713068/",
@@ -3320,7 +3419,8 @@
   "Wonder Woman 1984": {
     "title": "Wonder Woman 1984",
     "description": "Suite des aventures de Diana Prince, alias Wonder Woman, Amazone devenue une super-héroïne dans notre monde. Après la Première guerre mondiale, direction les années 80 ! Cette fois, Wonder Woman doit affronter deux nouveaux ennemis, particulièrement redoutables : Max Lord et Cheetah.",
-    "banner": "medias/films/wonder-woman-1984/wonder-woman-1984.jpg",
+    "poster": "medias/films/wonder-woman-1984/poster.jpg",
+    "banner": "medias/films/wonder-woman-1984/banner.jpg",
     "video": "medias/films/wonder-woman-1984/wonder-woman-1984.mp4",
     "IMDb": 5.3,
     "IMDb_link": "https://www.imdb.com/title/tt7126948/",
@@ -3354,7 +3454,8 @@
   "Black Adam": {
     "title": "Black Adam",
     "description": "Près de 5000 ans après avoir été doté des pouvoirs tout puissants des dieux égyptiens - et emprisonné très rapidement après - Black Adam est libéré de sa tombe terrestre, prêt à faire régner sa forme unique de justice dans le monde moderne.",
-    "banner": "medias/films/black-adam/black-adam.jpg",
+    "poster": "medias/films/black-adam/poster.jpg",
+    "banner": "medias/films/black-adam/banner.jpg",
     "video": "medias/films/black-adam/black-adam.mp4",
     "IMDb": 6.1,
     "IMDb_link": "https://www.imdb.com/title/tt6443346/",
@@ -3389,7 +3490,8 @@
   "Shazam! La Rage des dieux": {
     "title": "Shazam! La Rage des dieux",
     "description": "Investis des pouvoirs des dieux, Billy Batson et ses copains apprennent encore à concilier leur vie d'ados avec leurs responsabilités de super-héros dès lors qu'ils se transforment en adultes. Mais quand les Filles de l'Atlas, trio d'anciennes déesses ivres de vengeance, débarquent sur Terre pour retrouver la magie qu'on leur a volée il y a longtemps, Billy, alias Shazam, et sa famille s'engagent dans une bataille destinée à conserver leurs superpouvoirs, à rester en vie et à sauver la planète. Mais une bande d'adolescents peut-elle vraiment empêcher la destruction du monde ? Et, surtout, Billy en a-t-il seulement envie ... ?",
-    "banner": "medias/films/shazam-la-rage-des-dieux/shazam-la-rage-des-dieux.jpg",
+    "poster": "medias/films/shazam-la-rage-des-dieux/poster.jpg",
+    "banner": "medias/films/shazam-la-rage-des-dieux/banner.jpg",
     "video": "medias/films/shazam-la-rage-des-dieux/shazam-la-rage-des-dieux.mp4",
     "IMDb": 5.9,
     "IMDb_link": "https://www.imdb.com/title/tt10151854/",
@@ -3420,7 +3522,8 @@
   "The Flash": {
     "title": "The Flash",
     "description": "Les mondes entrent en collision lorsque Barry, alias \"The Flash\", utilise ses pouvoirs pour voyager dans le temps afin de changer les événements du passé. Mais lorsque sa tentative de sauver sa famille modifie par inadvertance le futur, Barry se retrouve piégé dans une réalité où le Général Zod est revenu, avide de destruction, et il n'y a aucun super-héros vers qui se tourner. Enfin, à moins que Barry ne puisse faire sortir un Batman très différent de sa retraite et arrive à sauver un Kryptonien emprisonné… mais pas celui qu'il recherche. En fin de compte, pour sauver le monde dans lequel il se trouve et retourner dans le futur qu'il connaît, le seul espoir de Barry est de foncer. Mais faire le sacrifice ultime suffira-t-il à réinitialiser l'univers ?",
-    "banner": "medias/films/the-flash/the-flash.jpg",
+    "poster": "medias/films/the-flash/poster.jpg",
+    "banner": "medias/films/the-flash/banner.jpg",
     "video": "medias/films/the-flash/the-flash.mp4",
     "IMDb": 6.6,
     "IMDb_link": "https://www.imdb.com/title/tt0439572/",
@@ -3452,7 +3555,8 @@
   "Blue Beetle": {
     "title": "Blue Beetle",
     "description": "Fraîchement diplômé de l'université, Jaime Reyes rentre chez lui, plein d'ambitions, mais il découvre que la situation a bien changé depuis son départ. Tandis qu'il cherche sa place dans le monde, le destin s'en mêle : Jaime se retrouve par hasard en possession du Scarabée, une ancienne relique d'une biotechnologie extraterrestre. Dès lors que le Scarabée choisit de faire de Jaime son hôte, le jeune homme se voit revêtu d'une armure hors du commun qui lui octroie des pouvoirs extraordinaires - et imprévisibles. Tout bascule alors pour Jaime qui devient le super-héros Blue Beetle…",
-    "banner": "medias/films/blue-beetle/blue-beetle.jpg",
+    "poster": "medias/films/blue-beetle/poster.jpg",
+    "banner": "medias/films/blue-beetle/banner.jpg",
     "video": "medias/films/blue-beetle/blue-beetle.mp4",
     "IMDb": 5.9,
     "IMDb_link": "https://www.imdb.com/title/tt9362930/",
@@ -3480,10 +3584,10 @@
   "Aquaman et le Royaume perdu": {
     "title": "Aquaman et le Royaume perdu",
     "description": "Alors qu'Arthur Curry affronte ses responsabilités de Roi des Sept Mers, un pouvoir antique enfoui depuis longtemps se déchaîne. Après avoir été témoin de l'effet de ces forces obscures, Aquaman doit forger une alliance difficile avec un vieil ennemi et se lancer dans un voyage périlleux pour protéger sa famille, son royaume et le monde d'une dévastation irréversible.",
-    "banner": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.jpg",
+    "poster": "medias/films/aquaman-et-le-royaume-perdu/poster.jpg",
+    "banner": "medias/films/aquaman-et-le-royaume-perdu/banner.jpg",
     "video": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.mp4",
     "IMDb": 5.6,
-    "duration": "2h 04min",
     "IMDb_link": "https://www.imdb.com/title/tt9663764/",
     "year": 2023,
     "genres": [
@@ -3516,7 +3620,8 @@
   "Joker : Folie à deux": {
     "title": "Joker : Folie à deux",
     "description": "Arthur Fleck, alors interné dans l'asile d'Arkham, attend d'être jugé pour les crimes qu'il a commis sous les traits de Joker. Déchiré entre ses deux identités, Arthur ne trouve pas seulement le grand amour, mais aussi la mélodie qui a toujours sommeillé en lui.",
-    "banner": "medias/films/joker-folie-a-deux/joker-folie-a-deux.jpg",
+    "poster": "medias/films/joker-folie-a-deux/poster.jpg",
+    "banner": "medias/films/joker-folie-a-deux/banner.jpg",
     "video": "medias/films/joker-folie-a-deux/joker-folie-a-deux.mp4",
     "IMDb": 5.2,
     "IMDb_link": "https://www.imdb.com/title/tt11315808/",
@@ -3548,7 +3653,8 @@
   "Superman": {
     "title": "Superman",
     "description": "Superman doit trouver l'équilibre entre ses racines kryptoniennes et son identité humaine, sous les traits de Clark Kent, originaire de Smallville, dans le Kansas. Il est l'incarnation de la vérité, de la justice et des valeurs américaines et il est animé par une véritable bienveillance dans un monde qui considère cette qualité comme obsolète.",
-    "banner": "medias/films/superman/superman.jpg",
+    "poster": "medias/films/superman/poster.jpg",
+    "banner": "medias/films/superman/banner.jpg",
     "video": "medias/films/superman/superman.mp4",
     "IMDb": 7.1,
     "IMDb_link": "https://www.imdb.com/title/tt5950044/",
@@ -3581,7 +3687,8 @@
   "Top Gun": {
     "title": "Top Gun",
     "description": "Jeune as du pilotage et tête brûlée d'une école réservée à l'élite de l'Aéronavale américaine, la fameuse « Top Gun », Pete Mitchell, dit Maverick, tombe sous le charme d'une instructrice alors qu'il est en compétition pour le titre du meilleur pilote…",
-    "banner": "medias/films/top-gun/top-gun.jpg",
+    "poster": "medias/films/top-gun/poster.jpg",
+    "banner": "medias/films/top-gun/banner.jpg",
     "video": "medias/films/top-gun/top-gun.mp4",
     "IMDb": 7.0,
     "IMDb_link": "https://www.imdb.com/title/tt0092099/",
@@ -3608,7 +3715,8 @@
   "Avatar": {
     "title": "Avatar",
     "description": "Un marine paraplégique, envoyé sur la lune Pandora pour une mission unique, est tiraillé entre suivre ses ordres et protéger le monde qu'il considère dorénavant comme le sien.",
-    "banner": "medias/films/avatar/avatar.jpg",
+    "poster": "medias/films/avatar/poster.jpg",
+    "banner": "medias/films/avatar/banner.jpg",
     "video": "medias/films/avatar/avatar.mp4",
     "IMDb": 7.9,
     "IMDb_link": "https://www.imdb.com/title/tt0499549/",
@@ -3640,7 +3748,8 @@
   "Avatar : La Voie de l'eau": {
     "title": "Avatar : La Voie de l'eau",
     "description": "Une dizaine d'années s'est écoulée depuis les précédents évènements survenus sur Pandora. Jake Sully et Neytiri sont devenus parents. Leur vie idyllique, proche de la nature, est menacée lorsque la « Ressources Développement Administration », dangereuse organisation non-gouvernementale, est de retour sur Pandora. Contraints de quitter leur habitat naturel, Jake et sa famille se rendent sur les récifs, où ils pensent trouver asile. Mais ils tombent sur un clan, les Metkayina, aux mœurs différentes des leurs.",
-    "banner": "medias/films/avatar-la-voie-de-l-eau/avatar-la-voie-de-l-eau.jpg",
+    "poster": "medias/films/avatar-la-voie-de-l-eau/poster.jpg",
+    "banner": "medias/films/avatar-la-voie-de-l-eau/banner.jpg",
     "video": "medias/films/avatar-la-voie-de-l-eau/avatar-la-voie-de-l-eau.mp4",
     "IMDb": 7.5,
     "IMDb_link": "https://www.imdb.com/title/tt1630029/",
@@ -3675,7 +3784,8 @@
   "Running Man": {
     "title": "Running Man",
     "description": "Dans un futur proche, les participants du jeu télévisé Running Man sont traqués en direct par des chasseurs professionnels. Ils doivent survivre 30 jours sous les yeux d’un public avide de violence. Ben Richards, prêt à tout pour sauver sa fille malade, est forcé de participer par un producteur impitoyable. Mais son courage et sa révolte feront de lui le favori du public… et la pire menace du système.",
-    "banner": "medias/films/running-man/running-man.jpg",
+    "poster": "medias/films/running-man/poster.jpg",
+    "banner": "medias/films/running-man/banner.jpg",
     "video": "medias/films/running-man/running-man.mp4",
     "IMDb": 6.5,
     "IMDb_link": "https://www.imdb.com/title/tt14107334/",
