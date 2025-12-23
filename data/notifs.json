@@ -1,23 +1,30 @@
 [
     {
+        "id": 4,
+        "type": "series",
+        "title": "Nouvelle Série Disponible",
+        "message": "Regardez <strong>''The Walking Dead : Dead City''</strong> dès maintenant sur StreamIt.",
+        "time": "23 Déc 2025"
+    },
+    {
         "id": 3,
         "type": "series",
         "title": "Nouvelle Série Disponible",
-        "message": "Regardez ''Emily in Paris'' dès maintenant sur StreamIt.",
+        "message": "Regardez <strong>''Emily in Paris''</strong> dès maintenant sur StreamIt.",
         "time": "22 Déc 2025"
     },
     {
         "id": 2,
         "type": "films",
         "title": "Nouveaux Films Ajoutés",
-        "message": "Découvrez ''Avatar'', ''Avatar 2'' & ''Running Man'', maintenant disponibles sur StreamIt.",
+        "message": "Découvrez <strong>''Avatar''</strong>, <strong>''Avatar 2''</strong> & <strong>''Running Man''</strong>, maintenant disponibles sur StreamIt.",
         "time": "22 Déc 2025"
     },
     {
         "id": 1,
         "type": "update",
         "title": "Mise à jour",
-        "message": "StreamIt a été mis à jour vers la version 2.1.0.",
+        "message": "StreamIt a été mis à jour vers la version <strong>2.1.0</strong>.",
         "time": "22 Déc 2025"
     }
 ]

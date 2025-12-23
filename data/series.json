@@ -8315,5 +8315,109 @@
         }
       ]
     }
+  },
+  "The Walking Dead : Dead City": {
+    "title": "The Walking Dead : Dead City",
+    "description": "Quelques années après les évènements survenus au Commonwealth, Maggie et Negan se rendent dans un Manhattan post-apocalyptique coupé depuis longtemps du continent. La ville en ruine est peuplée de morts et d'habitants qui ont fait de New York, un monde anarchique empli de terreur.",
+    "poster": "medias/series/the-walking-dead-dead-city/poster.jpg",
+    "banner": "medias/series/the-walking-dead-dead-city/banner.jpg",
+    "video": "medias/series/the-walking-dead-dead-city/the-walking-dead-dead-city.mp4",
+    "IMDb": 7.0,
+    "IMDb_link": "https://www.imdb.com/title/tt18546730/",
+    "year": 2023,
+    "genres": [
+      "Survival",
+      "Zombie Horror",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Horror",
+      "Thriller"
+    ],
+    "stars": [
+      "Jeffrey Dean Morgan",
+      "Lauren Cohan",
+      "Mahina Napoleon"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=akUd6x_iVWw",
+    "creators": [
+      "Eli Jorne"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "De vieilles connaissances",
+          "desc": "Maggie et Negan se rendent sur l'île de Manhattan, infestée par les zombies, pour y retrouver Hershel, qui a été enlevé.",
+          "video": "medias/series/the-walking-dead-dead-city/1-1.mp4"
+        },
+        {
+          "title": "Qui est là ?",
+          "desc": "Pour retrouver Hershel qui été kidnappé, Maggie n'a pas d'autre choix que de demander de l'aide à Negan. Ils se rendent ensemble sur l'île de Manhattan.",
+          "video": "medias/series/the-walking-dead-dead-city/1-2.mp4"
+        },
+        {
+          "title": "Les gens sont une ressource",
+          "desc": "Ginny se lance dans un voyage très risqué. Maggie et Negan mettent au point une stratégie pour faire sortir le Croate.",
+          "video": "medias/series/the-walking-dead-dead-city/1-3.mp4"
+        },
+        {
+          "title": "Tout le monde repart gagnant",
+          "desc": "Maggie et Negan mènent une attaque, mais tout ne se déroule pas comme prévu. Ginny et Armstrong, de leur côté, ont un contact inattendu avec d'autres personnes.",
+          "video": "medias/series/the-walking-dead-dead-city/1-4.mp4"
+        },
+        {
+          "title": "Les histoires qu'on se raconte",
+          "desc": "Maggie, Ginny, Tomassio et Amaia tentent de quitter le repaire du Croate. Armstrong, qui tient Negan en joue, espère parvenir à partir de Manhattan.",
+          "video": "medias/series/the-walking-dead-dead-city/1-5.mp4"
+        },
+        {
+          "title": "Doma Smo",
+          "desc": "Negan retrouve Ginny. Armstrong propose de la raccompagner en lieu sûr pendant que son protecteur achève sa mission.",
+          "video": "medias/series/the-walking-dead-dead-city/1-6.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Avoir l'électricité, c'est avoir le pouvoir",
+          "desc": "Dans un Manhattan au bord d'une guerre totale, différents camps s'opposent pour s'emparer du pouvoir. Maggie et Negan se retrouvent dans des gangs rivaux.",
+          "video": "medias/series/the-walking-dead-dead-city/2-1.mp4"
+        },
+        {
+          "title": "Une énième leçon à la con",
+          "desc": "Maggie se lance dans un périple périlleux pour retourner sur l'île. Negan se lance dans la bataille à contrecoeur.",
+          "video": "medias/series/the-walking-dead-dead-city/2-2.mp4"
+        },
+        {
+          "title": "Comment on appelle les gars qui ont traversé le fleuve ?",
+          "desc": "Dans un Manhattan au bord d'une guerre totale, différents camps s'opposent pour s'emparer du pouvoir. Maggie et Negan se retrouvent dans des gangs rivaux.",
+          "video": "medias/series/the-walking-dead-dead-city/2-3.mp4"
+        },
+        {
+          "title": "Affrontement amical",
+          "desc": "Tandis que Maggie découvre des informations pour le moins surprenantes, Negan tente de déjouer les plans d'un adversaire plutôt insaisissable.",
+          "video": "medias/series/the-walking-dead-dead-city/2-4.mp4"
+        },
+        {
+          "title": "L'oiseau sait toujours",
+          "desc": "A la recherche de ressources vitales, Maggie et son groupe se heurtent à de nouveaux adversaires, notamment le Croate et l'énigmatique Dama qui contrôle la ville. Le fils de Maggie, Hershel, est entraîné dans un dangereux jeu de manipulation...",
+          "video": "medias/series/the-walking-dead-dead-city/2-5.mp4"
+        },
+        {
+          "title": "Les partenaires de bridge, ça ne court pas les rues...",
+          "desc": "Maggie envisage une alliance, tandis que des tensions latentes remontent à la surface. Negan est confronté aux conséquences de ses actions et doit prendre une décision difficile. Armstrong tente de sauver le plan d'origine...",
+          "video": "medias/series/the-walking-dead-dead-city/2-6.mp4"
+        },
+        {
+          "title": "Novi dan, novi pocetak",
+          "desc": "Negan et Maggie s'embarquent dans des missions éprouvantes et font face à des épreuves inattendues, autant physiques qu'émotionnelles.",
+          "video": "medias/series/the-walking-dead-dead-city/2-7.mp4"
+        },
+        {
+          "title": "Si l'histoire était un immense brasier",
+          "desc": "Après avoir fait de nouvelles découvertes, Maggie prend une décision douloureuse. Negan sort le grand jeu et offre à ses invités un spectacle horrifique. Alors qu'il cherche à aller de l'avant, Armstrong fait face à des vérités difficiles à accepter...",
+          "video": "medias/series/the-walking-dead-dead-city/2-8.mp4"
+        }
+      ]
+    }
   }
 }
