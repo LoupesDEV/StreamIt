@@ -55,41 +55,11 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 
 # Fonctionnalités
 
-- **Gestion complète du contenu** 🎞️
-    Fiches détaillées pour films & séries (titre, synopsis, genres, note, créateurs, réalisateurs, acteurs, durée, année).
-
-- **Chargement dynamique** 📊
-    Interface réactive avec mise à jour asynchrone des listes et des fiches sans rechargement de page.
-
-- **Lecteur vidéo intégré** 🎥
-    Lecteur moderne avec contrôles et reprise de la lecture (suivi local de la position de lecture).
-
-- **Recherche intelligente & filtres avancés** 🔍
-    Barre de recherche instantanée et filtres pour affiner les résultats (genre, année, note, etc.).
-
-- **Navigation intuitive** 🧭
-    Parcours fluide entre sections, gestion des états et actions de navigation claires pour l'utilisateur.
-
-- **Design adaptatif (responsive)** 📱💻
-    Interface optimisée pour desktop, tablette et mobile avec mise en page réactive.
-
-- **Ajout & aperçu de contenu** 📝
-    Formulaires dynamiques pour créer/éditer des fiches avec validation et aperçu JSON. Note : les changements sont préparés côté client (aperçu/copier) — l'écriture automatique sur un serveur n'est pas fournie.
-
-- **Collections & playlists** 📚
-    Création et consultation de collections ou listes thématiques (favoris, à regarder, playlists).
-
-- **Import / Export** 🔄
-    Import et export manuels via fichiers JSON pour la sauvegarde et la restauration de l'historique. La synchronisation automatique multi-appareils (via API serveur) n'est pas incluse.
-
-- **Compatibilité & performance** ⚡
-    Optimisations côté client (caching local et amélioration des performances). Remarque : IndexedDB ou lazy-loading des médias ne sont pas activement utilisés par défaut — il est possible d'ajouter ces optimisations si nécessaire.
-
-- **Accessibilité** ♿
-    Support de base pour la navigation clavier et styles focus visibles. Un support complet pour lecteurs d'écran et ARIA peut nécessiter des améliorations supplémentaires.
-
-- **Documentation & contribution** 📘
-    Guides et modèles pour l'installation, la contribution et le format des données (à enrichir si besoin).
+- **Bibliothèque unifiée** 🎞️ : fiches riches pour films et séries (titre, synopsis, genres, note, casting, durée, année) avec visuels dédiés.
+- **Recherche + filtres** 🔍 : barre instantanée, filtres par genre/année/note et tri pour affiner en temps réel.
+- **Lecteur intégré** 🎥 : lecteur moderne, contrôles complets et reprise automatique de la lecture grâce au stockage local.
+- **Responsive & navigation** 📱💻🧭 : interface fluide, transitions sans rechargement et mise en page adaptée desktop/tablette/mobile.
+- **Performance & accessibilité** ⚡♿ : chargements asynchrones, caching léger, focus visibles et navigation clavier de base.
 
 # Démo
 
@@ -108,10 +78,6 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
         <tr>
             <td><img src="medias/README/series.png" alt="Page des séries"/></td>
             <td><img src="medias/README/series_info.png" alt="Page d'information des séries"/></td>
-        <tr>
-            <td><img src="medias/README/collections.png" alt="Page des collections"/></td>
-            <td><img src="medias/README/collections_info.png" alt="Page d'information des collections"/></td>
-        </tr>
     </table>
 </div>
 
