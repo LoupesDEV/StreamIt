@@ -1,63 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Organisez, explorez et regardez vos films et séries préférés avec StreamIt."
-    />
-    <meta
-      name="keywords"
-      content="movies, series, streaming, StreamIt, films, TV shows"
-    />
-    <meta name="author" content="LoupesDEV" />
-    <meta name="theme-color" content="#181818" />
 
-    <meta property="og:title" content="StreamIt" />
-    <meta
-      property="og:description"
-      content="Organisez, explorez et regardez vos films et séries préférés avec StreamIt."
-    />
-    <meta
-      property="og:image"
-      content="https://www.matheo-pichotmoise.fr/StreamIt/medias/logo.png"
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://www.matheo-pichotmoise.fr/StreamIt/"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Organisez, explorez et regardez vos films et séries préférés avec StreamIt." />
+  <meta name="keywords" content="movies, series, streaming, StreamIt, films, TV shows" />
+  <meta name="author" content="LoupesDEV" />
+  <meta name="theme-color" content="#181818" />
 
-    <title>StreamIt</title>
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/error.css" />
-    <link href="medias/logo.png" rel="icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <img src="medias/logo.png" alt="StreamIt Logo" class="logo" />
-      <div class="code-badge" id="error-code" aria-label="Code d'erreur">404</div>
-      <h1>Erreur!</h1>
-      <div id="error-message" class="error-message"></div>
-      <a href="index.html" class="back-btn">Revenir à l'accueil</a>
-    </div>
+  <meta property="og:title" content="StreamIt" />
+  <meta property="og:description"
+    content="Organisez, explorez et regardez vos films et séries préférés avec StreamIt." />
+  <meta property="og:image" content="https://www.matheo-pichotmoise.fr/StreamIt/medias/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.matheo-pichotmoise.fr/StreamIt/" />
 
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
-          navigator.serviceWorker.register("sw.js");
-        });
-      }
-    </script>
-    <script type="module" src="js/errorHandler.js"></script>
-  </body>
+  <title>StreamIt</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/error.css" />
+  <link href="medias/logo.png" rel="icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <img src="medias/logo.png" alt="StreamIt Logo" class="logo" />
+    <div class="code-badge" id="error-code" aria-label="Code d'erreur">404</div>
+    <h1>Erreur!</h1>
+    <div id="error-message" class="error-message"></div>
+    <a href="index.html" class="back-btn">Revenir à l'accueil</a>
+  </div>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js");
+      });
+    }
+  </script>
+  <script type="module" src="js/errorHandler.js"></script>
+</body>
+
 </html>
