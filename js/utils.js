@@ -1,3 +1,34 @@
+const PROGRESS_PREFIX = 'streamit:progress:';
+let currentVideoSrc = '';
+
+function progressKey(src) {
+    return `${PROGRESS_PREFIX}${src}`;
+}
+
+function restoreProgress(player, src) {
+    const saved = parseFloat(localStorage.getItem(progressKey(src)) || '');
+    if (Number.isNaN(saved)) return;
+
+    const applyTime = () => {
+        const nearEnd = player.duration && saved >= player.duration - 1;
+        if (!nearEnd) player.currentTime = saved;
+        player.removeEventListener('loadedmetadata', applyTime);
+    };
+
+    if (player.readyState >= 1) applyTime();
+    else player.addEventListener('loadedmetadata', applyTime);
+}
+
+function persistProgress(player) {
+    if (!currentVideoSrc) return;
+    const key = progressKey(currentVideoSrc);
+    const t = player.currentTime || 0;
+    const nearEnd = player.duration && t >= player.duration - 1;
+
+    if (nearEnd) localStorage.removeItem(key);
+    else localStorage.setItem(key, String(t));
+}
+
 export function playVideo(src) {
     const overlay = document.getElementById('videoOverlay');
     const player = document.getElementById('mainPlayer');
@@ -7,7 +38,10 @@ export function playVideo(src) {
         return;
     }
 
+    currentVideoSrc = src;
     player.src = src;
+    restoreProgress(player, src);
+
     overlay.classList.remove('hidden');
     setTimeout(() => {
         player.play().catch(e => console.log("Autoplay bloqué par le navigateur", e));
@@ -19,6 +53,7 @@ export function closeVideo() {
     const player = document.getElementById('mainPlayer');
     player.pause();
     player.src = "";
+    currentVideoSrc = '';
     overlay.classList.add('hidden');
 }
 
@@ -62,4 +97,27 @@ export function hideLoader() {
     const loader = document.getElementById('loader');
     loader.style.opacity = '0';
     setTimeout(() => loader.classList.add('hidden'), 700);
+}
+
+export function hardenPlayerControls() {
+    const player = document.getElementById('mainPlayer');
+    if (!player) return;
+
+    player.setAttribute('controlsList', 'nodownload noremoteplayback');
+    player.setAttribute('disablepictureinpicture', '');
+    player.setAttribute('playsinline', '');
+    player.addEventListener('contextmenu', (e) => e.preventDefault());
+}
+
+export function initPlayerPersistence() {
+    const player = document.getElementById('mainPlayer');
+    if (!player) return;
+
+    const save = () => persistProgress(player);
+    player.addEventListener('timeupdate', save);
+    player.addEventListener('pause', save);
+    player.addEventListener('ended', () => {
+        save();
+        currentVideoSrc = '';
+    });
 }

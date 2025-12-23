@@ -1,6 +1,6 @@
 import { fetchAllData, fetchNotifs } from './dataLoader.js';
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia } from './display.js';
-import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader } from './utils.js';
+import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence } from './utils.js';
 
 let appData = { films: {}, series: {} };
 let currentView = 'home';
@@ -16,6 +16,9 @@ window.toggleMobileMenu = toggleMobileMenu;
 
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
+
+    hardenPlayerControls();
+    initPlayerPersistence();
 
     document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
     document.getElementById('mobileSearchBtn').addEventListener('click', toggleMobileSearch);
