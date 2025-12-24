@@ -55,6 +55,8 @@
                         id="nav-films">Films</button>
                     <button onclick="router('series')" class="hover:text-white transition-colors"
                         id="nav-series">Séries</button>
+                    <button onclick="router('collections')" class="hover:text-white transition-colors"
+                        id="nav-collections">Collections</button>
                 </div>
             </div>
 
@@ -107,6 +109,8 @@
                 class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Films</button>
             <button onclick="router('series')"
                 class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Séries</button>
+            <button onclick="router('collections')"
+                class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Collections</button>
         </div>
     </nav>
 
@@ -232,6 +236,8 @@
                     class="flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1"></div>
             </section>
         </div>
+
+        <div id="collectionsContent" class="container mx-auto px-6 mt-12 space-y-20 hidden animate-fade-in-up"></div>
 
         <div id="genericGridContainer" class="container mx-auto px-6 mt-8 hidden animate-fade-in-up">
             <h2 id="sectionTitle" class="text-2xl font-bold mb-8 flex items-center gap-3">

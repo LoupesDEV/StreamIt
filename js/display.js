@@ -251,6 +251,64 @@ export function renderHorizontalRow(containerId, items) {
     });
 }
 
+export function renderCollections(collectionsData, appData) {
+    const container = document.getElementById('collectionsContent');
+    container.innerHTML = '';
+
+    if (Object.keys(collectionsData).length === 0) {
+        container.innerHTML = '<div class="text-center text-gray-500 py-10">Aucune collection disponible.</div>';
+        return;
+    }
+
+    const sortedCollections = Object.entries(collectionsData).sort(([, a], [, b]) => {
+        return a.name.localeCompare(b.name);
+    });
+
+    for (const [key, collection] of sortedCollections) {
+        const items = [];
+        
+        if (collection.films && Array.isArray(collection.films)) {
+            collection.films.forEach(title => {
+                const foundFilm = Object.values(appData.films).find(f => f.title === title);
+                if (foundFilm) items.push(foundFilm);
+            });
+        }
+
+        if (collection.series && Array.isArray(collection.series)) {
+            collection.series.forEach(title => {
+                const foundSerie = Object.values(appData.series).find(s => s.title === title);
+                if (foundSerie) items.push(foundSerie);
+            });
+        }
+
+        if (items.length > 0) {
+            items.sort((a, b) => a.year - b.year);
+
+            const section = document.createElement('section');
+            section.className = "animate-fade-in-up";
+            
+            const titleHTML = `
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
+                    <span class="tracking-tight">${collection.name}</span>
+                </h2>
+            `;
+            section.innerHTML = titleHTML;
+
+            const rowDiv = document.createElement('div');
+            rowDiv.className = "flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1";
+            
+            items.forEach(item => {
+                const card = createMediaCard(item, "min-w-[200px] md:min-w-[280px] aspect-[2/3] snap-start");
+                rowDiv.appendChild(card);
+            });
+
+            section.appendChild(rowDiv);
+            container.appendChild(section);
+        }
+    }
+}
+
 export function renderNotifs(list) {
     const container = document.getElementById('notifList');
     const badge = document.getElementById('notifBadge');

@@ -1,8 +1,8 @@
 import { fetchAllData, fetchNotifs } from './dataLoader.js';
-import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia } from './display.js';
-import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence } from './utils.js';
+import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
+import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader } from './utils.js';
 
-let appData = { films: {}, series: {} };
+let appData = { films: {}, series: {}, collections: {} };
 let currentView = 'home';
 
 window.router = router;
@@ -16,9 +16,6 @@ window.toggleMobileMenu = toggleMobileMenu;
 
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
-
-    hardenPlayerControls();
-    initPlayerPersistence();
 
     document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
     document.getElementById('mobileSearchBtn').addEventListener('click', toggleMobileSearch);
@@ -45,18 +42,24 @@ function router(view) {
     const hero = document.getElementById('heroSection');
     const filters = document.getElementById('filterSection');
     const homeContent = document.getElementById('homePageContent');
+    const collectionsContent = document.getElementById('collectionsContent');
     const genericGrid = document.getElementById('genericGridContainer');
     const title = document.getElementById('titleText');
     const navHome = document.getElementById('nav-home');
     const navSeries = document.getElementById('nav-series');
     const navFilms = document.getElementById('nav-films');
+    const navCollections = document.getElementById('nav-collections');
 
-    [navHome, navSeries, navFilms].forEach(el => el.classList.remove('text-white', 'text-red-500'));
+    [navHome, navSeries, navFilms, navCollections].forEach(el => {
+        if (el) el.classList.remove('text-white', 'text-red-500');
+    });
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     hero.classList.add('hidden');
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
+    collectionsContent.classList.add('hidden');
     genericGrid.classList.add('hidden');
     document.getElementById('contentGrid').innerHTML = '';
 
@@ -64,7 +67,7 @@ function router(view) {
     const allSeries = Object.values(appData.series);
 
     if (view === 'home') {
-        navHome.classList.add('text-white');
+        if (navHome) navHome.classList.add('text-white');
         hero.classList.remove('hidden');
         homeContent.classList.remove('hidden');
 
@@ -75,7 +78,7 @@ function router(view) {
         renderHorizontalRow('homeSeriesRow', latestSeries);
     }
     else if (view === 'series') {
-        navSeries.classList.add('text-white');
+        if (navSeries) navSeries.classList.add('text-white');
         filters.classList.remove('hidden');
         genericGrid.classList.remove('hidden');
         title.innerText = "Toutes les Séries TV";
@@ -83,14 +86,20 @@ function router(view) {
         applyFilters();
     }
     else if (view === 'films') {
-        navFilms.classList.add('text-white');
+        if (navFilms) navFilms.classList.add('text-white');
         filters.classList.remove('hidden');
         genericGrid.classList.remove('hidden');
         title.innerText = "Tous les Films";
         populateFilters();
         applyFilters();
     }
+    else if (view === 'collections') {
+        if (navCollections) navCollections.classList.add('text-white');
+        collectionsContent.classList.remove('hidden');
+        renderCollections(appData.collections, appData);
+    }
 }
+
 
 function initHero() {
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
@@ -182,11 +191,14 @@ function handleSearch(e) {
     const hero = document.getElementById('heroSection');
     const filters = document.getElementById('filterSection');
     const homeContent = document.getElementById('homePageContent');
+    const collectionsContent = document.getElementById('collectionsContent');
     const genericGrid = document.getElementById('genericGridContainer');
 
     if (!q) {
         if (currentView === 'home') {
             hero.classList.remove('hidden'); homeContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
+        } else if (currentView === 'collections') {
+            collectionsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
         } else {
             filters.classList.remove('hidden'); applyFilters();
         }
@@ -196,17 +208,13 @@ function handleSearch(e) {
     hero.classList.add('hidden');
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
+    collectionsContent.classList.add('hidden');
     genericGrid.classList.remove('hidden');
 
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
     const res = all.filter(i => i.title.toLowerCase().includes(q));
 
-    const sectionTitleEl = document.getElementById('sectionTitle');
-    sectionTitleEl.textContent = `Résultats pour "${q}" `;
-    const countSpan = document.createElement('span');
-    countSpan.className = 'text-gray-500 text-sm ml-2';
-    countSpan.textContent = `(${res.length})`;
-    sectionTitleEl.appendChild(countSpan);
+    document.getElementById('sectionTitle').innerHTML = `Résultats pour "${q}" <span class="text-gray-500 text-sm ml-2">(${res.length})</span>`;
     renderGrid(res);
 }
 

@@ -261,5 +261,13 @@
       "Top Gun : Maverick"
     ],
     "series": []
+  },
+  "Avatar": {
+    "name": "Avatar",
+    "films": [
+      "Avatar",
+      "Avatar : La Voie de l'eau"
+    ],
+    "series": []
   }
 }
