@@ -3588,6 +3588,7 @@
     "banner": "medias/films/aquaman-et-le-royaume-perdu/banner.jpg",
     "video": "medias/films/aquaman-et-le-royaume-perdu/aquaman-et-le-royaume-perdu.mp4",
     "IMDb": 5.6,
+    "duration": "2h 04min",
     "IMDb_link": "https://www.imdb.com/title/tt9663764/",
     "year": 2023,
     "genres": [
@@ -3624,6 +3625,7 @@
     "banner": "medias/films/joker-folie-a-deux/banner.jpg",
     "video": "medias/films/joker-folie-a-deux/joker-folie-a-deux.mp4",
     "IMDb": 5.2,
+    "duration": "2h 18min",
     "IMDb_link": "https://www.imdb.com/title/tt11315808/",
     "year": 2024,
     "genres": [
@@ -3657,6 +3659,7 @@
     "banner": "medias/films/superman/banner.jpg",
     "video": "medias/films/superman/superman.mp4",
     "IMDb": 7.1,
+    "duration": "2h 10min",
     "IMDb_link": "https://www.imdb.com/title/tt5950044/",
     "year": 2025,
     "genres": [
@@ -3691,6 +3694,7 @@
     "banner": "medias/films/top-gun/banner.jpg",
     "video": "medias/films/top-gun/top-gun.mp4",
     "IMDb": 7.0,
+    "duration": "1h 49min",
     "IMDb_link": "https://www.imdb.com/title/tt0092099/",
     "year": 1986,
     "genres": [
@@ -3719,6 +3723,7 @@
     "banner": "medias/films/avatar/banner.jpg",
     "video": "medias/films/avatar/avatar.mp4",
     "IMDb": 7.9,
+    "duration": "2h 46min",
     "IMDb_link": "https://www.imdb.com/title/tt0499549/",
     "year": 2009,
     "genres": [
@@ -3752,6 +3757,7 @@
     "banner": "medias/films/avatar-la-voie-de-l-eau/banner.jpg",
     "video": "medias/films/avatar-la-voie-de-l-eau/avatar-la-voie-de-l-eau.mp4",
     "IMDb": 7.5,
+    "duration": "3h 12min",
     "IMDb_link": "https://www.imdb.com/title/tt1630029/",
     "year": 2022,
     "genres": [
@@ -3788,6 +3794,7 @@
     "banner": "medias/films/running-man/banner.jpg",
     "video": "medias/films/running-man/running-man.mp4",
     "IMDb": 6.5,
+    "duration": "2h 13min",
     "IMDb_link": "https://www.imdb.com/title/tt14107334/",
     "year": 2025,
     "genres": [
@@ -3815,6 +3822,137 @@
       "Edgar Wright",
       "Michael Bacall",
       "Stephen King"
+    ]
+  },
+  "Five Nights at Freddy's": {
+    "title": "Five Nights at Freddy's",
+    "description": "Mike, jeune homme perturbé, est toujours hanté par la disparition, de son frère dix ans auparavant. Afin de ne pas perdre la garde de sa sœur Abby, il accepte un poste de gardien de nuit dans un restaurant désaffecté, Freddy Fazbear’s Pizzeria. Mais il ne tarde pas à être confronté, la nuit, à des phénomènes surnaturels inexplicables, et bascule dans un univers cauchemardesque…",
+    "poster": "medias/films/five-nights-at-freddy-s/poster.jpg",
+    "banner": "medias/films/five-nights-at-freddy-s/banner.jpg",
+    "video": "medias/films/five-nights-at-freddy-s/five-nights-at-freddy-s.mp4",
+    "IMDb": 5.4,
+    "duration": "1h 50min",
+    "IMDb_link": "https://www.imdb.com/title/tt4589218/",
+    "year": 2023,
+    "genres": [
+      "Supernatural Horror",
+      "Suspense Mystery",
+      "Whodunnit",
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Josh Hutcherson",
+      "Piper Rubio",
+      "Elizabeth Lail"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=dOOk2kHB5Bk",
+    "directors": [
+      "Emma Tammi"
+    ],
+    "writers": [
+      "Scott Cawthon",
+      "Seth Cuddeback",
+      "Emma Tammi"
+    ]
+  },
+  "Five Nights at Freddy's 2": {
+    "title": "Five Nights at Freddy's 2",
+    "description": "N'importe qui peut survivre à cinq nuits. Cette fois, il n'y aura pas de seconde chance.",
+    "poster": "medias/films/five-nights-at-freddy-s-2/poster.jpg",
+    "banner": "medias/films/five-nights-at-freddy-s-2/banner.jpg",
+    "video": "medias/films/five-nights-at-freddy-s-2/five-nights-at-freddy-s-2.mp4",
+    "IMDb": 5.5,
+    "duration": "1h 44min",
+    "IMDb_link": "https://www.imdb.com/title/tt30274401/",
+    "year": 2025,
+    "genres": [
+      "Supernatural Horror",
+      "Teen Horror",
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Josh Hutcherson",
+      "Piper Rubio",
+      "Elizabeth Lail"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=lrx6I18wOIM",
+    "directors": [
+      "Emma Tammi"
+    ],
+    "writers": [
+      "Scott Cawthon"
+    ]
+  },
+  "Osiris": {
+    "title": "Osiris",
+    "description": "Une équipe de commandos des forces spéciales est en pleine opération lorsqu'elle est enlevée par un mystérieux vaisseau spatial. Lorsqu'ils se réveillent à bord, ils découvrent rapidement qu'ils sont poursuivis par une race extraterrestre sans pitié.",
+    "poster": "medias/films/osiris/poster.jpg",
+    "banner": "medias/films/osiris/banner.jpg",
+    "duration": "2h 07min",
+    "video": "medias/films/osiris/osiris.mp4",
+    "IMDb": 4.7,
+    "IMDb_link": "https://www.imdb.com/title/tt31179712/",
+    "year": 2025,
+    "genres": [
+      "Action",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Max Martini",
+      "Linda Hamilton",
+      "Brianna Hildebrand"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=b09lIOLLDeM",
+    "directors": [
+      "William Kaufman"
+    ],
+    "writers": [
+      "William Kaufman",
+      "Paul Reicheit"
+    ]
+  },
+  "Zootopie": {
+    "title": "Zootopie",
+    "description": "Avec ses quartiers comme la très chic Place du Sahara ou le glacial Toundraville, la métropole Zootopie, où ne vivent que des mammifères, est un melting pot où toutes les espèces cohabitent. Qu’on soit un énorme éléphant ou une minuscule musaraigne, tout le monde y a sa place. Mais quand l’optimiste agent Judy Hopps arrive en ville, elle découvre qu’être le premier lapin dans la police, au milieu d'animaux costauds, n’est pas si simple. Pour faire ses preuves, elle décide de résoudre une enquête, même si pour cela, elle doit faire équipe avec Nick Wilde, un renard beau parleur et roi de l’arnaque. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
+    "poster": "medias/films/zootopie/poster.jpg",
+    "banner": "medias/films/zootopie/banner.jpg",
+    "video": "medias/films/zootopie/poster.mp4",
+    "duration": "1h 49min",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt2948356/",
+    "year": 2016,
+    "genres": [
+      "Animal Adventure",
+      "Buddy Comedy",
+      "Computer Animation",
+      "Satire",
+      "Urban Adventure",
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Crime"
+    ],
+    "stars": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Idris Elba"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=RTZlzdHuIQQ",
+    "directors": [
+      "Jared Bush",
+      "Byron Howard",
+      "Rich Moore"
+    ],
+    "writers": [
+      "Jared Bush",
+      "Byron Howard",
+      "Rich Moore"
     ]
   }
 }

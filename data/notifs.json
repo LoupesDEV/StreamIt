@@ -1,30 +1,44 @@
 [
     {
+        "id": 6,
+        "type": "update",
+        "title": "Mise à jour",
+        "message": "Les collections sont désormais disponibles sur StreamIt ! Explorez vos franchises préférées regroupées en un seul endroit.",
+        "time": "24 Décembre 2025"
+    },
+    {
+        "id": 5,
+        "type": "films",
+        "title": "Nouveaux Films Ajoutés",
+        "message": "Découvrez <strong>''Five Nights at Freddy's''</strong>, <strong>''Five Nights at Freddy's 2''</strong>, <strong>''Osiris''</strong> & <strong>''Zootopie''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "24 Décembre 2025"
+    },
+    {
         "id": 4,
         "type": "series",
         "title": "Nouvelle Série Disponible",
         "message": "Regardez <strong>''The Walking Dead : Dead City''</strong> dès maintenant sur StreamIt.",
-        "time": "23 Déc 2025"
+        "time": "23 Décembre 2025"
     },
     {
         "id": 3,
         "type": "series",
         "title": "Nouvelle Série Disponible",
         "message": "Regardez <strong>''Emily in Paris''</strong> dès maintenant sur StreamIt.",
-        "time": "22 Déc 2025"
+        "time": "22 Décembre 2025"
     },
     {
         "id": 2,
         "type": "films",
         "title": "Nouveaux Films Ajoutés",
         "message": "Découvrez <strong>''Avatar''</strong>, <strong>''Avatar 2''</strong> & <strong>''Running Man''</strong>, maintenant disponibles sur StreamIt.",
-        "time": "22 Déc 2025"
+        "time": "22 Décembre 2025"
     },
     {
         "id": 1,
         "type": "update",
         "title": "Mise à jour",
-        "message": "StreamIt a été mis à jour vers la version <strong>2.1.0</strong>.",
-        "time": "22 Déc 2025"
+        "message": "Venez découvrir la toute nouvelle interface de StreamIt, conçue pour une expérience utilisateur améliorée et une navigation plus fluide.",
+        "time": "22 Décembre 2025"
     }
 ]
