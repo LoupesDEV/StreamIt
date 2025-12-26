@@ -1,5 +1,12 @@
 [
     {
+        "id": 8,
+        "type": "films",
+        "title": "Nouveaux Films Ajoutés",
+        "message": "Découvrez <strong>''Insaisissables''</strong>, <strong>''Insaisissables 2''</strong> & <strong>''Insaisissables 3''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "26 Décembre 2025"
+    },
+    {
         "id": 7,
         "type": "films",
         "title": "Nouveau Film Disponible",

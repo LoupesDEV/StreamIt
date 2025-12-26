@@ -4094,5 +4094,102 @@
       "Cameron Crowe",
       "Benjamin Mee"
     ]
+  },
+  "Insaisissables": {
+    "title": "Insaisissables",
+    "description": "«Les Quatre Cavaliers», un groupe de brillants magiciens et illusionnistes, vient de donner deux spectacles de magie époustouflants: le premier en braquant une banque sur un autre continent, le deuxième en transférant la fortune d’un banquier véreux sur les comptes en banque du public. Deux agents spéciaux du FBI et d’Interpol sont déterminés à les arrêter avant qu’ils ne mettent à exécution leur promesse de réaliser des braquages encore plus audacieux. Ils font appel à Thaddeus, spécialiste reconnu pour expliquer les tours de magie les plus sophistiqués. Alors que la pression s’intensifie, et que le monde entier attend le spectaculaire tour final des Cavaliers, la course contre la montre commence.",
+    "poster": "medias/films/insaisissables/poster.jpg",
+    "banner": "medias/films/insaisissables/banner.jpg",
+    "IMDb": 7.2,
+    "duration": "1h 56min",
+    "IMDb_link": "https://www.imdb.com/title/tt1670345/",
+    "year": 2013,
+    "genres": [
+      "Caper",
+      "Heist",
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Jesse Eisenberg",
+      "Common",
+      "Mark Ruffalo"
+    ],
+    "trailer": "\t",
+    "video": "medias/films/insaisissables/insaisissables.mp4",
+    "directors": [
+      "Louis Leterrier"
+    ],
+    "writers": [
+      "Ed Solomon",
+      "Boaz Yakin",
+      "Edward Ricourt"
+    ]
+  },
+  "Insaisissables 2": {
+    "title": "Insaisissables 2",
+    "description": "Un an après avoir surpassé le FBI et acquis l’admiration du grand public grâce à leurs tours exceptionnels, Les 4 Cavaliers reviennent ! Pour leur retour sur le devant de la scène, ils vont dénoncer les méthodes peu orthodoxe d’un magnat de la technologie à la tête d’une vaste organisation criminelle. Ils ignorent que cet homme d’affaire, Walter Marbry a une longueur d’avance sur eux, et les conduit dans un piège : il veut que les magiciens braquent l’un des systèmes informatiques les plus sécurisés du monde. Pour sortir de ce chantage et déjouer les plans de ce syndicat du crime, ils vont devoir élaborer le braquage le plus spectaculaire jamais conçu.",
+    "poster": "medias/films/insaisissables-2/poster.jpg",
+    "banner": "medias/films/insaisissables-2/banner.jpg",
+    "IMDb": 6.4,
+    "duration": "2h 10min",
+    "IMDb_link": "https://www.imdb.com/title/tt3110958/",
+    "year": 2016,
+    "genres": [
+      "Caper",
+      "Heist",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Jesse Eisenberg",
+      "Mark Ruffalo",
+      "Woody Harrelson`$"
+    ],
+    "trailer": "",
+    "video": "medias/films/insaisissables-2/insaisissables-2.mp4",
+    "directors": [
+      "Jon M. Chu"
+    ],
+    "writers": [
+      "Ed Solomon",
+      "Peter Chiarelli",
+      "Boaz Yakin"
+    ]
+  },
+  "Insaisissables 3": {
+    "title": "Insaisissables 3",
+    "description": "Les Cavaliers sont de retour pour le braquage le plus impressionnant jamais imaginé ! Accompagnés d'un groupe de jeunes magiciens qui espèrent suivre leur trace, ils vont devoir repousser les limites de l'illusion pour orchestrer leur tour le plus spectaculaire : dérober le joyau le plus précieux du monde des mains d'une redoutable organisation criminelle…",
+    "poster": "medias/films/insaisissables-3/poster.jpg",
+    "banner": "medias/films/insaisissables-3/banner.jpg",
+    "IMDb": 6.0,
+    "duration": "1h 52min",
+    "IMDb_link": "https://www.imdb.com/title/tt4712810/",
+    "year": 2025,
+    "genres": [
+      "Heist",
+      "Crime",
+      "Thriller"
+    ],
+    "stars": [
+      "Jesse Eisenberg",
+      "Woody Harrelson",
+      "Dave Franco"
+    ],
+    "trailer": "",
+    "video": "medias/films/insaisissables-3/insaisissables-3.mp4",
+    "directors": [
+      "Ruben Fleischer"
+    ],
+    "writers": [
+      "Michael Lesslie",
+      "Paul Weernick",
+      "Rhett Reese"
+    ]
   }
 }
