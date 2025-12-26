@@ -1,4 +1,4 @@
-const msg = localStorage.getItem("streamit_404_error");
+const msg = localStorage.getItem("streamit_error");
 const errorMessageEl = document.getElementById("error-message");
 const errorCodeEl = document.getElementById("error-code");
 const urlParams = new URLSearchParams(window.location.search);
@@ -6,9 +6,9 @@ const paramCode = urlParams.get("code");
 
 if (msg && errorMessageEl) {
   errorMessageEl.textContent = msg;
-  localStorage.removeItem("streamit_404_error");
+  localStorage.removeItem("streamit_error");
 } else if (msg && !errorMessageEl) {
-  localStorage.removeItem("streamit_404_error");
+  localStorage.removeItem("streamit_error");
 }
 
 if (errorCodeEl) {
@@ -19,7 +19,7 @@ if (errorCodeEl) {
 }
 
 function handleErrorAndRedirect(message, code = 404) {
-  localStorage.setItem("streamit_404_error", message);
+  localStorage.setItem("streamit_error", message);
   const safeCode = (typeof code === "number" || typeof code === "string") ? code : 404;
   window.location.href = `error.html?code=${encodeURIComponent(safeCode)}`;
 }
