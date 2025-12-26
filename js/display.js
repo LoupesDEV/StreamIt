@@ -69,7 +69,7 @@ export function openDetails(item) {
     document.getElementById('detailYear').innerText = item.year;
 
     const matchScore = item.IMDb ? Math.round(item.IMDb * 10) : 90;
-    document.getElementById('detailMatch').innerText = `${matchScore}% Recommandé`;
+    document.getElementById('detailMatch').innerText = `Recommandé à ${matchScore}%`;
 
     let durationText = item.duration || "2h 15min";
     if (isSerie && item.seasons) {
