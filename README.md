@@ -78,6 +78,7 @@ Vous pouvez tester l'application [ici](https://www.matheo-pichotmoise.fr/StreamI
         <tr>
             <td><img src="medias/README/series.png" alt="Page des séries"/></td>
             <td><img src="medias/README/series_info.png" alt="Page d'information des séries"/></td>
+        <tr>
     </table>
 </div>
 
@@ -94,10 +95,12 @@ StreamIt/
 ├── medias/                   # Dossier contenant les médias (images, vidéos, etc.)
 │   ├── films/                # Dossier pour les images des films
 │   ├── series/               # Dossier pour les images des séries
-│   └── README/               # Dossier pour les images du README
+│   ├── README/               # Dossier pour les images du README
+│   └── logo.png              # Logo de l'application
 ├── data/                     # Dossier contenant les données JSON
 │   ├── films_data.json       # Données des films
 │   ├── series_data.json      # Données des séries
+│   ├── notifs.json.          # Données de notifications
 │   └── collections.json      # Données des collections
 ├── README.md                 # Documentation du projet
 ├── CONTRIBUTING.md           # Guide de contribution
