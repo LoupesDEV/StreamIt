@@ -3,6 +3,10 @@ import { playVideo } from './utils.js';
 let activeDetailItem = null;
 let activeVideoSrc = "";
 
+/**
+ * Sets up the hero section with the given media item.
+ * @param {Object} item - The media item to display in the hero section.
+ */
 export function setupHero(item) {
     if (!item) return;
 
@@ -44,6 +48,10 @@ export function setupHero(item) {
     }
 }
 
+/**
+ * Opens the details overlay for a given media item.
+ * @param {Object} item - The media item to display details for.
+ */
 export function openDetails(item) {
     activeDetailItem = item;
     const overlay = document.getElementById('detailsOverlay');
@@ -114,11 +122,17 @@ export function openDetails(item) {
     document.body.style.overflow = 'hidden';
 }
 
+/**
+ * Closes the details overlay.
+ */
 export function closeDetails() {
     document.getElementById('detailsOverlay').classList.add('hidden');
     document.body.style.overflow = '';
 }
 
+/**
+ * Plays the currently selected media in the details overlay.
+ */
 export function playCurrentMedia() {
     if (activeVideoSrc) {
         playVideo(activeVideoSrc);
@@ -127,6 +141,11 @@ export function playCurrentMedia() {
     }
 }
 
+/**
+ * Renders the list of episodes for a given season.
+ * @param {Array} episodes - The list of episodes to render.
+ * @param {number|string} seasonNum - The season number.
+ */
 function renderEpisodes(episodes, seasonNum) {
     const list = document.getElementById('episodesList');
     list.innerHTML = '';
@@ -215,6 +234,12 @@ function renderEpisodes(episodes, seasonNum) {
     });
 }
 
+/**
+ * Creates a media card element for a given media item.
+ * @param {Object} item - The media item to create a card for.
+ * @param {string} [extraClasses=""] - Additional CSS classes to apply to the card.
+ * @returns {HTMLElement} The created media card element.
+ */
 export function createMediaCard(item, extraClasses = "") {
     const card = document.createElement('div');
     card.className = `media-card group relative rounded-xl overflow-hidden cursor-pointer bg-[#1a1a1a] shadow-lg transition-all duration-300 ${extraClasses}`;
@@ -235,12 +260,21 @@ export function createMediaCard(item, extraClasses = "") {
     return card;
 }
 
+/**
+ * Renders a grid of media items.
+ * @param {Array} items - The list of media items to render.
+ */
 export function renderGrid(items) {
     const grid = document.getElementById('contentGrid');
     grid.innerHTML = '';
     items.forEach(item => grid.appendChild(createMediaCard(item, "aspect-[2/3]")));
 }
 
+/**
+ * Renders a horizontal row of media items.
+ * @param {string} containerId - The ID of the container element.
+ * @param {Array} items - The list of media items to render.
+ */
 export function renderHorizontalRow(containerId, items) {
     const container = document.getElementById(containerId);
     container.innerHTML = '';
@@ -251,6 +285,11 @@ export function renderHorizontalRow(containerId, items) {
     });
 }
 
+/**
+ * Renders collections of media items.
+ * @param {Object} collectionsData - The collections data.
+ * @param {Object} appData - The application data containing films and series.
+ */
 export function renderCollections(collectionsData, appData) {
     const container = document.getElementById('collectionsContent');
     container.innerHTML = '';
@@ -309,6 +348,10 @@ export function renderCollections(collectionsData, appData) {
     }
 }
 
+/**
+ * Renders the list of notifications.
+ * @param {Array} list - The list of notifications to render.
+ */
 export function renderNotifs(list) {
     const container = document.getElementById('notifList');
     const badge = document.getElementById('notifBadge');

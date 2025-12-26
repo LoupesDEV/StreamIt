@@ -18,6 +18,11 @@ if (errorCodeEl) {
     errorCodeEl.textContent = (paramCode || "404").toString();
 }
 
+/**
+ * Handles an error by storing the message and redirecting to the error page.
+ * @param {string} message - The error message to display.
+ * @param {number|string} [code=404] - The error code to display.
+ */
 function handleErrorAndRedirect(message, code = 404) {
   localStorage.setItem("streamit_error", message);
   const safeCode = (typeof code === "number" || typeof code === "string") ? code : 404;
@@ -39,6 +44,9 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
+/**
+ * Detects if developer tools are open and redirects if so.
+ */
 (function detectDevTools() {
   const start = Date.now();
   debugger;

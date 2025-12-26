@@ -1,3 +1,7 @@
+/**
+ * Fetches all necessary data files: films, series, and collections.
+ * @returns {Object} An object containing films, series, and collections data.
+ */
 export async function fetchAllData() {
     try {
         await new Promise(r => setTimeout(r, 800));
@@ -27,6 +31,10 @@ export async function fetchAllData() {
     }
 }
 
+/**
+ * Fetches notifications data.
+ * @returns {Array} An array of notifications.
+ */
 export async function fetchNotifs() {
     try {
         const res = await fetch('data/notifs.json');

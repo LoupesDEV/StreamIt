@@ -33,12 +33,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     hideLoader();
 });
 
+/**
+ * Sets navigation link colors to default (removes highlight).
+ * @param {HTMLElement} navHome - Navigation link elements
+ * @param {HTMLElement} navSeries - Navigation link elements
+ * @param {HTMLElement} navFilms - Navigation link elements
+ * @param {HTMLElement} navCollections - Navigation link elements
+ */
 function textWhite(navHome, navSeries, navFilms, navCollections) {
     [navHome, navSeries, navFilms, navCollections].forEach(el => {
         if (el) el.classList.remove('text-white', 'text-red-500');
     });
 }
 
+/**
+ * Routes to the specified view and updates the UI accordingly.
+ * @param {string} view - The view to route to ('home', 'series', 'films', 'collections').
+ */
 function router(view) {
     currentView = view;
 
@@ -106,7 +117,9 @@ function router(view) {
     }
 }
 
-
+/**
+ * Initializes the hero section with a featured item or the latest item.
+ */
 function initHero() {
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
     if (all.length === 0) return;
@@ -121,6 +134,9 @@ function initHero() {
     }
 }
 
+/**
+ * Populates filter dropdowns based on available data.
+ */
 function populateFilters() {
     const source = currentView === 'films' ? Object.values(appData.films) : Object.values(appData.series);
     const genres = new Set();
@@ -147,6 +163,9 @@ function populateFilters() {
     Array.from(directors).sort().forEach(d => directorSel.add(new Option(d, d)));
 }
 
+/**
+ * Applies selected filters and sorting to the displayed items.
+ */
 function applyFilters() {
     const genre = document.getElementById('filterGenre').value;
     const year = document.getElementById('filterYear').value;
@@ -179,6 +198,9 @@ function applyFilters() {
     renderGrid(filtered);
 }
 
+/**
+ * Resets all filters to default values and reapplies them.
+ */
 function resetFilters() {
     document.getElementById('filterGenre').value = "";
     document.getElementById('filterYear').value = "";
@@ -188,6 +210,10 @@ function resetFilters() {
     applyFilters();
 }
 
+/**
+ * Handles search input and updates the displayed content accordingly.
+ * @param {Event} e - The input event.
+ */
 function handleSearch(e) {
     const q = e.target.value.toLowerCase();
 
@@ -224,7 +250,6 @@ function handleSearch(e) {
     const navSeries = document.getElementById('nav-series');
     const navFilms = document.getElementById('nav-films');
     const navCollections = document.getElementById('nav-collections');
-    
     textWhite(navHome, navSeries, navFilms, navCollections);
 
     const titleEl = document.getElementById('titleText');
@@ -240,6 +265,9 @@ function handleSearch(e) {
     renderGrid(res);
 }
 
+/**
+ * Clears search input fields.
+ */
 function clearSearch() {
     document.getElementById('searchInput').value = '';
     document.getElementById('mobileSearchInput').value = '';
