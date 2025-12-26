@@ -260,7 +260,6 @@ function handleSearch(e) {
 
     const titleEl = document.getElementById('titleText');
     if (titleEl) {
-        // Safely update the title text and count without using innerHTML with untrusted input
         titleEl.textContent = `Résultats pour "${q}" `;
         let countSpan = titleEl.querySelector('.text-gray-500.text-sm.ml-2');
         if (!countSpan) {
@@ -272,7 +271,6 @@ function handleSearch(e) {
     } else {
         const sectionTitle = document.getElementById('sectionTitle');
         if (sectionTitle) {
-            // Rebuild the section title structure using DOM APIs to avoid interpreting q as HTML
             while (sectionTitle.firstChild) {
                 sectionTitle.removeChild(sectionTitle.firstChild);
             }
