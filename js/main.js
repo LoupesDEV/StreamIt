@@ -260,12 +260,30 @@ function handleSearch(e) {
 
     const titleEl = document.getElementById('titleText');
     if (titleEl) {
-        titleEl.innerHTML = `Résultats pour "${q}" <span class="text-gray-500 text-sm ml-2">(${res.length})</span>`;
+        titleEl.textContent = `Résultats pour "${q}" `;
+        let countSpan = titleEl.querySelector('.text-gray-500.text-sm.ml-2');
+        if (!countSpan) {
+            countSpan = document.createElement('span');
+            countSpan.className = 'text-gray-500 text-sm ml-2';
+            titleEl.appendChild(countSpan);
+        }
+        countSpan.textContent = `(${res.length})`;
     } else {
         const sectionTitle = document.getElementById('sectionTitle');
         if (sectionTitle) {
-            sectionTitle.innerHTML = `<span class="w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
-                <span id="titleText" class="tracking-tight">Résultats pour "${q}" (${res.length})</span>`;
+            while (sectionTitle.firstChild) {
+                sectionTitle.removeChild(sectionTitle.firstChild);
+            }
+
+            const accentSpan = document.createElement('span');
+            accentSpan.className = 'w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]';
+            sectionTitle.appendChild(accentSpan);
+
+            const titleTextSpan = document.createElement('span');
+            titleTextSpan.id = 'titleText';
+            titleTextSpan.className = 'tracking-tight';
+            titleTextSpan.textContent = `Résultats pour "${q}" (${res.length})`;
+            sectionTitle.appendChild(titleTextSpan);
         }
     }
     renderGrid(res);
