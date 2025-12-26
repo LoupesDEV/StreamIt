@@ -21,51 +21,39 @@
   "screenshots": [
     {
       "src": "medias/README/accueil.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Accueil"
     },
     {
       "src": "medias/README/watching.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Lecteur vidéo"
     },
     {
       "src": "medias/README/series.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Page des séries"
     },
     {
       "src": "medias/README/series_info.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Page d'information des séries"
     },
     {
       "src": "medias/README/films.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Page des films"
     },
     {
       "src": "medias/README/films_info.png",
-      "sizes": "1919x1079",
+      "sizes": "2704x1756",
       "type": "image/png",
       "label": "Page d'information des films"
-    },
-    {
-      "src": "medias/README/add.png",
-      "sizes": "1919x1079",
-      "type": "image/png",
-      "label": "Page d'ajout de films et séries"
-    },
-    {
-      "src": "medias/README/stats.png",
-      "sizes": "1919x1079",
-      "type": "image/png",
-      "label": "Page des stats"
     }
   ],
   "related_applications": [],
