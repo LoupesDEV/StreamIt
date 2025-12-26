@@ -1,3 +1,9 @@
+/**
+ * js/errorHandler.js
+ * Handles error display and developer tools prevention.
+ * @module errorHandler
+ */
+
 const msg = localStorage.getItem("streamit_error");
 const errorMessageEl = document.getElementById("error-message");
 const errorCodeEl = document.getElementById("error-code");

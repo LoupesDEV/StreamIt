@@ -1,3 +1,9 @@
+/**
+ * js/main.js
+ * Main application logic for routing, filtering, searching, and initializing the app.
+ * @module main
+ */
+
 import { fetchAllData, fetchNotifs } from './dataLoader.js';
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
 import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader } from './utils.js';

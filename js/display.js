@@ -1,3 +1,9 @@
+/**
+ * js/display.js
+ * Handles the display and rendering of media items, hero section, details overlay, collections, and notifications.
+ * @module display
+ */
+
 import { playVideo } from './utils.js';
 
 let activeDetailItem = null;

@@ -1,3 +1,9 @@
+/**
+ * js/utils.js
+ * Utility functions for video playback, UI toggles, loader management, and video player enhancements.
+ * @module utils
+ */
+
 const PROGRESS_PREFIX = 'streamit:progress:';
 let currentVideoSrc = '';
 

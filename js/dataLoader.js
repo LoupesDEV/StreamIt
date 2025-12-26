@@ -1,4 +1,10 @@
 /**
+ * js/dataLoader.js
+ * Handles loading of data files: films, series, collections, and notifications.
+ * @module dataLoader
+ */
+
+/**
  * Fetches all necessary data files: films, series, and collections.
  * @returns {Object} An object containing films, series, and collections data.
  */
