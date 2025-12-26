@@ -33,8 +33,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     hideLoader();
 });
 
+function textWhite(navHome, navSeries, navFilms, navCollections) {
+    [navHome, navSeries, navFilms, navCollections].forEach(el => {
+        if (el) el.classList.remove('text-white', 'text-red-500');
+    });
+}
+
 function router(view) {
     currentView = view;
+
+    clearSearch();
 
     document.getElementById('mobileMenuPanel').classList.remove('active');
     document.getElementById('mobileSearchPanel').classList.remove('active');
@@ -50,9 +58,7 @@ function router(view) {
     const navFilms = document.getElementById('nav-films');
     const navCollections = document.getElementById('nav-collections');
 
-    [navHome, navSeries, navFilms, navCollections].forEach(el => {
-        if (el) el.classList.remove('text-white', 'text-red-500');
-    });
+    textWhite(navHome, navSeries, navFilms, navCollections);
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
@@ -214,8 +220,29 @@ function handleSearch(e) {
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
     const res = all.filter(i => i.title.toLowerCase().includes(q));
 
-    document.getElementById('sectionTitle').innerHTML = `Résultats pour "${q}" <span class="text-gray-500 text-sm ml-2">(${res.length})</span>`;
+    const navHome = document.getElementById('nav-home');
+    const navSeries = document.getElementById('nav-series');
+    const navFilms = document.getElementById('nav-films');
+    const navCollections = document.getElementById('nav-collections');
+    
+    textWhite(navHome, navSeries, navFilms, navCollections);
+
+    const titleEl = document.getElementById('titleText');
+    if (titleEl) {
+        titleEl.innerHTML = `Résultats pour "${q}" <span class="text-gray-500 text-sm ml-2">(${res.length})</span>`;
+    } else {
+        const sectionTitle = document.getElementById('sectionTitle');
+        if (sectionTitle) {
+            sectionTitle.innerHTML = `<span class="w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
+                <span id="titleText" class="tracking-tight">Résultats pour "${q}" (${res.length})</span>`;
+        }
+    }
     renderGrid(res);
+}
+
+function clearSearch() {
+    document.getElementById('searchInput').value = '';
+    document.getElementById('mobileSearchInput').value = '';
 }
 
 document.getElementById('searchInput').addEventListener('input', handleSearch);
