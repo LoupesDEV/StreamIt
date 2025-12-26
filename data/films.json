@@ -5,6 +5,7 @@
     "poster": "medias/films/asterix-obelix-l-empire-du-milieu/poster.jpg",
     "banner": "medias/films/asterix-obelix-l-empire-du-milieu/banner.jpg",
     "IMDb": 5.1,
+    "duration": "1h 52min",
     "IMDb_link": "https://www.imdb.com/title/tt11210390/",
     "year": 2023,
     "genres": [
@@ -35,6 +36,7 @@
     "poster": "medias/films/the-gorge/poster.jpg",
     "banner": "medias/films/the-gorge/banner.jpg",
     "IMDb": 6.7,
+    "duration": "2h 07min",
     "IMDb_link": "https://www.imdb.com/title/tt13654226/",
     "year": 2025,
     "genres": [
@@ -67,6 +69,7 @@
     "poster": "medias/films/exterritorial/poster.jpg",
     "banner": "medias/films/exterritorial/banner.jpg",
     "IMDb": 5.8,
+    "duration": "1h 29min",
     "IMDb_link": "https://www.imdb.com/title/tt30876483/",
     "year": 2025,
     "genres": [
@@ -94,6 +97,7 @@
     "poster": "medias/films/sans-un-bruit/poster.jpg",
     "banner": "medias/films/sans-un-bruit/banner.jpg",
     "IMDb": 7.5,
+    "duration": "1h 30min",
     "IMDb_link": "https://www.imdb.com/title/tt6644200/",
     "year": 2018,
     "genres": [
@@ -125,6 +129,7 @@
     "poster": "medias/films/sans-un-bruit-2/poster.jpg",
     "banner": "medias/films/sans-un-bruit-2/banner.jpg",
     "IMDb": 7.2,
+    "duration": "1h 37min",
     "IMDb_link": "https://www.imdb.com/title/tt8332922/",
     "year": 2020,
     "genres": [
@@ -158,6 +163,7 @@
     "poster": "medias/films/sans-un-bruit-jour-1/poster.jpg",
     "banner": "medias/films/sans-un-bruit-jour-1/banner.jpg",
     "IMDb": 6.3,
+    "duration": "1h 39min",
     "IMDb_link": "https://www.imdb.com/title/tt13433802/",
     "year": 2024,
     "genres": [
@@ -190,6 +196,7 @@
     "poster": "medias/films/hunger-games/poster.jpg",
     "banner": "medias/films/hunger-games/banner.jpg",
     "IMDb": 7.2,
+    "duration": "2h 22min",
     "IMDb_link": "https://www.imdb.com/title/tt1392170/",
     "year": 2012,
     "genres": [
@@ -222,6 +229,7 @@
     "poster": "medias/films/hunger-games-l-embrasement/poster.jpg",
     "banner": "medias/films/hunger-games-l-embrasement/banner.jpg",
     "IMDb": 7.5,
+    "duration": "2h 26min",
     "IMDb_link": "https://www.imdb.com/title/tt1951264/",
     "year": 2013,
     "genres": [
@@ -253,6 +261,7 @@
     "poster": "medias/films/hunger-games-la-revolte-partie-1/poster.jpg",
     "banner": "medias/films/hunger-games-la-revolte-partie-1/banner.jpg",
     "IMDb": 6.6,
+    "duration": "2h 03min",
     "IMDb_link": "https://www.imdb.com/title/tt1951265/",
     "year": 2014,
     "genres": [
@@ -284,6 +293,7 @@
     "poster": "medias/films/hunger-games-la-revolte-partie-2/poster.jpg",
     "banner": "medias/films/hunger-games-la-revolte-partie-2/banner.jpg",
     "IMDb": 6.6,
+    "duration": "2h 17min",
     "IMDb_link": "https://www.imdb.com/title/tt1951266/",
     "year": 2015,
     "genres": [
@@ -316,6 +326,7 @@
     "poster": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/poster.jpg",
     "banner": "medias/films/hunger-games-la-ballade-du-serpent-et-de-l-oiseau-chanteur/banner.jpg",
     "IMDb": 6.7,
+    "duration": "2h 37min",
     "IMDb_link": "https://www.imdb.com/title/tt10545296/",
     "year": 2023,
     "genres": [
@@ -350,6 +361,7 @@
     "poster": "medias/films/la-planete-des-singes/poster.jpg",
     "banner": "medias/films/la-planete-des-singes/banner.jpg",
     "IMDb": 5.7,
+    "duration": "2h 00min",
     "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
     "year": 2001,
     "genres": [
@@ -381,6 +393,7 @@
     "poster": "medias/films/la-planete-des-singes-les-origines/poster.jpg",
     "banner": "medias/films/la-planete-des-singes-les-origines/banner.jpg",
     "IMDb": 7.6,
+    "duration": "2h 00min",
     "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
     "year": 2011,
     "genres": [
@@ -411,6 +424,7 @@
     "poster": "medias/films/la-planete-des-singes-l-affrontement/poster.jpg",
     "banner": "medias/films/la-planete-des-singes-l-affrontement/banner.jpg",
     "IMDb": 7.6,
+    "duration": "2h 11min",
     "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
     "year": 2014,
     "genres": [
@@ -443,6 +457,7 @@
     "poster": "medias/films/la-planete-des-singes-suprematie/poster.jpg",
     "banner": "medias/films/la-planete-des-singes-suprematie/banner.jpg",
     "IMDb": 7.4,
+    "duration": "2h 22min",
     "IMDb_link": "https://www.imdb.com/title/tt3450958/",
     "year": 2017,
     "genres": [
@@ -479,6 +494,7 @@
     "poster": "medias/films/la-planete-des-singes-le-nouveau-royaume/poster.jpg",
     "banner": "medias/films/la-planete-des-singes-le-nouveau-royaume/banner.jpg",
     "IMDb": 6.9,
+    "duration": "2h 25min",
     "IMDb_link": "https://www.imdb.com/title/tt11389872/",
     "year": 2024,
     "genres": [
@@ -512,6 +528,7 @@
     "poster": "medias/films/minecraft-le-film/poster.jpg",
     "banner": "medias/films/minecraft-le-film/banner.jpg",
     "IMDb": 5.8,
+    "duration": "1h 41min",
     "IMDb_link": "https://www.imdb.com/title/tt3566834/",
     "year": 2025,
     "genres": [
@@ -548,6 +565,7 @@
     "poster": "medias/films/napoleon/poster.jpg",
     "banner": "medias/films/napoleon/banner.jpg",
     "IMDb": 6.3,
+    "duration": "2h 38min",
     "IMDb_link": "https://www.imdb.com/title/tt13287846/",
     "year": 2023,
     "genres": [
@@ -582,6 +600,7 @@
     "poster": "medias/films/sniper-le-corbeau-blanc/poster.jpg",
     "banner": "medias/films/sniper-le-corbeau-blanc/banner.jpg",
     "IMDb": 6.4,
+    "duration": "2h 00min",
     "IMDb_link": "https://www.imdb.com/title/tt19465630/",
     "year": 2022,
     "genres": [
@@ -610,6 +629,7 @@
     "poster": "medias/films/le-labyrinthe/poster.jpg",
     "banner": "medias/films/le-labyrinthe/banner.jpg",
     "IMDb": 6.8,
+    "duration": "1h 54min",
     "IMDb_link": "https://www.imdb.com/title/tt1790864/",
     "year": 2014,
     "genres": [
@@ -641,6 +661,7 @@
     "poster": "medias/films/le-labyrinthe-la-terre-brulee/poster.jpg",
     "banner": "medias/films/le-labyrinthe-la-terre-brulee/banner.jpg",
     "IMDb": 6.3,
+    "duration": "2h 13min",
     "IMDb_link": "https://www.imdb.com/title/tt4046784/",
     "year": 2015,
     "genres": [
@@ -672,6 +693,7 @@
     "poster": "medias/films/le-labyrinthe-le-remede-mortel/poster.jpg",
     "banner": "medias/films/le-labyrinthe-le-remede-mortel/banner.jpg",
     "IMDb": 6.3,
+    "duration": "2h 22min",
     "IMDb_link": "https://www.imdb.com/title/tt4500922/",
     "year": 2018,
     "genres": [
@@ -701,6 +723,7 @@
     "poster": "medias/films/lucy/poster.jpg",
     "banner": "medias/films/lucy/banner.jpg",
     "IMDb": 6.4,
+    "duration": "1h 29min",
     "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
     "year": 2014,
     "genres": [
@@ -730,6 +753,7 @@
     "poster": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/poster.jpg",
     "banner": "medias/films/le-seigneur-des-anneaux-la-communaute-de-l-anneau/banner.jpg",
     "IMDb": 8.9,
+    "duration": "2h 59min",
     "IMDb_link": "https://www.imdb.com/title/tt0120737/",
     "year": 2001,
     "genres": [
@@ -767,6 +791,7 @@
     "poster": "medias/films/le-seigneur-des-anneaux-les-deux-tours/poster.jpg",
     "banner": "medias/films/le-seigneur-des-anneaux-les-deux-tours/banner.jpg",
     "IMDb": 8.8,
+    "duration": "3h 00min",
     "IMDb_link": "https://www.imdb.com/title/tt0167261/",
     "year": 2002,
     "genres": [
@@ -804,6 +829,7 @@
     "poster": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/poster.jpg",
     "banner": "medias/films/le-seigneur-des-anneaux-le-retour-du-roi/banner.jpg",
     "IMDb": 9,
+    "duration": "3h 21min",
     "IMDb_link": "https://www.imdb.com/title/tt0167260/",
     "year": 2003,
     "genres": [
@@ -840,6 +866,7 @@
     "poster": "medias/films/cars/poster.jpg",
     "banner": "medias/films/cars/banner.jpg",
     "IMDb": 7.3,
+    "duration": "1h 51min",
     "IMDb_link": "https://www.imdb.com/title/tt0317219/",
     "year": 2006,
     "genres": [
@@ -873,6 +900,7 @@
     "poster": "medias/films/cars-2/poster.jpg",
     "banner": "medias/films/cars-2/banner.jpg",
     "IMDb": 6.2,
+    "duration": "1h 46min",
     "IMDb_link": "https://www.imdb.com/title/tt1216475/",
     "year": 2011,
     "genres": [
@@ -909,6 +937,7 @@
     "poster": "medias/films/cars-3/poster.jpg",
     "banner": "medias/films/cars-3/banner.jpg",
     "IMDb": 6.7,
+    "duration": "1h 49min",
     "IMDb_link": "https://www.imdb.com/title/tt3606752/",
     "year": 2017,
     "genres": [
@@ -941,6 +970,7 @@
     "poster": "medias/films/gran-turismo/poster.jpg",
     "banner": "medias/films/gran-turismo/banner.jpg",
     "IMDb": 7.1,
+    "duration": "2h 14min",
     "IMDb_link": "https://www.imdb.com/title/tt4495098/",
     "year": 2023,
     "genres": [
@@ -973,6 +1003,7 @@
     "poster": "medias/films/oppenheimer/poster.jpg",
     "banner": "medias/films/oppenheimer/banner.jpg",
     "IMDb": 8.3,
+    "duration": "3h 01min",
     "IMDb_link": "https://www.imdb.com/title/tt15398776/",
     "year": 2023,
     "genres": [
@@ -1007,6 +1038,7 @@
     "poster": "medias/films/le-mans-66/poster.jpg",
     "banner": "medias/films/le-mans-66/banner.jpg",
     "IMDb": 8.1,
+    "duration": "2h 33min",
     "IMDb_link": "https://www.imdb.com/title/tt1950186/",
     "year": 2019,
     "genres": [
@@ -1041,6 +1073,7 @@
     "poster": "medias/films/interstellar/poster.jpg",
     "banner": "medias/films/interstellar/banner.jpg",
     "IMDb": 8.7,
+    "duration": "2h 49min",
     "IMDb_link": "https://www.imdb.com/title/tt0816692/",
     "year": 2014,
     "genres": [
@@ -1075,6 +1108,7 @@
     "poster": "medias/films/le-comte-de-monte-cristo/poster.jpg",
     "banner": "medias/films/le-comte-de-monte-cristo/banner.jpg",
     "IMDb": 7.6,
+    "duration": "2h 58min",
     "IMDb_link": "https://www.imdb.com/title/tt26446278/",
     "year": 2024,
     "genres": [
@@ -1109,6 +1143,7 @@
     "poster": "medias/films/mufasa-le-roi-lion/poster.jpg",
     "banner": "medias/films/mufasa-le-roi-lion/banner.jpg",
     "IMDb": 6.6,
+    "duration": "1h 58min",
     "IMDb_link": "https://www.imdb.com/title/tt13186482/",
     "year": 2024,
     "genres": [
@@ -1140,6 +1175,7 @@
     "poster": "medias/films/six-jours/poster.jpg",
     "banner": "medias/films/six-jours/banner.jpg",
     "IMDb": 5.7,
+    "duration": "1h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt29610108/",
     "year": 2025,
     "genres": [
@@ -1170,6 +1206,7 @@
     "poster": "medias/films/rush/poster.jpg",
     "banner": "medias/films/rush/banner.jpg",
     "IMDb": 8.1,
+    "duration": "2h 03min",
     "IMDb_link": "https://www.imdb.com/title/tt1979320/",
     "year": 2013,
     "genres": [
@@ -1200,6 +1237,7 @@
     "poster": "medias/films/le-garcon-au-pyjama-raye/poster.jpg",
     "banner": "medias/films/le-garcon-au-pyjama-raye/banner.jpg",
     "IMDb": 7.7,
+    "duration": "1h 30min",
     "IMDb_link": "https://www.imdb.com/title/tt0914798/",
     "year": 2008,
     "genres": [
@@ -1229,6 +1267,7 @@
     "poster": "medias/films/taxi/poster.jpg",
     "banner": "medias/films/taxi/banner.jpg",
     "IMDb": 7,
+    "duration": "1h 26min",
     "IMDb_link": "https://www.imdb.com/title/tt0152930/",
     "year": 1998,
     "genres": [
@@ -1260,6 +1299,7 @@
     "poster": "medias/films/taxi-2/poster.jpg",
     "banner": "medias/films/taxi-2/banner.jpg",
     "IMDb": 6.5,
+    "duration": "1h 28min",
     "IMDb_link": "https://www.imdb.com/title/tt0183869/",
     "year": 2000,
     "genres": [
@@ -1286,6 +1326,7 @@
     "poster": "medias/films/taxi-3/poster.jpg",
     "banner": "medias/films/taxi-3/banner.jpg",
     "IMDb": 5.8,
+    "duration": "1h 30min",
     "IMDb_link": "https://www.imdb.com/title/tt0295721/",
     "year": 2000,
     "genres": [
@@ -1312,6 +1353,7 @@
     "poster": "medias/films/taxi-4/poster.jpg",
     "banner": "medias/films/taxi-4/banner.jpg",
     "IMDb": 5.6,
+    "duration": "1h 30min",
     "IMDb_link": "https://www.imdb.com/title/tt0804540/",
     "year": 2007,
     "genres": [
@@ -1338,6 +1380,7 @@
     "poster": "medias/films/taxi-5/poster.jpg",
     "banner": "medias/films/taxi-5/banner.jpg",
     "IMDb": 4.6,
+    "duration": "1h 42min",
     "IMDb_link": "https://www.imdb.com/title/tt7238392/",
     "year": 2018,
     "genres": [
@@ -1366,6 +1409,7 @@
     "poster": "medias/films/wall-e/poster.jpg",
     "banner": "medias/films/wall-e/banner.jpg",
     "IMDb": 8.4,
+    "duration": "1h 38min",
     "IMDb_link": "https://www.imdb.com/title/tt0910970/",
     "year": 2008,
     "genres": [
@@ -1401,6 +1445,7 @@
     "poster": "medias/films/intouchables/poster.jpg",
     "banner": "medias/films/intouchables/banner.jpg",
     "IMDb": 8.5,
+    "duration": "1h 52min",
     "IMDb_link": "https://www.imdb.com/title/tt1675434/",
     "year": 2011,
     "genres": [
@@ -1430,6 +1475,7 @@
     "poster": "medias/films/la-haut/poster.jpg",
     "banner": "medias/films/la-haut/banner.jpg",
     "IMDb": 8.3,
+    "duration": "1h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt1049413/",
     "year": 2009,
     "genres": [
@@ -1465,6 +1511,7 @@
     "poster": "medias/films/kingdom-of-heaven/poster.jpg",
     "banner": "medias/films/kingdom-of-heaven/banner.jpg",
     "IMDb": 7.3,
+    "duration": "2h 24min",
     "IMDb_link": "https://www.imdb.com/title/tt0320661/",
     "year": 2005,
     "genres": [
@@ -1498,6 +1545,7 @@
     "poster": "medias/films/gladiator/poster.jpg",
     "banner": "medias/films/gladiator/banner.jpg",
     "IMDb": 8.5,
+    "duration": "2h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt0172495/",
     "year": 2000,
     "genres": [
@@ -1531,6 +1579,7 @@
     "poster": "medias/films/gladiator-ii/poster.jpg",
     "banner": "medias/films/gladiator-ii/banner.jpg",
     "IMDb": 6.5,
+    "duration": "2h 28min",
     "IMDb_link": "https://www.imdb.com/title/tt9218128/",
     "year": 2024,
     "genres": [
@@ -1564,6 +1613,7 @@
     "poster": "medias/films/the-deep-house/poster.jpg",
     "banner": "medias/films/the-deep-house/banner.jpg",
     "IMDb": 5.3,
+    "duration": "1h 25min",
     "IMDb_link": "https://www.imdb.com/title/tt11686490/",
     "year": 2021,
     "genres": [
@@ -1596,6 +1646,7 @@
     "poster": "medias/films/a-l-ouest-rien-de-nouveau/poster.jpg",
     "banner": "medias/films/a-l-ouest-rien-de-nouveau/banner.jpg",
     "IMDb": 7.8,
+    "duration": "2h 28min",
     "IMDb_link": "https://www.imdb.com/title/tt1016150/",
     "year": 2022,
     "genres": [
@@ -1629,6 +1680,7 @@
     "poster": "medias/films/ballerina/poster.jpg",
     "banner": "medias/films/ballerina/banner.jpg",
     "IMDb": 7,
+    "duration": "2h 05min",
     "IMDb_link": "https://www.imdb.com/title/tt7181546/",
     "year": 2025,
     "genres": [
@@ -1658,6 +1710,7 @@
     "poster": "medias/films/la-rafle/poster.jpg",
     "banner": "medias/films/la-rafle/banner.jpg",
     "IMDb": 7.1,
+    "duration": "2h 05min",
     "IMDb_link": "https://www.imdb.com/title/tt1382725/",
     "year": 2010,
     "genres": [
@@ -1685,6 +1738,7 @@
     "poster": "medias/films/real-steel/poster.jpg",
     "banner": "medias/films/real-steel/banner.jpg",
     "IMDb": 7.1,
+    "duration": "2h 07min",
     "IMDb_link": "https://www.imdb.com/title/tt0433035/",
     "year": 2011,
     "genres": [
@@ -1716,6 +1770,7 @@
     "poster": "medias/films/f1-le-film/poster.jpg",
     "banner": "medias/films/f1-le-film/banner.jpg",
     "IMDb": 7.8,
+    "duration": "2h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt16311594/",
     "year": 2025,
     "genres": [
@@ -1746,6 +1801,7 @@
     "poster": "medias/films/conjuring-l-heure-du-jugement/poster.jpg",
     "banner": "medias/films/conjuring-l-heure-du-jugement/banner.jpg",
     "IMDb": 6.3,
+    "duration": "2h 15min",
     "IMDb_link": "https://www.imdb.com/title/tt22898462/",
     "year": 2025,
     "genres": [
@@ -1776,6 +1832,7 @@
     "poster": "medias/films/tu-ne-tueras-point/poster.jpg",
     "banner": "medias/films/tu-ne-tueras-point/banner.jpg",
     "IMDb": 7.8,
+    "duration": "2h 19min",
     "IMDb_link": "https://www.imdb.com/title/tt2119532/",
     "year": 2016,
     "genres": [
@@ -1809,6 +1866,7 @@
     "poster": "medias/films/top-gun-maverick/poster.jpg",
     "banner": "medias/films/top-gun-maverick/banner.jpg",
     "IMDb": 8.2,
+    "duration": "2h 10min",
     "IMDb_link": "https://www.imdb.com/title/tt1745960/",
     "year": 2022,
     "genres": [
@@ -1839,6 +1897,7 @@
     "poster": "medias/films/sous-la-seine/poster.jpg",
     "banner": "medias/films/sous-la-seine/banner.jpg",
     "IMDb": 5.2,
+    "duration": "1h 44min",
     "IMDb_link": "https://www.imdb.com/title/tt13964390/",
     "year": 2024,
     "genres": [
@@ -1871,6 +1930,7 @@
     "poster": "medias/films/destination-finale-bloodlines/poster.jpg",
     "banner": "medias/films/destination-finale-bloodlines/banner.jpg",
     "IMDb": 6.7,
+    "duration": "1h 50min",
     "IMDb_link": "https://www.imdb.com/title/tt9619824/",
     "year": 2025,
     "genres": [
@@ -1903,6 +1963,7 @@
     "poster": "medias/films/harry-potter-a-l-ecole-des-sorciers/poster.jpg",
     "banner": "medias/films/harry-potter-a-l-ecole-des-sorciers/banner.jpg",
     "IMDb": 7.7,
+    "duration": "2h 33min",
     "IMDb_link": "https://www.imdb.com/title/tt0241527/",
     "year": 2001,
     "genres": [
@@ -1933,6 +1994,7 @@
     "poster": "medias/films/harry-potter-et-la-chambre-des-secrets/poster.jpg",
     "banner": "medias/films/harry-potter-et-la-chambre-des-secrets/banner.jpg",
     "IMDb": 7.5,
+    "duration": "2h 41min",
     "IMDb_link": "https://www.imdb.com/title/tt0295297/",
     "year": 2002,
     "genres": [
@@ -1965,6 +2027,7 @@
     "poster": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/poster.jpg",
     "banner": "medias/films/harry-potter-et-le-prisonnier-d-azkaban/banner.jpg",
     "IMDb": 7.9,
+    "duration": "2h 22min",
     "IMDb_link": "https://www.imdb.com/title/tt0304141/",
     "year": 2004,
     "genres": [
@@ -1999,6 +2062,7 @@
     "poster": "medias/films/harry-potter-et-la-coupe-de-feu/poster.jpg",
     "banner": "medias/films/harry-potter-et-la-coupe-de-feu/banner.jpg",
     "IMDb": 7.9,
+    "duration": "2h 37min",
     "IMDb_link": "https://www.imdb.com/title/tt0330373/",
     "year": 2005,
     "genres": [
@@ -2031,6 +2095,7 @@
     "poster": "medias/films/harry-potter-et-l-ordre-du-phenix/poster.jpg",
     "banner": "medias/films/harry-potter-et-l-ordre-du-phenix/banner.jpg",
     "IMDb": 7.5,
+    "duration": "2h 18min",
     "IMDb_link": "https://www.imdb.com/title/tt0373889/",
     "year": 2007,
     "genres": [
@@ -2063,6 +2128,7 @@
     "poster": "medias/films/harry-potter-et-le-prince-de-sang-mele/poster.jpg",
     "banner": "medias/films/harry-potter-et-le-prince-de-sang-mele/banner.jpg",
     "IMDb": 7.6,
+    "duration": "2h 33min",
     "IMDb_link": "https://www.imdb.com/title/tt0417741/",
     "year": 2010,
     "genres": [
@@ -2098,6 +2164,7 @@
     "poster": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/poster.jpg",
     "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-1ere-partie/banner.jpg",
     "IMDb": 7.8,
+    "duration": "2h 26min",
     "IMDb_link": "https://www.imdb.com/title/tt0926084/",
     "year": 2010,
     "genres": [
@@ -2133,6 +2200,7 @@
     "poster": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/poster.jpg",
     "banner": "medias/films/harry-potter-et-les-reliques-de-la-mort-2eme-partie/banner.jpg",
     "IMDb": 8.1,
+    "duration": "2h 10min",
     "IMDb_link": "https://www.imdb.com/title/tt1201607/",
     "year": 2011,
     "genres": [
@@ -2168,8 +2236,9 @@
     "poster": "medias/films/lilo-stitch/poster.jpg",
     "banner": "medias/films/lilo-stitch/banner.jpg",
     "IMDb": 6.9,
+    "duration": "1h 48min",
     "IMDb_link": "https://www.imdb.com/title/tt11655566/",
-    "year": 2022,
+    "year": 2025,
     "genres": [
       "Alien Invasion",
       "Buddy Comedy",
@@ -2204,6 +2273,7 @@
     "poster": "medias/films/souviens-toi-l-ete-dernier/poster.jpg",
     "banner": "medias/films/souviens-toi-l-ete-dernier/banner.jpg",
     "IMDb": 5.1,
+    "duration": "1h 51min",
     "IMDb_link": "https://www.imdb.com/title/tt4045450/",
     "year": 2025,
     "genres": [
@@ -2232,6 +2302,7 @@
     "poster": "medias/films/un-ours-dans-le-jura/poster.jpg",
     "banner": "medias/films/un-ours-dans-le-jura/banner.jpg",
     "IMDb": 6.5,
+    "duration": "1h 52min",
     "IMDb_link": "https://www.imdb.com/title/tt33984333/",
     "year": 2027,
     "genres": [
@@ -2262,6 +2333,7 @@
     "poster": "medias/films/dragons-4/poster.jpg",
     "banner": "medias/films/dragons-4/banner.jpg",
     "IMDb": 7.9,
+    "duration": "2h 05min",
     "IMDb_link": "https://www.imdb.com/title/tt26743210/",
     "year": 2025,
     "genres": [
@@ -2297,6 +2369,7 @@
     "poster": "medias/films/venom/poster.jpg",
     "banner": "medias/films/venom/banner.jpg",
     "IMDb": 6.6,
+    "duration": "1h 52min",
     "IMDb_link": "https://www.imdb.com/title/tt1270797/",
     "year": 2018,
     "genres": [
@@ -2332,6 +2405,7 @@
     "banner": "medias/films/venom-let-there-be-carnage/banner.jpg",
     "video": "medias/films/venom-let-there-be-carnage/venom-let-there-be-carnage.mp4",
     "IMDb": 5.9,
+    "duration": "1h 37min",
     "IMDb_link": "https://www.imdb.com/title/tt7097896/",
     "year": 2021,
     "genres": [
@@ -2364,6 +2438,7 @@
     "banner": "medias/films/venom-the-last-dance/banner.jpg",
     "video": "medias/films/venom-the-last-dance/venom-the-last-dance.mp4",
     "IMDb": 6.0,
+    "duration": "1h 49min",
     "IMDb_link": "venom-the-last-dance",
     "year": 2024,
     "genres": [
@@ -2398,6 +2473,7 @@
     "banner": "medias/films/le-secret-de-kheops/banner.jpg",
     "video": "medias/films/le-secret-de-kheops/le-secret-de-kheops.mp4",
     "IMDb": 5.5,
+    "duration": "1h 37min",
     "IMDb_link": "https://www.imdb.com/title/tt34482468/",
     "year": 2025,
     "genres": [
@@ -2427,6 +2503,7 @@
     "banner": "medias/films/les-bad-guys/banner.jpg",
     "video": "medias/films/les-bad-guys/les-bad-guys.mp4",
     "IMDb": 6.9,
+    "duration": "1h 33min",
     "IMDb_link": "https://www.imdb.com/title/tt8115900/",
     "year": 2022,
     "genres": [
@@ -2462,6 +2539,7 @@
     "banner": "medias/films/les-bad-guys-2/banner.jpg",
     "video": "medias/films/les-bad-guys-2/les-bad-guys-2.mp4",
     "IMDb": 7.0,
+    "duration": "1h 43min",
     "IMDb_link": "https://www.imdb.com/title/tt30017619/",
     "year": 2025,
     "genres": [
@@ -2499,6 +2577,7 @@
     "banner": "medias/films/batman-begins/banner.jpg",
     "video": "medias/films/batman-begins/batman-begins.mp4",
     "IMDb": 8.2,
+    "duration": "2h 20min",
     "IMDb_link": "https://www.imdb.com/title/tt0372784/",
     "year": 2005,
     "genres": [
@@ -2534,6 +2613,7 @@
     "banner": "medias/films/the-dark-knight-le-chevalier-noir/banner.jpg",
     "video": "medias/films/the-dark-knight-le-chevalier-noir/the-dark-knight-le-chevalier-noir.mp4",
     "IMDb": 9.1,
+    "duration": "2h 32min",
     "IMDb_link": "https://www.imdb.com/title/tt0468569/",
     "year": 2008,
     "genres": [
@@ -2568,6 +2648,7 @@
     "banner": "medias/films/the-dark-knight-rises/banner.jpg",
     "video": "medias/films/the-dark-knight-rises/the-dark-knight-rises.mp4",
     "IMDb": 8.4,
+    "duration": "2h 44min",
     "IMDb_link": "https://www.imdb.com/title/tt1345836/",
     "year": 2012,
     "genres": [
@@ -2602,6 +2683,7 @@
     "banner": "medias/films/the-batman/banner.jpg",
     "video": "medias/films/the-batman/the-batman.mp4",
     "IMDb": 7.8,
+    "duration": "2h 55min",
     "IMDb_link": "https://www.imdb.com/title/tt1877830/",
     "year": 2022,
     "genres": [
@@ -2638,6 +2720,7 @@
     "banner": "medias/films/man-of-steel/banner.jpg",
     "video": "medias/films/man-of-steel/man-of-steel.mp4",
     "IMDb": 7.1,
+    "duration": "2h 23min",
     "IMDb_link": "https://www.imdb.com/title/tt0770828/",
     "year": 2013,
     "genres": [
@@ -2674,6 +2757,7 @@
     "banner": "medias/films/marche-ou-creve/banner.jpg",
     "video": "medias/films/marche-ou-creve/marche-ou-creve.mp4",
     "IMDb": 6.8,
+    "duration": "1h 49min",
     "IMDb_link": "https://www.imdb.com/title/tt10374610/",
     "year": 2025,
     "genres": [
@@ -2707,6 +2791,7 @@
     "banner": "medias/films/batman-v-superman-l-aube-de-la-justice/banner.jpg",
     "video": "medias/films/batman-v-superman-l-aube-de-la-justice/batman-v-superman-l-aube-de-la-justice.mp4",
     "IMDb": 6.4,
+    "duration": "2h 33min",
     "IMDb_link": "https://www.imdb.com/title/tt2975590/",
     "year": 2016,
     "genres": [
@@ -2739,6 +2824,7 @@
     "banner": "medias/films/suicide-squad/banner.jpg",
     "video": "medias/films/suicide-squad/suicide-squad.mp4",
     "IMDb": 5.9,
+    "duration": "2h 03min",
     "IMDb_link": "https://www.imdb.com/title/tt1386697/",
     "year": 2016,
     "genres": [
@@ -2774,6 +2860,7 @@
     "banner": "medias/films/wonder-woman/banner.jpg",
     "video": "medias/films/wonder-woman/wonder-woman.mp4",
     "IMDb": 7.3,
+    "duration": "2h 21min",
     "IMDb_link": "https://www.imdb.com/title/tt0451279/",
     "year": 2017,
     "genres": [
@@ -2810,6 +2897,7 @@
     "banner": "medias/films/justice-league/banner.jpg",
     "video": "medias/films/justice-league/justice-league.mp4",
     "IMDb": 6.0,
+    "duration": "2h 00min",
     "IMDb_link": "https://www.imdb.com/title/tt0974015/",
     "year": 2017,
     "genres": [
@@ -2841,6 +2929,7 @@
     "banner": "medias/films/aquaman/banner.jpg",
     "video": "medias/films/aquaman/aquaman.mp4",
     "IMDb": 6.8,
+    "duration": "2h 23min",
     "IMDb_link": "https://www.imdb.com/title/tt1477834/",
     "year": 2018,
     "genres": [
@@ -2877,6 +2966,7 @@
     "banner": "medias/films/shazam/banner.jpg",
     "video": "medias/films/shazam/shazam.mp4",
     "IMDb": 7.0,
+    "duration": "2h 12min",
     "IMDb_link": "https://www.imdb.com/title/tt0448115/",
     "year": 2019,
     "genres": [
@@ -2908,6 +2998,7 @@
     "banner": "medias/films/joker/banner.jpg",
     "video": "medias/films/joker/joker.mp4",
     "IMDb": 8.3,
+    "duration": "2h 02min",
     "IMDb_link": "https://www.imdb.com/title/tt7286456/",
     "year": 2019,
     "genres": [
@@ -2940,6 +3031,7 @@
     "banner": "medias/films/divergente/banner.jpg",
     "video": "medias/films/divergente/divergente.mp4",
     "IMDb": 6.6,
+    "duration": "2h 01min",
     "IMDb_link": "https://www.imdb.com/title/tt1840309/",
     "year": 2014,
     "genres": [
@@ -2974,6 +3066,7 @@
     "banner": "medias/films/divergente-2-l-insurrection/banner.jpg",
     "video": "medias/films/divergente-2-l-insurrection/divergente-2-l-insurrection.mp4",
     "IMDb": 6.2,
+    "duration": "1h 59min",
     "IMDb_link": "https://www.imdb.com/title/tt2908446/",
     "year": 2015,
     "genres": [
@@ -3005,6 +3098,7 @@
     "banner": "medias/films/divergente-3-au-dela-du-mur/banner.jpg",
     "video": "medias/films/divergente-3-au-dela-du-mur/divergente-3-au-dela-du-mur.mp4",
     "IMDb": 5.7,
+    "duration": "2h 20min",
     "IMDb_link": "https://www.imdb.com/title/tt3410834/",
     "year": 2016,
     "genres": [
@@ -3040,6 +3134,7 @@
     "banner": "medias/films/28-jours-plus-tard/banner.jpg",
     "video": "medias/films/28-jours-plus-tard/28-jours-plus-tard.mp4",
     "IMDb": 7.5,
+    "duration": "1h 52min",
     "IMDb_link": "https://www.imdb.com/title/tt0289043/",
     "year": 2002,
     "genres": [
@@ -3074,6 +3169,7 @@
     "banner": "medias/films/28-semaines-plus-tard/banner.jpg",
     "video": "medias/films/28-semaines-plus-tard/28-semaines-plus-tard.mp4",
     "IMDb": 6.8,
+    "duration": "1h 36min",
     "IMDb_link": "https://www.imdb.com/title/tt0463854/",
     "year": 2007,
     "genres": [
@@ -3102,6 +3198,7 @@
     "banner": "medias/films/28-ans-plus-tard/banner.jpg",
     "video": "medias/films/28-ans-plus-tard/28-ans-plus-tard.mp4",
     "IMDb": 6.6,
+    "duration": "1h 55min",
     "IMDb_link": "https://www.imdb.com/title/tt10548174/",
     "year": 2025,
     "genres": [
@@ -3131,6 +3228,7 @@
     "banner": "medias/films/les-intrus/banner.jpg",
     "video": "medias/films/les-intrus/les-intrus.mp4",
     "IMDb": 4.7,
+    "duration": "1h 31min",
     "IMDb_link": "https://www.imdb.com/title/tt22050754/",
     "year": 2024,
     "genres": [
@@ -3160,6 +3258,7 @@
     "banner": "medias/films/les-intrus-chapitre-2/banner.jpg",
     "video": "medias/films/les-intrus-chapitre-2/les-intrus-chapitre-2.mp4",
     "IMDb": 4.7,
+    "duration": "1h 38min",
     "IMDb_link": "https://www.imdb.com/title/tt28671344/",
     "year": 2025,
     "genres": [
@@ -3190,6 +3289,7 @@
     "banner": "medias/films/dune-premiere-partie/banner.jpg",
     "video": "medias/films/dune-premiere-partie/dune-premiere-partie.mp4",
     "IMDb": 8.0,
+    "duration": "2h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt1160419/",
     "year": 2021,
     "genres": [
@@ -3226,6 +3326,7 @@
     "banner": "medias/films/dune-deuxieme-partie/banner.jpg",
     "video": "medias/films/dune-deuxieme-partie/dune-deuxieme-partie.mp4",
     "IMDb": 8.4,
+    "duration": "2h 45min",
     "IMDb_link": "https://www.imdb.com/title/tt15239678/",
     "year": 2024,
     "genres": [
@@ -3262,6 +3363,7 @@
     "banner": "medias/films/jumanji-bienvenue-dans-la-jungle/banner.jpg",
     "video": "medias/films/jumanji-bienvenue-dans-la-jungle/jumanji-bienvenue-dans-la-jungle.mp4",
     "IMDb": 6.9,
+    "duration": "1h 59min",
     "IMDb_link": "https://www.imdb.com/title/tt2283362/",
     "year": 2017,
     "genres": [
@@ -3297,6 +3399,7 @@
     "banner": "medias/films/jumanji-next-level/banner.jpg",
     "video": "medias/films/jumanji-next-level/jumanji-next-level.mp4",
     "IMDb": 6.6,
+    "duration": "2h 03min",
     "IMDb_link": "https://www.imdb.com/title/tt7975244/",
     "year": 2019,
     "genres": [
@@ -3329,6 +3432,7 @@
     "banner": "medias/films/la-plateforme/banner.jpg",
     "video": "medias/films/la-plateforme/la-plateforme.mp4",
     "IMDb": 7.0,
+    "duration": "1h 35min",
     "IMDb_link": "https://www.imdb.com/title/tt8228288/",
     "year": 2019,
     "genres": [
@@ -3361,6 +3465,7 @@
     "banner": "medias/films/la-plateforme-2/banner.jpg",
     "video": "medias/films/la-plateforme-2/la-plateforme-2.mp4",
     "IMDb": 4.9,
+    "duration": "1h 40min",
     "IMDb_link": "https://www.imdb.com/title/tt27729779/",
     "year": 2024,
     "genres": [
@@ -3392,6 +3497,7 @@
     "banner": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/banner.jpg",
     "video": "medias/films/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn/birds-of-prey-et-la-fantabuleuse-histoire-de-harley-quinn.mp4",
     "IMDb": 6.1,
+    "duration": "1h 48min",
     "IMDb_link": "https://www.imdb.com/title/tt7713068/",
     "year": 2020,
     "genres": [
@@ -3423,6 +3529,7 @@
     "banner": "medias/films/wonder-woman-1984/banner.jpg",
     "video": "medias/films/wonder-woman-1984/wonder-woman-1984.mp4",
     "IMDb": 5.3,
+    "duration": "2h 41min",
     "IMDb_link": "https://www.imdb.com/title/tt7126948/",
     "year": 2020,
     "genres": [
@@ -3458,6 +3565,7 @@
     "banner": "medias/films/black-adam/banner.jpg",
     "video": "medias/films/black-adam/black-adam.mp4",
     "IMDb": 6.1,
+    "duration": "2h 05min",
     "IMDb_link": "https://www.imdb.com/title/tt6443346/",
     "year": 2022,
     "genres": [
@@ -3494,6 +3602,7 @@
     "banner": "medias/films/shazam-la-rage-des-dieux/banner.jpg",
     "video": "medias/films/shazam-la-rage-des-dieux/shazam-la-rage-des-dieux.mp4",
     "IMDb": 5.9,
+    "duration": "2h 10min",
     "IMDb_link": "https://www.imdb.com/title/tt10151854/",
     "year": 2023,
     "genres": [
@@ -3526,6 +3635,7 @@
     "banner": "medias/films/the-flash/banner.jpg",
     "video": "medias/films/the-flash/the-flash.mp4",
     "IMDb": 6.6,
+    "duration": "2h 24min",
     "IMDb_link": "https://www.imdb.com/title/tt0439572/",
     "year": 2023,
     "genres": [
@@ -3559,6 +3669,7 @@
     "banner": "medias/films/blue-beetle/banner.jpg",
     "video": "medias/films/blue-beetle/blue-beetle.mp4",
     "IMDb": 5.9,
+    "duration": "2h 08min",
     "IMDb_link": "https://www.imdb.com/title/tt9362930/",
     "year": 2023,
     "genres": [
@@ -3921,7 +4032,7 @@
     "description": "Avec ses quartiers comme la très chic Place du Sahara ou le glacial Toundraville, la métropole Zootopie, où ne vivent que des mammifères, est un melting pot où toutes les espèces cohabitent. Qu’on soit un énorme éléphant ou une minuscule musaraigne, tout le monde y a sa place. Mais quand l’optimiste agent Judy Hopps arrive en ville, elle découvre qu’être le premier lapin dans la police, au milieu d'animaux costauds, n’est pas si simple. Pour faire ses preuves, elle décide de résoudre une enquête, même si pour cela, elle doit faire équipe avec Nick Wilde, un renard beau parleur et roi de l’arnaque. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
     "poster": "medias/films/zootopie/poster.jpg",
     "banner": "medias/films/zootopie/banner.jpg",
-    "video": "medias/films/zootopie/poster.mp4",
+    "video": "medias/films/zootopie/zootopie.mp4",
     "duration": "1h 49min",
     "IMDb": 8.0,
     "IMDb_link": "https://www.imdb.com/title/tt2948356/",
@@ -3953,6 +4064,35 @@
       "Jared Bush",
       "Byron Howard",
       "Rich Moore"
+    ]
+  },
+  "Nouveau Depart": {
+    "title": "Nouveau Depart",
+    "description": "Père célibataire, Benjamin Mee a bien du mal à élever ses deux jeunes enfants. Espérant resserrer les liens familiaux, il décide de prendre un nouveau départ, plaque son travail et achète une vieille maison sur une immense propriété, qui a la particularité d'abriter un zoo délabré. Plusieurs dizaines d'animaux, ours, tiares et bien d'autres, vivent en effet au Rosemoor Animal Park, où la gardienne Kelly Foster et son équipe dévouée tentent de maintenir les installations tant bien que mal. Sans la moindre expérience, avec très peu de temps et d'argent, Benjamin Mee et les siens vont tout mettre en œuvre pour réhabiliter le zoo et vivre ainsi leur plus grande aventure...",
+    "poster": "medias/films/nouveau-depart/poster.jpg",
+    "video": "medias/films/nouveau-depart/nouveau-depart.mp4",
+    "IMDb": 7.0,
+    "duration": "2h 03min",
+    "IMDb_link": "https://www.imdb.com/title/tt1389137/",
+    "year": 2011,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "stars": [
+      "Matt Damon",
+      "Scarlett Johansson",
+      "Thomas Haden Church"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=RTZlzdHuIQQ",
+    "directors": [
+      "Cameron Crowe"
+    ],
+    "writers": [
+      "Aline Brosh McKenna",
+      "Cameron Crowe",
+      "Benjamin Mee"
     ]
   }
 }

@@ -1,5 +1,12 @@
 [
     {
+        "id": 7,
+        "type": "films",
+        "title": "Nouveau Film Disponible",
+        "message": "Découvrez <strong>''Nouveau Départ''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "25 Décembre 2025"
+    },
+    {
         "id": 6,
         "type": "update",
         "title": "Mise à jour",
