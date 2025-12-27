@@ -44,6 +44,8 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
         python3 -m http.server 8000
       ```
 
+> 💡 *Vous pouvez lancer le serveur avec `python3 -m http.server 8000 --bind 0.0.0.0` pour que n'importe qui sur votre réseau Wifi puisse accéder au site. Il vous suffit de récupérer votre IP réseau local (192.168.x.x) avec ifconfig dans un terminal, et de mettre :8000 à la fin !*
+
 3. **Ouvrir l’application dans le navigateur**
 
    Rendez-vous sur [http://localhost:8000](http://localhost:8000) pour accéder à StreamIt.
@@ -51,7 +53,7 @@ Pour commencer avec StreamIt, suivez ces étapes simples:
 > 💡 *Aucune installation supplémentaire n’est requise: StreamIt fonctionne directement dans votre navigateur!*
 
 > *Note bonus* : Tous les films et séries présents sont issus de ma base de données personnelle, mais vous pouvez facilement ajouter vos propres contenus en modifiant les fichiers JSON du dossier `data/`.
-> Pour disposer de la même bibliothèque que moi, prévoyez environ 1,5 To de stockage pour l’ensemble des films et séries.
+> Pour disposer de la même bibliothèque que moi, prévoyez environ 2 To de stockage pour l’ensemble des films et séries.
 
 # Fonctionnalités
 
