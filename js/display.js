@@ -62,6 +62,7 @@ export function openDetails(item) {
     activeDetailItem = item;
     const overlay = document.getElementById('detailsOverlay');
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
+    const playBtn = document.getElementById('detailPlayBtn');
 
     document.getElementById('detailHeroImg').src = item.banner || item.poster;
     document.getElementById('detailTitle').innerText = item.title;
@@ -124,6 +125,16 @@ export function openDetails(item) {
         activeVideoSrc = item.video;
     }
 
+    if (playBtn) {
+        const hasVideo = activeVideoSrc && activeVideoSrc.trim() !== '';
+        playBtn.disabled = !hasVideo;
+        if (hasVideo) {
+            playBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        } else {
+            playBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        }
+    }
+
     overlay.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
 }
@@ -168,6 +179,17 @@ function renderEpisodes(episodes, seasonNum) {
         : String(Number.isFinite(seasonNum) ? seasonNum : 1);
 
     if (episodes.length > 0) activeVideoSrc = episodes[0].video;
+
+    const playBtn = document.getElementById('detailPlayBtn');
+    if (playBtn) {
+        const hasVideo = activeVideoSrc && activeVideoSrc.trim() !== '';
+        playBtn.disabled = !hasVideo;
+        if (hasVideo) {
+            playBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        } else {
+            playBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        }
+    }
 
     episodes.forEach((ep, idx) => {
         const row = document.createElement('div');
