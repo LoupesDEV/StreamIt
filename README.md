@@ -21,6 +21,7 @@
 - [Fonctionnalités](#fonctionnalités)
 - [Démo](#démo)
 - [Contributeurs](#contributeurs)
+- [Problèmes Connue](#problèmes-connus)
 - [Structure du projet](#structure-du-projet)
 
 # Comment utiliser StreamIt
@@ -111,6 +112,11 @@ StreamIt/
 ├── .gitignore                # Fichier pour ignorer certains fichiers dans Git
 └── LICENSE                   # Fichier de licence
 ```
+
+# Problèmes Connus
+
+- **Accès au média :**
+    > Malgrès le blocage du ***DevTools***, n'importe quel utilisateur peut accéder au fichier vidéo et les télécharger relativement facilement. Il leur suffit juste de récupérer l'arborescence ou le chemin d'accès aux médias et en le rajoutant à la fin de l'url *`(/medias/films/avatar/avatar.mp4)`* et il récupère dans ce cas le fichier vidéo du film Avatar.
 
 # Contributeurs
 
