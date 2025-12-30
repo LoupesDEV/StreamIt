@@ -99,6 +99,8 @@ function router(view) {
 
         renderHorizontalRow('homeFilmsRow', latestFilms);
         renderHorizontalRow('homeSeriesRow', latestSeries);
+
+        enableHorizontalWheelScroll();
     }
     else if (view === 'series') {
         if (navSeries) navSeries.classList.add('text-white');
@@ -120,6 +122,8 @@ function router(view) {
         if (navCollections) navCollections.classList.add('text-white');
         collectionsContent.classList.remove('hidden');
         renderCollections(appData.collections, appData);
+
+        enableHorizontalWheelScroll();
     }
 }
 
@@ -295,6 +299,20 @@ function handleSearch(e) {
 function clearSearch() {
     document.getElementById('searchInput').value = '';
     document.getElementById('mobileSearchInput').value = '';
+}
+
+function enableHorizontalWheelScroll(root = document) {
+    root.querySelectorAll('.scroll-row').forEach(el => {
+        if (el.__wheelAttached) return;
+        el.__wheelAttached = true;
+
+        el.addEventListener('wheel', (e) => {
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+                e.preventDefault();
+                el.scrollLeft += e.deltaY;
+            }
+        }, { passive: false });
+    });
 }
 
 document.getElementById('searchInput').addEventListener('input', handleSearch);

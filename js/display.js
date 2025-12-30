@@ -306,6 +306,7 @@ export function renderGrid(items) {
 export function renderHorizontalRow(containerId, items) {
     const container = document.getElementById(containerId);
     container.innerHTML = '';
+    container.classList.add("scroll-row");
     if (items.length === 0) return;
     items.forEach(item => {
         const card = createMediaCard(item, "min-w-[200px] md:min-w-[280px] aspect-[2/3] snap-start");
@@ -363,7 +364,7 @@ export function renderCollections(collectionsData, appData) {
             section.innerHTML = titleHTML;
 
             const rowDiv = document.createElement('div');
-            rowDiv.className = "flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1";
+            rowDiv.className = "scroll-row flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1";
             
             items.forEach(item => {
                 const card = createMediaCard(item, "min-w-[200px] md:min-w-[280px] aspect-[2/3] snap-start");

@@ -7,6 +7,30 @@ body {
     overflow-x: hidden;
 }
 
+.scroll-row {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.scroll-row > * {
+    flex: 0 0 auto;
+    min-width: 160px;
+    max-width: 260px;
+}
+
+.scroll-row::-webkit-scrollbar {
+    height: 8px;
+}
+.scroll-row::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.08);
+    border-radius: 999px;
+}
+
 .glass-panel {
     background: var(--glass-bg);
     backdrop-filter: blur(var(--glass-blur));
