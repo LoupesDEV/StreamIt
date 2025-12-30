@@ -4227,5 +4227,402 @@
       "Rick Jaffa",
       "Amanda Silver"
     ]
+  },
+  "Star Wars : Épisode IV - La Guerre des étoiles": {
+    "title": "Star Wars : La Guerre des étoiles",
+    "description": "Il y a bien longtemps, dans une galaxie très lointaine... La guerre civile fait rage entre l'Empire galactique et l'Alliance rebelle. Capturée par les troupes de choc de l'Empereur menées par le sombre et impitoyable Dark Vador, la princesse Leia Organa dissimule les plans de l’Étoile Noire, une station spatiale invulnérable, à son droïde R2-D2 avec pour mission de les remettre au Jedi Obi-Wan Kenobi. Accompagné de son fidèle compagnon, le droïde de protocole C-3PO, R2-D2 s'échoue sur la planète Tatooine et termine sa quête chez le jeune Luke Skywalker. Rêvant de devenir pilote mais confiné aux travaux de la ferme, ce dernier se lance à la recherche de ce mystérieux Obi-Wan Kenobi, devenu ermite au cœur des montagnes désertiques de Tatooine...",
+    "poster": "medias/films/star-wars-episode-iv-la-guerre-des-etoiles/poster.jpg",
+    "banner": "medias/films/star-wars-episode-iv-la-guerre-des-etoiles/banner.jpg",
+    "IMDb": 8.6,
+    "duration": "2h 01min",
+    "IMDb_link": "https://www.imdb.com/title/tt0076759/",
+    "year": 1977,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-iv-la-guerre-des-etoiles/star-wars-episode-iv-la-guerre-des-etoiles.mp4",
+    "directors": [
+      "George Lucas"
+    ],
+    "writers": [
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode V - L'Empire contre-attaque": {
+    "title": "Star Wars : L'Empire contre-attaque",
+    "description": "Malgré la destruction de l’Étoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relâche sa lutte contre l'Alliance rebelle. Basés sur la planète glacée de Hoth, les rebelles essuient un assaut des troupes impériales. Parvenus à s'échapper, la princesse Leia, Han Solo, Chewbacca et C-3P0 se dirigent vers Bespin, la cité des nuages gouvernée par Lando Calrissian, ancien compagnon de Han. Suivant les instructions d'Obi-Wan Kenobi, Luke Skywalker se rend quant à lui vers le système de Dagobah, planète marécageuse où il doit recevoir l'enseignement du dernier maître Jedi, Yoda. Apprenant l'arrestation de ses compagnons par les stormtroopers de Dark Vador après la trahison de Lando, Luke décide d'interrompre son entraînement pour porter secours à ses amis et affronter le sombre seigneur Sith...",
+    "poster": "medias/films/star-wars-episode-v-l-empire-contre-attaque/poster.jpg",
+    "banner": "medias/films/star-wars-episode-v-l-empire-contre-attaque/banner.jpg",
+    "IMDb": 8.7,
+    "duration": "2h 04min",
+    "IMDb_link": "https://www.imdb.com/title/tt0080684/",
+    "year": 1980,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-v-l-empire-contre-attaque/star-wars-l-empire-contre-attaque.mp4",
+    "directors": [
+      "Irvin Kershner"
+    ],
+    "writers": [
+      "Leigh Brackett",
+      "Lawrence Kasdan",
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode VI - Le Retour du Jedi": {
+    "title": "Star Wars : Le Retour du Jedi",
+    "description": "L'Empire galactique est plus puissant que jamais : la construction de la nouvelle arme, l’Étoile de la Mort, menace l'univers tout entier... Arrêté après la trahison de Lando Calrissian, Han Solo est remis à l'ignoble contrebandier Jabba Le Hutt par le chasseur de primes Boba Fett. Après l'échec d'une première tentative d'évasion menée par la princesse Leia, également arrêtée par Jabba, Luke Skywalker et Lando parviennent à libérer leurs amis. Han, Leia, Chewbacca, C-3PO et Luke, devenu un Jedi, s'envolent dès lors pour une mission d'extrême importance sur la lune forestière d'Endor, afin de détruire le générateur du bouclier de l’Étoile de la Mort et permettre une attaque des pilotes de l'Alliance rebelle. Conscient d'être un danger pour ses compagnons, Luke préfère se rendre aux mains de Dark Vador, son père et ancien Jedi passé du côté obscur de la Force.",
+    "poster": "medias/films/star-wars-episode-vi-le-retour-du-jedi/poster.jpg",
+    "banner": "medias/films/star-wars-episode-vi-le-retour-du-jedi/banner.jpg",
+    "IMDb": 8.3,
+    "duration": "2h 13min",
+    "IMDb_link": "https://www.imdb.com/title/tt0086190/",
+    "year": 1983,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-vi-le-retour-du-jedi/star-wars-le-retour-du-jedi.mp4",
+    "directors": [
+      "Richard Marquand"
+    ],
+    "writers": [
+      "Lawrence Kasdan",
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode I - La Menace fantôme": {
+    "title": "Star Wars : Épisode I - La Menace fantôme",
+    "description": "Il y a bien longtemps, dans une galaxie très lointaine... La République connaît de nombreux tourments : la corruption fait vaciller ses bases, le Sénat s'embourbe dans des discussions politiques sans fin et de nombreux pouvoirs dissidents commencent à émerger, annonçant la chute d'un système autrefois paisible. Puissante et intouchable, la Fédération du Commerce impose par la force la taxation des routes commerciales. Refusant de céder, la pacifique planète Naboo, dirigée par la jeune Reine Amidala, subit un blocus militaire de la Fédération. Dépêchés par le Sénat pour régler cette affaire, les chevaliers Jedi Qui-Gon Jinn et Obi-Wan Kenobi découvrent qu'une véritable offensive de la Fédération est imminente. Libérant la Reine et ses proches, ils quittent la planète mais doivent se poser sur Tatooine pour réparer leur vaisseau...",
+    "poster": "medias/films/star-wars-episode-i-la-menace-fantome/poster.jpg",
+    "IMDb": 6.5,
+    "duration": "2h 13min",
+    "IMDb_link": "https://www.imdb.com/title/tt0120915/",
+    "year": 1999,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Ewan McGregor",
+      "Liam Neeson",
+      "Natalie Portman"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-i-la-menace-fantome/star-wars-episode-i-la-menace-fantome.mp4",
+    "directors": [
+      "George Lucas"
+    ],
+    "writers": [
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode II - L'Attaque des clones": {
+    "title": "Star Wars : Épisode II - L'Attaque des clones",
+    "description": "Depuis le blocus de la planète Naboo par la Fédération du commerce, la République, gouvernée par le Chancelier Palpatine, connaît une véritable crise. Un groupe de dissidents, mené par le sombre Jedi comte Dooku, manifeste son mécontentement envers le fonctionnement du régime. Le Sénat et la population intergalactique se montrent pour leur part inquiets face à l'émergence d'une telle menace.Certains sénateurs demandent à ce que la République soit dotée d'une solide armée pour empêcher que la situation ne se détériore davantage. Parallèlement, Padmé Amidala, devenue sénatrice, est menacée par les séparatistes et échappe de justesse à un attentat. Le Padawan Anakin Skywalker est chargé de sa protection. Son maître, Obi-Wan Kenobi, part enquêter sur cette tentative de meurtre et découvre la constitution d'une mystérieuse armée de clones...",
+    "poster": "medias/films/star-wars-episode-ii-l-attaque-des-clones/poster.jpg",
+    "banner": "medias/films/star-wars-episode-ii-l-attaque-des-clones/banner.jpg",
+    "IMDb": 6.6,
+    "duration": "2h 12min",
+    "IMDb_link": "https://www.imdb.com/title/tt0121765/",
+    "year": 2002,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Hayden Christensen",
+      "Natalie Portman",
+      "Ewan McGregor"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-ii-l-attaque-des-clones/star-wars-episode-ii-l-attaque-des-clones.mp4",
+    "directors": [
+      "George Lucas"
+    ],
+    "writers": [
+      "George Lucas",
+      "Jonathan Hales"
+    ]
+  },
+  "Star Wars : Épisode III - La Revanche des Sith": {
+    "title": "Star Wars : Épisode III - La Revanche des Sith",
+    "description": "La Guerre des Clones fait rage. Une franche hostilité oppose désormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hésite sur la conduite à tenir. Séduit par la promesse d'un pouvoir sans précédent, tenté par le côté obscur de la Force, il prête allégeance au maléfique Darth Sidious et devient Dark Vador. Les Seigneurs Sith s'unissent alors pour préparer leur revanche, qui commence par l'extermination des Jedi. Seuls rescapés du massacre, Yoda et Obi-Wan se lancent à la poursuite des Sith. La traque se conclut par un spectaculaire combat au sabre entre Anakin et Obi-Wan, qui décidera du sort de la galaxie…",
+    "poster": "medias/films/star-wars-episode-iii-la-revanche-des-sith/poster.jpg",
+    "banner": "medias/films/star-wars-episode-iii-la-revanche-des-sith/banner.jpg",
+    "IMDb": 7.6,
+    "duration": "2h 20min",
+    "IMDb_link": "https://www.imdb.com/title/tt0121766/",
+    "year": 2005,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Hayden Christensen",
+      "Natalie Portman",
+      "Ewan McGregor"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-iii-la-revanche-des-sith/star-wars-episode-iii-la-revanche-des-sith.mp4",
+    "directors": [
+      "George Lucas"
+    ],
+    "writers": [
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode VII - Le Réveil de la Force": {
+    "title": "Star Wars : Épisode VII - Le Réveil de la Force",
+    "description": "Il y a bien longtemps, dans une galaxie lointaine… Luke Skywalker est porté disparu. Le pilote Poe est en mission secrète sur une planète pour le retrouver. Au moment où la diabolique armée \"Premier Ordre\" apparaît en détruisant tout sur son passage, il arrive à cacher la position géographique de l'ancien maître Jedi dans son droïde BB-8. Capturé par les larbins du machiavélique Kylo Ren, Poe est libéré par le soldat ennemi Finn qui est en pleine crise existentielle. Pendant ce temps, BB-8 est recueillie par Rey, une pilleuse d'épaves qui sera bientôt plongée dans une quête qui la dépasse.",
+    "poster": "medias/films/star-wars-episode-vii-le-reveil-de-la-force/poster.jpg",
+    "banner": "medias/films/star-wars-episode-vii-le-reveil-de-la-force/banner.jpg",
+    "IMDb": 7.7,
+    "duration": "2h 15min",
+    "IMDb_link": "https://www.imdb.com/title/tt2488496/",
+    "year": 2015,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Daisy Ridley",
+      "John Boyega",
+      "Oscar Isaac"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-vii-le-reveil-de-la-force/star-wars-le-reveil-de-la-force.mp4",
+    "directors": [
+      "J.J. Abrams"
+    ],
+    "writers": [
+      "Lawrence Kasdan",
+      "J.J. Abrams",
+      "Michael Arndt"
+    ]
+  },
+  "Star Wars : Épisode VIII - Les Derniers Jedi": {
+    "title": "Star Wars : Épisode VIII - Les Derniers Jedi",
+    "description": "Le Premier Ordre étend ses tentacules aux confins de l’univers, poussant la Résistance dans ses retranchements. Il est impossible de se sauver à la vitesse de la lumière avec cet ennemi continuellement aux trousses. Cela n’empêche pas Finn et ses camarades de tenter d’identifier une brèche chez leur adversaire. Pendant ce temps, Rey se trouve toujours sur la planète Ahch‐To pour convaincre Luke Skywalker de lui enseigner les rudiments de la Force.",
+    "poster": "medias/films/star-wars-episode-viii-les-derniers-jedi/poster.jpg",
+    "banner": "medias/films/star-wars-episode-viii-les-derniers-jedi/banner.jpg",
+    "IMDb": 6.8,
+    "duration": "2h 32min",
+    "IMDb_link": "https://www.imdb.com/title/tt2527336/",
+    "year": 2017,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Daisy Ridley",
+      "Jon Boyega",
+      "Mark Hamill"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-viii-les-derniers-jedi/star-wars-les-derniers-jedi.mp4",
+    "directors": [
+      "Rian Johnson"
+    ],
+    "writers": [
+      "Rian Johnson",
+      "George Lucas"
+    ]
+  },
+  "Star Wars : Épisode IX - L'Ascension de Skywalker": {
+    "title": "Star Wars : Épisode IX - L'Ascension de Skywalker",
+    "description": "Environ un an après la mort de Luke Skywalker, la Résistance tente de survivre face au Premier Ordre, désormais mené par un nouveau Suprême Leader, Kylo Ren. Une rumeur agite cependant toute la galaxie : l'Empereur Palpatine serait de retour. Tandis que Rey s'entraîne sous la houlette de la générale Leia Organa, Kylo Ren cherche à défier Palpatine, qu'il considère comme une menace à son pouvoir.",
+    "poster": "medias/films/star-wars-episode-ix-l-ascension-de-skywalker/poster.jpg",
+    "banner": "medias/films/star-wars-episode-ix-l-ascension-de-skywalker/banner.jpg",
+    "IMDb": 6.3,
+    "duration": "2h 21min",
+    "IMDb_link": "https://www.imdb.com/title/tt2527338/",
+    "year": 2019,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Daisy Ridley",
+      "John Boyega",
+      "Oscar Isaac"
+    ],
+    "trailer": "",
+    "video": "medias/films/star-wars-episode-ix-l-ascension-de-skywalker/star-wars-l-ascension-de-skywalker.mp4",
+    "directors": [
+      "J.J. Abrams"
+    ],
+    "writers": [
+      "Chris Terrio",
+      "J.J. Abrams",
+      "Derek Connolly"
+    ]
+  },
+  "Rogue One : A Star Wars Story": {
+    "title": "Rogue One : A Star Wars Story",
+    "description": "Situé entre les épisodes III et IV de la saga Star Wars, le film nous entraîne aux côtés d’individus ordinaires qui, pour rester fidèles à leurs valeurs, vont tenter l’impossible au péril de leur vie. Ils n’avaient pas prévu de devenir des héros, mais dans une époque de plus en plus sombre, ils vont devoir dérober les plans de l’Étoile de la Mort, l’arme de destruction ultime de l’Empire.",
+    "poster": "medias/films/rogue-one-a-star-wars-story/poster.jpg",
+    "banner": "medias/films/rogue-one-a-star-wars-story/banner.jpg",
+    "IMDb": 7.8,
+    "duration": "2h 14min",
+    "IMDb_link": "https://www.imdb.com/title/tt3748528/",
+    "year": 2016,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Felicity Jones",
+      "Diego Luna",
+      "Alan Tudyk"
+    ],
+    "trailer": "",
+    "video": "medias/films/rogue-one-a-star-wars-story/rogue-one-a-star-wars-story.mp4",
+    "directors": [
+      "Gareth Edwards"
+    ],
+    "writers": [
+      "Chris Weitz",
+      "Tony Gilroy",
+      "John Knoll"
+    ]
+  },
+  "Solo: A Star Wars Story": {
+    "title": "Solo: A Star Wars Story",
+    "description": "Embarquez à bord du Faucon Millenium et partez à l’aventure en compagnie du plus célèbre vaurien de la galaxie. Au cours de périlleuses aventures dans les bas-fonds d’un monde criminel, Han Solo va faire la connaissance de son imposant futur copilote Chewbacca et croiser la route du charmant escroc Lando Calrissian… Ce voyage initiatique révèlera la personnalité d’un des héros les plus marquants de la saga Star Wars.",
+    "poster": "medias/films/solo-a-star-wars-story/poster.jpg",
+    "banner": "medias/films/solo-a-star-wars-story/banner.jpg",
+    "IMDb": 6.9,
+    "duration": "2h 15min",
+    "IMDb_link": "https://www.imdb.com/title/tt3778644/",
+    "year": 2018,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Alden Ehrenreich",
+      "Woody Harrelson",
+      "Emilia Clarke"
+    ],
+    "trailer": "",
+    "video": "medias/films/solo-a-star-wars-story/solo-a-star-wars-story.mp4",
+    "directors": [
+      "Ron Howard"
+    ],
+    "writers": [
+      "Jonathan Kasdan",
+      "Lawrence Kasdan",
+      "George Lucas"
+    ]
   }
 }

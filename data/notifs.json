@@ -1,5 +1,12 @@
 [
     {
+        "id": 9,
+        "type": "saga",
+        "title": "Nouvelle Saga Disponible",
+        "message": "Regardez dès maintenant tout les <strong>''Star Wars''</strong> sur StreamIt.",
+        "time": "30 Décembre 2025"
+    },
+    {
         "id": 8,
         "type": "films",
         "title": "Nouveaux Films Ajoutés",

@@ -279,5 +279,26 @@
       "Insaisissables 3"
     ],
     "series": []
+  },
+  "Star Wars": {
+    "name": "Star Wars",
+    "films": [
+      "Star Wars : Épisode IV - La Guerre des étoiles",
+      "Star Wars : Épisode V - L'Empire contre-attaque",
+      "Star Wars : Épisode VI - Le Retour du Jedi",
+      "Star Wars : Épisode I - La Menace fantôme",
+      "Star Wars : Épisode II - L'Attaque des clones",
+      "Star Wars : Épisode III - La Revanche des Sith",
+      "Star Wars : Épisode VII - Le Réveil de la Force",
+      "Star Wars : Épisode VIII - Les Derniers Jedi",
+      "Star Wars : Épisode IX - L'Ascension de Skywalker",
+      "Rogue One : A Star Wars Story",
+      "Solo: A Star Wars Story"
+    ],
+    "series": [
+      "Star Wars : Andor",
+      "Star Wars: Tales of the Underworld",
+      "The Mandalorian"
+    ]
   }
 }

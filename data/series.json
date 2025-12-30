@@ -8419,5 +8419,375 @@
         }
       ]
     }
+  },
+  "Star Wars : Andor": {
+    "title": "Star Wars : Andor",
+    "description": "En cette ère dangereuse, Cassian Andor emprunte un chemin qui fera de lui un héros de la rébellion.",
+    "poster": "medias/series/star-wars-andor/poster.jpg",
+    "banner": "medias/series/star-wars-andor/banner.jpg",
+    "IMDb": 8.6,
+    "IMDb_link": "https://www.imdb.com/title/tt9253284/",
+    "year": 2022,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Diego Luna",
+      "Denise Gough",
+      "Stellan Skarsgard"
+    ],
+    "trailer": "",
+    "video": "medias/series/star-wars-andor/star-wars-andor.mp4",
+    "creators": [
+      "Tony Gilroy"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Kassa",
+          "desc": "Cherchant des réponses sur son passé de façon imprudente, Cassian Andor devient un homme recherché.",
+          "video": "medias/series/star-wars-andor/1-1.mp4"
+        },
+        {
+          "title": "C'est bien moi",
+          "desc": "Cassian tente de se faire oublier sur Ferrix alors que les forces de l'ordre se rapprochent.",
+          "video": "medias/series/star-wars-andor/1-2.mp4"
+        },
+        {
+          "title": "Estimation",
+          "desc": "Tentant d'éviter d'être arrêté, Cassian rencontre un homme mystérieux ayant des liens inconnus.",
+          "video": "medias/series/star-wars-andor/1-3.mp4"
+        },
+        {
+          "title": "Aldhani",
+          "desc": "Cassian est recruté pour une mission dangereuse : infiltrer une garnison impériale.",
+          "video": "medias/series/star-wars-andor/1-4.mp4"
+        },
+        {
+          "title": "La hache oublie",
+          "desc": "Cassian éveille les soupçons en tant que nouveau membre d'une opération secrète.",
+          "video": "medias/series/star-wars-andor/1-5.mp4"
+        },
+        {
+          "title": "L'œil",
+          "desc": "Profitant d'un incroyable festival local, la mission sur Aldhani arrive à son point de non-retour.",
+          "video": "medias/series/star-wars-andor/1-6.mp4"
+        },
+        {
+          "title": "L'annonce",
+          "desc": "Les répercussions du braquage d'Aldhani se ressentent sur Coruscant quand Cassian rentre chez lui.",
+          "video": "medias/series/star-wars-andor/1-7.mp4"
+        },
+        {
+          "title": "Narkina 5",
+          "desc": "L'Empire finit par rattraper Cassian mais ignore encore son identité et son passé.",
+          "video": "medias/series/star-wars-andor/1-8.mp4"
+        },
+        {
+          "title": "Personne n'écoute",
+          "desc": "Emprisonné sous surveillance, Cassian se fait des alliés pour planifier une évasion.",
+          "video": "medias/series/star-wars-andor/1-9.mp4"
+        },
+        {
+          "title": "Une seule issue",
+          "desc": "Une occasion se présente et Cassian et ses codétenus doivent agir vite.",
+          "video": "medias/series/star-wars-andor/1-10.mp4"
+        },
+        {
+          "title": "La communauté des filles des colons",
+          "desc": "Encore une fois fugitif, Cassian doit passer à la prochaine étape avant qu'il ne soit trop tard.",
+          "video": "medias/series/star-wars-andor/1-11.mp4"
+        },
+        {
+          "title": "Rix Road",
+          "desc": "Cassian rentre chez lui, Ferrix devient une poudrière qui voit naître l'étincelle de la rébellion.",
+          "video": "medias/series/star-wars-andor/1-12.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Un an plus tard",
+          "desc": "Mission d'infiltration, sanctuaire menacé, mariage chandrilien, et projet impérial inquiétant.",
+          "video": "medias/series/star-wars-andor/2-1.mp4"
+        },
+        {
+          "title": "Sagrona Teema",
+          "desc": "Cassian est mêlé à une guerre de territoires. Mon angoisse. Les survivants de Ferrix sont inspectés.",
+          "video": "medias/series/star-wars-andor/2-2.mp4"
+        },
+        {
+          "title": "La saison des récoltes",
+          "desc": "Créez un compte gratuit pour gagner des crédits et télécharger vos contenus préférés !",
+          "video": "medias/series/star-wars-andor/2-3.mp4"
+        },
+        {
+          "title": "Connaissez-vous Ghorman ?",
+          "desc": "Cassian et Bix s'adaptent à leur planque. L'attention est sur Ghorman. Wilmon rend visite à Saw.",
+          "video": "medias/series/star-wars-andor/2-4.mp4"
+        },
+        {
+          "title": "J'ai des amis un peu partout",
+          "desc": "Cassian est sur Ghorman, Syril sur Coruscant. Bix perd pied. Wilmon est piégé. Kleya a un problème.",
+          "video": "medias/series/star-wars-andor/2-5.mp4"
+        },
+        {
+          "title": "Cette soirée devient festive",
+          "desc": "Vel et Cinta sur Ghorman. Cassian avec Bix. Dispute, braquage, fête... Tout risque d'être compromis.",
+          "video": "medias/series/star-wars-andor/2-6.mp4"
+        },
+        {
+          "title": "Un messager",
+          "desc": "Yavin grandit. Wilmon cherche de l'aide. Dedra est sur Ghorman. Cassian répond à l'appel du devoir.",
+          "video": "medias/series/star-wars-andor/2-7.mp4"
+        },
+        {
+          "title": "Mais t'es qui, toi ?",
+          "desc": "Manipulation. Frustration sur Ghorman. Cassian et Syril aux premières loges de violences sur Palmo.",
+          "video": "medias/series/star-wars-andor/2-8.mp4"
+        },
+        {
+          "title": "Bienvenue dans la Rébellion",
+          "desc": "Suite aux incidents de Ghorman, Mon doit prendre position. Cassian réalise un sauvetage périlleux.",
+          "video": "medias/series/star-wars-andor/2-9.mp4"
+        },
+        {
+          "title": "Pitié, arrêtez, pitié...",
+          "desc": "Jung veut fuir. Dedra touche au but. Luthen prend des mesures désespérées. Kleya fait son devoir.",
+          "video": "medias/series/star-wars-andor/2-10.mp4"
+        },
+        {
+          "title": "Qui d'autre est au courant ?",
+          "desc": "Cassian retourne sur Coruscant pour un dernier sauvetage.",
+          "video": "medias/series/star-wars-andor/2-11.mp4"
+        },
+        {
+          "title": "Jedha, Kyber, Erso",
+          "desc": "Sur Yavin, Cassian rapporte des informations qui vont tout changer.",
+          "video": "medias/series/star-wars-andor/2-12.mp4"
+        }
+      ]
+    }
+  },
+  "Star Wars: Tales of the Underworld": {
+    "title": "Star Wars: Tales of the Underworld",
+    "description": "Deux hors-la-loi sillonnent les bas-fonds périlleux de la galaxie tout en forgeant leur destin.",
+    "poster": "medias/series/star-wars-tales-of-the-underworld/poster.jpg",
+    "banner": "medias/series/star-wars-tales-of-the-underworld/banner.jpg",
+    "IMDb": 7.1,
+    "IMDb_link": "https://www.imdb.com/title/tt36414431/",
+    "year": 2025,
+    "genres": [],
+    "stars": [
+      "Nika Futterman",
+      "David W. Collins",
+      "Lane Factor"
+    ],
+    "trailer": "",
+    "video": "medias/series/star-wars-tales-of-the-underworld/star-wars-tales-of-the-underworld.mp4",
+    "creators": [
+      "Dave Filoni"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Aller de l'avant",
+          "desc": "Asajj Ventress fait équipe à contrecœur avec un nouvel allié inattendu.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-1.mp4"
+        },
+        {
+          "title": "Amis",
+          "desc": "Une opportunité risquée place Ventress dans la ligne de mire de l’Empire.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-2.mp4"
+        },
+        {
+          "title": "Pour un ancien frère d'armes",
+          "desc": "Ventress se retrouve au centre d’un conflit local sur une planète reculée.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-3.mp4"
+        },
+        {
+          "title": "La belle vie",
+          "desc": "Deux jeunes amis se trouvent mêlés aux combines d’un gangster.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-4.mp4"
+        },
+        {
+          "title": "Faire le bon choix",
+          "desc": "Bane renoue avec un vieil ami devenu policier.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-5.mp4"
+        },
+        {
+          "title": "Une lueur d'espoir",
+          "desc": "Cad Bane et sa bande reviennent au bercail pour régler un compte.",
+          "video": "medias/series/star-wars-tales-of-the-underworld/1-6.mp4"
+        }
+      ]
+    }
+  },
+  "The Mandalorian": {
+    "title": "The Mandalorian",
+    "description": "Après les aventures de Jango et Boba Fett, un nouveau héros émerge dans l'univers Star Wars. L'intrigue, située entre la chute de l'Empire et l'émergence du Premier Ordre, suit les voyages d'un chasseur de primes solitaire dans les contrées les plus éloignées de la Galaxie, loin de l’autorité de la Nouvelle République.",
+    "poster": "medias/series/the-mandalorian/poster.jpg",
+    "banner": "medias/series/the-mandalorian/banner.jpg",
+    "IMDb": 8.6,
+    "IMDb_link": "https://www.imdb.com/title/tt8111088/",
+    "year": 2019,
+    "genres": [
+      "Action Epic",
+      "Adventure Epic",
+      "Dystopian Sci-Fi",
+      "Epic",
+      "Fantasy Epic",
+      "Quest",
+      "Sci-Fi Epic",
+      "Space Sci-Fi",
+      "Sword & Sorcery",
+      "Action"
+    ],
+    "stars": [
+      "Pedro Pascal",
+      "Chris Bartlett",
+      "Katee Sackhoff"
+    ],
+    "trailer": "",
+    "video": "medias/series/the-mandalorian/the-mandalorian.mp4",
+    "creators": [
+      "Jon Favreau"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Chapitre 1 : Le Mandalorien",
+          "desc": "Cinq ans après la chute de l'Empire, un chasseur de primes Mandalorien traque une cible dans l'espoir de recueillir une belle récompense. Après un échange musclé dans un bar, le mercenaire réclame son dû à Greef Carga, le leader de la Guilde, et se voit confier une nouvelle mission.",
+          "video": "medias/series/the-mandalorian/1-1.mp4"
+        },
+        {
+          "title": "Chapitre 2 : L’enfant",
+          "desc": "Cible en main, le Mandalorien doit maintenant faire face aux charognards...",
+          "video": "medias/series/the-mandalorian/1-2.mp4"
+        },
+        {
+          "title": "Chapitre 3 : Le péché",
+          "desc": "Le Mandalorien retourne voir son client pour recevoir la récompense prévue.",
+          "video": "medias/series/the-mandalorian/1-3.mp4"
+        },
+        {
+          "title": "Chapitre 4 : Le sanctuaire",
+          "desc": "Recherché par la Guilde, le Mandalorien trouve refuge sur Sorgan. Il y fait la connaissance d'un ancien soldat de l'Empire qui a pris part à la Rébellion. La planète est-elle réellement sans danger ?",
+          "video": "medias/series/the-mandalorian/1-4.mp4"
+        },
+        {
+          "title": "Chapitre 5 : Le mercenaire",
+          "desc": "Sur une planète désertique, le Mandalorien aide un chasseur de primes dépassé par sa mission.",
+          "video": "medias/series/the-mandalorian/1-5.mp4"
+        },
+        {
+          "title": "Chapitre 6 : Le prisonnier",
+          "desc": "Le Mandalorien se joint à des mercenaires dans une dangereuse mission.",
+          "video": "medias/series/the-mandalorian/1-6.mp4"
+        },
+        {
+          "title": "Chapitre 7 : La confrontation",
+          "desc": "Un vieux rival lance une invitation à faire la paix. Craignant que la mission proposée ne soit un piège, le Mandalorien va devoir se trouver des alliés...",
+          "video": "medias/series/the-mandalorian/1-7.mp4"
+        },
+        {
+          "title": "Chapitre 8 : Rédemption",
+          "desc": "Le Mandalorien se retrouve face à un ennemi inattendu.",
+          "video": "medias/series/the-mandalorian/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Chapitre 9 : Le Marshal",
+          "desc": "Le Mandalorien se retrouve dans la Bordure Extérieure, à la recherche de ses semblables.",
+          "video": "medias/series/the-mandalorian/2-1.mp4"
+        },
+        {
+          "title": "Chapitre 10 : La passagère",
+          "desc": "Le Mandalorien doit escorter une passagère avec une précieuse cargaison. Le voyage sera périlleux.",
+          "video": "medias/series/the-mandalorian/2-2.mp4"
+        },
+        {
+          "title": "Chapitre 11 : L’héritière",
+          "desc": "Le Mandalorien se bat contre vents et marées, et rencontre des alliés inattendus.",
+          "video": "medias/series/the-mandalorian/2-3.mp4"
+        },
+        {
+          "title": "Chapitre 12 : Le siège",
+          "desc": "Le Mandalorien retrouve de vieux alliés pour une nouvelle mission.",
+          "video": "medias/series/the-mandalorian/2-4.mp4"
+        },
+        {
+          "title": "Chapitre 13 : La Jedi",
+          "desc": "Le Mandalorien découvre un monde gouverné par une cruelle magistrate qui a une ennemie puissante.",
+          "video": "medias/series/the-mandalorian/2-5.mp4"
+        },
+        {
+          "title": "Chapitre 14 : La tragédie",
+          "desc": "Le Mandalorien et l'enfant voyagent vers un site ancestral.",
+          "video": "medias/series/the-mandalorian/2-6.mp4"
+        },
+        {
+          "title": "Chapitre 15 : Le repenti",
+          "desc": "Pour combattre l'Empire, le Mandalorien a besoin de l'aide d'un ancien ennemi.",
+          "video": "medias/series/the-mandalorian/2-7.mp4"
+        },
+        {
+          "title": "Chapitre 16 : Le sauvetage",
+          "desc": "Le Mandalorien et l'enfant continuent leur voyage à travers une dangereuse galaxie.",
+          "video": "medias/series/the-mandalorian/2-8.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Chapitre 17 : L’apostat",
+          "desc": "À nouveau réunis, le Mandalorien et Grogu poursuivent leur voyage à travers une galaxie désormais régie par aucune loi. Tout en croisant d'anciens alliés et en se faisant de nouveaux ennemis, notre chasseur de primes tente de réunir les survivants du peuple mandalorien dispersés dans la galaxie.",
+          "video": "medias/series/the-mandalorian/3-1.mp4"
+        },
+        {
+          "title": "Chapitre 18 : Les mines de Mandalore",
+          "desc": "Le Mandalorien et Grogu se rendent sur la planète détruite Mandalore. Malgré le danger, ils doivent explorer les ruines...",
+          "video": "medias/series/the-mandalorian/3-2.mp4"
+        },
+        {
+          "title": "Chapitre 19 : Le converti",
+          "desc": "Alors que le Mandalorien et Bo-Katan Kryze tentent d'échapper à leurs poursuivants, sur Coruscant, d'anciens agents Impériaux obtiennent l'amnistie de la Nouvelle République.",
+          "video": "medias/series/the-mandalorian/3-3.mp4"
+        },
+        {
+          "title": "Chapitre 20 : L’orphelin",
+          "desc": "Après un détour par Mandalore, où le chasseur de primes s'est baigné dans les Eaux Vivantes pour retrouver son statut de Mandalorien, Din Djarin et son petit compagnon Grogu ot rejoint le clan mandalorien sur la planète refuge. Bo-Katan Kryze, qui est toujours à leurs côtés, est aussi réhabilitée.",
+          "video": "medias/series/the-mandalorian/3-4.mp4"
+        },
+        {
+          "title": "Chapitre 21 : Le pirate",
+          "desc": "La planète Nevarro essuyant les attaques sournoises de pirates, le Haut Magistrat cherche un moyen de protéger le peuple.",
+          "video": "medias/series/the-mandalorian/3-5.mp4"
+        },
+        {
+          "title": "Chapitre 22 : Les mercenaires",
+          "desc": "Sur la planète Plazir-15, Din Djarin et Bo-Katan Kryze acceptent, sous l'insistance du Capitaine Bombardier et de la Duchesse, d'enquêter sur des droïdes dysfonctionnels.",
+          "video": "medias/series/the-mandalorian/3-6.mp4"
+        },
+        {
+          "title": "Chapitre 23 : Les espions",
+          "desc": "Elia Kane, l'Amnistie G68 , s'avère être l'espionne du Moff Gideon. Elle informe ce dernier de la défaite des alliés Pirates par les Mandaloriens, et lui suggère d'éliminer ces derniers. Bo-Katan Kryze, Din Djarin et d'autres mandaloriens se rendent sur Mandalore pour reconquérir leur planète. Ils sont cependant piégés par des soldats impériaux et Moff Gideon leur demande de lui remettre le Sabre Noir. Bo-Katan résiste et s'échappe, mais Paz Viszla est tué par les gardes prétoriens impériaux.",
+          "video": "medias/series/the-mandalorian/3-7.mp4"
+        },
+        {
+          "title": "Chapitre 24 : Le retour",
+          "desc": "Le Mandalorien et ses alliés affrontent leurs ennemis.",
+          "video": "medias/series/the-mandalorian/3-8.mp4"
+        }
+      ]
+    }
   }
 }
