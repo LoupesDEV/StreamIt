@@ -301,6 +301,10 @@ function clearSearch() {
     document.getElementById('mobileSearchInput').value = '';
 }
 
+/**
+ * Enables horizontal scrolling for elements with the 'scroll-row' class using the mouse wheel.
+ * @param root - The root element to search within (default is document).
+ */
 function enableHorizontalWheelScroll(root = document) {
     root.querySelectorAll('.scroll-row').forEach(el => {
         if (el.__wheelAttached) return;
