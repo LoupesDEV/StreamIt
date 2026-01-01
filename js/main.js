@@ -4,11 +4,11 @@
  * @module main
  */
 
-import { fetchAllData, fetchNotifs } from './dataLoader.js';
+import { fetchAllData } from './dataLoader.js';
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
 import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader } from './utils.js';
 
-let appData = { films: {}, series: {}, collections: {} };
+let appData = { films: {}, series: {}, collections: {}, notifs: {} };
 let currentView = 'home';
 
 window.router = router;
@@ -29,8 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const data = await fetchAllData();
     appData = data;
 
-    const notifs = await fetchNotifs();
-    renderNotifs(notifs);
+    renderNotifs(data.notifs);
 
     initHero();
     populateFilters();
