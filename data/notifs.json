@@ -1,5 +1,12 @@
 [
     {
+        "id": 10,
+        "type": "films",
+        "title": "Nouveaux Films Disponible",
+        "message": "Découvrez <strong>''Wicked : Partie 1''</strong> & <strong>''Wicked : Partie 2''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "1 Janvier 2025"
+    },
+    {
         "id": 9,
         "type": "saga",
         "title": "Nouvelle Saga Disponible",

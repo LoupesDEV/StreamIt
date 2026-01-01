@@ -300,5 +300,13 @@
       "Star Wars: Tales of the Underworld",
       "The Mandalorian"
     ]
+  },
+  "Wicked": {
+    "name": "Wicked",
+    "films": [
+      "Wicked : Partie I",
+      "Wicked : Partie II"
+    ],
+    "series": []
   }
 }

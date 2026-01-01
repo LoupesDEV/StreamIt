@@ -4198,7 +4198,7 @@
     "poster": "medias/films/avatar-de-feu-et-de-cendres/poster.jpg",
     "banner": null,
     "IMDb": 7.5,
-    "duration": "1h 52min",
+    "duration": "3h 17min",
     "IMDb_link": "https://www.imdb.com/title/tt1757678/",
     "year": 2025,
     "genres": [
@@ -4623,6 +4623,72 @@
       "Jonathan Kasdan",
       "Lawrence Kasdan",
       "George Lucas"
+    ]
+  },
+  "Wicked : Partie I": {
+    "title": "Wicked : Partie I",
+    "description": "Elphaba, une jeune femme incomprise à cause de sa peau verte inhabituelle, doit encore découvrir son véritable pouvoir. Glinda, une jeune femme populaire, dorée par le privilège et l'ambition, doit encore découvrir son véritable cœur. Les deux se rencontrent en tant qu'étudiantes à l'Université de Shiz dans le fantastique Pays d'Oz et forgent une amitié improbable, mais profonde.",
+    "poster": "medias/films/wicked-partie-i/poster.jpg",
+    "banner": "medias/films/wicked-partie-i/banner.jpg",
+    "IMDb": 7.3,
+    "duration": "2h 30min",
+    "IMDb_link": "https://www.imdb.com/title/tt1262426/",
+    "year": 2024,
+    "genres": [
+      "Fairy Tale",
+      "Pop Musical",
+      "Fantasy",
+      "Musical",
+      "Romance"
+    ],
+    "stars": [
+      "Cynthia Erivo",
+      "Ariana Grande",
+      "Jeff Goldblum"
+    ],
+    "trailer": "",
+    "video": "medias/films/wicked-partie-i/wicked-partie-i.mp4",
+    "directors": [
+      "Jon M. Chu"
+    ],
+    "writers": [
+      "Winnie Holzman",
+      "Dana Fox",
+      "Gregory Maguire"
+    ]
+  },
+  "Wicked : Partie II": {
+    "title": "Wicked : Partie II",
+    "description": "Depuis qu'elle s'est opposée au Magicien d'Oz, Elphaba est surnommée la Méchante sorcière de l'Ouest par la population du Pays d'Oz qui pense qu'elle est maléfique. De son côté, Glinda est devenu la figure populaire du régime du Magicien et est surnommée la Bonne Glinda, tandis que Fiyero devient le capitaine de la garde du Magicien, bien qu'il doute encore de la culpabilité d'Elphaba.",
+    "poster": "medias/films/wicked-partie-ii/poster.jpg",
+    "banner": "medias/films/wicked-partie-ii/banner.jpg",
+    "IMDb": 6.9,
+    "duration": "2h 17min",
+    "IMDb_link": "https://www.imdb.com/title/tt19847976/",
+    "year": 2025,
+    "genres": [
+      "Fairy Tale",
+      "Pop Musical",
+      "Drama",
+      "Family",
+      "Fantasy",
+      "Musical",
+      "Romance"
+    ],
+    "stars": [
+      "Cynthia Erivo",
+      "Ariana Grande",
+      "Jeff Goldblum"
+    ],
+    "trailer": "",
+    "video": "medias/films/wicked-partie-ii/wicked-partie-ii.mp4",
+    "directors": [
+      "Jon M. Chu"
+    ],
+    "writers": [
+      "Winnie Holzman",
+      "Dana Fox",
+      "Stephen Schwartz"
     ]
   }
 }
