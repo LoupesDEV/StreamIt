@@ -1,5 +1,19 @@
 [
     {
+        "id": 12,
+        "type": "fil,s",
+        "title": "Nouveau Film Ajouté",
+        "message": "Découvrez <strong>''Rebelle''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "23 Décembre 2025"
+    },
+    {
+        "id": 11,
+        "type": "series",
+        "title": "Nouvelle Série Disponible",
+        "message": "Regardez <strong>''A Knight of the Seven Kingdoms''</strong> dès maintenant sur StreamIt.",
+        "time": "23 Décembre 2025"
+    },
+    {
         "id": 10,
         "type": "films",
         "title": "Nouveaux Films Disponible",
@@ -23,7 +37,7 @@
     {
         "id": 7,
         "type": "films",
-        "title": "Nouveau Film Disponible",
+        "title": "Nouveau Film Ajouté",
         "message": "Découvrez <strong>''Nouveau Départ''</strong>, maintenant disponibles sur StreamIt.",
         "time": "25 Décembre 2025"
     },

@@ -8034,7 +8034,6 @@
     "poster": "medias/series/emily-in-paris/poster.jpg",
     "banner": "medias/series/emily-in-paris/banner.jpg",
     "IMDb": 6.8,
-    "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt8962124/",
     "year": 2020,
     "genres": [
@@ -8605,17 +8604,17 @@
         },
         {
           "title": "Amis",
-          "desc": "Une opportunité risquée place Ventress dans la ligne de mire de l’Empire.",
+          "desc": "Une opportunité risquée place Ventress dans la ligne de mire de l'Empire.",
           "video": "medias/series/star-wars-tales-of-the-underworld/1-2.mp4"
         },
         {
           "title": "Pour un ancien frère d'armes",
-          "desc": "Ventress se retrouve au centre d’un conflit local sur une planète reculée.",
+          "desc": "Ventress se retrouve au centre d'un conflit local sur une planète reculée.",
           "video": "medias/series/star-wars-tales-of-the-underworld/1-3.mp4"
         },
         {
           "title": "La belle vie",
-          "desc": "Deux jeunes amis se trouvent mêlés aux combines d’un gangster.",
+          "desc": "Deux jeunes amis se trouvent mêlés aux combines d'un gangster.",
           "video": "medias/series/star-wars-tales-of-the-underworld/1-4.mp4"
         },
         {
@@ -8633,7 +8632,7 @@
   },
   "The Mandalorian": {
     "title": "The Mandalorian",
-    "description": "Après les aventures de Jango et Boba Fett, un nouveau héros émerge dans l'univers Star Wars. L'intrigue, située entre la chute de l'Empire et l'émergence du Premier Ordre, suit les voyages d'un chasseur de primes solitaire dans les contrées les plus éloignées de la Galaxie, loin de l’autorité de la Nouvelle République.",
+    "description": "Après les aventures de Jango et Boba Fett, un nouveau héros émerge dans l'univers Star Wars. L'intrigue, située entre la chute de l'Empire et l'émergence du Premier Ordre, suit les voyages d'un chasseur de primes solitaire dans les contrées les plus éloignées de la Galaxie, loin de l'autorité de la Nouvelle République.",
     "poster": "medias/series/the-mandalorian/poster.jpg",
     "banner": "medias/series/the-mandalorian/banner.jpg",
     "IMDb": 8.6,
@@ -8669,7 +8668,7 @@
           "video": "medias/series/the-mandalorian/1-1.mp4"
         },
         {
-          "title": "Chapitre 2 : L’enfant",
+          "title": "Chapitre 2 : L'enfant",
           "desc": "Cible en main, le Mandalorien doit maintenant faire face aux charognards...",
           "video": "medias/series/the-mandalorian/1-2.mp4"
         },
@@ -8716,7 +8715,7 @@
           "video": "medias/series/the-mandalorian/2-2.mp4"
         },
         {
-          "title": "Chapitre 11 : L’héritière",
+          "title": "Chapitre 11 : L'héritière",
           "desc": "Le Mandalorien se bat contre vents et marées, et rencontre des alliés inattendus.",
           "video": "medias/series/the-mandalorian/2-3.mp4"
         },
@@ -8748,7 +8747,7 @@
       ],
       "3": [
         {
-          "title": "Chapitre 17 : L’apostat",
+          "title": "Chapitre 17 : L'apostat",
           "desc": "À nouveau réunis, le Mandalorien et Grogu poursuivent leur voyage à travers une galaxie désormais régie par aucune loi. Tout en croisant d'anciens alliés et en se faisant de nouveaux ennemis, notre chasseur de primes tente de réunir les survivants du peuple mandalorien dispersés dans la galaxie.",
           "video": "medias/series/the-mandalorian/3-1.mp4"
         },
@@ -8763,7 +8762,7 @@
           "video": "medias/series/the-mandalorian/3-3.mp4"
         },
         {
-          "title": "Chapitre 20 : L’orphelin",
+          "title": "Chapitre 20 : L'orphelin",
           "desc": "Après un détour par Mandalore, où le chasseur de primes s'est baigné dans les Eaux Vivantes pour retrouver son statut de Mandalorien, Din Djarin et son petit compagnon Grogu ot rejoint le clan mandalorien sur la planète refuge. Bo-Katan Kryze, qui est toujours à leurs côtés, est aussi réhabilitée.",
           "video": "medias/series/the-mandalorian/3-4.mp4"
         },
@@ -8786,6 +8785,40 @@
           "title": "Chapitre 24 : Le retour",
           "desc": "Le Mandalorien et ses alliés affrontent leurs ennemis.",
           "video": "medias/series/the-mandalorian/3-8.mp4"
+        }
+      ]
+    }
+  },
+  "A Knight of the Seven Kingdoms": {
+    "title": "A Knight of the Seven Kingdoms",
+    "description": "Un siècle avant GOT, Ser Duncan the Tall et son écuyer, Egg, erraient à travers Westeros, alors que la dynastie des Targaryen régnait sur le Trône de Fer et que l'on se souvenait encore des dragons.",
+    "poster": "medias/series/a-knight-of-the-sevend-kingdom/poster.jpg",
+    "banner": "medias/series/a-knight-of-the-sevend-kingdom/banner.jpg",
+    "IMDb": 8.5,
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt27497448/",
+    "year": 2026,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "creators": [
+      "George R.R. Martin",
+      "Ira Parker"
+    ],
+    "stars": [
+      "Peter Claffey",
+      "Dexter Sol Ansell",
+      "Daniel Ings"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "The Hedge Knight",
+          "desc": "Lors de son voyage au prochain tournoi d'Ashford, Dunk rencontre un jeune garçon intelligent nommé Egg, qui propose d'être son écuyer.",
+          "video": "medias/series/a-knight-of-the-sevend-kingdom/1-1.mp4"
         }
       ]
     }
