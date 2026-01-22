@@ -42,18 +42,3 @@ export async function fetchAllData() {
         return { films: {}, series: {}, collections: {}, notifs: {} };
     }
 }
-
-/**
- * Fetches notifications data.
- * @returns {Array} An array of notifications.
- */
-export async function fetchNotifs() {
-    try {
-        const res = await fetch('data/notifs.json');
-        if (!res.ok) throw new Error("Erreur notifs");
-        return await res.json();
-    } catch (error) {
-        console.warn("Impossible de charger les notifications");
-        return [];
-    }
-}

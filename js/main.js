@@ -6,7 +6,7 @@
 
 import { fetchAllData } from './dataLoader.js';
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
-import { playVideo, closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence } from './utils.js';
+import { closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence } from './utils.js';
 
 let appData = { films: {}, series: {}, collections: {}, notifs: {} };
 let currentView = 'home';
