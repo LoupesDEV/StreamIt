@@ -215,6 +215,7 @@ function renderEpisodes(episodes, seasonNum) {
         img.onerror = function () {
             this.src = fallbackThumb;
         };
+        img.alt = `Thumbnail for ${ep.title}`;
         thumbContainer.appendChild(img);
 
         const overlay = document.createElement('div');
@@ -275,7 +276,7 @@ export function createMediaCard(item, extraClasses = "") {
     const fallback = `https://placehold.co/400x600/1a1a1a/e50914?text=${encodeURIComponent(item.title)}`;
 
     card.innerHTML = `
-        <img src="${item.poster}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
+        <img src="${item.poster}" alt="Poster for ${item.title}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
         <div class="absolute inset-x-0 bottom-0 p-4 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
             <h3 class="font-bold text-white text-base md:text-lg leading-tight mb-1 drop-shadow-md line-clamp-1">${item.title}</h3>
             <div class="flex items-center gap-3 text-xs font-bold text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity delay-100">
