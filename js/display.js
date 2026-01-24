@@ -571,6 +571,8 @@ function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
                     ? `${item.episodes} ${item.episodes > 1 ? 'épisodes' : 'épisode'}`
                     : '';
 
+                const roleText = ['Executive Producer', 'Director', 'Screenplay', 'Co-Executive Producer', 'Producer', 'Songs', 'Associate Producer', 'Thanks', 'Writer', 'Musician', 'Vocals'].includes(item.role) ? 'En tant que' : 'Incarnant';
+
                 projectsHTML += `
                     <div class="timeline-project mb-2 pb-2 last:mb-0 last:pb-0 border-b border-white/5 last:border-b-0">
                         <div class="flex flex-wrap items-center gap-2 mb-1">
@@ -579,7 +581,7 @@ function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
                             ${typeBadge(item.type)}
                         </div>
                         <div class="text-sm text-gray-400 leading-relaxed">
-                            ${item.role ? `<strong><u>${episodesLabel}</u></strong> Incarnant <a style="color: #f87171;">${item.role}</a>` : `<strong><u>${episodesLabel}</u></strong> Rôle non renseigné.`}
+                            ${item.role ? `<strong><u>${episodesLabel}</u></strong> ${roleText} <a style="color: #f87171;">${item.role}</a>` : `<strong><u>${episodesLabel}</u></strong> Rôle non renseigné.`}
                         </div>
                     </div>
                 `;
