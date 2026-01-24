@@ -88,6 +88,55 @@ body {
     opacity: 1;
 }
 
+.status-badges {
+    position: absolute;
+    top: 0.85rem;
+    right: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    z-index: 30;
+    align-items: flex-end;
+}
+
+.watched-pill,
+.resume-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.01em;
+    border: 1px solid transparent;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+}
+
+.watched-pill {
+    background: rgba(34, 197, 94, 0.15);
+    border-color: rgba(34, 197, 94, 0.4);
+    color: #86efac;
+    text-shadow: 0 0 8px rgba(34, 197, 94, 0.3);
+}
+
+.resume-pill {
+    background: rgba(234, 179, 8, 0.12);
+    border-color: rgba(234, 179, 8, 0.35);
+    color: #facc15;
+    text-shadow: 0 0 8px rgba(234, 179, 8, 0.25);
+}
+
+.episode-watched {
+    border-color: rgba(34, 197, 94, 0.35) !important;
+    background: linear-gradient(135deg, rgba(16, 36, 24, 0.55), rgba(10, 10, 10, 0.95));
+}
+
+.episode-watched h4 {
+    color: #bbf7d0;
+}
+
 .notif-dropdown {
     transform-origin: top right;
     transition: all 0.2s ease-out;

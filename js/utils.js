@@ -5,7 +5,81 @@
  */
 
 const PROGRESS_PREFIX = 'streamit:progress:';
+const WATCHED_KEY = 'watchedContent';
 let currentVideoSrc = '';
+let currentVideoContext = null;
+
+// Helpers for watched content storage (films & séries)
+function getWatchedContent() {
+    try {
+        return JSON.parse(localStorage.getItem(WATCHED_KEY) || '{"films":{},"series":{}}');
+    } catch (e) {
+        console.warn('Reset watchedContent (parse error)', e);
+        return { films: {}, series: {} };
+    }
+}
+
+function setWatchedContent(data) {
+    localStorage.setItem(WATCHED_KEY, JSON.stringify(data));
+}
+
+function normalizeSeason(season) {
+    if (season === undefined || season === null || season === '') return '1';
+    const cleaned = String(season).trim();
+    return cleaned === '' ? '1' : cleaned;
+}
+
+function normalizeEpisodeIndex(epIndex) {
+    return Number.isInteger(epIndex) && epIndex >= 0 ? epIndex : 0;
+}
+
+function markFilmWatched(title, watched = true, time = 0) {
+    if (!title) return;
+    const data = getWatchedContent();
+    if (!data.films[title]) data.films[title] = {};
+    data.films[title].watched = watched;
+    data.films[title].time = Math.max(0, Math.floor(time));
+    setWatchedContent(data);
+}
+
+function markEpisodeWatched(seriesTitle, season, epIndex, watched = true, time = 0) {
+    if (!seriesTitle) return;
+    const safeSeason = normalizeSeason(season);
+    const safeIdx = normalizeEpisodeIndex(epIndex);
+    const data = getWatchedContent();
+    if (!data.series[seriesTitle]) data.series[seriesTitle] = {};
+    if (!data.series[seriesTitle][safeSeason]) data.series[seriesTitle][safeSeason] = {};
+    data.series[seriesTitle][safeSeason][safeIdx] = { watched, time: Math.max(0, Math.floor(time)) };
+    setWatchedContent(data);
+}
+
+export function getFilmWatchData(title) {
+    if (!title) return { watched: false, time: 0 };
+    const data = getWatchedContent();
+    return data.films[title] || { watched: false, time: 0 };
+}
+
+export function getEpisodeWatchData(seriesTitle, season, epIndex) {
+    if (!seriesTitle) return { watched: false, time: 0 };
+    const safeSeason = normalizeSeason(season);
+    const safeIdx = normalizeEpisodeIndex(epIndex);
+    const data = getWatchedContent();
+    return (data.series[seriesTitle] && data.series[seriesTitle][safeSeason] && data.series[seriesTitle][safeSeason][safeIdx])
+        || { watched: false, time: 0 };
+}
+
+export function isSeriesFullyWatched(series) {
+    if (!series?.seasons) return false;
+    const seasons = series.seasons;
+    for (const sKey of Object.keys(seasons)) {
+        const episodes = seasons[sKey] || [];
+        for (let i = 0; i < episodes.length; i++) {
+            const watch = getEpisodeWatchData(series.title, sKey, i);
+            if (!watch.watched) return false;
+        }
+    }
+    return true;
+}
 
 /**
  * Generates a unique key for storing video progress in localStorage.
@@ -17,17 +91,16 @@ function progressKey(src) {
 }
 
 /**
- * Restores video playback progress from localStorage.
+ * Applies a saved start time (resume) when metadata is available.
  * @param {HTMLVideoElement} player - The video player element.
- * @param {string} src - The video source URL.
+ * @param {number} startTime - Time in seconds to seek to.
  */
-function restoreProgress(player, src) {
-    const saved = parseFloat(localStorage.getItem(progressKey(src)) || '');
-    if (Number.isNaN(saved)) return;
+function applyStartTime(player, startTime) {
+    if (!Number.isFinite(startTime) || startTime <= 0) return;
 
     const applyTime = () => {
-        const nearEnd = player.duration && saved >= player.duration - 1;
-        if (!nearEnd) player.currentTime = saved;
+        const nearEnd = player.duration && startTime >= player.duration - 1;
+        if (!nearEnd) player.currentTime = startTime;
         player.removeEventListener('loadedmetadata', applyTime);
     };
 
@@ -35,11 +108,23 @@ function restoreProgress(player, src) {
     else player.addEventListener('loadedmetadata', applyTime);
 }
 
+function getResumeTime(src, context) {
+    if (context?.type === 'film' && context.title) {
+        return getFilmWatchData(context.title).time || 0;
+    }
+    if (context?.type === 'series' && context.title) {
+        return getEpisodeWatchData(context.title, context.season, context.episodeIndex).time || 0;
+    }
+
+    const saved = parseFloat(localStorage.getItem(progressKey(src)) || '');
+    return Number.isNaN(saved) ? 0 : saved;
+}
+
 /**
- * Persists video playback progress to localStorage.
+ * Persists video playback progress to localStorage (fallback when no context is provided).
  * @param {HTMLVideoElement} player - The video player element.
  */
-function persistProgress(player) {
+function persistGenericProgress(player) {
     if (!currentVideoSrc) return;
     const key = progressKey(currentVideoSrc);
     const t = player.currentTime || 0;
@@ -49,11 +134,42 @@ function persistProgress(player) {
     else localStorage.setItem(key, String(t));
 }
 
+function saveWatchProgress(player, isEnded = false) {
+    if (!player) return;
+
+    if (!currentVideoContext) {
+        persistGenericProgress(player);
+        return;
+    }
+
+    const { type, title } = currentVideoContext;
+    const season = currentVideoContext.season;
+    const epIndex = currentVideoContext.episodeIndex;
+    const duration = player.duration || 0;
+    const current = player.currentTime || 0;
+    const hasDuration = Number.isFinite(duration) && duration > 1;
+    const nearEnd = hasDuration && current >= 0 && (duration - current) <= Math.max(180, duration * 0.05);
+    const watched = isEnded || nearEnd;
+    const timeToSave = watched ? 0 : current;
+
+    if (type === 'film' && title) {
+        markFilmWatched(title, watched, timeToSave);
+    } else if (type === 'series' && title) {
+        markEpisodeWatched(title, season, epIndex, watched, timeToSave);
+    }
+
+    if (watched) {
+        currentVideoSrc = '';
+        currentVideoContext = null;
+    }
+}
+
 /**
- * Plays a video in the overlay player.
+ * Plays a video in the overlay player with optional watch context.
  * @param {string} src - The video source URL.
+ * @param {Object|null} context - Optional playback context {type, title, season, episodeIndex}.
  */
-export function playVideo(src) {
+export function playVideo(src, context = null) {
     const overlay = document.getElementById('videoOverlay');
     const player = document.getElementById('mainPlayer');
 
@@ -63,8 +179,10 @@ export function playVideo(src) {
     }
 
     currentVideoSrc = src;
+    currentVideoContext = context ? { ...context, season: normalizeSeason(context.season) } : null;
     player.src = src;
-    restoreProgress(player, src);
+    const startTime = getResumeTime(src, currentVideoContext);
+    applyStartTime(player, startTime);
 
     overlay.classList.remove('hidden');
     setTimeout(() => {
@@ -78,9 +196,11 @@ export function playVideo(src) {
 export function closeVideo() {
     const overlay = document.getElementById('videoOverlay');
     const player = document.getElementById('mainPlayer');
+    saveWatchProgress(player);
     player.pause();
     player.src = "";
     currentVideoSrc = '';
+    currentVideoContext = null;
     overlay.classList.add('hidden');
 }
 
@@ -161,11 +281,12 @@ export function initPlayerPersistence() {
     const player = document.getElementById('mainPlayer');
     if (!player) return;
 
-    const save = () => persistProgress(player);
+    const save = () => saveWatchProgress(player, false);
     player.addEventListener('timeupdate', save);
     player.addEventListener('pause', save);
     player.addEventListener('ended', () => {
-        save();
+        saveWatchProgress(player, true);
         currentVideoSrc = '';
+        currentVideoContext = null;
     });
 }

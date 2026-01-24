@@ -4,10 +4,11 @@
  * @module display
  */
 
-import { playVideo } from './utils.js';
+import { playVideo, getFilmWatchData, getEpisodeWatchData, isSeriesFullyWatched } from './utils.js';
 
 let activeDetailItem = null;
 let activeVideoSrc = "";
+let activeVideoContext = null;
 
 /**
  * Sets up the hero section with the given media item.
@@ -40,9 +41,15 @@ export function setupHero(item) {
     newBtn.onclick = () => {
         openDetails(item);
         if (isSerie && item.seasons?.["1"]?.[0]) {
-            playVideo(item.seasons["1"][0].video);
+            const ctx = { type: 'series', title: item.title, season: '1', episodeIndex: 0 };
+            activeVideoContext = ctx;
+            activeVideoSrc = item.seasons["1"][0].video;
+            playVideo(activeVideoSrc, ctx);
         } else if (item.video) {
-            playVideo(item.video);
+            const ctx = { type: 'film', title: item.title };
+            activeVideoContext = ctx;
+            activeVideoSrc = item.video;
+            playVideo(item.video, ctx);
         }
     };
 
@@ -89,6 +96,7 @@ export function openDetails(item) {
     if (isSerie) {
         seriesSec.classList.remove('hidden');
         activeVideoSrc = "";
+        activeVideoContext = null;
 
         seasonSelect.innerHTML = '';
         const seasons = item.seasons || {};
@@ -123,6 +131,7 @@ export function openDetails(item) {
     } else {
         seriesSec.classList.add('hidden');
         activeVideoSrc = item.video;
+        activeVideoContext = item.video ? { type: 'film', title: item.title } : null;
     }
 
     if (playBtn) {
@@ -151,8 +160,18 @@ export function closeDetails() {
  * Plays the currently selected media in the details overlay.
  */
 export function playCurrentMedia() {
+    if (!activeVideoSrc && activeDetailItem && activeDetailItem.seasons) {
+        // fallback: select first episode if none chosen yet
+        const firstSeasonKey = Object.keys(activeDetailItem.seasons || {})[0];
+        const firstEpisode = firstSeasonKey ? activeDetailItem.seasons[firstSeasonKey]?.[0] : null;
+        if (firstEpisode) {
+            activeVideoSrc = firstEpisode.video;
+            activeVideoContext = { type: 'series', title: activeDetailItem.title, season: firstSeasonKey, episodeIndex: 0 };
+        }
+    }
+
     if (activeVideoSrc) {
-        playVideo(activeVideoSrc);
+        playVideo(activeVideoSrc, activeVideoContext);
     } else {
         alert("Vidéo non disponible");
     }
@@ -178,7 +197,15 @@ function renderEpisodes(episodes, seasonNum) {
         ? seasonNum.replace(/[^0-9]/g, '') || '1'
         : String(Number.isFinite(seasonNum) ? seasonNum : 1);
 
-    if (episodes.length > 0) activeVideoSrc = episodes[0].video;
+    if (episodes.length > 0) {
+        activeVideoSrc = episodes[0].video;
+        activeVideoContext = {
+            type: 'series',
+            title: activeDetailItem?.title || '',
+            season: safeSeasonNum,
+            episodeIndex: 0,
+        };
+    }
 
     const playBtn = document.getElementById('detailPlayBtn');
     if (playBtn) {
@@ -192,8 +219,13 @@ function renderEpisodes(episodes, seasonNum) {
     }
 
     episodes.forEach((ep, idx) => {
+        const watchData = getEpisodeWatchData(activeDetailItem?.title, safeSeasonNum, idx);
+        const isWatched = watchData.watched;
+        const hasProgress = !isWatched && watchData.time > 0;
+
         const row = document.createElement('div');
         row.className = "episode-item flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl cursor-pointer transition-all border border-transparent hover:border-white/5 hover:bg-white/[0.02] group bg-[#0a0a0a]";
+        if (isWatched) row.classList.add('episode-watched');
 
         const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${safeSeasonNum}-EP${idx + 1}`;
         const thumbUrl = activeDetailItem ? activeDetailItem.poster : fallbackThumb;
@@ -242,8 +274,24 @@ function renderEpisodes(episodes, seasonNum) {
         durationEl.className = "text-sm font-bold text-gray-400 bg-black/30 px-2 py-1 rounded-md";
         durationEl.textContent = ep.duration || '45m';
 
+        const metaRow = document.createElement('div');
+        metaRow.className = "flex items-center gap-2 flex-wrap justify-center md:justify-end";
+        metaRow.appendChild(durationEl);
+
+        if (isWatched) {
+            const watchedBadge = document.createElement('span');
+            watchedBadge.className = "watched-pill";
+            watchedBadge.innerHTML = '<i class="fas fa-eye text-xs"></i> Vu';
+            metaRow.appendChild(watchedBadge);
+        } else if (hasProgress) {
+            const resumeBadge = document.createElement('span');
+            resumeBadge.className = "resume-pill";
+            resumeBadge.textContent = "Reprendre";
+            metaRow.appendChild(resumeBadge);
+        }
+
         titleRow.appendChild(titleEl);
-        titleRow.appendChild(durationEl);
+        titleRow.appendChild(metaRow);
 
         const descEl = document.createElement('p');
         descEl.className = "text-gray-400 text-sm leading-relaxed line-clamp-2";
@@ -257,7 +305,15 @@ function renderEpisodes(episodes, seasonNum) {
 
         row.onclick = (e) => {
             e.stopPropagation();
-            playVideo(ep.video);
+            const ctx = {
+                type: 'series',
+                title: activeDetailItem?.title || '',
+                season: safeSeasonNum,
+                episodeIndex: idx,
+            };
+            activeVideoSrc = ep.video;
+            activeVideoContext = ctx;
+            playVideo(ep.video, ctx);
         };
         list.appendChild(row);
     });
@@ -275,7 +331,39 @@ export function createMediaCard(item, extraClasses = "") {
 
     const fallback = `https://placehold.co/400x600/1a1a1a/e50914?text=${encodeURIComponent(item.title)}`;
 
+    const isSerie = item.type === 'serie' || item.seasons !== undefined;
+    const filmWatch = !isSerie ? getFilmWatchData(item.title) : null;
+
+    let watched = false;
+    let hasResume = false;
+
+    if (isSerie) {
+        watched = isSeriesFullyWatched(item);
+        if (!watched && item.seasons) {
+            const seasonKeys = Object.keys(item.seasons).sort((a, b) => parseInt(a) - parseInt(b));
+            for (const sKey of seasonKeys) {
+                const episodes = item.seasons[sKey] || [];
+                for (let i = 0; i < episodes.length; i++) {
+                    const w = getEpisodeWatchData(item.title, sKey, i);
+                    if (w.time > 0 && !w.watched) {
+                        hasResume = true;
+                        break;
+                    }
+                }
+                if (hasResume) break;
+            }
+        }
+    } else {
+        watched = filmWatch?.watched || false;
+        hasResume = !watched && filmWatch && (filmWatch.time || 0) > 0;
+    }
+
+    const watchedBadge = watched ? '<span class="watched-pill"><i class="fas fa-eye text-xs"></i> Vu</span>' : '';
+    const resumeBadge = !watched && hasResume ? '<span class="resume-pill">Reprendre</span>' : '';
+    const badgeStack = watchedBadge || resumeBadge ? `<div class="status-badges">${watchedBadge}${resumeBadge}</div>` : '';
+
     card.innerHTML = `
+        ${badgeStack}
         <img src="${item.poster}" alt="Poster for ${item.title}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
         <div class="absolute inset-x-0 bottom-0 p-4 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
             <h3 class="font-bold text-white text-base md:text-lg leading-tight mb-1 drop-shadow-md line-clamp-1">${item.title}</h3>
