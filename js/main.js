@@ -6,19 +6,22 @@
 
 import { fetchAllData } from './dataLoader.js';
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
-import { closeVideo, toggleNotifs, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence } from './utils.js';
+import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
 
 let appData = { films: {}, series: {}, collections: {}, notifs: {} };
 let currentView = 'home';
 
 window.router = router;
 window.toggleNotifs = toggleNotifs;
+window.toggleSettings = toggleSettings;
 window.closeDetails = closeDetails;
 window.playCurrentMedia = playCurrentMedia;
 window.closeVideo = closeVideo;
 window.applyFilters = applyFilters;
 window.resetFilters = resetFilters;
 window.toggleMobileMenu = toggleMobileMenu;
+window.downloadProgressBackup = downloadProgressBackup;
+window.openProgressImport = openProgressImport;
 
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
@@ -27,6 +30,26 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
     document.getElementById('mobileSearchBtn').addEventListener('click', toggleMobileSearch);
+
+    const importInput = document.getElementById('progressImportInput');
+    if (importInput) {
+        importInput.addEventListener('change', async (event) => {
+            const file = event.target.files && event.target.files[0];
+            if (!file) return;
+            try {
+                const result = await importProgressFromFile(file);
+                alert(`Progression importée (${result.filmsCount} films, ${result.seriesCount} séries).`);
+                window.location.reload();
+            } catch (err) {
+                console.error('Import progression échouée', err);
+                alert(err.message || "Erreur lors de l'import de la progression.");
+            } finally {
+                event.target.value = '';
+                const settings = document.getElementById('settingsDropdown');
+                if (settings) settings.classList.remove('active');
+            }
+        });
+    }
 
     const data = await fetchAllData();
     appData = data;

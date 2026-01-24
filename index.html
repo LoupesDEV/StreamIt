@@ -72,20 +72,58 @@
                     <i class="fas fa-search text-xl"></i>
                 </button>
 
-                <div class="relative">
-                    <button onclick="toggleNotifs()"
-                        class="relative p-2 hover:bg-white/5 rounded-full transition-colors group">
-                        <i class="fas fa-bell text-gray-300 group-hover:text-white transition-colors"></i>
-                        <span id="notifBadge"
-                            class="hidden absolute top-1 right-1 w-2.5 h-2.5 bg-red-600 rounded-full border border-black shadow-[0_0_5px_red]"></span>
-                    </button>
-                    <div id="notifDropdown"
-                        class="notif-dropdown absolute right-0 mt-4 w-80 bg-[#111111] rounded-xl overflow-hidden shadow-2xl border border-white/10 z-50">
-                        <div class="p-4 border-b border-white/5 bg-[#1a1a1a]">
-                            <h4 class="font-bold text-sm text-gray-200">Notifications</h4>
+                <div class="relative flex items-center gap-2">
+                    <div class="relative">
+                        <button onclick="toggleNotifs()"
+                            class="relative p-2 hover:bg-white/5 rounded-full transition-colors group">
+                            <i class="fas fa-bell text-gray-300 group-hover:text-white transition-colors"></i>
+                            <span id="notifBadge"
+                                class="hidden absolute top-1 right-1 w-2.5 h-2.5 bg-red-600 rounded-full border border-black shadow-[0_0_5px_red]"></span>
+                        </button>
+                        <div id="notifDropdown"
+                            class="notif-dropdown absolute right-0 mt-4 w-80 bg-[#111111] rounded-xl overflow-hidden shadow-2xl border border-white/10 z-50">
+                            <div class="p-4 border-b border-white/5 bg-[#1a1a1a]">
+                                <h4 class="font-bold text-sm text-gray-200">Notifications</h4>
+                            </div>
+                            <div id="notifList" class="max-h-64 overflow-y-auto custom-scrollbar bg-[#111111]">
+                                <div class="p-4 text-center text-gray-500 text-xs">Chargement...</div>
+                            </div>
                         </div>
-                        <div id="notifList" class="max-h-64 overflow-y-auto custom-scrollbar bg-[#111111]">
-                            <div class="p-4 text-center text-gray-500 text-xs">Chargement...</div>
+                    </div>
+
+                    <div class="relative">
+                        <button onclick="toggleSettings()"
+                            class="relative p-2 hover:bg-white/5 rounded-full transition-colors group">
+                            <i class="fas fa-gear text-gray-300 group-hover:text-white transition-colors"></i>
+                        </button>
+                        <div id="settingsDropdown"
+                            class="notif-dropdown absolute right-0 mt-4 w-80 bg-[#111111] rounded-xl overflow-hidden shadow-2xl border border-white/10 z-50">
+                            <div class="p-4 border-b border-white/5 bg-[#1a1a1a]">
+                                <h4 class="font-bold text-sm text-gray-200">Paramètres</h4>
+                            </div>
+                            <div class="bg-[#111111] divide-y divide-white/5">
+                                <button onclick="downloadProgressBackup()"
+                                    class="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors flex items-center gap-3">
+                                    <span class="w-10 h-10 rounded-lg bg-red-600/10 text-red-400 flex items-center justify-center">
+                                        <i class="fas fa-download"></i>
+                                    </span>
+                                    <span class="flex-1">
+                                        <div class="font-bold text-sm text-gray-200">Exporter la progression</div>
+                                        <div class="text-xs text-gray-500">Télécharger le suivi des films et séries</div>
+                                    </span>
+                                </button>
+                                <button onclick="openProgressImport()"
+                                    class="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors flex items-center gap-3">
+                                    <span class="w-10 h-10 rounded-lg bg-emerald-600/10 text-emerald-400 flex items-center justify-center">
+                                        <i class="fas fa-file-import"></i>
+                                    </span>
+                                    <span class="flex-1">
+                                        <div class="font-bold text-sm text-gray-200">Importer une progression</div>
+                                        <div class="text-xs text-gray-500">Recharger un fichier de sauvegarde JSON</div>
+                                    </span>
+                                </button>
+                            </div>
+                            <input id="progressImportInput" type="file" accept="application/json" class="hidden">
                         </div>
                     </div>
                 </div>
@@ -320,12 +358,11 @@
                     <div class="glass-panel p-8 rounded-2xl space-y-8">
                         <div>
                             <span
-                                class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Distribution</span>
+                                class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Distributions</span>
                             <div id="detailCast" class="flex flex-wrap gap-2"></div>
                         </div>
                         <div>
-                            <span class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Création
-                                / Réalisation</span>
+                            <span class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Réalisation</span>
                             <div id="detailCreators" class="text-white text-lg font-medium"></div>
                         </div>
                     </div>

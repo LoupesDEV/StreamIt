@@ -10,7 +10,7 @@ let currentVideoSrc = '';
 let currentVideoContext = null;
 
 // Helpers for watched content storage (films & séries)
-function getWatchedContent() {
+export function getWatchedContent() {
     try {
         return JSON.parse(localStorage.getItem(WATCHED_KEY) || '{"films":{},"series":{}}');
     } catch (e) {
@@ -21,6 +21,12 @@ function getWatchedContent() {
 
 function setWatchedContent(data) {
     localStorage.setItem(WATCHED_KEY, JSON.stringify(data));
+}
+
+function sanitizeProgressData(raw) {
+    const safeFilms = raw && typeof raw.films === 'object' && !Array.isArray(raw.films) ? raw.films : {};
+    const safeSeries = raw && typeof raw.series === 'object' && !Array.isArray(raw.series) ? raw.series : {};
+    return { films: safeFilms, series: safeSeries };
 }
 
 function normalizeSeason(season) {
@@ -209,7 +215,58 @@ export function closeVideo() {
  */
 export function toggleNotifs() {
     const dropdown = document.getElementById('notifDropdown');
+    const settings = document.getElementById('settingsDropdown');
+    if (settings) settings.classList.remove('active');
     dropdown.classList.toggle('active');
+}
+
+export function toggleSettings() {
+    const dropdown = document.getElementById('settingsDropdown');
+    const notifs = document.getElementById('notifDropdown');
+    if (notifs) notifs.classList.remove('active');
+    dropdown.classList.toggle('active');
+}
+
+export function downloadProgressBackup() {
+    const data = sanitizeProgressData(getWatchedContent());
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const now = new Date();
+    const stamp = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `streamit-progression-${stamp}.json`;
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+}
+
+export function openProgressImport() {
+    const input = document.getElementById('progressImportInput');
+    if (input) {
+        input.value = '';
+        input.click();
+    }
+}
+
+export async function importProgressFromFile(file) {
+    if (!file) throw new Error('Aucun fichier sélectionné');
+
+    const text = await file.text();
+    let parsed;
+    try {
+        parsed = JSON.parse(text);
+    } catch (err) {
+        throw new Error('Fichier JSON invalide.');
+    }
+
+    const sanitized = sanitizeProgressData(parsed);
+    setWatchedContent(sanitized);
+
+    const filmsCount = Object.keys(sanitized.films || {}).length;
+    const seriesCount = Object.keys(sanitized.series || {}).length;
+    return { filmsCount, seriesCount };
 }
 
 /**

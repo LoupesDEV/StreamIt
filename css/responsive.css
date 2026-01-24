@@ -95,7 +95,8 @@
         object-fit: cover;
     }
 
-    #notifDropdown {
+    #notifDropdown,
+    #settingsDropdown {
         position: fixed;
         top: 80px;
         left: 50%;
@@ -105,7 +106,8 @@
         z-index: 60;
     }
 
-    #notifDropdown.active {
+    #notifDropdown.active,
+    #settingsDropdown.active {
         transform: translateX(-50%) scale(1);
         opacity: 1;
         pointer-events: auto;
