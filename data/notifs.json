@@ -1,5 +1,12 @@
 [
     {
+        "id": 15,
+        "type": "update",
+        "title": "Mise à jour",
+        "message": "Découvrez la toute nouvelle page dédiée aux acteurs sur StreamIt, où vous pouvez explorer les biographies, filmographies et plus encore de vos stars préférées.",
+        "time": "24 Janvier 2026"
+    },
+    {
         "id": 14,
         "type": "films",
         "title": "Nouveau Film Ajouté",
@@ -9,8 +16,8 @@
     {
         "id": 13,
         "type": "series",
-        "title": "Nouvelle Série Disponible",
-        "message": "Regardez <strong>''Sirens''</strong> dès maintenant sur StreamIt.",
+        "title": "Nouvelles Séries Disponibles",
+        "message": "Regardez <strong>''Sirens''</strong> & <strong>''HIS & HERS''</strong> dès maintenant sur StreamIt.",
         "time": "24 Janvier 2026"
     },
     {

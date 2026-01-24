@@ -1,0 +1,126 @@
+{
+  "Milly Alcock": {
+    "name": "Milly Alcock",
+    "photo": "medias/acteurs/milly_alcock.jpg",
+    "bio": "Amelia « Milly » Alcock, née le 11 avril 2000 à Sydney (Nouvelle-Galles du Sud), est une actrice australienne notamment connue pour ses rôles dans les séries télévisées Reckoning, Upright et House of the Dragon.\nElle fréquente l'école Newtown High School of the Performing Arts de Sydney, mais abandonne ses études pour poursuivre un rôle dans la série télévisée Upright.",
+    "birthDate": "2000-04-11",
+    "gender": "Femme",
+    "nationality": "Sydney, New South Wales, Australie",
+    "filmography": [
+      {
+        "title": "Supergirl",
+        "year": 2026,
+        "type": "film",
+        "role": "Kara Zor-El / Supergirl"
+      },
+      {
+        "title": "Superman",
+        "year": 2025,
+        "type": "film",
+        "role": "Supergirl"
+      },
+      {
+        "title": "Sirens",
+        "year": 2025,
+        "type": "serie",
+        "role": "Simone DeWitt",
+        "episodes": 5
+      },
+      {
+        "title": "House of the Dragon",
+        "year": 2022,
+        "type": "serie",
+        "role": "Rhaenyra Targaryen",
+        "episodes": 7
+      },
+      {
+        "title": "The Familiars",
+        "year": 2020,
+        "type": "film",
+        "role": "Alison"
+      },
+      {
+        "title": "Furlough",
+        "year": 2020,
+        "type": "film",
+        "role": "Ella"
+      },
+      {
+        "title": "The Gloaming",
+        "year": 2020,
+        "type": "serie",
+        "role": "Jenny McGinty",
+        "episodes": 2
+      },
+      {
+        "title": "Les Norton",
+        "year": 2019,
+        "type": "serie",
+        "role": "Sian Galese",
+        "episodes": 4
+      },
+      {
+        "title": "Upright",
+        "year": 2019,
+        "type": "serie",
+        "role": "Meg Adams",
+        "episodes": 16
+      },
+      {
+        "title": "Reckoning",
+        "year": 2019,
+        "type": "serie",
+        "role": "Sam Serrato",
+        "episodes": 10
+      },
+      {
+        "title": "The School",
+        "year": 2018,
+        "type": "film",
+        "role": "Jien"
+      },
+      {
+        "title": "A Place to Call Home",
+        "year": 2018,
+        "type": "serie",
+        "role": "Emma Carvolth",
+        "episodes": 4
+      },
+      {
+        "title": "Fighting Season",
+        "year": 2018,
+        "type": "serie",
+        "role": "Maya Nordenfelt",
+        "episodes": 6
+      },
+      {
+        "title": "Pine Gap",
+        "year": 2018,
+        "type": "serie",
+        "role": "Marissa Campbell",
+        "episodes": 5
+      },
+      {
+        "title": "High Life",
+        "year": 2017,
+        "type": "serie",
+        "role": "Isabella Barrett",
+        "episodes": 6
+      },
+      {
+        "title": "Janet King",
+        "year": 2017,
+        "type": "serie",
+        "role": "Cindi Jackson",
+        "episodes": 3
+      },
+      {
+        "title": "Wonderland",
+        "year": 2014,
+        "type": "serie",
+        "role": "Teen Girl",
+        "episodes": 1
+      }
+    ]
+  }
+}

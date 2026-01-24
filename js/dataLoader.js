@@ -12,11 +12,12 @@ export async function fetchAllData() {
     try {
         await new Promise(r => setTimeout(r, 800));
 
-        const [filmsRes, seriesRes, collectionsRes, notifsRes] = await Promise.all([
+        const [filmsRes, seriesRes, collectionsRes, notifsRes, actorsRes] = await Promise.all([
             fetch('data/films.json'),
             fetch('data/series.json'),
             fetch('data/collections.json'),
             fetch('data/notifs.json'),
+            fetch('data/actors.json'),
         ]);
 
         if (!filmsRes.ok || !seriesRes.ok) throw new Error("Erreur de chargement des fichiers JSON (Films/Séries)");
@@ -36,9 +37,16 @@ export async function fetchAllData() {
             console.warn("Fichier notifs.json non trouvé ou vide.");
         }
 
-        return { films, series, collections, notifs };
+        let actors = {};
+        if (actorsRes.ok) {
+            actors = await actorsRes.json();
+        } else {
+            console.warn("Fichier actors.json non trouvé ou vide.");
+        }
+
+        return { films, series, collections, notifs, actors };
     } catch (error) {
         console.error("Erreur Data Loader:", error);
-        return { films: {}, series: {}, collections: {}, notifs: {} };
+        return { films: {}, series: {}, collections: {}, notifs: {}, actors: {} };
     }
 }

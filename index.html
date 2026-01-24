@@ -58,6 +58,8 @@
                         id="nav-series">Séries</button>
                     <button onclick="router('collections')" class="hover:text-white transition-colors"
                         id="nav-collections">Collections</button>
+                    <button onclick="router('actors')" class="hover:text-white transition-colors"
+                        id="nav-actors">Acteurs</button>
                 </div>
             </div>
 
@@ -150,6 +152,8 @@
                 class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Séries</button>
             <button onclick="router('collections')"
                 class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Collections</button>
+            <button onclick="router('actors')"
+                class="text-2xl font-bold text-gray-300 hover:text-white hover:pl-4 transition-all">Acteurs</button>
         </div>
     </nav>
 
@@ -278,6 +282,8 @@
 
         <div id="collectionsContent" class="container mx-auto px-6 mt-12 space-y-20 hidden animate-fade-in-up"></div>
 
+        <div id="actorsContent" class="container mx-auto px-6 mt-12 space-y-10 hidden animate-fade-in-up"></div>
+
         <div id="genericGridContainer" class="container mx-auto px-6 mt-8 hidden animate-fade-in-up">
             <h2 id="sectionTitle" class="text-2xl font-bold mb-8 flex items-center gap-3">
                 <span class="w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
@@ -286,6 +292,8 @@
             <div id="contentGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-10">
             </div>
         </div>
+
+        <div id="actorsContent" class="container mx-auto px-6 mt-12 space-y-10 hidden animate-fade-in-up"></div>
     </main>
 
     <div id="detailsOverlay" class="fixed inset-0 z-[60] bg-[#050505] hidden overflow-y-auto custom-scrollbar">
@@ -372,6 +380,63 @@
             <div
                 class="mt-32 py-12 border-t border-white/5 text-center text-gray-500 text-sm font-medium tracking-wider uppercase">
                 StreamIt<br>© 2026 LoupesDEV. Tous droits réservés.
+            </div>
+        </div>
+    </div>
+
+    <div id="actorOverlay" class="fixed inset-0 z-[70] bg-[#050505]/95 hidden overflow-y-auto custom-scrollbar">
+        <button onclick="closeActorDetails()"
+            class="fixed top-8 right-8 z-[90] w-12 h-12 rounded-full bg-black/40 backdrop-blur-xl flex items-center justify-center hover:bg-red-600 transition-all group border border-white/10 shadow-2xl">
+            <i class="fas fa-times text-white text-xl group-hover:rotate-90 transition-transform duration-300"></i>
+        </button>
+
+        <div class="container mx-auto px-6 py-16">
+            <div class="glass-panel rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-10">
+                    <div class="p-6 bg-black/40 space-y-6">
+                        <div class="rounded-2xl overflow-hidden shadow-2xl bg-black/60">
+                            <img id="actorDetailPhoto" src="" alt="Acteur" class="w-full h-full object-cover">
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between gap-3">
+                                <div>
+                                    <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Genre</div>
+                                    <div id="actorDetailGender" class="font-bold text-lg text-white">-</div>
+                                </div>
+                                <span id="actorDetailAge" class="px-3 py-1 rounded-full text-sm font-bold bg-white/10 border border-white/15">-</span>
+                            </div>
+                            <div>
+                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Date de Naissance</div>
+                                <div id="actorDetailBirth" class="font-semibold text-white">-</div>
+                            </div>
+                            <div>
+                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Lieu de Naissance</div>
+                                <div id="actorDetailNationality" class="font-semibold text-white">-</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 lg:p-10 space-y-6">
+                        <div class="space-y-3">
+                            <h3 id="actorDetailName" class="text-3xl md:text-4xl font-black text-white leading-tight"></h3>
+                            <p id="actorDetailBio" class="text-gray-300 leading-relaxed"></p>
+                            <div class="flex flex-wrap gap-3 text-sm font-bold text-gray-300">
+                                <span id="actorDetailProjects" class="px-3 py-1 rounded-full bg-red-600/15 text-red-300 border border-red-500/30"></span>
+                            </div>
+                        </div>
+
+                        <div class="actor-timeline glass-panel p-4 md:p-6 rounded-2xl">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-2 text-white font-bold text-lg">
+                                    <span class="w-1 h-6 bg-red-600 rounded-full shadow-[0_0_12px_#dc2626]"></span>
+                                    Filmographie
+                                </div>
+                                <span class="text-xs uppercase tracking-widest text-gray-500 font-black">Chronologie</span>
+                            </div>
+                            <div id="actorTimeline" class="timeline"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -486,7 +551,7 @@
     </div>
 
     <script type="module" src="js/main.js"></script>
-    <script type="module" src="js/errorHandler.js"></script>
+    <!-- <script type="module" src="js/errorHandler.js"></script> -->
 </body>
 
 </html>

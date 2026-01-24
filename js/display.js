@@ -502,3 +502,197 @@ export function renderNotifs(list) {
 
     if (list.length === 0) container.innerHTML = '<div class="p-4 text-center text-gray-500 text-xs">Aucune notification</div>';
 }
+
+function computeAge(dateStr) {
+    if (!dateStr) return null;
+    const dob = new Date(dateStr);
+    if (Number.isNaN(dob.getTime())) return null;
+    const now = new Date();
+    let age = now.getFullYear() - dob.getFullYear();
+    const monthDiff = now.getMonth() - dob.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && now.getDate() < dob.getDate())) age -= 1;
+    return age;
+}
+
+function formatBirthDate(dateStr) {
+    if (!dateStr) return "Date inconnue";
+    const d = new Date(dateStr);
+    if (Number.isNaN(d.getTime())) return "Date inconnue";
+    return d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+function availabilityBadge(isAvailable) {
+    return isAvailable
+        ? '<span class="badge badge-available">Disponible</span>'
+        : '<span class="badge badge-missing">Hors catalogue</span>';
+}
+
+function typeBadge(type) {
+    const label = type === 'serie' ? 'Série' : 'Film';
+    return `<span class="badge badge-type">${label}</span>`;
+}
+
+function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
+    timelineEl.innerHTML = '';
+
+    if (!filmography || filmography.length === 0) {
+        timelineEl.innerHTML = '<div class="text-gray-500 text-sm">Aucun projet enregistré.</div>';
+        return;
+    }
+
+    // Group films by year
+    const grouped = {};
+    filmography.forEach(item => {
+        const year = item.year || 0;
+        if (!grouped[year]) grouped[year] = [];
+        grouped[year].push(item);
+    });
+
+    // Process grouped years in order
+    Object.keys(grouped)
+        .sort((a, b) => b - a)
+        .forEach(year => {
+            const items = grouped[year];
+            const row = document.createElement('div');
+            row.className = "timeline-item";
+
+            // Check if all items in this year are available
+            const allAvailable = items.every(item =>
+                item.type === 'serie' ? Boolean(seriesData[item.title]) : Boolean(filmsData[item.title])
+            );
+
+            let projectsHTML = '';
+            items.forEach(item => {
+                const isAvailable = item.type === 'serie'
+                    ? Boolean(seriesData[item.title])
+                    : Boolean(filmsData[item.title]);
+
+                const episodesLabel = item.type === 'serie' && item.episodes
+                    ? `${item.episodes} ${item.episodes > 1 ? 'épisodes' : 'épisode'}`
+                    : '';
+
+                projectsHTML += `
+                    <div class="timeline-project mb-2 pb-2 last:mb-0 last:pb-0 border-b border-white/5 last:border-b-0">
+                        <div class="flex flex-wrap items-center gap-2 mb-1">
+                            <span class="font-bold text-white">${item.title || 'Titre inconnu'}</span>
+                            ${availabilityBadge(isAvailable)}
+                            ${typeBadge(item.type)}
+                        </div>
+                        <div class="text-sm text-gray-400 leading-relaxed">
+                            ${item.role ? `<strong><u>${episodesLabel}</u></strong> Incarnant <a style="color: #f87171;">${item.role}</a>` : `<strong><u>${episodesLabel}</u></strong> Rôle non renseigné.`}
+                        </div>
+                    </div>
+                `;
+            });
+
+            row.innerHTML = `
+                <div class="timeline-year">${year || '—'}</div>
+                <div class="timeline-body">
+                    ${projectsHTML}
+                </div>
+            `;
+            timelineEl.appendChild(row);
+        });
+}
+
+/**
+ * Opens the actor details overlay.
+ * @param {Object} actor - Actor object.
+ * @param {Object} filmsData - Films data keyed by title.
+ * @param {Object} seriesData - Series data keyed by title.
+ */
+export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
+    const overlay = document.getElementById('actorOverlay');
+
+    if (!overlay || !actor) return;
+
+    const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+    const filmography = Array.isArray(actor.filmography) ? [...actor.filmography] : [];
+    filmography.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+    const age = computeAge(actor.birthDate);
+    const ageLabel = age !== null ? `${age} ans` : 'Âge inconnu';
+    const birthLabel = formatBirthDate(actor.birthDate);
+
+    const photoEl = document.getElementById('actorDetailPhoto');
+    if (photoEl) {
+        photoEl.src = photo;
+        photoEl.onerror = function () {
+            this.src = 'https://placehold.co/500x700/111/fff?text=Acteur';
+        };
+    }
+
+    const nameEl = document.getElementById('actorDetailName');
+    const bioEl = document.getElementById('actorDetailBio');
+    const genderEl = document.getElementById('actorDetailGender');
+    const ageEl = document.getElementById('actorDetailAge');
+    const birthEl = document.getElementById('actorDetailBirth');
+    const nationalityEl = document.getElementById('actorDetailNationality');
+    const projectsEl = document.getElementById('actorDetailProjects');
+    const timelineEl = document.getElementById('actorTimeline');
+
+    if (nameEl) nameEl.textContent = actor.name || 'Nom inconnu';
+    if (bioEl) bioEl.textContent = actor.bio || 'Biographie non renseignée.';
+    if (genderEl) genderEl.textContent = actor.gender || 'Non renseigné';
+    if (ageEl) ageEl.textContent = ageLabel;
+    if (birthEl) birthEl.textContent = actor.birthPlace ? `${birthLabel} • ${actor.birthPlace}` : birthLabel;
+    if (nationalityEl) nationalityEl.textContent = actor.nationality || '—';
+    if (projectsEl) projectsEl.textContent = `${filmography.length} projets`;
+
+    if (timelineEl) renderTimeline(timelineEl, filmography, filmsData, seriesData);
+
+    overlay.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+}
+
+/**
+ * Closes the actor details overlay.
+ */
+export function closeActorDetails() {
+    const overlay = document.getElementById('actorOverlay');
+    if (!overlay) return;
+    overlay.classList.add('hidden');
+    document.body.style.overflow = '';
+}
+
+/**
+ * Renders the grid of actors (photo + nom).
+ * @param {Object} actorsData - Actors keyed by slug/id.
+ * @param {Object} filmsData - Films data keyed by title.
+ * @param {Object} seriesData - Series data keyed by title.
+ */
+export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
+    const container = document.getElementById('actorsContent');
+    if (!container) return;
+
+    const actors = Object.values(actorsData || {});
+    if (actors.length === 0) {
+        container.innerHTML = '<div class="text-center text-gray-500 py-12">Aucun acteur enregistré pour le moment.</div>';
+        return;
+    }
+
+    actors.sort((a, b) => a.name.localeCompare(b.name));
+    container.innerHTML = '';
+
+    const grid = document.createElement('div');
+    grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-8";
+
+    actors.forEach(actor => {
+        const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+        const card = document.createElement('div');
+        card.className = "relative overflow-hidden rounded-2xl group shadow-lg bg-[#121212] border border-white/5 cursor-pointer actor-thumb";
+        card.innerHTML = `
+            <img src="${photo}" alt="${actor.name || 'Acteur'}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/500x700/111/fff?text=Acteur'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-4 flex items-center justify-between">
+                <h4 class="font-black text-white text-lg drop-shadow-md line-clamp-2">${actor.name || 'Nom inconnu'}</h4>
+                <span class="text-xs font-bold text-gray-300 bg-white/10 rounded-full px-3 py-1 border border-white/10">Voir</span>
+            </div>
+        `;
+
+        card.onclick = () => openActorDetails(actor, filmsData, seriesData);
+        grid.appendChild(card);
+    });
+
+    container.appendChild(grid);
+}

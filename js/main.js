@@ -5,10 +5,10 @@
  */
 
 import { fetchAllData } from './dataLoader.js';
-import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections } from './display.js';
+import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails } from './display.js';
 import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
 
-let appData = { films: {}, series: {}, collections: {}, notifs: {} };
+let appData = { films: {}, series: {}, collections: {}, notifs: {}, actors: {} };
 let currentView = 'home';
 
 window.router = router;
@@ -22,6 +22,7 @@ window.resetFilters = resetFilters;
 window.toggleMobileMenu = toggleMobileMenu;
 window.downloadProgressBackup = downloadProgressBackup;
 window.openProgressImport = openProgressImport;
+window.closeActorDetails = closeActorDetails;
 
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
@@ -70,15 +71,15 @@ document.addEventListener('DOMContentLoaded', async () => {
  * @param {HTMLElement} navFilms - Navigation link elements
  * @param {HTMLElement} navCollections - Navigation link elements
  */
-function textWhite(navHome, navSeries, navFilms, navCollections) {
-    [navHome, navSeries, navFilms, navCollections].forEach(el => {
+function textWhite(navHome, navSeries, navFilms, navCollections, navActors) {
+    [navHome, navSeries, navFilms, navCollections, navActors].forEach(el => {
         if (el) el.classList.remove('text-white', 'text-red-500');
     });
 }
 
 /**
  * Routes to the specified view and updates the UI accordingly.
- * @param {string} view - The view to route to ('home', 'series', 'films', 'collections').
+ * @param {string} view - The view to route to ('home', 'series', 'films', 'collections', 'actors').
  */
 function router(view) {
     currentView = view;
@@ -93,13 +94,15 @@ function router(view) {
     const homeContent = document.getElementById('homePageContent');
     const collectionsContent = document.getElementById('collectionsContent');
     const genericGrid = document.getElementById('genericGridContainer');
+    const actorsContent = document.getElementById('actorsContent');
     const title = document.getElementById('titleText');
     const navHome = document.getElementById('nav-home');
     const navSeries = document.getElementById('nav-series');
     const navFilms = document.getElementById('nav-films');
     const navCollections = document.getElementById('nav-collections');
+    const navActors = document.getElementById('nav-actors');
 
-    textWhite(navHome, navSeries, navFilms, navCollections);
+    textWhite(navHome, navSeries, navFilms, navCollections, navActors);
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
@@ -107,6 +110,7 @@ function router(view) {
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
     collectionsContent.classList.add('hidden');
+    actorsContent.classList.add('hidden');
     genericGrid.classList.add('hidden');
     document.getElementById('contentGrid').innerHTML = '';
 
@@ -148,6 +152,11 @@ function router(view) {
         renderCollections(appData.collections, appData);
 
         enableHorizontalWheelScroll();
+    }
+    else if (view === 'actors') {
+        if (navActors) navActors.classList.add('text-white');
+        actorsContent.classList.remove('hidden');
+        renderActorsList(appData.actors, appData.films, appData.series);
     }
 }
 
@@ -284,7 +293,8 @@ function handleSearch(e) {
     const navSeries = document.getElementById('nav-series');
     const navFilms = document.getElementById('nav-films');
     const navCollections = document.getElementById('nav-collections');
-    textWhite(navHome, navSeries, navFilms, navCollections);
+    const navActors = document.getElementById('nav-actors');
+    textWhite(navHome, navSeries, navFilms, navCollections, navActors);
 
     const titleEl = document.getElementById('titleText');
     if (titleEl) {
