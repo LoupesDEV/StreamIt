@@ -8795,7 +8795,6 @@
     "poster": "medias/series/a-knight-of-the-sevend-kingdom/poster.jpg",
     "banner": "medias/series/a-knight-of-the-sevend-kingdom/banner.jpg",
     "IMDb": 8.5,
-    "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt27497448/",
     "year": 2026,
     "genres": [
@@ -8819,6 +8818,59 @@
           "title": "The Hedge Knight",
           "desc": "Lors de son voyage au prochain tournoi d'Ashford, Dunk rencontre un jeune garçon intelligent nommé Egg, qui propose d'être son écuyer.",
           "video": "medias/series/a-knight-of-the-sevend-kingdom/1-1.mp4"
+        }
+      ]
+    }
+  },
+  "Sirens": {
+    "title": "Sirens",
+    "description": "Inquiète de voir sa sœur sous la coupe de sa patronne milliardaire, une femme un peu paumée cherche à comprendre ce qu'il se passe dans une luxueuse propriété de front de mer.",
+    "poster": "medias/series/sirens/poster.jpg",
+    "banner": "medias/series/sirens/banner.jpg",
+    "video": "medias/series/sirens/rebelle.mp4",
+    "IMDb": 6.7,
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt31429675/",
+    "year": 2025,
+    "genres": [
+      "Dark Comedy",
+      "Comedy",
+      "Drama"
+    ],
+    "creators": [
+      "Molly Smith Metzler"
+    ],
+    "stars": [
+      "Milly Alcock",
+      "Meghann Fahy",
+      "Glenn Howerton"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "En exil",
+          "desc": "Furieuse de voir que sa sœur Simone ne répond pas au téléphone, Devon décide de se rendre sur l'île privée où elle travaille... et tombe dans les griffes de sa patronne autoritaire.",
+          "video": "medias/series/sirens/1-1.mp4"
+        },
+        {
+          "title": "Les serres",
+          "desc": "Déstabilisée par Michaela, Devon tente une approche audacieuse pour rester dans l'entourage de Simone. La relation entre Simone et Michaela est mise à l'épreuve lorsque des secrets commencent à refaire surface.",
+          "video": "medias/series/sirens/1-2.mp4"
+        },
+        {
+          "title": "Monstre",
+          "desc": "Devon comprend mieux le magnétisme unique de Michaela. Ethan étant hors de portée, Simone se lance sur la piste de Peter.",
+          "video": "medias/series/sirens/1-3.mp4"
+        },
+        {
+          "title": "Perséphone",
+          "desc": "Le chaos que Devon a semé à Buffalo la rattrape. Simone doit décider de son propre avenir. Michaela examine le téléphone de Peter.",
+          "video": "medias/series/sirens/1-4.mp4"
+        },
+        {
+          "title": "Le chant des sirènes",
+          "desc": "Alors que le gala débute, le conflit entre Michaela et Simone atteint son paroxysme. Peter a une révélation. Devon réfléchit à ses options.",
+          "video": "medias/series/sirens/1-5.mp4"
         }
       ]
     }

@@ -1,24 +1,38 @@
 [
     {
+        "id": 14,
+        "type": "films",
+        "title": "Nouveau Film Ajouté",
+        "message": "Découvrez <strong>''Avant toi''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "24 Janvier 2026"
+    },
+    {
+        "id": 13,
+        "type": "series",
+        "title": "Nouvelle Série Disponible",
+        "message": "Regardez <strong>''Sirens''</strong> dès maintenant sur StreamIt.",
+        "time": "24 Janvier 2026"
+    },
+    {
         "id": 12,
-        "type": "fil,s",
+        "type": "films",
         "title": "Nouveau Film Ajouté",
         "message": "Découvrez <strong>''Rebelle''</strong>, maintenant disponibles sur StreamIt.",
-        "time": "23 Décembre 2025"
+        "time": "22 Janvier 2026"
     },
     {
         "id": 11,
         "type": "series",
         "title": "Nouvelle Série Disponible",
         "message": "Regardez <strong>''A Knight of the Seven Kingdoms''</strong> dès maintenant sur StreamIt.",
-        "time": "23 Décembre 2025"
+        "time": "22 Janvier 2026"
     },
     {
         "id": 10,
         "type": "films",
         "title": "Nouveaux Films Disponible",
         "message": "Découvrez <strong>''Wicked : Partie 1''</strong> & <strong>''Wicked : Partie 2''</strong>, maintenant disponibles sur StreamIt.",
-        "time": "1 Janvier 2025"
+        "time": "1 Janvier 2026"
     },
     {
         "id": 9,

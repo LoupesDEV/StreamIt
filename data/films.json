@@ -4196,7 +4196,7 @@
     "title": "Avatar : De Feu et de Cendres",
     "description": "Après la mort de Neteyam, la famille de Jake et Neytiri est aux prises avec le deuil et rencontre une nouvelle tribu Na'vi agressive, le Peuple des Cendres, dirigée par le fougueux Varang, tandis que le conflit sur Pandora s'intensifie et qu'un nouvel enjeu moral émerge.",
     "poster": "medias/films/avatar-de-feu-et-de-cendres/poster.jpg",
-    "banner": null,
+    "banner": "medias/films/avatar-de-feu-et-de-cendres/banner.jpg",
     "IMDb": 7.5,
     "duration": "3h 17min",
     "IMDb_link": "https://www.imdb.com/title/tt1757678/",
@@ -4290,7 +4290,7 @@
       "Carrie Fisher"
     ],
     "trailer": "",
-    "video": "medias/films/star-wars-episode-v-l-empire-contre-attaque/star-wars-l-empire-contre-attaque.mp4",
+    "video": "medias/films/star-wars-episode-v-l-empire-contre-attaque/star-wars-episode-v-l-empire-contre-attaque.mp4",
     "directors": [
       "Irvin Kershner"
     ],
@@ -4327,7 +4327,7 @@
       "Carrie Fisher"
     ],
     "trailer": "",
-    "video": "medias/films/star-wars-episode-vi-le-retour-du-jedi/star-wars-le-retour-du-jedi.mp4",
+    "video": "medias/films/star-wars-episode-vi-le-retour-du-jedi/star-wars-episode-vi-le-retour-du-jedi.mp4",
     "directors": [
       "Richard Marquand"
     ],
@@ -4468,7 +4468,7 @@
       "Oscar Isaac"
     ],
     "trailer": "",
-    "video": "medias/films/star-wars-episode-vii-le-reveil-de-la-force/star-wars-le-reveil-de-la-force.mp4",
+    "video": "medias/films/star-wars-episode-vii-le-reveil-de-la-force/star-wars-episode-vii-le-reveil-de-la-force.mp4",
     "directors": [
       "J.J. Abrams"
     ],
@@ -4505,7 +4505,7 @@
       "Mark Hamill"
     ],
     "trailer": "",
-    "video": "medias/films/star-wars-episode-viii-les-derniers-jedi/star-wars-les-derniers-jedi.mp4",
+    "video": "medias/films/star-wars-episode-viii-les-derniers-jedi/star-wars-episode-viii-les-derniers-jedi.mp4",
     "directors": [
       "Rian Johnson"
     ],
@@ -4541,7 +4541,7 @@
       "Oscar Isaac"
     ],
     "trailer": "",
-    "video": "medias/films/star-wars-episode-ix-l-ascension-de-skywalker/star-wars-l-ascension-de-skywalker.mp4",
+    "video": "medias/films/star-wars-episode-ix-l-ascension-de-skywalker/star-wars-episode-ix-l-ascension-de-skywalker.mp4",
     "directors": [
       "J.J. Abrams"
     ],
@@ -4726,6 +4726,34 @@
       "Mark Andrews",
       "Brenda Chapman",
       "Steve Purcell"
+    ]
+  },
+  "Avant toi": {
+    "title": "Avant toi",
+    "description": "Une charmante petite ville de l'Angleterre rurale. Si elle est originale et artiste dans l'âme, Louisa «Lou» Clark, 26 ans, n'a aucune ambition particulière. Elle se contente d'enchaîner les boulots pour permettre à ses proches de joindre les deux bouts. Jeune et riche banquier, Will Traynor était un garçon plein d'audace et d'optimisme jusqu'à ce qu'il se retrouve paralysé, suite à un accident survenu deux ans plus tôt. Devenu cynique, il a renoncé à tout et n'est plus que l'ombre de lui-même. Autant dire que ces deux-là auraient pu ne jamais se rencontrer. Mais lorsque Lou accepte de travailler comme aide-soignante auprès de Will, elle est bien décidée à lui redonner goût à la vie. Et peu à peu, les deux jeunes gens s'éprennent passionnément l'un de l'autre. La force de leur amour pourra-t-elle survivre à leur destin qui semble inexorable ?",
+    "poster": "medias/films/avant-toi/poster.jpg",
+    "banner": "medias/films/avant-toi/banner.jpg",
+    "IMDb": 7.4,
+    "duration": "1h 46min",
+    "IMDb_link": "https://www.imdb.com/title/tt2674426/",
+    "year": 2016,
+    "genres": [
+      "Tragic Romance",
+      "Drama",
+      "Romance"
+    ],
+    "stars": [
+      "Emilia Clarke",
+      "Sam Claflin",
+      "Janet McTeer"
+    ],
+    "trailer": "",
+    "video": null,
+    "directors": [
+      "Thea Sharrock"
+    ],
+    "writers": [
+      "Jojo Moyes"
     ]
   }
 }
