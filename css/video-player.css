@@ -1,0 +1,254 @@
+/**
+ * video-player.css
+ * Styles personnalisés pour le lecteur vidéo style Netflix
+ */
+
+/* Custom Video Player Container */
+#customVideoPlayer {
+    cursor: default;
+}
+
+#customVideoPlayer.hide-cursor {
+    cursor: none;
+}
+
+/* Video Controls Base */
+.video-control {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#videoOverlay.controls-hidden .video-control {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#videoOverlay:not(.controls-hidden) .video-control {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Video Title Overlay */
+#videoTitleOverlay {
+    z-index: 10;
+}
+
+#videoSeriesInfo {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#videoMainTitle {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+/* Video Controls Container */
+#videoControls {
+    z-index: 10;
+}
+
+/* Progress Bar Styling */
+#progressContainer {
+    z-index: 15;
+}
+
+#progressContainer:hover #timeTooltip {
+    opacity: 1;
+}
+
+#playbackProgress {
+    background: linear-gradient(90deg, #dc2626 0%, #ef4444 100%);
+    box-shadow: 0 0 10px rgba(220, 38, 38, 0.5);
+}
+
+#progressHandle {
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 8px rgba(220, 38, 38, 0.8), 0 0 12px rgba(220, 38, 38, 0.4);
+}
+
+/* Center Play Button */
+#centerPlayBtn.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#centerPlayBtn .bg-black\/50 {
+    transition: transform 0.2s ease;
+}
+
+#centerPlayBtn.show .bg-black\/50:hover {
+    transform: scale(1.1);
+}
+
+/* Video Loader */
+#videoLoader.show {
+    opacity: 1;
+}
+
+/* Volume Slider Custom Styling */
+#volumeSlider::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, 
+        #dc2626 0%, 
+        #dc2626 var(--volume-percentage, 100%), 
+        rgba(255, 255, 255, 0.2) var(--volume-percentage, 100%), 
+        rgba(255, 255, 255, 0.2) 100%);
+    height: 4px;
+    border-radius: 2px;
+}
+
+#volumeSlider::-moz-range-track {
+    background: rgba(255, 255, 255, 0.2);
+    height: 4px;
+    border-radius: 2px;
+}
+
+#volumeSlider::-moz-range-progress {
+    background: #dc2626;
+    height: 4px;
+    border-radius: 2px;
+}
+
+/* Control Buttons Hover Effects */
+#videoControls button:hover i {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+}
+
+/* Speed Button Active State */
+#speedBtn.active {
+    background: rgba(220, 38, 38, 0.3);
+    color: #ef4444;
+}
+
+/* Time Display */
+#currentTime,
+#duration {
+    min-width: 40px;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Fullscreen Adjustments */
+#videoOverlay:fullscreen #videoControls,
+#videoOverlay:-webkit-full-screen #videoControls,
+#videoOverlay:-moz-full-screen #videoControls {
+    padding-bottom: 2rem;
+}
+
+#videoOverlay:fullscreen #videoTitleOverlay,
+#videoOverlay:-webkit-full-screen #videoTitleOverlay,
+#videoOverlay:-moz-full-screen #videoTitleOverlay {
+    padding-top: 3rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #videoTitleOverlay {
+        padding: 1.5rem;
+    }
+    
+    #videoMainTitle {
+        font-size: 1.5rem;
+    }
+    
+    #videoSeriesInfo {
+        font-size: 0.75rem;
+    }
+    
+    #videoControls {
+        font-size: 0.875rem;
+    }
+    
+    #playPauseBtn i {
+        font-size: 1.5rem;
+    }
+    
+    #rewindBtn i,
+    #forwardBtn i,
+    #volumeBtn i,
+    #fullscreenBtn i,
+    #qualityBtn i {
+        font-size: 1rem;
+    }
+    
+    #videoControls > div:last-child {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #progressContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Hide some controls on mobile */
+    #speedBtn,
+    #qualityBtn {
+        display: none;
+    }
+    
+    #volumeSlider {
+        display: none;
+    }
+}
+
+/* Animation for controls fade */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+}
+
+.video-control.fade-in {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.video-control.fade-out {
+    animation: fadeOut 0.3s ease forwards;
+}
+
+/* Prevent text selection on controls */
+#videoControls,
+#videoTitleOverlay,
+#progressContainer {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+/* Custom scrollbar for quality menu if added later */
+.quality-menu {
+    scrollbar-width: thin;
+    scrollbar-color: #dc2626 rgba(255, 255, 255, 0.1);
+}
+
+.quality-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.quality-menu::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.quality-menu::-webkit-scrollbar-thumb {
+    background: #dc2626;
+    border-radius: 3px;
+}
+
+.quality-menu::-webkit-scrollbar-thumb:hover {
+    background: #ef4444;
+}

@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/video-player.css">
 </head>
 
 <body class="min-h-screen relative selection:bg-red-600 selection:text-white text-white">
@@ -378,11 +379,97 @@
     <div id="videoOverlay"
         class="fixed inset-0 z-[100] bg-black hidden flex flex-col justify-center transition-opacity duration-300">
         <button onclick="closeVideo()"
-            class="absolute top-8 right-8 z-[110] text-white/50 hover:text-white transition-colors p-4 bg-black/20 rounded-full backdrop-blur-md">
+            class="absolute top-8 right-8 z-[110] text-white/50 hover:text-white transition-colors p-4 bg-black/20 rounded-full backdrop-blur-md video-control">
             <i class="fas fa-times text-3xl shadow-black drop-shadow-md"></i>
         </button>
-        <video id="mainPlayer" controls controlslist="nodownload noremoteplayback" disablepictureinpicture playsinline
-            class="w-full h-full object-contain focus:outline-none bg-black"></video>
+        
+        <!-- Custom Video Player -->
+        <div id="customVideoPlayer" class="relative w-full h-full flex items-center justify-center">
+            <video id="mainPlayer" controlslist="nodownload noremoteplayback" disablepictureinpicture playsinline
+                class="w-full h-full object-contain focus:outline-none bg-black"></video>
+            
+            <!-- Video Title Overlay -->
+            <div id="videoTitleOverlay" class="video-control absolute top-0 left-0 right-0 p-8 bg-gradient-to-b from-black/80 via-black/40 to-transparent">
+                <div id="videoTitle" class="text-white">
+                    <div id="videoSeriesInfo" class="text-sm font-semibold text-gray-300 mb-1"></div>
+                    <div id="videoMainTitle" class="text-2xl md:text-3xl font-bold"></div>
+                </div>
+            </div>
+            
+            <!-- Custom Controls -->
+            <div id="videoControls" class="video-control absolute bottom-0 left-0 right-0">
+                <!-- Progress Bar Container -->
+                <div id="progressContainer" class="relative px-8 pb-3 cursor-pointer group">
+                    <div class="relative h-1 bg-white/20 rounded-full overflow-hidden transition-all duration-200 group-hover:h-2">
+                        <!-- Buffered Progress -->
+                        <div id="bufferedProgress" class="absolute top-0 left-0 h-full bg-white/30 rounded-full"></div>
+                        <!-- Playback Progress -->
+                        <div id="playbackProgress" class="absolute top-0 left-0 h-full bg-red-600 rounded-full transition-all duration-75"></div>
+                        <!-- Progress Handle -->
+                        <div id="progressHandle" class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg" style="left: 0%;"></div>
+                    </div>
+                    <!-- Time Tooltip -->
+                    <div id="timeTooltip" class="absolute bottom-full mb-2 px-2 py-1 bg-black/90 text-white text-xs rounded opacity-0 pointer-events-none whitespace-nowrap"></div>
+                </div>
+                
+                <!-- Control Buttons -->
+                <div class="px-8 pb-6 bg-gradient-to-t from-black via-black/80 to-transparent">
+                    <div class="flex items-center justify-between">
+                        <!-- Left Controls -->
+                        <div class="flex items-center gap-4">
+                            <button id="playPauseBtn" class="text-white hover:scale-110 transition-transform">
+                                <i class="fas fa-play text-3xl"></i>
+                            </button>
+                            <button id="rewindBtn" class="text-white hover:scale-110 transition-transform">
+                                <i class="fas fa-backward text-xl"></i>
+                            </button>
+                            <button id="forwardBtn" class="text-white hover:scale-110 transition-transform">
+                                <i class="fas fa-forward text-xl"></i>
+                            </button>
+                            <div class="flex items-center gap-3 ml-2">
+                                <button id="volumeBtn" class="text-white hover:scale-110 transition-transform">
+                                    <i class="fas fa-volume-up text-xl"></i>
+                                </button>
+                                <div class="relative group/volume">
+                                    <input type="range" id="volumeSlider" min="0" max="100" value="100" 
+                                        class="w-0 group-hover/volume:w-24 opacity-0 group-hover/volume:opacity-100 transition-all duration-200 h-1 bg-white/20 rounded-full appearance-none cursor-pointer
+                                        [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:cursor-pointer
+                                        [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:cursor-pointer">
+                                </div>
+                            </div>
+                            <span id="currentTime" class="text-white text-sm font-semibold">0:00</span>
+                            <span class="text-white/50 text-sm">/</span>
+                            <span id="duration" class="text-white text-sm font-semibold">0:00</span>
+                        </div>
+                        
+                        <!-- Right Controls -->
+                        <div class="flex items-center gap-4">
+                            <button id="speedBtn" class="text-white hover:scale-110 transition-transform text-sm font-bold px-2 py-1 rounded bg-white/10 hover:bg-white/20">
+                                1x
+                            </button>
+                            <button id="qualityBtn" class="text-white hover:scale-110 transition-transform text-sm font-bold">
+                                <i class="fas fa-cog text-xl"></i>
+                            </button>
+                            <button id="fullscreenBtn" class="text-white hover:scale-110 transition-transform">
+                                <i class="fas fa-expand text-xl"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Center Play Button (appears when paused) -->
+            <div id="centerPlayBtn" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-300">
+                <div class="w-20 h-20 bg-black/50 rounded-full flex items-center justify-center backdrop-blur-sm">
+                    <i class="fas fa-play text-white text-3xl ml-1"></i>
+                </div>
+            </div>
+            
+            <!-- Loading Spinner -->
+            <div id="videoLoader" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity">
+                <div class="w-16 h-16 border-4 border-white/20 border-t-red-600 rounded-full animate-spin"></div>
+            </div>
+        </div>
     </div>
 
     <div id="loader"

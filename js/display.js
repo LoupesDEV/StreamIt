@@ -41,7 +41,13 @@ export function setupHero(item) {
     newBtn.onclick = () => {
         openDetails(item);
         if (isSerie && item.seasons?.["1"]?.[0]) {
-            const ctx = { type: 'series', title: item.title, season: '1', episodeIndex: 0 };
+            const ctx = { 
+                type: 'series', 
+                title: item.title, 
+                season: '1', 
+                episodeIndex: 0,
+                episodeTitle: item.seasons["1"][0].title || 'Épisode 1'
+            };
             activeVideoContext = ctx;
             activeVideoSrc = item.seasons["1"][0].video;
             playVideo(activeVideoSrc, ctx);
@@ -166,7 +172,13 @@ export function playCurrentMedia() {
         const firstEpisode = firstSeasonKey ? activeDetailItem.seasons[firstSeasonKey]?.[0] : null;
         if (firstEpisode) {
             activeVideoSrc = firstEpisode.video;
-            activeVideoContext = { type: 'series', title: activeDetailItem.title, season: firstSeasonKey, episodeIndex: 0 };
+            activeVideoContext = { 
+                type: 'series', 
+                title: activeDetailItem.title, 
+                season: firstSeasonKey, 
+                episodeIndex: 0,
+                episodeTitle: firstEpisode.title || 'Épisode 1'
+            };
         }
     }
 
@@ -204,6 +216,7 @@ function renderEpisodes(episodes, seasonNum) {
             title: activeDetailItem?.title || '',
             season: safeSeasonNum,
             episodeIndex: 0,
+            episodeTitle: episodes[0].title || 'Épisode 1',
         };
     }
 
@@ -310,6 +323,7 @@ function renderEpisodes(episodes, seasonNum) {
                 title: activeDetailItem?.title || '',
                 season: safeSeasonNum,
                 episodeIndex: idx,
+                episodeTitle: ep.title || `Épisode ${idx + 1}`,
             };
             activeVideoSrc = ep.video;
             activeVideoContext = ctx;
