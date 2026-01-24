@@ -7347,7 +7347,6 @@
     "description": "Brillant expert scientifique du service médico-légal de la police de Miami, Dexter Morgan est spécialisé dans l'analyse de prélèvements et d'éclaboussures de sang. Mais Dexter cache un terrible secret : c'est également un tueur en série ! Un serial killer pas comme les autres, avec sa propre vision de la justice, qui, grâce au code fourni par son père adoptif, ne s'en prend qu'à des personnes coupables de meurtres affreux ou de délits répréhensibles. Mais Dexter n'attend pas que la justice les libère ou les relâche, faute de preuves. Il les assassine, avant même que la police ne remonte jusqu'à eux et efface ses traces. Sa demi-sœur, Debra, travaille dans le même commissariat que lui et n'a de cesse de traquer tous les meurtriers, quels qu'ils soient... sans savoir qu'elle en fréquente un, tous les jours !",
     "poster": "medias/series/dexter/poster.jpg",
     "banner": "medias/series/dexter/banner.jpg",
-    "video": "medias/series/dexter/dexter.mp4",
     "IMDb": 8.6,
     "IMDb_link": "https://www.imdb.com/title/tt0773262/",
     "year": 2006,
@@ -7875,7 +7874,6 @@
     "description": "Dix ans après sa disparition dans la tourmente de l'ouragan Laura, Dexter Morgan vit désormais loin de la Floride, sous une autre identité, dans la petite ville d'Iron Lake, dans l'État de New York. L'ex-expert médico-légal de la police de Miami voit son « Passager Noir » refaire surface, à la suite d'évènements inattendus qui viennent troubler sa routine.",
     "poster": "medias/series/dexter-new-blood/poster.jpg",
     "banner": "medias/series/dexter-new-blood/banner.jpg",
-    "video": "medias/series/dexter-new-blood/dexter-new-blood.mp4",
     "IMDb": 8.0,
     "IMDb_link": "https://www.imdb.com/title/tt14164730/",
     "year": 2021,
@@ -7955,7 +7953,6 @@
     "description": "En 1991 à Miami, Dexter est un étudiant en passe de devenir un tueur en série. Lorsque ses pulsions sanguinaires ne peuvent plus être ignorées, le jeune homme trouve réconfort et compréhension auprès de Harry, son père adoptif. Celui-ci lui enseigne des règles pour l'aider à repérer et à tuer des personnes qui méritent de mourir, tout en évitant de se faire coincer par les forces de l'ordre. C'est un défi particulier pour le stagiaire débutant en médecine légale au département de police de Miami.",
     "poster": "medias/series/dexter-les-origines/poster.jpg",
     "banner": "medias/series/dexter-les-origines/banner.jpg",
-    "video": "medias/series/dexter-les-origines/dexter-les-origines.mp4",
     "IMDb": 8.2,
     "IMDb_link": "https://www.imdb.com/title/tt32252772/",
     "year": 2024,
@@ -8320,7 +8317,6 @@
     "description": "Quelques années après les évènements survenus au Commonwealth, Maggie et Negan se rendent dans un Manhattan post-apocalyptique coupé depuis longtemps du continent. La ville en ruine est peuplée de morts et d'habitants qui ont fait de New York, un monde anarchique empli de terreur.",
     "poster": "medias/series/the-walking-dead-dead-city/poster.jpg",
     "banner": "medias/series/the-walking-dead-dead-city/banner.jpg",
-    "video": "medias/series/the-walking-dead-dead-city/the-walking-dead-dead-city.mp4",
     "IMDb": 7.0,
     "IMDb_link": "https://www.imdb.com/title/tt18546730/",
     "year": 2023,
@@ -8827,7 +8823,6 @@
     "description": "Inquiète de voir sa sœur sous la coupe de sa patronne milliardaire, une femme un peu paumée cherche à comprendre ce qu'il se passe dans une luxueuse propriété de front de mer.",
     "poster": "medias/series/sirens/poster.jpg",
     "banner": "medias/series/sirens/banner.jpg",
-    "video": "medias/series/sirens/rebelle.mp4",
     "IMDb": 6.7,
     "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt31429675/",
@@ -8871,6 +8866,179 @@
           "title": "Le chant des sirènes",
           "desc": "Alors que le gala débute, le conflit entre Michaela et Simone atteint son paroxysme. Peter a une révélation. Devon réfléchit à ses options.",
           "video": "medias/series/sirens/1-5.mp4"
+        }
+      ]
+    }
+  },
+  "HIS & HERS": {
+    "title": "HIS & HERS",
+    "description": "Deux époux séparés, un inspecteur et une journaliste, s'affrontent pour résoudre une affaire de meurtre dans laquelle chacun considère l'autre comme le principal suspect.",
+    "poster": "medias/series/his-hers/poster.jpg",
+    "banner": "medias/series/his-hers/banner.jpg",
+    "IMDb": 7.2,
+    "IMDb_link": "https://www.imdb.com/title/tt33035373/",
+    "year": 2026,
+    "genres": [
+      "Hard-Boiled Detective",
+      "Psdychological Thriller",
+      "Suspense Mystery",
+      "Whodunnit",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Tessa Thompson",
+      "Jon Bernthal",
+      "Pablo Schreiber"
+    ],
+    "trailer": "",
+    "creators": [
+      "William Oldroyd"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Journaliste à la télévision, Anna retourne dans sa petite ville natale en Géorgie pour couvrir une affaire de meurtre. Jack, son ex-mari, est officiellement chargé de l'enquête.",
+          "video": "medias/series/his-hers/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Jack et Priya tentent de mettre en doute l'alibi d'un suspect clé. Anna retourne dans son lycée pour un entretien compliqué avec une ancienne camarade de classe.",
+          "video": "medias/series/his-hers/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Anna compte bien saisir l'occasion de redevenir présentatrice. Zoe demande des explications à Jack. L'état d'Alice se dégrade et donne lieu à de difficiles conversations.",
+          "video": "medias/series/his-hers/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Jack a du mal à apaiser les habitants lors d'une réunion publique houleuse. Les soupçons de Priya s'avèrent fondés. Anna est hantée par de douloureux souvenirs.",
+          "video": "medias/series/his-hers/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Acculé, Jack devient de plus en plus imprévisible. Anna se retrouve interrogée à son tour. Le passé de Richard est révélé au grand jour.",
+          "video": "medias/series/his-hers/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Alors que l'affaire touche à sa fin, Jack et Anna doivent faire face aux péchés du passé et à leurs lourdes conséquences sur le présent.",
+          "video": "medias/series/his-hers/1-6.mp4"
+        }
+      ]
+    }
+  },
+  "Upright": {
+    "title": "Upright",
+    "description": "Deux marginaux, dont les chemins se sont croisés au milieu du désert australien, tissent des liens en essayant de transporter un précieux piano d’un bout du pays à l'autre.",
+    "poster": "medias/series/upright/poster.jpg",
+    "banner": "medias/series/upright/banner.jpg",
+    "IMDb": 8.4,
+    "IMDb_link": "https://www.imdb.com/title/tt8765446/",
+    "year": 2016,
+    "genres": [
+      "Road Trip",
+      "Comedy",
+      "Drama"
+    ],
+    "stars": [
+      "Tim Minchin",
+      "Milly Alcock",
+      "Ella Scott Lynch"
+    ],
+    "trailer": "",
+    "creators": [
+      "Tim Minchin",
+      "Leon Ford",
+      "Kate Mulvany"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Jour Un",
+          "desc": "Lucky, musicien autodestructeur, n'a pas parlé à sa famille depuis des années, mais il charge son vieux piano cabossé pour un voyage de 6 400 kilomètres à travers l'Australie lorsqu'il apprend que sa mère, dont il est séparé, est mourante.",
+          "video": "medias/series/upright/1-1.mp4"
+        },
+        {
+          "title": "Jour Deux",
+          "desc": "Lucky a du mal à supporter l'absence de ses médicaments contre l'anxiété. En attendant l'ouverture d'une pharmacie à Port Agusta, Meg provoque une bagarre avec des motards dans un pub.",
+          "video": "medias/series/upright/1-2.mp4"
+        },
+        {
+          "title": "Jour Trois",
+          "desc": "Meg est folle de rage lorsqu'elle perd tout son argent et celui de Lucky. Pour couronner le tout, ils tombent en panne d'essence.",
+          "video": "medias/series/upright/1-3.mp4"
+        },
+        {
+          "title": "Jour Quatre",
+          "desc": "Meg et Lucky rejoignent un groupe de campeurs dans la Grande Baie australienne, mais la soirée prend une tournure dramatique lorsque Lucky découvre une lettre de suicide.",
+          "video": "medias/series/upright/1-4.mp4"
+        },
+        {
+          "title": "Jour Cinq",
+          "desc": "Lucky songe à abandonner lorsque Meg s'enfuit avec le pick-up et le piano, mais une morsure de serpent potentiellement venimeuse lui fait changer d'avis.",
+          "video": "medias/series/upright/1-5.mp4"
+        },
+        {
+          "title": "Jour Six",
+          "desc": "Lucky décide de changer d'attitude et d'apparence, mais il ne faut pas longtemps avant qu'une nouvelle dévastatrice ne le plonge dans le désespoir.",
+          "video": "medias/series/upright/1-6.mp4"
+        },
+        {
+          "title": "Jour Sept",
+          "desc": "Après avoir déposé Meg chez sa mère à Kalgoorlie, Lucky reçoit un appel du père de Meg, fou d'inquiétude. Apprenant que Meg n'a pas de mère, Lucky retourne en trombe en ville pour la retrouver.",
+          "video": "medias/series/upright/1-7.mp4"
+        },
+        {
+          "title": "Jour Huit",
+          "desc": "Lucky retrouve sa mère dans une ambiance émouvante, mais son retour à la maison est accueilli beaucoup plus froidement par son frère Toby.",
+          "video": "medias/series/upright/1-8.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Réunion",
+          "desc": "Lucky et Meg troquent le désert pour les tropiques étouffants du Grand Nord du Queensland pour une nouvelle mission.",
+          "video": "medias/series/upright/2-1.mp4"
+        },
+        {
+          "title": "Tomates",
+          "desc": "Alors que Lucky et Meg entament leurs recherches dans le Queensland pour retrouver leur mère, Lucky a du mal à gérer sa relation avec sa famille restée au pays, tandis que Meg est effrayée par quelqu'un qui l'a suivie depuis Karingunna.",
+          "video": "medias/series/upright/2-2.mp4"
+        },
+        {
+          "title": "Bananes",
+          "desc": "Tandis que Meg poursuit ses recherches pour retrouver sa mère à Cairns, Lucky tente de se faire discret pour éviter de ressurgir son passé trouble.",
+          "video": "medias/series/upright/2-3.mp4"
+        },
+        {
+          "title": "Répartition",
+          "desc": "Lucky et Meg quittent Cairns, mais le passé que Lucky aurait préféré oublier le rattrape.",
+          "video": "medias/series/upright/2-4.mp4"
+        },
+        {
+          "title": "Plié",
+          "desc": "Blessé dans la forêt tropicale, Lucky est désespéré de retourner à la civilisation, mais Meg veut continuer car ils sont sur le point de retrouver sa mère.",
+          "video": "medias/series/upright/2-5.mp4"
+        },
+        {
+          "title": "Eskimo Jonestown",
+          "desc": "Meg et Lucky arrivent enfin à la Commune du Bien-être, mais ne reçoivent pas l'accueil qu'ils espéraient.",
+          "video": "medias/series/upright/2-6.mp4"
+        },
+        {
+          "title": "Des mensonges inoffensifs",
+          "desc": "Piégée dans la Commune du Bien-être, Lucky commence à en percer les secrets tandis que Meg a enfin l'occasion de parler à sa mère.",
+          "video": "medias/series/upright/2-7.mp4"
+        },
+        {
+          "title": "Ça suffit !",
+          "desc": "Après s'être échappés de la commune, Lucky et Meg retournent en toute hâte à Sydney, espérant arriver à temps pour retrouver Billie à l'aéroport.",
+          "video": "medias/series/upright/2-8.mp4"
         }
       ]
     }
