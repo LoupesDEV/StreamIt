@@ -1,5 +1,19 @@
 [
     {
+        "id": 17,
+        "type": "films",
+        "title": "Nouveau Film Ajouté",
+        "message": "Découvrez <strong>''Terminator Genisys''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "24 Janvier 2026"
+    },
+    {
+        "id": 16,
+        "type": "series",
+        "title": "Nouvelle Série Disponible",
+        "message": "Regardez <strong>''Secret Invasion''</strong> dès maintenant sur StreamIt.",
+        "time": "22 Janvier 2026"
+    },
+    {
         "id": 15,
         "type": "update",
         "title": "Mise à jour",

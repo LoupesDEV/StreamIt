@@ -8934,7 +8934,7 @@
   },
   "Upright": {
     "title": "Upright",
-    "description": "Deux marginaux, dont les chemins se sont croisés au milieu du désert australien, tissent des liens en essayant de transporter un précieux piano d’un bout du pays à l'autre.",
+    "description": "Deux marginaux, dont les chemins se sont croisés au milieu du désert australien, tissent des liens en essayant de transporter un précieux piano d'un bout du pays à l'autre.",
     "poster": "medias/series/upright/poster.jpg",
     "banner": "medias/series/upright/banner.jpg",
     "IMDb": 8.4,
@@ -9039,6 +9039,67 @@
           "title": "Ça suffit !",
           "desc": "Après s'être échappés de la commune, Lucky et Meg retournent en toute hâte à Sydney, espérant arriver à temps pour retrouver Billie à l'aéroport.",
           "video": "medias/series/upright/2-8.mp4"
+        }
+      ]
+    }
+  },
+  "Secret Invasion": {
+    "title": "Secret Invasion",
+    "description": "Nick Fury apprend qu'une faction de Skrulls métamorphes prépare en secret une invasion de la Terre.",
+    "poster": "medias/series/secret-invasion/poster.jpg",
+    "banner": "medias/series/secret-invasion/banner.jpg",
+    "IMDb": 5.8,
+    "IMDb_link": "https://www.imdb.com/title/tt13157618/",
+    "year": 2023,
+    "genres": [
+      "Alien Invasion",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Samuel L. Jackson",
+      "Emilia Clarke",
+      "Don Cheadle"
+    ],
+    "trailer": "",
+    "creators": [
+      "Kyle Bradstreet"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Retour sur Terre",
+          "desc": "Fury apprend que des Skrulls préparent en secret une invasion de la Terre.",
+          "video": "medias/series/secret-invasion/1-1.mp4"
+        },
+        {
+          "title": "Coup d'État",
+          "desc": "Fury doit composer avec le passé et le présent.",
+          "video": "medias/series/secret-invasion/1-2.mp4"
+        },
+        {
+          "title": "Trahison",
+          "desc": "Fury met au jour un complot organisé par les rebelles Skrulls.",
+          "video": "medias/series/secret-invasion/1-3.mp4"
+        },
+        {
+          "title": "Sacrifices",
+          "desc": "Fury est contraint à de lourds sacrifices.",
+          "video": "medias/series/secret-invasion/1-4.mp4"
+        },
+        {
+          "title": "Révolte",
+          "desc": "Fury rameute ses alliés. Gravik fait face à une sédition.",
+          "video": "medias/series/secret-invasion/1-5.mp4"
+        },
+        {
+          "title": "Dernière chance",
+          "desc": "Tout l'avenir de l'Humanité repose sur les épaules de Fury.",
+          "video": "medias/series/secret-invasion/1-6.mp4"
         }
       ]
     }

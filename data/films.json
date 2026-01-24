@@ -4755,5 +4755,39 @@
     "writers": [
       "Jojo Moyes"
     ]
+  },
+  "Terminator Genisys": {
+    "title": "Terminator Genisys",
+    "description": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l’avenir de l’humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
+    "poster": "medias/films/terminator-genisys/poster.jpg",
+    "banner": "medias/films/terminator-genisys/banner.jpg",
+    "video": "medias/films/terminator-genisys/terminator-genisys.mp4",
+    "IMDb": 6.3,
+    "IMDb_link": "https://www.imdb.com/title/tt1340138/",
+    "year": 2015,
+    "genres": [
+      "Cyber Thriller",
+      "Cyberpunk",
+      "Dystopian Sci-Fi",
+      "Time Travel",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Arnold Schwarzenegger",
+      "Jason Clarke",
+      "Emilia Clarke"
+    ],
+    "trailer": "",
+    "directors": [
+      "Alan Taylor"
+    ],
+    "writers": [
+      "Laeta Kalogridis",
+      "Patrick Lussier",
+      "James Cameron"
+    ]
   }
 }
