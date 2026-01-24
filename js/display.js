@@ -698,3 +698,59 @@ export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
 
     container.appendChild(grid);
 }
+
+/**
+ * Renders a list of actors in a search results section.
+ * @param {Array} actorsData - Array of actor objects to display.
+ * @param {Object} filmsData - Films data for opening actor details.
+ * @param {Object} seriesData - Series data for opening actor details.
+ */
+export function renderActorsListSearch(actorsData, filmsData = {}, seriesData = {}) {
+    const container = document.getElementById('contentGrid');
+    if (!container) return;
+
+    if (!actorsData || actorsData.length === 0) {
+        return;
+    }
+
+    // Create a section title for actors
+    const section = document.createElement('div');
+    section.className = "col-span-full mt-12 mb-6";
+
+    const titleDiv = document.createElement('div');
+    titleDiv.className = "flex items-center gap-4 mb-6";
+    
+    const accentSpan = document.createElement('span');
+    accentSpan.className = 'w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]';
+    titleDiv.appendChild(accentSpan);
+
+    const titleText = document.createElement('span');
+    titleText.className = 'tracking-tight text-xl font-bold';
+    titleText.textContent = `Acteurs (${actorsData.length})`;
+    titleDiv.appendChild(titleText);
+
+    section.appendChild(titleDiv);
+
+    const grid = document.createElement('div');
+    grid.className = "col-span-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-8";
+
+    actorsData.forEach(actor => {
+        const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+        const card = document.createElement('div');
+        card.className = "relative overflow-hidden rounded-2xl group shadow-lg bg-[#121212] border border-white/5 cursor-pointer actor-thumb";
+        card.innerHTML = `
+            <img src="${photo}" alt="${actor.name || 'Acteur'}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/500x700/111/fff?text=Acteur'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-4 flex items-center justify-between">
+                <h4 class="font-black text-white text-lg drop-shadow-md line-clamp-2">${actor.name || 'Nom inconnu'}</h4>
+                <span class="text-xs font-bold text-gray-300 bg-white/10 rounded-full px-3 py-1 border border-white/10">Voir</span>
+            </div>
+        `;
+
+        card.onclick = () => openActorDetails(actor, filmsData, seriesData);
+        grid.appendChild(card);
+    });
+
+    section.appendChild(grid);
+    container.appendChild(section);
+}

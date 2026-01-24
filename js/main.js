@@ -5,7 +5,7 @@
  */
 
 import { fetchAllData } from './dataLoader.js';
-import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails } from './display.js';
+import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch } from './display.js';
 import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
 
 let appData = { films: {}, series: {}, collections: {}, notifs: {}, actors: {} };
@@ -268,12 +268,16 @@ function handleSearch(e) {
     const homeContent = document.getElementById('homePageContent');
     const collectionsContent = document.getElementById('collectionsContent');
     const genericGrid = document.getElementById('genericGridContainer');
+    const actorsContent = document.getElementById('actorsContent');
 
     if (!q) {
         if (currentView === 'home') {
             hero.classList.remove('hidden'); homeContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
         } else if (currentView === 'collections') {
             collectionsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
+        } else if (currentView === 'actors') {
+            actorsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
+            renderActorsList(appData.actors, appData.films, appData.series);
         } else {
             filters.classList.remove('hidden'); applyFilters();
         }
@@ -284,10 +288,12 @@ function handleSearch(e) {
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
     collectionsContent.classList.add('hidden');
+    actorsContent.classList.add('hidden');
     genericGrid.classList.remove('hidden');
 
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
-    const res = all.filter(i => i.title.toLowerCase().includes(q));
+    const resMedia = all.filter(i => i.title.toLowerCase().includes(q));
+    const resActors = Object.values(appData.actors).filter(i => i.name.toLowerCase().includes(q));
 
     const navHome = document.getElementById('nav-home');
     const navSeries = document.getElementById('nav-series');
@@ -297,6 +303,7 @@ function handleSearch(e) {
     textWhite(navHome, navSeries, navFilms, navCollections, navActors);
 
     const titleEl = document.getElementById('titleText');
+    const totalResults = resMedia.length + resActors.length;
     if (titleEl) {
         titleEl.textContent = `Résultats pour "${q}" `;
         let countSpan = titleEl.querySelector('.text-gray-500.text-sm.ml-2');
@@ -305,7 +312,7 @@ function handleSearch(e) {
             countSpan.className = 'text-gray-500 text-sm ml-2';
             titleEl.appendChild(countSpan);
         }
-        countSpan.textContent = `(${res.length})`;
+        countSpan.textContent = `(${totalResults})`;
     } else {
         const sectionTitle = document.getElementById('sectionTitle');
         if (sectionTitle) {
@@ -320,11 +327,18 @@ function handleSearch(e) {
             const titleTextSpan = document.createElement('span');
             titleTextSpan.id = 'titleText';
             titleTextSpan.className = 'tracking-tight';
-            titleTextSpan.textContent = `Résultats pour "${q}" (${res.length})`;
+            titleTextSpan.textContent = `Résultats pour "${q}" (${totalResults})`;
             sectionTitle.appendChild(titleTextSpan);
         }
     }
-    renderGrid(res);
+    
+    // Afficher les films et séries
+    renderGrid(resMedia);
+    
+    // Afficher les acteurs s'il y en a
+    if (resActors.length > 0) {
+        renderActorsListSearch(resActors, appData.films, appData.series);
+    }
 }
 
 /**
