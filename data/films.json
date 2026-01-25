@@ -4758,7 +4758,7 @@
   },
   "Terminator Genisys": {
     "title": "Terminator Genisys",
-    "description": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l’avenir de l’humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
+    "description": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l'avenir de l'humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
     "poster": "medias/films/terminator-genisys/poster.jpg",
     "banner": "medias/films/terminator-genisys/banner.jpg",
     "video": "medias/films/terminator-genisys/terminator-genisys.mp4",
@@ -4788,6 +4788,109 @@
       "Laeta Kalogridis",
       "Patrick Lussier",
       "James Cameron"
+    ]
+  },
+  "The Rip": {
+    "title": "The Rip",
+    "description": "La méfiance s'installe quand une équipe de flics de Miami découvre des millions en cash dans une planque délabrée. Plus personne ne sait quoi penser... ni à qui se fier.",
+    "poster": "medias/films/the-rip/poster.jpg",
+    "banner": "medias/films/the-rip/banner.jpg",
+    "video": "medias/films/the-rip/the-rip.mp4",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt32642706/",
+    "year": 2026,
+    "genres": [
+      "Cop Drama",
+      "Drug Crime",
+      "Police Procedural",
+      "Suspense Mystery",
+      "True Crime",
+      "Whodunnit",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "stars": [
+      "Matt",
+      "Damon",
+      "Ben Affleck",
+      "Steven Yeun"
+    ],
+    "trailer": "",
+    "directors": [
+      "Joe Carnahan"
+    ],
+    "writers": [
+      "Joe Carnahan",
+      "Michael McGrale"
+    ]
+  },
+  "Bob l'éponge, le film : Un pour tous, tous pirates !": {
+    "title": "Bob l'éponge, le film : Un pour tous, tous pirates !",
+    "description": "Bob l'Éponge et ses amis quittent Bikini Bottom pour leur plus grande aventure ! Voulant prouver qu'il est un grand garçon, Bob invoque par erreur le terrifiant Hollandais Volant, un pirate fantôme légendaire. Propulsés dans une quête délirante, Bob et Patrick devront relever des défis titanesques, suivis de près par une équipe de sauvetage. Au fil des épreuves, Bob découvre que le véritable courage réside dans l'amitié : ensemble, ils peuvent affronter l'inconnu et briller plus fort que jamais.",
+    "poster": "medias/films/bob-l-eponge-le-film-un-pour-tous-tous-pirates/poster.jpg",
+    "banner": "medias/films/bob-l-eponge-le-film-un-pour-tous-tous-pirates/banner.jpg",
+    "video": "medias/films/bob-l-eponge-le-film-un-pour-tous-tous-pirates/bob-l-eponge-le-film-un-pour-tous-tous-pirates.mp4",
+    "IMDb": 5.8,
+    "IMDb_link": "https://www.imdb.com/title/tt23572848/",
+    "year": 2025,
+    "genres": [
+      "Buddy Comedy",
+      "Computer Animation",
+      "Sea Adventure",
+      "Slapstick",
+      "Swashbuckler",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "stars": [
+      "Tom Kenny",
+      "Clancy Brown",
+      "Rodger Bumpass"
+    ],
+    "trailer": "",
+    "directors": [
+      "Derek Drymon"
+    ],
+    "writers": [
+      "Pam Brady",
+      "Matt Lieberman",
+      "Marc Ceccarelli"
+    ]
+  },
+  "Predator : Badlands": {
+    "title": "Predator : Badlands",
+    "description": "Jugé trop faible et indigne par son père, chef de la tribu des Yautja, Dek est sur le point de se faire exécuter par son frère Kwei. Mais au dernier moment, celui-ci préfère se sacrifier pour favoriser sa fuite. Décidé à prouver son courage, le jeune paria se rend sur la planète Genna pour y capturer le Kalisk, un monstre réputé invincible. Confronté à une nature hostile et imprévisible, le guerrier inexpérimenté doit sa survie à Thia, une androïde privée de la partie inférieure de son corps depuis son affrontement avec le Kalisk. Avec l'aide de celle-ci, Dek amorce sa traque de la terrible créature, convoitée par des scientifiques pour ses formidables dons de régénération.",
+    "poster": "medias/films/predator-badlands/poster.jpg",
+    "banner": "medias/films/predator-badlands/banner.jpg",
+    "video": "medias/films/predator-badlands/predator-badlands.mp4",
+    "IMDb": 7.3,
+    "IMDb_link": "https://www.imdb.com/title/tt31227572/",
+    "year": 2025,
+    "genres": [
+      "Alien Invasion",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Elle Fanning",
+      "Dimitrius Schuster-Koloamatangi",
+      "Ravi Narayan"
+    ],
+    "trailer": "",
+    "directors": [
+      "Dan Trachtenberg"
+    ],
+    "writers": [
+      "Patrick Aison",
+      "Dan Trachtenberg",
+      "Jim Thomas"
     ]
   }
 }

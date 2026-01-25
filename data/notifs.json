@@ -2,16 +2,16 @@
     {
         "id": 17,
         "type": "films",
-        "title": "Nouveau Film Ajouté",
-        "message": "Découvrez <strong>''Terminator Genisys''</strong>, maintenant disponibles sur StreamIt.",
-        "time": "24 Janvier 2026"
+        "title": "Nouveaux Films Disponibles",
+        "message": "Découvrez <strong>''Terminator Genisys''</strong>, <strong>''The Rip''</strong> & <strong>''Predator : Badlands''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "25 Janvier 2026"
     },
     {
         "id": 16,
         "type": "series",
         "title": "Nouvelle Série Disponible",
         "message": "Regardez <strong>''Secret Invasion''</strong> dès maintenant sur StreamIt.",
-        "time": "22 Janvier 2026"
+        "time": "25 Janvier 2026"
     },
     {
         "id": 15,
@@ -51,7 +51,7 @@
     {
         "id": 10,
         "type": "films",
-        "title": "Nouveaux Films Disponible",
+        "title": "Nouveaux Films Disponibles",
         "message": "Découvrez <strong>''Wicked : Partie 1''</strong> & <strong>''Wicked : Partie 2''</strong>, maintenant disponibles sur StreamIt.",
         "time": "1 Janvier 2026"
     },
