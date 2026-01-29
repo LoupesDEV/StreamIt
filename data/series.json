@@ -8831,9 +8831,14 @@
     "seasons": {
       "1": [
         {
-          "title": "The Hedge Knight",
-          "desc": "Lors de son voyage au prochain tournoi d'Ashford, Dunk rencontre un jeune garçon intelligent nommé Egg, qui propose d'être son écuyer.",
+          "title": "Le chevalier errant",
+          "desc": "Au cours de son voyage vers le tournoi qui se tiendra prochainement à Ashford, Dunk rencontre l'Œuf, qui lui propose d'être son écuyer.",
           "video": "medias/series/a-knight-of-the-sevend-kingdom/1-1.mp4"
+        },
+        {
+          "title": "Bœuf salé",
+          "desc": "Après avoir fait appel aux différents seigneurs réunis à Ashford, Dunk saisit l'occasion de présenter son projet à Baelor Targaryen.",
+          "video": "medias/series/a-knight-of-the-sevend-kingdom/1-2.mp4"
         }
       ]
     }

@@ -1,5 +1,12 @@
 [
     {
+        "id": 18,
+        "type": "films",
+        "title": "Nouveau Film Disponible",
+        "message": "Découvrez <strong>''Zootopie 2''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "27 Janvier 2026"
+    },
+    {
         "id": 17,
         "type": "films",
         "title": "Nouveaux Films Disponibles",

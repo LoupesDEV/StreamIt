@@ -4892,5 +4892,41 @@
       "Dan Trachtenberg",
       "Jim Thomas"
     ]
+  },
+  "Zootopie 2": {
+    "title": "Zootopie 2",
+    "description": "Judy Hopps et Nick Wilde explorent à nouveau Zootopie, entre mystères, rires et rencontres inattendues. À travers chaque rue et chaque instant, ils découvrent que l’amitié et la curiosité transforment le quotidien en moments magiques.",
+    "poster": "medias/films/zootopie-2/poster.jpg",
+    "banner": "medias/films/zootopie-2/banner.jpg",
+    "IMDb": 7.5,
+    "duration": "1h 48min",
+    "IMDb_link": "https://www.imdb.com/title/tt26443597/",
+    "year": 2025,
+    "genres": [
+      "Animal Adventure",
+      "Buddy Comedy",
+      "Computer Animation",
+      "Urban Adventure",
+      "Whodunnit",
+      "Action",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Crime"
+    ],
+    "stars": [
+      "Ginnifer Goodwin",
+      "Jason Bateman",
+      "Ke Huy Quan"
+    ],
+    "trailer": "",
+    "video": "medias/films/zootopie-2/zootopie-2.mp4",
+    "directors": [
+      "Jared Bush",
+      "Byron Howard"
+    ],
+    "writers": [
+      "Jared Bush"
+    ]
   }
 }
