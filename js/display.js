@@ -179,6 +179,16 @@ export function closeDetails() {
 }
 
 /**
+ * Refreshes the details overlay for the active series.
+ * This is useful after watching an episode to update the watched status.
+ */
+export function refreshActiveSeriesDetails() {
+    if (activeDetailItem && (activeDetailItem.type === 'serie' || activeDetailItem.seasons !== undefined)) {
+        openDetails(activeDetailItem);
+    }
+}
+
+/**
  * Plays the currently selected media in the details overlay.
  */
 export function playCurrentMedia() {

@@ -8,7 +8,7 @@
 import { fetchAllData } from './dataLoader.js';
 
 // Import display and rendering functions
-import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch } from './display.js';
+import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch, refreshActiveSeriesDetails } from './display.js';
 
 // Import utility functions for video player and UI interactions
 import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
@@ -30,6 +30,7 @@ window.toggleMobileMenu = toggleMobileMenu;
 window.downloadProgressBackup = downloadProgressBackup;
 window.openProgressImport = openProgressImport;
 window.closeActorDetails = closeActorDetails;
+window.refreshActiveSeriesDetails = refreshActiveSeriesDetails;
 
 // Initialize application when DOM is fully loaded
 document.addEventListener('DOMContentLoaded', async () => {

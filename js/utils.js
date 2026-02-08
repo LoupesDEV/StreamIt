@@ -248,11 +248,8 @@ function saveWatchProgress(player, isEnded = false) {
         markEpisodeWatched(title, season, epIndex, watched, timeToSave);
     }
 
-    // Clear current video state if marked as watched
-    if (watched) {
-        currentVideoSrc = '';
-        currentVideoContext = null;
-    }
+    // Note: We keep currentVideoContext alive until closeVideo() is called
+    // This allows us to refresh the series details page when closing
 }
 
 /**
@@ -301,6 +298,10 @@ export function closeVideo() {
     saveWatchProgress(player);
     player.pause();
     player.src = "";
+    
+    // Check if we were watching a series to refresh the details
+    const wasWatchingSeries = currentVideoContext && currentVideoContext.type === 'series';
+    
     // Reset global state
     currentVideoSrc = '';
     currentVideoContext = null;
@@ -308,6 +309,16 @@ export function closeVideo() {
 
     // Clean up custom controls
     cleanupCustomVideoControls();
+    
+    // Refresh series details if we were watching a series
+    if (wasWatchingSeries) {
+        // Use setTimeout to ensure the video overlay is fully closed before refreshing
+        setTimeout(() => {
+            if (window.refreshActiveSeriesDetails) {
+                window.refreshActiveSeriesDetails();
+            }
+        }, 100);
+    }
 }
 
 /**
@@ -472,8 +483,7 @@ export function initPlayerPersistence() {
     // Mark as watched when video ends
     player.addEventListener('ended', () => {
         saveWatchProgress(player, true);
-        currentVideoSrc = '';
-        currentVideoContext = null;
+        // Note: We keep context alive until closeVideo() to allow series details refresh
     });
 }
 
