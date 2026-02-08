@@ -4895,7 +4895,7 @@
   },
   "Zootopie 2": {
     "title": "Zootopie 2",
-    "description": "Judy Hopps et Nick Wilde explorent à nouveau Zootopie, entre mystères, rires et rencontres inattendues. À travers chaque rue et chaque instant, ils découvrent que l’amitié et la curiosité transforment le quotidien en moments magiques.",
+    "description": "Judy Hopps et Nick Wilde explorent à nouveau Zootopie, entre mystères, rires et rencontres inattendues. À travers chaque rue et chaque instant, ils découvrent que l'amitié et la curiosité transforment le quotidien en moments magiques.",
     "poster": "medias/films/zootopie-2/poster.jpg",
     "banner": "medias/films/zootopie-2/banner.jpg",
     "IMDb": 7.5,
@@ -4927,6 +4927,99 @@
     ],
     "writers": [
       "Jared Bush"
+    ]
+  },
+  "La Femme de ménage": {
+    "title": "La Femme de ménage",
+    "description": "En quête d'un nouveau départ, Millie accepte un poste de femme de ménage à demeure chez Nina et Andrew Winchester, un couple aussi riche qu'énigmatique. Ce qui s'annonce comme l'emploi idéal se transforme rapidement en un jeu dangereux, mêlant séduction, secrets et manipulations. Derrière les portes closes du manoir Winchester se cache un monde de faux-semblants et de révélations inattendues... Un tourbillon de suspense et de scandales qui vous tiendra en haleine jusqu'à la dernière seconde.",
+    "poster": "medias/films/la-femme-de-menage/poster.jpg",
+    "banner": "medias/films/la-femme-de-menage/banner.jpg",
+    "video": "medias/films/la-femme-de-menage/la-femme-de-menage.mp4",
+    "IMDb": 6.9,
+    "IMDb_link": "https://www.imdb.com/title/tt27543632/",
+    "year": 2025,
+    "genres": [
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Suspense Mystery",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Sydney Sweeney",
+      "Amanda Seyfried",
+      "Brandon Sklenar"
+    ],
+    "trailer": "",
+    "directors": [
+      "Paul Feig"
+    ],
+    "writers": [
+      "Rebecca Sonnenshine",
+      "Freida McFadden"
+    ]
+  },
+  "Le Million": {
+    "title": "Le Million",
+    "description": "Pensant à tort qu'il ne va pas être promu par son entreprise, Stan craque et décide de voler dans le coffre de son patron une valise contenant 1 million d'euros d'argent sale. Direction l'aéroport avec sa copine... Mais en route, un coup de fil lui apprend qu'il obtient la promotion dont il rêvait. Il a alors une nuit pour rattraper son erreur et remettre le million dans le coffre. Pour cela, il va faire appel à Hippolyte, un serrurier peu regardant sur la déontologie…",
+    "poster": "medias/films/le-million/poster.jpg",
+    "banner": "medias/films/le-million/banner.jpg",
+    "video": "medias/films/le-million/le-million.mp4",
+    "IMDb": 5.1,
+    "IMDb_link": "https://www.imdb.com/title/tt32250381/",
+    "year": 2025,
+    "genres": [
+      "French",
+      "Comedy"
+    ],
+    "stars": [
+      "Christian Clavier",
+      "Rayane Bensetti",
+      "Gilles Cohen"
+    ],
+    "trailer": "",
+    "directors": [
+      "Gregoire Vigneron"
+    ],
+    "writers": [
+      "Isabelle Jaquet",
+      "Julie Ponsonnet",
+      "Gregoire Vigneron"
+    ]
+  },
+  "Le Muppet Show": {
+    "title": "Le Muppet Show",
+    "description": "Kermit, Miss Piggy, et toute l'équipe des Muppets reviennent dans un épisode sécial pour célébrer le cinquantième anniversaire de la série originale diffusée de 1975 à 1981. Dans la tradition des shows de variété, les personnages du Muppet Show reviennent à la télévision après 40 ans d'absence, avec des sketches, de la musique et un vrai chaos en coulisses, pour se re-présenter à leurs fans et au public de la nouvelle génération. Regardez les Muppets reprendre d'assaut la scène de leur théâtre d'origine, avec des tonnes de surprises et leur invitée spéciale, la superstar pop détentrice d'un Grammy Award, Sabrina Carpenter !",
+    "poster": "medias/films/le-muppet-show/poster.jpg",
+    "banner": "medias/films/le-muppet-show/banner.jpg",
+    "video": "medias/films/le-muppet-show/le-muppet-show.mp4",
+    "IMDb": 8.5,
+    "duration":"33min",
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt37969426/",
+    "year": 2026,
+    "genres": [
+      "Sketch Comedy",
+      "Slapstick",
+      "Comedy",
+      "Family",
+      "Music",
+      "Musical"
+    ],
+    "stars": [
+      "Sabrina Carpenter",
+      "Bill Barretta",
+      "Dave Goelz"
+    ],
+    "trailer": "",
+    "directors": [
+      "Alex Timbers"
+    ],
+    "writers": [
+      "Albertina Rizzo",
+      "Gabe Liedman",
+      "Nedaa Sweiss"
     ]
   }
 }

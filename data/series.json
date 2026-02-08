@@ -8859,7 +8859,6 @@
     "poster": "medias/series/sirens/poster.jpg",
     "banner": "medias/series/sirens/banner.jpg",
     "IMDb": 6.7,
-    "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt31429675/",
     "year": 2025,
     "genres": [
@@ -9135,6 +9134,100 @@
           "title": "Dernière chance",
           "desc": "Tout l'avenir de l'Humanité repose sur les épaules de Fury.",
           "video": "medias/series/secret-invasion/1-6.mp4"
+        }
+      ]
+    }
+  },
+  "Cœurs Noirs": {
+    "title": "Cœurs Noirs",
+    "description": "Irak, octobre 2016, veille de la bataille de Mossoul. Un commando des forces spéciales françaises est chargé de retrouver et d'exfiltrer de la ville la fille et le petit-fils d'un important Émir français de Daech qu'ils ont capturé et qui pose cette condition préalable à sa collaboration.",
+    "poster": "medias/series/coeurs-noirs/poster.jpg",
+    "banner": "medias/series/coeurs-noirs/banner.jpg",
+    "video": "medias/series/coeurs-noirs/coeurs-noirs.mp4",
+    "IMDb": 7.7,
+    "IMDb_link": "https://www.imdb.com/title/tt26605367/",
+    "year": 2023,
+    "genres": [
+      "French",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "stars": [
+      "Nicolas Duvauchelle",
+      "Marie Dompnier",
+      "Nina Meurisse"
+    ],
+    "trailer": "",
+    "creators": [
+      "Dang Thai Duong",
+      "Corinne Garfin"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Chef du groupe 45, MARTIN s'apprête à passer les rênes de son commando composé de SPIT spécialiste en explosif, RIMBAUD médic, PACO spécialiste drone et SAB sniper à son adjoint OLIVIER. Mais peu avant son départ, MARTIN capture ZAÏD, un important émir français de Daech, qui en échange de l'exfiltration de sa fille SALWA et de son petit-fils YANIS, est prêt à collaborer avec les Français.",
+          "video": "medias/series/coeurs-noirs/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Au lendemain du lancement de la bataille de Mossoul, le commando de MARTIN, accompagné de leur nouveau fixer et interprète irakien SALAR FAKHRI, retourne dans les égouts afin de tenter de localiser FARES sous couvert d'une mission de sécurisation alors qu'OLIVIER est plongé dans le coma. De son côté, ADELE se lance à la recherche de SALWA, aidée par le renseignement Kurde.",
+          "video": "medias/series/coeurs-noirs/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Malgré l'échec de l'exfiltration de SALWA, grâce aux informations des Kurdes, le groupe 45 se remet sur sa trace qui les mènera droit à un piège. De leur côté HILAIRE et MELISSA, les adjoints d'ADELE, à toujours à la poursuite des djihadistes, suivent la piste du gilet humanitaire récupéré dans leur QG.",
+          "video": "medias/series/coeurs-noirs/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Alors que MARTIN et ses hommes partent à la poursuite d'un trafiquant d'armes dans la région d'Al-Ana susceptible de leur donner des informations sur la localisation de Farès et Salwa, ADELE continue ses recherches pour retrouver YANIS présumé retenu dans un camp d'entrainement pour enfants-soldats.",
+          "video": "medias/series/coeurs-noirs/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Tandis que le Commando part à l'assaut d'une probable planque de Farès et de Salwa, ADELE apprend une terrible nouvelle. Durant la bataille, les Français vont perdre l'un des leurs.",
+          "video": "medias/series/coeurs-noirs/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Une fois le Commando de retour à la base, toute la Task Force se mobilise pour retrouver leur opérateur disparu, sans succès. ZAID leur propose alors son aide sous conditions.",
+          "video": "medias/series/coeurs-noirs/1-6.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Épisode 1",
+          "desc": "Après la capture de Sab, le groupe 45 intègre deux nouveaux FS et Pierre, un agent de la DGSE. Les négociations avec Zaïd progressent quand un attentat contre le consulat de France par un de ses lieutenants déclenche une opération des 45.",
+          "video": "medias/series/coeurs-noirs/2-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Afin de récupérer Sab, les 45 doivent protéger Zaïd en éliminant un survivant de Qalb Aswad qui veut le dénoncer à Daesh.",
+          "video": "medias/series/coeurs-noirs/2-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Zaïd disparaît des radars alors que Moktar devient de plus en plus méfiant. De leur côté, les 45 contournent la DGSE et recrutent Soraya en tant que source, à la recherche d'une trace de Sab.",
+          "video": "medias/series/coeurs-noirs/2-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Moktar devient incontrôlable et la DGSE remet en question ses relations avec lui.",
+          "video": "medias/series/coeurs-noirs/2-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Une opération conjointe entre la DGSE et le groupe 45 est élaborée pour contrer Moktar et sauver Sab.",
+          "video": "medias/series/coeurs-noirs/2-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Tandis que la DGSE monte un plan pour détourner l'attention de Moktar, le groupe 45 passe à l'attaque pour exfiltrer Sab...",
+          "video": "medias/series/coeurs-noirs/2-6.mp4"
         }
       ]
     }

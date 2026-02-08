@@ -7571,7 +7571,7 @@
     "Norman Reedus": {
         "name": "Norman Reedus",
         "photo": "medias/acteurs/norman_reedus.jpg",
-        "bio": "Né le 6 janvier 1969 à Hollywood, Floride, Norman Reedus est un acteur et mannequin américain, mondialement connu pour son rôle de Daryl Dixon dans la série The Walking Dead (2010-2022). Avant sa carrière d’acteur, il travaille comme mannequin pour Prada et Levi’s. Il débute au cinéma dans Mimic (1997) et se fait remarquer dans The Boondock Saints (1999), où il incarne Murphy MacManus, rôle repris dans la suite de 2009. Parmi ses films notables figurent Blade II (2002) et American Gangster (2007). En 2024, il reprend Daryl dans le spin-off The Walking Dead: Daryl Dixon, acclamé pour son intensité. Reedus est également producteur et animateur de Ride with Norman Reedus (2016-). Père de deux enfants, dont un avec l’actrice Diane Kruger, il réside à New York et est passionné de moto.",
+        "bio": "Né le 6 janvier 1969 à Hollywood, Floride, Norman Reedus est un acteur et mannequin américain, mondialement connu pour son rôle de Daryl Dixon dans la série The Walking Dead (2010-2022). Avant sa carrière d'acteur, il travaille comme mannequin pour Prada et Levi's. Il débute au cinéma dans Mimic (1997) et se fait remarquer dans The Boondock Saints (1999), où il incarne Murphy MacManus, rôle repris dans la suite de 2009. Parmi ses films notables figurent Blade II (2002) et American Gangster (2007). En 2024, il reprend Daryl dans le spin-off The Walking Dead: Daryl Dixon, acclamé pour son intensité. Reedus est également producteur et animateur de Ride with Norman Reedus (2016-). Père de deux enfants, dont un avec l'actrice Diane Kruger, il réside à New York et est passionné de moto.",
         "birthDate": "1969-01-06",
         "gender": "Homme",
         "nationality": "Hollywood, Florida, USA",
@@ -8935,7 +8935,7 @@
                 "episodes": 1
             },
             {
-                "title": "Chadwick Boseman : Portrait d’un artiste",
+                "title": "Chadwick Boseman : Portrait d'un artiste",
                 "year": 2021,
                 "type": "film",
                 "role": "Self"
@@ -10035,7 +10035,7 @@
     "Bella Ramsey": {
         "name": "Bella Ramsey",
         "photo": "medias/acteurs/bella_ramsey.jpg",
-        "bio": "Bella Ramsey, née le 25 septembre 2003 à Nottingham, est une personnalité britannique non binaire (iel/they). Révélée à 11 ans dans Game of Thrones (2016-2019) en Lyanna Mormont, iel marque les esprits par son charisme. En 2017, iel joue Mildred Hubble dans The Worst Witch, remportant un BAFTA, et prête sa voix à Hilda (2018-2023). Son rôle d’Ellie dans The Last of Us (2023-2025) lui vaut des nominations aux Emmy et Golden Globes. Ramsey brille aussi dans Catherine Called Birdy (2022). Diagnostiquée autiste à 18 ans, iel s’engage pour l’inclusivité et le véganisme, malgré les critiques en ligne.",
+        "bio": "Bella Ramsey, née le 25 septembre 2003 à Nottingham, est une personnalité britannique non binaire (iel/they). Révélée à 11 ans dans Game of Thrones (2016-2019) en Lyanna Mormont, iel marque les esprits par son charisme. En 2017, iel joue Mildred Hubble dans The Worst Witch, remportant un BAFTA, et prête sa voix à Hilda (2018-2023). Son rôle d'Ellie dans The Last of Us (2023-2025) lui vaut des nominations aux Emmy et Golden Globes. Ramsey brille aussi dans Catherine Called Birdy (2022). Diagnostiquée autiste à 18 ans, iel s'engage pour l'inclusivité et le véganisme, malgré les critiques en ligne.",
         "birthDate": "2003-09-30",
         "gender": "Non-Binaire",
         "nationality": "Nottingham, England, UK",
@@ -10270,6 +10270,205 @@
                 "type": "serie",
                 "role": "Lyanna Mormont",
                 "episodes": 9
+            }
+        ]
+    },
+    "Isabela Merced": {
+        "name": "Isabela Merced",
+        "photo": "medias/acteurs/isabela_merced.jpg",
+        "bio": "Isabela Merced (née Isabela Yolanda Moner le 10 juillet 2001) est une actrice américaine, comédienne de voix, chanteuse, compositrice, danseuse et joueuse de ukulélé. Moner est né à Cleveland, Ohio. Elle est née de Katherine Moner, d'origine péruvienne, née à Lima, au Pérou, et de Patrick Moner, d'origine américaine, né en Louisiane. Elle est l'enfant du milieu de sa famille et a deux autres frères, Gyovanni, qui est son frère cadet et Jared, qui est son frère aîné. Elle a fait ses débuts à Broadway à l'âge de 10 ans dans une production d'Evita.",
+        "birthDate": "2001-07-10",
+        "gender": "Femme",
+        "nationality": "Cleveland, Ohio, USA",
+        "filmography": [
+            {
+                "title": "Superman",
+                "year": 2025,
+                "type": "film",
+                "role": "Hawkgirl"
+            },
+            {
+                "title": "The Last of Us",
+                "year": 2025,
+                "type": "serie",
+                "role": "Dina",
+                "episodes": 7
+            },
+            {
+                "title": "The Kelly Clarkson Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Peacemaker",
+                "year": 2025,
+                "type": "serie",
+                "role": "Hawkgirl",
+                "episodes": 1
+            },
+            {
+                "title": "Alien : Romulus",
+                "year": 2024,
+                "type": "film",
+                "role": "Kay"
+            },
+            {
+                "title": "Turtles All the Way Down",
+                "year": 2024,
+                "type": "film",
+                "role": "Aza Holmes"
+            },
+            {
+                "title": "Madame Web",
+                "year": 2024,
+                "type": "film",
+                "role": "Anya Corazón"
+            },
+            {
+                "title": "Pierre, Feuille, Ciseaux",
+                "year": 2024,
+                "type": "serie",
+                "role": "The Susan (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "Migration",
+                "year": 2023,
+                "type": "film",
+                "role": "Kim (voice)"
+            },
+            {
+                "title": "Father of the Bride",
+                "year": 2022,
+                "type": "film",
+                "role": "Cora Herrera"
+            },
+            {
+                "title": "Rosaline",
+                "year": 2022,
+                "type": "film",
+                "role": "Juliet"
+            },
+            {
+                "title": "Spirit & Friends",
+                "year": 2022,
+                "type": "serie",
+                "role": "Lucky (voice)",
+                "episodes": 20
+            },
+            {
+                "title": "Sweet Girl",
+                "year": 2021,
+                "type": "film",
+                "role": "Rachel Cooper"
+            },
+            {
+                "title": "Spirit - L'indomptable",
+                "year": 2021,
+                "type": "film",
+                "role": "Lucky Prescott (voice)"
+            },
+            {
+                "title": "Maya, princesse guerrière",
+                "year": 2021,
+                "type": "serie",
+                "role": "Widow Queen (voice)",
+                "episodes": 9
+            },
+            {
+                "title": "Dora et la Cité perdue",
+                "year": 2019,
+                "type": "film",
+                "role": "Dora"
+            },
+            {
+                "title": "Flocons d'amour",
+                "year": 2019,
+                "type": "film",
+                "role": "Julie"
+            },
+            {
+                "title": "Sicario : La Guerre des cartels",
+                "year": 2018,
+                "type": "film",
+                "role": "Isabel Reyes"
+            },
+            {
+                "title": "Apprentis Parents",
+                "year": 2018,
+                "type": "film",
+                "role": "Elizabeth “Lizzy” Viara"
+            },
+            {
+                "title": "Transformers : The Last Knight",
+                "year": 2017,
+                "type": "film",
+                "role": "Izabella"
+            },
+            {
+                "title": "Opération Casse-noisette 2",
+                "year": 2017,
+                "type": "film",
+                "role": "Heather (voice)"
+            },
+            {
+                "title": "La Malédiction du temple maya",
+                "year": 2016,
+                "type": "film",
+                "role": "Sadie"
+            },
+            {
+                "title": "La 6ème, la pire année de ma vie",
+                "year": 2016,
+                "type": "film",
+                "role": "Jeanne Galletta"
+            },
+            {
+                "title": "Adam et ses clones",
+                "year": 2015,
+                "type": "film",
+                "role": "Lori"
+            },
+            {
+                "title": "Le grand Noël de Nickelodeon",
+                "year": 2015,
+                "type": "film",
+                "role": "Isabela Moner"
+            },
+            {
+                "title": "The House That Jack Built",
+                "year": 2015,
+                "type": "film",
+                "role": "Young Nadia"
+            },
+            {
+                "title": "100 Things to Do Before High School",
+                "year": 2014,
+                "type": "film",
+                "role": "CJ Martin"
+            },
+            {
+                "title": "100 choses à faire avant le lycée",
+                "year": 2014,
+                "type": "serie",
+                "role": "CJ Martin",
+                "episodes": 25
+            },
+            {
+                "title": "Dora and Friends : Au cœur de la ville",
+                "year": 2014,
+                "type": "serie",
+                "role": "Kate (voice)",
+                "episodes": 20
+            },
+            {
+                "title": "Growing Up Fisher",
+                "year": 2014,
+                "type": "serie",
+                "role": "Jenny",
+                "episodes": 7
             }
         ]
     }
