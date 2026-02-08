@@ -225,7 +225,7 @@ Vous pouvez facilement personnaliser StreamIt en ajoutant vos propres films et s
           "title": "Chute libre",
           "desc": "Walter White découvre qu'il a un cancer...",
           "duration": "58min",
-          "video": "medias/series/breaking-bad/s1/ep1.mp4"
+          "video": "medias/series/breaking-bad/1-1.mp4"
         }
       ]
     }
@@ -264,10 +264,7 @@ medias/
 │   └── nom-de-la-serie/
 │       ├── poster.jpg
 │       ├── banner.jpg
-│       └── s1/                   # Dossier par saison
-│           ├── ep1.mp4
-│           ├── ep2.mp4
-│           └── ...
+│       └── 1-1.mp4               # Format saison-numero (ex: épisode 1, saison 2: 2-1.mp4)
 └── acteurs/
     └── nom-acteur.jpg            # 800×800px recommandé
 ```
