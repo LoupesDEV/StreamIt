@@ -11,6 +11,7 @@ import { playVideo, getFilmWatchData, getEpisodeWatchData, isSeriesFullyWatched 
 let activeDetailItem = null;
 let activeVideoSrc = "";
 let activeVideoContext = null;
+let activeSelectedSeason = null; // Track the currently selected season
 
 /**
  * Sets up the hero section with the given media item.
@@ -78,8 +79,9 @@ export function setupHero(item) {
 /**
  * Opens the details overlay for a given media item.
  * @param {Object} item - The media item to display details for.
+ * @param {string|null} [preferredSeason=null] - Optional season to pre-select.
  */
-export function openDetails(item) {
+export function openDetails(item, preferredSeason = null) {
     activeDetailItem = item;
     const overlay = document.getElementById('detailsOverlay');
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
@@ -128,7 +130,19 @@ export function openDetails(item) {
                 opt.innerText = `Saison ${key}`;
                 seasonSelect.appendChild(opt);
             });
-            renderEpisodes(seasons[seasonKeys[0]], seasonKeys[0]);
+            
+            // Determine which season to display
+            let initialSeason = seasonKeys[0];
+            if (preferredSeason && seasonKeys.includes(String(preferredSeason))) {
+                initialSeason = String(preferredSeason);
+            } else if (activeSelectedSeason && seasonKeys.includes(String(activeSelectedSeason))) {
+                initialSeason = String(activeSelectedSeason);
+            }
+            
+            // Set the select value and render episodes
+            seasonSelect.value = initialSeason;
+            activeSelectedSeason = initialSeason;
+            renderEpisodes(seasons[initialSeason], initialSeason);
 
             // Handle season selection changes
             seasonSelect.onchange = (e) => {
@@ -139,6 +153,7 @@ export function openDetails(item) {
                 const selectedSeason = selectedKey ? seasons[selectedKey] : null;
                 if (selectedSeason) {
                     const safeSeasonId = String(selectedKey);
+                    activeSelectedSeason = safeSeasonId; // Save the selected season
                     renderEpisodes(selectedSeason, safeSeasonId);
                 }
             };
@@ -184,7 +199,7 @@ export function closeDetails() {
  */
 export function refreshActiveSeriesDetails() {
     if (activeDetailItem && (activeDetailItem.type === 'serie' || activeDetailItem.seasons !== undefined)) {
-        openDetails(activeDetailItem);
+        openDetails(activeDetailItem, activeSelectedSeason);
     }
 }
 
@@ -237,6 +252,9 @@ function renderEpisodes(episodes, seasonNum) {
     const safeSeasonNum = typeof seasonNum === 'string'
         ? seasonNum.replace(/[^0-9]/g, '') || '1'
         : String(Number.isFinite(seasonNum) ? seasonNum : 1);
+
+    // Update the active selected season
+    activeSelectedSeason = safeSeasonNum;
 
     // Set first episode as default video source
     if (episodes.length > 0) {
