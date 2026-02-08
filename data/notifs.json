@@ -1,5 +1,12 @@
 [
     {
+        "id": 21,
+        "type": "update",
+        "title": "Mise à jour",
+        "message": "La page série est maintenant mis à jour pour se mettre a jour automatiquement après avoir regardé un épisode, vous n'avez plus besoin de la rafraîchir manuellement pour voir les changements de statut de vos épisodes.",
+        "time": "8 Février 2026"
+    },
+    {
         "id": 20,
         "type": "series",
         "title": "Nouvelles Séries Disponibles",
