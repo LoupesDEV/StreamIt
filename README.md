@@ -396,17 +396,12 @@ StreamIt/
 ### 🎯 Prochaines fonctionnalités
 
 **Version 3.5** (En cours)
-- [ ] Mode sombre/clair avec switch
 - [ ] Lecture suivante automatique à la fin d'un épisode
-- [ ] Listes de lecture personnalisées
-- [ ] Partage de progression entre appareils (cloud sync)
 - [ ] Sous-titres et pistes audio multiples
-- [ ] Recommandations basées sur l'historique
 
-**Version 3.6** (Planifié)
-- [ ] Backend Node.js pour sécurisation des médias
-- [ ] Système de notation et reviews
-- [ ] Reprise de lecture cross-device
+**Version Suivante** (Planifié)
+- [ ] Mode sombre/clair avec switch
+- [ ] Recommandations basées sur l'historique
 - [ ] Mode cinéma (luminosité réduite)
 - [ ] Cast vers Chromecast/AirPlay
 
