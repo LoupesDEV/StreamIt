@@ -31,12 +31,14 @@
 
 <body class="min-h-screen relative selection:bg-red-600 selection:text-white text-white">
 
+    <!-- Animated Background Blobs -->
     <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <div class="liquid-blob bg-red-900/40 w-[800px] h-[800px] -top-[20%] -left-[10%]"></div>
         <div class="liquid-blob bg-red-800/30 w-[600px] h-[600px] bottom-[-10%] right-[-10%] animation-delay-2000">
         </div>
     </div>
 
+    <!-- Main Navigation Bar -->
     <nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300" id="navbar">
         <div class="container mx-auto px-6 h-20 flex items-center justify-between relative z-50">
 
@@ -107,17 +109,20 @@
                             <div class="bg-[#111111] divide-y divide-white/5">
                                 <button onclick="downloadProgressBackup()"
                                     class="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors flex items-center gap-3">
-                                    <span class="w-10 h-10 rounded-lg bg-red-600/10 text-red-400 flex items-center justify-center">
+                                    <span
+                                        class="w-10 h-10 rounded-lg bg-red-600/10 text-red-400 flex items-center justify-center">
                                         <i class="fas fa-download"></i>
                                     </span>
                                     <span class="flex-1">
                                         <div class="font-bold text-sm text-gray-200">Exporter la progression</div>
-                                        <div class="text-xs text-gray-500">Télécharger le suivi des films et séries</div>
+                                        <div class="text-xs text-gray-500">Télécharger le suivi des films et séries
+                                        </div>
                                     </span>
                                 </button>
                                 <button onclick="openProgressImport()"
                                     class="w-full text-left px-4 py-3 hover:bg-white/5 transition-colors flex items-center gap-3">
-                                    <span class="w-10 h-10 rounded-lg bg-emerald-600/10 text-emerald-400 flex items-center justify-center">
+                                    <span
+                                        class="w-10 h-10 rounded-lg bg-emerald-600/10 text-emerald-400 flex items-center justify-center">
                                         <i class="fas fa-file-import"></i>
                                     </span>
                                     <span class="flex-1">
@@ -133,6 +138,7 @@
             </div>
         </div>
 
+        <!-- Mobile Search Panel -->
         <div id="mobileSearchPanel"
             class="hidden md:hidden absolute top-20 left-0 w-full bg-[#050505] border-b border-white/10 p-4 animate-fade-in-up">
             <div class="relative">
@@ -142,6 +148,7 @@
             </div>
         </div>
 
+        <!-- Mobile Menu Panel -->
         <div id="mobileMenuPanel"
             class="fixed left-0 right-0 top-20 bg-black z-40 transform translate-x-[-100%] transition-transform duration-300 md:hidden flex flex-col p-8 gap-6 border-b border-white/10 rounded-b-2xl shadow-2xl">
             <button onclick="router('home')"
@@ -157,7 +164,9 @@
         </div>
     </nav>
 
+    <!-- Main Content Area -->
     <main class="pt-20 min-h-screen pb-24 relative z-10">
+        <!-- Hero Section -->
         <div id="heroSection" class="relative min-h-[85vh] w-full hidden group overflow-hidden flex items-center">
             <div class="absolute inset-0 z-0">
                 <img id="heroImage" src=""
@@ -207,6 +216,7 @@
             </div>
         </div>
 
+        <!-- Filter Section -->
         <div id="filterSection" class="container mx-auto px-6 py-10 hidden">
             <div class="glass-panel p-6 rounded-2xl animate-fade-in-up">
                 <div class="flex flex-wrap gap-4 items-end justify-between">
@@ -260,7 +270,9 @@
             </div>
         </div>
 
+        <!-- Home Page Content -->
         <div id="homePageContent" class="container mx-auto px-6 mt-12 space-y-16 hidden animate-fade-in-up">
+            <!-- Featured Films Section -->
             <section>
                 <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
                     <span class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
@@ -270,6 +282,7 @@
                 </div>
             </section>
 
+            <!-- Trending Series Section -->
             <section>
                 <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
                     <span class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
@@ -280,10 +293,13 @@
             </section>
         </div>
 
+        <!-- Collections Content -->
         <div id="collectionsContent" class="container mx-auto px-6 mt-12 space-y-20 hidden animate-fade-in-up"></div>
 
+        <!-- Actors Content -->
         <div id="actorsContent" class="container mx-auto px-6 mt-12 space-y-10 hidden animate-fade-in-up"></div>
 
+        <!-- Generic Grid Container -->
         <div id="genericGridContainer" class="container mx-auto px-6 mt-8 hidden animate-fade-in-up">
             <h2 id="sectionTitle" class="text-2xl font-bold mb-8 flex items-center gap-3">
                 <span class="w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
@@ -296,6 +312,7 @@
         <div id="actorsContent" class="container mx-auto px-6 mt-12 space-y-10 hidden animate-fade-in-up"></div>
     </main>
 
+    <!-- Media Details Overlay -->
     <div id="detailsOverlay" class="fixed inset-0 z-[60] bg-[#050505] hidden overflow-y-auto custom-scrollbar">
         <button onclick="closeDetails()"
             class="fixed top-8 right-8 z-[80] w-12 h-12 rounded-full bg-black/40 backdrop-blur-xl flex items-center justify-center hover:bg-red-600 transition-all group border border-white/10 shadow-2xl">
@@ -318,7 +335,8 @@
                         </h1>
                         <div class="flex flex-wrap items-center gap-6 text-base font-bold text-gray-300 mb-10">
                             <span id="detailMatch"
-                                class="text-green-400 bg-green-900/20 px-3 py-1 rounded-full backdrop-blur-md">Recommandé à 98%</span>
+                                class="text-green-400 bg-green-900/20 px-3 py-1 rounded-full backdrop-blur-md">Recommandé
+                                à 98%</span>
                             <span class="flex items-center gap-2"><i class="fas fa-calendar-alt text-red-500"></i> <span
                                     id="detailYear"></span></span>
                             <span id="detailDuration" class="border-2 border-white/20 px-3 py-1 rounded-full"></span>
@@ -344,6 +362,7 @@
                             class="text-gray-300 text-xl leading-relaxed font-light tracking-wide max-w-4xl"></p>
                     </div>
 
+                    <!-- Series Episodes Section -->
                     <div id="seriesSection" class="hidden">
                         <div class="flex items-center justify-between mb-8">
                             <h3 class="text-3xl font-bold flex items-center gap-3">
@@ -363,6 +382,7 @@
                     </div>
                 </div>
 
+                <!-- Metadata Sidebar -->
                 <div class="lg:w-1/3 space-y-10 order-1 lg:order-2">
                     <div class="glass-panel p-8 rounded-2xl space-y-8">
                         <div>
@@ -371,7 +391,8 @@
                             <div id="detailCast" class="flex flex-wrap gap-2"></div>
                         </div>
                         <div>
-                            <span class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Réalisation</span>
+                            <span
+                                class="block text-red-500 text-sm font-black uppercase tracking-widest mb-3">Réalisation</span>
                             <div id="detailCreators" class="text-white text-lg font-medium"></div>
                         </div>
                     </div>
@@ -384,6 +405,7 @@
         </div>
     </div>
 
+    <!-- Actor Details Overlay -->
     <div id="actorOverlay" class="fixed inset-0 z-[70] bg-[#050505]/95 hidden overflow-y-auto custom-scrollbar">
         <button onclick="closeActorDetails()"
             class="fixed top-8 right-8 z-[90] w-12 h-12 rounded-full bg-black/40 backdrop-blur-xl flex items-center justify-center hover:bg-red-600 transition-all group border border-white/10 shadow-2xl">
@@ -400,17 +422,21 @@
                         <div class="space-y-3">
                             <div class="flex items-center justify-between gap-3">
                                 <div>
-                                    <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Genre</div>
+                                    <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Genre
+                                    </div>
                                     <div id="actorDetailGender" class="font-bold text-lg text-white">-</div>
                                 </div>
-                                <span id="actorDetailAge" class="px-3 py-1 rounded-full text-sm font-bold bg-white/10 border border-white/15">-</span>
+                                <span id="actorDetailAge"
+                                    class="px-3 py-1 rounded-full text-sm font-bold bg-white/10 border border-white/15">-</span>
                             </div>
                             <div>
-                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Date de Naissance</div>
+                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Date de
+                                    Naissance</div>
                                 <div id="actorDetailBirth" class="font-semibold text-white">-</div>
                             </div>
                             <div>
-                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Lieu de Naissance</div>
+                                <div class="text-[11px] uppercase tracking-[0.18em] text-gray-400 font-black">Lieu de
+                                    Naissance</div>
                                 <div id="actorDetailNationality" class="font-semibold text-white">-</div>
                             </div>
                         </div>
@@ -418,10 +444,12 @@
 
                     <div class="p-6 lg:p-10 space-y-6">
                         <div class="space-y-3">
-                            <h3 id="actorDetailName" class="text-3xl md:text-4xl font-black text-white leading-tight"></h3>
+                            <h3 id="actorDetailName" class="text-3xl md:text-4xl font-black text-white leading-tight">
+                            </h3>
                             <p id="actorDetailBio" class="text-gray-300 leading-relaxed"></p>
                             <div class="flex flex-wrap gap-3 text-sm font-bold text-gray-300">
-                                <span id="actorDetailProjects" class="px-3 py-1 rounded-full bg-red-600/15 text-red-300 border border-red-500/30"></span>
+                                <span id="actorDetailProjects"
+                                    class="px-3 py-1 rounded-full bg-red-600/15 text-red-300 border border-red-500/30"></span>
                             </div>
                         </div>
 
@@ -440,42 +468,51 @@
         </div>
     </div>
 
+    <!-- Video Player Overlay -->
     <div id="videoOverlay"
         class="fixed inset-0 z-[100] bg-black hidden flex flex-col justify-center transition-opacity duration-300">
         <button onclick="closeVideo()"
             class="absolute top-8 right-8 z-[110] text-white/50 hover:text-white transition-colors p-4 bg-black/20 rounded-full backdrop-blur-md video-control">
             <i class="fas fa-times text-3xl shadow-black drop-shadow-md"></i>
         </button>
-        
+
         <!-- Custom Video Player -->
         <div id="customVideoPlayer" class="relative w-full h-full flex items-center justify-center">
             <video id="mainPlayer" controlslist="nodownload noremoteplayback" disablepictureinpicture playsinline
                 class="w-full h-full object-contain focus:outline-none bg-black"></video>
-            
+
             <!-- Video Title Overlay -->
-            <div id="videoTitleOverlay" class="video-control absolute top-0 left-0 right-0 p-8 bg-gradient-to-b from-black/80 via-black/40 to-transparent">
+            <div id="videoTitleOverlay"
+                class="video-control absolute top-0 left-0 right-0 p-8 bg-gradient-to-b from-black/80 via-black/40 to-transparent">
                 <div id="videoTitle" class="text-white">
                     <div id="videoSeriesInfo" class="text-sm font-semibold text-gray-300 mb-1"></div>
                     <div id="videoMainTitle" class="text-2xl md:text-3xl font-bold"></div>
                 </div>
             </div>
-            
+
             <!-- Custom Controls -->
             <div id="videoControls" class="video-control absolute bottom-0 left-0 right-0">
                 <!-- Progress Bar Container -->
                 <div id="progressContainer" class="relative px-8 pb-3 cursor-pointer group">
-                    <div class="relative h-1 bg-white/20 rounded-full overflow-hidden transition-all duration-200 group-hover:h-2">
+                    <div
+                        class="relative h-1 bg-white/20 rounded-full overflow-hidden transition-all duration-200 group-hover:h-2">
                         <!-- Buffered Progress -->
                         <div id="bufferedProgress" class="absolute top-0 left-0 h-full bg-white/30 rounded-full"></div>
                         <!-- Playback Progress -->
-                        <div id="playbackProgress" class="absolute top-0 left-0 h-full bg-red-600 rounded-full transition-all duration-75"></div>
+                        <div id="playbackProgress"
+                            class="absolute top-0 left-0 h-full bg-red-600 rounded-full transition-all duration-75">
+                        </div>
                         <!-- Progress Handle -->
-                        <div id="progressHandle" class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg" style="left: 0%;"></div>
+                        <div id="progressHandle"
+                            class="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-lg"
+                            style="left: 0%;"></div>
                     </div>
                     <!-- Time Tooltip -->
-                    <div id="timeTooltip" class="absolute bottom-full mb-2 px-2 py-1 bg-black/90 text-white text-xs rounded opacity-0 pointer-events-none whitespace-nowrap"></div>
+                    <div id="timeTooltip"
+                        class="absolute bottom-full mb-2 px-2 py-1 bg-black/90 text-white text-xs rounded opacity-0 pointer-events-none whitespace-nowrap">
+                    </div>
                 </div>
-                
+
                 <!-- Control Buttons -->
                 <div class="px-8 pb-6 bg-gradient-to-t from-black via-black/80 to-transparent">
                     <div class="flex items-center justify-between">
@@ -495,7 +532,7 @@
                                     <i class="fas fa-volume-up text-xl"></i>
                                 </button>
                                 <div class="relative group/volume">
-                                    <input type="range" id="volumeSlider" min="0" max="100" value="100" 
+                                    <input type="range" id="volumeSlider" min="0" max="100" value="100"
                                         class="w-0 group-hover/volume:w-24 opacity-0 group-hover/volume:opacity-100 transition-all duration-200 h-1 bg-white/20 rounded-full appearance-none cursor-pointer
                                         [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:cursor-pointer
                                         [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:border-0 [&::-moz-range-thumb]:cursor-pointer">
@@ -505,13 +542,15 @@
                             <span class="text-white/50 text-sm">/</span>
                             <span id="duration" class="text-white text-sm font-semibold">0:00</span>
                         </div>
-                        
+
                         <!-- Right Controls -->
                         <div class="flex items-center gap-4">
-                            <button id="speedBtn" class="text-white hover:scale-110 transition-transform text-sm font-bold px-2 py-1 rounded bg-white/10 hover:bg-white/20">
+                            <button id="speedBtn"
+                                class="text-white hover:scale-110 transition-transform text-sm font-bold px-2 py-1 rounded bg-white/10 hover:bg-white/20">
                                 1x
                             </button>
-                            <button id="qualityBtn" class="text-white hover:scale-110 transition-transform text-sm font-bold">
+                            <button id="qualityBtn"
+                                class="text-white hover:scale-110 transition-transform text-sm font-bold">
                                 <i class="fas fa-cog text-xl"></i>
                             </button>
                             <button id="fullscreenBtn" class="text-white hover:scale-110 transition-transform">
@@ -521,21 +560,24 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Center Play Button (appears when paused) -->
-            <div id="centerPlayBtn" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-300">
+            <div id="centerPlayBtn"
+                class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-300">
                 <div class="w-20 h-20 bg-black/50 rounded-full flex items-center justify-center backdrop-blur-sm">
                     <i class="fas fa-play text-white text-3xl ml-1"></i>
                 </div>
             </div>
-            
+
             <!-- Loading Spinner -->
-            <div id="videoLoader" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity">
+            <div id="videoLoader"
+                class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity">
                 <div class="w-16 h-16 border-4 border-white/20 border-t-red-600 rounded-full animate-spin"></div>
             </div>
         </div>
     </div>
 
+    <!-- Loading Screen -->
     <div id="loader"
         class="fixed inset-0 bg-[#050505] z-[200] flex flex-col items-center justify-center transition-opacity duration-700">
         <div class="relative w-32 h-32 mb-8">

@@ -4,8 +4,10 @@
  * @module display
  */
 
+// Import utility functions for video playback and watch data
 import { playVideo, getFilmWatchData, getEpisodeWatchData, isSeriesFullyWatched } from './utils.js';
 
+// Global state variables for managing active media details and video context
 let activeDetailItem = null;
 let activeVideoSrc = "";
 let activeVideoContext = null;
@@ -17,8 +19,10 @@ let activeVideoContext = null;
 export function setupHero(item) {
     if (!item) return;
 
+    // Determine if the item is a series or film
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
 
+    // Populate hero section elements with media data
     document.getElementById('heroImage').src = item.banner || item.poster;
     document.getElementById('heroTitle').innerText = item.title;
     document.getElementById('heroDesc').innerText = item.description;
@@ -26,6 +30,7 @@ export function setupHero(item) {
     document.getElementById('heroYear').innerText = item.year;
     document.getElementById('heroType').innerText = isSerie ? 'Série' : 'Film';
 
+    // Set duration text (seasons count for series, duration for films)
     let durationText = item.duration || "2h 15min";
     if (isSerie && item.seasons) {
         const nbSeasons = Object.keys(item.seasons).length;
@@ -34,17 +39,19 @@ export function setupHero(item) {
     document.getElementById('heroDuration').innerText = durationText;
     document.getElementById('heroGenre').innerText = item.genres?.[0] || "";
 
+    // Replace play button to clear previous event listeners
     const heroBtn = document.getElementById('heroPlayBtn');
     const newBtn = heroBtn.cloneNode(true);
     heroBtn.parentNode.replaceChild(newBtn, heroBtn);
 
+    // Set up play button click handler based on media type
     newBtn.onclick = () => {
         openDetails(item);
         if (isSerie && item.seasons?.["1"]?.[0]) {
-            const ctx = { 
-                type: 'series', 
-                title: item.title, 
-                season: '1', 
+            const ctx = {
+                type: 'series',
+                title: item.title,
+                season: '1',
                 episodeIndex: 0,
                 episodeTitle: item.seasons["1"][0].title || 'Épisode 1'
             };
@@ -59,6 +66,7 @@ export function setupHero(item) {
         }
     };
 
+    // Set up info button to open details overlay
     const infoBtn = document.getElementById('heroInfoBtn');
     if (infoBtn) {
         const newInfoBtn = infoBtn.cloneNode(true);
@@ -77,11 +85,13 @@ export function openDetails(item) {
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
     const playBtn = document.getElementById('detailPlayBtn');
 
+    // Populate detail overlay with media information
     document.getElementById('detailHeroImg').src = item.banner || item.poster;
     document.getElementById('detailTitle').innerText = item.title;
     document.getElementById('detailDesc').innerText = item.description;
     document.getElementById('detailYear').innerText = item.year;
 
+    // Calculate and display match score based on IMDb rating
     const matchScore = item.IMDb ? Math.round(item.IMDb * 10) : 90;
     document.getElementById('detailMatch').innerText = `Recommandé à ${matchScore}%`;
 
@@ -92,10 +102,12 @@ export function openDetails(item) {
     }
     document.getElementById('detailDuration').innerText = durationText;
 
+    // Generate genre pills and cast badges
     document.getElementById('detailGenrePills').innerHTML = item.genres?.map(g => `<span class="text-gray-300 text-sm font-medium px-3 py-1 rounded-full bg-white/5 border border-white/10">${g}</span>`).join('') || "";
     document.getElementById('detailCast').innerHTML = item.stars?.map(s => `<span class="bg-red-600/10 text-red-300 px-4 py-2 rounded-full text-sm font-bold">${s}</span>`).join('') || "Non renseigné";
     document.getElementById('detailCreators').innerText = (item.directors || item.creators || []).join(", ") || "Non renseigné";
 
+    // Handle series-specific elements (seasons and episodes)
     const seriesSec = document.getElementById('seriesSection');
     const seasonSelect = document.getElementById('seasonSelect');
 
@@ -104,6 +116,7 @@ export function openDetails(item) {
         activeVideoSrc = "";
         activeVideoContext = null;
 
+        // Populate season selector dropdown
         seasonSelect.innerHTML = '';
         const seasons = item.seasons || {};
         const seasonKeys = Object.keys(seasons).sort((a, b) => parseInt(a) - parseInt(b));
@@ -117,6 +130,7 @@ export function openDetails(item) {
             });
             renderEpisodes(seasons[seasonKeys[0]], seasonKeys[0]);
 
+            // Handle season selection changes
             seasonSelect.onchange = (e) => {
                 const rawValue = e.target && typeof e.target.value === 'string' ? e.target.value : null;
                 const selectedKey = rawValue && Object.prototype.hasOwnProperty.call(seasons, rawValue)
@@ -140,6 +154,7 @@ export function openDetails(item) {
         activeVideoContext = item.video ? { type: 'film', title: item.title } : null;
     }
 
+    // Update play button state based on video availability
     if (playBtn) {
         const hasVideo = activeVideoSrc && activeVideoSrc.trim() !== '';
         playBtn.disabled = !hasVideo;
@@ -150,6 +165,7 @@ export function openDetails(item) {
         }
     }
 
+    // Show overlay and prevent background scrolling
     overlay.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
 }
@@ -167,21 +183,22 @@ export function closeDetails() {
  */
 export function playCurrentMedia() {
     if (!activeVideoSrc && activeDetailItem && activeDetailItem.seasons) {
-        // fallback: select first episode if none chosen yet
+        // Fallback: select first episode if none chosen yet
         const firstSeasonKey = Object.keys(activeDetailItem.seasons || {})[0];
         const firstEpisode = firstSeasonKey ? activeDetailItem.seasons[firstSeasonKey]?.[0] : null;
         if (firstEpisode) {
             activeVideoSrc = firstEpisode.video;
-            activeVideoContext = { 
-                type: 'series', 
-                title: activeDetailItem.title, 
-                season: firstSeasonKey, 
+            activeVideoContext = {
+                type: 'series',
+                title: activeDetailItem.title,
+                season: firstSeasonKey,
                 episodeIndex: 0,
                 episodeTitle: firstEpisode.title || 'Épisode 1'
             };
         }
     }
 
+    // Play video if available, otherwise show alert
     if (activeVideoSrc) {
         playVideo(activeVideoSrc, activeVideoContext);
     } else {
@@ -198,6 +215,7 @@ function renderEpisodes(episodes, seasonNum) {
     const list = document.getElementById('episodesList');
     list.innerHTML = '';
 
+    // Use default placeholder episodes if none provided
     if (!episodes || episodes.length === 0) {
         episodes = [
             { title: "Épisode 1", desc: "Description indisponible.", duration: "45m", video: "" },
@@ -205,10 +223,12 @@ function renderEpisodes(episodes, seasonNum) {
         ];
     }
 
+    // Sanitize season number to ensure it's a valid string
     const safeSeasonNum = typeof seasonNum === 'string'
         ? seasonNum.replace(/[^0-9]/g, '') || '1'
         : String(Number.isFinite(seasonNum) ? seasonNum : 1);
 
+    // Set first episode as default video source
     if (episodes.length > 0) {
         activeVideoSrc = episodes[0].video;
         activeVideoContext = {
@@ -231,11 +251,13 @@ function renderEpisodes(episodes, seasonNum) {
         }
     }
 
+    // Render each episode as a card with watch status
     episodes.forEach((ep, idx) => {
         const watchData = getEpisodeWatchData(activeDetailItem?.title, safeSeasonNum, idx);
         const isWatched = watchData.watched;
         const hasProgress = !isWatched && watchData.time > 0;
 
+        // Create episode card container
         const row = document.createElement('div');
         row.className = "episode-item flex flex-col md:flex-row items-center gap-6 p-4 rounded-2xl cursor-pointer transition-all border border-transparent hover:border-white/5 hover:bg-white/[0.02] group bg-[#0a0a0a]";
         if (isWatched) row.classList.add('episode-watched');
@@ -243,6 +265,7 @@ function renderEpisodes(episodes, seasonNum) {
         const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${safeSeasonNum}-EP${idx + 1}`;
         const thumbUrl = activeDetailItem ? activeDetailItem.poster : fallbackThumb;
 
+        // Create left container with episode number and thumbnail
         const leftContainer = document.createElement('div');
         leftContainer.className = "flex items-center gap-6 w-full md:w-auto";
 
@@ -263,6 +286,7 @@ function renderEpisodes(episodes, seasonNum) {
         img.alt = `Thumbnail for ${ep.title}`;
         thumbContainer.appendChild(img);
 
+        // Add play icon overlay on hover
         const overlay = document.createElement('div');
         overlay.className = "absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/40 transition-colors";
 
@@ -273,6 +297,7 @@ function renderEpisodes(episodes, seasonNum) {
         thumbContainer.appendChild(overlay);
         leftContainer.appendChild(thumbContainer);
 
+        // Create right container with episode title, duration, and description
         const rightContainer = document.createElement('div');
         rightContainer.className = "flex-1 w-full text-center md:text-left overflow-hidden";
 
@@ -291,6 +316,7 @@ function renderEpisodes(episodes, seasonNum) {
         metaRow.className = "flex items-center gap-2 flex-wrap justify-center md:justify-end";
         metaRow.appendChild(durationEl);
 
+        // Add watched or resume badges based on watch status
         if (isWatched) {
             const watchedBadge = document.createElement('span');
             watchedBadge.className = "watched-pill";
@@ -316,6 +342,7 @@ function renderEpisodes(episodes, seasonNum) {
         row.appendChild(leftContainer);
         row.appendChild(rightContainer);
 
+        // Set up click handler to play the episode
         row.onclick = (e) => {
             e.stopPropagation();
             const ctx = {
@@ -348,9 +375,11 @@ export function createMediaCard(item, extraClasses = "") {
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
     const filmWatch = !isSerie ? getFilmWatchData(item.title) : null;
 
+    // Determine watch status (watched/resume) for badge display
     let watched = false;
     let hasResume = false;
 
+    // Check watch status for series (fully watched or has progress)
     if (isSerie) {
         watched = isSeriesFullyWatched(item);
         if (!watched && item.seasons) {
@@ -372,10 +401,12 @@ export function createMediaCard(item, extraClasses = "") {
         hasResume = !watched && filmWatch && (filmWatch.time || 0) > 0;
     }
 
+    // Generate status badges HTML (watched/resume)
     const watchedBadge = watched ? '<span class="watched-pill"><i class="fas fa-eye text-xs"></i> Vu</span>' : '';
     const resumeBadge = !watched && hasResume ? '<span class="resume-pill">Reprendre</span>' : '';
     const badgeStack = watchedBadge || resumeBadge ? `<div class="status-badges">${watchedBadge}${resumeBadge}</div>` : '';
 
+    // Build media card HTML structure
     card.innerHTML = `
         ${badgeStack}
         <img src="${item.poster}" alt="Poster for ${item.title}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
@@ -431,13 +462,15 @@ export function renderCollections(collectionsData, appData) {
         return;
     }
 
+    // Sort collections alphabetically by name
     const sortedCollections = Object.entries(collectionsData).sort(([, a], [, b]) => {
         return a.name.localeCompare(b.name);
     });
 
     for (const [key, collection] of sortedCollections) {
         const items = [];
-        
+
+        // Aggregate films from collection
         if (collection.films && Array.isArray(collection.films)) {
             collection.films.forEach(title => {
                 const foundFilm = Object.values(appData.films).find(f => f.title === title);
@@ -445,6 +478,7 @@ export function renderCollections(collectionsData, appData) {
             });
         }
 
+        // Aggregate series from collection
         if (collection.series && Array.isArray(collection.series)) {
             collection.series.forEach(title => {
                 const foundSerie = Object.values(appData.series).find(s => s.title === title);
@@ -452,12 +486,13 @@ export function renderCollections(collectionsData, appData) {
             });
         }
 
+        // Render collection section if it has items
         if (items.length > 0) {
             items.sort((a, b) => a.year - b.year);
 
             const section = document.createElement('section');
             section.className = "animate-fade-in-up";
-            
+
             const titleHTML = `
                 <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
                     <span class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
@@ -468,7 +503,7 @@ export function renderCollections(collectionsData, appData) {
 
             const rowDiv = document.createElement('div');
             rowDiv.className = "scroll-row flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1";
-            
+
             items.forEach(item => {
                 const card = createMediaCard(item, "min-w-[200px] md:min-w-[280px] aspect-[2/3] snap-start");
                 rowDiv.appendChild(card);
@@ -488,6 +523,7 @@ export function renderNotifs(list) {
     const container = document.getElementById('notifList');
     const badge = document.getElementById('notifBadge');
 
+    // Show notification badge if there are notifications
     if (list.length > 0) badge.classList.remove('hidden');
 
     container.innerHTML = list.map(n => `
@@ -503,6 +539,11 @@ export function renderNotifs(list) {
     if (list.length === 0) container.innerHTML = '<div class="p-4 text-center text-gray-500 text-xs">Aucune notification</div>';
 }
 
+/**
+ * Computes age from a birth date string.
+ * @param {string} dateStr - The birth date string.
+ * @returns {number|null} The calculated age or null if invalid.
+ */
 function computeAge(dateStr) {
     if (!dateStr) return null;
     const dob = new Date(dateStr);
@@ -514,6 +555,11 @@ function computeAge(dateStr) {
     return age;
 }
 
+/**
+ * Formats a birth date string into a localized French date format.
+ * @param {string} dateStr - The birth date string.
+ * @returns {string} Formatted date or "Date inconnue" if invalid.
+ */
 function formatBirthDate(dateStr) {
     if (!dateStr) return "Date inconnue";
     const d = new Date(dateStr);
@@ -521,17 +567,34 @@ function formatBirthDate(dateStr) {
     return d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
 }
 
+/**
+ * Generates an availability badge HTML.
+ * @param {boolean} isAvailable - Whether the item is available in the catalog.
+ * @returns {string} HTML string for the availability badge.
+ */
 function availabilityBadge(isAvailable) {
     return isAvailable
         ? '<span class="badge badge-available">Disponible</span>'
         : '<span class="badge badge-missing">Hors catalogue</span>';
 }
 
+/**
+ * Generates a media type badge (Film/Série).
+ * @param {string} type - The media type ('serie' or 'film').
+ * @returns {string} HTML string for the type badge.
+ */
 function typeBadge(type) {
     const label = type === 'serie' ? 'Série' : 'Film';
     return `<span class="badge badge-type">${label}</span>`;
 }
 
+/**
+ * Renders the filmography timeline for an actor.
+ * @param {HTMLElement} timelineEl - The timeline container element.
+ * @param {Array} filmography - Array of filmography items.
+ * @param {Object} filmsData - Films data for availability check.
+ * @param {Object} seriesData - Series data for availability check.
+ */
 function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
     timelineEl.innerHTML = '';
 
@@ -540,7 +603,7 @@ function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
         return;
     }
 
-    // Group films by year
+    // Group films by year for timeline display
     const grouped = {};
     filmography.forEach(item => {
         const year = item.year || 0;
@@ -548,7 +611,7 @@ function renderTimeline(timelineEl, filmography, filmsData, seriesData) {
         grouped[year].push(item);
     });
 
-    // Process grouped years in order
+    // Process grouped years in descending order (newest first)
     Object.keys(grouped)
         .sort((a, b) => b - a)
         .forEach(year => {
@@ -612,6 +675,7 @@ export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
     const filmography = Array.isArray(actor.filmography) ? [...actor.filmography] : [];
     filmography.sort((a, b) => (b.year || 0) - (a.year || 0));
 
+    // Calculate age and format birth information
     const age = computeAge(actor.birthDate);
     const ageLabel = age !== null ? `${age} ans` : 'Âge inconnu';
     const birthLabel = formatBirthDate(actor.birthDate);
@@ -624,6 +688,7 @@ export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
         };
     }
 
+    // Get references to all detail elements
     const nameEl = document.getElementById('actorDetailName');
     const bioEl = document.getElementById('actorDetailBio');
     const genderEl = document.getElementById('actorDetailGender');
@@ -633,6 +698,7 @@ export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
     const projectsEl = document.getElementById('actorDetailProjects');
     const timelineEl = document.getElementById('actorTimeline');
 
+    // Populate actor detail elements
     if (nameEl) nameEl.textContent = actor.name || 'Nom inconnu';
     if (bioEl) bioEl.textContent = actor.bio || 'Biographie non renseignée.';
     if (genderEl) genderEl.textContent = actor.gender || 'Non renseigné';
@@ -641,8 +707,10 @@ export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
     if (nationalityEl) nationalityEl.textContent = actor.nationality || '—';
     if (projectsEl) projectsEl.textContent = `${filmography.length} projets`;
 
+    // Render filmography timeline
     if (timelineEl) renderTimeline(timelineEl, filmography, filmsData, seriesData);
 
+    // Show overlay and prevent background scrolling
     overlay.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
 }
@@ -667,6 +735,7 @@ export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
     const container = document.getElementById('actorsContent');
     if (!container) return;
 
+    // Convert actors object to array and sort alphabetically
     const actors = Object.values(actorsData || {});
     if (actors.length === 0) {
         container.innerHTML = '<div class="text-center text-gray-500 py-12">Aucun acteur enregistré pour le moment.</div>';
@@ -676,9 +745,11 @@ export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
     actors.sort((a, b) => a.name.localeCompare(b.name));
     container.innerHTML = '';
 
+    // Create responsive grid for actor cards
     const grid = document.createElement('div');
     grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-8";
 
+    // Create and append actor cards
     actors.forEach(actor => {
         const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
         const card = document.createElement('div');
@@ -713,13 +784,13 @@ export function renderActorsListSearch(actorsData, filmsData = {}, seriesData = 
         return;
     }
 
-    // Create a section title for actors
+    // Create a section title for actors in search results
     const section = document.createElement('div');
     section.className = "col-span-full mt-12 mb-6";
 
     const titleDiv = document.createElement('div');
     titleDiv.className = "flex items-center gap-4 mb-6";
-    
+
     const accentSpan = document.createElement('span');
     accentSpan.className = 'w-1 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]';
     titleDiv.appendChild(accentSpan);
@@ -731,6 +802,7 @@ export function renderActorsListSearch(actorsData, filmsData = {}, seriesData = 
 
     section.appendChild(titleDiv);
 
+    // Create grid for actor cards in search results
     const grid = document.createElement('div');
     grid.className = "col-span-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-8";
 

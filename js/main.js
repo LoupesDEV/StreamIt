@@ -4,13 +4,20 @@
  * @module main
  */
 
+// Import data loading functionality
 import { fetchAllData } from './dataLoader.js';
+
+// Import display and rendering functions
 import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch } from './display.js';
+
+// Import utility functions for video player and UI interactions
 import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
 
+// Global application state
 let appData = { films: {}, series: {}, collections: {}, notifs: {}, actors: {} };
 let currentView = 'home';
 
+// Expose functions to global window scope for inline HTML event handlers
 window.router = router;
 window.toggleNotifs = toggleNotifs;
 window.toggleSettings = toggleSettings;
@@ -24,20 +31,27 @@ window.downloadProgressBackup = downloadProgressBackup;
 window.openProgressImport = openProgressImport;
 window.closeActorDetails = closeActorDetails;
 
+// Initialize application when DOM is fully loaded
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
+
+    // Set up video player security and persistence
     hardenPlayerControls();
     initPlayerPersistence();
 
+    // Attach mobile menu and search event listeners
     document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
     document.getElementById('mobileSearchBtn').addEventListener('click', toggleMobileSearch);
 
+    // Set up progress import file input handler
     const importInput = document.getElementById('progressImportInput');
     if (importInput) {
         importInput.addEventListener('change', async (event) => {
+            // Get the selected file
             const file = event.target.files && event.target.files[0];
             if (!file) return;
             try {
+                // Import progress data from file
                 const result = await importProgressFromFile(file);
                 alert(`Progression importée (${result.filmsCount} films, ${result.seriesCount} séries).`);
                 window.location.reload();
@@ -45,6 +59,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 console.error('Import progression échouée', err);
                 alert(err.message || "Erreur lors de l'import de la progression.");
             } finally {
+                // Reset input and close settings dropdown
                 event.target.value = '';
                 const settings = document.getElementById('settingsDropdown');
                 if (settings) settings.classList.remove('active');
@@ -52,11 +67,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
+    // Load all application data (films, series, collections, notifications, actors)
     const data = await fetchAllData();
     appData = data;
 
+    // Render notifications badge and populate UI
     renderNotifs(data.notifs);
 
+    // Set up hero section and filters, then navigate to home
     initHero();
     populateFilters();
     router('home');
@@ -66,12 +84,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 /**
  * Sets navigation link colors to default (removes highlight).
- * @param {HTMLElement} navHome - Navigation link elements
- * @param {HTMLElement} navSeries - Navigation link elements
- * @param {HTMLElement} navFilms - Navigation link elements
- * @param {HTMLElement} navCollections - Navigation link elements
+ * @param {HTMLElement} navHome - Navigation link for home
+ * @param {HTMLElement} navSeries - Navigation link for series
+ * @param {HTMLElement} navFilms - Navigation link for films
+ * @param {HTMLElement} navCollections - Navigation link for collections
+ * @param {HTMLElement} navActors - Navigation link for actors
  */
 function textWhite(navHome, navSeries, navFilms, navCollections, navActors) {
+    // Remove all active and highlight classes from navigation links
     [navHome, navSeries, navFilms, navCollections, navActors].forEach(el => {
         if (el) el.classList.remove('text-white', 'text-red-500');
     });
@@ -84,11 +104,14 @@ function textWhite(navHome, navSeries, navFilms, navCollections, navActors) {
 function router(view) {
     currentView = view;
 
+    // Clear any active search when navigating
     clearSearch();
 
+    // Close mobile menu and search panels
     document.getElementById('mobileMenuPanel').classList.remove('active');
     document.getElementById('mobileSearchPanel').classList.remove('active');
 
+    // Get references to all page sections and navigation elements
     const hero = document.getElementById('heroSection');
     const filters = document.getElementById('filterSection');
     const homeContent = document.getElementById('homePageContent');
@@ -102,10 +125,13 @@ function router(view) {
     const navCollections = document.getElementById('nav-collections');
     const navActors = document.getElementById('nav-actors');
 
+    // Reset all navigation link styles
     textWhite(navHome, navSeries, navFilms, navCollections, navActors);
 
+    // Scroll to top of page smoothly
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
+    // Hide all sections initially
     hero.classList.add('hidden');
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
@@ -114,23 +140,28 @@ function router(view) {
     genericGrid.classList.add('hidden');
     document.getElementById('contentGrid').innerHTML = '';
 
+    // Prepare data collections for current view
     const allFilms = Object.values(appData.films);
     const allSeries = Object.values(appData.series);
 
+    // Render content based on selected view
     if (view === 'home') {
         if (navHome) navHome.classList.add('text-white');
         hero.classList.remove('hidden');
         homeContent.classList.remove('hidden');
 
+        // Get latest films and series for home page
         const latestFilms = [...allFilms].sort((a, b) => b.year - a.year).slice(0, 5);
         const latestSeries = [...allSeries].sort((a, b) => b.year - a.year).slice(0, 5);
 
         renderHorizontalRow('homeFilmsRow', latestFilms);
         renderHorizontalRow('homeSeriesRow', latestSeries);
 
+        // Enable horizontal mouse wheel scrolling for rows
         enableHorizontalWheelScroll();
     }
     else if (view === 'series') {
+        // Show series view with filters
         if (navSeries) navSeries.classList.add('text-white');
         filters.classList.remove('hidden');
         genericGrid.classList.remove('hidden');
@@ -139,6 +170,7 @@ function router(view) {
         applyFilters();
     }
     else if (view === 'films') {
+        // Show films view with filters
         if (navFilms) navFilms.classList.add('text-white');
         filters.classList.remove('hidden');
         genericGrid.classList.remove('hidden');
@@ -147,6 +179,7 @@ function router(view) {
         applyFilters();
     }
     else if (view === 'collections') {
+        // Show collections view
         if (navCollections) navCollections.classList.add('text-white');
         collectionsContent.classList.remove('hidden');
         renderCollections(appData.collections, appData);
@@ -154,6 +187,7 @@ function router(view) {
         enableHorizontalWheelScroll();
     }
     else if (view === 'actors') {
+        // Show actors view
         if (navActors) navActors.classList.add('text-white');
         actorsContent.classList.remove('hidden');
         renderActorsList(appData.actors, appData.films, appData.series);
@@ -167,11 +201,13 @@ function initHero() {
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
     if (all.length === 0) return;
 
+    // Try to find a featured item first
     const featuredItem = all.find(item => item.featured === true);
 
     if (featuredItem) {
         setupHero(featuredItem);
     } else {
+        // Fallback to most recent item if no featured item
         all.sort((a, b) => b.year - a.year);
         setupHero(all[0]);
     }
@@ -182,10 +218,13 @@ function initHero() {
  */
 function populateFilters() {
     const source = currentView === 'films' ? Object.values(appData.films) : Object.values(appData.series);
+
+    // Extract unique values for filter dropdowns
     const genres = new Set();
     const years = new Set();
     const directors = new Set();
 
+    // Collect all unique genres, years, and directors/creators
     source.forEach(item => {
         item.genres?.forEach(g => genres.add(g));
         if (item.year) years.add(item.year);
@@ -193,14 +232,17 @@ function populateFilters() {
         people.forEach(p => directors.add(p));
     });
 
+    // Populate genre dropdown with sorted values
     const genreSel = document.getElementById('filterGenre');
     genreSel.innerHTML = '<option value="">Tous les genres</option>';
     Array.from(genres).sort().forEach(g => genreSel.add(new Option(g, g)));
 
+    // Populate year dropdown with sorted values (descending)
     const yearSel = document.getElementById('filterYear');
     yearSel.innerHTML = '<option value="">Toutes</option>';
     Array.from(years).sort((a, b) => b - a).forEach(y => yearSel.add(new Option(y, y)));
 
+    // Populate director/creator dropdown with sorted values
     const directorSel = document.getElementById('filterDirector');
     directorSel.innerHTML = '<option value="">Tous</option>';
     Array.from(directors).sort().forEach(d => directorSel.add(new Option(d, d)));
@@ -210,6 +252,7 @@ function populateFilters() {
  * Applies selected filters and sorting to the displayed items.
  */
 function applyFilters() {
+    // Get current filter and sort values
     const genre = document.getElementById('filterGenre').value;
     const year = document.getElementById('filterYear').value;
     const imdb = parseFloat(document.getElementById('filterImdb').value) || 0;
@@ -218,7 +261,9 @@ function applyFilters() {
 
     const source = currentView === 'films' ? Object.values(appData.films) : Object.values(appData.series);
 
+    // Filter items based on selected criteria
     let filtered = source.filter(item => {
+        // Check if item matches all selected filters
         const gMatch = !genre || item.genres?.includes(genre);
         const yMatch = !year || item.year == year;
         const iMatch = (item.IMDb || 0) >= imdb;
@@ -227,6 +272,7 @@ function applyFilters() {
         return gMatch && yMatch && iMatch && dMatch;
     });
 
+    // Sort filtered results based on selected option
     filtered.sort((a, b) => {
         switch (sortBy) {
             case 'date_desc': return b.year - a.year;
@@ -238,6 +284,7 @@ function applyFilters() {
         }
     });
 
+    // Render the filtered and sorted results
     renderGrid(filtered);
 }
 
@@ -245,6 +292,7 @@ function applyFilters() {
  * Resets all filters to default values and reapplies them.
  */
 function resetFilters() {
+    // Reset all filter dropdowns to default values
     document.getElementById('filterGenre').value = "";
     document.getElementById('filterYear').value = "";
     document.getElementById('filterImdb').value = "";
@@ -258,11 +306,14 @@ function resetFilters() {
  * @param {Event} e - The input event.
  */
 function handleSearch(e) {
+    // Get search query and normalize to lowercase
     const q = e.target.value.toLowerCase();
 
+    // Sync desktop and mobile search inputs
     if (e.target.id === 'searchInput') document.getElementById('mobileSearchInput').value = q;
     else document.getElementById('searchInput').value = q;
 
+    // Get references to all page sections
     const hero = document.getElementById('heroSection');
     const filters = document.getElementById('filterSection');
     const homeContent = document.getElementById('homePageContent');
@@ -270,6 +321,7 @@ function handleSearch(e) {
     const genericGrid = document.getElementById('genericGridContainer');
     const actorsContent = document.getElementById('actorsContent');
 
+    // If search is empty, restore current view
     if (!q) {
         if (currentView === 'home') {
             hero.classList.remove('hidden'); homeContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
@@ -284,6 +336,7 @@ function handleSearch(e) {
         return;
     }
 
+    // Hide all sections to show only search results
     hero.classList.add('hidden');
     filters.classList.add('hidden');
     homeContent.classList.add('hidden');
@@ -291,10 +344,13 @@ function handleSearch(e) {
     actorsContent.classList.add('hidden');
     genericGrid.classList.remove('hidden');
 
+    // Search across all films, series, and actors
     const all = [...Object.values(appData.films), ...Object.values(appData.series)];
+    // Filter media and actors by search query
     const resMedia = all.filter(i => i.title.toLowerCase().includes(q));
     const resActors = Object.values(appData.actors).filter(i => i.name.toLowerCase().includes(q));
 
+    // Clear all navigation highlights during search
     const navHome = document.getElementById('nav-home');
     const navSeries = document.getElementById('nav-series');
     const navFilms = document.getElementById('nav-films');
@@ -302,6 +358,7 @@ function handleSearch(e) {
     const navActors = document.getElementById('nav-actors');
     textWhite(navHome, navSeries, navFilms, navCollections, navActors);
 
+    // Update page title with search query and result count
     const titleEl = document.getElementById('titleText');
     const totalResults = resMedia.length + resActors.length;
     if (titleEl) {
@@ -331,11 +388,11 @@ function handleSearch(e) {
             sectionTitle.appendChild(titleTextSpan);
         }
     }
-    
-    // Afficher les films et séries
+
+    // Render media search results (films and series)
     renderGrid(resMedia);
-    
-    // Afficher les acteurs s'il y en a
+
+    // Render actor search results if any found
     if (resActors.length > 0) {
         renderActorsListSearch(resActors, appData.films, appData.series);
     }
@@ -351,13 +408,16 @@ function clearSearch() {
 
 /**
  * Enables horizontal scrolling for elements with the 'scroll-row' class using the mouse wheel.
- * @param root - The root element to search within (default is document).
+ * @param {Document|HTMLElement} [root=document] - The root element to search within.
  */
 function enableHorizontalWheelScroll(root = document) {
+    // Find all scrollable rows and attach wheel event listeners
     root.querySelectorAll('.scroll-row').forEach(el => {
+        // Skip if already attached to prevent duplicate listeners
         if (el.__wheelAttached) return;
         el.__wheelAttached = true;
 
+        // Convert vertical scroll to horizontal scroll
         el.addEventListener('wheel', (e) => {
             if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
                 e.preventDefault();
@@ -367,5 +427,6 @@ function enableHorizontalWheelScroll(root = document) {
     });
 }
 
+// Attach search input handlers for desktop and mobile
 document.getElementById('searchInput').addEventListener('input', handleSearch);
 document.getElementById('mobileSearchInput').addEventListener('input', handleSearch);

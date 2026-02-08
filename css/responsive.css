@@ -1,45 +1,55 @@
 @media (max-width: 640px) {
+    /* Reduce navigation padding on mobile */
     .glass-nav .container {
         padding-left: 1rem;
         padding-right: 1rem;
     }
 
+    /* Reduce logo size for mobile */
     #navbar .text-3xl {
         font-size: 1.5rem;
     }
 
+    /* Mobile menu panel background */
     #mobileMenuPanel {
         background-color: #000000 !important;
     }
 
+    /* Slide in mobile menu when active */
     #mobileMenuPanel.active {
         transform: translate(0);
     }
 
+    /* Transparent background for mobile menu buttons */
     #mobileMenuPanel button {
         background-color: transparent !important;
     }
 
+    /* Show mobile search panel when active */
     #mobileSearchPanel.active {
         display: block;
     }
 
+    /* Hero section height and alignment on mobile */
     #heroSection {
         min-height: 85vh;
         align-items: center;
     }
 
+    /* Add vertical padding to hero container */
     #heroSection .container {
         padding-top: 6rem;
         padding-bottom: 4rem;
     }
 
+    /* Reduce hero title size for mobile readability */
     #heroTitle {
         font-size: 2.5rem !important;
         line-height: 1.1;
         margin-bottom: 1rem;
     }
 
+    /* Adjust hero description for mobile */
     #heroDesc {
         font-size: 1rem;
         line-clamp: 4;
@@ -47,47 +57,56 @@
         margin-bottom: 1.5rem;
     }
 
+    /* Stack hero buttons vertically on mobile */
     #heroSection .flex.gap-5 {
         flex-direction: column;
         gap: 1rem;
         width: 100%;
     }
 
+    /* Full-width buttons with centered text */
     #heroSection button {
         width: 100%;
         justify-content: center;
         padding: 1rem;
     }
 
+    /* Stack filter controls vertically on mobile */
     #filterSection .flex-wrap {
         flex-direction: column;
         align-items: stretch;
     }
 
+    /* Full-width filter inputs on mobile */
     #filterSection select,
     #filterSection input {
         width: 100% !important;
     }
 
+    /* Reduce details overlay title size for mobile */
     #detailsOverlay h1 {
         font-size: 2.2rem !important;
         line-height: 1.2;
     }
 
+    /* Increase spacing in details overlay */
     #detailsOverlay .flex-col {
         gap: 2rem;
     }
 
+    /* Stack episode items vertically on mobile */
     .episode-item {
         flex-direction: column;
         align-items: flex-start;
         gap: 1rem;
     }
 
+    /* Full-width episode thumbnail container */
     .episode-item>div:first-child {
         width: 100%;
     }
 
+    /* Responsive episode thumbnail with 16:9 aspect ratio */
     .episode-item img {
         width: 100%;
         height: auto;
@@ -95,6 +114,7 @@
         object-fit: cover;
     }
 
+    /* Center dropdowns on mobile with fixed positioning */
     #notifDropdown,
     #settingsDropdown {
         position: fixed;
@@ -106,6 +126,7 @@
         z-index: 60;
     }
 
+    /* Show and animate dropdowns when active */
     #notifDropdown.active,
     #settingsDropdown.active {
         transform: translateX(-50%) scale(1);
@@ -115,11 +136,77 @@
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
+    /* Adjust hero title size for tablets */
     #heroTitle {
         font-size: 4rem !important;
     }
 
+    /* Increase top padding for hero section on tablets */
     #heroSection .container {
         padding-top: 8rem;
+    }
+}
+
+/* Video player mobile screen adjustments (max 768px) */
+@media (max-width: 768px) {
+    #videoTitleOverlay {
+        padding: 1.5rem;
+    }
+    
+    #videoMainTitle {
+        font-size: 1.5rem;
+    }
+    
+    #videoSeriesInfo {
+        font-size: 0.75rem;
+    }
+    
+    #videoControls {
+        font-size: 0.875rem;
+    }
+    
+    #playPauseBtn i {
+        font-size: 1.5rem;
+    }
+    
+    #rewindBtn i,
+    #forwardBtn i,
+    #volumeBtn i,
+    #fullscreenBtn i,
+    #qualityBtn i {
+        font-size: 1rem;
+    }
+    
+    #videoControls > div:last-child {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    #progressContainer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Hide speed and quality buttons on mobile - limited screen space */
+    #speedBtn,
+    #qualityBtn {
+        display: none;
+    }
+    
+    /* Volume slider hidden on mobile - takes too much space */
+    #volumeSlider {
+        display: none;
+    }
+}
+
+/* Error page mobile adjustments for smaller screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 2.25rem 1.5rem;
+    }
+
+    .logo {
+        width: 84px;
+        height: 84px;
     }
 }

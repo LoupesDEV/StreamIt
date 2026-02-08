@@ -1,5 +1,7 @@
+/* Import Google Fonts - Outfit font family */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap');
 
+/* Global body styles with custom font and background */
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--color-bg);
@@ -7,6 +9,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Horizontal scrolling container for media rows */
 .scroll-row {
     overflow-x: auto;
     overflow-y: hidden;
@@ -17,12 +20,14 @@ body {
     padding-bottom: 0.5rem;
 }
 
+/* Prevent scroll row items from shrinking */
 .scroll-row > * {
     flex: 0 0 auto;
     min-width: 160px;
     max-width: 260px;
 }
 
+/* Custom scrollbar for horizontal rows */
 .scroll-row::-webkit-scrollbar {
     height: 8px;
 }
@@ -31,6 +36,7 @@ body {
     border-radius: 999px;
 }
 
+/* Glass panel with backdrop blur effect */
 .glass-panel {
     background: var(--glass-bg);
     backdrop-filter: blur(var(--glass-blur));
@@ -39,12 +45,14 @@ body {
     box-shadow: var(--glass-shadow);
 }
 
+/* Glass effect for navigation bar */
 .glass-nav {
     background: var(--nav-bg);
     backdrop-filter: blur(var(--glass-blur));
     border-bottom: 1px solid var(--glass-border);
 }
 
+/* Glass-style button with hover effect */
 .glass-button {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -57,6 +65,7 @@ body {
     border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Glass-style input field */
 .glass-input {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -71,10 +80,12 @@ body {
     box-shadow: 0 0 20px rgba(220, 38, 38, 0.2);
 }
 
+/* Scale up media card image on hover */
 .media-card:hover img {
     transform: scale(1.05);
 }
 
+/* Gradient overlay for media cards */
 .media-card::after {
     content: '';
     position: absolute;
@@ -88,6 +99,7 @@ body {
     opacity: 1;
 }
 
+/* Container for watched and resume badges */
 .status-badges {
     position: absolute;
     top: 0.85rem;
@@ -99,6 +111,7 @@ body {
     align-items: flex-end;
 }
 
+/* Base styles for watched and resume pills */
 .watched-pill,
 .resume-pill {
     display: inline-flex;
@@ -114,6 +127,7 @@ body {
     backdrop-filter: blur(6px);
 }
 
+/* Green badge for watched content */
 .watched-pill {
     background: rgba(34, 197, 94, 0.15);
     border-color: rgba(34, 197, 94, 0.4);
@@ -121,6 +135,7 @@ body {
     text-shadow: 0 0 8px rgba(34, 197, 94, 0.3);
 }
 
+/* Yellow badge for content in progress */
 .resume-pill {
     background: rgba(234, 179, 8, 0.12);
     border-color: rgba(234, 179, 8, 0.35);
@@ -128,6 +143,7 @@ body {
     text-shadow: 0 0 8px rgba(234, 179, 8, 0.25);
 }
 
+/* Highlight styling for watched episodes */
 .episode-watched {
     border-color: rgba(34, 197, 94, 0.35) !important;
     background: linear-gradient(135deg, rgba(16, 36, 24, 0.55), rgba(10, 10, 10, 0.95));
@@ -137,6 +153,7 @@ body {
     color: #bbf7d0;
 }
 
+/* Dropdown menu with scale and fade animation */
 .notif-dropdown {
     transform-origin: top right;
     transition: all 0.2s ease-out;
@@ -151,21 +168,25 @@ body {
     z-index: 50;
 }
 
+/* Active state - show dropdown with animation */
 .notif-dropdown.active {
     opacity: 1;
     transform: scale(1) translateY(0);
     pointer-events: auto;
 }
 
+/* Smooth transition for episode item interactions */
 .episode-item {
     transition: all 0.3s ease;
 }
 
+/* Highlight episode on hover */
 .episode-item:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Floating gradient blobs for background effect */
 .liquid-blob {
     position: absolute;
     border-radius: 50%;
@@ -175,6 +196,7 @@ body {
     animation: float 15s infinite ease-in-out;
 }
 
+/* Floating animation for background blobs */
 @keyframes float {
 
     0%,
@@ -187,10 +209,12 @@ body {
     }
 }
 
+/* Apply fade-in-up animation to elements */
 .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out forwards;
 }
 
+/* Fade in and slide up animation */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -203,6 +227,7 @@ body {
     }
 }
 
+/* Hide scrollbar completely (cross-browser) */
 .hide-scrollbar::-webkit-scrollbar {
     display: none;
 }
@@ -212,6 +237,7 @@ body {
     scrollbar-width: none;
 }
 
+/* Custom styled scrollbar for overlays */
 .custom-scrollbar::-webkit-scrollbar {
     width: 8px;
 }
@@ -229,6 +255,7 @@ body {
     background: var(--color-primary);
 }
 
+/* Dark background for select dropdowns */
 select {
     background-color: var(--card-bg) !important;
     color: white !important;
@@ -243,11 +270,12 @@ select:focus {
     background-color: var(--card-bg) !important;
 }
 
-/* Actors timeline and cards */
+/* Gradient background for actor cards */
 .actor-card {
     background: linear-gradient(135deg, rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0.7));
 }
 
+/* Smooth transition for actor photos */
 .actor-photo img {
     transition: transform 0.4s ease;
 }
@@ -256,6 +284,7 @@ select:focus {
     transform: scale(1.03);
 }
 
+/* Semi-transparent background for actor metadata */
 .actor-meta {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -266,11 +295,13 @@ select:focus {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Filmography timeline container with left padding for line */
 .timeline {
     position: relative;
     padding-left: 1.75rem;
 }
 
+/* Vertical timeline line with gradient */
 .timeline::before {
     content: '';
     position: absolute;
@@ -281,12 +312,14 @@ select:focus {
     background: linear-gradient(to bottom, rgba(220, 38, 38, 0.7), rgba(255, 255, 255, 0.08));
 }
 
+/* Individual timeline item styling */
 .timeline-item {
     position: relative;
     padding-left: 0.5rem;
     margin-bottom: 1.25rem;
 }
 
+/* Year label in timeline */
 .timeline-year {
     font-weight: 800;
     color: #f5f5f5;
@@ -294,6 +327,7 @@ select:focus {
     letter-spacing: 0.04em;
 }
 
+/* Container for timeline projects/items */
 .timeline-body {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -301,6 +335,7 @@ select:focus {
     padding: 0.6rem 0.9rem;
 }
 
+/* Generic badge styling for labels */
 .badge {
     display: inline-flex;
     align-items: center;
@@ -312,24 +347,28 @@ select:focus {
     border: 1px solid transparent;
 }
 
+/* Badge for media type (Film/Série) */
 .badge-type {
     background: rgba(255, 255, 255, 0.06);
     border-color: rgba(255, 255, 255, 0.15);
     color: #e5e7eb;
 }
 
+/* Green badge for available content */
 .badge-available {
     background: rgba(34, 197, 94, 0.15);
     border-color: rgba(34, 197, 94, 0.35);
     color: #bbf7d0;
 }
 
+/* Orange badge for unavailable/missing content */
 .badge-missing {
     background: rgba(245, 158, 11, 0.12);
     border-color: rgba(245, 158, 11, 0.35);
     color: #fde68a;
 }
 
+/* Subtle border overlay for actor thumbnails */
 .actor-thumb::after {
     content: '';
     position: absolute;
@@ -338,6 +377,7 @@ select:focus {
     pointer-events: none;
 }
 
+/* Blur effect for actor details overlay background */
 #actorOverlay {
     backdrop-filter: blur(4px);
 }

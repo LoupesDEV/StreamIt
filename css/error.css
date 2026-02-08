@@ -1,3 +1,4 @@
+/* Import Google Fonts - Outfit font family */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap');
 
 html,
@@ -5,6 +6,7 @@ body {
     height: 100%;
 }
 
+/* Center content vertically and horizontally */
 body {
     font-family: 'Outfit', sans-serif;
     background: var(--color-bg);
@@ -16,6 +18,7 @@ body {
     overflow-x: hidden;
 }
 
+/* Create two floating gradient blobs for visual interest */
 body::before,
 body::after {
     content: '';
@@ -30,6 +33,7 @@ body::after {
     z-index: 0;
 }
 
+/* Top-left blob with red gradient */
 body::before {
     top: -10vmin;
     left: -10vmin;
@@ -37,6 +41,7 @@ body::before {
     animation: float-a 18s ease-in-out infinite;
 }
 
+/* Bottom-right blob with red gradient */
 body::after {
     bottom: -12vmin;
     right: -12vmin;
@@ -44,6 +49,7 @@ body::after {
     animation: float-b 22s ease-in-out infinite;
 }
 
+/* Floating animation for top-left blob */
 @keyframes float-a {
 
     0%,
@@ -56,6 +62,7 @@ body::after {
     }
 }
 
+/* Floating animation for bottom-right blob */
 @keyframes float-b {
 
     0%,
@@ -68,6 +75,7 @@ body::after {
     }
 }
 
+/* Glass morphism container with backdrop blur */
 .container {
     position: relative;
     z-index: 1;
@@ -83,6 +91,7 @@ body::after {
     animation: fadeInUp 0.7s ease-out both;
 }
 
+/* Fade in and slide up animation for container */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -95,6 +104,7 @@ body::after {
     }
 }
 
+/* StreamIt logo with red glow effect */
 .logo {
     width: 96px;
     height: 96px;
@@ -104,11 +114,13 @@ body::after {
     filter: drop-shadow(0 0 12px rgba(220, 38, 38, 0.35));
 }
 
+/* Spacing adjustments for error elements */
 h1+.error-message,
 .code-badge+h1 {
     margin-top: 0.5rem;
 }
 
+/* Error code badge (e.g., 404, 403) */
 .code-badge {
     display: inline-block;
     margin: 0.25rem auto 0.25rem auto;
@@ -124,6 +136,7 @@ h1+.error-message,
     box-shadow: 0 10px 25px rgba(220, 38, 38, 0.15);
 }
 
+/* Main error title with gradient text */
 h1 {
     margin: 0 0 0.75rem 0;
     font-size: clamp(2rem, 4.5vw, 3rem);
@@ -136,6 +149,7 @@ h1 {
     color: transparent;
 }
 
+/* Error message description text */
 .error-message {
     margin: 0 auto 1.5rem auto;
     max-width: 48ch;
@@ -144,6 +158,7 @@ h1 {
     line-height: 1.6;
 }
 
+/* Back to home button with smooth transitions */
 .back-btn {
     display: inline-flex;
     align-items: center;
@@ -161,6 +176,7 @@ h1 {
     transition: transform 0.2s ease, background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
 }
 
+/* Hover state - red background with lift effect */
 .back-btn:hover {
     background: var(--color-primary);
     color: #ffffff;
@@ -168,17 +184,7 @@ h1 {
     box-shadow: 0 10px 30px rgba(220, 38, 38, 0.35);
 }
 
+/* Active/pressed state - slight scale down */
 .back-btn:active {
     transform: translateY(0) scale(0.99);
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 2.25rem 1.5rem;
-    }
-
-    .logo {
-        width: 84px;
-        height: 84px;
-    }
 }

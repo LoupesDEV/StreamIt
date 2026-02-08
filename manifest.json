@@ -9,8 +9,15 @@
   "background_color": "#181818",
   "theme_color": "#181818",
   "lang": "fr",
-  "categories": ["movies", "series", "streaming", "StreamIt", "films", "TV shows"],
-    "icons": [
+  "categories": [
+    "movies",
+    "series",
+    "streaming",
+    "StreamIt",
+    "films",
+    "TV shows"
+  ],
+  "icons": [
     {
       "src": "medias/logo.png",
       "sizes": "500x500",
