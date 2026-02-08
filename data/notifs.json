@@ -2,16 +2,16 @@
     {
         "id": 20,
         "type": "series",
-        "title": "Nouvelle Série Disponible",
-        "message": "Regardez <strong>''Cœurs Noirs''</strong> dès maintenant sur StreamIt.",
-        "time": "25 Janvier 2026"
+        "title": "Nouvelles Séries Disponibles",
+        "message": "Regardez <strong>''Cœurs Noirs''</strong>, <strong>''Rematch''</strong>, <strong>''À l'aube de l'Amérique''</strong> & <strong>''The Walking Dead : World Beyond''</strong> dès maintenant sur StreamIt.",
+        "time": "8 Février 2026"
     },
     {
         "id": 19,
         "type": "films",
         "title": "Nouveaux Films Disponibles",
         "message": "Découvrez <strong>''La Femme de ménage''</strong>, <strong>''Le Million''</strong> & <strong>''Le Muppet Show''</strong>, maintenant disponibles sur StreamIt.",
-        "time": "27 Janvier 2026"
+        "time": "8 Février 2026"
     },
     {
         "id": 18,

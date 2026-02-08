@@ -7207,40 +7207,77 @@
         },
         {
           "title": "Rentrer à la maison",
-          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "desc": "Créez un compte gratuit pour gagner des crédits et télécharger vos contenus préférés !",
           "video": "medias/series/the-walking-dead-daryl-dixon/1-6.mp4"
         }
       ],
       "2": [
         {
           "title": "La gentillesse des étrangers",
-          "desc": "Norman Reedus et Melissa McBride reprennent du service sur les routes d'une France post-apocalyptique dans cette saison 2 de Daryl Dixon. Le spin-off de la saga The Walking Dead repart là où la première saison s'était arrêtée.",
+          "desc": "Le moyen que Carol a imaginé pour retrouver Daryl l'oblige à faire face à son passé. Sous l'étroite surveillance de Losang, Daryl, Isabelle et Laurent luttent pour trouver leur place au Nid.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-1.mp4"
         },
         {
           "title": "Moulin Rouge",
-          "desc": "Après son départ du Commonwealth, Daryl Dixon s'échoue en France, soulevant l'ire d'un mouvement autocratique fragmenté mais croissant centré sur Paris et mettant en danger un jeune garçon au cœur d'un mouvement religieux bienveillant.",
+          "desc": "Carol et Ash font un détour inattendu au cours de leur périple pour retrouver Daryl. Daryl, Isabelle et Sylvie découvrent une nouvelle menace au sein du Nid. La foi de Losang est mise à l'épreuve.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-2.mp4"
         },
         {
           "title": "L'Invisible",
-          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "desc": "Les recherches de Carol la conduisent en des lieux dangereux et empreints d'horreurs. Daryl, Isabelle et Fallou se précipitent au secours d'un des leurs. Le Pouvoir se regroupe.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-3.mp4"
         },
         {
-          "title": "Le Paradis Pour Toi",
-          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "title": "Le paradis pour toi",
+          "desc": "Le Pouvoir attaque le Nid, tandis que Losang et Isabelle s'affrontent.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-4.mp4"
         },
         {
           "title": "Vouloir, c'est pouvoir",
-          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "desc": "Amis et ennemis se retrouvent de façon surprenante, tandis qu'une nouvelle faction composée de survivants du Nid et du Pouvoir traquent Laurent. Daryl s'en veut et les mensonges de Carol sont révélés.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-5.mp4"
         },
         {
-          "title": "Au Revoir Les Enfants",
-          "desc": "Senpai-Stream est une plateforme qui vous permet d'explorez du divertissement en streaming sans interruption publicitaire. Bénéficiez d'une grande sélection de films, séries, animés avec une lecture fluide et sans interruption.",
+          "title": "Au revoir les enfants",
+          "desc": "Une stratégie est mise au point pour quitter la France. La communauté établie sur le toit aide à élaborer un nouveau plan pour l'avenir.",
           "video": "medias/series/the-walking-dead-daryl-dixon/2-6.mp4"
+        }
+      ],
+      "3": [
+        {
+          "title": "Costa Da Morte",
+          "desc": "Une rencontre fortuite ouvre la voie à un retour potentiel chez lui ; Daryl prend une décision difficile.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-1.mp4"
+        },
+        {
+          "title": "La Ofrenda",
+          "desc": "Naufragés en Espagne, Daryl et Carol cherchent refuge dans un village paisible.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-2.mp4"
+        },
+        {
+          "title": "El Sacrificio",
+          "desc": "Daryl se concentre sur son retour à la maison tandis que Carol s'investit davantage dans Solaz.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-3.mp4"
+        },
+        {
+          "title": "La Justicia Fronteriza",
+          "desc": "Daryl et Carol ne sont pas d'accord sur la manière d'avancer ; une attaque surprise change tout.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-4.mp4"
+        },
+        {
+          "title": "Limbo",
+          "desc": "Carol aide Antonio et Roberto tandis que Daryl part dans le désert à la recherche de quelqu'un.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-5.mp4"
+        },
+        {
+          "title": "Contrabando",
+          "desc": "Daryl et Paz à Barcelone ; Carol et Antonio font face aux conséquences de Solaz.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-6.mp4"
+        },
+        {
+          "title": "Solaz del Mar",
+          "desc": "Nos héros se battent pour protéger les personnes qu’ils aiment.",
+          "video": "medias/series/the-walking-dead-daryl-dixon/3-7.mp4"
         }
       ]
     }
@@ -9228,6 +9265,255 @@
           "title": "Épisode 6",
           "desc": "Tandis que la DGSE monte un plan pour détourner l'attention de Moktar, le groupe 45 passe à l'attaque pour exfiltrer Sab...",
           "video": "medias/series/coeurs-noirs/2-6.mp4"
+        }
+      ]
+    }
+  },
+  "The Walking Dead : World Beyond": {
+    "title": "The Walking Dead : World Beyond",
+    "description": "Second spin-off de l'univers The Walking Dead consacré cette fois à la première génération de survivants ayant vu le jour et grandi après le déclenchement de l'apocalypse. Si certains trouveront en eux la force de se comporter en héros, d'autres basculeront dans le camp du mal. Au final, tous en sortiront changés à jamais, plus mûrs et ancrés dans leurs bons et mauvais côtés.",
+    "poster": "medias/series/the-walking-dead-world-beyond/poster.jpg",
+    "banner": "medias/series/the-walking-dead-world-beyond/banner.jpg",
+    "video": "medias/series/the-walking-dead-world-beyond/the-walking-dead-world-beyond.mp4",
+    "IMDb": 4.6,
+    "IMDb_link": "https://www.imdb.com/title/tt10148174/",
+    "year": 2020,
+    "genres": [
+      "Splatter Horror",
+      "Teen Horror",
+      "Zombie Horror",
+      "Drama",
+      "Horror"
+    ],
+    "stars": [
+      "Julia Ormond",
+      "Nicolas Cantu",
+      "Alexa Mansour"
+    ],
+    "trailer": "",
+    "creators": [
+      "Scott M. Gimple",
+      "Matthew Negrete"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Rester courageux",
+          "desc": "Alors qu'Iris fait partie du comité d'accueil qui souhaite la bienvenue à une allié énigmatique, Hope s'interroge sur la présence et les motivations de ce visiteur au sein de leur communauté. Un message inquiétant pousse les deux sœurs à prendre une décision radicale, les forçant à choisir entre la sécurité de leur foyer et l'incertitude du monde extérieur...",
+          "video": "medias/series/the-walking-dead-world-beyond/1-1.mp4"
+        },
+        {
+          "title": "Le Brasier de la Gloire",
+          "desc": "Le groupe s'adapte à la réalité de la vie au-delà des murs de leur communauté. Iris tente de prendre les choses en main, malgré les réserves de Hope. Felix et Huck suivent les adolescents tandis que Felix est obligé de se confronter à des souvenirs indésirables.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-2.mp4"
+        },
+        {
+          "title": "Le Tigre et l'agneau",
+          "desc": "Accablés par leurs passés, les membres du groupe adoptent des stratégies redoutables pour faire face à un obstacle de taille. Le groupe subi des pressions pour retourner chez lui.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-3.mp4"
+        },
+        {
+          "title": "Par le petit bout de la lorgnette",
+          "desc": "Le groupe cherche un abri contre une tempête, et se retrouve à l'intérieur d'un lycée abandonné. En se réapprovisionnant, ils imaginent ce que pouvait être la vie au lycée et rencontrent de nouvelles menaces, vivantes ou mortes.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-4.mp4"
+        },
+        {
+          "title": "La traversée",
+          "desc": "Alors que les membres du groupe travaillent ensemble pour traverser le fleuve Mississippi, un complot visant à ramener les adolescents chez eux tombe sur un os. A membre du groupe doit surmonter un traumatisme du passé pour sauver les autres d'une menace imminente.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-5.mp4"
+        },
+        {
+          "title": "Le théâtre d'ombres",
+          "desc": "Alors qu'un nouvel arrivant inattendu révèle au groupe des informations qui pourraient les aider à atteindre leur destination, les membres concluent un accord. Si certains sont intrigués par le nouvel arrivant, d'autres se méfient.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-6.mp4"
+        },
+        {
+          "title": "Action ou vérité",
+          "desc": "Alors que le groupe cherche quelque chose pour faire avancer sa quête, l'un d'entre eux se souvient de leurs luttes au début de l'apocalypse. Un jeu d'action ou vérité va faire remonter des émotions à la surface.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-7.mp4"
+        },
+        {
+          "title": "Le ciel est un cimetière",
+          "desc": "Une horrible découverte vient trouver le groupe à la croisée des chemins et incite l'un d'entre eux à revisiter un traumatisme passé.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-8.mp4"
+        },
+        {
+          "title": "Blessure profonde",
+          "desc": "Une série de contre-temps amène un membre du groupe à réévaluer son rôle dans la mission. Quelqu'un fait une découverte surprenante. Une révélation surprenante permet de voir les choses sous un nouveau jour.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-9.mp4"
+        },
+        {
+          "title": "Dans cette vie",
+          "desc": "Un groupe divisé lutte pour se réunir. D'autres se tournent vers le bien commun.",
+          "video": "medias/series/the-walking-dead-world-beyond/1-10.mp4"
+        }
+      ],
+      "2": [
+        {
+          "title": "Konsekans",
+          "desc": "L'engagement de Hope pour l'avenir est mis à l'épreuve, mettant en péril une éventuelle réunion. Iris et Félix rencontrent un nouveau groupe. Des révélations surprenantes sont faites.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-1.mp4"
+        },
+        {
+          "title": "S'imposer",
+          "desc": "Alors que certains membres du groupe mettent en place un plan pour brouiller les pistes, d'autres tentent de s'acclimater à leur nouvel environnement.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-2.mp4"
+        },
+        {
+          "title": "Blessures ouvertes",
+          "desc": "Une tentative d'escroquerie provoque une situation précaire. Alors que Huck se réadapte à son ancienne vie, elle lance un ultimatum.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-3.mp4"
+        },
+        {
+          "title": "La famille, c'est pourri",
+          "desc": "La tension monte alors que le groupe s'interroge sur les événements passés et les plans pour l'avenir. Les choses deviennent explosives lorsque les capacités et la loyauté de l'un sont mises à l'épreuves. Une découverte surprenante est faite.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-4.mp4"
+        },
+        {
+          "title": "Moment décisif",
+          "desc": "Les membres du groupe mettent en œuvre un plan dangereux, tandis que d'autres émettent de sérieuses réserves. D'autres révélations surprenantes sont faites.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-5.mp4"
+        },
+        {
+          "title": "Qui es-tu ?",
+          "desc": "Un membre du groupe devient la cible d'une enquête. Alors que certains s'éloignent les uns des autres, d'autres commencent à se rapprocher.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-6.mp4"
+        },
+        {
+          "title": "Du sang et des mensonges",
+          "desc": "Alors que le groupe cherche des réponses, certains luttent pour trouver un terrain d'entente tandis que d'autres se demandent à qui l'on peut faire confiance. Un message choquant met en branle une nouvelle mission.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-7.mp4"
+        },
+        {
+          "title": "L'évasion",
+          "desc": "Le groupe met en place un nouveau plan. Une relation est mise à profit et une trahison oblige les autres à agir.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-8.mp4"
+        },
+        {
+          "title": "La Mort et les morts",
+          "desc": "Alors que le plan continue de se dérouler, les tensions entre le groupe et l'ARC atteignent un point critique. Alors que certains se précipitent pour sauver un allié, des vérités difficiles sont mises en lumière.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-9.mp4"
+        },
+        {
+          "title": "La dernière lueur",
+          "desc": "Les membres restants du groupe combattent des ennemis, vivants ou morts, dans leur quête pour sauver le futur.",
+          "video": "medias/series/the-walking-dead-world-beyond/2-10.mp4"
+        }
+      ]
+    }
+  },
+  "Rematch": {
+    "title": "Rematch",
+    "description": "La confrontation historique et sous haute tension entre le champion du monde d'échecs Garry Kasparov et le super ordinateur d'IBM Deep Blue en 1997. Une guerre mentale tant sur, qu'en dehors de l'échiquier.",
+    "poster": "medias/series/rematch/poster.jpg",
+    "banner": "medias/series/rematch/banner.jpg",
+    "video": "medias/series/rematch/rematch.mp4",
+    "IMDb": 7.3,
+    "IMDb_link": "https://www.imdb.com/title/tt26741906/",
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "stars": [
+      "Christian Cooke",
+      "Sarah Bolger",
+      "Trine Dyrholm"
+    ],
+    "trailer": "",
+    "creators": [
+      "Yan England"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "1996. Garry Kasparov, champion du monde incontesté des échecs, affronte l'ordinateur DEEP BLUE. Helen Brock, vice présidente chez IBM, convainc Garry de participer au rematch du siècle. Cette fois-ci, Deep Blue sera un adversaire beaucoup plus redoutable. Garry pourrait bien affronter la première intelligence artificielle. Ce qui était une expérience scientifique devient un combat Humain vs Machine.",
+          "video": "medias/series/rematch/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "C'est la confrontation du siècle : Garry Kasparov VS Deep Blue. Le superordinateur peut calculer jusqu'à 200 millions de coups à la seconde. Des tensions au sein des deux clans surgissent. Dans sa quête pour devenir le meilleur de tous les temps, Kasparov a dû faire des sacrifices personnels. Les yeux de la planète sont rivés sur le Round 1. Kasparov est le défenseur de l'humanité.",
+          "video": "medias/series/rematch/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Kasparov a perdu le Round 2. Un ordinateur a battu l'un des êtres humains les plus intelligents de la planète. La guerre psychologique est lancée sur et hors de l'échiquier. Désespérée, cherchant la victoire à tout prix, Helen Brock fait fi des conseils de Paul et P.C. Les rapports acrimonieux chamboulent les fondements du rematch.",
+          "video": "medias/series/rematch/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Garry met à exécution les menaces de Roger, son nouvel agent. Pressée par la direction d'IBM, Helen lui lance un ultimatum pour qu'il revienne dans la partie. Garry se remémore alors son célèbre duel contre Anatoli Karpov en 1984, dans le contexte de la dictature soviétique.",
+          "video": "medias/series/rematch/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "PC constate qu'Helen l'a une nouvelle fois trahi. La quatrième manche débute en faveur de Garry, mais la surprise change de camp. Garry devient franchement paranoïaque tandis que PC s'efforce de reprendre le contrôle sur Deep Blue, entrant en conflit avec Paul. Garry, perdu, reprend contact avec Alisa, son ex-femme.",
+          "video": "medias/series/rematch/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "L'issue du match est de plus en plus incertaine, et la tension monte au sein de chaque équipe. Tandis que Helen valide la stratégie audacieuse de Paul, Garry, soutenu par le public new-yorkais, cherche l'appui de la communauté des joueurs d'échecs. Des souvenirs d'enfance remontent : il se revoit quand il n'était qu'un tout jeune joueur face à son père mourant…",
+          "video": "medias/series/rematch/1-6.mp4"
+        }
+      ]
+    }
+  },
+  "À l'aube de l'Amérique": {
+    "title": "À l'aube de l'Amérique",
+    "description": "Fuyant leur passé, une mère et son fils font de nouvelles rencontres et affrontent les étendues hostiles du Far West américain, où règnent liberté et cruauté.",
+    "poster": "medias/series/a-l-aube-de-l-amerique/poster.jpg",
+    "banner": "medias/series/a-l-aube-de-l-amerique/banner.jpg",
+    "video": "medias/series/a-l-aube-de-l-amerique/a-l-aube-de-l-amerique.mp4",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt24069848/",
+    "year": 2025,
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller",
+      "Western"
+    ],
+    "stars": [
+      "Taylor Kitsch",
+      "Betty Gilpin",
+      "Dane DeHaan"
+    ],
+    "trailer": "",
+    "creators": [
+      "Mark L. Smith"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Dans un avant-poste reculé, Sara et son fils Devin cherchent un guide qui les aidera à affronter les dangers des pistes vers l'Ouest et tissent de nouveaux liens.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-1.mp4"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Une rencontre effrayante surprend le groupe de Sara. Gravement blessé, Jacob forme une brigade pour retrouver Abish. Isaac renoue avec son passé.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-2.mp4"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Suivant une piste, Jacob se joint à un chasseur de primes. Brigham Young arrive à Fort Bridger. Sara, Devin et Isaac sont aux prises avec le mal incarné.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-3.mp4"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Plume de Sang décide de se battre. Jacob suit son intuition et agit. Abish apprend une nouvelle surprenante. Sur la route de Crooks Springs, les éléments se déchaînent.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-4.mp4"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Alors que l'état de la jambe de Devin s'aggrave, Sara doit faire un choix terrifiant. Brigham Young fait une offre à Bridger. Abish avertit les Shoshones de ce qui les attend.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-5.mp4"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Ignorant le danger, Isaac entreprend de sauver Sara. La recherche d'Abish s'interrompt brutalement pour Jacob. Bridger rend hommage aux lieux avant de faire ses adieux.",
+          "video": "medias/series/a-l-aube-de-l-amerique/1-6.mp4"
         }
       ]
     }
