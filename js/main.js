@@ -41,6 +41,8 @@ window.refreshActiveSeriesDetails = refreshActiveSeriesDetails;
 document.addEventListener('DOMContentLoaded', async () => {
     showLoader();
 
+    window.STREAMIT_BASE = getBasePath(window.location.pathname || '/');
+
     // Set up video player security and persistence
     hardenPlayerControls();
     initPlayerPersistence();

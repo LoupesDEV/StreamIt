@@ -14,6 +14,20 @@ let activeVideoContext = null;
 let activeSelectedSeason = null; // Track the currently selected season
 
 /**
+ * Resolves a relative asset path against the app base path.
+ * @param {string} path - Asset path.
+ * @returns {string} Absolute asset URL.
+ */
+function resolveAssetUrl(path) {
+    if (!path) return '';
+    if (/^https?:\/\//i.test(path) || path.startsWith('data:')) return path;
+    const base = (typeof window !== 'undefined' && window.STREAMIT_BASE) ? window.STREAMIT_BASE : '/';
+    const safeBase = base.endsWith('/') ? base : `${base}/`;
+    const cleaned = String(path).replace(/^\/+/, '');
+    return new URL(cleaned, window.location.origin + safeBase).toString();
+}
+
+/**
  * Opens media details and syncs route if available.
  * @param {Object} item - Media item.
  */
@@ -50,7 +64,7 @@ export function setupHero(item) {
     const isSerie = item.type === 'serie' || item.seasons !== undefined;
 
     // Populate hero section elements with media data
-    document.getElementById('heroImage').src = item.banner || item.poster;
+    document.getElementById('heroImage').src = resolveAssetUrl(item.banner || item.poster);
     document.getElementById('heroTitle').innerText = item.title;
     document.getElementById('heroDesc').innerText = item.description;
     document.getElementById('heroRating').innerText = item.IMDb;
@@ -83,13 +97,13 @@ export function setupHero(item) {
                 episodeTitle: item.seasons["1"][0].title || 'Épisode 1'
             };
             activeVideoContext = ctx;
-            activeVideoSrc = item.seasons["1"][0].video;
+            activeVideoSrc = resolveAssetUrl(item.seasons["1"][0].video);
             playVideo(activeVideoSrc, ctx);
         } else if (item.video) {
             const ctx = { type: 'film', title: item.title };
             activeVideoContext = ctx;
-            activeVideoSrc = item.video;
-            playVideo(item.video, ctx);
+            activeVideoSrc = resolveAssetUrl(item.video);
+            playVideo(activeVideoSrc, ctx);
         }
     };
 
@@ -114,7 +128,7 @@ export function openDetails(item, preferredSeason = null) {
     const playBtn = document.getElementById('detailPlayBtn');
 
     // Populate detail overlay with media information
-    document.getElementById('detailHeroImg').src = item.banner || item.poster;
+    document.getElementById('detailHeroImg').src = resolveAssetUrl(item.banner || item.poster);
     document.getElementById('detailTitle').innerText = item.title;
     document.getElementById('detailDesc').innerText = item.description;
     document.getElementById('detailYear').innerText = item.year;
@@ -191,7 +205,7 @@ export function openDetails(item, preferredSeason = null) {
         }
     } else {
         seriesSec.classList.add('hidden');
-        activeVideoSrc = item.video;
+        activeVideoSrc = resolveAssetUrl(item.video);
         activeVideoContext = item.video ? { type: 'film', title: item.title } : null;
     }
 
@@ -238,7 +252,7 @@ export function playCurrentMedia() {
         const firstSeasonKey = Object.keys(activeDetailItem.seasons || {})[0];
         const firstEpisode = firstSeasonKey ? activeDetailItem.seasons[firstSeasonKey]?.[0] : null;
         if (firstEpisode) {
-            activeVideoSrc = firstEpisode.video;
+            activeVideoSrc = resolveAssetUrl(firstEpisode.video);
             activeVideoContext = {
                 type: 'series',
                 title: activeDetailItem.title,
@@ -317,7 +331,7 @@ function renderEpisodes(episodes, seasonNum) {
         if (isWatched) row.classList.add('episode-watched');
 
         const fallbackThumb = `https://placehold.co/300x200/333/666?text=S${safeSeasonNum}-EP${idx + 1}`;
-        const thumbUrl = activeDetailItem ? activeDetailItem.poster : fallbackThumb;
+        const thumbUrl = activeDetailItem ? resolveAssetUrl(activeDetailItem.poster) : fallbackThumb;
 
         // Create left container with episode number and thumbnail
         const leftContainer = document.createElement('div');
@@ -406,9 +420,9 @@ function renderEpisodes(episodes, seasonNum) {
                 episodeIndex: idx,
                 episodeTitle: ep.title || `Épisode ${idx + 1}`,
             };
-            activeVideoSrc = ep.video;
+            activeVideoSrc = resolveAssetUrl(ep.video);
             activeVideoContext = ctx;
-            playVideo(ep.video, ctx);
+            playVideo(activeVideoSrc, ctx);
         };
         list.appendChild(row);
     });
@@ -463,7 +477,7 @@ export function createMediaCard(item, extraClasses = "") {
     // Build media card HTML structure
     card.innerHTML = `
         ${badgeStack}
-        <img src="${item.poster}" alt="Poster for ${item.title}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
+        <img src="${resolveAssetUrl(item.poster)}" alt="Poster for ${item.title}" onerror="this.src='${fallback}'" class="w-full h-full object-cover object-center transition-transform duration-700 loading='lazy'">
         <div class="absolute inset-x-0 bottom-0 p-4 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
             <h3 class="font-bold text-white text-base md:text-lg leading-tight mb-1 drop-shadow-md line-clamp-1">${item.title}</h3>
             <div class="flex items-center gap-3 text-xs font-bold text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity delay-100">
@@ -725,7 +739,7 @@ export function openActorDetails(actor, filmsData = {}, seriesData = {}) {
 
     if (!overlay || !actor) return;
 
-    const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+    const photo = actor.photo ? resolveAssetUrl(actor.photo) : `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
     const filmography = Array.isArray(actor.filmography) ? [...actor.filmography] : [];
     filmography.sort((a, b) => (b.year || 0) - (a.year || 0));
 
@@ -805,7 +819,7 @@ export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
 
     // Create and append actor cards
     actors.forEach(actor => {
-        const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+        const photo = actor.photo ? resolveAssetUrl(actor.photo) : `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
         const card = document.createElement('div');
         card.className = "relative overflow-hidden rounded-2xl group shadow-lg bg-[#121212] border border-white/5 cursor-pointer actor-thumb";
         card.innerHTML = `
@@ -861,7 +875,7 @@ export function renderActorsListSearch(actorsData, filmsData = {}, seriesData = 
     grid.className = "col-span-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-8";
 
     actorsData.forEach(actor => {
-        const photo = actor.photo || `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
+        const photo = actor.photo ? resolveAssetUrl(actor.photo) : `https://placehold.co/500x700/111/fff?text=${encodeURIComponent(actor.name || 'Acteur')}`;
         const card = document.createElement('div');
         card.className = "relative overflow-hidden rounded-2xl group shadow-lg bg-[#121212] border border-white/5 cursor-pointer actor-thumb";
         card.innerHTML = `
