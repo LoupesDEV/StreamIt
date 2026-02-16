@@ -14,6 +14,32 @@ let activeVideoContext = null;
 let activeSelectedSeason = null; // Track the currently selected season
 
 /**
+ * Opens media details and syncs route if available.
+ * @param {Object} item - Media item.
+ */
+function openDetailsWithRoute(item) {
+    if (typeof window !== 'undefined' && typeof window.openMediaDetails === 'function') {
+        window.openMediaDetails(item);
+    } else {
+        openDetails(item);
+    }
+}
+
+/**
+ * Opens actor details and syncs route if available.
+ * @param {Object} actor - Actor item.
+ * @param {Object} filmsData - Films data.
+ * @param {Object} seriesData - Series data.
+ */
+function openActorDetailsWithRoute(actor, filmsData, seriesData) {
+    if (typeof window !== 'undefined' && typeof window.openActorDetailsRoute === 'function') {
+        window.openActorDetailsRoute(actor, filmsData, seriesData);
+    } else {
+        openActorDetails(actor, filmsData, seriesData);
+    }
+}
+
+/**
  * Sets up the hero section with the given media item.
  * @param {Object} item - The media item to display in the hero section.
  */
@@ -47,7 +73,7 @@ export function setupHero(item) {
 
     // Set up play button click handler based on media type
     newBtn.onclick = () => {
-        openDetails(item);
+        openDetailsWithRoute(item);
         if (isSerie && item.seasons?.["1"]?.[0]) {
             const ctx = {
                 type: 'series',
@@ -72,7 +98,7 @@ export function setupHero(item) {
     if (infoBtn) {
         const newInfoBtn = infoBtn.cloneNode(true);
         infoBtn.parentNode.replaceChild(newInfoBtn, infoBtn);
-        newInfoBtn.onclick = () => openDetails(item);
+        newInfoBtn.onclick = () => openDetailsWithRoute(item);
     }
 }
 
@@ -446,7 +472,7 @@ export function createMediaCard(item, extraClasses = "") {
             </div>
         </div>
     `;
-    card.onclick = () => openDetails(item);
+    card.onclick = () => openDetailsWithRoute(item);
     return card;
 }
 
@@ -791,7 +817,7 @@ export function renderActorsList(actorsData, filmsData = {}, seriesData = {}) {
             </div>
         `;
 
-        card.onclick = () => openActorDetails(actor, filmsData, seriesData);
+        card.onclick = () => openActorDetailsWithRoute(actor, filmsData, seriesData);
         grid.appendChild(card);
     });
 
@@ -847,7 +873,7 @@ export function renderActorsListSearch(actorsData, filmsData = {}, seriesData = 
             </div>
         `;
 
-        card.onclick = () => openActorDetails(actor, filmsData, seriesData);
+        card.onclick = () => openActorDetailsWithRoute(actor, filmsData, seriesData);
         grid.appendChild(card);
     });
 

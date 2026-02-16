@@ -8,7 +8,7 @@
 import { fetchAllData } from './dataLoader.js';
 
 // Import display and rendering functions
-import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch, refreshActiveSeriesDetails } from './display.js';
+import { setupHero, renderHorizontalRow, renderGrid, renderNotifs, openDetails, closeDetails, playCurrentMedia, renderCollections, renderActorsList, closeActorDetails, renderActorsListSearch, refreshActiveSeriesDetails, openActorDetails } from './display.js';
 
 // Import utility functions for video player and UI interactions
 import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobileSearch, showLoader, hideLoader, hardenPlayerControls, initPlayerPersistence, downloadProgressBackup, openProgressImport, importProgressFromFile } from './utils.js';
@@ -16,12 +16,15 @@ import { closeVideo, toggleNotifs, toggleSettings, toggleMobileMenu, toggleMobil
 // Global application state
 let appData = { films: {}, series: {}, collections: {}, notifs: {}, actors: {} };
 let currentView = 'home';
+const ROUTES = new Set(['home', 'films', 'series', 'actors', 'collections']);
+let activeDetailRoute = null;
+let activeActorRoute = null;
 
 // Expose functions to global window scope for inline HTML event handlers
 window.router = router;
 window.toggleNotifs = toggleNotifs;
 window.toggleSettings = toggleSettings;
-window.closeDetails = closeDetails;
+window.closeDetails = closeDetailsAndRoute;
 window.playCurrentMedia = playCurrentMedia;
 window.closeVideo = closeVideo;
 window.applyFilters = applyFilters;
@@ -29,7 +32,9 @@ window.resetFilters = resetFilters;
 window.toggleMobileMenu = toggleMobileMenu;
 window.downloadProgressBackup = downloadProgressBackup;
 window.openProgressImport = openProgressImport;
-window.closeActorDetails = closeActorDetails;
+window.closeActorDetails = closeActorDetailsAndRoute;
+window.openMediaDetails = openMediaDetails;
+window.openActorDetailsRoute = openActorDetailsRoute;
 window.refreshActiveSeriesDetails = refreshActiveSeriesDetails;
 
 // Initialize application when DOM is fully loaded
@@ -75,13 +80,178 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Render notifications badge and populate UI
     renderNotifs(data.notifs);
 
-    // Set up hero section and filters, then navigate to home
+    // Set up hero section and filters, then navigate to the current URL route
     initHero();
     populateFilters();
-    router('home');
+    const { view, detail, fromQuery } = parseLocationRoute();
+    router(view, { pushState: false, detail });
+    if (fromQuery) {
+        updateRoute(view, detail, true);
+    }
 
     hideLoader();
 });
+
+// Handle browser back/forward navigation
+window.addEventListener('popstate', () => {
+    const { view, detail } = parseLocationRoute();
+    router(view, { pushState: false, detail });
+});
+
+/**
+ * Builds a URL-friendly slug from a title string.
+ * @param {string} text - Source text.
+ * @returns {string} Slug.
+ */
+function slugify(text) {
+    if (!text) return '';
+    return String(text)
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+}
+
+/**
+ * Determines the base path (useful for deployments in subfolders).
+ * @param {string} pathname - Current location pathname.
+ * @returns {string} Normalized base path ending with '/'.
+ */
+function getBasePath(pathname) {
+    let path = pathname || '/';
+    if (!path.endsWith('/')) {
+        const parts = path.split('/');
+        const last = parts[parts.length - 1];
+        const prev = parts[parts.length - 2];
+        if (ROUTES.has(last) || last === 'index.html') {
+            parts.pop();
+        } else if (ROUTES.has(prev)) {
+            parts.pop();
+            parts.pop();
+        }
+        path = parts.join('/') + '/';
+    }
+    return path === '' ? '/' : path;
+}
+
+/**
+ * Resolves the view name from the current URL.
+ * @returns {string} View name.
+ */
+function parseLocationRoute() {
+    const url = new URL(window.location.href);
+    const routeParam = url.searchParams.get('route');
+    const rawPath = routeParam || url.pathname || '/';
+    const pathname = rawPath.startsWith('/') ? rawPath : `/${rawPath}`;
+    const basePath = getBasePath(pathname);
+    const raw = pathname.startsWith(basePath) ? pathname.slice(basePath.length) : pathname;
+    const parts = raw.split('/').filter(Boolean);
+    if (parts.length === 0 || parts[0] === 'index.html') {
+        return { view: 'home', detail: null, fromQuery: Boolean(routeParam) };
+    }
+
+    const view = ROUTES.has(parts[0]) ? parts[0] : 'home';
+    if (view === 'home') {
+        return { view: 'home', detail: null, fromQuery: Boolean(routeParam) };
+    }
+
+    const slug = parts[1] || '';
+    const detail = slug ? { type: view, slug } : null;
+    return { view, detail, fromQuery: Boolean(routeParam) };
+}
+
+/**
+ * Finds a media item by slug within a media collection.
+ * @param {string} type - 'films' or 'series'.
+ * @param {string} slug - Media slug.
+ * @returns {Object|null} Media item or null.
+ */
+function findMediaBySlug(type, slug) {
+    if (!slug) return null;
+    const source = type === 'films' ? Object.values(appData.films) : Object.values(appData.series);
+    return source.find(item => slugify(item.title) === slug) || null;
+}
+
+/**
+ * Finds an actor by slug.
+ * @param {string} slug - Actor slug.
+ * @returns {Object|null} Actor object or null.
+ */
+function findActorBySlug(slug) {
+    if (!slug) return null;
+    const actors = Object.values(appData.actors);
+    return actors.find(actor => slugify(actor.name) === slug) || null;
+}
+
+/**
+ * Updates the URL path for the current view and optional detail.
+ * @param {string} view - Base view.
+ * @param {Object|null} detail - Optional detail route.
+ */
+function updateRoute(view, detail = null, replace = false) {
+    const basePath = getBasePath(window.location.pathname || '/');
+    let targetPath = basePath;
+    if (view && view !== 'home') {
+        targetPath = `${basePath}${view}`;
+    }
+    if (detail && detail.slug) {
+        targetPath = `${targetPath}/${detail.slug}`;
+    }
+    if (window.location.pathname !== targetPath) {
+        if (replace) {
+            window.history.replaceState({ view, detail }, '', targetPath);
+        } else {
+            window.history.pushState({ view, detail }, '', targetPath);
+        }
+    }
+}
+
+/**
+ * Opens a media details overlay and syncs the route.
+ * @param {Object} item - Media item.
+ */
+function openMediaDetails(item) {
+    if (!item) return;
+    const isSerie = item.type === 'serie' || item.seasons !== undefined;
+    const view = isSerie ? 'series' : 'films';
+    const slug = slugify(item.title);
+    activeDetailRoute = { type: view, slug };
+    activeActorRoute = null;
+    router(view, { detail: { type: view, slug, item }, pushState: true });
+}
+
+/**
+ * Opens an actor details overlay and syncs the route.
+ * @param {Object} actor - Actor item.
+ * @param {Object} filmsData - Films data.
+ * @param {Object} seriesData - Series data.
+ */
+function openActorDetailsRoute(actor, filmsData, seriesData) {
+    if (!actor) return;
+    const slug = slugify(actor.name);
+    activeActorRoute = { type: 'actors', slug };
+    activeDetailRoute = null;
+    router('actors', { detail: { type: 'actors', slug, actor, filmsData, seriesData }, pushState: true });
+}
+
+/**
+ * Closes media details overlay and restores the base view route.
+ */
+function closeDetailsAndRoute() {
+    closeDetails();
+    activeDetailRoute = null;
+    updateRoute(currentView, null);
+}
+
+/**
+ * Closes actor details overlay and restores the base view route.
+ */
+function closeActorDetailsAndRoute() {
+    closeActorDetails();
+    activeActorRoute = null;
+    updateRoute(currentView, null);
+}
 
 /**
  * Sets navigation link colors to default (removes highlight).
@@ -102,8 +272,11 @@ function textWhite(navHome, navSeries, navFilms, navCollections, navActors) {
  * Routes to the specified view and updates the UI accordingly.
  * @param {string} view - The view to route to ('home', 'series', 'films', 'collections', 'actors').
  */
-function router(view) {
-    currentView = view;
+function router(view, options = {}) {
+    const { pushState = true } = options;
+    const detail = options.detail || null;
+    const safeView = ROUTES.has(view) ? view : 'home';
+    currentView = safeView;
 
     // Clear any active search when navigating
     clearSearch();
@@ -146,7 +319,7 @@ function router(view) {
     const allSeries = Object.values(appData.series);
 
     // Render content based on selected view
-    if (view === 'home') {
+    if (safeView === 'home') {
         if (navHome) navHome.classList.add('text-white');
         hero.classList.remove('hidden');
         homeContent.classList.remove('hidden');
@@ -161,7 +334,7 @@ function router(view) {
         // Enable horizontal mouse wheel scrolling for rows
         enableHorizontalWheelScroll();
     }
-    else if (view === 'series') {
+    else if (safeView === 'series') {
         // Show series view with filters
         if (navSeries) navSeries.classList.add('text-white');
         filters.classList.remove('hidden');
@@ -170,7 +343,7 @@ function router(view) {
         populateFilters();
         applyFilters();
     }
-    else if (view === 'films') {
+    else if (safeView === 'films') {
         // Show films view with filters
         if (navFilms) navFilms.classList.add('text-white');
         filters.classList.remove('hidden');
@@ -179,7 +352,7 @@ function router(view) {
         populateFilters();
         applyFilters();
     }
-    else if (view === 'collections') {
+    else if (safeView === 'collections') {
         // Show collections view
         if (navCollections) navCollections.classList.add('text-white');
         collectionsContent.classList.remove('hidden');
@@ -187,11 +360,34 @@ function router(view) {
 
         enableHorizontalWheelScroll();
     }
-    else if (view === 'actors') {
+    else if (safeView === 'actors') {
         // Show actors view
         if (navActors) navActors.classList.add('text-white');
         actorsContent.classList.remove('hidden');
         renderActorsList(appData.actors, appData.films, appData.series);
+    }
+
+    if (detail && detail.type === 'actors') {
+        const actor = detail.actor || findActorBySlug(detail.slug);
+        if (actor) {
+            openActorDetails(actor, detail.filmsData || appData.films, detail.seriesData || appData.series);
+            activeActorRoute = { type: 'actors', slug: detail.slug };
+        }
+    } else if (detail && (detail.type === 'films' || detail.type === 'series')) {
+        const item = detail.item || findMediaBySlug(detail.type, detail.slug);
+        if (item) {
+            openDetails(item);
+            activeDetailRoute = { type: detail.type, slug: detail.slug };
+        }
+    } else {
+        closeDetails();
+        closeActorDetails();
+        activeDetailRoute = null;
+        activeActorRoute = null;
+    }
+
+    if (pushState) {
+        updateRoute(safeView, detail && detail.slug ? detail : null);
     }
 }
 

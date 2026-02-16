@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamIt</title>
+    <script>
+        (function () {
+            var full = window.location.pathname + window.location.search + window.location.hash;
+            var base = window.location.pathname.replace(/\/[^\/]*$/, '/');
+            var relative = full.startsWith(base) ? '/' + full.slice(base.length) : full;
+            var target = base + 'index.html?route=' + encodeURIComponent(relative);
+            window.location.replace(target);
+        })();
+    </script>
+</head>
+<body></body>
+</html>
