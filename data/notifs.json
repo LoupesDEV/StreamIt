@@ -1,5 +1,19 @@
 [
     {
+        "id": 23,
+        "type": "films",
+        "title": "Nouveaux Films Disponibles",
+        "message": "Découvrez <strong>''Primate''</strong>, <strong>''Team Démolition''</strong>, <strong>''Twisted''</strong>, <strong>''The Monkey''</strong>, <strong>''Dis-le-moi tout bas''</strong>, <strong>''Juste l'espace entre nous''</strong>, <strong>''La Guerre des Roses''</strong>, <strong>''Novocaine''</strong>, <strong>''Train Dreams''</strong>, <strong>''Mickey 17''</strong>, <strong>''La Dernière Chevauchée''</strong>, <strong>''M3GAN''</strong>, <strong>''M3GAN 2.0''</strong>, <strong>''Warfare''</strong> & <strong>''Mercato''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "16 Février 2026"
+    },
+    {
+        "id": 22,
+        "type": "update",
+        "title": "Mise à jour",
+        "message": "Découvrez le nouveau système de routage de StreamIt, conçu pour vous offrir une expérience de navigation plus rapide et plus fluide à travers notre vaste bibliothèque de films et de séries.",
+        "time": "16 Février 2026"
+    },
+    {
         "id": 21,
         "type": "update",
         "title": "Mise à jour",
