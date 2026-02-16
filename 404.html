@@ -7,7 +7,8 @@
     <script>
         (function () {
             var full = window.location.pathname + window.location.search + window.location.hash;
-            var base = window.location.pathname.replace(/\/[^\/]*$/, '/');
+            var parts = window.location.pathname.split('/').filter(Boolean);
+            var base = parts[0] === 'StreamIt' ? '/StreamIt/' : '/';
             var relative = full.startsWith(base) ? '/' + full.slice(base.length) : full;
             var target = base + 'index.html?route=' + encodeURIComponent(relative);
             window.location.replace(target);
