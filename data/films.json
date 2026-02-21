@@ -362,7 +362,7 @@
     "banner": "medias/films/la-planete-des-singes/banner.jpg",
     "IMDb": 5.7,
     "duration": "2h 00min",
-    "IMDb_link": "https://www.imdb.com/fr/title/tt0133152/",
+    "IMDb_link": "https://www.imdb.com/title/tt0133152/",
     "year": 2001,
     "genres": [
       "Dystopian Sci-Fi",
@@ -394,7 +394,7 @@
     "banner": "medias/films/la-planete-des-singes-les-origines/banner.jpg",
     "IMDb": 7.6,
     "duration": "2h 00min",
-    "IMDb_link": "https://www.imdb.com/fr/title/tt1318514/",
+    "IMDb_link": "https://www.imdb.com/title/tt1318514/",
     "year": 2011,
     "genres": [
       "Action",
@@ -425,7 +425,7 @@
     "banner": "medias/films/la-planete-des-singes-l-affrontement/banner.jpg",
     "IMDb": 7.6,
     "duration": "2h 11min",
-    "IMDb_link": "https://www.imdb.com/fr/title/tt2103281/",
+    "IMDb_link": "https://www.imdb.com/title/tt2103281/",
     "year": 2014,
     "genres": [
       "Dystopian Sci-Fi",
@@ -724,7 +724,7 @@
     "banner": "medias/films/lucy/banner.jpg",
     "IMDb": 6.4,
     "duration": "1h 29min",
-    "IMDb_link": "https://www.imdb.com/fr/title/tt2872732/",
+    "IMDb_link": "https://www.imdb.com/title/tt2872732/",
     "year": 2014,
     "genres": [
       "Artificial Intelligence",
@@ -2731,7 +2731,7 @@
       "Sci-Fi Epic",
       "Superhero",
       "Tragedy",
-      "UUrban Adventure",
+      "Urban Adventure",
       "Action",
       "Adventure"
     ],
@@ -4758,7 +4758,7 @@
   },
   "Terminator Genisys": {
     "title": "Terminator Genisys",
-    "description": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l'avenir de l'humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
+    "description": "Le leader de la résistance, John Connor, envoie le sergent Kyle Reese dans le passé, afin de protéger sa mère, Sarah Connor, et de préserver l'avenir de l'humanité. Des événements inattendus provoquent une fracture temporelle. Sarah et Kyle se retrouvent dans une nouvelle version du passé. Ils y découvrent un allié inattendu : le Guardian. Ensemble, ils doivent faire face à un nouvel ennemi cybernétique. La menace a changé de visage.",
     "poster": "medias/films/terminator-genisys/poster.jpg",
     "banner": "medias/films/terminator-genisys/banner.jpg",
     "video": "medias/films/terminator-genisys/terminator-genisys.mp4",
@@ -4996,7 +4996,6 @@
     "video": "medias/films/le-muppet-show/le-muppet-show.mp4",
     "IMDb": 8.5,
     "duration":"33min",
-    "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt37969426/",
     "year": 2026,
     "genres": [
@@ -5476,6 +5475,349 @@
       "Olivier Demangel",
       "Thomas Finkielkraut",
       "Jamel Debbouze"
+    ]
+  },
+  "28 Ans plus tard : Le Temple des morts": {
+    "title": "28 Ans plus tard : Le Temple des morts",
+    "description": "Le docteur Kelson noue une relation aussi troublante qu'inattendue dont les répercussions sont susceptibles de bouleverser le monde. De l'autre côté, la rencontre entre Spike et Jimmy Crystal tourne au cauchemar.",
+    "poster": "medias/films/28-ans-plus-tard-le-temple-des-morts/poster.jpg",
+    "banner": "medias/films/28-ans-plus-tard-le-temple-des-morts/banner.jpg",
+    "video": "medias/films/28-ans-plus-tard-le-temple-des-morts/28-ans-plus-tard-le-temple-des-morts.mp4",
+    "IMDb": 7.6,
+    "duration": "1h 49min",
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt32141377/",
+    "year": 2026,
+    "genres": [
+      "Dystopian Sci-Fi",
+      "Psychological Horror",
+      "Zombie Horror",
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Jack O'Connell",
+      "Alfie Williams",
+      "Connor Newall"
+    ],
+    "trailer": "",
+    "directors": [
+      "Nia DaCosta"
+    ],
+    "writers": [
+      "Alex Garland"
+    ]
+  },
+  "Reconnu coupable": {
+    "title": "Reconnu coupable",
+    "description": "Dans un futur proche, la ville de Los Angeles est en proie à une montée de la violence. Le détective privé Chris Raven est accusé du meurtre de sa femme. Il est jugé par la juge Maddox, une intelligence artificielle avancée du tribunal expéditif de Mercy Capital, auquel Chris a grandement contribué. Il a 90 minutes pour prouver lui-même son innocence. Après ce délai, l'IA déterminera son sort et le condamnera à mort.",
+    "poster": "medias/films/reconnu-coupable/poster.jpg",
+    "banner": "medias/films/reconnu-coupable/banner.jpg",
+    "video": "medias/films/reconnu-coupable/reconnu-coupable.mp4",
+    "IMDb": 6.1,
+    "duration": "1h 40min",
+    "IMDb_link": "https://www.imdb.com/title/tt31050594/",
+    "year": 2026,
+    "genres": [
+      "Artificial Intelligence",
+      "Cyber Thriller",
+      "Legal Thriller",
+      "Whodunnit",
+      "Action",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Chris Pratt",
+      "Rebecca Ferguson",
+      "Kali Reis"
+    ],
+    "trailer": "",
+    "directors": [
+      "Timur Bekmambetov"
+    ],
+    "writers": [
+      "Marco van Belle"
+    ]
+  },
+  "Godzilla": {
+    "title": "Godzilla",
+    "description": "Le physicien Joseph Brody a perdu sa femme il y a 15 ans quand un incident nucléaire a irradié la région de Tokyo. La thèse officielle parle de tremblement de terre mais le scientifique est sceptique et mène son enquête avec son fils Ford, soldat dans la Navy. En fait de catastrophe naturelle, il s'agit plutôt des dégâts d'une créature gigantesque créée à la suite d'essais nucléaires dans le Pacifique. D'autres monstres menacent l'archipel d'Hawaï et la côte Ouest des États-Unis. L'armée est mobilisée et menée par l'Amiral William Stenz. Au même moment, la compagne de Ford, infirmière et jeune maman, gère les blessés dans un hôpital de San Francisco…",
+    "poster": "medias/films/godzilla/poster.jpg",
+    "banner": "medias/films/godzilla/banner.jpg",
+    "video": "medias/films/godzilla/godzilla.mp4",
+    "IMDb": 6.4,
+    "duration": "1h 56min",
+    "IMDb_link": "https://www.imdb.com/title/tt0831387/",
+    "year": 2014,
+    "genres": [
+      "Dinosaur Adventure",
+      "Disaster",
+      "Kaiju",
+      "Urban Adventure",
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Aaron Taylor-Johnson",
+      "Elizabeth Olsen",
+      "Bryan Cranston"
+    ],
+    "trailer": "",
+    "directors": [
+      "Gareth Edwards"
+    ],
+    "writers": [
+      "Dave Callaham",
+      "Max Borenstein"
+    ]
+  },
+  "Godzilla II : Roi des Monstres": {
+    "title": "Godzilla II : Roi des Monstres",
+    "description": "L'agence crypto-zoologique Monarch doit faire face à une vague de monstres titanesques, comme Godzilla, Mothra, Rodan et surtout le redoutable roi Ghidorah à trois têtes. Un combat sans précédent entre ces créatures considérées jusque-là comme chimériques menace d'éclater. Alors qu'elles cherchent toutes à dominer la planète, l'avenir même de l'humanité est en jeu…",
+    "poster": "medias/films/godzilla-ii-roi-des-monstres/poster.jpg",
+    "banner": "medias/films/godzilla-ii-roi-des-monstres/banner.jpg",
+    "video": "medias/films/godzilla-ii-roi-des-monstres/godzilla-ii-roi-des-monstres.mp4",
+    "IMDb": 6.0,
+    "duration": "2h 12min",
+    "IMDb_link": "https://www.imdb.com/title/tt3741700/",
+    "year": 2019,
+    "genres": [
+      "Action Epic",
+      "Dark Fantasy",
+      "Dinosaur Adventure",
+      "Disaster",
+      "Kaiju",
+      "Supernatural Fantasy",
+      "Urban Adventure",
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "stars": [
+      "Kyle Chandler",
+      "Vera Farmiga",
+      "Millie Bobby Brown"
+    ],
+    "trailer": "",
+    "directors": [
+      "Michael Dougherty"
+    ],
+    "writers": [
+      "Michael Dougherty",
+      "Zach Shields",
+      "Max Borenstein"
+    ]
+  },
+  "Godzilla Minus One": {
+    "title": "Godzilla Minus One",
+    "description": "La guerre est finie, mais le combat est loin d'être terminé pour Shikishima, pilote rongé par la culpabilité. Peut-il se pardonner et aider à sauver le Japon de la furie de Godzilla ?",
+    "poster": "medias/films/godzilla-minus-one/poster.jpg",
+    "banner": "medias/films/godzilla-minus-one/banner.jpg",
+    "video": "medias/films/godzilla-minus-one/godzilla-minus-one.mp4",
+    "IMDb": 7.7,
+    "duration": "2h 5min",
+    "IMDb_link": "https://www.imdb.com/title/tt23289160/",
+    "year": 2023,
+    "genres": [
+      "Japanese",
+      "Action Epic",
+      "Adventure Epic",
+      "Dinosaur Adventure",
+      "Epic",
+      "Kaiju",
+      "Monster Horror",
+      "Period Drama",
+      "Sci-Fi Epic",
+      "Tragedy"
+    ],
+    "stars": [
+      "Ryûnosuke Kamiki",
+      "Minami Hamabe",
+      "Yuki Yamada"
+    ],
+    "trailer": "",
+    "directors": [
+      "Takashi Yamazaki"
+    ],
+    "writers": [
+      "Takashi Yamazaki",
+      "Ishirô Honda",
+      "Takeo Murata"
+    ]
+  },
+  "Godzilla vs. Kong": {
+    "title": "Godzilla vs. Kong",
+    "description": "À une époque où les monstres parcourent la Terre, et alors que l'humanité lutte pour son avenir, Godzilla et King Kong, les deux forces les plus puissantes de la nature, entrent en collision dans une bataille spectaculaire inédite. Alors que Monarch se lance dans une mission périlleuse en terrain inconnu, et qu'il découvre des indices sur les origines des Titans, un complot humain menace d'éradiquer ces créatures - qu'elles soient bonnes ou mauvaises - de la surface de la planète.",
+    "poster": "medias/films/godzilla-vs-kong/poster.jpg",
+    "banner": "medias/films/godzilla-vs-kong/banner.jpg",
+    "video": "medias/films/godzilla-vs-kong/godzilla-vs-kong.mp4",
+    "IMDb": 6.3,
+    "duration": "1h 53min",
+    "IMDb_link": "https://www.imdb.com/title/tt5034838/",
+    "year": 2021,
+    "genres": [
+      "Dinosaur Adventure",
+      "Disaster",
+      "Kaiju",
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "stars": [
+      "Alexander Skarsgård",
+      "Millie Bobby Brown",
+      "Rebecca Hall"
+    ],
+    "trailer": "",
+    "directors": [
+      "Adam Wingard"
+    ],
+    "writers": [
+      "Terry Rossio",
+      "Michael Dougherty",
+      "Zach Shields"
+    ]
+  },
+  "Godzilla x Kong : Le Nouvel Empire": {
+    "title": "Godzilla x Kong : Le Nouvel Empire",
+    "description": "Le surpuissant Kong et le redoutable Godzilla sont opposés à une force colossale terrée dans notre monde, qui menace leur existence et la nôtre. \"Godzilla x Kong : Le nouvel empire\" approfondit l'histoire de ces titans et leurs origines, ainsi que les mystères de Skull Island et au-delà, tout en levant le voile sur la bataille mythique qui a forgé ces êtres extraordinaires et les a liés à l'humanité à jamais.",
+    "poster": "medias/films/godzilla-x-kong-le-nouvel-empire/poster.jpg",
+    "banner": "medias/films/godzilla-x-kong-le-nouvel-empire/banner.jpg",
+    "video": "medias/films/godzilla-x-kong-le-nouvel-empire/godzilla-x-kong-le-nouvel-empire.mp4",
+    "IMDb": 6.0,
+    "duration": "1h 55min",
+    "IMDb_link": "https://www.imdb.com/title/tt14539740/",
+    "year": 2024,
+    "genres": [
+      "Action Epic",
+      "Dinosaur Adventure",
+      "Disaster",
+      "Globetrotting Adventure",
+      "Kaiju",
+      "Supernatural Fantasy",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Rebecca Hall",
+      "Brian Tyree Henry",
+      "Dan Stevens"
+    ],
+    "trailer": "",
+    "directors": [
+      "Adam Wingard"
+    ],
+    "writers": [
+      "Terry Rossio",
+      "Adam Wingard",
+      "Simon Barrett"
+    ]
+  },
+  "Sirāt": {
+    "title": "Sirāt",
+    "description": "Un père et son fils parviennent à une rave perdue au cœur des montagnes du sud du Maroc. Ils cherchent Mar — fille et sœur — disparue depuis plusieurs mois lors de l'une de ces fêtes sans fin. Plongés dans la musique électronique et une liberté brute qui leur est étrangère, ils distribuent inlassablement sa photo. L'espoir s'amenuise, mais ils s'obstinent et suivent un groupe de ravers vers une dernière fête dans le désert. À mesure qu'ils s'enfoncent dans l'immensité brûlante, le voyage les confronte à leurs propres limites.",
+    "poster": "medias/films/sirat/poster.jpg",
+    "banner": "medias/films/sirat/banner.jpg",
+    "video": "medias/films/sirat/sirat.mp4",
+    "IMDb": 7.0,
+    "duration": "2h",
+    "IMDb_link": "https://www.imdb.com/title/tt32298285/",
+    "year": 2025,
+    "genres": [
+      "Spannish",
+      "Psychological Drama",
+      "Psychological Thriller",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Music",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Sergi López",
+      "Bruno Núñez Arjona",
+      "Stefania Gadda"
+    ],
+    "trailer": "",
+    "directors": [
+      "Oliver Laxe"
+    ],
+    "writers": [
+      "Oliver Laxe",
+      "Santiago Fillol"
+    ]
+  },
+  "Champagne Problems": {
+    "title": "Champagne Problems",
+    "description": "Venue à Paris pour racheter une grande maison de champagne avant Noël, une cadre américaine ambitieuse tombe sous le charme de l'héritier de la marque.",
+    "poster": "medias/films/champagne-problems/poster.jpg",
+    "banner": "medias/films/champagne-problems/banner.jpg",
+    "video": "medias/films/champagne-problems/champagne-problems.mp4",
+    "IMDb": 6.0,
+    "duration": "1h 39min",
+    "IMDb_link": "https://www.imdb.com/title/tt33053440/",
+    "year": 2025,
+    "genres": [
+      "Holiday Romance",
+      "Comedy",
+      "Holiday",
+      "Romance"
+    ],
+    "stars": [
+      "Minka Kelly",
+      "Tom Wozniczka",
+      "Thibault de Montalembert"
+    ],
+    "trailer": "",
+    "directors": [
+      "Mark Steven Johnson"
+    ],
+    "writers": [
+      "Mark Steven Johnson"
+    ]
+  },
+  "Sinners": {
+    "title": "Sinners",
+    "description": "Alors qu'ils cherchent à s'affranchir d'un lourd passé, deux frères jumeaux reviennent dans leur ville natale pour repartir à zéro. Mais ils comprennent qu'une puissance maléfique bien plus redoutable guette leur retour avec impatience.",
+    "poster": "medias/films/sinners/poster.jpg",
+    "banner": "medias/films/sinners/banner.jpg",
+    "video": "medias/films/sinners/sinners.mp4",
+    "IMDb": 7.5,
+    "duration": "2h 17min",
+    "IMDb_link": "https://www.imdb.com/title/tt31193180/",
+    "year": 2025,
+    "genres": [
+      "Folk Horror",
+      "Period Drama",
+      "Supernatural Horror",
+      "Vampire Horror",
+      "Action",
+      "Drama",
+      "Horror",
+      "Music",
+      "Thriller"
+    ],
+    "stars": [
+      "Michael B. Jordan",
+      "Jack O'Connell",
+      "Hailee Steinfeld"
+    ],
+    "trailer": "",
+    "directors": [
+      "Ryan Coogler"
+    ],
+    "writers": [
+      "Ryan Coogler"
     ]
   }
 }

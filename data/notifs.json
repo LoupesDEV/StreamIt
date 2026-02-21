@@ -1,8 +1,22 @@
 [
     {
+        "id": 25,
+        "type": "series",
+        "title": "Nouvelles Séries Disponibles",
+        "message": "Regardez <strong>''Percy Jackson et les Olympiens''</strong>, <strong>''Ça : Bienvenue à Derry''</strong>, <strong>''Tales of the Walking Dead''</strong>, <strong>''Narcos''</strong>, <strong>''Adolescence''</strong>, <strong>''Dexter: Resurrection''</strong>, <strong>''Star Wars: Tales of the Jedi''</strong>, <strong>''Star Wars: Tales of the Empire''</strong>, <strong>''L'Institut''</strong> & <strong>''Swagger''</strong> dès maintenant sur StreamIt.",
+        "time": "21 Février 2026"
+    },
+    {
+        "id": 24,
+        "type": "films",
+        "title": "Nouveaux Films Ajoutés",
+        "message": "Découvrez <strong>''28 Ans plus tard : Le Temple des morts''</strong>, <strong>''Reconnu coupable''</strong>, <strong>''Godzilla''</strong>, <strong>''Godzilla II : Roi des Monstres''</strong>, <strong>''Godzilla Minus One''</strong>, <strong>''Godzilla vs. Kong''</strong>, <strong>''Godzilla x Kong : Le Nouvel Empire''</strong>, <strong>''Sirāt''</strong>, <strong>''Champagne Problems''</strong> & <strong>''Sinners''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "21 Février 2026"
+    },
+    {
         "id": 23,
         "type": "films",
-        "title": "Nouveaux Films Disponibles",
+        "title": "Nouveaux Films Ajoutés",
         "message": "Découvrez <strong>''Primate''</strong>, <strong>''Team Démolition''</strong>, <strong>''Twisted''</strong>, <strong>''The Monkey''</strong>, <strong>''Dis-le-moi tout bas''</strong>, <strong>''Juste l'espace entre nous''</strong>, <strong>''La Guerre des Roses''</strong>, <strong>''Novocaine''</strong>, <strong>''Train Dreams''</strong>, <strong>''Mickey 17''</strong>, <strong>''La Dernière Chevauchée''</strong>, <strong>''M3GAN''</strong>, <strong>''M3GAN 2.0''</strong>, <strong>''Warfare''</strong> & <strong>''Mercato''</strong>, maintenant disponibles sur StreamIt.",
         "time": "16 Février 2026"
     },
@@ -30,21 +44,21 @@
     {
         "id": 19,
         "type": "films",
-        "title": "Nouveaux Films Disponibles",
+        "title": "Nouveaux Films Ajoutés",
         "message": "Découvrez <strong>''La Femme de ménage''</strong>, <strong>''Le Million''</strong> & <strong>''Le Muppet Show''</strong>, maintenant disponibles sur StreamIt.",
         "time": "8 Février 2026"
     },
     {
         "id": 18,
         "type": "films",
-        "title": "Nouveau Film Disponible",
+        "title": "Nouveau Film Ajouté",
         "message": "Découvrez <strong>''Zootopie 2''</strong>, maintenant disponibles sur StreamIt.",
         "time": "27 Janvier 2026"
     },
     {
         "id": 17,
         "type": "films",
-        "title": "Nouveaux Films Disponibles",
+        "title": "Nouveaux Films Ajoutés",
         "message": "Découvrez <strong>''Terminator Genisys''</strong>, <strong>''The Rip''</strong> & <strong>''Predator : Badlands''</strong>, maintenant disponibles sur StreamIt.",
         "time": "25 Janvier 2026"
     },
@@ -93,7 +107,7 @@
     {
         "id": 10,
         "type": "films",
-        "title": "Nouveaux Films Disponibles",
+        "title": "Nouveaux Films Ajoutés",
         "message": "Découvrez <strong>''Wicked : Partie 1''</strong> & <strong>''Wicked : Partie 2''</strong>, maintenant disponibles sur StreamIt.",
         "time": "1 Janvier 2026"
     },

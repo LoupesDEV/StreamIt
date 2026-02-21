@@ -9426,7 +9426,7 @@
     "Jeffrey Dean Morgan": {
         "name": "Jeffrey Dean Morgan",
         "photo": "medias/acteurs/jeffrey_dean_morgan.jpg",
-        "bio": "Jeffrey Dean Morgan (born April 22, 1966) is a European-American actor and producer of film and television. He is known for his roles as John Winchester in the CW fantasy horror series Supernatural (2005–2007; 2019), Denny Duquette in the ABC medical drama series Grey's Anatomy (2006–2009), the Comedian in the superhero film Watchmen (2009), Clay in The Losers (2010), Jason Crouse in the CBS political drama series The Good Wife (2015–2016), Negan in the AMC horror drama series The Walking Dead (2016–present), and Harvey Russell in Rampage (2018).",
+        "bio": "Jeffrey Dean Morgan (born April 22, 1966) is a European-American actor and producer of film and television. He is known for his roles as John Winchester in the CW fantasy horror series Supernatural (2005-2007; 2019), Denny Duquette in the ABC medical drama series Grey's Anatomy (2006-2009), the Comedian in the superhero film Watchmen (2009), Clay in The Losers (2010), Jason Crouse in the CBS political drama series The Good Wife (2015-2016), Negan in the AMC horror drama series The Walking Dead (2016-present), and Harvey Russell in Rampage (2018).",
         "birthDate": "1966-04-22",
         "gender": "Homme",
         "nationality": "Seattle, Washington, USA",
@@ -10457,7 +10457,7 @@
                 "episodes": 25
             },
             {
-                "title": "Dora and Friends : Au cœur de la ville",
+                "title": "Dora and Friends : Au cœur de la ville",
                 "year": 2014,
                 "type": "serie",
                 "role": "Kate (voice)",
@@ -10469,6 +10469,1518 @@
                 "type": "serie",
                 "role": "Jenny",
                 "episodes": 7
+            }
+        ]
+    },
+    "Owen Cooper": {
+        "name": "Owen Cooper",
+        "photo": "medias/acteurs/owen_cooper.jpg",
+        "bio": "Owen was born on December 5, 2009, in Warrington, England. The third son of a nanny mother and an IT father, Owen wanted to be a footballer. However, after seeing Tom Holland's performance in the film “The Impossible,” he decided to pursue acting. A big fan of Tom Holland, Cooper began taking drama lessons. Stephen Graham, co-producer of the murder-themed series, was looking for an unknown British face for this role. Selected from over 500 auditions, Cooper's first project was filmed between July and October 2024. The series, which aired in March 2025, made a splash worldwide. Renowned critic Evening Standard wrote, “This performance is the best debut performance by a child actor to date.” With his series, which aired in early 2025, he won an Emmy Award at the end of 2025, earning him the title of “Youngest Person to Win an Emmy Award in History.” Almost immediately after, Cooper also won the Golden Globe Award for Best Supporting Actor, becoming world-famous with two major awards before reaching adulthood. Lacking the high ego often found in his peers, Cooper responded to reporters' questions at the awards ceremony, “What will you do after the ceremony?” with, “I'll go to school after I sleep.”\n\nFollowing Adolescence, Cooper appeared in supporting roles in the Film Club series, Whispering Hills, and Cry to Heaven. He also featured in a music video released in 2025 and has won a total of 11 awards, including an Emmy and a Golden Globe.",
+        "birthDate": "2009-12-05",
+        "gender": "Homme",
+        "nationality": "Warrington, Cheshire, England, UK",
+        "filmography": [
+            {
+                "title": "“Hurlevent”",
+                "year": 2026,
+                "type": "film",
+                "role": "Young Heathcliff"
+            },
+            {
+                "title": "Golden Globe Awards",
+                "year": 2026,
+                "type": "serie",
+                "role": "Self - Winner",
+                "episodes": 1
+            },
+            {
+                "title": "Critics Choice Awards",
+                "year": 2026,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Adolescence",
+                "year": 2025,
+                "type": "serie",
+                "role": "Jamie Miller",
+                "episodes": 2
+            },
+            {
+                "title": "Adolescence",
+                "year": 2025,
+                "type": "serie",
+                "role": "Jamie Miller (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "The One Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Jimmy Kimmel Live!",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "The Emmy Awards",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Film Club",
+                "year": 2025,
+                "type": "serie",
+                "role": "Callum",
+                "episodes": 5
+            },
+            {
+                "title": "Today",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Lorraine",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "This Morning",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Jamie Miller (archive footage)",
+                "episodes": 1
+            },
+            {
+                "title": "Today",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Jamie Miller (archive footage)",
+                "episodes": 1
+            }
+        ]
+    },
+    "Millie Bobby Brown": {
+        "name": "Millie Bobby Brown",
+        "photo": "medias/acteurs/millie_bobby_brown.jpg",
+        "bio": "Millie Bobby Brown est une actrice et productrice britannique née le 19 février 2004 à Marbella, en Espagne, de parents britanniques. Troisième d'une fratrie de quatre enfants, elle grandit d'abord en Angleterre, puis déménage aux États-Unis (Orlando, Floride, puis Los Angeles) pour poursuivre une carrière d'actrice après avoir été repérée par un agent de talents.\n\nElle débute en 2013 avec des rôles dans Once Upon a Time in Wonderland, Intruders, puis des apparitions dans NCIS, Modern Family et Grey's Anatomy. Sa carrière explose en 2016 avec le rôle d'Eleven dans la série Netflix Stranger Things (2016-2025), où elle incarne une jeune fille dotée de pouvoirs télékinétiques. Ce personnage lui vaut une reconnaissance mondiale, deux nominations aux Primetime Emmy Awards pour Meilleure actrice dans un second rôle dans une série dramatique (à seulement 13 ans pour la première), une nomination aux Screen Actors Guild Awards individuelle, et une victoire collective pour l'ensemble du casting.\n\nAu cinéma, elle joue dans Godzilla: Roi des monstres (2019) et Godzilla vs. Kong (2021), puis tient le rôle-titre dans Enola Holmes (2020) et Enola Holmes 2 (2022) sur Netflix, où elle produit également via sa société PCMA Productions. Elle apparaît dans Damsel (2024), The Electric State (2025) des frères Russo, et d'autres projets.\n\nParmi ses distinctions notables figurent des Saturn Awards, des MTV Movie & TV Awards, et une place dans la liste Time 100 Next. Elle s'engage aussi dans l'entrepreneuriat avec la marque Florence by Mills et des collaborations mode (Louis Vuitton). En 2026, elle est attendue dans Enola Holmes 3, Just Picture It (comédie romantique), Perfect (biopic sur Kerri Strug) et la série Prism (qu'elle produit).",
+        "birthDate": "2004-02-19",
+        "gender": "Femme",
+        "nationality": "Marbella, Málaga, Andalusia, Spain",
+        "filmography": [
+            {
+                "title": "La Dernière Aventure : Le making-of de Stranger Things 5",
+                "year": 2026,
+                "type": "film",
+                "role": "Self - Eleven / Jane"
+            },
+            {
+                "title": "The Electric State",
+                "year": 2025,
+                "type": "film",
+                "role": "Michelle"
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Co-Host",
+                "episodes": 1
+            },
+            {
+                "title": "The One Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "La Demoiselle et le dragon",
+                "year": 2024,
+                "type": "film",
+                "role": "Elodie"
+            },
+            {
+                "title": "The Kelly Clarkson Show",
+                "year": 2024,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "La Demoiselle et le dragon",
+                "year": 2024,
+                "type": "film",
+                "role": "Executive Producer"
+            },
+            {
+                "title": "La Demoiselle et le dragon",
+                "year": 2024,
+                "type": "film",
+                "role": "Stunts"
+            },
+            {
+                "title": "Enola Holmes 2",
+                "year": 2022,
+                "type": "film",
+                "role": "Enola Holmes"
+            },
+            {
+                "title": "The Drew Barrymore Show",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Hot Ones",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Enola Holmes 2",
+                "year": 2022,
+                "type": "film",
+                "role": "Producer"
+            },
+            {
+                "title": "Godzilla vs. Kong",
+                "year": 2021,
+                "type": "film",
+                "role": "Madison Russell"
+            },
+            {
+                "title": "Kid's Choice Awards",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Mariah Carey's Magical Christmas Special",
+                "year": 2020,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Enola Holmes",
+                "year": 2020,
+                "type": "film",
+                "role": "Enola Holmes"
+            },
+            {
+                "title": "Carpool Karaoke : la série",
+                "year": 2020,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Enola Holmes",
+                "year": 2020,
+                "type": "film",
+                "role": "Producer"
+            },
+            {
+                "title": "Godzilla II : Roi des Monstres",
+                "year": 2019,
+                "type": "film",
+                "role": "Madison Russell"
+            },
+            {
+                "title": "Florence by Mills by Millie Bobby Brown",
+                "year": 2019,
+                "type": "film",
+                "role": "Self - Model"
+            },
+            {
+                "title": "Stranger Things",
+                "year": 2019,
+                "type": "serie",
+                "role": "Eleven / Jane Hopper",
+                "episodes": 25
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2019,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 5
+            },
+            {
+                "title": "Good Morning America",
+                "year": 2019,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 2
+            },
+            {
+                "title": "Spheres",
+                "year": 2018,
+                "type": "film",
+                "role": "Narrator (Voice)"
+            },
+            {
+                "title": "El hormiguero",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 2
+            },
+            {
+                "title": "Beyond Stranger Things",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 2
+            },
+            {
+                "title": "Variety Studio: Actors on Actors",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "MTV Movie & TV Awards",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Extra",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Extra",
+                "year": 2017,
+                "type": "serie",
+                "role": "Self (Archive Footage)",
+                "episodes": 1
+            },
+            {
+                "title": "Hell's Kitchen",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self - Restaurant Patron",
+                "episodes": 1
+            },
+            {
+                "title": "The Jonathan Ross Show",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 2
+            },
+            {
+                "title": "Stranger Things",
+                "year": 2016,
+                "type": "serie",
+                "role": "Eleven",
+                "episodes": 17
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Chelsea",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Young Hollywood",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "The Emmy Awards",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self - Performer",
+                "episodes": 1
+            },
+            {
+                "title": "Quotidien",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Grey's Anatomy",
+                "year": 2015,
+                "type": "serie",
+                "role": "Ruby",
+                "episodes": 1
+            },
+            {
+                "title": "Modern Family",
+                "year": 2015,
+                "type": "serie",
+                "role": "Lizzie",
+                "episodes": 1
+            },
+            {
+                "title": "NCIS : Enquêtes spéciales",
+                "year": 2014,
+                "type": "serie",
+                "role": "Rachel Barnes",
+                "episodes": 1
+            },
+            {
+                "title": "Intruders",
+                "year": 2014,
+                "type": "serie",
+                "role": "Madison O'Donnell",
+                "episodes": 8
+            },
+            {
+                "title": "Once Upon a Time in Wonderland",
+                "year": 2013,
+                "type": "serie",
+                "role": "Young Alice",
+                "episodes": 2
+            },
+            {
+                "title": "Kitchen Sentai Cookrun",
+                "year": 2013,
+                "type": "film",
+                "role": "Creator"
+            }
+        ]
+    },
+    "Sydney Sweeney": {
+        "name": "Sydney Sweeney",
+        "photo": "medias/acteurs/sydney_sweeney.jpg",
+        "bio": "Sydney Sweeney est une actrice et productrice américaine née le 12 septembre 1997 à Spokane, dans l'État de Washington. Issue d'une famille où sa mère exerçait comme avocate pénaliste et son père travaillait dans l'hôtellerie, elle grandit dans une zone rurale près de la frontière avec l'Idaho, pratiquant de nombreux sports dont le wakeboard, le football et le baseball.\n\nÀ 14 ans, elle convainc ses parents de déménager à Los Angeles pour poursuivre une carrière d'actrice, après avoir présenté un plan professionnel détaillé. Elle débute par des apparitions dans des séries comme Esprits criminels (2009), Grey's Anatomy (2014) et Pretty Little Liars (2017). En 2018, elle obtient des rôles plus notables dans la série Everything Sucks ! (Emaline Addario), la mini-série Sharp Objects aux côtés d'Amy Adams, et The Handmaid's Tale : La Servante écarlate.\n\nSa carrière décolle en 2019 avec le rôle de Cassie Howard dans la série HBO Euphoria (2019-présent), aux côtés de Zendaya, qui lui vaut une reconnaissance internationale. En 2021, elle brille dans la première saison de The White Lotus, série anthologique acclamée. Au cinéma, elle apparaît dans Once Upon a Time in Hollywood (2019) de Quentin Tarantino, puis tient des premiers rôles dans Reality (2023), Anyone but You (Tout sauf toi, 2023) avec Glen Powell, Madame Web (2024), Immaculate (2024), le biopic Christy (2025) où elle incarne la boxeuse Christy Martin, et The Housemaid (La Femme de ménage, 2025).\n\nNommée aux Primetime Emmy Awards en 2022 pour Euphoria et The White Lotus dans la catégorie Meilleure actrice dans un second rôle dans une série dramatique, elle est également incluse dans la liste Time 100 Next en 2022. Elle fonde sa société de production Fifty-Fifty Films en 2020, produisant notamment Immaculate.",
+        "birthDate": "1997-09-12",
+        "gender": "Femme",
+        "nationality": "Spokane, Washington, USA",
+        "filmography": [
+            {
+                "title": "Echo Valley",
+                "year": 2025,
+                "type": "film",
+                "role": "Claire Garrett"
+            },
+            {
+                "title": "Americana",
+                "year": 2025,
+                "type": "film",
+                "role": "Penny Jo Poplin"
+            },
+            {
+                "title": "Eden",
+                "year": 2025,
+                "type": "film",
+                "role": "Margret Wittmer"
+            },
+            {
+                "title": "Christy",
+                "year": 2025,
+                "type": "film",
+                "role": "Christy Martin"
+            },
+            {
+                "title": "La Femme de ménage",
+                "year": 2025,
+                "type": "film",
+                "role": "Millie Calloway"
+            },
+            {
+                "title": "The One Show",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "The Emmy Awards",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "The Late Show with Stephen Colbert",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Variety & CNN Actors on Actors",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Celebrity Family Feud",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Christy",
+                "year": 2025,
+                "type": "film",
+                "role": "Producer"
+            },
+            {
+                "title": "La Femme de ménage",
+                "year": 2025,
+                "type": "film",
+                "role": "Executive Producer"
+            },
+            {
+                "title": "Madame Web",
+                "year": 2024,
+                "type": "film",
+                "role": "Julia Cornwall"
+            },
+            {
+                "title": "Immaculée",
+                "year": 2024,
+                "type": "film",
+                "role": "Sister Cecilia"
+            },
+            {
+                "title": "My Way",
+                "year": 2024,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Hot Ones",
+                "year": 2024,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Saturday Night Live",
+                "year": 2024,
+                "type": "serie",
+                "role": "Self - Host",
+                "episodes": 1
+            },
+            {
+                "title": "Immaculée",
+                "year": 2024,
+                "type": "film",
+                "role": "Producer"
+            },
+            {
+                "title": "Reality",
+                "year": 2023,
+                "type": "film",
+                "role": "Reality Winner"
+            },
+            {
+                "title": "Tout sauf toi",
+                "year": 2023,
+                "type": "film",
+                "role": "Bea"
+            },
+            {
+                "title": "Tout sauf toi",
+                "year": 2023,
+                "type": "film",
+                "role": "Executive Producer"
+            },
+            {
+                "title": "LIVE with Kelly and Mark",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 2
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 4
+            },
+            {
+                "title": "Carpool Karaoke : la série",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Variety Studio: Actors on Actors",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Les Voyeurs",
+                "year": 2021,
+                "type": "film",
+                "role": "Pippa"
+            },
+            {
+                "title": "Night Teeth",
+                "year": 2021,
+                "type": "film",
+                "role": "Eva"
+            },
+            {
+                "title": "Downfalls High",
+                "year": 2021,
+                "type": "film",
+                "role": "Scarlett Smith"
+            },
+            {
+                "title": "Robot Chicken",
+                "year": 2021,
+                "type": "serie",
+                "role": "Barbie / Riley Andersen (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "Robot Chicken",
+                "year": 2021,
+                "type": "serie",
+                "role": "Barbie / Cinema Girl (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "Made in Hollywood",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "The Kelly Clarkson Show",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 3
+            },
+            {
+                "title": "People's Choice Awards",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self - Presenter",
+                "episodes": 2
+            },
+            {
+                "title": "The White Lotus",
+                "year": 2021,
+                "type": "serie",
+                "role": "Olivia Mossbacher",
+                "episodes": 6
+            },
+            {
+                "title": "Mauvaise influence",
+                "year": 2020,
+                "type": "film",
+                "role": "Holly"
+            },
+            {
+                "title": "Nocturne",
+                "year": 2020,
+                "type": "film",
+                "role": "Juliet Lowe"
+            },
+            {
+                "title": "Once Upon a Time... in Hollywood",
+                "year": 2019,
+                "type": "film",
+                "role": "'Snake'"
+            },
+            {
+                "title": "Clémentine",
+                "year": 2019,
+                "type": "film",
+                "role": "Lana"
+            },
+            {
+                "title": "MTV Movie & TV Awards",
+                "year": 2019,
+                "type": "serie",
+                "role": "Self - Presenter",
+                "episodes": 2
+            },
+            {
+                "title": "Euphoria",
+                "year": 2019,
+                "type": "serie",
+                "role": "Cassie Howard",
+                "episodes": 24
+            },
+            {
+                "title": "Along Came the Devil",
+                "year": 2018,
+                "type": "film",
+                "role": "Ashley"
+            },
+            {
+                "title": "Under the Silver Lake",
+                "year": 2018,
+                "type": "film",
+                "role": "Shooting Star #2"
+            },
+            {
+                "title": "Relentless",
+                "year": 2018,
+                "type": "film",
+                "role": "Ally Drew"
+            },
+            {
+                "title": "Ma fille, cette inconnue",
+                "year": 2018,
+                "type": "film",
+                "role": "Samantha"
+            },
+            {
+                "title": "Sharp Objects",
+                "year": 2018,
+                "type": "serie",
+                "role": "Alice",
+                "episodes": 7
+            },
+            {
+                "title": "Everything Sucks!",
+                "year": 2018,
+                "type": "serie",
+                "role": "Emaline Addario",
+                "episodes": 10
+            },
+            {
+                "title": "The Handmaid's Tale : La Servante écarlate",
+                "year": 2018,
+                "type": "serie",
+                "role": "Eden Spencer",
+                "episodes": 7
+            },
+            {
+                "title": "The Chattering",
+                "year": 2017,
+                "type": "film",
+                "role": "Ashely"
+            },
+            {
+                "title": "It Happened Again Last Night",
+                "year": 2017,
+                "type": "film",
+                "role": "Young Paige"
+            },
+            {
+                "title": "Vikes",
+                "year": 2017,
+                "type": "film",
+                "role": "Ida"
+            },
+            {
+                "title": "Dead Ant",
+                "year": 2017,
+                "type": "film",
+                "role": "Sam"
+            },
+            {
+                "title": "Manic",
+                "year": 2017,
+                "type": "film",
+                "role": "Missy 'Paper Girl'"
+            },
+            {
+                "title": "The Middle",
+                "year": 2017,
+                "type": "serie",
+                "role": "Female Student #1",
+                "episodes": 1
+            },
+            {
+                "title": "Pretty Little Liars",
+                "year": 2017,
+                "type": "serie",
+                "role": "Willa",
+                "episodes": 1
+            },
+            {
+                "title": "Monster School Animation",
+                "year": 2017,
+                "type": "serie",
+                "role": "Madeline Rayon (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "In The Vault",
+                "year": 2017,
+                "type": "serie",
+                "role": "Haley Caren",
+                "episodes": 8
+            },
+            {
+                "title": "The Horde",
+                "year": 2016,
+                "type": "film",
+                "role": "Hailey Summers"
+            },
+            {
+                "title": "Cassidy Way",
+                "year": 2016,
+                "type": "film",
+                "role": "Kelsey Connors"
+            },
+            {
+                "title": "Held",
+                "year": 2015,
+                "type": "film",
+                "role": "Lily Woods"
+            },
+            {
+                "title": "The Unborn",
+                "year": 2015,
+                "type": "film",
+                "role": "Little Janey Hutchins"
+            },
+            {
+                "title": "Trafic d'adolescents",
+                "year": 2015,
+                "type": "film",
+                "role": "Emma"
+            },
+            {
+                "title": "The Martial Arts Kid",
+                "year": 2015,
+                "type": "film",
+                "role": "Julia"
+            },
+            {
+                "title": "Love Made Visible",
+                "year": 2015,
+                "type": "film",
+                "role": "Leah"
+            },
+            {
+                "title": "Angels in Stardust",
+                "year": 2014,
+                "type": "film",
+                "role": "Annie"
+            },
+            {
+                "title": "Grey's Anatomy",
+                "year": 2014,
+                "type": "serie",
+                "role": "Erin Weaver",
+                "episodes": 1
+            },
+            {
+                "title": "Spiders",
+                "year": 2013,
+                "type": "film",
+                "role": "Emily"
+            },
+            {
+                "title": "L'Amour du Risque",
+                "year": 2011,
+                "type": "film",
+                "role": "Izzy Fishman"
+            },
+            {
+                "title": "Tatami Academy",
+                "year": 2011,
+                "type": "serie",
+                "role": "Kelsey Vargas",
+                "episodes": 1
+            },
+            {
+                "title": "Zombies of Mass Destruction",
+                "year": 2010,
+                "type": "film",
+                "role": "Lisa"
+            },
+            {
+                "title": "The Ward : L'Hôpital de la terreur",
+                "year": 2010,
+                "type": "film",
+                "role": "Young Alice Hudson"
+            },
+            {
+                "title": "Night Blind",
+                "year": 2010,
+                "type": "film",
+                "role": "Little Girl"
+            },
+            {
+                "title": "Takeo",
+                "year": 2010,
+                "type": "film",
+                "role": "Samantha Wright"
+            },
+            {
+                "title": "The Opium Eater",
+                "year": 2010,
+                "type": "film",
+                "role": "Sara Detzer"
+            },
+            {
+                "title": "Chase",
+                "year": 2010,
+                "type": "serie",
+                "role": "Kayla Edwards",
+                "episodes": 1
+            },
+            {
+                "title": "90210 Beverly Hills : Nouvelle génération",
+                "year": 2010,
+                "type": "serie",
+                "role": "Girl",
+                "episodes": 1
+            },
+            {
+                "title": "Heroes",
+                "year": 2009,
+                "type": "serie",
+                "role": "Little Girl",
+                "episodes": 1
+            },
+            {
+                "title": "Esprits criminels",
+                "year": 2009,
+                "type": "serie",
+                "role": "Dani Forester",
+                "episodes": 1
+            }
+        ]
+    },
+    "Pedro Pascal": {
+        "name": "Pedro Pascal",
+        "photo": "medias/acteurs/pedro_pascal.jpg",
+        "bio": "Pedro Pascal est né de parents qui faisaient partie du mouvement d'opposition contre Augusto Pinochet au Chili. Peu après sa naissance, sa famille obtient l'asile politique et déménage en Californie puis au Texas. Durant ses jeunes années, il fait de la compétition en natation mais privilégie le théâtre au moment où il découvre et tombe amoureux de cette discipline. Le jeune homme effectue ainsi des études dans cette voix à New York où il s'installe.\n\nPedro Pascal commence à apparaître dans des épisodes de séries à partir de la fin des années 1990 avant de trouver son premier rôle récurrent de la série juridique The Good Wife. Il y incarne le personnage de Nathan Landry le temps de six épisodes. Le comédien enchaîne ensuite avec plusieurs rôles plus ou moins importants sur le petit écran, comme dans Lights Out, Brothers & Sisters, Red Widow ou encore Graceland. Il est même choisi en 2013 pour se glisser dans la peau de l'Agent Marcus Pike dans la série à succès The Mentalist, un personnage qui entretient une relation amoureuse avec Lisbon.\n\nMais c'est en 2014 que l'acteur explose aux yeux du grand public, grâce à son rôle de Oberyn Martell dans la quatrième saison de Game of Thrones. Il s'agit d'un charismatique guerrier extrêmement habile avec les armes mais qui trouve la mort à la fin d'un combat de titans avec La Montagne. Fort de cette prestation marquante, l'acteur campe ensuite l'agent de la DEA Javier Peña dans la série Netflix Narcos, son premier personnage régulier. En 2020 il incarne The Mandalorian de l'univers Star Wars.\n\nParallèlement, Pedro Pascal est également sollicité au cinéma dans des rôles physiques. On le retrouve ainsi aux côtés de Matt Damon dans La Grande Muraille et du jeune Taron Egerton dans la suite de Kingsman, Kingsman : The Golden Circle et Wonder Woman 1984 sortie en 2020.",
+        "birthDate": "1975-04-02",
+        "gender": "Homme",
+        "nationality": "Santiago, Chile",
+        "filmography": [
+            {
+                "title": "Avengers: Secret Wars",
+                "year": 2027,
+                "type": "film",
+                "role": "Reed Richards / Mr. Fantastic"
+            },
+            {
+                "title": "Star Wars: The Mandalorian and Grogu",
+                "year": 2026,
+                "type": "film",
+                "role": "Din Djarin / The Mandalorian"
+            },
+            {
+                "title": "Avengers: Doomsday",
+                "year": 2026,
+                "type": "film",
+                "role": "Reed Richards / Mr. Fantastic"
+            },
+            {
+                "title": "L'invité imprévu",
+                "year": 2025,
+                "type": "film",
+                "role": "Lucien"
+            },
+            {
+                "title": "Eddington",
+                "year": 2025,
+                "type": "film",
+                "role": "Ted Garcia"
+            },
+            {
+                "title": "Materialists",
+                "year": 2025,
+                "type": "film",
+                "role": "Harry"
+            },
+            {
+                "title": "Les 4 Fantastiques : Premiers pas",
+                "year": 2025,
+                "type": "film",
+                "role": "Reed Richards / Mister Fantastic"
+            },
+            {
+                "title": "Freaky Tales",
+                "year": 2025,
+                "type": "film",
+                "role": "Clint"
+            },
+            {
+                "title": "Ladies & Gentlemen... 50 Years of SNL Music",
+                "year": 2025,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Marvel Studios' The Fantastic Four: First Steps - World Premiere",
+                "year": 2025,
+                "type": "film",
+                "role": "Self - 'Reed Richards' / 'Mister Fantastic'"
+            },
+            {
+                "title": "Made in Eddington",
+                "year": 2025,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Encounters in the Milky Way",
+                "year": 2025,
+                "type": "film",
+                "role": "Narrator"
+            },
+            {
+                "title": "Saturday Night Live",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self / Renaldo",
+                "episodes": 1
+            },
+            {
+                "title": "The Last of Us",
+                "year": 2025,
+                "type": "serie",
+                "role": "Joel Miller (uncredited)",
+                "episodes": 1
+            },
+            {
+                "title": "Jimmy Kimmel Live!",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "The Emmy Awards",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Faut Voir - L'hebdo cinéma",
+                "year": 2025,
+                "type": "serie",
+                "role": "Self - Guest",
+                "episodes": 1
+            },
+            {
+                "title": "Drive-Away Dolls",
+                "year": 2024,
+                "type": "film",
+                "role": "Penis Collector"
+            },
+            {
+                "title": "Gladiator II",
+                "year": 2024,
+                "type": "film",
+                "role": "General Acacius"
+            },
+            {
+                "title": "Grounded II: Making The Last of Us Part II",
+                "year": 2024,
+                "type": "film",
+                "role": "Self (archive footage) (uncredited)"
+            },
+            {
+                "title": "Le Robot sauvage",
+                "year": 2024,
+                "type": "film",
+                "role": "Fink (voice)"
+            },
+            {
+                "title": "The Making of Gladiator II",
+                "year": 2024,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Making of The Last of Us",
+                "year": 2023,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "Strange Way of Life",
+                "year": 2023,
+                "type": "film",
+                "role": "Silva"
+            },
+            {
+                "title": "Disney 100: A Century of Dreams - A Special Edition of 20/20",
+                "year": 2023,
+                "type": "film",
+                "role": "Self"
+            },
+            {
+                "title": "The Last of Us",
+                "year": 2023,
+                "type": "serie",
+                "role": "Joel Miller",
+                "episodes": 12
+            },
+            {
+                "title": "Saturday Night Live",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self - Host",
+                "episodes": 1
+            },
+            {
+                "title": "Late Night with Seth Meyers",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Saturday Night Live",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self - Cameo (uncredited)",
+                "episodes": 1
+            },
+            {
+                "title": "The Graham Norton Show",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Hot Ones",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Cérémonie des Oscars",
+                "year": 2023,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "House Comes with a Bird",
+                "year": 2022,
+                "type": "film",
+                "role": "Nico"
+            },
+            {
+                "title": "Un talent en or massif",
+                "year": 2022,
+                "type": "film",
+                "role": "Javi Gutierrez"
+            },
+            {
+                "title": "La Bulle",
+                "year": 2022,
+                "type": "film",
+                "role": "Dieter Bravo"
+            },
+            {
+                "title": "Patagonie : La vie au bout du monde",
+                "year": 2022,
+                "type": "serie",
+                "role": "Self - Narrator (voice)",
+                "episodes": 6
+            },
+            {
+                "title": "Le Livre de Boba Fett",
+                "year": 2022,
+                "type": "serie",
+                "role": "Din Djarin / The Mandalorian",
+                "episodes": 3
+            },
+            {
+                "title": "Calls",
+                "year": 2021,
+                "type": "serie",
+                "role": "Pedro (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "Le règne animal",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self - Narrator (voice)",
+                "episodes": 1
+            },
+            {
+                "title": "Variety Studio: Actors on Actors",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 2
+            },
+            {
+                "title": "Le Droit d'être américain : Histoire d'un combat",
+                "year": 2021,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 2
+            },
+            {
+                "title": "Community Table Read",
+                "year": 2020,
+                "type": "film",
+                "role": "Mr. Stone"
+            },
+            {
+                "title": "Wonder Woman 1984",
+                "year": 2020,
+                "type": "film",
+                "role": "Maxwell Lord"
+            },
+            {
+                "title": "C'est nous les héros",
+                "year": 2020,
+                "type": "film",
+                "role": "Marcus Moreno"
+            },
+            {
+                "title": "Home Movie: The Princess Bride",
+                "year": 2020,
+                "type": "serie",
+                "role": "Inigo Montoya",
+                "episodes": 1
+            },
+            {
+                "title": "Disney Les Making-of Star Wars : The Mandalorian",
+                "year": 2020,
+                "type": "serie",
+                "role": "Self - The Mandalorian",
+                "episodes": 7
+            },
+            {
+                "title": "Le Tonight Show",
+                "year": 2020,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 2
+            },
+            {
+                "title": "Triple Frontière",
+                "year": 2019,
+                "type": "film",
+                "role": "Francisco 'Catfish' Morales"
+            },
+            {
+                "title": "The Mandalorian",
+                "year": 2019,
+                "type": "serie",
+                "role": "Din Djarin / The Mandalorian",
+                "episodes": 24
+            },
+            {
+                "title": "Bag of Worms",
+                "year": 2019,
+                "type": "film",
+                "role": "Executive Producer"
+            },
+            {
+                "title": "Hope",
+                "year": 2018,
+                "type": "film",
+                "role": "Himself"
+            },
+            {
+                "title": "Equalizer 2",
+                "year": 2018,
+                "type": "film",
+                "role": "Dave York"
+            },
+            {
+                "title": "Prospect : L'ambre de la lune verte",
+                "year": 2018,
+                "type": "film",
+                "role": "Ezra"
+            },
+            {
+                "title": "Si Beale Street pouvait parler",
+                "year": 2018,
+                "type": "film",
+                "role": "Pietro Alvarez"
+            },
+            {
+                "title": "Kingsman : Le Cercle d'or",
+                "year": 2017,
+                "type": "film",
+                "role": "Whiskey"
+            },
+            {
+                "title": "La Grande Muraille",
+                "year": 2016,
+                "type": "film",
+                "role": "Tovar"
+            },
+            {
+                "title": "The Earliest Show: Outtakes & Bloopers",
+                "year": 2016,
+                "type": "film",
+                "role": "Himself"
+            },
+            {
+                "title": "The Late Show with Stephen Colbert",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "The Earliest Show",
+                "year": 2016,
+                "type": "serie",
+                "role": "Self",
+                "episodes": 1
+            },
+            {
+                "title": "Sweets",
+                "year": 2015,
+                "type": "film",
+                "role": "Twin Peter"
+            },
+            {
+                "title": "Bloodsucking Bastards",
+                "year": 2015,
+                "type": "film",
+                "role": "Max"
+            },
+            {
+                "title": "Narcos",
+                "year": 2015,
+                "type": "serie",
+                "role": "Javier Peña",
+                "episodes": 30
+            },
+            {
+                "title": "Mentalist",
+                "year": 2014,
+                "type": "serie",
+                "role": "Marcus Pike",
+                "episodes": 7
+            },
+            {
+                "title": "Game of Thrones",
+                "year": 2014,
+                "type": "serie",
+                "role": "Oberyn Martell",
+                "episodes": 7
+            },
+            {
+                "title": "The Sixth Gun",
+                "year": 2013,
+                "type": "film",
+                "role": "Special Agent Ortega"
+            },
+            {
+                "title": "Nikita",
+                "year": 2013,
+                "type": "serie",
+                "role": "Liam",
+                "episodes": 1
+            },
+            {
+                "title": "Graceland",
+                "year": 2013,
+                "type": "serie",
+                "role": "Juan Badillo",
+                "episodes": 10
+            },
+            {
+                "title": "Red Widow",
+                "year": 2013,
+                "type": "film",
+                "role": null
+            },
+            {
+                "title": "Homeland",
+                "year": 2013,
+                "type": "serie",
+                "role": "David Portillo",
+                "episodes": 1
+            },
+            {
+                "title": "Body of Proof",
+                "year": 2012,
+                "type": "serie",
+                "role": "Zack Goffman",
+                "episodes": 1
+            },
+            {
+                "title": "Les Experts",
+                "year": 2012,
+                "type": "serie",
+                "role": "Kyle Hartley",
+                "episodes": 1
+            },
+            {
+                "title": "Sam Axe, La dernière Mission",
+                "year": 2011,
+                "type": "film",
+                "role": "Comandante Veracruz"
+            },
+            {
+                "title": "Sweet Little Lies",
+                "year": 2011,
+                "type": "film",
+                "role": "Paulino"
+            },
+            {
+                "title": "L'Agence",
+                "year": 2011,
+                "type": "film",
+                "role": "Maitre D' Paul De Santo"
+            },
+            {
+                "title": "Wonder Woman",
+                "year": 2011,
+                "type": "film",
+                "role": null
+            },
+            {
+                "title": "Drôle de dames 2011",
+                "year": 2011,
+                "type": "serie",
+                "role": "Frederick Mercer",
+                "episodes": 1
+            },
+            {
+                "title": "Brothers and Sisters",
+                "year": 2011,
+                "type": "serie",
+                "role": "Zach Wellison",
+                "episodes": 2
+            },
+            {
+                "title": "New York Unité Spéciale",
+                "year": 2011,
+                "type": "serie",
+                "role": "Special Agent Greer",
+                "episodes": 1
+            },
+            {
+                "title": "Iris",
+                "year": 2009,
+                "type": "film",
+                "role": "Billy"
+            },
+            {
+                "title": "New York Section Criminelle",
+                "year": 2009,
+                "type": "serie",
+                "role": "Kevin Green",
+                "episodes": 1
+            },
+            {
+                "title": "The Good Wife",
+                "year": 2009,
+                "type": "serie",
+                "role": "Nathan Landry",
+                "episodes": 6
+            },
+            {
+                "title": "I Am That Girl",
+                "year": 2008,
+                "type": "film",
+                "role": "Noah"
+            },
+            {
+                "title": "New York Police Judiciaire",
+                "year": 2008,
+                "type": "serie",
+                "role": "Tito Cabassa",
+                "episodes": 1
+            },
+            {
+                "title": "New York Section Criminelle",
+                "year": 2006,
+                "type": "serie",
+                "role": "Reggie Luckman",
+                "episodes": 1
+            },
+            {
+                "title": "Hermanas",
+                "year": 2005,
+                "type": "film",
+                "role": "Steve"
+            },
+            {
+                "title": "L'Araignée-Vampire",
+                "year": 2001,
+                "type": "film",
+                "role": "Goth Guy"
+            },
+            {
+                "title": "New York Police Blues",
+                "year": 2001,
+                "type": "serie",
+                "role": "Shane 'Dio' Morrissey",
+                "episodes": 1
+            },
+            {
+                "title": "Les Anges du bonheur",
+                "year": 2000,
+                "type": "serie",
+                "role": "Ricky Hauk",
+                "episodes": 1
+            },
+            {
+                "title": "Buffy contre les vampires",
+                "year": 1999,
+                "type": "serie",
+                "role": "Eddie",
+                "episodes": 1
+            },
+            {
+                "title": "Window Shopping",
+                "year": 1997,
+                "type": "film",
+                "role": "David"
+            },
+            {
+                "title": "Burning Bridges",
+                "year": 1996,
+                "type": "film",
+                "role": "Alex"
             }
         ]
     }

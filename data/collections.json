@@ -135,7 +135,8 @@
     "series": [
       "Dexter",
       "Dexter : New Blood",
-      "Dexter : Les Origines"
+      "Dexter : Les Origines",
+      "Dexter: Resurrection"
     ]
   },
   "Batman": {
@@ -213,7 +214,8 @@
     "films": [
       "28 Jours plus tard",
       "28 Semaines plus tard",
-      "28 Ans plus tard"
+      "28 Ans plus tard",
+      "28 Ans plus tard : Le Temple des morts"
     ],
     "series": []
   },
@@ -309,6 +311,17 @@
     "films": [
       "Wicked : Partie I",
       "Wicked : Partie II"
+    ],
+    "series": []
+  },
+  "Godzilla": {
+    "name": "Godzilla",
+    "films": [
+      "Godzilla",
+      "Godzilla II : Roi des Monstres",
+      "Godzilla vs. Kong",
+      "Godzilla Minus One",
+      "Godzilla x Kong : Le Nouvel Empire"
     ],
     "series": []
   }
