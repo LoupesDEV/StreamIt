@@ -187,6 +187,50 @@ function findActorBySlug(slug) {
 }
 
 /**
+ * Finds a collection by slug.
+ * @param {string} slug - Collection slug.
+ * @returns {Object|null} Collection object or null.
+ */
+function findCollectionBySlug(slug) {
+    if (!slug) return null;
+    const entries = Object.entries(appData.collections || {});
+    for (const [key, collection] of entries) {
+        const keySlug = slugify(key);
+        const nameSlug = slugify(collection?.name || '');
+        if (slug === keySlug || slug === nameSlug) {
+            return collection;
+        }
+    }
+    return null;
+}
+
+/**
+ * Builds media items array for a collection.
+ * @param {Object} collection - Collection object.
+ * @returns {Array} Ordered media items.
+ */
+function getCollectionItems(collection) {
+    const items = [];
+    if (!collection) return items;
+
+    if (Array.isArray(collection.films)) {
+        collection.films.forEach(title => {
+            const foundFilm = Object.values(appData.films).find(f => f.title === title);
+            if (foundFilm) items.push(foundFilm);
+        });
+    }
+
+    if (Array.isArray(collection.series)) {
+        collection.series.forEach(title => {
+            const foundSerie = Object.values(appData.series).find(s => s.title === title);
+            if (foundSerie) items.push(foundSerie);
+        });
+    }
+
+    return items;
+}
+
+/**
  * Updates the URL path for the current view and optional detail.
  * @param {string} view - Base view.
  * @param {Object|null} detail - Optional detail route.
@@ -300,6 +344,10 @@ function router(view, options = {}) {
     const navFilms = document.getElementById('nav-films');
     const navCollections = document.getElementById('nav-collections');
     const navActors = document.getElementById('nav-actors');
+    const sectionTitle = document.getElementById('sectionTitle');
+
+    const existingBackBtn = document.getElementById('collectionBackBtn');
+    if (existingBackBtn) existingBackBtn.remove();
 
     // Reset all navigation link styles
     textWhite(navHome, navSeries, navFilms, navCollections, navActors);
@@ -355,12 +403,31 @@ function router(view, options = {}) {
         applyFilters();
     }
     else if (safeView === 'collections') {
-        // Show collections view
+        // Show collections list or a selected collection detail view
         if (navCollections) navCollections.classList.add('text-white');
-        collectionsContent.classList.remove('hidden');
-        renderCollections(appData.collections, appData);
+        const selectedCollection = detail && detail.type === 'collections'
+            ? (detail.collection || findCollectionBySlug(detail.slug))
+            : null;
 
-        enableHorizontalWheelScroll();
+        if (selectedCollection) {
+            genericGrid.classList.remove('hidden');
+            title.innerText = selectedCollection.name || 'Collection';
+
+            if (sectionTitle) {
+                const backBtn = document.createElement('button');
+                backBtn.id = 'collectionBackBtn';
+                backBtn.className = 'ml-auto text-sm font-bold text-gray-300 hover:text-white transition-colors flex items-center gap-2';
+                backBtn.innerHTML = '<i class="fas fa-arrow-left text-xs"></i><span>Retour aux collections</span>';
+                backBtn.onclick = () => router('collections');
+                sectionTitle.appendChild(backBtn);
+            }
+
+            renderGrid(getCollectionItems(selectedCollection), { showStatusBadges: false });
+        } else {
+            collectionsContent.classList.remove('hidden');
+            renderCollections(appData.collections, appData);
+            enableHorizontalWheelScroll();
+        }
     }
     else if (safeView === 'actors') {
         // Show actors view
@@ -525,7 +592,12 @@ function handleSearch(e) {
         if (currentView === 'home') {
             hero.classList.remove('hidden'); homeContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
         } else if (currentView === 'collections') {
-            collectionsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
+            const { detail } = parseLocationRoute();
+            if (detail && detail.type === 'collections') {
+                router('collections', { pushState: false, detail });
+            } else {
+                collectionsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
+            }
         } else if (currentView === 'actors') {
             actorsContent.classList.remove('hidden'); genericGrid.classList.add('hidden');
             renderActorsList(appData.actors, appData.films, appData.series);

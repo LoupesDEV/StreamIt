@@ -432,9 +432,10 @@ function renderEpisodes(episodes, seasonNum) {
  * Creates a media card element for a given media item.
  * @param {Object} item - The media item to create a card for.
  * @param {string} [extraClasses=""] - Additional CSS classes to apply to the card.
+ * @param {boolean} [showStatusBadges=true] - Whether to display watch/resume badges.
  * @returns {HTMLElement} The created media card element.
  */
-export function createMediaCard(item, extraClasses = "") {
+export function createMediaCard(item, extraClasses = "", showStatusBadges = true) {
     const card = document.createElement('div');
     card.className = `media-card group relative rounded-xl overflow-hidden cursor-pointer bg-[#1a1a1a] shadow-lg transition-all duration-300 ${extraClasses}`;
 
@@ -472,7 +473,9 @@ export function createMediaCard(item, extraClasses = "") {
     // Generate status badges HTML (watched/resume)
     const watchedBadge = watched ? '<span class="watched-pill"><i class="fas fa-eye text-xs"></i> Vu</span>' : '';
     const resumeBadge = !watched && hasResume ? '<span class="resume-pill">Reprendre</span>' : '';
-    const badgeStack = watchedBadge || resumeBadge ? `<div class="status-badges">${watchedBadge}${resumeBadge}</div>` : '';
+    const badgeStack = showStatusBadges && (watchedBadge || resumeBadge)
+        ? `<div class="status-badges">${watchedBadge}${resumeBadge}</div>`
+        : '';
 
     // Build media card HTML structure
     card.innerHTML = `
@@ -493,11 +496,14 @@ export function createMediaCard(item, extraClasses = "") {
 /**
  * Renders a grid of media items.
  * @param {Array} items - The list of media items to render.
+ * @param {Object} [options={}] - Optional rendering options.
+ * @param {boolean} [options.showStatusBadges=true] - Whether to display watch/resume badges.
  */
-export function renderGrid(items) {
+export function renderGrid(items, options = {}) {
     const grid = document.getElementById('contentGrid');
     grid.innerHTML = '';
-    items.forEach(item => grid.appendChild(createMediaCard(item, "aspect-[2/3]")));
+    const { showStatusBadges = true } = options;
+    items.forEach(item => grid.appendChild(createMediaCard(item, "aspect-[2/3]", showStatusBadges)));
 }
 
 /**
@@ -535,6 +541,18 @@ export function renderCollections(collectionsData, appData) {
         return a.name.localeCompare(b.name);
     });
 
+    const slugifyCollection = (text) => String(text || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)/g, '');
+
+    const grid = document.createElement('div');
+    grid.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 gap-y-10";
+
+    let hasRenderableCollection = false;
+
     for (const [key, collection] of sortedCollections) {
         const items = [];
 
@@ -558,28 +576,43 @@ export function renderCollections(collectionsData, appData) {
         if (items.length > 0) {
             items.sort((a, b) => a.year - b.year);
 
-            const section = document.createElement('section');
-            section.className = "animate-fade-in-up";
+            const firstFilmTitle = Array.isArray(collection.films) && collection.films.length > 0
+                ? collection.films[0]
+                : null;
+            const firstFilmItem = firstFilmTitle
+                ? Object.values(appData.films).find(f => f.title === firstFilmTitle)
+                : null;
 
-            const titleHTML = `
-                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3">
-                    <span class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_#dc2626]"></span>
-                    <span class="tracking-tight">${collection.name}</span>
-                </h2>
-            `;
-            section.innerHTML = titleHTML;
+            const previewItem = firstFilmItem || items[0];
+            const collectionSlug = slugifyCollection(collection.name || key);
 
-            const rowDiv = document.createElement('div');
-            rowDiv.className = "scroll-row flex gap-6 overflow-x-auto pb-8 hide-scrollbar scroll-smooth snap-x pl-1";
+            hasRenderableCollection = true;
 
-            items.forEach(item => {
-                const card = createMediaCard(item, "min-w-[200px] md:min-w-[280px] aspect-[2/3] snap-start");
-                rowDiv.appendChild(card);
-            });
+            const previewWrapper = document.createElement('div');
+            previewWrapper.className = "space-y-3 animate-fade-in-up";
 
-            section.appendChild(rowDiv);
-            container.appendChild(section);
+            const previewCard = createMediaCard(previewItem, "w-[200px] md:w-[280px] aspect-[2/3]", false);
+
+            previewCard.onclick = () => {
+                if (typeof window !== 'undefined' && typeof window.router === 'function') {
+                    window.router('collections', { detail: { type: 'collections', slug: collectionSlug }, pushState: true });
+                }
+            };
+
+            const collectionTitle = document.createElement('h3');
+            collectionTitle.className = "font-bold text-white text-base md:text-lg tracking-tight line-clamp-1";
+            collectionTitle.textContent = collection.name;
+
+            previewWrapper.appendChild(collectionTitle);
+            previewWrapper.appendChild(previewCard);
+            grid.appendChild(previewWrapper);
         }
+    }
+
+    if (hasRenderableCollection) {
+        container.appendChild(grid);
+    } else {
+        container.innerHTML = '<div class="text-center text-gray-500 py-10">Aucune collection disponible.</div>';
     }
 }
 
