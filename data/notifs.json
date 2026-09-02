@@ -1,5 +1,19 @@
 [
     {
+        "id": 27,
+        "type": "films",
+        "title": "Nouveau Film Ajouté",
+        "message": "Découvrez <strong>''Obsession''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "12 Août 2026"
+    },
+    {
+        "id": 26,
+        "type": "films",
+        "title": "Nouveaux Films Ajoutés",
+        "message": "Découvrez <strong>''Disclosure Day''</strong> & <strong>''Supergirl''</strong>, maintenant disponibles sur StreamIt.",
+        "time": "8 Août 2026"
+    },
+    {
         "id": 25,
         "type": "series",
         "title": "Nouvelles Séries Disponibles",

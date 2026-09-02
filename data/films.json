@@ -5485,7 +5485,6 @@
     "video": "medias/films/28-ans-plus-tard-le-temple-des-morts/28-ans-plus-tard-le-temple-des-morts.mp4",
     "IMDb": 7.6,
     "duration": "1h 49min",
-    "featured": true,
     "IMDb_link": "https://www.imdb.com/title/tt32141377/",
     "year": 2026,
     "genres": [
@@ -5818,6 +5817,146 @@
     ],
     "writers": [
       "Ryan Coogler"
+    ]
+  },
+  "Disclosure Day": {
+    "title": "Disclosure Day",
+    "description": "Si vous découvriez que nous ne sommes pas seuls, si quelqu'un vous le montrait, vous le prouvait, cela vous effraierait-il ?",
+    "poster": "medias/films/disclosure-day/poster.jpg",
+    "banner": "medias/films/disclosure-day/banner.jpg",
+    "video": "medias/films/disclosure-day/disclosure-day.mp4",
+    "IMDb": 6.5,
+    "duration": "2h 27min",
+    "IMDb_link": "https://www.imdb.com/title/tt15047880/",
+    "year": 2026,
+    "genres": [
+      "Alien Invasion",
+      "Conspiracy Thriller",
+      "Epic",
+      "Psychological Drama",
+      "Sci-Fi Epic",
+      "Suspense Mystery",
+      "Action",
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Emily Blunt",
+      "Josh O'Connor",
+      "Colin Firth"
+    ],
+    "trailer": "",
+    "directors": [
+      "Steven Spielberg"
+    ],
+    "writers": [
+      "Steven Spielberg",
+      "David Koepp"
+    ]
+  },
+  "Supergirl": {
+    "title": "Supergirl",
+    "description": "Lorsqu'un ennemi inattendu et impitoyable surgit, Kara Zor-El est forcée, malgré elle, de faire équipe avec un compagnon improbable. Ensemble, ils se lancent dans une épopée cosmique où la vengeance et la justice sont en jeu, et où Kara doit affronter ses origines pour trouver sa propre voie en tant qu'héroïne.",
+    "poster": "medias/films/supergirl-3/poster.jpg",
+    "banner": "medias/films/supergirl-3/banner.png",
+    "video": "medias/films/supergirl-3/supergirl-3.mp4",
+    "IMDb": 5.9,
+    "featured": true,
+    "IMDb_link": "https://www.imdb.com/title/tt8814476/",
+    "year": 2026,
+    "duration": "1h 48min",
+    "genres": [
+      "DC",
+      "Space Sci-Fi",
+      "Superhero",
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "stars": [
+      "Milly Alcock",
+      "David Corenswet",
+      "Eve Ridley"
+    ],
+    "trailer": "",
+    "directors": [
+      "Craig Gillespie"
+    ],
+    "writers": [
+      "Jerry Siegel",
+      "Joe Shuster",
+      "Ana Nogueira"
+    ]
+  },
+  "Obsession": {
+    "title": "Obsession",
+    "description": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel souhait. Son crush de toujours tombe alors raide dingue de lui… jusqu’à l’obsession la plus totale. Faites attention à ce que vous souhaitez !",
+    "poster": "medias/films/obsession/poster.jpg",
+    "banner": "medias/films/obsession/banner.jpg",
+    "video": "medias/films/obsession/obsession.mp4",
+    "IMDb": 7.9,
+    "IMDb_link": "https://www.imdb.com/title/tt37287335/",
+    "year": 2026,
+    "duration": "1h 50min",
+    "genres": [
+      "Dark Romance",
+      "Psychological Horror",
+      "Psychological Thriller",
+      "Supernatural Horror",
+      "Horror",
+      "Romance",
+      "Thriller"
+    ],
+    "stars": [
+      "Michael Johnston",
+      "Inde Navarrette",
+      "Cooper Tomlinson"
+    ],
+    "trailer": "",
+    "directors": [
+      "Curry Barker"
+    ],
+    "writers": [
+      "Curry Barker"
+    ]
+  },
+  "Toy Story 5": {
+    "title": "Toy Story 5",
+    "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle… l'électronique !",
+    "poster": "medias/films/toy-story-5/poster.png",
+    "banner": "medias/films/toy-story-5/banner.png",
+    "video": "medias/films/toy-story-5/toy-story-5.mp4",
+    "IMDb": 7.4,
+    "IMDb_link": "https://www.imdb.com/title/tt29355505/",
+    "year": 2026,
+    "duration": "1h 41min",
+    "genres": [
+      "Toy Story",
+      "Buddy Comedy",
+      "Computer Animation",
+      "Urban Adventure",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "stars": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
+    ],
+    "trailer": "",
+    "directors": [
+      "McKenna Harris",
+      "Andrew Stanton"
+    ],
+    "writers": [
+      "McKenna Harris",
+      "Andrew Stanton"
     ]
   }
 }
