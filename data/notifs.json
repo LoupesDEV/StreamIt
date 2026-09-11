@@ -1,5 +1,12 @@
 [
     {
+        "id": 28,
+        "type": "series",
+        "title": "Nouvelles Séries Disponibles",
+        "message": "Regardez <strong>''Nous les menteurs''</strong>, <strong>''La Cage''</strong>, <strong>''Les Dossiers Oubliés''</strong>, <strong>''The Crown''</strong>, <strong>''Chief of War''</strong>, <strong>''Outlander: Blood of My Blood''</strong>, <strong>''Double piège''</strong>, <strong>''Good American Family''</strong>, <strong>''Complicités''</strong> & <strong>''Reacher''</strong> dès maintenant sur StreamIt.",
+        "time": "9 Septembre 2026"
+    },
+    {
         "id": 27,
         "type": "films",
         "title": "Nouveau Film Ajouté",

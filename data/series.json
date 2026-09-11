@@ -1327,6 +1327,56 @@
           "video": "medias/series/house-of-the-dragon/2-8.mp4",
           "duration": "1h 10min"
         }
+      ],
+      "3": [
+        {
+          "title": "Mer et sel, feu et sang",
+          "desc": "Poussée par sa confiance en Alicent, Rhaenyra compte s'emparer de Port-Réal tandis que la Triarchie met le cap sur le Goulet pour affronter Corlys.",
+          "video": "medias/series/house-of-the-dragon/3-1.mp4",
+          "duration": "1h 5min"
+        },
+        {
+          "title": "Une reine à bon Port",
+          "desc": "Alors qu'Alicent joue le tout pour le tout afin de tenir sa part du marché, Rhaenyra doit décider si le Trône de Fer en vaut le prix.",
+          "video": "medias/series/house-of-the-dragon/3-2.mp4",
+          "duration": "1h 4min"
+        },
+        {
+          "title": "Le triomphe de Rhaenyra",
+          "desc": "Rhaenyra découvre que la situation à Port-Réal est bien différente de ce qu'elle avait imaginé. Incapable de localiser ses ennemis et confrontée à des demandes de toutes parts, elle doit trouver un équilibre délicat entre apaiser ses partisans et consolider son pouvoir.",
+          "video": "medias/series/house-of-the-dragon/3-3.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Chutebourg",
+          "desc": "L'invasion de Chutebourg par Ormund accule Rhaenyra au pied du mur.",
+          "video": "medias/series/house-of-the-dragon/3-4.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Insoumis, Invaincus",
+          "desc": "Alors que les recherches pour retrouver Aemond et Vhagar se poursuivent, Daemon tente de maîtriser la situation qui dégénère à Port-Réal.",
+          "video": "medias/series/house-of-the-dragon/3-5.mp4",
+          "duration": "1h 5min"
+        },
+        {
+          "title": "Les Hommes sans visage",
+          "desc": "Alors que Rhaenyra et Daemon s'efforcent de trouver la meilleure façon de gérer Ormund, les tensions parmi leurs alliés, laissés pour compte, commencent à éclater au grand jour.",
+          "video": "medias/series/house-of-the-dragon/3-6.mp4",
+          "duration": "1h 2min"
+        },
+        {
+          "title": "Le dragon en hiver",
+          "desc": "Tiraillée entre les visions de Mysaria et de Daemon concernant son règne, Rhaenyra cherche désespérément un signe lui confirmant qu'elle l'emportera.",
+          "video": "medias/series/house-of-the-dragon/3-7.mp4",
+          "duration": "1h 3min"
+        },
+        {
+          "title": "Les trahisons de Chutebourg",
+          "desc": "Les changements d'alliances redessinent le cours de la guerre alors que les forces de Rhaenyra se rassemblent autour de Chutebourg.",
+          "video": "medias/series/house-of-the-dragon/3-8.mp4",
+          "duration": "1h 10min"
+        }
       ]
     }
   },
@@ -10591,6 +10641,12 @@
           "desc": "Le courage de Dunk est mis à rude épreuve lors du procès brutal des sept. Des années auparavant, Dunk se sentait attiré par la promesse d'un avenir nouveau.",
           "video": "medias/series/a-knight-of-the-sevend-kingdom/1-5.mp4",
           "duration": "37min"
+        },
+        {
+          "title": "Le lendemain",
+          "desc": "Alors qu'Ashford pleure une grande perte, Dunk réfléchit à la marche à suivre... et se demande s'il doit garder l'Œuf comme écuyer.",
+          "video": "medias/series/a-knight-of-the-sevend-kingdom/1-6.mp4",
+          "duration": "31min"
         }
       ]
     }
@@ -12275,6 +12331,1200 @@
           "desc": "L'équipe de Swagger Prep joue son match le plus important de la saison. Les joueurs échangent sur leur avenir.",
           "video": "medias/series/swagger/2-8.mp4",
           "duration": "1h 2min"
+        }
+      ]
+    }
+  },
+  "Nous les menteurs": {
+    "title": "Nous les menteurs",
+    "description": "Un an après l'accident qui l'a rendue amnésique, Cadence, 17 ans, retourne à Beechwood, une île au large de Martha's Vineyard, pour trouver des réponses. Trois générations de la famille Sinclair se réunissent dans une utopie estivale privée, mais personne ne veut parler de l'accident - ni ses amis d'enfance, “Les menteurs”, ni son premier amour Gat. Elle doit alors découvrir la vérité toute seule.",
+    "poster": "medias/series/nous-les-menteurs/poster.jpg",
+    "banner": "medias/series/nous-les-menteurs/banner.jpg",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt3914054/",
+    "year": 2025,
+    "genres": [
+      "Psychological Thriller",
+      "Whodunnit",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "stars": [
+      "Emily Alyn Lind",
+      "Caitlin FitzGerald",
+      "Mamie Gummer"
+    ],
+    "trailer": "",
+    "creators": [
+      "Carina Adly MacKenzie",
+      "Julie Plec"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Raconte-moi de jolis petits mensonges",
+          "desc": "Chaque été, Cadence Sinclair chérit ce moment avec ses cousins Mirren et Johnny et son meilleur ami Gat à Beechwood Island. À seize ans, ce qui débute comme un été habituel d'espiègleries change quand Cadence et Gat tombent amoureux, alors que les tensions montent dans sa famille. Elle ignore que son conte de fées va s'achever : on la retrouve seule sur la plage, blessée et amnésique.",
+          "video": "medias/series/nous-les-menteurs/1-1.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "Enveloppe-la d'un tissu de mensonges",
+          "desc": "Suite à son mystérieux accident, Cadence souffre durant un an de maladie, d'amnésie, et de solitude, n'ayant eu aucun contact avec Les Menteurs. Elle retourne à Beechwood en quête de réponses, mais ses amis proches refusent de parler de l'été dont elle ne se souvient pas. L'île réveille des souvenirs de l'Été 16 : la fête des pères gâchée par la rivalité, la trahison, et la rupture amoureuse.",
+          "video": "medias/series/nous-les-menteurs/1-2.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Cravates noires et pieux mensonges",
+          "desc": "S'étant rappelée une tragédie familiale, Cadence presse Les Menteurs de questions. Mirren révèle un flirt qui a mal tourné. Johnny se rappelle une visite inopportune, et Gat évoque un épisode douloureux de leur relation. La tension entre les tantes ne cesse de monter, et Cadence soupçonne un menteur de cacher des choses, et se demande si l'accident de l'an passé en était vraiment un.",
+          "video": "medias/series/nous-les-menteurs/1-3.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "4 petits menteurs et puis s'en vont",
+          "desc": "Les Sinclair se préparent pour le 4 juillet, et Cadence enquête sur un des Menteurs, se remémorant la grande fête de l'an passé. Alors que les sœurs Sinclair se disputaient les faveurs de leur père, Les Menteurs vivaient leur vie amoureuse et Ed surprenait Carrie. Pour l'heure, Cadence découvre une vérité choquante sur un menteur, menant à une confrontation aussi explosive que le feu d'artifice.",
+          "video": "medias/series/nous-les-menteurs/1-4.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "L'espoir dans le mensonge",
+          "desc": "Troublée par des souvenirs pénibles, Cadence essaie de profiter du reste de l'été - même si cela implique de se distraire avec une cascade potentiellement dangereuse. Malgré tous ses efforts, elle se rappelle un jour de tempête de l'Été 16 quand les vagues et les frustrations menaçaient les Sinclair, exposant leur côté obscur et forçant Gat et Cadence à se confronter à leurs sentiments inexprimés.",
+          "video": "medias/series/nous-les-menteurs/1-5.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Quand la vie n'offre que des mensonges",
+          "desc": "Incapable de continuer à lui cacher des secrets, Gat révèle enfin à Cadence sa vision de l'île - qui ne reflète pas forcément la nostalgie du conte de fées de sa propre expérience. Alors qu'ils vont en ville en quête de réponses, Gat se rappelle une tradition Sinclair séculaire - la Chasse aux Citrons de Tipper - et la visite imprévue de sa mère qui le poussa à tout remettre en question.",
+          "video": "medias/series/nous-les-menteurs/1-6.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Tout le monde sait que le Capitaine a menti",
+          "desc": "Plus désemparée que jamais, Cadence accepte à contrecœur d'accompagner Harris pour une excursion qui lui rappelle leur dernière confrontation durant l'été 16. Durant un dîner de famille tendu, Les Menteurs interrogent leurs mères sur des secrets de famille. Suite à des révélations choquantes, Les Menteurs pleurent leur terrain de jeu autrefois adoré et s'unissent pour sauver leur famille déchirée.",
+          "video": "medias/series/nous-les-menteurs/1-7.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Mensonges, soleil et amitié",
+          "desc": "Cadence conçoit un plan pour se remémorer les dernières heures avant son accident traumatisant, mais elle ne peut pas le faire seule - elle doit convaincre Johnny, Mirren, et Gat, réticents, de l'aider, en risquant tout si nécessaire. Mais alors que la vérité commence à lui revenir par bribes, Cadence comprend qu'elle-même a été la pire menteuse de tous.",
+          "video": "medias/series/nous-les-menteurs/1-8.mp4",
+          "duration": "1h 1min"
+        }
+      ]
+    }
+  },
+  "La Cage": {
+    "title": "La Cage",
+    "description": "Rêvant de passer pro, un jeune combattant peine à se faire remarquer quand un combat inattendu lui offre la chance de sa vie, et un adversaire de taille dans la cage.",
+    "poster": "medias/series/la-cage/poster.jpg",
+    "banner": "medias/series/la-cage/banner.jpg",
+    "IMDb": 6.5,
+    "IMDb_link": "https://www.imdb.com/title/tt28288478/",
+    "year": 2024,
+    "genres": [
+      "French",
+      "Boxing",
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "stars": [
+      "Bosh",
+      "Franck Gastambide",
+      "Antoine Simony"
+    ],
+    "trailer": "",
+    "creators": [
+      "Sylvain Caron",
+      "Franck Gastambide"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Prêt à abandonner ses rêves, un jeune combattant de MMA amateur se fait remarquer lorsqu'un pro plein de rage débarque dans son club.",
+          "video": "medias/series/la-cage/1-1.mp4",
+          "duration": "42min"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Alors que Taylor s'entraîne au Canada, la pression pour qu'Ibrahim accepte le combat monte d'un cran. Taylor voit sa mère et son compagnon lui faire une demande compliquée.",
+          "video": "medias/series/la-cage/1-2.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Ayant cruellement besoin d'argent, Taylor s'inscrit à un tournoi de KSW en Pologne, avec des adversaires bien plus impressionnants et au risque de ruiner sa carrière.",
+          "video": "medias/series/la-cage/1-3.mp4",
+          "duration": "45min"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Choisissant d'ignorer certains signaux d'alerte, Taylor se prépare pour un match retour contre un Ibrahim au top de sa forme, tandis que Niko profite de la célébrité de son ami.",
+          "video": "medias/series/la-cage/1-4.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Cherchant désespérément à venger Boss, Taylor se rend au Mexique pour s'entraîner, mais il a du mal à retrouver le chemin de la cage, jusqu'à ce qu'une légende du MMA intervienne...",
+          "video": "medias/series/la-cage/1-5.mp4",
+          "duration": "1h 5min"
+        }
+      ]
+    }
+  },
+  "Les Dossiers Oubliés": {
+    "title": "Les Dossiers Oubliés",
+    "description": "L'inspecteur Carl Morck est un policier brillant mais un collègue épouvantable dont le sarcasme acéré n'a pas favorisé les amitiés au sein de la police d'Édimbourg. Après une fusillade qui laisse deux de ses collègues sur le carreau, l'un paralysé et l'autre mort, Morck se retrouve au placard, affecté aux affaires non résolues. Cette unité nouvellement créée est une opération poudre-aux-yeux destinée à détourner l'attention du public des échecs d'une police en manque de moyens, trop heureuse de se débarrasser de lui. Mais, presque malgré lui, Carl commence à rassembler une équipe de laissés-pour-compte qui ont tout à prouver. Aussi, lorsque la piste d'un éminent fonctionnaire disparu il y a plusieurs années commence à se réchauffer, Carl se remet à faire ce qu'il fait de mieux : donner des coups de pied dans la fourmilière et refuser d'avaler les couleuvres.",
+    "poster": "medias/series/les-dossiers-oublies/poster.jpg",
+    "banner": "medias/series/les-dossiers-oublies/banner.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt27995114/",
+    "year": 2025,
+    "genres": [
+      "Cop Drama",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Matthew Goode",
+      "Alexej Manvelov",
+      "Jamie Sives"
+    ],
+    "trailer": "",
+    "creators": [
+      "Scott Frank",
+      "Chandni Lakhani"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "De retour au travail après un accident qui a failli lui coûter la vie, le capitaine Carl Morck prend la tête d'une nouvelle brigade. Une rude journée attend une procureure.",
+          "video": "medias/series/les-dossiers-oublies/1-1.mp4",
+          "duration": "1h 6min"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Épaulé par son nouvel assistant, Carl s'attaque à sa première affaire non résolue, mais ses démons personnels perturbent sa vie professionnelle.",
+          "video": "medias/series/les-dossiers-oublies/1-2.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "En chemin pour l'île de Mhòr, Carl et Akram recréent le désastreux trajet en ferry. Frustrée, Rose demande à rejoindre leur brigade.",
+          "video": "medias/series/les-dossiers-oublies/1-3.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "Rose se rend sur l'île pour trouver les réponses que Carl n'a pas pu obtenir. Akram trouve un mot qui oriente l'enquête dans une tout autre direction.",
+          "video": "medias/series/les-dossiers-oublies/1-4.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "La disparition de la procureure s'avère liée à un décès. Carl fait la une après une altercation dans le bureau de la rédaction d'un journal. Moira va voir une psy.",
+          "video": "medias/series/les-dossiers-oublies/1-5.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "La police arrête un suspect après la fusillade de Leith Park. Carl revient sur les lieux du crime, avant de perdre son sang-froid en public une fois de plus.",
+          "video": "medias/series/les-dossiers-oublies/1-6.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Carl porte de dangereuses accusations devant des hommes puissants, tandis que Rose adopte une nouvelle tactique pour obtenir plus d'informations sur Sam Haig.",
+          "video": "medias/series/les-dossiers-oublies/1-7.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Les kidnappeurs donnent un indice à leur victime en essayant de la forcer à répondre à leur question. La brigade est sur le point de résoudre sa propre énigme.",
+          "video": "medias/series/les-dossiers-oublies/1-8.mp4",
+          "duration": "43min"
+        },
+        {
+          "title": "Épisode 9",
+          "desc": "Un enregistrement datant de plusieurs décennies permet de relier tous les indices. Alors que la pression monte, dans la chambre et en dehors, Carl arrivera-t-il à temps ?",
+          "video": "medias/series/les-dossiers-oublies/1-9.mp4",
+          "duration": "1h 12min"
+        }
+      ]
+    }
+  },
+  "The Crown": {
+    "title": "The Crown",
+    "description": "Cette série dramatique retrace les rivalités politiques, intrigues et événements qui ont marqué le règne de la reine Élisabeth II et la seconde moitié du XXe siècle.",
+    "poster": "medias/series/the-crown/poster.jpg",
+    "banner": "medias/series/the-crown/banner.jpg",
+    "IMDb": 8.6,
+    "IMDb_link": "https://www.imdb.com/title/tt4786824/",
+    "year": 2016,
+    "genres": [
+      "Costume Drama",
+      "Epic",
+      "Historical Epic",
+      "Period Drama",
+      "Political Drama",
+      "Psychological Drama",
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "stars": [
+      "Claire Foy",
+      "Olivia Colman",
+      "Imelda Staunton"
+    ],
+    "trailer": "",
+    "creators": [
+      "Peter Morgan"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Wolferton Splash",
+          "desc": "La princesse Élisabeth épouse le prince Philip. Alors que la santé du roi George VI décline, Winston Churchill est élu au poste de Premier ministre pour la deuxième fois.",
+          "video": "medias/series/the-crown/1-1.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "Hyde Park Corner",
+          "desc": "Le roi George VI étant trop malade pour voyager, Élisabeth et Philip s'embarquent pour une tournée du Commonwealth. Ses opposants tentent de discréditer Churchill.",
+          "video": "medias/series/the-crown/1-2.mp4",
+          "duration": "1h 2min"
+        },
+        {
+          "title": "Windsor",
+          "desc": "Élisabeth devenue souveraine, Philip tente de garder quelques bribes de pouvoir. Churchill voudrait repousser le couronnement. Le frère déshonoré du roi George arrive.",
+          "video": "medias/series/the-crown/1-3.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "Catastrophe naturelle",
+          "desc": "Quand un épais nuage de pollution paralyse Londres durant des jours et met la santé du peuple en danger, l'inaction de Churchill l'affaiblit vis-à-vis de ses ennemis.",
+          "video": "medias/series/the-crown/1-4.mp4",
+          "duration": "59min"
+        },
+        {
+          "title": "Poudre aux yeux",
+          "desc": "Élisabeth rejette le protocole et nomme Philip coordinateur de son couronnement, mais les idées de son conjoint créent des tensions. Le duc de Windsor revient à Londres.",
+          "video": "medias/series/the-crown/1-5.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Bombe à retardement",
+          "desc": "Margaret et Peter ont quelque chose à demander à Élisabeth. La reine mère intervient quand un scandale royal menace de s'étaler à la Une des journaux.",
+          "video": "medias/series/the-crown/1-6.mp4",
+          "duration": "59min"
+        },
+        {
+          "title": "Le savoir, c'est le pouvoir",
+          "desc": "Au moment où les Soviétiques testent la bombe H, Churchill et Eden sont tous deux malades et alités. Agacée par son manque de formation, Élisabeth engage un tuteur.",
+          "video": "medias/series/the-crown/1-7.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "Joie et fierté",
+          "desc": "Élisabeth et Philip font un voyage autour du monde qui les épuise. Margaret assure quelques-uns des devoirs officiels de sa sœur et essaie d'y mettre un peu de vie.",
+          "video": "medias/series/the-crown/1-8.mp4",
+          "duration": "59min"
+        },
+        {
+          "title": "Assassins",
+          "desc": "Ses relations avec Philip toujours plus tendues, Élisabeth passe du temps avec son vieil ami Porchey. Un peintre réalise le portrait de Churchill pour ses 80 ans.",
+          "video": "medias/series/the-crown/1-9.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Gloriana",
+          "desc": "Margaret et Peter se retrouvent, mais il leur reste un obstacle de taille à franchir. Élisabeth est déchirée entre son devoir de reine et son affection pour sa sœur.",
+          "video": "medias/series/the-crown/1-10.mp4",
+          "duration": "56min"
+        }
+      ],
+      "2": [
+        {
+          "title": "Une mésaventure",
+          "desc": "Alors que Philip part en tournée, Élisabeth fait une découverte qui la perturbe. Le Premier ministre, Anthony Eden, veut riposter quand l'Égypte prend le canal de Suez.",
+          "video": "medias/series/the-crown/2-1.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "La compagnie des hommes",
+          "desc": "Élisabeth se sent loin de Philip. Anthony Eden, malade, subit la pression internationale. Une interview fait remonter des souvenirs pénibles pour Philip.",
+          "video": "medias/series/the-crown/2-2.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Lisbonne",
+          "desc": "Les proches du palais tentent d'empêcher un scandale qui donnerait une piètre image de Philip. Anthony Eden est attaqué par son cabinet tout autant que par la presse.",
+          "video": "medias/series/the-crown/2-3.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Beryl",
+          "desc": "Élisabeth et Philip organisent une fête grandiose pour célébrer leur 10e anniversaire de mariage. Margaret et le Premier ministre souffrent les tourments de l'amour.",
+          "video": "medias/series/the-crown/2-4.mp4",
+          "duration": "1h 2min"
+        },
+        {
+          "title": "Marionnettes",
+          "desc": "Après un discours particulièrement insipide et démodé d'Élisabeth dans une usine Jaguar, un lord vilipende publiquement son rôle et celui de la monarchie.",
+          "video": "medias/series/the-crown/2-5.mp4",
+          "duration": "1h 2min"
+        },
+        {
+          "title": "Vergangenheit",
+          "desc": "Un document secret ouvre les yeux d'Élisabeth sur la sinistre réalité concernant un membre de la famille. Le duc de Windsor fait campagne pour retrouver la vie publique.",
+          "video": "medias/series/the-crown/2-6.mp4",
+          "duration": "1h 3min"
+        },
+        {
+          "title": "Matrimonium",
+          "desc": "Une lettre de Peter Townsend pousse Margaret à faire une proposition audacieuse. Élisabeth reçoit une bonne nouvelle qui complique les affaires de Margaret.",
+          "video": "medias/series/the-crown/2-7.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Chère madame Kennedy",
+          "desc": "Suivant l'exemple de Jackie Kennedy et allant contre son gouvernement, Élisabeth choisit une approche peu conventionnelle pour résoudre un problème avec le Ghana.",
+          "video": "medias/series/the-crown/2-8.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "Pater familias",
+          "desc": "Philip se souvient des durs traitements subis dans son école en Écosse, mais il tient à ce que le prince Charles fasse ses études dans le même établissement.",
+          "video": "medias/series/the-crown/2-9.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "L'homme mystère",
+          "desc": "Le gouvernement est secoué par un scandale graveleux qui touche de près Élisabeth et Philip. Élisabeth part se reposer en Écosse pendant une grossesse difficile.",
+          "video": "medias/series/the-crown/2-10.mp4",
+          "duration": "1h"
+        }
+      ],
+      "3": [
+        {
+          "title": "Olding",
+          "desc": "L'inquiétude gagne Élisabeth lorsque le leader du Parti travailliste devient Premier ministre sur fond de climat antimonarchique et de rumeurs sur ses liens avec le KGB.",
+          "video": "medias/series/the-crown/3-1.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Margaretologie",
+          "desc": "Alors que la Grande-Bretagne a besoin de l'aide des États-Unis, Élisabeth se tourne à contrecœur vers Margaret pour convaincre le président Johnson.",
+          "video": "medias/series/the-crown/3-2.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Aberfan",
+          "desc": "Élisabeth et Harold Wilson peinent à trouver une réponse appropriée à une tragédie survenue dans un village minier gallois, et qui prend vite une tournure politique.",
+          "video": "medias/series/the-crown/3-3.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Bubbikins",
+          "desc": "En plein tournage d'un documentaire pour redorer son image, la famille royale accueille une personne inattendue venue de Grèce, ce qui menace les projets de Philip.",
+          "video": "medias/series/the-crown/3-4.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "Coup d'état",
+          "desc": "Alors qu'elle s'efforce d'améliorer la gestion des chevaux de course, Élisabeth imagine la vie qu'elle aurait pu avoir. Un complot se trame contre son gouvernement.",
+          "video": "medias/series/the-crown/3-5.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "Tywysog Cymru",
+          "desc": "Face à une montée du nationalisme gallois, Charles est encouragé à passer un semestre au Pays de Galles et à y apprendre la langue avant son investiture.",
+          "video": "medias/series/the-crown/3-6.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Poussière de Lune",
+          "desc": "Alors que les premiers hommes marchent sur la Lune, Philip remâche le sentiment de n'avoir rien accompli et cherche l'inspiration.",
+          "video": "medias/series/the-crown/3-7.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Un homme en suspens",
+          "desc": "Charles commence à fréquenter Camilla Shand. Élisabeth envisage d'aller à Paris rendre visite au Duc de Windsor, malade, dont le destin a changé avec Wallis Simpson.",
+          "video": "medias/series/the-crown/3-8.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Imbroglio",
+          "desc": "L'impasse entre le gouvernement et les mineurs mène à des coupures de courant dans tout le pays. La famille de Charles s'immisce dans sa relation avec Camilla.",
+          "video": "medias/series/the-crown/3-9.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Un cri du cœur",
+          "desc": "Alors que son mariage prend l'eau, Margaret cherche du réconfort ailleurs. Fragile et sans soutien, elle n'arrive pas à trouver le bonheur.",
+          "video": "medias/series/the-crown/3-10.mp4",
+          "duration": "59min"
+        }
+      ],
+      "4": [
+        {
+          "title": "Protecteur de la reine",
+          "desc": "Alors qu'Élisabeth accueille la première femme Premier ministre du pays et que Charles rencontre la jeune Diana Spencer, un attentat de l'IRA touche la famille royale.",
+          "video": "medias/series/the-crown/4-1.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "L'épreuve de Balmoral",
+          "desc": "Margaret Thatcher se rend à Balmoral, mais a du mal à s'intégrer à la famille royale. Charles est déchiré entre amour et devoir familial.",
+          "video": "medias/series/the-crown/4-2.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "Conte de fées",
+          "desc": "Après la demande en mariage de Charles, Diana emménage à Buckingham Palace où sa vie est remplie de formations au protocole, de solitude et de... Camilla Parker Bowles.",
+          "video": "medias/series/the-crown/4-3.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Les favoris",
+          "desc": "Margaret Thatcher a du mal à faire face à la disparition de son enfant préféré, et Élisabeth réexamine sa relation avec ses quatre enfants.",
+          "video": "medias/series/the-crown/4-4.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Fagan",
+          "desc": "Tandis que le chômage augmente avec la politique de Margaret Thatcher, un homme désespéré s'infiltre dans le palais où il réveille Élisabeth pour lui parler.",
+          "video": "medias/series/the-crown/4-5.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Terra nullius",
+          "desc": "En visite en Australie, Diana peine à trouver un équilibre entre son rôle de mère et des devoirs de princesse alors que son mariage avec Charles connait des difficultés.",
+          "video": "medias/series/the-crown/4-6.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "Le principe héréditaire",
+          "desc": "En proie à des problèmes de santé mentale, Margaret cherche de l'aide et découvre un terrible secret concernant des membres de la famille royale.",
+          "video": "medias/series/the-crown/4-7.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "48 contre 1",
+          "desc": "Tandis que de nombreux pays condamnent l'apartheid en Afrique du Sud, la tension monte entre Margaret Thatcher et Élisabeth au sujet de l'application de sanctions.",
+          "video": "medias/series/the-crown/4-8.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Avalanche",
+          "desc": "Charles est pris dans une avalanche meurtrière, ce qui l'incite avec Diana à réévaluer leur engagement au sein d'un mariage tumultueux.",
+          "video": "medias/series/the-crown/4-9.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "Guerre",
+          "desc": "Malgré une contestation croissante, Margaret Thatcher lutte pour conserver son autorité. Charles est de plus en plus résolu à se séparer de Diana.",
+          "video": "medias/series/the-crown/4-10.mp4",
+          "duration": "55min"
+        }
+      ],
+      "5": [
+        {
+          "title": "Comme un déjà vu",
+          "desc": "Une rénovation indispensable du yacht royal attire l'attention sur le rôle de la reine. Pistés par la presse, Charles et Diana passent une seconde lune de miel en Italie.",
+          "video": "medias/series/the-crown/5-1.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Le système",
+          "desc": "Le prince Philip tente de soutenir sa famille, ravagée par un deuil. Avide d'un scoop, un journaliste de tabloïd suggère à Diana d'écrire un livre-vérité.",
+          "video": "medias/series/the-crown/5-2.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "Mou Mou",
+          "desc": "En 1946, un marchand ambulant égyptien tire son inspiration d'Édouard, le roi qui avait abdiqué. Des années après, il décide de s'intégrer à la haute société britannique.",
+          "video": "medias/series/the-crown/5-3.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Annus horribilis",
+          "desc": "Entre un incendie au château de Windsor et les difficultés conjugales de ses enfants, la reine commémore ses 40 ans de règne, et en tire le bilan.",
+          "video": "medias/series/the-crown/5-4.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Des précautions salutaires",
+          "desc": "Frappé par les répercussions de l'interception d'un appel avec Camilla et la tempête qui en résulte sur son mariage, le prince Charles se débat au cœur du scandale.",
+          "video": "medias/series/the-crown/5-5.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "La maison Ipatiev",
+          "desc": "Impatient de gouverner une Russie maintenant démocratique, Boris Eltsine essaie de gagner le soutien de la reine, qui souffre de nouvelles dissensions dans son couple.",
+          "video": "medias/series/the-crown/5-6.mp4",
+          "duration": "59min"
+        },
+        {
+          "title": "No woman's land",
+          "desc": "Alors qu'un journaliste de la BBC se démène pour réaliser une interview de Diana, la princesse solitaire retrouve un but et un peu de réconfort dans un hôpital londonien.",
+          "video": "medias/series/the-crown/5-7.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Une vraie poudrière",
+          "desc": "La reine consacre du temps au prince William. Le feu d'artifice traditionnel de Guy Fawkes constitue une diversion idéale à l'interview de Diana sur la BBC.",
+          "video": "medias/series/the-crown/5-8.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Couple numéro 31",
+          "desc": "La princesse de Galles souffre des conséquences de ses déclarations. La reine demande l'aide du Premier ministre dans une affaire familiale délicate.",
+          "video": "medias/series/the-crown/5-9.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Déclassement",
+          "desc": "Après avoir vu sa vie examinée à la loupe par le public, Charles noue une nouvelle alliance à Hong Kong. Mohamed Al-Fayed offre son soutien à Diana qui vient de divorcer.",
+          "video": "medias/series/the-crown/5-10.mp4",
+          "duration": "52min"
+        }
+      ],
+      "6": [
+        {
+          "title": "Persona non grata",
+          "desc": "En vacances, Diana se rapproche du fils de Mohamed Al-Fayed, Dodi. Charles déplore le refus de la reine d'assister à la fête organisée pour les 50 ans de Camilla.",
+          "video": "medias/series/the-crown/6-1.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Deux photographies",
+          "desc": "Diana et Dodi passent de plus en plus de temps ensemble, déchaînant un véritable cirque médiatique. En représailles, Charles met en scène une séance photo père-fils.",
+          "video": "medias/series/the-crown/6-2.mp4",
+          "duration": "40min"
+        },
+        {
+          "title": "Dis-moi oui",
+          "desc": "Le père de Dodi le pousse à demander la main de Diana, mais celle-ci a d'autres préoccupations. Plus tard, une course-poursuite avec des paparazzi vire au drame.",
+          "video": "medias/series/the-crown/6-3.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Onde de choc",
+          "desc": "Alors que le monde pleure, le silence de la reine suscite la colère et les alertes d'un Charles endeuillé. La mère de la nation saura-t-elle se montrer à la hauteur ?",
+          "video": "medias/series/the-crown/6-4.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Un engouement fanatique",
+          "desc": "Traqué par la presse et de jeunes admiratrices, William, 15 ans, peine à trouver un équilibre après la mort de Diana. Charles sollicite ses propres parents pour aider son fils.",
+          "video": "medias/series/the-crown/6-5.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Hors du temps",
+          "desc": "Soucieuse d'améliorer l'image publique de la monarchie, la reine fait appel à la sagacité de Tony Blair. Cependant, les conseils du Premier ministre défient le protocole royal.",
+          "video": "medias/series/the-crown/6-6.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "Alma mater",
+          "desc": "Arrivé à l'université, William jette son dévolu sur Kate Middleton. Mais avec leurs parents intrusifs et les autres personnes qu'ils rencontrent, leur relation s'épanouira-t-elle ?",
+          "video": "medias/series/the-crown/6-7.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "Ritz",
+          "desc": "Après plusieurs AVC consécutifs, Margaret, très affaiblie, se remémore une folle nuit de 1945 avec sa sœur au Ritz, où elle fêtera plus tard son 70e anniversaire.",
+          "video": "medias/series/the-crown/6-8.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "L'adresse de l'espoir",
+          "desc": "Bouleversée par un deuil et inquiète à l'approche de son jubilé, la reine se rapproche de William, qui trouve son équilibre entre une certaine normalité et la vie de prince.",
+          "video": "medias/series/the-crown/6-9.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Sleep, dearie sleep",
+          "desc": "Charles obtient le feu vert de sa mère pour épouser Camilla. Tenue d'organiser ses propres obsèques peu avant son 80e anniversaire, la reine traverse une crise existentielle.",
+          "video": "medias/series/the-crown/6-10.mp4",
+          "duration": "1h 13min"
+        }
+      ]
+    }
+  },
+  "Chief of War": {
+    "title": "Chief of War",
+    "description": "Comme les quatre royaumes d'Hawai'i sont déchirés par la guerre, le féroce guerrier Ka'iana se lance dans une mission monumentale pour unir son peuple, alors qu'une sombre menace se rapproche.",
+    "poster": "medias/series/chief-of-war/poster.jpg",
+    "banner": "medias/series/chief-of-war/banner.jpg",
+    "IMDb": 7.5,
+    "IMDb_link": "https://www.imdb.com/title/tt19381692/",
+    "year": 2025,
+    "genres": [],
+    "stars": [],
+    "trailer": "",
+    "creators": [],
+    "seasons": {
+      "1": [
+        {
+          "title": "Le chef de guerre",
+          "desc": "Ka'iana est rappelé à Maui où il devra décider s'il veut faire la guerre aux côtés du roi Kahekili.",
+          "video": "medias/series/chief-of-war/1-1.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "Marées changeantes",
+          "desc": "Pour survivre, Ka'iana et sa famille doivent fuir O'ahu. Une alliée inattendue leur tend la main.",
+          "video": "medias/series/chief-of-war/1-2.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "La ville des fleurs",
+          "desc": "Ka'iana arrive dans un pays étrange. Ka'ahumanu prend sa place aux côtés de Kamehameha.",
+          "video": "medias/series/chief-of-war/1-3.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "La ville des fleurs (2)",
+          "desc": "Une lutte de pouvoir met en danger le royaume d'Hawai'i. Kamehameha sent le poids de ses nouvelles responsabilités. Ka'iana cherche Tony.",
+          "video": "medias/series/chief-of-war/1-4.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "La course des dieux",
+          "desc": "Ka'iana est de retour avec un avertissement. Une course périlleuse doit déterminer s'il rejoint le conseil de Kamehameha. Keōua envoie un message.",
+          "video": "medias/series/chief-of-war/1-5.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "La pagaie brisée",
+          "desc": "Kupuohi essaie de préserver la paix face aux menaces de guerre. Ka'iana remet en question les décisions de Kamehameha.",
+          "video": "medias/series/chief-of-war/1-6.mp4",
+          "duration": "43min"
+        },
+        {
+          "title": "Le jour des crânes ouverts",
+          "desc": "Un désaccord survient sur la manière de traiter les nouveaux arrivants.",
+          "video": "medias/series/chief-of-war/1-7.mp4",
+          "duration": "40min"
+        },
+        {
+          "title": "Le verger sacré",
+          "desc": "Ka'iana constate désespéré que ses craintes se sont manifestées. Kamehameha ne peut plus éviter la guerre avec Keōua.",
+          "video": "medias/series/chief-of-war/1-8.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "Le désert noir",
+          "desc": "Une grande bataille se prépare. Ka'iana et Kamehameha vont affronter la puissance de Maui et de Keōua.",
+          "video": "medias/series/chief-of-war/1-9.mp4",
+          "duration": "1h"
+        }
+      ]
+    }
+  },
+  "Outlander: Blood of My Blood": {
+    "title": "Outlander: Blood of My Blood",
+    "description": "Ses champs de bataille déchirés par la guerre de 14-18 aux Highlands de l'Écosse du XVIIIe siècle, ce préquel revient sur l'histoire d'amour des parents de Jamie Fraser, Ellen MacKenzie et Brian Fraser, et ceux de Claire, Julia Moriston et Henry Beauchamp, explorant jusqu'où une personne peut aller par amour à une époque où les mariages ont un rôle stratégique, souvent à des fins politiques ou financières.",
+    "poster": "medias/series/outlander-blood-of-my-blood/poster.jpg",
+    "banner": "medias/series/outlander-blood-of-my-blood/banner.jpg",
+    "IMDb": 8.1,
+    "IMDb_link": "https://www.imdb.com/title/tt18332852/",
+    "year": 2025,
+    "genres": [
+      "Drama"
+    ],
+    "stars": [
+      "Jeremy Irvine",
+      "Harriet Slater",
+      "Jamie Roy"
+    ],
+    "trailer": "",
+    "creators": [
+      "Matthew B. Roberts"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Providence",
+          "desc": "Après la mort de Jacob, un nouveau Laird du clan MacKenzie doit être choisi, et ses deux fils - Colum et Dougal - se disputent le titre. Lors du Rassemblement, Brian Fraser et Ellen MacKenzie se rencontrent.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-1.mp4",
+          "duration": "1h 21min"
+        },
+        {
+          "title": "Scellé d'un baiser",
+          "desc": "Alors qu'Henry combat pendant la Première Guerre mondiale et que Julia travaille à Londres, leur histoire d'amour se dévoile à travers les lettres qu'ils s'écrivent.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-2.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "L'école de la lune",
+          "desc": "Alors que la cérémonie visant à déterminer qui sera le chef du clan MacKenzie approche, Ellen élabore un nouveau plan. Julia fait un choix impossible.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-3.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Un cœur de soldat",
+          "desc": "Henry s'attaque à une tâche difficile à sa manière. Ellen apprend des informations inquiétantes sur sa belle-famille.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-4.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "La fête de Beltaine",
+          "desc": "Ellen et Brian assistent à Beltane. Henry essaye de garder espoir. Julia perd des alliés lorsque des secrets sont révélés.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-5.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Droit de naissance",
+          "desc": "Henry continue à rechercher Julia jusqu'à ce qu'une nouvelle découverte menace de mettre fin à ses recherches.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-6.mp4",
+          "duration": "59 min"
+        },
+        {
+          "title": "Je brille, mais ne brûle pas",
+          "desc": "Lord Lovat fait tout accomplir une prophétie. Dougal assiste à une réunion secrète qui pourrait entraîner un désastre politique pour les MacKenzie.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-7.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "Une femme vertueuse",
+          "desc": "Ellen a fait un pacte avec Colum qui sauve la vie de Brian, mais rend son amour impossible.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-8.mp4",
+          "duration": "58 min"
+        },
+        {
+          "title": "Le château de Braemar",
+          "desc": "Tous les clans des Highlands assistent à la chasse annuelle du comte de Mar au château de Braemar, où celui-ci fait une déclaration incendiaire.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-9.mp4",
+          "duration": "59 min"
+        },
+        {
+          "title": "Les Noces",
+          "desc": "Henry et Julia veulent revenir en 1923. Ellen et Brian planifient également leur évasion.",
+          "video": "medias/series/outlander-blood-of-my-blood/1-10.mp4",
+          "duration": "1h 27min"
+        }
+      ]
+    }
+  },
+  "Double piège": {
+    "title": "Double piège",
+    "description": "Quand Maya, une ancienne soldate, aperçoit sur une caméra espion son mari qu'elle pensait assassiné, elle découvre un complot meurtrier ancré au plus profond du passé.",
+    "poster": "medias/series/double-piege/poster.jpg",
+    "banner": "medias/series/double-piege/banner.jpg",
+    "IMDb": 6.8,
+    "IMDb_link": "https://www.imdb.com/title/tt5611024/",
+    "year": 2024,
+    "genres": [
+      "Suspense Mystery",
+      "Whodunnit",
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Michelle Keegan",
+      "Adeel Akhtar",
+      "Richard Armitage"
+    ],
+    "trailer": "",
+    "creators": [
+      "David Moore",
+      "Nimer Rashed"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Épisode 1",
+          "desc": "Quelques jours après avoir assisté aux obsèques de Joe, son mari, dans la demeure cossue de sa famille, Maya prétend le voir réapparaître sur une caméra dissimulée.",
+          "video": "medias/series/double-piege/1-1.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Épisode 2",
+          "desc": "Tandis qu'une révélation concernant l'arme du crime réoriente l'enquête, Maya cherche des réponses et fait une découverte surprenante sur sa sœur.",
+          "video": "medias/series/double-piege/1-2.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "Épisode 3",
+          "desc": "Maya traque la voiture qui la suit depuis des jours. Pendant que les adultes sont occupés ailleurs, les enfants de Claire se penchent sur une vieille photo de leur mère.",
+          "video": "medias/series/double-piege/1-3.mp4",
+          "duration": "41min"
+        },
+        {
+          "title": "Épisode 4",
+          "desc": "La police interroge le propriétaire de la moto retrouvée sur les lieux du crime. Les problèmes de santé du lieutenant Kierce se manifestent à un moment critique.",
+          "video": "medias/series/double-piege/1-4.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "Épisode 5",
+          "desc": "Alors qu'elle emmène Lily voir sa grand-mère, Maya tombe sur un visage inattendu. Le lieutenant Kierce a du mal à accepter le résultat de ses examens médicaux.",
+          "video": "medias/series/double-piege/1-5.mp4",
+          "duration": "55min"
+        },
+        {
+          "title": "Épisode 6",
+          "desc": "Maya est suspectée quand on la trouve sur la scène d'un crime... mais c'est elle qui porte une accusation. McGreggor fait une découverte concernant le lieutenant Kierce.",
+          "video": "medias/series/double-piege/1-6.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Épisode 7",
+          "desc": "Alors que la police arrête un suspect, Maya prend des mesures extrêmes. Shane la supplie de lui dire la vérité et apprend ce qu'elle a fait dans le passé.",
+          "video": "medias/series/double-piege/1-7.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "Épisode 8",
+          "desc": "Tandis que les dernières pièces du puzzle s'assemblent, Maya demande des comptes à la famille de son mari une dernière fois, et Kierce demande de l'aide à Corey.",
+          "video": "medias/series/double-piege/1-8.mp4",
+          "duration": "36min"
+        }
+      ]
+    }
+  },
+  "Good American Family": {
+    "title": "Good American Family",
+    "description": "L'histoire d'un couple du Midwest qui adopte une fillette atteinte d'une forme rare de nanisme.",
+    "poster": "medias/series/good-american-family/poster.jpg",
+    "banner": "medias/series/good-american-family/banner.jpg",
+    "IMDb": 6.7,
+    "IMDb_link": "https://www.imdb.com/title/tt21441010/",
+    "year": 2025,
+    "genres": [
+      "Docudrama",
+      "Psychological Drama",
+      "Drama"
+    ],
+    "stars": [
+      "Ellen Pompeo",
+      "Mark Duplass",
+      "Imogen Faith Reid"
+    ],
+    "trailer": "",
+    "creators": [
+      "Katie Robbins"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "En réponse à nos prières",
+          "desc": "Après une adoption ratée, la famille Barnett se voit offrir une seconde chance lorsqu'elle reçoit un appel au sujet d'une fillette prénommée Natalia.",
+          "video": "medias/series/good-american-family/1-1.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "Surmonte ton appréhension",
+          "desc": "Natalia entre à l'école et les soupçons de Kristine sur son adoption se renforcent. Michael reçoit des nouvelles inattendues au travail.",
+          "video": "medias/series/good-american-family/1-2.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Des fantômes de partout",
+          "desc": "Kristine se renseigne sur l'âge de Natalia. Tandis que ses soupçons se renforcent, Jacob gagne du terrain et Michael n'en finit plus de mentir.",
+          "video": "medias/series/good-american-family/1-3.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "Écrit noir sur blanc",
+          "desc": "Le mariage de Michael et Kristine bat de l'aile lorsque leurs avis divergents sur Natalia menacent de les séparer. Quand le risque devient trop grand, Kristine tire un trait.",
+          "video": "medias/series/good-american-family/1-4.mp4",
+          "duration": "47min"
+        },
+        {
+          "title": "Ça fait trop mal",
+          "desc": "Livrée à elle-même, Natalia doit affronter sa nouvelle situation et le regard des autres.",
+          "video": "medias/series/good-american-family/1-5.mp4",
+          "duration": "47min"
+        },
+        {
+          "title": "Pas aujourd'hui, Satan",
+          "desc": "Natalia se demande si elle peut faire confiance à des alliés inattendus. À mesure que des questions sur son passé se posent, de douloureux souvenirs refont surface.",
+          "video": "medias/series/good-american-family/1-6.mp4",
+          "duration": "51min"
+        },
+        {
+          "title": "Si tu racontes une histoire suffisamment bien",
+          "desc": "Créez un compte gratuit pour gagner des crédits et télécharger vos contenus préférés !",
+          "video": "medias/series/good-american-family/1-7.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Elle a du sang sur les mains",
+          "desc": "Alors que les Barnett pensent avoir pris leurs distances avec Natalia, l'inspecteur Drysdale reprend son enquête pour contester son vieillissement.",
+          "video": "medias/series/good-american-family/1-8.mp4",
+          "duration": "1h 1min"
+        }
+      ]
+    }
+  },
+  "Complicités": {
+    "title": "Complicités",
+    "description": "Chloe évolue dans les cercles de l'élite new-yorkaise aux côtés de son mari avocat, Adam, et de son fils Ethan. Sa sœur Nicky, avec qui elle n'a plus de relation, tente de joindre les deux bouts et de ne pas replonger dans la drogue. Lorsqu'Adam est brutalement assassiné, l'enquête secoue la famille et met au jour des secrets enfouis depuis longtemps.",
+    "poster": "medias/series/complicites/poster.jpg",
+    "banner": "medias/series/complicites/banner.jpg",
+    "IMDb": 7.0,
+    "IMDb_link": "https://www.imdb.com/title/tt32260680/",
+    "year": 2025,
+    "genres": [
+      "Psychological Drama",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "stars": [
+      "Elizabeth Banks",
+      "Jessica Biel",
+      "Corey Stoll"
+    ],
+    "trailer": "",
+    "creators": [
+      "Leslie Hope",
+      "Stephanie Laing",
+      "Dawn Wilkinson",
+      "Craig Gillespie",
+      "Azazel Jacobs"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "C'est ma sœur",
+          "desc": "Chloe Taylor vit la plus grande soirée de sa carrière et quelques heures plus tard, son mari est retrouvé mort. La police pose beaucoup de questions auxquelles elle ne veut pas répondre. Pire encore, ils ont appelé sa sœur.",
+          "video": "medias/series/complicites/1-1.mp4",
+          "duration": "1h"
+        },
+        {
+          "title": "Une belle vue",
+          "desc": "Chloe et sa sœur Nicky se sont retrouvées mais leur relation est houleuse, et pas seulement à cause de l'intérêt de la lieutenante Guidry pour Ethan.",
+          "video": "medias/series/complicites/1-2.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Veuve en approche",
+          "desc": "Une journée au tribunal ne se passe pas comme prévu et Chloe fait un choix étonnant pour trouver un soutien émotionnel.",
+          "video": "medias/series/complicites/1-3.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Gaspacho",
+          "desc": "Catherine organise une veillée pour Adam, à laquelle personne ne veut assister. Chloe et Nicky ont des souvenirs très différents à propos du passé.",
+          "video": "medias/series/complicites/1-4.mp4",
+          "duration": "57min"
+        },
+        {
+          "title": "Il suffit de demander",
+          "desc": "Nicky essaie d'oublier une mauvaise soirée. Chloe tente de découvrir ce que faisait Adam lorsqu'il est mort. Et le procès débute.",
+          "video": "medias/series/complicites/1-5.mp4",
+          "duration": "59min"
+        },
+        {
+          "title": "Une main ferme",
+          "desc": "Les sœurs témoignent, mais quelle vérité vont-elles raconter ? Guidry se met en colère.",
+          "video": "medias/series/complicites/1-6.mp4",
+          "duration": "1h 1min"
+        },
+        {
+          "title": "Rouge sang",
+          "desc": "Le secret le plus sombre d'Adam finit par être révélé, et cela change tout pour Chloe et Nicky. Guidry et Bowen repartent de zéro.",
+          "video": "medias/series/complicites/1-7.mp4",
+          "duration": "58min"
+        },
+        {
+          "title": "Dans leur monde",
+          "desc": "Chloe monte un plan, Guidry fait un voyage, Nicky explique quelques détails importants et les sœurs tentent de savoir si elles peuvent s'entendre.",
+          "video": "medias/series/complicites/1-8.mp4",
+          "duration": "1h 1min"
+        }
+      ]
+    }
+  },
+  "Reacher": {
+    "title": "Reacher",
+    "description": "Ancien officier de Police Militaire, Jack Reacher est arrêté pour un meurtre qu'il n'a pas commis et découvre une conspiration sanglante où baignent flics véreux, hommes d'affaire louches et politiciens corrompus. Avec son astuce pour seule arme, il va déjouer ce qui se trame à Margrave en Géorgie. La première saison de \"Reacher\" est adaptée du Best-seller de Lee Child \"Du fond de l'abîme\".",
+    "poster": "medias/series/reacher/poster.jpg",
+    "banner": "medias/series/reacher/banner.jpg",
+    "IMDb": 8.0,
+    "IMDb_link": "https://www.imdb.com/title/tt9288030/",
+    "year": 2022,
+    "genres": [
+      "One-Person Army Action",
+      "Psychological Thriller",
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "stars": [
+      "Alan Ritchson",
+      "Maria Sten",
+      "Malcolm Goodwin"
+    ],
+    "trailer": "",
+    "creators": [
+      "Nick Santora"
+    ],
+    "seasons": {
+      "1": [
+        {
+          "title": "Bienvenue à Margrave",
+          "desc": "Alors qu'il est venu visiter la petite ville de Margrave en Géorgie, Reacher se retrouve à tort accusé de meurtre.",
+          "video": "medias/series/reacher/1-1.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Première danse",
+          "desc": "Tandis que l'on découvre d'autres victimes, Reacher tente d'obtenir des réponses mais il se fait piéger. Roscoe reçoit un message de menace.",
+          "video": "medias/series/reacher/1-2.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Cuillère en argent",
+          "desc": "En cherchant à retrouver Spivey, Reacher et Finlay se sont retrouvés à devoir affronter Kliner. Roscoe, elle, apprend des nouvelles déroutantes à propos de Reacher.",
+          "video": "medias/series/reacher/1-3.mp4",
+          "duration": "47min"
+        },
+        {
+          "title": "Dommages collatéraux",
+          "desc": "Alors que le danger s'intensifie, Reacher et Roscoe se rapprochent et organisent un rendez-vous avec leur contact à la Sécurité Nationale",
+          "video": "medias/series/reacher/1-4.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "Aucune excuse",
+          "desc": "Alors que le mystère s'épaissit, Reacher se retrouve à faire équipe avec une ancienne partenaire et Finlay fait une découverte choquante.",
+          "video": "medias/series/reacher/1-5.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "Papier",
+          "desc": "Tandis que la ville est ébranlée par un autre meurtre, Reacher se rend à New York et découvre la vérité sur le trafic illégal à Margrave. Pendant ce temps, Roscoe doit affronter un grand danger dans les bois.",
+          "video": "medias/series/reacher/1-6.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "Ne rien dire",
+          "desc": "Reacher tend un piège et se retrouve lui-même piégé.",
+          "video": "medias/series/reacher/1-7.mp4",
+          "duration": "42min"
+        },
+        {
+          "title": "Tarte",
+          "desc": "Reacher mène une mission de sauvetage à l'entrepôt qui se finit par une confrontation explosive.",
+          "video": "medias/series/reacher/1-8.mp4",
+          "duration": "52min"
+        }
+      ],
+      "2": [
+        {
+          "title": "DAB",
+          "desc": "Reacher et Neagley enquêtent sur la mort d'un membre de la 110e, un groupe des Forces Spéciales créé par Reacher, et se rendent compte que toute l'unité pourrait être en danger.",
+          "video": "medias/series/reacher/2-1.mp4",
+          "duration": "56min"
+        },
+        {
+          "title": "Atlantic City",
+          "desc": "L'enquête sur le meurtre de Franz mène Reacher et les survivants de son ancienne unité à Atlantic City, où le mystère s'épaissit, le danger guette et une ancienne flamme se ravive.",
+          "video": "medias/series/reacher/2-2.mp4",
+          "duration": "50min"
+        },
+        {
+          "title": "Une photo qui en dit long",
+          "desc": "Après que d'autres de ses amis meurent, Reacher forge une alliance hasardeuse avec un enquêteur obstiné et leur seul indice dans cette affaire mène la 110e à une découverte troublante.",
+          "video": "medias/series/reacher/2-3.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Une soirée à l'Opéra",
+          "desc": "Reacher et son équipe se rendent à Boston pour retrouver un conseiller politique qui serait au courant d'un contrat de défense militaire top secret. Cela pourrait être la cause de la mort de leurs amis.",
+          "video": "medias/series/reacher/2-4.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "Enterrement",
+          "desc": "Neagley et Dixon font des découvertes choquantes sur un de leur vieux ami à Denver, tandis que Reacher et O'Donnell en apprennent plus sur l'infâme et mystérieux A.M..",
+          "video": "medias/series/reacher/2-5.mp4",
+          "duration": "44min"
+        },
+        {
+          "title": "Le pouvoir de l'argent",
+          "desc": "Alors que le mystère continue de se dévoiler, Reacher et son équipe mettent au point un piège pour égaliser les scores.",
+          "video": "medias/series/reacher/2-6.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "Dans la gueule du loup",
+          "desc": "Alors que l'équipe se rapproche de Langston, deux membre de la 110e sont en danger, forçant Reacher à concevoir un plan dangereux pour aller les sauver.",
+          "video": "medias/series/reacher/2-7.mp4",
+          "duration": "46min"
+        },
+        {
+          "title": "Bye bye Birdie",
+          "desc": "Reacher et Neagley font une dernière tentative désespérée pour sauver O'Donnell et Dixon, arrêter A.M. et venger le meurtre de leurs amis.",
+          "video": "medias/series/reacher/2-8.mp4",
+          "duration": "43min"
+        }
+      ],
+      "3": [
+        {
+          "title": "Persuasif",
+          "desc": "En tentant de déjouer un enlèvement, Reacher entre en contact avec le mystérieux homme d'affaires Zachary Beck.",
+          "video": "medias/series/reacher/3-1.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Camionnage",
+          "desc": "Chargé de transporter des marchandises pour son nouvel employeur Zachary Beck, Reacher doit jongler avec l'implication de la DEA et d'un nouvel associé curieux.",
+          "video": "medias/series/reacher/3-2.mp4",
+          "duration": "43min"
+        },
+        {
+          "title": "Numéro 2 avec une balle",
+          "desc": "Alors qu'un nombre croissant de cadavres menace sa position d'infiltration, Reacher joue un jeu dangereux pour s'assurer la confiance de Beck.",
+          "video": "medias/series/reacher/3-3.mp4",
+          "duration": "54min"
+        },
+        {
+          "title": "Dominique",
+          "desc": "Reacher retrouve Duffy et Villanueva et partage enfin les détails douloureux de son histoire avec Xavier Quinn.",
+          "video": "medias/series/reacher/3-4.mp4",
+          "duration": "53min"
+        },
+        {
+          "title": "Remettre à sa place",
+          "desc": "Lorsqu'une tragédie de la DEA met toute la mission en péril, Reacher, Duffy et Villanueva improvisent un plan drastique pour sauver leur couverture.",
+          "video": "medias/series/reacher/3-5.mp4",
+          "duration": "49min"
+        },
+        {
+          "title": "De la fumée sur l'eau",
+          "desc": "Reacher est déchiré entre son désir de tuer Quinn et sa promesse à Duffy de sauver Teresa.",
+          "video": "medias/series/reacher/3-6.mp4",
+          "duration": "48min"
+        },
+        {
+          "title": "Histoire à L.A.",
+          "desc": "Après que Reacher et Duffy se soient rendus à Los Angeles pour conclure un accord, Neagley arrive dans le Maine pour aider Reacher à obtenir des réponses.",
+          "video": "medias/series/reacher/3-7.mp4",
+          "duration": "52min"
+        },
+        {
+          "title": "Affaires inachevées",
+          "desc": "Dahmer : Monstre - L'histoire de Jeffrey Dahmer",
+          "video": "medias/series/reacher/3-8.mp4",
+          "duration": "52min"
         }
       ]
     }

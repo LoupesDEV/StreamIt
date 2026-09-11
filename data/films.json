@@ -4218,7 +4218,7 @@
       "Sigourney Weaver"
     ],
     "trailer": "",
-    "video": null,
+    "video": "medias/films/avatar-de-feu-et-de-cendres/avatar-de-feu-et-de-cendres.mp4",
     "directors": [
       "James Cameron"
     ],
@@ -5892,7 +5892,7 @@
   },
   "Obsession": {
     "title": "Obsession",
-    "description": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d’exaucer n’importe quel souhait. Son crush de toujours tombe alors raide dingue de lui… jusqu’à l’obsession la plus totale. Faites attention à ce que vous souhaitez !",
+    "description": "Et si vous pouviez réaliser votre rêve le plus fou ? Un jeune introverti met la main sur un objet magique capable d'exaucer n'importe quel souhait. Son crush de toujours tombe alors raide dingue de lui… jusqu'à l'obsession la plus totale. Faites attention à ce que vous souhaitez !",
     "poster": "medias/films/obsession/poster.jpg",
     "banner": "medias/films/obsession/banner.jpg",
     "video": "medias/films/obsession/obsession.mp4",
@@ -5924,7 +5924,7 @@
   },
   "Toy Story 5": {
     "title": "Toy Story 5",
-    "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s’appelle… l'électronique !",
+    "description": "Buzz, Woody, Jessie et le reste de la bande verront leur travail remis en question lorsqu'ils découvriront que ce qui obsède les enfants d'aujourd'hui s'appelle… l'électronique !",
     "poster": "medias/films/toy-story-5/poster.png",
     "banner": "medias/films/toy-story-5/banner.png",
     "video": "medias/films/toy-story-5/toy-story-5.mp4",
@@ -5957,6 +5957,70 @@
     "writers": [
       "McKenna Harris",
       "Andrew Stanton"
+    ]
+  },
+  "Des Minions et des Monstres": {
+    "title": "Des Minions et des Monstres",
+    "description": "Voici l'histoire mouvementée, déjantée et complètement véridique des Minions à Hollywood : devenus vedettes de cinéma, ils perdent tout, libèrent des monstres et font équipe pour sauver la planète du chaos qu'ils ont créé.",
+    "poster": "medias/films/des-minions-et-des-monstres/poster.jpg",
+    "banner": "medias/films/des-minions-et-des-monstres/banner.jpg",
+    "video": "medias/films/des-minions-et-des-monstres/des-minions-et-des-monstres.mp4",
+    "IMDb": 6.3,
+    "IMDb_link": "https://www.imdb.com/title/tt32890033/",
+    "year": 2026,
+    "duration": "1h 34min",
+    "genres": [
+      "Despicable Me",
+      "Computer Animation",
+      "Farce",
+      "Slapstick",
+      "Superhero",
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "stars": [
+      "Pierre Coffin",
+      "Trey Parker",
+      "Allison Janney"
+    ],
+    "trailer": "",
+    "directors": [
+      "Pierre Coffin"
+    ],
+    "writers": [
+      "Brian Lynch",
+      "Pierre Coffin"
+    ]
+  },
+  "Bagarre": {
+    "title": "Bagarre",
+    "description": "Naim, un homme au physique hors norme mais au tempérament doux, voit sa vie basculer lorsque sa chienne Chipie tombe gravement malade. Incapable de payer les frais vétérinaires, il rejoint \"Allô bagarre\", un service qui propose des combattants pour régler des conflits dans la rue. Mais au fil des affrontements, Naim se met à rêver d'une existence plus paisible.",
+    "poster": "medias/films/bagarre/poster.jpg",
+    "banner": "medias/films/bagarre/banner.jpg",
+    "video": "medias/films/bagarre/bagarre.mp4",
+    "IMDb": 5.6,
+    "IMDb_link": "https://www.imdb.com/title/tt34724686/",
+    "year": 2026,
+    "duration": "1h 38min",
+    "genres": [
+      "French",
+      "Action",
+      "Comedy"
+    ],
+    "stars": [
+      "Nassim Lyes",
+      "Hedi Bouchenafa",
+      "Anaïde Rozam"
+    ],
+    "trailer": "",
+    "directors": [
+      "Julien Hollande"
+    ],
+    "writers": [
+      "Julien Hollande",
+      "Nassim Lyes"
     ]
   }
 }
